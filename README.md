@@ -10,7 +10,7 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 
 ---
 
-## 👥 Integrantes do Grupo
+## Integrantes do Grupo
 
 | Matrícula | Nome | GitHub |
 | :---: | :--- | :---: |
@@ -25,7 +25,7 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 
 ---
 
-## 🚀 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 2026.2-Grupo08/
@@ -36,7 +36,7 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 
 ---
 
-## 📋 Etapas do Projeto
+## Etapas do Projeto
 
 1. **Planejamento do Projeto**: Definição do site/aplicativo analisado, cronograma de atividades e ferramentas utilizadas.
 2. **Perfil de Usuário e Personas**: Levantamento das características do público-alvo, criação de personas e cenários de uso.
@@ -50,7 +50,7 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 
 - **Documentação:** [MkDocs](https://www.mkdocs.org/) / Markdown
 - **Prototipagem:** Figma / Miro
