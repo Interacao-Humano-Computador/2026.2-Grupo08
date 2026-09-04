@@ -1,0 +1,9 @@
+site_name: IHC 2026.2 - Grupo 08
+site_description: Documentação do projeto de Interação Humano-Computador
+theme:
+  name: material
+  language: pt-BR
+nav:
+  - Início: index.md
+  - Atas de Reunião:
+    - Reunião 04/09/2026: atas/ata1.md
