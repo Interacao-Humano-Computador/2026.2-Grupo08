@@ -33,3 +33,11 @@ O site selecionado para o projeto da disciplina foi o **Portal Domínio Público
 - **Acesso Facilitado aos Usuários:** O público-alvo do portal é composto majoritariamente por estudantes, professores e pesquisadores em busca de obras literárias e artigos de livre acesso. Isso permite que o grupo recrute facilmente usuários para entrevistas e testes de usabilidade dentro do próprio campus universitário, garantindo dados ricos para as etapas de pesquisa do Processo de Design.
 - **Altos Índices de Problemas de Interação:** A interface do Domínio Público encontra-se defasada em relação aos padrões web atuais. O site não é responsivo (dificultando severamente o uso em dispositivos móveis), apresenta uma arquitetura de informação confusa nos formulários de busca detalhada e carece de práticas modernas de acessibilidade. Esse cenário oferece um terreno vasto para a aplicação de heurísticas e propostas sólidas de prototipação.
 - **Escopo Focado em Tarefas Claras:** Diferente de portais institucionais que apenas exibem notícias, o Domínio Público possui um fluxo de tarefas bem delimitado: o usuário precisa pesquisar um termo, aplicar filtros de mídia (texto, som, imagem), analisar uma lista de resultados, acessar os detalhes da obra e realizar o download. Esse fluxo contínuo de ações é o escopo perfeito para mapear jornadas de usuário e propor um redesenho completo das interações.
+
+---
+
+## Tabela de Contribuição
+
+| Integrante | Contribuição | Data |
+| :--- | :--- | :--- |
+| Gustavo Antonio Rodrigues e Silva ([@gus-ant](https://github.com/gus-ant)) | Estruturação da Ata de Reunião sobre a Escolha do Site e justiticativa. | 04/09/2026 |

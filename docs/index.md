@@ -58,4 +58,13 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 03/09/2026 | Criação inicial do README formal do projeto | [Gustavo](https://github.com/gus-ant)
+| `1.0` | 03/09/2026 | Criação inicial do README formal do projeto | [Gustavo](https://github.com/gus-ant) | — |
+| `1.1` | 04/09/2026 | Configuração do MkDocs e inclusão da Tabela de Contribuição | [Gustavo](https://github.com/gus-ant) | — |
+
+---
+
+## Tabela de Contribuição
+
+| Integrante | Contribuição | Data |
+| :--- | :--- | :--- |
+| Gustavo Antonio Rodrigues e Silva ([@gus-ant](https://github.com/gus-ant)) | Atualização da página inicial do projeto e estruturação da documentação no MkDocs. | 04/09/2026 |
