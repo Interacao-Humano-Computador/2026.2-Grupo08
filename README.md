@@ -1,4 +1,4 @@
-# Interação Humano-Computador (IHC) - 2026.2 | Grupo 08
+# Interação Humano-Computador (IHC)  2026.2 | Grupo 08
 
 Bem-vindo ao repositório do **Grupo 08** da disciplina de **Interação Humano-Computador (IHC)**. Este projeto tem como objetivo analisar, avaliar e propor melhorias de usabilidade e experiência do usuário (UX/UI) para um sistema ou plataforma selecionada ao longo do semestre.
 
