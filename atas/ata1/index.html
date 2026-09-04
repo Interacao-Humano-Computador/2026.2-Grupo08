@@ -1,0 +1,678 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto de Interação Humano-Computador">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Reunião 04/09/2026 - IHC 2026.2 - Grupo 08</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ata-de-reuniao-escolha-do-site" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="IHC 2026.2 - Grupo 08" class="md-header__button md-logo" aria-label="IHC 2026.2 - Grupo 08" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC 2026.2 - Grupo 08
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Reunião 04/09/2026
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IHC 2026.2 - Grupo 08" class="md-nav__button md-logo" aria-label="IHC 2026.2 - Grupo 08" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    IHC 2026.2 - Grupo 08
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas de Reunião
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas de Reunião
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 04/09/2026
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 04/09/2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#decisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decisão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentacao-planejamento-e-selecao-do-site" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentação: Planejamento e Seleção do Site
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documentação: Planejamento e Seleção do Site">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-criterios-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Critérios de Avaliação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-matriz-de-decisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Matriz de Decisão
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Matriz de Decisão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#breve-analise-dos-sites-nao-selecionados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Breve Análise dos Sites Não Selecionados:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-motivacao-e-justificativa-da-escolha-portal-dominio-publico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Motivação e Justificativa da Escolha: Portal Domínio Público
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#decisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decisão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentacao-planejamento-e-selecao-do-site" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentação: Planejamento e Seleção do Site
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Documentação: Planejamento e Seleção do Site">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-criterios-de-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Critérios de Avaliação
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-matriz-de-decisao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Matriz de Decisão
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Matriz de Decisão">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#breve-analise-dos-sites-nao-selecionados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Breve Análise dos Sites Não Selecionados:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-motivacao-e-justificativa-da-escolha-portal-dominio-publico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Motivação e Justificativa da Escolha: Portal Domínio Público
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ata-de-reuniao-escolha-do-site">Ata de Reunião - Escolha do Site</h1>
+<p><strong>Data:</strong> 04/09/2026</p>
+<h2 id="decisao">Decisão</h2>
+<p>Decidimos no dia 4/9/2026 a escolha do site para o projeto. Optamos por focar a escolha no Domínio Público, pois para uma disciplina de Processo de Design e Interação Humano-Computador, ele é o "santo graal": tem problemas gravíssimos de interface, não é responsivo e, ao mesmo tempo, é extremamente fácil achar usuários para testar (qualquer estudante universitário).</p>
+<h2 id="documentacao-planejamento-e-selecao-do-site">Documentação: Planejamento e Seleção do Site</h2>
+<h3 id="1-criterios-de-avaliacao">1. Critérios de Avaliação</h3>
+<p>Para garantir uma escolha técnica e alinhada aos objetivos da disciplina, o grupo definiu quatro critérios principais, avaliados com notas de 1 a 5 (onde 5 representa o cenário ideal para o escopo do projeto):</p>
+<ul>
+<li><strong>C1 - Facilidade de Acesso a Usuários:</strong> Grau de facilidade para encontrar, recrutar e entrevistar usuários reais do sistema ao longo do semestre.</li>
+<li><strong>C2 - Problemas de Usabilidade e Acessibilidade:</strong> Quantidade de falhas heurísticas (navegação confusa, falta de responsividade, problemas de contraste) que oferecem boas oportunidades de redesenho.</li>
+<li><strong>C3 - Escopo Adequado:</strong> Avaliação do tamanho do sistema. Não pode ser um portal puramente informativo, nem um sistema gigantesco. Precisa ter fluxos de tarefas claros (ex: buscar, filtrar, baixar).</li>
+<li><strong>C4 - Relevância Prática:</strong> O impacto do sistema na sociedade ou no ambiente acadêmico.</li>
+</ul>
+<h3 id="2-matriz-de-decisao">2. Matriz de Decisão</h3>
+<table>
+<thead>
+<tr>
+<th>Site Avaliado</th>
+<th>C1: Acesso a Usuários</th>
+<th>C2: Problemas de Usabilidade</th>
+<th>C3: Escopo Adequado</th>
+<th>C4: Relevância Prática</th>
+<th>Nota Final</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ministério Público Militar (MPM)</td>
+<td>1</td>
+<td>3</td>
+<td>3</td>
+<td>3</td>
+<td>10</td>
+</tr>
+<tr>
+<td>InfoSaúde DF</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+<td>5</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Enade (INEP)</td>
+<td>4</td>
+<td>4</td>
+<td>4</td>
+<td>4</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Domínio Público (MEC)</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>5</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<h4 id="breve-analise-dos-sites-nao-selecionados">Breve Análise dos Sites Não Selecionados:</h4>
+<ul>
+<li><strong>Ministério Público Militar (mpm.mp.br):</strong> Embora seja um portal governamental importante, o público-alvo (procuradores, advogados militares) é extremamente restrito, o que inviabilizaria a etapa de pesquisa com usuários e entrevistas.</li>
+<li><strong>InfoSaúde DF (info.saude.df.gov.br):</strong> Possui enorme relevância prática para a população local do Distrito Federal no acompanhamento de dados epidemiológicos. No entanto, foca muito em painéis de visualização de dados (dashboards), o que limita a criação de fluxos de interação complexos exigidos pela disciplina.</li>
+<li><strong>Enade INEP (enade.inep.gov.br):</strong> Tem um escopo muito bom e relevância para o contexto universitário. O ponto negativo é a sazonalidade: o sistema só tem picos de uso durante o período de provas, o que dificulta a avaliação do contexto de uso contínuo.</li>
+</ul>
+<h3 id="3-motivacao-e-justificativa-da-escolha-portal-dominio-publico">3. Motivação e Justificativa da Escolha: Portal Domínio Público</h3>
+<p>O site selecionado para o projeto da disciplina foi o <strong>Portal Domínio Público (MEC)</strong> (http://www.dominiopublico.mec.gov.br). A escolha foi motivada pela soma da maior pontuação na matriz de decisão, destacando-se nos seguintes pontos:</p>
+<ul>
+<li><strong>Acesso Facilitado aos Usuários:</strong> O público-alvo do portal é composto majoritariamente por estudantes, professores e pesquisadores em busca de obras literárias e artigos de livre acesso. Isso permite que o grupo recrute facilmente usuários para entrevistas e testes de usabilidade dentro do próprio campus universitário, garantindo dados ricos para as etapas de pesquisa do Processo de Design.</li>
+<li><strong>Altos Índices de Problemas de Interação:</strong> A interface do Domínio Público encontra-se defasada em relação aos padrões web atuais. O site não é responsivo (dificultando severamente o uso em dispositivos móveis), apresenta uma arquitetura de informação confusa nos formulários de busca detalhada e carece de práticas modernas de acessibilidade. Esse cenário oferece um terreno vasto para a aplicação de heurísticas e propostas sólidas de prototipação.</li>
+<li><strong>Escopo Focado em Tarefas Claras:</strong> Diferente de portais institucionais que apenas exibem notícias, o Domínio Público possui um fluxo de tarefas bem delimitado: o usuário precisa pesquisar um termo, aplicar filtros de mídia (texto, som, imagem), analisar uma lista de resultados, acessar os detalhes da obra e realizar o download. Esse fluxo contínuo de ações é o escopo perfeito para mapear jornadas de usuário e propor um redesenho completo das interações.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
