@@ -14,14 +14,10 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 
 | Matrícula | Nome | GitHub |
 | :---: | :--- | :---: |
-| — | Gustavo (Contribuidor) | [@gus-ant](https://github.com/gus-ant) |
-| — | *[Nome do Integrante 2]* | *[@github]* |
-| — | *[Nome do Integrante 3]* | *[@github]* |
-| — | *[Nome do Integrante 4]* | *[@github]* |
-| — | *[Nome do Integrante 5]* | *[@github]* |
-| — | *[Nome do Integrante 6]* | *[@github]* |
-
-> *Nota: Atualize os dados dos integrantes conforme os membros da sua equipe.*
+| 242004617 | Edvaldo Soares Brasileiro Filho | [@PajeMurici-dev](https://github.com/PajeMurici-dev) |
+| 242004976 | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) |
+| 242005365 | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) |
+| 241015380 | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
 
 ---
 
@@ -58,9 +54,8 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 
 ---
 
-## 📜 Histórico de Versão
+## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 03/09/2026 | Criação inicial do README formal do projeto | [Gustavo](https://github.com/gus-ant) | — |
-
+| `1.0` | 03/09/2026 | Criação inicial do README formal do projeto | [Gustavo](https://github.com/gus-ant)
