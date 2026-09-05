@@ -5,5 +5,7 @@ theme:
   language: pt-BR
 nav:
   - Início: index.md
+  - Planejamento:
+    - Equipe: planejamento/equipe.md
   - Atas de Reunião:
     - Reunião 04/09/2026: atas/ata1.md

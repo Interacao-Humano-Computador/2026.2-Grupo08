@@ -12,13 +12,23 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 
 ## Integrantes do Grupo
 
-| Matrícula | Nome | GitHub |
+A Tabela 1 apresenta os integrantes do grupo. A documentação detalhada da equipe também pode ser visualizada no artefato de [Equipe](docs/planejamento/equipe.md).
+
+<div align="center">
+
+**Tabela 1** - Integrantes do Grupo 08
+
+| Foto | Nome | GitHub |
 | :---: | :--- | :---: |
-| 242004617 | Edvaldo Soares Brasileiro Filho | [@PajeMurici-dev](https://github.com/PajeMurici-dev) |
-| 242004976 | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) |
-| 242005365 | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) |
-| 241015380 | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
-| 242005089 | Vinicius Silva Araruna | [@ViniciusA05](https://github.com/ViniciusA05) |
+| <img src="docs/assets/equipe/edvaldo.jpg" alt="Foto de Edvaldo Soares Brasileiro Filho" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Edvaldo Soares Brasileiro Filho | [@PajeMurici-dev](https://github.com/PajeMurici-dev) |
+| <img src="docs/assets/equipe/gustavo.jpg" alt="Foto de Gustavo Antonio Rodrigues e Silva" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
+| <img src="docs/assets/equipe/jonathan.jpg" alt="Foto de Jonathan Lourenço Carpaneda" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) |
+| <img src="docs/assets/equipe/pedro.jpg" alt="Foto de Pedro Paulo Almeida Araujo" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) |
+| <img src="docs/assets/equipe/vinicius.png" alt="Foto de Vinicius Silva Araruna" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Vinicius Silva Araruna | [@ViniciusA05](https://github.com/ViniciusA05) |
+
+_Fonte: [Pedro Paulo](https://github.com/Pedrop06), 2026._
+
+</div>
 
 ---
 
@@ -61,11 +71,13 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 03/09/2026 | Criação inicial do README formal do projeto | [Gustavo](https://github.com/gus-ant) | — |
 | `1.1` | 04/09/2026 | Configuração do MkDocs e inclusão da Tabela de Contribuição | [Gustavo](https://github.com/gus-ant) | — |
+| `1.2` | 04/09/2026 | Apresentação da equipe com fotos e perfis (sem matrícula) e criação do artefato de equipe | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
 
 ---
 
 ## Tabela de Contribuição
 
-| Integrante | Contribuição | Data |
-| :--- | :--- | :--- |
-| Gustavo Antonio Rodrigues e Silva ([@gus-ant](https://github.com/gus-ant)) | Atualização do repositório, configuração do MkDocs e estruturação inicial. | 04/09/2026 |
+| Integrante | Contribuição | Data | Horário |
+| :--- | :--- | :---: | :---: |
+| Gustavo Antonio Rodrigues e Silva ([@gus-ant](https://github.com/gus-ant)) | Atualização do repositório, configuração do MkDocs e estruturação inicial. | 04/09/2026 | 16:40 |
+| Pedro Paulo Almeida Araujo ([@Pedrop06](https://github.com/Pedrop06)) | **Sessão 1 (Req. 01):** Apresentação dos integrantes da equipe com foto e sem matrícula na documentação e README. | 04/09/2026 | 21:00 - 21:45 |
