@@ -18,7 +18,7 @@ De acordo com o Heat Map estabelecido utilizando uma planilha de controle, foi a
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 04/09/2026 | Criação da página do Heat Map | Gustavo Antonio | [A Definir] |
+| `1.0` | 04/09/2026 | Criação da página do Heat Map | Gustavo Antonio | Pedro Paulo |
 
 ---
 
