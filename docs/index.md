@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/images_prints/LOGO_DOMINIO_PUBLICO.png" alt="Logo Domínio Público" width="300">
+</div>
+
 # Interação Humano-Computador (IHC)  2026.2 | Grupo 08
 
 ## Introdução
@@ -6,17 +10,17 @@ Bem-vindo ao repositório principal do **Grupo 08** da disciplina de **Interaç�
 
 ---
 
-## Tabela de Contribuição
+## Site Selecionado: Portal Domínio Público
 
-| Integrante | Contribuição | Data |
-| :--- | :--- | :--- |
-| Edvaldo Soares Brasileiro Filho | [A Definir]() | - |
-| Pedro Paulo Almeida Araujo | [A Definir]() | - |
-| Jonathan Lourenço Carpaneda | [A Definir]() | - |
-| Gustavo Antonio Rodrigues e Silva | [Atualização do repositório, configuração do MkDocs e estruturação inicial]() | 04/09/2026 |
-| Vinicius Silva Araruna | [A Definir]() | - |
+O sistema escolhido pela equipe para o desenvolvimento do projeto é o **Portal Domínio Público (MEC)**. Trata-se de um repositório digital mantido pelo Ministério da Educação que disponibiliza uma vasta biblioteca virtual de obras literárias, científicas e artísticas de domínio público ou com licença livre de distribuição.
 
-*Nota: Os links acima redirecionam para as atividades desenvolvidas e/ou gravações de reuniões.*
+### Motivação da Escolha
+
+- **Acesso aos Usuários:** Grande facilidade de recrutar e entrevistar usuários reais (estudantes universitários, professores e pesquisadores).
+- **Oportunidades de Redesenho:** O portal apresenta problemas severos de usabilidade, arquitetura de informação confusa, busca limitada e falta de responsividade para dispositivos móveis.
+- **Relevância Social e Acadêmica:** Trata-se de um sistema de utilidade pública de alto valor educacional.
+
+Para mais detalhes sobre a escolha e a matriz de decisão, acesse a documentação do [Site Selecionado](planejamento/site-selecionado.md) e dos [Sites Avaliados](planejamento/sites-avaliados.md).
 
 ---
 
@@ -97,6 +101,7 @@ A documentação detalhada da equipe pode ser visualizada no artefato de [Equipe
 | `1.2` | 04/09/2026 | Apresentação da equipe com fotos e perfis e criação do artefato de equipe | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
 | `1.3` | 04/09/2026 | Configuração de contraste de cores (alternância de tema claro/escuro) no MkDocs | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
 | `1.4` | 05/09/2026 | Reestruturação da documentação da Etapa 1 e inclusão do quadro de atribuições | [Gustavo](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
+| `1.5` | 05/09/2026 | Adição do logo oficial e seção explicativa sobre o site selecionado (Portal Domínio Público) | [Gustavo](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 
 ---
 

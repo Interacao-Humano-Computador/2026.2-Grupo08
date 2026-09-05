@@ -10,6 +10,8 @@ Para garantir uma escolha técnica e alinhada aos objetivos da disciplina, o gru
 - **C3 - Escopo Adequado:** Avaliação do tamanho do sistema e se possui fluxos de tarefas claros.
 - **C4 - Relevância Prática:** O impacto do sistema na sociedade ou no ambiente acadêmico.
 
+A Matriz de decisão dos sites candidatos pode ser visualizada na Tabela 1.
+
 **Tabela 1: Matriz de decisão dos sites candidatos.**
 
 | Site Avaliado | C1: Acesso a Usuários | C2: Problemas de Usabilidade | C3: Escopo Adequado | C4: Relevância Prática | Nota Final |
@@ -29,8 +31,8 @@ Embora seja um portal governamental importante, identificamos alguns limitadores
 - O público-alvo (procuradores, advogados militares) é extremamente restrito.
 - A dificuldade de recrutar esses usuários inviabilizaria a etapa de pesquisa e entrevistas.
 
-*(Nota: Adicionar aqui a imagem da página inicial do site MPM no formato abaixo)*
-`![Imagem da página inicial do MPM](caminho_da_imagem.png)`
+Conforme ilustrado na Figura 1, a interface inicial do MPM apresenta informações muito institucionais.
+![Imagem da página inicial do MPM](../assets/images_prints/mpm_print.png)
 **Figura 1 - Imagem da página inicial do site eletrônico - MPM. (Fonte: mpm.mp.br)**
 
 ---
@@ -41,8 +43,8 @@ Possui enorme relevância prática para a população local do Distrito Federal 
 - Foca muito em painéis de visualização de dados (dashboards).
 - Limita a criação de fluxos de interação complexos exigidos pela disciplina.
 
-*(Nota: Adicionar aqui a imagem da página inicial do site InfoSaúde DF)*
-`![Imagem da página inicial do InfoSaúde DF](caminho_da_imagem.png)`
+Como podemos ver na Figura 2, o site do InfoSaúde DF é voltado para dashboards.
+![Imagem da página inicial do InfoSaúde DF](../assets/images_prints/infosaude_print.png)
 **Figura 2 - Imagem da página inicial do site eletrônico - InfoSaúde DF. (Fonte: info.saude.df.gov.br)**
 
 ---
@@ -53,9 +55,21 @@ Tem um escopo muito bom e relevância para o contexto universitário, porém o g
 - O sistema possui alta sazonalidade (só tem picos de uso durante o período de provas).
 - Isso dificulta a avaliação do contexto de uso contínuo ao longo de um semestre padrão.
 
-*(Nota: Adicionar aqui a imagem da página inicial do site Enade INEP)*
-`![Imagem da página inicial do Enade INEP](caminho_da_imagem.png)`
+A Figura 3 demonstra a página inicial do Enade, focada no acesso do estudante.
+![Imagem da página inicial do Enade INEP](../assets/images_prints/ENADE_print.png)
 **Figura 3 - Imagem da página inicial do site eletrônico - Enade. (Fonte: enade.inep.gov.br)**
+
+---
+
+## Domínio Público (MEC)
+
+O Portal Domínio Público foi o site escolhido pela equipe, pois obteve a maior pontuação (20) em nossa avaliação.
+- O público-alvo (estudantes, professores e pesquisadores) é de fácil acesso.
+- Apresenta problemas graves de usabilidade e responsividade, garantindo boas oportunidades de melhoria.
+
+Conforme ilustrado na Figura 4, a interface inicial do Portal Domínio Público é bastante defasada.
+![Imagem da página inicial do Domínio Público](../assets/images_prints/dominio_publico_print.png)
+**Figura 4 - Imagem da página inicial do site eletrônico - Domínio Público. (Fonte: dominiopublico.mec.gov.br)**
 
 ---
 
