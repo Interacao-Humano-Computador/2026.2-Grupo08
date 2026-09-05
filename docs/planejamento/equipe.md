@@ -4,20 +4,32 @@ Este artefato apresenta os integrantes do **Grupo 08** da disciplina de **Intera
 
 A Tabela 1 apresenta a composição do grupo, contendo a fotografia de identificação, o nome completo e o perfil do GitHub de cada colaborador, atendendo aos critérios de privacidade e boas práticas ao não expor dados de matrícula.
 
-<div align="center" markdown="1">
-
-**Tabela 1** - Integrantes da Equipe (Grupo 08)
-
-| Foto | Nome | GitHub |
-| :---: | :--- | :---: |
-| <img src="../assets/equipe/edvaldo.jpg" alt="Foto de Edvaldo Soares Brasileiro Filho" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Edvaldo Soares Brasileiro Filho | [@PajeMurici-dev](https://github.com/PajeMurici-dev) |
-| <img src="../assets/equipe/gustavo.jpg" alt="Foto de Gustavo Antonio Rodrigues e Silva" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
-| <img src="../assets/equipe/jonathan.jpg" alt="Foto de Jonathan Lourenço Carpaneda" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) |
-| <img src="../assets/equipe/pedro.jpg" alt="Foto de Pedro Paulo Almeida Araujo" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) |
-| <img src="../assets/equipe/vinicius.png" alt="Foto de Vinicius Silva Araruna" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Vinicius Silva Araruna | [@ViniciusA05](https://github.com/ViniciusA05) |
-
-_Fonte: [Pedro Paulo](https://github.com/Pedrop06), 2026._
-
+<div align="center" style="display: flex; justify-content: space-around; align-items: center; text-align: center; flex-wrap: wrap;">
+  <div style="margin: 10px;">
+    <img src="https://github.com/PajeMurici-dev.png" alt="Foto de Edvaldo Soares" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"><br>
+    <b>Edvaldo Soares</b><br>
+    <a href="https://github.com/PajeMurici-dev" target="_blank">@PajeMurici-dev</a>
+  </div>
+  <div style="margin: 10px;">
+    <img src="https://github.com/gus-ant.png" alt="Foto de Gustavo Antonio" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"><br>
+    <b>Gustavo Antonio</b><br>
+    <a href="https://github.com/gus-ant" target="_blank">@gus-ant</a>
+  </div>
+  <div style="margin: 10px;">
+    <img src="https://github.com/Jonathan-Carpaneda.png" alt="Foto de Jonathan Lourenço" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"><br>
+    <b>Jonathan Lourenço</b><br>
+    <a href="https://github.com/Jonathan-Carpaneda" target="_blank">@Jonathan-Carpaneda</a>
+  </div>
+  <div style="margin: 10px;">
+    <img src="https://github.com/Pedrop06.png" alt="Foto de Pedro Paulo" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"><br>
+    <b>Pedro Paulo</b><br>
+    <a href="https://github.com/Pedrop06" target="_blank">@Pedrop06</a>
+  </div>
+  <div style="margin: 10px;">
+    <img src="https://github.com/ViniciusA05.png" alt="Foto de Vinicius Araruna" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"><br>
+    <b>Vinicius Araruna</b><br>
+    <a href="https://github.com/ViniciusA05" target="_blank">@ViniciusA05</a>
+  </div>
 </div>
 
 ---

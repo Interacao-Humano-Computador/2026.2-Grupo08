@@ -43,7 +43,7 @@ Conforme pode ser visto na Figura 1, a página inicial do Portal apresenta uma i
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 04/09/2026 | Criação da página do site selecionado baseada na referência | Gustavo Antonio | [A Definir] |
+| `1.0` | 04/09/2026 | Criação da página do site selecionado baseada na referência | Gustavo Antonio | Pedro Paulo |
 
 ---
 

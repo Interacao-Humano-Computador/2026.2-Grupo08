@@ -14,6 +14,8 @@ Bem-vindo ao repositório principal do **Grupo 08** da disciplina de **Interaç�
 
 O sistema escolhido pela equipe para o desenvolvimento do projeto é o **Portal Domínio Público (MEC)**. Trata-se de um repositório digital mantido pelo Ministério da Educação que disponibiliza uma vasta biblioteca virtual de obras literárias, científicas e artísticas de domínio público ou com licença livre de distribuição.
 
+ Disponível em: <https://dominiopublico.mec.gov.br/pesquisa/PesquisaObraForm.jsp>.
+
 ### Motivação da Escolha
 
 - **Acesso aos Usuários:** Grande facilidade de recrutar e entrevistar usuários reais (estudantes universitários, professores e pesquisadores).

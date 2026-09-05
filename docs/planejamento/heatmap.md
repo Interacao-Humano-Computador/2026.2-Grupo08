@@ -8,8 +8,8 @@ Na fase inicial do projeto, adotou-se um heat map (mapa de calor) como uma ferra
 
 De acordo com o Heat Map estabelecido utilizando uma planilha de controle, foi acordado que os encontros semanais ocorrerão nos horários de maior intersecção livre entre os membros. A figura 1 descreve a disponibilidade de cada integrante, sendo esses encontros preferencialmente remotos (via Discord ou Google Meet).
 
-*(Nota: Adicionar imagem com o heatmap do grupo)*
-`![HeatMap de Disponibilidade](caminho_da_imagem.png)`
+![HeatMap de Disponibilidade](../assets/images_prints/heatmap.PNG)
+
 **Figura 1: Heat Map de Disponibilidade. (Fonte: Autores, 2026).**
 
 ---
