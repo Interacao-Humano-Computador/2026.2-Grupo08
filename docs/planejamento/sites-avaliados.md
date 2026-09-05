@@ -69,7 +69,7 @@ Apesar da relevância dos problemas encontrados, o site foi descartado como alvo
 
 A Figura 3 ilustra a página inicial do portal BRB Mobilidade.
 ![Imagem da página inicial do BRB Mobilidade](../assets/images_prints/brb_mobilidade_print.png)
-**Figura 3 - Imagem da página inicial do site eletrônico - BRB Mobilidade. (Fonte: brbmobilidade.com.br)**
+**Figura 3 - Imagem da página inicial do site eletrônico - BRB Mobilidade. (Fonte: brbnovo.brb.com.br/mobilidade/)**
 
 > **Nota:** A avaliação completa deste site está documentada no artefato individual de Vinicius Silva Araruna, incluindo o planejamento com o Framework DECIDE e o relatório da inspeção heurística.
 
@@ -129,7 +129,7 @@ Conforme ilustrado na Figura 5, a interface inicial do Portal Domínio Público 
 
 [2] Portal Domínio Público. Disponível em: <http://www.dominiopublico.mec.gov.br>. Acesso em: 04 set. 2026.
 
-[3] BRB Mobilidade. Disponível em: <https://www.brbmobilidade.com.br>. Acesso em: 05 set. 2026.
+[3] BRB Mobilidade. Disponível em: <https://brbnovo.brb.com.br/mobilidade/>. Acesso em: 05 set. 2026.
 
 ---
 
