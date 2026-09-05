@@ -72,6 +72,7 @@ _Fonte: [Pedro Paulo](https://github.com/Pedrop06), 2026._
 | `1.0` | 03/09/2026 | Criação inicial do README formal do projeto | [Gustavo](https://github.com/gus-ant) | — |
 | `1.1` | 04/09/2026 | Configuração do MkDocs e inclusão da Tabela de Contribuição | [Gustavo](https://github.com/gus-ant) | — |
 | `1.2` | 04/09/2026 | Apresentação da equipe com fotos e perfis (sem matrícula) e criação do artefato de equipe | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
+| `1.3` | 04/09/2026 | Configuração de contraste de cores (alternância de tema claro/escuro) no MkDocs | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
 
 ---
 
@@ -81,3 +82,4 @@ _Fonte: [Pedro Paulo](https://github.com/Pedrop06), 2026._
 | :--- | :--- | :---: | :---: |
 | Gustavo Antonio Rodrigues e Silva ([@gus-ant](https://github.com/gus-ant)) | Atualização do repositório, configuração do MkDocs e estruturação inicial. | 04/09/2026 | 16:40 |
 | Pedro Paulo Almeida Araujo ([@Pedrop06](https://github.com/Pedrop06)) | **Sessão 1 (Req. 01):** Apresentação dos integrantes da equipe com foto e sem matrícula na documentação e README. | 04/09/2026 | 21:00 - 21:45 |
+| Pedro Paulo Almeida Araujo ([@Pedrop06](https://github.com/Pedrop06)) | **Sessão 2 (Req. 07):** Configuração de contraste de cores (alternância de tema claro/escuro) no MkDocs. | 04/09/2026 | 22:00 - 22:30 |

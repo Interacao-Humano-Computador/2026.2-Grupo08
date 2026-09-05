@@ -1,4 +1,4 @@
-﻿# Integrantes da Equipe
+# Integrantes da Equipe
 
 Este artefato apresenta os integrantes do **Grupo 08** da disciplina de **Interação Humano-Computador (IHC)** da Universidade de Brasília (UnB), referente ao semestre 2026.2.
 
@@ -27,6 +27,7 @@ _Fonte: [Pedro Paulo](https://github.com/Pedrop06), 2026._
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | 1.0 | 04/09/2026 | Criação da página da equipe com fotos e perfis (sem matrícula) | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
+| 1.1 | 04/09/2026 | Inclusão de suporte a alternância de contraste de cores e atualização da tabela de contribuição | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
 
 ---
 
@@ -35,3 +36,4 @@ _Fonte: [Pedro Paulo](https://github.com/Pedrop06), 2026._
 | Integrante | Contribuição | Data | Horário |
 | :--- | :--- | :---: | :---: |
 | Pedro Paulo Almeida Araujo ([@Pedrop06](https://github.com/Pedrop06)) | **Sessão 1 (Req. 01):** Criação da página da equipe com fotos e perfis de todos os membros, sem matrícula. | 04/09/2026 | 21:00 - 21:45 |
+| Pedro Paulo Almeida Araujo ([@Pedrop06](https://github.com/Pedrop06)) | **Sessão 2 (Req. 07):** Configuração de contraste de cores (alternância de tema claro/escuro) no MkDocs. | 04/09/2026 | 22:00 - 22:30 |
