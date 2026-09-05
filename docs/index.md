@@ -92,9 +92,11 @@ A documentação detalhada da equipe pode ser visualizada no artefato de [Equipe
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 03/09/2026 | Criação inicial do README formal do projeto | Gustavo Antonio | [A Definir] |
-| `1.1` | 04/09/2026 | Configuração do MkDocs e inclusão da Tabela de Contribuição | Gustavo Antonio | [A Definir] |
-| `1.2` | 04/09/2026 | Padronização dos artefatos: Introdução, Tabela no topo, Referências e IA | Gustavo Antonio | [A Definir] |
+| `1.0` | 03/09/2026 | Criação inicial do README formal do projeto | [Gustavo](https://github.com/gus-ant) | — |
+| `1.1` | 04/09/2026 | Configuração do MkDocs e inclusão da Tabela de Contribuição | [Gustavo](https://github.com/gus-ant) | — |
+| `1.2` | 04/09/2026 | Apresentação da equipe com fotos e perfis e criação do artefato de equipe | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
+| `1.3` | 04/09/2026 | Configuração de contraste de cores (alternância de tema claro/escuro) no MkDocs | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
+| `1.4` | 05/09/2026 | Reestruturação da documentação da Etapa 1 e inclusão do quadro de atribuições | [Gustavo](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 
 ---
 

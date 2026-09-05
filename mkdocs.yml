@@ -4,20 +4,22 @@ theme:
   name: material
   language: pt-BR
   palette:
+    # Esquema de cores claro
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-7
-        name: Trocar para modo escuro
+        name: Alternar para modo escuro (alto contraste)
+    # Esquema de cores escuro (alto contraste)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Trocar para modo claro
+        name: Alternar para modo claro
 nav:
   - Início: index.md
   - Planejamento do Projeto:
