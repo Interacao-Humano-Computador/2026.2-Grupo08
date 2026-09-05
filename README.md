@@ -18,6 +18,7 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 | 242004976 | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) |
 | 242005365 | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) |
 | 241015380 | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
+| 242005089 | Vinicius Silva Araruna | [@ViniciusA05](https://github.com/ViniciusA05) |
 
 ---
 
