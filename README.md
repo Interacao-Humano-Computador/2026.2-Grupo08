@@ -71,13 +71,18 @@ A Tabela 1 apresenta os integrantes do grupo. A documentação detalhada da equi
 | `1.1` | 04/09/2026 | Configuração do MkDocs e inclusão da Tabela de Contribuição | [Gustavo](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.2` | 04/09/2026 | Apresentação da equipe com fotos e perfis (sem matrícula) e criação do artefato de equipe | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
 | `1.3` | 04/09/2026 | Configuração de contraste de cores (alternância de tema claro/escuro) no MkDocs | [Pedro Paulo](https://github.com/Pedrop06) | [Gustavo](https://github.com/gus-ant) |
+| `1.4` | 05/09/2026 | Reestruturação da documentação da Etapa 1 e inclusão do quadro de atribuições | [Gustavo](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
+| `1.5` | 05/09/2026 | Adequação integral dos artefatos da Etapa 1 à rubrica de avaliação e sincronização geral | [Jonathan Carpaneda](https://github.com/Jonathan-Carpaneda) | [Todos os Integrantes](docs/planejamento/equipe.md) |
 
 ---
 
 ## Tabela de Contribuição
 
-| Integrante | Contribuição | Data | Horário |
-| :--- | :--- | :---: | :---: |
-| Gustavo Antonio Rodrigues e Silva ([@gus-ant](https://github.com/gus-ant)) | Atualização do repositório, configuração do MkDocs e estruturação inicial. | 04/09/2026 | 16:40 |
-| Pedro Paulo Almeida Araujo ([@Pedrop06](https://github.com/Pedrop06)) | **Sessão 1 (Req. 01):** Apresentação dos integrantes da equipe com foto e sem matrícula na documentação e README. | 04/09/2026 | 21:00 - 21:45 |
-| Pedro Paulo Almeida Araujo ([@Pedrop06](https://github.com/Pedrop06)) | **Sessão 2 (Req. 07):** Configuração de contraste de cores (alternância de tema claro/escuro) no MkDocs. | 04/09/2026 | 22:00 - 22:30 |
+| Integrante | Contribuição Principal na Etapa 1 | Artefatos Associados | Data |
+| :--- | :--- | :--- | :---: |
+| **Edvaldo Soares Brasileiro Filho** | Avaliação do Enade, elaboração de tópico teórico de Usabilidade e cronograma | [Sites Avaliados](docs/planejamento/sites-avaliados.md), [Conteúdo Teórico](docs/conteudo-teorico/index.md) | 04/09 a 05/09 |
+| **Gustavo Antonio Rodrigues e Silva** | Configuração do MkDocs, matriz de decisão, ata inicial e tópico teórico de Semiótica | [MkDocs](docs/index.md), [Ata 1](docs/atas/ata1.md), [Conteúdo Teórico](docs/conteudo-teorico/index.md) | 04/09 a 05/09 |
+| **Jonathan Lourenço Carpaneda** | Detalhamento do Domínio Público, artefato de ferramentas, tópico de acessibilidade e cronograma | [Ferramentas](docs/planejamento/ferramentas.md), [Site Selecionado](docs/planejamento/site-selecionado.md), [Conteúdo Teórico](docs/conteudo-teorico/index.md) | 04/09 a 05/09 |
+| **Pedro Paulo Almeida Araujo** | Documentação da equipe, contraste de cores, avaliação do MPM e tópico de Mayhew | [Equipe](docs/planejamento/equipe.md), [Cronograma Executado](docs/planejamento/cronograma-executado.md), [Conteúdo Teórico](docs/conteudo-teorico/index.md) | 04/09 a 05/09 |
+| **Vinicius Silva Araruna** | Avaliação do InfoSaúde DF, processo de design, tópico de HTA e índice de atas | [Processo de Design](docs/planejamento/processo-de-design.md), [Índice de Atas](docs/atas/index.md), [Conteúdo Teórico](docs/conteudo-teorico/index.md) | 04/09 a 05/09 |
+
