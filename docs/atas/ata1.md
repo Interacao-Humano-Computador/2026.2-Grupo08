@@ -23,20 +23,20 @@ Este documento registra as discussões e decisões tomadas durante a reunião da
 | Tópico | Detalhe |
 | :--- | :--- |
 | **Data:** | 04/09/2026 |
-| **Horário de Início:** | *(Ex: 19:00)* |
-| **Horário de Término:** | *(Ex: 20:30)* |
-| **Local/Plataforma:** | *(Ex: Discord / Teams)* |
+| **Horário de Início:** | 19:00 |
+| **Horário de Término:** | 19:20 |
+| **Local/Plataforma:** | Plataforma Microsoft Teams |
 | **Objetivo:** | Definir o site a ser utilizado no projeto, avaliando as opções através de uma matriz de decisão. |
 
 ## Participantes Presentes
 
 - Gustavo Antonio Rodrigues e Silva
-- *(Nota: Listar os demais participantes presentes na reunião)*
+- Pedro Paulo Almeida Araujo
+- Jonathan Lourenço Carpaneda
 
 ## Gravação da Reunião
 
-*(Nota: Inserir o link não listado do YouTube para a gravação da reunião)*
-**Link do Vídeo:** [A Definir](https://youtube.com)
+**Link do Vídeo:** [link do vídeo](https://youtu.be/e9UGmkfeYXU)
 
 ---
 
@@ -45,6 +45,7 @@ Este documento registra as discussões e decisões tomadas durante a reunião da
 Decidimos no dia 4/9/2026 a escolha do site para o projeto. Optamos por focar a escolha no Domínio Público, devido aos graves problemas de interface, falta de responsividade, e a facilidade de encontrar usuários (estudantes universitários) para testes.
 
 Os detalhes da avaliação, com os critérios completos (C1 a C4) e a matriz de decisão, foram documentados nos seguintes artefatos:
+
 - [Lista de Sites Avaliados](../planejamento/sites-avaliados.md)
 - [Site Selecionado](../planejamento/site-selecionado.md)
 

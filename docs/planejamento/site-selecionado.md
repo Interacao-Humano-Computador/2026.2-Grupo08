@@ -51,4 +51,4 @@ Conforme pode ser visto na Figura 1, a página inicial do Portal apresenta uma i
 
 [1] BARBOSA, Simone D. J.; SILVA, Bruno S. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010.
 
-[2] Portal Domínio Público. Disponível em: <http://www.dominiopublico.mec.gov.br>.
+[2] Portal Domínio Público. Disponível em: <https://dominiopublico.mec.gov.br/pesquisa/PesquisaObraForm.jsp>.

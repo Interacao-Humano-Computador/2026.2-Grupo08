@@ -4,7 +4,7 @@ Este artefato apresenta os integrantes do **Grupo 08** da disciplina de **Intera
 
 A Tabela 1 apresenta a composição do grupo, contendo a fotografia de identificação, o nome completo e o perfil do GitHub de cada colaborador, atendendo aos critérios de privacidade e boas práticas ao não expor dados de matrícula.
 
-<div align="center">
+<div align="center" markdown="1">
 
 **Tabela 1** - Integrantes da Equipe (Grupo 08)
 
