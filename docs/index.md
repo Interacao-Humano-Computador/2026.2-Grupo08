@@ -1,6 +1,22 @@
-# Interação Humano-Computador (IHC) - 2026.2 | Grupo 08
+# Interação Humano-Computador (IHC)  2026.2 | Grupo 08
 
-Bem-vindo ao repositório do **Grupo 08** da disciplina de **Interação Humano-Computador (IHC)**. Este projeto tem como objetivo analisar, avaliar e propor melhorias de usabilidade e experiência do usuário (UX/UI) para um sistema ou plataforma selecionada ao longo do semestre.
+## Introdução
+
+Bem-vindo ao repositório principal do **Grupo 08** da disciplina de **Interação Humano-Computador (IHC)**. Este artefato serve como o ponto de entrada para o projeto, documentando o escopo geral, a lista de integrantes envolvidos, a estrutura de diretórios e as ferramentas escolhidas. O projeto tem como objetivo analisar, avaliar e propor melhorias de usabilidade e experiência do usuário (UX/UI) para um sistema ou plataforma selecionada ao longo do semestre.
+
+---
+
+## Tabela de Contribuição
+
+| Integrante | Contribuição | Data |
+| :--- | :--- | :--- |
+| Edvaldo Soares Brasileiro Filho | [A Definir]() | - |
+| Pedro Paulo Almeida Araujo | [A Definir]() | - |
+| Jonathan Lourenço Carpaneda | [A Definir]() | - |
+| Gustavo Antonio Rodrigues e Silva | [Atualização do repositório, configuração do MkDocs e estruturação inicial]() | 04/09/2026 |
+| Vinicius Silva Araruna | [A Definir]() | - |
+
+*Nota: Os links acima redirecionam para as atividades desenvolvidas e/ou gravações de reuniões.*
 
 ---
 
@@ -12,12 +28,30 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 
 ## Integrantes do Grupo
 
-| Matrícula | Nome | GitHub |
-| :---: | :--- | :---: |
-| 242004617 | Edvaldo Soares Brasileiro Filho | [@PajeMurici-dev](https://github.com/PajeMurici-dev) |
-| 242004976 | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) |
-| 242005365 | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) |
-| 241015380 | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
+A documentação detalhada da equipe pode ser visualizada no artefato de [Equipe](planejamento/equipe.md).
+
+<div align="center" style="display: flex; justify-content: space-around; align-items: center; text-align: center; flex-wrap: wrap;">
+  <div style="margin: 10px;">
+    <img src="https://github.com/PajeMurici-dev.png" alt="Foto de Edvaldo Soares" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"><br>
+    <b>Edvaldo Soares</b>
+  </div>
+  <div style="margin: 10px;">
+    <img src="https://github.com/gus-ant.png" alt="Foto de Gustavo Antonio" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"><br>
+    <b>Gustavo Antonio</b>
+  </div>
+  <div style="margin: 10px;">
+    <img src="https://github.com/Jonathan-Carpaneda.png" alt="Foto de Jonathan Lourenço" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"><br>
+    <b>Jonathan Lourenço</b>
+  </div>
+  <div style="margin: 10px;">
+    <img src="https://github.com/Pedrop06.png" alt="Foto de Pedro Paulo" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"><br>
+    <b>Pedro Paulo</b>
+  </div>
+  <div style="margin: 10px;">
+    <img src="https://github.com/ViniciusA05.png" alt="Foto de Vinicius Araruna" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"><br>
+    <b>Vinicius Araruna</b>
+  </div>
+</div>
 
 ---
 
@@ -58,13 +92,18 @@ O desenvolvimento do trabalho é fundamentado na engenharia de usabilidade, abra
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 03/09/2026 | Criação inicial do README formal do projeto | [Gustavo](https://github.com/gus-ant) | — |
-| `1.1` | 04/09/2026 | Configuração do MkDocs e inclusão da Tabela de Contribuição | [Gustavo](https://github.com/gus-ant) | — |
+| `1.0` | 03/09/2026 | Criação inicial do README formal do projeto | Gustavo Antonio | [A Definir] |
+| `1.1` | 04/09/2026 | Configuração do MkDocs e inclusão da Tabela de Contribuição | Gustavo Antonio | [A Definir] |
+| `1.2` | 04/09/2026 | Padronização dos artefatos: Introdução, Tabela no topo, Referências e IA | Gustavo Antonio | [A Definir] |
 
 ---
 
-## Tabela de Contribuição
+## Referências Bibliográficas
 
-| Integrante | Contribuição | Data |
-| :--- | :--- | :--- |
-| Gustavo Antonio Rodrigues e Silva ([@gus-ant](https://github.com/gus-ant)) | Atualização da página inicial do projeto e estruturação da documentação no MkDocs. | 04/09/2026 |
+1. BARBOSA, Simone D. J.; SILVA, Bruno S. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010.
+
+---
+
+## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+
+Durante a elaboração da estrutura deste artefato e padronização do Markdown, foi utilizado apoio de Inteligência Artificial Generativa (LLM). O modelo auxiliou na geração das tabelas e formatação do histórico de versão e contribuições, sendo revisado pela equipe humana antes da publicação final.

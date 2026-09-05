@@ -3,7 +3,35 @@ site_description: Documentação do projeto de Interação Humano-Computador
 theme:
   name: material
   language: pt-BR
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Trocar para modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Trocar para modo claro
 nav:
   - Início: index.md
+  - Planejamento do Projeto:
+    - Equipe: planejamento/equipe.md
+    - Cronograma Planejado: planejamento/cronograma-planejado.md
+    - Cronograma Executado: planejamento/cronograma-executado.md
+    - Quadro de Atribuições: planejamento/quadro-de-atribuicoes.md
+    - Ferramentas: planejamento/ferramentas.md
+    - Processo de Design: planejamento/processo-de-design.md
+    - Heat Map: planejamento/heatmap.md
+    - Lista de Sites Avaliados: planejamento/sites-avaliados.md
+    - Site Selecionado: planejamento/site-selecionado.md
   - Atas de Reunião:
+    - Índice de Atas: atas/index.md
     - Reunião 04/09/2026: atas/ata1.md
+  - Conteúdo Teórico:
+    - Itens Avaliados: conteudo-teorico/index.md
