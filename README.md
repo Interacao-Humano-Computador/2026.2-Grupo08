@@ -26,7 +26,6 @@ A Tabela 1 apresenta os integrantes do grupo. A documentação detalhada da equi
 | <img src="docs/assets/equipe/pedro.jpg" alt="Foto de Pedro Paulo Almeida Araujo" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) |
 | <img src="docs/assets/equipe/vinicius.png" alt="Foto de Vinicius Silva Araruna" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Vinicius Silva Araruna | [@ViniciusA05](https://github.com/ViniciusA05) |
 
-_Fonte: [Pedro Paulo](https://github.com/Pedrop06), 2026._
 
 </div>
 
