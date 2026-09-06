@@ -1,5 +1,17 @@
 # Sites Avaliados
 
+## Tabela de Contribuição
+
+| Integrante | Contribuição | Data | Horário |
+| :--- | :--- | :---: | :---: |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Avaliação preliminar do Ministério Público Militar (MPM)](#ministerio-publico-militar-mpm) | 04/09/2026 | — |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Criação da estrutura da página, matriz de decisão e seções dos sites MPM, InfoSaúde, Enade e Domínio Público](#matriz-de-decisao) | 04/09/2026 | — |
+| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Avaliação preliminar do InfoSaúde DF e referências ABNT](#infosaude-df) | 04/09/2026 | — |
+| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Avaliação preliminar do Enade e revisão cruzada](#enade-inep) | 04/09/2026 | — |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Adição do BRB Mobilidade (avaliação heurística com Framework DECIDE), atualização da matriz e figuras](#brb-mobilidade) | 05/09/2026 | 20:00 - 20:30 |
+
+---
+
 ## Introdução
 
 Este documento apresenta a lista de sites e sistemas avaliados pelo grupo como potenciais candidatos para o projeto da disciplina. A avaliação foi baseada em critérios definidos previamente em reunião, para garantir que o sistema escolhido atendesse aos requisitos pedagógicos de IHC.
@@ -10,6 +22,10 @@ Para garantir uma escolha técnica e alinhada aos objetivos da disciplina, o gru
 - **C2 - Problemas de Usabilidade e Acessibilidade:** Quantidade de falhas heurísticas que oferecem boas oportunidades de redesenho.
 - **C3 - Escopo Adequado:** Avaliação do tamanho do sistema e se possui fluxos de tarefas claros.
 - **C4 - Relevância Prática:** O impacto do sistema na sociedade ou no ambiente acadêmico.
+
+---
+
+## Matriz de Decisão
 
 A Matriz de decisão dos sites candidatos pode ser visualizada na Tabela 1.
 
@@ -108,28 +124,23 @@ Conforme ilustrado na Figura 5, a interface inicial do Portal Domínio Público 
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 04/09/2026 | Criação da página de sites avaliados no padrão de referência | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.1` | 05/09/2026 | Adição do BRB Mobilidade na matriz de decisão e seção de análise; atualização das figuras numeradas | [Vinicius Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-
----
-
-## Tabela de Contribuição
-
-| Integrante | Contribuição | Data | Horário |
-| :--- | :--- | :---: | :---: |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | — | — | — |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Criação da estrutura da página, matriz de decisão e seções dos sites MPM, InfoSaúde, Enade e Domínio Público | 04/09/2026 | — |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | — | — | — |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | — | — | — |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Adição do BRB Mobilidade (avaliação heurística individual com Framework DECIDE) na matriz e nova seção | 05/09/2026 | 20:00 - 20:30 |
+| `1.2` | 06/09/2026 | Posicionamento da tabela de contribuição no topo (D10) e expansão das referências bibliográficas no padrão ABNT (D3) | [Vinicius Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
 
 ---
 
 ## Referências Bibliográficas
 
-[1] BARBOSA, Simone D. J.; SILVA, Bruno S. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021.
+[1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021.
 
-[2] Portal Domínio Público. Disponível em: <http://www.dominiopublico.mec.gov.br>. Acesso em: 04 set. 2026.
+[2] BRB MOBILIDADE. *Portal de Serviços e Bilhetagem Eletrônica do Distrito Federal*. Brasília: Banco de Brasília, 2026. Disponível em: <https://brbnovo.brb.com.br/mobilidade/>. Acesso em: 05 set. 2026.
 
-[3] BRB Mobilidade. Disponível em: <https://brbnovo.brb.com.br/mobilidade/>. Acesso em: 05 set. 2026.
+[3] INSTITUTO NACIONAL DE ESTUDOS E PESQUISAS EDUCACIONAIS ANÍSIO TEIXEIRA. *Portal do Enade*. Brasília: INEP, 2026. Disponível em: <https://enade.inep.gov.br>. Acesso em: 04 set. 2026.
+
+[4] MINISTÉRIO DA EDUCAÇÃO. *Portal Domínio Público*. Brasília: MEC, 2004. Disponível em: <http://www.dominiopublico.mec.gov.br>. Acesso em: 04 set. 2026.
+
+[5] MINISTÉRIO PÚBLICO MILITAR. *Portal do Ministério Público Militar*. Brasília: MPM, 2026. Disponível em: <https://www.mpm.mp.br>. Acesso em: 04 set. 2026.
+
+[6] SECRETARIA DE SAÚDE DO DISTRITO FEDERAL. *Portal InfoSaúde DF*. Brasília: SES-DF, 2026. Disponível em: <https://info.saude.df.gov.br>. Acesso em: 04 set. 2026.
 
 ---
 
