@@ -28,11 +28,11 @@ A Tabela 1 apresenta a composição oficial do Grupo 08, exibindo a fotografia d
 
 | Foto | Nome | GitHub |
 | :---: | :--- | :---: |
-| <img src="../assets/equipe/edvaldo.jpg" alt="Foto de Edvaldo Soares Brasileiro Filho" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Edvaldo Soares Brasileiro Filho | [@PajeMurici-dev](https://github.com/PajeMurici-dev) |
-| <img src="../assets/equipe/gustavo.jpg" alt="Foto de Gustavo Antonio Rodrigues e Silva" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
-| <img src="../assets/equipe/jonathan.jpg" alt="Foto de Jonathan Lourenço Carpaneda" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) |
-| <img src="../assets/equipe/pedro.jpg" alt="Foto de Pedro Paulo Almeida Araujo" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) |
-| <img src="../assets/equipe/vinicius.png" alt="Foto de Vinicius Silva Araruna" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Vinicius Silva Araruna | [@ViniciusA05](https://github.com/ViniciusA05) |
+| <img src="../../assets/equipe/edvaldo.jpg" alt="Foto de Edvaldo Soares Brasileiro Filho" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Edvaldo Soares Brasileiro Filho | [@PajeMurici-dev](https://github.com/PajeMurici-dev) |
+| <img src="../../assets/equipe/gustavo.jpg" alt="Foto de Gustavo Antonio Rodrigues e Silva" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
+| <img src="../../assets/equipe/jonathan.jpg" alt="Foto de Jonathan Lourenço Carpaneda" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) |
+| <img src="../../assets/equipe/pedro.jpg" alt="Foto de Pedro Paulo Almeida Araujo" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) |
+| <img src="../../assets/equipe/vinicius.png" alt="Foto de Vinicius Silva Araruna" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Vinicius Silva Araruna | [@ViniciusA05](https://github.com/ViniciusA05) |
 
 _Fonte: [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) e [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda), 2026._
 
