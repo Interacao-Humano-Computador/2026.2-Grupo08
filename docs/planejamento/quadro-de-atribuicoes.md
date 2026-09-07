@@ -34,7 +34,7 @@ Abaixo estão listadas todas as ações necessárias e o membro da equipe respon
 | **06** | O planejamento e avaliação dos sites selecionados. | Gustavo | ✅ Concluído |
 | **07** | Possui opção de contraste de cores no site (MkDocs). | Pedro Paulo | ✅ Concluído |
 | **08** | Preenchimento do conteúdo dos artefatos: Planejamento, Equipe, Lista de sites, Ferramentas, Processo de Design e Cronogramas. | Jonathan | ✅ Concluído |
-| **09** | Uma página com as atas de reunião com o acesso à gravação (vídeo) da mesma. | Vinicius | ⏳ Pendente |
+| **09** | Uma página com as atas de reunião com o acesso à gravação (vídeo) da mesma. | Vinicius | ✅ Concluído |
 | **10** | Padronizar o histórico de versão em todos os artefatos. | Vinicius | ⏳ Pendente |
 | **11** | Garantir que há Autor(es) e Revisor(es) definidos para cada artefato. | Vinicius | ⏳ Pendente |
 | **12** | Inserir Referências Bibliográficas e/ou Bibliografia em todos os artefatos. | Jonathan | ✅ Concluído |
@@ -42,7 +42,7 @@ Abaixo estão listadas todas as ações necessárias e o membro da equipe respon
 | **14** | Incluir um texto fazendo uma introdução de cada artefato. | Edvaldo | ⏳ Pendente |
 | **15** | O cronograma executado demonstra quem realizou cada artefato/atividade com as datas de início e fim reais. | Pedro Paulo | ⏳ Pendente |
 | **16** | Ata(s) da(s) reuniões completa(s) com data, horário de início e fim, participantes, objetivo, atividades definidas. | Pedro Paulo | ⏳ Pendente |
-| **17** | Subir e linkar a gravação da reunião do grupo. | Pedro Paulo | ⏳ Pendente |
+| **17** | Subir e linkar a gravação da reunião do grupo. | Pedro Paulo | ✅ Concluído |
 | **18** | Vídeo de apresentação na categoria "não listado" no YouTube. | **Todos** | ⏳ Pendente |
 | **19** | Tabela de contribuição no início do artefato com o nome de todos os integrantes com a contribuição e hiperligação. | Jonathan | ✅ Concluído |
 | **20** | A seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa nos artefatos. | Edvaldo | ⏳ Pendente |

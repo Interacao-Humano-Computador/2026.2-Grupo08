@@ -26,7 +26,7 @@ A Tabela 1 lista as atas de reuniões realizadas pelo grupo ao longo do semestre
 
 | Ata | Data | Descrição / Objetivo | Gravação |
 | :---: | :---: | :--- | :---: |
-| [Ata 1 - Reunião Inicial](ata1.md) | 04/09/2026 | Decisão e escolha do site sob análise (Portal Domínio Público). | *(Adicionar Link do YouTube)* |
+| [Ata 1 - Reunião Inicial](ata1.md) | 04/09/2026 | Decisão e escolha do site sob análise (Portal Domínio Público). | [Assistir no YouTube](https://www.youtube.com/watch?v=e9UGmkfeYXU) |
 
 _Fonte: Autores, 2026._
 

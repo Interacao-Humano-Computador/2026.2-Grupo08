@@ -43,7 +43,7 @@ Este documento registra formalmente as discussões, deliberações e decisões t
 ## Gravação da Reunião
 
 A gravação audiovisual da reunião do grupo é gerenciada conforme a Ação 17 do Quadro de Atribuições:
-- **Link do Vídeo:** [A Definir / Em processamento](https://youtube.com)
+- **Link do Vídeo:** [Gravação da Reunião 1 (YouTube)](https://www.youtube.com/watch?v=e9UGmkfeYXU)
 
 ---
 
