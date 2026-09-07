@@ -4,11 +4,11 @@
 
 | Integrante | Contribuição | Data | Horário |
 | :--- | :--- | :---: | :---: |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | — | — | — |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | — | — | — |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | — | — | — |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | — | — | — |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa do artefato: levantamento comparativo dos ciclos de vida, justificativa da escolha e referências bibliográficas](#processos-de-design-em-ihc) | 06/09/2026 | 13:30 : 16:30 |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão e conferência das diretrizes metodológicas](#historico-de-versao) | 06/09/2026 | 17:00 - 17:30 |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação inicial do artefato](#historico-de-versao) | 04/09/2026 | 19:30 - 20:00 |
+| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Revisão das normas ABNT e formatação Markdown](#referencias-bibliograficas) | 06/09/2026 | 17:30 - 18:00 |
+| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão por pares e validação da matriz comparativa](#historico-de-versao) | 06/09/2026 | 18:00 - 18:30 |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa do artefato: levantamento comparativo dos ciclos de vida, justificativa da escolha e referências bibliográficas](#processos-de-design-em-ihc) | 06/09/2026 | 13:30 - 16:30 |
 
 ---
 
@@ -194,7 +194,7 @@ O ciclo de Mayhew enfatiza, já na Fase 1, a necessidade de um perfil de usuári
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 04/09/2026 | Criação da estrutura inicial do artefato | [Gustavo Antonio](https://github.com/gus-ant) | — |
+| `1.0` | 04/09/2026 | Criação da estrutura inicial do artefato | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.1` | 06/09/2026 | Desenvolvimento completo: levantamento comparativo dos três ciclos de vida, inserção da Figura 1 com imagem oficial da referência, matriz de decisão e justificativa com base em Barbosa e Silva (2010) | [Vinicius Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
 
 ---

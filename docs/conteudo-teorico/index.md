@@ -4,10 +4,10 @@
 
 | Integrante | Contribuição | Data | Horário |
 | :--- | :--- | :---: | :---: |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Item teórico individual a definir](#topicos-individuais-dos-demais-integrantes) | — | — |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação inicial da página teórica](#historico-de-versao) | 04/09/2026 | — |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT](#introducao) | 05/09/2026 | — |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão e validação metodológica dos itens teóricos](#historico-de-versao) | 06/09/2026 | — |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão e conferência dos conceitos de IHC](#topicos-individuais-dos-demais-integrantes) | 06/09/2026 | 18:00 - 18:30 |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação inicial da página teórica e revisão metodológica](#historico-de-versao) | 04/09/2026 | 19:00 - 19:30 |
+| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT](#introducao) | 05/09/2026 | 20:00 - 20:30 |
+| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão e validação metodológica dos itens teóricos](#historico-de-versao) | 06/09/2026 | 18:30 - 19:00 |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa dos itens teóricos: Framework DECIDE e Avaliação Heurística (com citações, tabelas e evidências visuais)](#1-o-framework-decide-no-planejamento-da-avaliacao-de-ihc) | 06/09/2026 | 17:00 - 18:30 |
 
 ---

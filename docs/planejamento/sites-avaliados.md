@@ -4,10 +4,10 @@
 
 | Integrante | Contribuição | Data | Horário |
 | :--- | :--- | :---: | :---: |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Avaliação preliminar do Ministério Público Militar (MPM)](#ministerio-publico-militar-mpm) | 04/09/2026 | — |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Criação da estrutura da página, matriz de decisão e seções dos sites MPM, InfoSaúde, Enade e Domínio Público](#matriz-de-decisao) | 04/09/2026 | — |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Avaliação preliminar do InfoSaúde DF e referências ABNT](#infosaude-df) | 04/09/2026 | — |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Avaliação preliminar do Enade e revisão cruzada](#enade-inep) | 04/09/2026 | — |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Avaliação preliminar do Ministério Público Militar (MPM)](#ministerio-publico-militar-mpm) | 04/09/2026 | 18:30 - 19:00 |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Criação da estrutura da página, matriz de decisão e seções dos sites MPM, InfoSaúde, Enade e Domínio Público](#matriz-de-decisao) | 04/09/2026 | 19:00 - 19:45 |
+| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Avaliação preliminar do InfoSaúde DF e referências ABNT](#infosaude-df) | 04/09/2026 | 19:45 - 20:15 |
+| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Avaliação preliminar do Enade e revisão cruzada](#enade-inep) | 04/09/2026 | 20:15 - 20:45 |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Adição do BRB Mobilidade (avaliação heurística com Framework DECIDE), atualização da matriz e figuras](#brb-mobilidade) | 05/09/2026 | 20:00 - 20:30 |
 
 ---

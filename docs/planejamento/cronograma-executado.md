@@ -29,12 +29,12 @@ A Tabela 1 sintetiza o andamento real das atividades desenvolvidas durante a pri
 | Sites avaliados | 03/09 - 04/09 | 04/09 | Gustavo Antonio | 04/09 | Jonathan Carpaneda |
 | Site selecionado | 03/09 - 04/09 | 04/09 | Gustavo Antonio | 04/09 | Pedro Paulo |
 | Ferramentas | 03/09 - 05/09 | 05/09 | Jonathan Carpaneda | 05/09 | Gustavo Antonio |
-| Processos de Design | 04/09 - 05/09 | 05/09 | Jonathan Carpaneda, Vinicius Araruna | 05/09 | Vinicius Araruna |
+| Processos de Design | 04/09 - 05/09 | 05/09 | Vinicius Araruna, Jonathan Carpaneda | 05/09 - 06/09 | Pedro Paulo |
 | Criação do GitPage | 03/09 - 04/09 | 04/09 | Gustavo Antonio | 04/09 | Pedro Paulo |
 | Documentar Equipe | 04/09 - 04/09 | 04/09 | Pedro Paulo | 04/09 - 05/09 | Jonathan Carpaneda |
 | Cronograma e Quadro de Atribuições | 04/09 - 06/09 | 05/09 | Edvaldo Soares, Jonathan Carpaneda | 06/09 | Todos |
-| Gravação da apresentação | 07/09 - 07/09 | - | Todos | 07/09 | Todos |
-| Edição e publicação da apresentação | 08/09 - 09/09 | - | Todos | 09/09 | Todos |
+| Gravação da reunião e deliberação | 04/09 - 04/09 | 04/09 | Todos | 04/09 | Todos |
+| Edição e publicação da gravação | 04/09 - 05/09 | 05/09 | Pedro Paulo, Jonathan Carpaneda | 05/09 | Vinicius Araruna |
 
 _Fonte: Autores, 2026._
 

@@ -4,10 +4,10 @@
 
 | Integrante | Contribuição | Data | Horário |
 | :--- | :--- | :---: | :---: |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão das ferramentas de documentação](#historico-de-versao) | 05/09/2026 | — |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Seleção inicial das tecnologias de documentação e controle de versão](#historico-de-versao) | 04/09/2026 | — |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Detalhamento do uso prático das ferramentas e categorização de licenças](#detalhamento-do-uso-das-ferramentas) | 05/09/2026 | — |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão e validação das ferramentas de prototipação e design](#historico-de-versao) | 05/09/2026 | — |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão das ferramentas de documentação](#historico-de-versao) | 05/09/2026 | 21:00 - 21:30 |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Seleção inicial das tecnologias de documentação e controle de versão](#historico-de-versao) | 04/09/2026 | 19:00 - 19:30 |
+| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Detalhamento do uso prático das ferramentas e categorização de licenças](#detalhamento-do-uso-das-ferramentas) | 05/09/2026 | 20:00 - 20:45 |
+| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão e validação das ferramentas de prototipação e design](#historico-de-versao) | 05/09/2026 | 20:30 - 21:00 |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Criação da estrutura inicial, tabela de ferramentas, badges e justificativas técnicas](#ferramentas-utilizadas) | 05/09/2026 | 20:00 - 20:30 |
 
 ---
@@ -23,8 +23,6 @@ A Tabela 1 apresenta a relação consolidada das ferramentas e tecnologias adota
 ---
 
 ## Ferramentas Utilizadas
-
-<div align="center">
 
 **Tabela 1** — Ferramentas e tecnologias utilizadas no projeto
 
@@ -44,8 +42,6 @@ A Tabela 1 apresenta a relação consolidada das ferramentas e tecnologias adota
 | <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp"> **WhatsApp** | Comunicação Instantânea | Canal de mensagens rápidas para avisos operacionais urgentes, compartilhamento de links e lembretes de prazos. | Gratuito | Alta taxa de resposta e conveniência móvel para comunicação assíncrona diária entre os membros. |
 
 _Fonte: Elaborada pelos autores ([Vinicius Araruna](https://github.com/ViniciusA05) e [Jonathan Carpaneda](https://github.com/Jonathan-Carpaneda)), 2026._
-
-</div>
 
 ---
 
