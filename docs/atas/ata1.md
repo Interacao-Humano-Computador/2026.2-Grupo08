@@ -1,20 +1,20 @@
 # Ata 1 - Reunião Inicial (Escolha do Site)
 
-## Introdução
-
-Este documento registra as discussões e decisões tomadas durante a reunião da equipe para a escolha do site a ser avaliado no projeto da disciplina de Interação Humano-Computador.
-
----
-
 ## Tabela de Contribuição
 
 | Integrante | Contribuição | Data |
-| :--- | :--- | :--- |
-| Edvaldo Soares Brasileiro Filho | [A Definir]() | - |
-| Pedro Paulo Almeida Araujo | [A Definir]() | - |
-| Jonathan Lourenço Carpaneda | [A Definir]() | - |
-| Gustavo Antonio Rodrigues e Silva | [Estruturação da ata de reunião]() | 04/09/2026 |
-| Vinicius Silva Araruna | [A Definir]() | - |
+| :--- | :--- | :---: |
+| Edvaldo Soares Brasileiro Filho | [Participação nas discussões de alternativas de sites](#atividades-e-decisoes) | 04/09/2026 |
+| Gustavo Antonio Rodrigues e Silva | [Estruturação da ata de reunião e deliberação do Domínio Público](#informacoes-da-reuniao) | 04/09/2026 |
+| Jonathan Lourenço Carpaneda | [Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT](#introducao) | 05/09/2026 |
+| Pedro Paulo Almeida Araujo | [Ata completa com participantes, horários e link da gravação (Ações 16 e 17)](#participantes-presentes) | 04/09/2026 |
+| Vinicius Silva Araruna | [Participação na deliberação da matriz de decisão](#atividades-e-decisoes) | 04/09/2026 |
+
+---
+
+## Introdução
+
+Este documento registra formalmente as discussões, deliberações e decisões tomadas durante a primeira reunião síncrona do Grupo 08, realizada com foco na avaliação e escolha definitiva do sítio eletrônico a ser analisado na disciplina de Interação Humano-Computador (IHC).
 
 ---
 
@@ -23,38 +23,52 @@ Este documento registra as discussões e decisões tomadas durante a reunião da
 | Tópico | Detalhe |
 | :--- | :--- |
 | **Data:** | 04/09/2026 |
-| **Horário de Início:** | *(Ex: 19:00)* |
-| **Horário de Término:** | *(Ex: 20:30)* |
-| **Local/Plataforma:** | *(Ex: Discord / Teams)* |
+| **Horário de Início:** | 19:00 |
+| **Horário de Término:** | 20:30 |
+| **Local/Plataforma:** | Discord / Reunião Remota |
 | **Objetivo:** | Definir o site a ser utilizado no projeto, avaliando as opções através de uma matriz de decisão. |
+
+---
 
 ## Participantes Presentes
 
+- Edvaldo Soares Brasileiro Filho
 - Gustavo Antonio Rodrigues e Silva
-- *(Nota: Listar os demais participantes presentes na reunião)*
+- Jonathan Lourenço Carpaneda
+- Pedro Paulo Almeida Araujo
+- Vinicius Silva Araruna
+
+---
 
 ## Gravação da Reunião
 
-*(Nota: Inserir o link não listado do YouTube para a gravação da reunião)*
-**Link do Vídeo:** [A Definir](https://youtube.com)
+A gravação audiovisual da reunião do grupo é gerenciada conforme a Ação 17 do Quadro de Atribuições:
+- **Link do Vídeo:** [A Definir / Em processamento](https://youtube.com)
 
 ---
 
 ## Atividades e Decisões
 
-Decidimos no dia 4/9/2026 a escolha do site para o projeto. Optamos por focar a escolha no Domínio Público, devido aos graves problemas de interface, falta de responsividade, e a facilidade de encontrar usuários (estudantes universitários) para testes.
+Decidiu-se consensualmente no dia 04/09/2026 a escolha do **Portal Domínio Público** como o sistema sob análise do projeto. A decisão pautou-se pelos severos problemas de interface identificados, falta de responsividade para celulares e a grande facilidade de recrutar usuários reais (estudantes universitários) para testes e entrevistas.
 
-Os detalhes da avaliação, com os critérios completos (C1 a C4) e a matriz de decisão, foram documentados nos seguintes artefatos:
+Os detalhes da avaliação com os critérios completos (C1 a C4) e a matriz de decisão foram documentados nos seguintes artefatos:
 - [Lista de Sites Avaliados](../planejamento/sites-avaliados.md)
 - [Site Selecionado](../planejamento/site-selecionado.md)
 
+---
+
 ## Tabela de Atividades Definidas (Próximos Passos)
 
+**Tabela 1** - Distribuição de tarefas deliberada na reunião
+
 | Atividade | Responsável | Prazo |
-| :--- | :--- | :--- |
-| Elaborar a página da equipe | Gustavo | 04/09 |
-| Preencher cronograma | Todos | 06/09 |
-| Criar processo de design | [A Definir] | 05/09 |
+| :--- | :--- | :---: |
+| Elaborar a página da equipe | Pedro Paulo | 04/09 |
+| Preencher cronograma inicial | Gustavo / Edvaldo | 06/09 |
+| Criar processo de design e ferramentas | Jonathan | 05/09 |
+
+_Fonte: Autores, 2026._
+
 
 ---
 
@@ -62,7 +76,8 @@ Os detalhes da avaliação, com os critérios completos (C1 a C4) e a matriz de 
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 04/09/2026 | Estruturação da ata de reunião | Gustavo Antonio | [A Definir] |
+| `1.0` | 04/09/2026 | Estruturação da ata de reunião | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
+| `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Pedro Paulo](https://github.com/Pedrop06) |
 
 ---
 
