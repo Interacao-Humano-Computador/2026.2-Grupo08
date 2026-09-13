@@ -145,12 +145,14 @@ html {
   font-weight: 700;
 }
 
-/* Logo no header — mostra a imagem mas mantém comportamento */
+/* Logo no header — com fundo branco arredondado para combinar com a logo */
 .md-header__button.md-logo img {
   height: 2rem;
   width: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1); /* deixa branco sobre o navy */
+  background: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
 }
 
 /* ============================================================
@@ -399,9 +401,11 @@ html {
 }
 
 .dp-splash-logo img {
-  width: 160px;
+  width: 180px;
   height: auto;
-  filter: brightness(0) invert(1);
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
   display: block;
 }
 
