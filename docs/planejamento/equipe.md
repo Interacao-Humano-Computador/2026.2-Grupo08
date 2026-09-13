@@ -36,7 +36,6 @@ A Tabela 1 apresenta a composição oficial do Grupo 08, exibindo a fotografia d
 
 _Fonte: [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) e [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda), 2026._
 
-
 ---
 
 ## Histórico de Versão

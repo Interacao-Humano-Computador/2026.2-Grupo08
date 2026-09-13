@@ -1,25 +1,51 @@
 site_name: IHC 2026.2 - Grupo 08
-site_description: Documentação do projeto de Interação Humano-Computador
+site_description: Documentação do projeto de Interação Humano-Computador do Grupo 08, FCTE/UnB, 2026.2.
+site_author: Grupo 08 — IHC 2026.2
+site_url: https://interacao-humano-computador.github.io/2026.2-Grupo08/
+
+repo_url: https://github.com/Interacao-Humano-Computador/2026.2-Grupo08
+repo_name: 2026.2-Grupo08
+edit_uri: edit/main/docs/
+
+copyright: Grupo 08 · Interação Humano-Computador · FCTE/UnB · 2026.2
+
 theme:
   name: material
   language: pt-BR
+  favicon: assets/images_prints/LOGO_DOMINIO_PUBLICO.png
+  logo: assets/images_prints/LOGO_DOMINIO_PUBLICO.png
+  font:
+    text: IBM Plex Serif
+    code: IBM Plex Mono
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
   palette:
-    # Esquema de cores claro
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
+    - scheme: default
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-7
-        name: Alternar para modo escuro (alto contraste)
-    # Esquema de cores escuro (alto contraste)
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
+        icon: material/weather-night
+        name: Ativar modo escuro
+    - scheme: slate
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-4
-        name: Alternar para modo claro
+        icon: material/weather-sunny
+        name: Ativar modo claro
+
+extra_css:
+  - assets/css/extra.css
+
 markdown_extensions:
   - tables
   - attr_list

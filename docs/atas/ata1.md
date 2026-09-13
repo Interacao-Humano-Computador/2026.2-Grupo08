@@ -69,7 +69,6 @@ Os detalhes da avaliação com os critérios completos (C1 a C4) e a matriz de d
 
 _Fonte: Autores, 2026._
 
-
 ---
 
 ## Histórico de Versão
