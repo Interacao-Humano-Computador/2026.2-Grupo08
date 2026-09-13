@@ -29,7 +29,7 @@ Abaixo estão listadas todas as ações necessárias e o membro da equipe respon
 | **15** | O cronograma executado demonstra quem realizou cada artefato/atividade com as datas de início e fim reais. | Pedro Paulo | ⏳ Pendente |
 | **16** | Ata(s) da(s) reuniões completa(s) com data, horário de início e fim, participantes, objetivo, atividades definidas. | Pedro Paulo | ⏳ Pendente |
 | **17** | Subir e linkar a gravação da reunião do grupo. | Pedro Paulo | ⏳ Pendente |
-| **18** | Vídeo de apresentação na categoria "não listado" no YouTube. | **Todos** | ⏳ Pendente |
+| **18** | Vídeo de apresentação na categoria "não listado" no YouTube. | **Todos** | ✅ Concluído |
 | **19** | Tabela de contribuição no início do artefato com o nome de todos os integrantes com a contribuição e hiperligação. | Jonathan | ⏳ Pendente |
 | **20** | A seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa nos artefatos. | Edvaldo | ⏳ Pendente |
 | **21** | Justificativa da escolha do Processo de Design (Adicionar referência bibliográfica, foto do texto da referência e Autores). | Vinicius | ⏳ Pendente |

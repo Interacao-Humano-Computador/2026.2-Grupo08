@@ -55,7 +55,6 @@ Os detalhes da avaliação, com os critérios completos (C1 a C4) e a matriz de 
 | :--- | :--- | :--- |
 | Elaborar a página da equipe | Gustavo | 04/09 |
 | Preencher cronograma | Todos | 06/09 |
-| Criar processo de design | [A Definir] | 05/09 |
 
 ---
 
@@ -63,7 +62,7 @@ Os detalhes da avaliação, com os critérios completos (C1 a C4) e a matriz de 
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 04/09/2026 | Estruturação da ata de reunião | Gustavo Antonio | [A Definir] |
+| `1.0` | 04/09/2026 | Estruturação da ata de reunião | Gustavo Antonio | Pedro Paulo |
 
 ---
 
