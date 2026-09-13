@@ -1,0 +1,600 @@
+/* ============================================================
+   DOMÍNIO PÚBLICO — Paleta Gov.br / MEC
+   Grupo 08 · IHC 2026.2 · FCTE/UnB
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;700&display=swap");
+
+/* ---- Variáveis de cor (modo claro) ---- */
+:root {
+  /* Identidade Gov.br / MEC — azul navy + amarelo ouro */
+  --dp-navy:       #071D41;   /* azul marinha governo federal */
+  --dp-navy-2:     #1351B4;   /* azul principal gov.br */
+  --dp-navy-light: #2670E8;   /* azul claro interativo */
+  --dp-gold:       #FFCD07;   /* amarelo ouro gov.br */
+  --dp-gold-dark:  #B8920A;   /* dourado escuro (texto sobre fundo claro) */
+
+  /* Superfícies */
+  --dp-bg:         #F8F9FA;
+  --dp-card:       #FFFFFF;
+  --dp-border:     #D0D5DD;
+
+  /* Texto */
+  --dp-text:       #1B1C1E;
+  --dp-muted:      #505A64;
+
+  /* Largura máxima */
+  --dp-width:      82rem;
+}
+
+/* ---- Tokens do Material (modo claro) ---- */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:              #071D41;
+  --md-primary-fg-color--light:       #1351B4;
+  --md-primary-fg-color--dark:        #040F24;
+  --md-accent-fg-color:               #1351B4;
+  --md-accent-fg-color--transparent:  rgba(19, 81, 180, 0.12);
+  --md-default-bg-color:              #F8F9FA;
+  --md-default-fg-color:              #1B1C1E;
+  --md-default-fg-color--light:       #505A64;
+  --md-default-fg-color--lighter:     #8A929C;
+  --md-default-fg-color--lightest:    rgba(27, 28, 30, 0.08);
+  --md-typeset-color:                 #1B1C1E;
+  --md-typeset-a-color:               #1351B4;
+  --md-code-bg-color:                 #EFF1F5;
+  --md-code-fg-color:                 #071D41;
+  --md-footer-bg-color:               #071D41;
+  --md-footer-bg-color--dark:         #040F24;
+  --md-footer-fg-color:               rgba(248, 249, 250, 0.9);
+  --md-footer-fg-color--light:        rgba(248, 249, 250, 0.65);
+}
+
+/* ---- Tokens do Material (modo escuro) ---- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:              #1351B4;
+  --md-primary-fg-color--light:       #2670E8;
+  --md-primary-fg-color--dark:        #071D41;
+  --md-accent-fg-color:               #FFCD07;
+  --md-accent-fg-color--transparent:  rgba(255, 205, 7, 0.15);
+  --md-default-bg-color:              #121824;
+  --md-default-fg-color:              #E8EBF0;
+  --md-default-fg-color--light:       #9AA5B4;
+  --md-default-fg-color--lighter:     #4A5568;
+  --md-typeset-color:                 #E8EBF0;
+  --md-typeset-a-color:               #FFCD07;
+  --md-code-bg-color:                 #1A2234;
+  --md-code-fg-color:                 #CBD5E0;
+  --md-footer-bg-color:               #0A1628;
+  --md-footer-bg-color--dark:         #060E1C;
+  --md-footer-fg-color:               rgba(232, 235, 240, 0.9);
+  --md-footer-fg-color--light:        rgba(232, 235, 240, 0.6);
+}
+
+/* ============================================================
+   TIPOGRAFIA
+   ============================================================ */
+
+html {
+  font-size: 112%;
+  scroll-padding-top: 7rem;
+}
+
+/* Corpo do texto: IBM Plex Serif (serifado, remete a documentos acadêmicos) */
+.md-typeset {
+  font-family: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  font-size: 1.0rem;
+  line-height: 1.7;
+}
+
+/* Headings, header, tabs e nav: IBM Plex Sans */
+.md-header,
+.md-header__title,
+.md-header__topic,
+.md-tabs,
+.md-tabs__link,
+.md-nav,
+.md-search,
+.md-footer,
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5 {
+  font-family: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+}
+
+/* ============================================================
+   LAYOUT — LARGURA MÁXIMA
+   ============================================================ */
+
+.md-grid,
+.md-header__inner,
+.md-tabs__inner,
+.md-footer__inner,
+.md-main__inner {
+  max-width: var(--dp-width);
+  margin-inline: auto;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+.md-header {
+  background: var(--dp-navy);
+  box-shadow: 0 2px 0 0 var(--dp-gold);
+  min-height: 4rem;
+}
+
+.md-header--shadow {
+  box-shadow: 0 2px 0 0 var(--dp-gold);
+}
+
+.md-header__inner {
+  padding: 0.6rem 1.2rem;
+}
+
+.md-header__button,
+.md-header__title,
+.md-header__topic {
+  color: #F8F9FA;
+}
+
+.md-header__title {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+/* Logo no header — mostra a imagem mas mantém comportamento */
+.md-header__button.md-logo img {
+  height: 2rem;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* deixa branco sobre o navy */
+}
+
+/* ============================================================
+   TABS DE NAVEGAÇÃO
+   ============================================================ */
+
+.md-tabs {
+  background: var(--dp-navy);
+  border-bottom: 3px solid var(--dp-gold);
+}
+
+.md-tabs .md-grid,
+.md-tabs__inner {
+  padding: 0 1.2rem;
+}
+
+.md-tabs__link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(248, 249, 250, 0.75);
+  opacity: 1;
+  margin-top: 0;
+  padding: 0.75rem 0 0.65rem;
+  transition: color 0.2s ease;
+}
+
+.md-tabs__item--active .md-tabs__link,
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: var(--dp-gold);
+}
+
+/* ============================================================
+   TIPOGRAFIA DE CONTEÚDO
+   ============================================================ */
+
+.md-typeset h1 {
+  font-size: clamp(2.2rem, 4.5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin: 0 0 1.2rem;
+  color: var(--dp-navy);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: #E8EBF0;
+}
+
+.md-typeset h2 {
+  font-size: clamp(1.4rem, 2.5vw, 1.75rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin: 2.4rem 0 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--dp-gold);
+}
+
+.md-typeset h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+}
+
+.md-typeset a {
+  color: var(--dp-navy-2);
+  font-weight: 500;
+  text-decoration-color: rgba(19, 81, 180, 0.3);
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+.md-typeset a:hover {
+  color: var(--dp-navy);
+  text-decoration-color: var(--dp-gold);
+}
+
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: var(--dp-gold);
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: #FFE066;
+}
+
+/* Âncoras (headerlink) */
+.md-typeset .headerlink {
+  opacity: 0;
+  color: var(--dp-gold-dark);
+  transition: opacity 0.2s;
+}
+
+.md-typeset h1:hover .headerlink,
+.md-typeset h2:hover .headerlink,
+.md-typeset h3:hover .headerlink,
+.md-typeset .headerlink:focus {
+  opacity: 1;
+}
+
+/* ============================================================
+   SIDEBAR / NAV LATERAL
+   ============================================================ */
+
+.md-sidebar {
+  padding: 1rem 0 2rem;
+}
+
+.md-nav__link {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  padding: 0.33rem 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.md-nav__link--active {
+  color: var(--dp-navy-2);
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: var(--dp-gold);
+}
+
+/* ============================================================
+   BUSCA
+   ============================================================ */
+
+.md-search__form {
+  border-radius: 0.4rem;
+  background: rgba(248, 249, 250, 0.12);
+  height: 2.2rem;
+}
+
+/* ============================================================
+   TABELAS
+   ============================================================ */
+
+.md-typeset table:not([class]) {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92rem;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--dp-navy);
+  color: #F8F9FA;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  padding: 0.65rem 1rem;
+  text-align: left;
+  border: none;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.55rem 1rem;
+  border-bottom: 1px solid var(--dp-border);
+}
+
+.md-typeset table:not([class]) tr:nth-child(even) td {
+  background: rgba(19, 81, 180, 0.04);
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: rgba(255, 205, 7, 0.08);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background: #0A1628;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) td {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* ============================================================
+   BLOCOS DE CÓDIGO
+   ============================================================ */
+
+.md-typeset code {
+  background: #EFF1F5;
+  color: #071D41;
+  border-radius: 0.25rem;
+  font-size: 0.88em;
+  padding: 0.1em 0.35em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background: #1A2234;
+  color: #CBD5E0;
+}
+
+.md-typeset pre > code {
+  background: transparent;
+  padding: 0;
+}
+
+/* ============================================================
+   SPLASH — LANDING PAGE INICIAL
+   ============================================================ */
+
+/* Remove padding top quando há splash */
+.md-content__inner:has(.dp-splash) {
+  padding-top: 0;
+}
+
+.dp-splash {
+  background: linear-gradient(135deg, var(--dp-navy) 0%, #1351B4 100%);
+  border-radius: 0 0 0.75rem 0.75rem;
+  padding: 3.5rem 2rem 3rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Listras douradas decorativas no canto direito */
+.dp-splash::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 180px;
+  height: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 12px,
+    rgba(255, 205, 7, 0.07) 12px,
+    rgba(255, 205, 7, 0.07) 14px
+  );
+  pointer-events: none;
+}
+
+.dp-splash-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.dp-splash-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dp-splash-logo img {
+  width: 160px;
+  height: auto;
+  filter: brightness(0) invert(1);
+  display: block;
+}
+
+.dp-splash-link {
+  display: inline-block;
+  background: var(--dp-gold);
+  color: var(--dp-navy) !important;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.45rem 1rem;
+  border-radius: 0.35rem;
+  text-decoration: none !important;
+  transition: background 0.2s, transform 0.15s;
+  letter-spacing: 0.01em;
+}
+
+.dp-splash-link:hover {
+  background: #FFE066;
+  transform: translateY(-1px);
+}
+
+.dp-splash-copy {
+  color: #F8F9FA;
+}
+
+.dp-splash-eyebrow {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--dp-gold);
+  margin: 0 0 0.6rem;
+  display: block;
+}
+
+.dp-splash-copy h1 {
+  color: #F8F9FA !important;
+  font-size: clamp(2rem, 4vw, 2.8rem) !important;
+  margin: 0 0 0.8rem !important;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  border: none;
+}
+
+.dp-splash-lede {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: rgba(248, 249, 250, 0.88);
+  margin: 0 0 1.5rem;
+}
+
+.dp-splash-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.dp-quick-btn {
+  display: inline-block;
+  background: rgba(248, 249, 250, 0.12);
+  border: 1px solid rgba(248, 249, 250, 0.28);
+  color: #F8F9FA !important;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 0.5rem 1.1rem;
+  border-radius: 0.35rem;
+  text-decoration: none !important;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.dp-quick-btn:hover {
+  background: var(--dp-gold);
+  border-color: var(--dp-gold);
+  color: var(--dp-navy) !important;
+}
+
+/* Responsivo */
+@media screen and (max-width: 48em) {
+  .dp-splash-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .dp-splash-logo img {
+    width: 110px;
+    margin: 0 auto;
+  }
+
+  .dp-splash-nav {
+    justify-content: center;
+  }
+}
+
+/* ============================================================
+   CARTÕES DE MEMBROS DA EQUIPE
+   ============================================================ */
+
+.dp-team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+  margin: 1.5rem 0 2rem;
+}
+
+.dp-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  width: 110px;
+}
+
+.dp-member img {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--dp-gold);
+  display: block;
+}
+
+.dp-member-name {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--dp-text);
+  line-height: 1.3;
+}
+
+[data-md-color-scheme="slate"] .dp-member-name {
+  color: #E8EBF0;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+.md-footer {
+  background: var(--dp-navy);
+  border-top: 3px solid var(--dp-gold);
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.md-footer-meta {
+  background: #040F24;
+}
+
+/* ============================================================
+   BOTÃO VOLTAR AO TOPO
+   ============================================================ */
+
+.md-top {
+  background: var(--dp-navy) !important;
+  color: var(--dp-gold) !important;
+  border: 2px solid var(--dp-gold) !important;
+}
+
+/* ============================================================
+   ADMONITIONS PERSONALIZADOS
+   ============================================================ */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-left-width: 4px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+  background: rgba(19, 81, 180, 0.1);
+}
+
+.md-typeset .warning > .admonition-title,
+.md-typeset .warning > summary {
+  background: rgba(255, 205, 7, 0.15);
+}
+
+/* ============================================================
+   CONTENT WIDTH
+   ============================================================ */
+
+.md-content__inner {
+  padding-top: 1.8rem;
+  padding-bottom: 4rem;
+}
+
+.md-main__inner.md-grid {
+  max-width: var(--dp-width);
+}
