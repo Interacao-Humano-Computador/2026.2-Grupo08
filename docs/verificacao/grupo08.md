@@ -32,7 +32,7 @@ Este artefato apresenta a **auto-avaliação do Grupo 08** referente à Etapa 1 
 | 6 | O planejamento e avaliação dos sites selecionados? | ✅ Sim | [Sites Avaliados](../planejamento/sites-avaliados.md) com matriz de decisão (C1–C4) e avaliação de 5 candidatos. |
 | 7 | Possui opção de contraste de cores? | ✅ Sim | Alternância de tema claro/escuro configurada no MkDocs Material. Botões A-/A/A+ para tamanho de fonte. |
 | 8 | Os artefatos: Planejamento, equipe, sites avaliados, site selecionado, ferramentas, processo de design e cronograma? | ✅ Sim | Todos os artefatos presentes e publicados no GitPages. |
-| 9 | Uma página com as atas de reunião com o acesso à gravação (vídeo), quando houver? | ✅ Sim | [Ata 1](ata1.md) com link para o YouTube. [Ata 2](ata2.md) (reunião presencial de 07/09/2026). |
+| 9 | Uma página com as atas de reunião com o acesso à gravação (vídeo), quando houver? | ✅ Sim | [Ata 1](../atas/ata1.md) com link para o YouTube. [Ata 2](../atas/ata2.md) (reunião presencial de 07/09/2026). |
 
 _Fonte: Grupo 08, 2026._
 
@@ -50,7 +50,7 @@ _Fonte: Grupo 08, 2026._
 | 4 | As tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | ✅ Sim | Tabelas com "Tabela N — descrição" e imagens com "Figura N — descrição. (Fonte: ...)" em todos os artefatos. |
 | 5 | Um texto fazendo uma introdução dos artefatos? | ✅ Sim | Todos os artefatos possuem seção de "Introdução" contextualizando o documento. |
 | 6 | O cronograma executado com quem realizou cada artefato/atividade e as datas reais? | ✅ Sim | [Cronograma Executado](../planejamento/cronograma-executado.md) elaborado com datas e responsáveis reais. |
-| 7 | Ata(s) da(s) reuniões com data, horário, participantes, objetivo e atividades definidas? | ✅ Sim | [Ata 1](ata1.md) com todos os campos. [Ata 2](ata2.md) como registro da avaliação do Grupo +1. |
+| 7 | Ata(s) da(s) reuniões com data, horário, participantes, objetivo e atividades definidas? | ✅ Sim | [Ata 1](../atas/ata1.md) com todos os campos. [Ata 2](../atas/ata2.md) como registro da avaliação do Grupo +1. |
 | 8 | A gravação da reunião do grupo? | ✅ Sim | [Link do YouTube](https://www.youtube.com/watch?v=e9UGmkfeYXU) disponível na Ata 1. |
 | 9 | Vídeo de apresentação na categoria "não listado" no YouTube? | ⚠️ Pendente | A ser gravado e adicionado ao finalizar a Etapa 1. |
 | 10 | Tabela de contribuição no início do artefato com o nome de todos os integrantes com hiperligação? | ✅ Sim | Tabela de Contribuição no topo de todos os artefatos com links para as seções e perfis GitHub. |
