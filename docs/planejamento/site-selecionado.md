@@ -44,6 +44,32 @@ A Figura 1 exibe a tela inicial do Portal Domínio Público.
 
 ---
 
+## Escopo e Funcionalidades Avaliadas
+
+O Portal Domínio Público oferece funcionalidades de **pesquisa e acesso a obras**, sendo estas as funcionalidades centrais para a avaliação de IHC. É importante ressaltar que:
+
+- **Pesquisa de obras** (por título, autor, assunto, tipo de mídia etc.) e o **acesso/download de conteúdo** são as funcionalidades-alvo do projeto — por serem as que o usuário anônimo realiza com maior frequência e onde os problemas de usabilidade são mais críticos.
+- **Cadastro e consulta de conta de usuário** não são considerados funcionalidades centrais para a avaliação, pois pressupõem que o usuário já está cadastrado. O foco da análise está nos fluxos de acesso ao acervo sem necessidade de autenticação.
+
+---
+
+## Nível de Dificuldade do Site
+
+O Portal Domínio Público foi reavaliado e classificado como de **nível de dificuldade ALTO** para avaliação de IHC, pelos seguintes motivos:
+
+| Fator | Avaliação |
+| :--- | :---: |
+| Interface desatualizada (HTML 3/4, sem CSS moderno) | 🔴 Alto impacto |
+| Ausência total de responsividade para mobile | 🔴 Alto impacto |
+| Busca com múltiplos filtros não intuitivos e sobrecarga cognitiva | 🔴 Alto impacto |
+| Falta de pré-visualização de documentos | 🟡 Médio impacto |
+| Nomenclatura e rótulos ambíguos na navegação | 🟡 Médio impacto |
+| Ausência de feedback ao usuário em ações | 🟡 Médio impacto |
+
+> **Nota:** Apesar da alta dificuldade técnica do portal, isso representa uma **vantagem pedagógica** — há muitas oportunidades de melhoria identificáveis e mensuráveis ao longo do semestre.
+
+---
+
 ## Problemas Encontrados
 
 Durante a análise exploratória preliminar, a equipe identificou diversas oportunidades críticas de melhoria na experiência do usuário:

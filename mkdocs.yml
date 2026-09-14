@@ -11,6 +11,7 @@ copyright: Grupo 08 · Interação Humano-Computador · FCTE/UnB · 2026.2
 
 theme:
   name: material
+  custom_dir: docs/overrides
   language: pt-BR
   favicon: assets/images_prints/LOGO_DOMINIO_PUBLICO.png
   logo: assets/images_prints/LOGO_DOMINIO_PUBLICO.png
@@ -69,5 +70,8 @@ nav:
   - Atas de Reunião:
     - Índice de Atas: atas/index.md
     - Reunião 04/09/2026: atas/ata1.md
+    - Reunião 07/09/2026 (Grupo +1): atas/ata2.md
+  - Verificação:
+    - Auto-Avaliação (Grupo 08): verificacao/grupo08.md
   - Conteúdo Teórico:
     - Itens Avaliados: conteudo-teorico/index.md

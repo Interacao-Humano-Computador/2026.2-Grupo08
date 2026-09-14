@@ -37,9 +37,9 @@ A Tabela 1 apresenta as atividades planejadas para a primeira etapa do projeto.
 | Infraestrutura MkDocs, Tema e Deploy | 03/09 - 04/09 | Gustavo Antonio | 04/09 - 05/09 | Vinicius Araruna |
 | Cronograma Planejado (Etapas 1 a 8) e Executado | 04/09 - 06/09 | Vinicius Araruna | 06/09 | Edvaldo Soares |
 | Atas de Reunião 1 e Registro Audiovisual | 04/09 - 05/09 | Gustavo Antonio, Pedro Paulo | 05/09 - 06/09 | Jonathan Carpaneda |
-| Conteúdo Teórico da Disciplina (Ação 22) | 05/09 - 06/09 | Todos | 06/09 | Todos |
-| **Gravação da Apresentação da Etapa 1** | 06/09 - 06/09 | **Todos** | 06/09 | **Todos** |
-| **Ajustes e Correções pós-feedback da Etapa 1** | 08/09 - 10/09 | **Todos** | 10/09 - 11/09 | **Todos** |
+| Conteúdo Teórico da Disciplina (Ação 22) | 05/09 - 06/09 | Edvaldo Soares, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna, Gustavo Antonio | 06/09 | Edvaldo Soares, Vinicius Araruna |
+| **Gravação da Apresentação da Etapa 1** | 06/09 - 06/09 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 06/09 | **Gustavo Antonio, Pedro Paulo** |
+| **Ajustes e Correções pós-feedback da Etapa 1** | 08/09 - 10/09 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 10/09 - 11/09 | **Jonathan Carpaneda, Vinicius Araruna** |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -55,13 +55,13 @@ A Tabela 2 apresenta as atividades planejadas para a Etapa 2, com foco na compre
 | :--- | :---: | :--- | :---: | :--- |
 | Planejamento do Perfil de Usuário e Questionário | 08/09 - 13/09 | Edvaldo Soares, Pedro Paulo | 14/09 - 15/09 | Vinicius Araruna, Gustavo Antonio |
 | Aspectos Éticos em Pesquisas com Pessoas e TCLE | 09/09 - 14/09 | Edvaldo Soares, Jonathan Carpaneda | 15/09 - 16/09 | Vinicius Araruna, Pedro Paulo |
-| Coleta de Dados e Consolidação do Perfil | 14/09 - 18/09 | Todos | 18/09 - 19/09 | Todos |
+| Coleta de Dados e Consolidação do Perfil | 14/09 - 18/09 | Edvaldo Soares, Jonathan Carpaneda, Vinicius Araruna | 18/09 - 19/09 | Gustavo Antonio, Pedro Paulo |
 | Personas e Cenários de Interação | 15/09 - 20/09 | Gustavo Antonio, Jonathan Carpaneda | 21/09 - 22/09 | Edvaldo Soares, Pedro Paulo |
 | Análise de Tarefas HTA (Hierarchical Task Analysis) | 16/09 - 24/09 | Vinicius Araruna, Pedro Paulo, Edvaldo Soares | 24/09 - 25/09 | Gustavo Antonio, Jonathan Carpaneda |
 | Análise de Tarefas GOMS / KLM / CTT | 16/09 - 24/09 | Gustavo Antonio, Jonathan Carpaneda | 24/09 - 25/09 | Vinicius Araruna, Edvaldo Soares |
 | Atas de Reuniões da Etapa 2 | 08/09 - 25/09 | Pedro Paulo | 25/09 | Vinicius Araruna |
-| **Gravação da Apresentação da Etapa 2** | 25/09 - 26/09 | **Todos** | 26/09 - 27/09 | **Todos** |
-| **Ajustes e Correções pós-feedback da Etapa 2** | 30/09 - 02/10 | **Todos** | 02/10 - 03/10 | **Todos** |
+| **Gravação da Apresentação da Etapa 2** | 25/09 - 26/09 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 26/09 - 27/09 | **Gustavo Antonio, Pedro Paulo** |
+| **Ajustes e Correções pós-feedback da Etapa 2** | 30/09 - 02/10 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 02/10 - 03/10 | **Jonathan Carpaneda, Vinicius Araruna** |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -80,8 +80,8 @@ A Tabela 3 apresenta o planejamento da Etapa 3 (Fase de Análise de Requisitos s
 | Metas de Usabilidade e Metas de Experiência (UX) | 29/09 - 03/10 | Vinicius Araruna, Pedro Paulo | 03/10 - 04/10 | Edvaldo Soares, Jonathan Carpaneda |
 | Concepção Preliminar do Guia de Estilo | 30/09 - 04/10 | Gustavo Antonio, Jonathan Carpaneda | 04/10 - 05/10 | Vinicius Araruna, Edvaldo Soares |
 | Atas de Reuniões da Etapa 3 | 28/09 - 04/10 | Jonathan Carpaneda | 04/10 - 05/10 | Pedro Paulo |
-| **Gravação da Apresentação da Etapa 3** | 04/10 - 05/10 | **Todos** | 05/10 - 06/10 | **Todos** |
-| **Ajustes e Correções pós-feedback da Etapa 3** | 09/10 - 11/10 | **Todos** | 11/10 - 12/10 | **Todos** |
+| **Gravação da Apresentação da Etapa 3** | 04/10 - 05/10 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 05/10 - 06/10 | **Gustavo Antonio, Pedro Paulo** |
+| **Ajustes e Correções pós-feedback da Etapa 3** | 09/10 - 11/10 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 11/10 - 12/10 | **Jonathan Carpaneda, Vinicius Araruna** |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -101,8 +101,8 @@ A Tabela 4 organiza o planejamento das avaliações formativas iniciais da solu�
 | Planejamento do Relato da Avaliação de Tarefas | 04/10 - 09/10 | Pedro Paulo, Edvaldo Soares | 10/10 - 11/10 | Jonathan Carpaneda, Vinicius Araruna |
 | Planejamento do Teste-Piloto das Avaliações | 06/10 - 10/10 | Vinicius Araruna | 10/10 - 11/10 | Gustavo Antonio |
 | Atas de Reuniões da Etapa 4 | 01/10 - 10/10 | Gustavo Antonio | 11/10 | Edvaldo Soares |
-| **Gravação da Apresentação da Etapa 4** | 11/10 - 12/10 | **Todos** | 12/10 - 13/10 | **Todos** |
-| **Ajustes e Correções pós-feedback da Etapa 4** | 16/10 - 18/10 | **Todos** | 18/10 - 19/10 | **Todos** |
+| **Gravação da Apresentação da Etapa 4** | 11/10 - 12/10 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 12/10 - 13/10 | **Gustavo Antonio, Pedro Paulo** |
+| **Ajustes e Correções pós-feedback da Etapa 4** | 16/10 - 18/10 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 18/10 - 19/10 | **Jonathan Carpaneda, Vinicius Araruna** |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -122,8 +122,8 @@ A Tabela 5 detalha a execução dos relatos formativos e a preparação para a p
 | Planejamento do Relato do Protótipo de Papel | 17/10 - 22/10 | Jonathan Carpaneda, Edvaldo Soares | 22/10 - 23/10 | Pedro Paulo, Gustavo Antonio |
 | Planejamento e Condução do Teste-Piloto | 18/10 - 22/10 | Gustavo Antonio, Pedro Paulo | 22/10 - 23/10 | Vinicius Araruna, Jonathan Carpaneda |
 | Atas de Reuniões da Etapa 5 | 13/10 - 22/10 | Edvaldo Soares | 23/10 | Pedro Paulo |
-| **Gravação da Apresentação da Etapa 5** | 23/10 - 24/10 | **Todos** | 24/10 - 25/10 | **Todos** |
-| **Ajustes e Correções pós-feedback da Etapa 5** | 28/10 - 30/10 | **Todos** | 30/10 - 31/10 | **Todos** |
+| **Gravação da Apresentação da Etapa 5** | 23/10 - 24/10 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 24/10 - 25/10 | **Gustavo Antonio, Pedro Paulo** |
+| **Ajustes e Correções pós-feedback da Etapa 5** | 28/10 - 30/10 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 30/10 - 31/10 | **Jonathan Carpaneda, Vinicius Araruna** |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -137,14 +137,14 @@ A Tabela 6 organiza a transição dos protótipos de baixa fidelidade para a pro
 
 | Atividade / Artefato | Período Planejado para Desenvolvimento | Autores | Período Planejado para Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Confecção do Protótipo de Papel e Testes | 26/10 - 29/10 | Todos | 29/10 - 30/10 | Todos |
+| Confecção do Protótipo de Papel e Testes | 26/10 - 29/10 | Edvaldo Soares, Jonathan Carpaneda, Pedro Paulo | 29/10 - 30/10 | Gustavo Antonio, Vinicius Araruna |
 | Relato dos Resultados do Protótipo de Papel | 28/10 - 31/10 | Edvaldo Soares, Pedro Paulo | 31/10 - 01/11 | Vinicius Araruna, Gustavo Antonio |
 | Planejamento da Avaliação da Alta Fidelidade | 29/10 - 01/11 | Vinicius Araruna, Jonathan Carpaneda | 01/11 - 02/11 | Pedro Paulo, Edvaldo Soares |
 | Planejamento do Relato da Alta Fidelidade | 29/10 - 01/11 | Gustavo Antonio, Edvaldo Soares | 01/11 - 02/11 | Jonathan Carpaneda, Vinicius Araruna |
 | Planejamento do Teste-Piloto de Alta Fidelidade | 30/10 - 01/11 | Pedro Paulo | 01/11 - 02/11 | Gustavo Antonio |
 | Atas de Reuniões da Etapa 6 | 26/10 - 01/11 | Jonathan Carpaneda | 01/11 - 02/11 | Vinicius Araruna |
-| **Gravação da Apresentação da Etapa 6** | 01/11 - 02/11 | **Todos** | 02/11 - 03/11 | **Todos** |
-| **Ajustes e Correções pós-feedback da Etapa 6** | 06/11 - 08/11 | **Todos** | 08/11 - 09/11 | **Todos** |
+| **Gravação da Apresentação da Etapa 6** | 01/11 - 02/11 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 02/11 - 03/11 | **Gustavo Antonio, Pedro Paulo** |
+| **Ajustes e Correções pós-feedback da Etapa 6** | 06/11 - 08/11 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 08/11 - 09/11 | **Jonathan Carpaneda, Vinicius Araruna** |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -158,14 +158,14 @@ A Tabela 7 estrutura o desenvolvimento do protótipo de alta fidelidade e os tes
 
 | Atividade / Artefato | Período Planejado para Desenvolvimento | Autores | Período Planejado para Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Desenvolvimento do Protótipo de Alta Fidelidade no Figma | 03/11 - 08/11 | Todos | 08/11 - 09/11 | Todos |
+| Desenvolvimento do Protótipo de Alta Fidelidade no Figma | 03/11 - 08/11 | Gustavo Antonio, Pedro Paulo, Vinicius Araruna | 08/11 - 09/11 | Edvaldo Soares, Jonathan Carpaneda |
 | Execução do Teste-Piloto de Alta Fidelidade | 08/11 - 10/11 | Jonathan Carpaneda, Edvaldo Soares | 10/11 - 11/11 | Vinicius Araruna, Pedro Paulo |
-| Condução dos Testes de Usabilidade com Usuários | 09/11 - 12/11 | Todos | 12/11 - 13/11 | Todos |
+| Condução dos Testes de Usabilidade com Usuários | 09/11 - 12/11 | Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna | 12/11 - 13/11 | Gustavo Antonio, Vinicius Araruna |
 | Relato dos Resultados da Avaliação de Alta Fidelidade | 10/11 - 13/11 | Vinicius Araruna, Pedro Paulo | 13/11 - 14/11 | Gustavo Antonio, Edvaldo Soares |
 | Proposição de Diretrizes de Reprojeto | 11/11 - 14/11 | Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda | 14/11 - 15/11 | Vinicius Araruna, Pedro Paulo |
 | Atas de Reuniões da Etapa 7 | 03/11 - 14/11 | Pedro Paulo | 14/11 | Gustavo Antonio |
-| **Gravação da Apresentação da Etapa 7** | 13/11 - 14/11 | **Todos** | 14/11 - 15/11 | **Todos** |
-| **Ajustes e Correções pós-feedback da Etapa 7** | 18/11 - 20/11 | **Todos** | 20/11 - 21/11 | **Todos** |
+| **Gravação da Apresentação da Etapa 7** | 13/11 - 14/11 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 14/11 - 15/11 | **Gustavo Antonio, Pedro Paulo** |
+| **Ajustes e Correções pós-feedback da Etapa 7** | 18/11 - 20/11 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 20/11 - 21/11 | **Jonathan Carpaneda, Vinicius Araruna** |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -180,12 +180,12 @@ A Tabela 8 apresenta a fase final de garantia da qualidade, verificação dos ar
 | Atividade / Artefato | Período Planejado para Desenvolvimento | Autores | Período Planejado para Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
 | Planejamento da Verificação dos Artefatos do Grupo+1 | 15/11 - 18/11 | Vinicius Araruna, Edvaldo Soares | 18/11 - 19/11 | Pedro Paulo, Gustavo Antonio |
-| Inspeção e Relato de Verificação do Grupo+1 | 17/11 - 21/11 | Todos | 21/11 - 22/11 | Todos |
+| Inspeção e Relato de Verificação do Grupo+1 | 17/11 - 21/11 | Edvaldo Soares, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna, Gustavo Antonio | 21/11 - 22/11 | Gustavo Antonio, Vinicius Araruna |
 | Planejamento e Relato da Auto-Verificação (Grupo 08) | 18/11 - 21/11 | Pedro Paulo, Jonathan Carpaneda, Gustavo Antonio | 21/11 - 22/11 | Edvaldo Soares, Vinicius Araruna |
-| **Gravação da Apresentação da Etapa 8 (Verificação)** | 20/11 - 21/11 | **Todos** | 21/11 - 22/11 | **Todos** |
-| Ajustes e Correções pós-feedback da Etapa 8 | 25/11 - 27/11 | **Todos** | 27/11 - 28/11 | **Todos** |
-| Consolidação do Relatório Final do Projeto | 24/11 - 29/11 | Todos | 29/11 - 30/11 | Todos |
-| **Gravação da Apresentação Final do Projeto** | 28/11 - 29/11 | **Todos** | 29/11 - 30/11 | **Todos** |
+| **Gravação da Apresentação da Etapa 8 (Verificação)** | 20/11 - 21/11 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 21/11 - 22/11 | **Gustavo Antonio, Pedro Paulo** |
+| Ajustes e Correções pós-feedback da Etapa 8 | 25/11 - 27/11 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 27/11 - 28/11 | **Jonathan Carpaneda, Vinicius Araruna** |
+| Consolidação do Relatório Final do Projeto | 24/11 - 29/11 | Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna | 29/11 - 30/11 | Gustavo Antonio, Pedro Paulo |
+| **Gravação da Apresentação Final do Projeto** | 28/11 - 29/11 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 29/11 - 30/11 | **Pedro Paulo, Jonathan Carpaneda** |
 
 _Fonte: Elaborada pelos autores, 2026._
 

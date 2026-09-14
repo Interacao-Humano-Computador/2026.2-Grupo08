@@ -591,14 +591,111 @@ html {
 }
 
 /* ============================================================
-   CONTENT WIDTH
+   ACESSIBILIDADE — Widget de Tamanho de Fonte
    ============================================================ */
 
-.md-content__inner {
-  padding-top: 1.8rem;
-  padding-bottom: 4rem;
+/* Botões A-/A/A+ flutuantes */
+.dp-a11y-widget {
+  position: fixed;
+  bottom: 5rem;
+  right: 1.2rem;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
 
-.md-main__inner.md-grid {
-  max-width: var(--dp-width);
+.dp-a11y-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  background: var(--dp-navy);
+  color: var(--dp-gold);
+  border: 2px solid var(--dp-gold);
+  border-radius: 50%;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1;
+  transition: background 0.2s, color 0.2s;
+  text-decoration: none;
 }
+
+.dp-a11y-btn:hover {
+  background: var(--dp-gold);
+  color: var(--dp-navy);
+}
+
+[data-md-color-scheme="slate"] .dp-a11y-btn {
+  background: #1A2234;
+  border-color: var(--dp-gold);
+  color: var(--dp-gold);
+}
+
+[data-md-color-scheme="slate"] .dp-a11y-btn:hover {
+  background: var(--dp-gold);
+  color: var(--dp-navy);
+}
+
+/* ============================================================
+   LISTA DE VERIFICAÇÃO — Barras de Progresso
+   ============================================================ */
+
+.dp-checklist-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin: 1.2rem 0;
+}
+
+.dp-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.dp-bar-label {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  min-width: 10rem;
+  color: var(--dp-text);
+}
+
+[data-md-color-scheme="slate"] .dp-bar-label {
+  color: #E8EBF0;
+}
+
+.dp-bar-track {
+  flex: 1;
+  background: rgba(0,0,0,0.08);
+  border-radius: 0.5rem;
+  height: 1.6rem;
+  overflow: hidden;
+}
+
+[data-md-color-scheme="slate"] .dp-bar-track {
+  background: rgba(255,255,255,0.08);
+}
+
+.dp-bar-fill {
+  height: 100%;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.7rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: white;
+  min-width: 2.5rem;
+  transition: width 0.6s ease;
+}
+
+.dp-bar-ok   { background: #1B7A3E; }
+.dp-bar-warn { background: #B8920A; }
+.dp-bar-fail { background: #9B1C1C; }
+

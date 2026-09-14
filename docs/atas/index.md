@@ -27,6 +27,7 @@ A Tabela 1 lista as atas de reuniões realizadas pelo grupo ao longo do semestre
 | Ata | Data | Descrição / Objetivo | Gravação |
 | :---: | :---: | :--- | :---: |
 | [Ata 1 - Reunião Inicial](ata1.md) | 04/09/2026 | Decisão e escolha do site sob análise (Portal Domínio Público). | [Assistir no YouTube](https://www.youtube.com/watch?v=e9UGmkfeYXU) |
+| [Ata 2 - Avaliação do Grupo +1](ata2.md) | 07/09/2026 | Reunião presencial de avaliação dos artefatos da Etapa 1 do Grupo 01 (Oppia). | — |
 
 _Fonte: Autores, 2026._
 
