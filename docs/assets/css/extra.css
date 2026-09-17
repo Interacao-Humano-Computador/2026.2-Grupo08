@@ -147,12 +147,10 @@ html {
 
 /* Logo no header — com fundo branco arredondado para combinar com a logo */
 .md-header__button.md-logo img {
-  height: 2rem;
+  height: 2.2rem;
   width: auto;
   object-fit: contain;
-  background: white;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 /* ============================================================
@@ -401,12 +399,10 @@ html {
 }
 
 .dp-splash-logo img {
-  width: 180px;
+  width: 198px;
   height: auto;
-  background: white;
-  padding: 1rem;
-  border-radius: 8px;
   display: block;
+  border-radius: 6px;
 }
 
 .dp-splash-link {
@@ -495,7 +491,7 @@ html {
   }
 
   .dp-splash-logo img {
-    width: 110px;
+    width: 121px;
     margin: 0 auto;
   }
 

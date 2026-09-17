@@ -131,7 +131,7 @@ Para conhecer todas as ferramentas utilizadas pela equipe, consulte o artefato d
 | `1.4` | 05/09/2026 | Reestruturação da documentação da Etapa 1 e inclusão do quadro de atribuições | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.5` | 05/09/2026 | Adição do logo oficial e seção explicativa sobre o site selecionado (Portal Domínio Público) | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.6` | 05/09/2026 | Inclusão da tabela de contribuição no início, padronização e links das ferramentas e processo | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Gustavo Antonio](https://github.com/gus-ant) |
-| `1.7` | 13/09/2026 | Refatoração da página inicial para layout splash temático | [Gustavo Antonio](https://github.com/gus-ant) | — |
+| `1.7` | 13/09/2026 | Refatoração da página inicial para layout splash temático | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 
