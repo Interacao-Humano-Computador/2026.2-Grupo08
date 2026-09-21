@@ -1,73 +1,128 @@
 /* ============================================================
-   DOMÍNIO PÚBLICO — Paleta Gov.br / MEC
+   Redesign Visual — Estilo Diolinux Plus
    Grupo 08 · IHC 2026.2 · FCTE/UnB
    ============================================================ */
 
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;700&display=swap");
 
-/* ---- Variáveis de cor (modo claro) ---- */
+/* ---- Variáveis globais ---- */
 :root {
-  /* Identidade Gov.br / MEC — azul navy + amarelo ouro */
-  --dp-navy:       #071D41;   /* azul marinha governo federal */
-  --dp-navy-2:     #1351B4;   /* azul principal gov.br */
-  --dp-navy-light: #2670E8;   /* azul claro interativo */
-  --dp-gold:       #FFCD07;   /* amarelo ouro gov.br */
-  --dp-gold-dark:  #B8920A;   /* dourado escuro (texto sobre fundo claro) */
-
-  /* Superfícies */
-  --dp-bg:         #F8F9FA;
-  --dp-card:       #FFFFFF;
-  --dp-border:     #D0D5DD;
-
-  /* Texto */
-  --dp-text:       #1B1C1E;
-  --dp-muted:      #505A64;
-
   /* Largura máxima */
-  --dp-width:      82rem;
+  --dp-width: 82rem;
 }
 
-/* ---- Tokens do Material (modo claro) ---- */
+/* ---- Tokens do Material (Modo Claro) ---- */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color:              #071D41;
-  --md-primary-fg-color--light:       #1351B4;
-  --md-primary-fg-color--dark:        #040F24;
-  --md-accent-fg-color:               #1351B4;
-  --md-accent-fg-color--transparent:  rgba(19, 81, 180, 0.12);
-  --md-default-bg-color:              #F8F9FA;
-  --md-default-fg-color:              #1B1C1E;
-  --md-default-fg-color--light:       #505A64;
+  --dp-purple:       #7B2FFF;
+  --dp-magenta:      #E91E8C;
+  --dp-cyan:         #00D4FF;
+  --dp-bg:           #F4F4F8;
+  --dp-card:         #FFFFFF;
+  --dp-border:       #D0D5DD;
+  --dp-text:         #18181E;
+  --dp-muted:        #505A64;
+  --dp-header:       #0E0E12; /* Header escuro mesmo no claro, como a logo */
+
+  --md-primary-fg-color:              var(--dp-header);
+  --md-primary-fg-color--light:       var(--dp-purple);
+  --md-primary-fg-color--dark:        #000000;
+  --md-accent-fg-color:               var(--dp-purple);
+  --md-accent-fg-color--transparent:  rgba(123, 47, 255, 0.12);
+  --md-default-bg-color:              var(--dp-bg);
+  --md-default-fg-color:              var(--dp-text);
+  --md-default-fg-color--light:       var(--dp-muted);
   --md-default-fg-color--lighter:     #8A929C;
-  --md-default-fg-color--lightest:    rgba(27, 28, 30, 0.08);
-  --md-typeset-color:                 #1B1C1E;
-  --md-typeset-a-color:               #1351B4;
-  --md-code-bg-color:                 #EFF1F5;
-  --md-code-fg-color:                 #071D41;
-  --md-footer-bg-color:               #071D41;
-  --md-footer-bg-color--dark:         #040F24;
-  --md-footer-fg-color:               rgba(248, 249, 250, 0.9);
-  --md-footer-fg-color--light:        rgba(248, 249, 250, 0.65);
+  --md-default-fg-color--lightest:    rgba(24, 24, 30, 0.08);
+  --md-typeset-color:                 var(--dp-text);
+  --md-typeset-a-color:               var(--dp-purple);
+  --md-code-bg-color:                 #EAECEF;
+  --md-code-fg-color:                 var(--dp-header);
+  --md-footer-bg-color:               var(--dp-header);
+  --md-footer-bg-color--dark:         #070709;
+  --md-footer-fg-color:               rgba(244, 244, 248, 0.9);
+  --md-footer-fg-color--light:        rgba(244, 244, 248, 0.65);
 }
 
-/* ---- Tokens do Material (modo escuro) ---- */
+/* ---- Tokens do Material (Modo Escuro - Slate) ---- */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:              #1351B4;
-  --md-primary-fg-color--light:       #2670E8;
-  --md-primary-fg-color--dark:        #071D41;
-  --md-accent-fg-color:               #FFCD07;
-  --md-accent-fg-color--transparent:  rgba(255, 205, 7, 0.15);
-  --md-default-bg-color:              #121824;
-  --md-default-fg-color:              #E8EBF0;
-  --md-default-fg-color--light:       #9AA5B4;
+  --dp-purple:       #7B2FFF;
+  --dp-magenta:      #E91E8C;
+  --dp-cyan:         #00D4FF;
+  --dp-bg:           #0E0E12;
+  --dp-card:         #1A1A24;
+  --dp-border:       #2A2A3A;
+  --dp-text:         #E8E8F0;
+  --dp-muted:        #9AA5B4;
+  --dp-header:       #0E0E12;
+
+  --md-primary-fg-color:              var(--dp-header);
+  --md-primary-fg-color--light:       var(--dp-purple);
+  --md-primary-fg-color--dark:        #000000;
+  --md-accent-fg-color:               var(--dp-cyan);
+  --md-accent-fg-color--transparent:  rgba(0, 212, 255, 0.15);
+  --md-default-bg-color:              var(--dp-bg);
+  --md-default-fg-color:              var(--dp-text);
+  --md-default-fg-color--light:       var(--dp-muted);
   --md-default-fg-color--lighter:     #4A5568;
-  --md-typeset-color:                 #E8EBF0;
-  --md-typeset-a-color:               #FFCD07;
-  --md-code-bg-color:                 #1A2234;
-  --md-code-fg-color:                 #CBD5E0;
-  --md-footer-bg-color:               #0A1628;
-  --md-footer-bg-color--dark:         #060E1C;
-  --md-footer-fg-color:               rgba(232, 235, 240, 0.9);
-  --md-footer-fg-color--light:        rgba(232, 235, 240, 0.6);
+  --md-typeset-color:                 var(--dp-text);
+  --md-typeset-a-color:               var(--dp-cyan);
+  --md-code-bg-color:                 #14141C;
+  --md-code-fg-color:                 #E8E8F0;
+  --md-footer-bg-color:               #09090C;
+  --md-footer-bg-color--dark:         #040405;
+  --md-footer-fg-color:               rgba(232, 232, 240, 0.9);
+  --md-footer-fg-color--light:        rgba(232, 232, 240, 0.6);
+}
+
+/* ---- Tokens do Material (Alto Contraste) ---- */
+[data-md-color-scheme="contrast"] {
+  --dp-purple:       #FFFF00;
+  --dp-magenta:      #FFFF00;
+  --dp-cyan:         #FFFF00;
+  --dp-bg:           #000000;
+  --dp-card:         #000000;
+  --dp-border:       #FFFFFF;
+  --dp-text:         #FFFFFF;
+  --dp-muted:        #FFFFFF;
+  --dp-header:       #000000;
+
+  --md-primary-fg-color:              #000000;
+  --md-primary-fg-color--light:       #000000;
+  --md-primary-fg-color--dark:        #000000;
+  --md-accent-fg-color:               #FFFF00;
+  --md-accent-fg-color--transparent:  rgba(255, 255, 0, 0.15);
+  --md-default-bg-color:              #000000;
+  --md-default-fg-color:              #FFFFFF;
+  --md-default-fg-color--light:       #FFFFFF;
+  --md-default-fg-color--lighter:     #CCCCCC;
+  --md-typeset-color:                 #FFFFFF;
+  --md-typeset-a-color:               #FFFF00;
+  --md-code-bg-color:                 #000000;
+  --md-code-fg-color:                 #FFFFFF;
+  --md-footer-bg-color:               #000000;
+  --md-footer-bg-color--dark:         #000000;
+  --md-footer-fg-color:               #FFFFFF;
+  --md-footer-fg-color--light:        #FFFFFF;
+}
+
+/* Alto contraste - bordas explícitas em componentes */
+[data-md-color-scheme="contrast"] .md-header,
+[data-md-color-scheme="contrast"] .md-footer,
+[data-md-color-scheme="contrast"] .md-tabs,
+[data-md-color-scheme="contrast"] .dp-splash,
+[data-md-color-scheme="contrast"] .dp-splash::after,
+[data-md-color-scheme="contrast"] pre,
+[data-md-color-scheme="contrast"] .md-typeset table:not([class]),
+[data-md-color-scheme="contrast"] .md-search__form {
+  border: 2px solid #FFFFFF !important;
+  background: #000000 !important;
+  box-shadow: none !important;
+}
+[data-md-color-scheme="contrast"] .md-typeset h2 {
+  border-bottom: 2px solid #FFFFFF !important;
+}
+[data-md-color-scheme="contrast"] .md-typeset a {
+  text-decoration: underline;
 }
 
 /* ============================================================
@@ -79,14 +134,12 @@ html {
   scroll-padding-top: 7rem;
 }
 
-/* Corpo do texto: IBM Plex Serif (serifado, remete a documentos acadêmicos) */
 .md-typeset {
-  font-family: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
   font-size: 1.0rem;
   line-height: 1.7;
 }
 
-/* Headings, header, tabs e nav: IBM Plex Sans */
 .md-header,
 .md-header__title,
 .md-header__topic,
@@ -100,7 +153,7 @@ html {
 .md-typeset h3,
 .md-typeset h4,
 .md-typeset h5 {
-  font-family: "IBM Plex Sans", "Segoe UI", Arial, sans-serif;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
 }
 
 /* ============================================================
@@ -121,13 +174,12 @@ html {
    ============================================================ */
 
 .md-header {
-  background: var(--dp-navy);
-  box-shadow: 0 2px 0 0 var(--dp-gold);
+  background: var(--dp-header);
+  /* Borda gradiente inferior estilo Diolinux */
+  box-shadow: none;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, var(--dp-cyan), var(--dp-purple), var(--dp-magenta)) 1;
   min-height: 4rem;
-}
-
-.md-header--shadow {
-  box-shadow: 0 2px 0 0 var(--dp-gold);
 }
 
 .md-header__inner {
@@ -145,7 +197,6 @@ html {
   font-weight: 700;
 }
 
-/* Logo no header — com fundo branco arredondado para combinar com a logo */
 .md-header__button.md-logo img {
   height: 2.2rem;
   width: auto;
@@ -158,8 +209,8 @@ html {
    ============================================================ */
 
 .md-tabs {
-  background: var(--dp-navy);
-  border-bottom: 3px solid var(--dp-gold);
+  background: var(--dp-header);
+  border-bottom: 1px solid var(--dp-border);
 }
 
 .md-tabs .md-grid,
@@ -180,7 +231,7 @@ html {
 .md-tabs__item--active .md-tabs__link,
 .md-tabs__link--active,
 .md-tabs__link:hover {
-  color: var(--dp-gold);
+  color: var(--md-accent-fg-color);
 }
 
 /* ============================================================
@@ -193,11 +244,7 @@ html {
   letter-spacing: -0.03em;
   line-height: 1.1;
   margin: 0 0 1.2rem;
-  color: var(--dp-navy);
-}
-
-[data-md-color-scheme="slate"] .md-typeset h1 {
-  color: #E8EBF0;
+  color: var(--dp-text);
 }
 
 .md-typeset h2 {
@@ -206,7 +253,8 @@ html {
   letter-spacing: -0.025em;
   margin: 2.4rem 0 0.9rem;
   padding-bottom: 0.4rem;
-  border-bottom: 2px solid var(--dp-gold);
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, var(--dp-purple), var(--dp-magenta)) 1;
 }
 
 .md-typeset h3 {
@@ -216,29 +264,25 @@ html {
 }
 
 .md-typeset a {
-  color: var(--dp-navy-2);
+  color: var(--md-typeset-a-color);
   font-weight: 500;
-  text-decoration-color: rgba(19, 81, 180, 0.3);
+  text-decoration-color: var(--md-accent-fg-color--transparent);
   transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
 .md-typeset a:hover {
-  color: var(--dp-navy);
-  text-decoration-color: var(--dp-gold);
+  color: var(--dp-magenta);
+  text-decoration-color: var(--dp-magenta);
 }
 
-[data-md-color-scheme="slate"] .md-typeset a {
-  color: var(--dp-gold);
+[data-md-color-scheme="contrast"] .md-typeset a:hover {
+  color: #FFFF00;
+  text-decoration-color: #FFFF00;
 }
 
-[data-md-color-scheme="slate"] .md-typeset a:hover {
-  color: #FFE066;
-}
-
-/* Âncoras (headerlink) */
 .md-typeset .headerlink {
   opacity: 0;
-  color: var(--dp-gold-dark);
+  color: var(--dp-magenta);
   transition: opacity 0.2s;
 }
 
@@ -261,16 +305,11 @@ html {
   font-size: 0.9rem;
   line-height: 1.45;
   padding: 0.33rem 0;
-  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .md-nav__link--active {
-  color: var(--dp-navy-2);
+  color: var(--md-accent-fg-color);
   font-weight: 600;
-}
-
-[data-md-color-scheme="slate"] .md-nav__link--active {
-  color: var(--dp-gold);
 }
 
 /* ============================================================
@@ -279,7 +318,7 @@ html {
 
 .md-search__form {
   border-radius: 0.4rem;
-  background: rgba(248, 249, 250, 0.12);
+  background: rgba(255, 255, 255, 0.12);
   height: 2.2rem;
 }
 
@@ -294,13 +333,13 @@ html {
 }
 
 .md-typeset table:not([class]) th {
-  background: var(--dp-navy);
-  color: #F8F9FA;
-  font-family: "IBM Plex Sans", sans-serif;
+  background: var(--dp-header);
+  color: #FFFFFF;
   font-weight: 600;
   padding: 0.65rem 1rem;
   text-align: left;
   border: none;
+  border-bottom: 2px solid var(--dp-purple);
 }
 
 .md-typeset table:not([class]) td {
@@ -309,19 +348,11 @@ html {
 }
 
 .md-typeset table:not([class]) tr:nth-child(even) td {
-  background: rgba(19, 81, 180, 0.04);
+  background: rgba(123, 47, 255, 0.04);
 }
 
 .md-typeset table:not([class]) tr:hover td {
-  background: rgba(255, 205, 7, 0.08);
-}
-
-[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
-  background: #0A1628;
-}
-
-[data-md-color-scheme="slate"] .md-typeset table:not([class]) td {
-  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(233, 30, 140, 0.08);
 }
 
 /* ============================================================
@@ -329,16 +360,11 @@ html {
    ============================================================ */
 
 .md-typeset code {
-  background: #EFF1F5;
-  color: #071D41;
+  background: var(--md-code-bg-color);
+  color: var(--md-code-fg-color);
   border-radius: 0.25rem;
   font-size: 0.88em;
   padding: 0.1em 0.35em;
-}
-
-[data-md-color-scheme="slate"] .md-typeset code {
-  background: #1A2234;
-  color: #CBD5E0;
 }
 
 .md-typeset pre > code {
@@ -350,21 +376,24 @@ html {
    SPLASH — LANDING PAGE INICIAL
    ============================================================ */
 
-/* Remove padding top quando há splash */
 .md-content__inner:has(.dp-splash) {
   padding-top: 0;
 }
 
 .dp-splash {
-  background: linear-gradient(135deg, var(--dp-navy) 0%, #1351B4 100%);
+  background: linear-gradient(135deg, #0E0E12 0%, #1A0A2E 100%);
   border-radius: 0 0 0.75rem 0.75rem;
   padding: 3.5rem 2rem 3rem;
   margin-bottom: 2.5rem;
   position: relative;
   overflow: hidden;
+  border-bottom: 3px solid var(--dp-magenta);
 }
 
-/* Listras douradas decorativas no canto direito */
+[data-md-color-scheme="default"] .dp-splash {
+  background: linear-gradient(135deg, var(--dp-purple) 0%, #1A0A2E 100%);
+}
+
 .dp-splash::after {
   content: "";
   position: absolute;
@@ -376,8 +405,8 @@ html {
     45deg,
     transparent,
     transparent 12px,
-    rgba(255, 205, 7, 0.07) 12px,
-    rgba(255, 205, 7, 0.07) 14px
+    rgba(233, 30, 140, 0.1) 12px,
+    rgba(233, 30, 140, 0.1) 14px
   );
   pointer-events: none;
 }
@@ -407,9 +436,8 @@ html {
 
 .dp-splash-link {
   display: inline-block;
-  background: var(--dp-gold);
-  color: var(--dp-navy) !important;
-  font-family: "IBM Plex Sans", sans-serif;
+  background: var(--dp-magenta);
+  color: #FFFFFF !important;
   font-size: 0.82rem;
   font-weight: 700;
   padding: 0.45rem 1rem;
@@ -420,7 +448,8 @@ html {
 }
 
 .dp-splash-link:hover {
-  background: #FFE066;
+  background: var(--dp-cyan);
+  color: #000000 !important;
   transform: translateY(-1px);
 }
 
@@ -429,18 +458,17 @@ html {
 }
 
 .dp-splash-eyebrow {
-  font-family: "IBM Plex Sans", sans-serif;
   font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--dp-gold);
+  color: var(--dp-cyan);
   margin: 0 0 0.6rem;
   display: block;
 }
 
 .dp-splash-copy h1 {
-  color: #F8F9FA !important;
+  color: #FFFFFF !important;
   font-size: clamp(2rem, 4vw, 2.8rem) !important;
   margin: 0 0 0.8rem !important;
   letter-spacing: -0.04em;
@@ -449,10 +477,9 @@ html {
 }
 
 .dp-splash-lede {
-  font-family: "IBM Plex Serif", serif;
   font-size: 1.05rem;
   line-height: 1.65;
-  color: rgba(248, 249, 250, 0.88);
+  color: rgba(255, 255, 255, 0.88);
   margin: 0 0 1.5rem;
 }
 
@@ -464,10 +491,9 @@ html {
 
 .dp-quick-btn {
   display: inline-block;
-  background: rgba(248, 249, 250, 0.12);
-  border: 1px solid rgba(248, 249, 250, 0.28);
-  color: #F8F9FA !important;
-  font-family: "IBM Plex Sans", sans-serif;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #FFFFFF !important;
   font-size: 0.88rem;
   font-weight: 500;
   padding: 0.5rem 1.1rem;
@@ -477,24 +503,21 @@ html {
 }
 
 .dp-quick-btn:hover {
-  background: var(--dp-gold);
-  border-color: var(--dp-gold);
-  color: var(--dp-navy) !important;
+  background: var(--dp-cyan);
+  border-color: var(--dp-cyan);
+  color: #000000 !important;
 }
 
-/* Responsivo */
 @media screen and (max-width: 48em) {
   .dp-splash-grid {
     grid-template-columns: 1fr;
     text-align: center;
     gap: 1.5rem;
   }
-
   .dp-splash-logo img {
     width: 121px;
     margin: 0 auto;
   }
-
   .dp-splash-nav {
     justify-content: center;
   }
@@ -526,20 +549,15 @@ html {
   height: 78px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid var(--dp-gold);
+  border: 3px solid var(--dp-purple);
   display: block;
 }
 
 .dp-member-name {
-  font-family: "IBM Plex Sans", sans-serif;
   font-size: 0.82rem;
   font-weight: 600;
   color: var(--dp-text);
   line-height: 1.3;
-}
-
-[data-md-color-scheme="slate"] .dp-member-name {
-  color: #E8EBF0;
 }
 
 /* ============================================================
@@ -547,13 +565,12 @@ html {
    ============================================================ */
 
 .md-footer {
-  background: var(--dp-navy);
-  border-top: 3px solid var(--dp-gold);
-  font-family: "IBM Plex Sans", sans-serif;
+  background: var(--md-footer-bg-color);
+  border-top: 2px solid var(--dp-magenta);
 }
 
 .md-footer-meta {
-  background: #040F24;
+  background: var(--md-footer-bg-color--dark);
 }
 
 /* ============================================================
@@ -561,9 +578,9 @@ html {
    ============================================================ */
 
 .md-top {
-  background: var(--dp-navy) !important;
-  color: var(--dp-gold) !important;
-  border: 2px solid var(--dp-gold) !important;
+  background: var(--dp-header) !important;
+  color: var(--dp-cyan) !important;
+  border: 2px solid var(--dp-cyan) !important;
 }
 
 /* ============================================================
@@ -573,24 +590,22 @@ html {
 .md-typeset .admonition,
 .md-typeset details {
   border-left-width: 4px;
-  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .md-typeset .note > .admonition-title,
 .md-typeset .note > summary {
-  background: rgba(19, 81, 180, 0.1);
+  background: rgba(123, 47, 255, 0.1);
 }
 
 .md-typeset .warning > .admonition-title,
 .md-typeset .warning > summary {
-  background: rgba(255, 205, 7, 0.15);
+  background: rgba(233, 30, 140, 0.15);
 }
 
 /* ============================================================
    ACESSIBILIDADE — Widget de Tamanho de Fonte
    ============================================================ */
 
-/* Botões A-/A/A+ flutuantes */
 .dp-a11y-widget {
   position: fixed;
   bottom: 5rem;
@@ -607,11 +622,10 @@ html {
   justify-content: center;
   width: 2.4rem;
   height: 2.4rem;
-  background: var(--dp-navy);
-  color: var(--dp-gold);
-  border: 2px solid var(--dp-gold);
+  background: var(--dp-header);
+  color: var(--md-accent-fg-color);
+  border: 2px solid var(--md-accent-fg-color);
   border-radius: 50%;
-  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 700;
   cursor: pointer;
   font-size: 0.85rem;
@@ -621,19 +635,8 @@ html {
 }
 
 .dp-a11y-btn:hover {
-  background: var(--dp-gold);
-  color: var(--dp-navy);
-}
-
-[data-md-color-scheme="slate"] .dp-a11y-btn {
-  background: #1A2234;
-  border-color: var(--dp-gold);
-  color: var(--dp-gold);
-}
-
-[data-md-color-scheme="slate"] .dp-a11y-btn:hover {
-  background: var(--dp-gold);
-  color: var(--dp-navy);
+  background: var(--md-accent-fg-color);
+  color: var(--dp-header);
 }
 
 /* ============================================================
@@ -654,27 +657,18 @@ html {
 }
 
 .dp-bar-label {
-  font-family: "IBM Plex Sans", sans-serif;
   font-size: 0.88rem;
   font-weight: 600;
   min-width: 10rem;
   color: var(--dp-text);
 }
 
-[data-md-color-scheme="slate"] .dp-bar-label {
-  color: #E8EBF0;
-}
-
 .dp-bar-track {
   flex: 1;
-  background: rgba(0,0,0,0.08);
+  background: rgba(128,128,128,0.2);
   border-radius: 0.5rem;
   height: 1.6rem;
   overflow: hidden;
-}
-
-[data-md-color-scheme="slate"] .dp-bar-track {
-  background: rgba(255,255,255,0.08);
 }
 
 .dp-bar-fill {
@@ -683,7 +677,6 @@ html {
   display: flex;
   align-items: center;
   padding: 0 0.7rem;
-  font-family: "IBM Plex Sans", sans-serif;
   font-size: 0.82rem;
   font-weight: 700;
   color: white;
@@ -691,7 +684,6 @@ html {
   transition: width 0.6s ease;
 }
 
-.dp-bar-ok   { background: #1B7A3E; }
-.dp-bar-warn { background: #B8920A; }
-.dp-bar-fail { background: #9B1C1C; }
-
+.dp-bar-ok   { background: var(--dp-purple); }
+.dp-bar-warn { background: var(--dp-magenta); }
+.dp-bar-fail { background: var(--dp-cyan); color: #000; }

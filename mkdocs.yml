@@ -16,7 +16,7 @@ theme:
   favicon: assets/images_prints/LOGO_DIOLINUX.png
   logo: assets/images_prints/LOGO_DIOLINUX.png
   font:
-    text: IBM Plex Serif
+    text: Inter
     code: IBM Plex Mono
   features:
     - navigation.tracking
@@ -31,18 +31,24 @@ theme:
     - content.code.copy
     - toc.follow
   palette:
-    - scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: Ativar modo escuro
     - scheme: slate
       primary: custom
       accent: custom
       toggle:
         icon: material/weather-sunny
-        name: Ativar modo claro
+        name: Mudar para modo claro
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/contrast
+        name: Mudar para modo alto contraste
+    - scheme: contrast
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
 
 extra_css:
   - assets/css/extra.css
