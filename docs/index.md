@@ -71,14 +71,6 @@ O desenvolvimento do trabalho é orientado pelo [Processo de Design](planejament
     <span class="dp-member-name">Gustavo<br>Antonio</span>
   </div>
   <div class="dp-member">
-    <img src="https://github.com/Jonathan-Carpaneda.png" alt="Jonathan Lourenço">
-    <span class="dp-member-name">Jonathan<br>Lourenço</span>
-  </div>
-  <div class="dp-member">
-    <img src="https://github.com/Pedrop06.png" alt="Pedro Paulo">
-    <span class="dp-member-name">Pedro<br>Paulo</span>
-  </div>
-  <div class="dp-member">
     <img src="https://github.com/ViniciusA05.png" alt="Vinicius Araruna">
     <span class="dp-member-name">Vinicius<br>Araruna</span>
   </div>
@@ -118,6 +110,7 @@ O desenvolvimento do trabalho é orientado pelo [Processo de Design](planejament
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no topo e padronização ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.2` | 18/09/2026 | Atualização para o Fórum Diolinux Plus, nota de pivot da Etapa 1 e alinhamento do escopo | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.3` | 21/09/2026 | Redesign visual inspirado no Fórum Diolinux Plus e implementação do modo de alto contraste | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.4` | 25/09/2026 | Atualização da seção de integrantes para a nova composição com 3 membros | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 

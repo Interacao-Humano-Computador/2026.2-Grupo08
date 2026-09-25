@@ -51,8 +51,6 @@ A Tabela 2 lista os integrantes da equipe. A apresentação detalhada pode ser v
 | :---: | :--- | :---: |
 | <img src="docs/assets/equipe/edvaldo.jpg" alt="Foto de Edvaldo Soares Brasileiro Filho" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Edvaldo Soares Brasileiro Filho | [@PajeMurici-dev](https://github.com/PajeMurici-dev) |
 | <img src="docs/assets/equipe/gustavo.jpg" alt="Foto de Gustavo Antonio Rodrigues e Silva" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
-| <img src="docs/assets/equipe/jonathan.jpg" alt="Foto de Jonathan Lourenço Carpaneda" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) |
-| <img src="docs/assets/equipe/pedro.jpg" alt="Foto de Pedro Paulo Almeida Araujo" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) |
 | <img src="docs/assets/equipe/vinicius.png" alt="Foto de Vinicius Silva Araruna" width="80" height="80" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Vinicius Silva Araruna | [@ViniciusA05](https://github.com/ViniciusA05) |
 
 </div>
@@ -105,6 +103,7 @@ _Fonte: Elaborada pelos autores, 2026._
 | `1.4` | 13/09/2026 | Inclusão da logo e atualização sobre a avaliação preliminar | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.5` | 18/09/2026 | Atualização para o Fórum Diolinux Plus, nota de pivot da Etapa 1 e alinhamento do escopo | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Jonathan Lourenço](https://github.com/Jonathan-Carpaneda) |
 | `1.6` | 18/09/2026 | Reposicionamento da tabela de contribuição no topo e adição das referências ABNT | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
+| `1.7` | 25/09/2026 | Atualização da tabela de integrantes da equipe para os 3 membros ativos | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 
