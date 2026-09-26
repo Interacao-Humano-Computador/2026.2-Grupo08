@@ -139,9 +139,9 @@ Conforme sintetizado na Tabela 2, este perfil precisa localizar discussões pert
 
 ## Matriz Comparativa e Síntese dos Perfis de Usuário
 
-A Tabela 2 sintetiza a estrutura comparativa dos perfis de usuário do Fórum Diolinux Plus, registrando o Perfil 1 já consolidado e os espaços reservados aos demais integrantes.
+A Tabela 3 sintetiza a estrutura comparativa dos perfis de usuário do Fórum Diolinux Plus, registrando o Perfil 1 já consolidado e os espaços reservados aos demais integrantes.
 
-**Tabela 2** — Matriz comparativa dos perfis de usuário do Fórum Diolinux Plus
+**Tabela 3** — Matriz comparativa dos perfis de usuário do Fórum Diolinux Plus
 
 | Critério de Comparação | Perfil 1 (Entusiasta / Criador) | Perfil 2 (Iniciante / Onboarding) | Perfil 3 (Pesquisador / Buscador) |
 | :--- | :--- | :--- | :--- |
@@ -159,9 +159,9 @@ A matriz será revisada após a consolidação do Perfil 2 e a validação dos d
 
 ## Histórico de Versão
 
-A Tabela 3 documenta o histórico de versões deste artefato.
+A Tabela 4 documenta o histórico de versões deste artefato.
 
-**Tabela 3** — Histórico de versão do documento
+**Tabela 4** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
