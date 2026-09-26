@@ -52,38 +52,30 @@ Conforme ilustrado na Figura 1, o sítio eletrônico dispõe de uma interface de
 
 ## Escopo e Funcionalidades Avaliadas
 
-Para assegurar uma divisão de trabalho justa, equitativa e sem sobreposição entre os cinco integrantes da equipe, o escopo de análise foi estruturado em torno de **cinco funcionalidades nucleares**:
+Para assegurar uma divisão de trabalho justa, equitativa e focada na equipe atual composta por três integrantes, o escopo de análise foi estruturado em torno de **três funcionalidades nucleares**, englobando fluxos existentes e uma nova proposta de intervenção:
 
 ### 1. Criação e Edição de Tópicos com Formatação Rica
-Permite ao usuário publicar dúvidas, notícias ou tutoriais técnicos. O fluxo envolve a seleção de categorias e tags, preenchimento de título com verificação de duplicidades em tempo real, editor de texto com suporte a Markdown, atalhos de formatação de blocos de código e upload de imagens ou logs do sistema operacional.
+Permite ao usuário publicar dúvidas, notícias ou tutoriais técnicos. O fluxo envolve a seleção de categorias e tags, preenchimento de título, editor de texto com suporte a Markdown, atalhos de formatação de blocos de código e upload de imagens ou logs do sistema operacional.
 
-### 2. Busca Avançada e Mecanismos de Filtragem
-Mecanismo de pesquisa rápida e avançada permitindo a localização de soluções prévias. Permite combinar palavras-chave com múltiplos filtros booleanos (pesquisa restrita a categorias, busca por tags específicas, filtragem por autor, ordenação por relevância ou data e busca apenas em tópicos com soluções aceitas).
+### 2. Criação de Eventos Presenciais (Proposta de Nova Funcionalidade)
+Permite a organização de encontros locais, workshops e meetups para a comunidade. O fluxo interativo abrange a definição do evento (data, hora, local físico/mapa), configuração de lotação máxima, opções de pagamento de ingressos (gratuito ou pago) e emissão de ingressos, suprindo a necessidade de interação no mundo real.
 
-### 3. Painel de Preferências do Usuário e Gestão de Notificações
-Área de parametrização onde o usuário gerencia seu perfil público, preferências de interface (temas, acessibilidade visual e contraste), acompanhamento de tópicos (níveis de notificação: Silenciado, Normal, Rastreando e Observando) e canais de recebimento de avisos por e-mail ou push notifications.
-
-### 4. Moderação Comunitária e Sinalização de Conteúdo (Flags)
-Fluxo voltado à higienização do ambiente e segurança comunitária. Permite a membros e moderadores sinalizar publicações que infrinjam diretrizes éticas (spam, discurso ofensivo ou tópico em categoria inadequada), acionando fluxos de ocultação temporária, mensagens privadas automáticas e análise do corpo de moderadores.
-
-### 5. Interação Social e Concessão de Solução Aceita (Mark as Solution)
+### 3. Interação Social e Concessão de Solução Aceita (Mark as Solution)
 Em tópicos de suporte técnico e resolução de erros, o autor do tópico ou um moderador pode selecionar uma resposta específica como a solução oficial da dúvida. Isso insere um resumo no post inicial, destaca a mensagem no corpo da discussão e atualiza a reputação dos participantes.
 
-A Tabela 1 detalha a relação entre as funcionalidades avaliadas, a complexidade estimada e a oportunidade de análise em IHC.
+A Tabela 1 detalha a relação entre as funcionalidades avaliadas, a complexidade estimada e a oportunidade de análise em IHC para os modelos HTA e GOMS.
 
 **Tabela 1** — Relação das funcionalidades avaliadas e potencial analítico de IHC
 
 | ID | Funcionalidade Nuclear | Nível de Complexidade | Oportunidade Analítica na Disciplina | Integrante Responsável pela Modelagem HTA/GOMS |
 | :---: | :--- | :---: | :--- | :--- |
 | **F01** | Criação e Edição de Tópicos em Markdown | Alta | Sobrecarga de comandos no editor; curva de aprendizado para formatação de código. | Edvaldo Soares |
-| **F02** | Busca Avançada com Filtros Combinados | Alta | Sintaxe de busca complexa; falta de flexibilidade na recuperação de erros do usuário. | Gustavo Antonio |
-| **F03** | Gestão de Preferências e Notificações | Média | Excesso de opções e granularidade confusa nas opções de notificações do Discourse. | Jonathan Carpaneda |
-| **F04** | Moderação Comunitária e Sinalização | Média | Falta de clareza no feedback das consequências de uma sinalização de postagem. | Pedro Paulo |
-| **F05** | Interação e Marcação de Solução Aceita | Média | Visibilidade restrita da confirmação e atalhos pouco intuitivos em telas reduzidas. | Vinicius Araruna |
+| **F02** | Criação de Eventos Presenciais (Novo) | Alta | Mapeamento de um fluxo inédito complexo envolvendo agendamento, formulários e integração de pagamento. | Gustavo Antonio |
+| **F03** | Interação e Marcação de Solução Aceita | Média | Visibilidade restrita da confirmação e atalhos pouco intuitivos em telas reduzidas. | Vinicius Araruna |
 
 _Fonte: Elaborada pelos autores, 2026._
 
-Conforme sistematizado na Tabela 1, cada funcionalidade selecionada provê complexidade satisfatória para a modelagem detalhada na Entrega 2, garantindo que nenhum estudante execute tarefas redundantes.
+Conforme sistematizado na Tabela 1, cada funcionalidade selecionada provê complexidade satisfatória para a modelagem detalhada na Entrega 2, garantindo que os três estudantes executem tarefas robustas e complementares.
 
 ---
 
@@ -105,6 +97,7 @@ A inspeção exploratória preliminar executada pelos membros do grupo sobre a i
 | `1.0` | 04/09/2026 | Criação inicial da página de site selecionado (Portal Domínio Público) | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no topo e padronização com ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 18/09/2026 | Reestruturação integral para o Fórum Diolinux Plus, documentação do pivot, detalhamento das 5 funcionalidades e problemas de usabilidade | [Vinicius Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
+| `1.3` | 25/09/2026 | Atualização das funcionalidades para refletir a nova composição (3 membros) e proposta da funcionalidade de Criação de Eventos Presenciais | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 
