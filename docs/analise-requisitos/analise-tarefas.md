@@ -4,7 +4,7 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Autoria individual da Tarefa 3 (Busca Avançada)](#tarefa-3-busca-avancada-e-filtros-de-categoria-edvaldo-soares) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Modelagem da Tarefa 3 com HTA e GOMS/KLM](#tarefa-3-busca-avancada-no-forum-hta-e-gomsklm-edvaldo-soares) com apoio de IA generativa; validação empírica pendente. | 26/09/2026 | LLM: apoio na estruturação HTA/GOMS/KLM; revisar e validar com usuários |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual da Tarefa 2 (Cadastro e Onboarding)](#tarefa-2-cadastro-e-onboarding-do-novo-usuario-gustavo-antonio) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, fundamentação e autoria integral da Tarefa 1 (Criação de Tópico com Tags e Markdown: HTA e KLM)](#tarefa-1-criacao-e-publicacao-de-topico-com-tags-e-markdown-vinicius-silva-araruna) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
 
@@ -239,20 +239,133 @@ A análise quantitativa dos tempos da Tabela 5 conduz a conclusões ergonômicas
 - **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
 - **Técnicas Adotadas**: HTA (Análise Hierárquica de Tarefas) e GOMS / CMN-GOMS
 
-!!! info "Espaço Reservado para Desenvolvimento Individual (Edvaldo Soares)"
-    Esta tarefa é de responsabilidade autoral exclusiva do discente **Edvaldo Soares Brasileiro Filho**, sendo desenvolvida diretamente em sua respectiva branch temática (`feat/...`) para posterior submissão via Pull Request e revisão por Vinicius Silva Araruna.
+- **Cenário de uso**: Uma pessoa acessa o fórum para encontrar informações sobre um problema de Wi-Fi no Linux Mint. Antes de criar uma publicação, pesquisa discussões existentes, examina os resultados e avalia se alguma resposta atende à necessidade.
+- **Status da modelagem**: Proposta analítica inicial; confirmar os passos na interface e validar com participantes antes de caracterizar resultados como empíricos.
+
+#### 1. Modelagem HTA — Análise Hierárquica de Tarefas
+
+A HTA parte dos objetivos do usuário e os decompõe em subobjetivos, operações e planos. A estrutura abaixo segue Barbosa e Silva (2010, p. 192–196). A Figura 3 apresenta o diagrama hierárquico da decomposição da tarefa.
+
+```mermaid
+graph TD
+    classDef goal fill:#1E293B,stroke:#0EA5E9,stroke-width:2px,color:#F8FAFC;
+    classDef sub fill:#334155,stroke:#94A3B8,stroke-width:1.5px,color:#F8FAFC;
+    classDef op fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#E2E8F0;
+    classDef plan fill:#475569,stroke:#F59E0B,stroke-width:1.5px,color:#FEF3C7;
+
+    G0["0. Encontrar uma discussão útil sobre o problema de Wi-Fi no Linux Mint"]:::goal
+    P0["Plano 0: executar 1, 2, 3 e 4; sem resultado útil, executar 5"]:::plan
+    G0 --> P0
+    P0 --> G1["1. Acessar a busca do fórum"]:::sub
+    P0 --> G2["2. Formular e executar a consulta"]:::sub
+    P0 --> G3["3. Examinar os resultados"]:::sub
+    P0 --> G4["4. Avaliar uma discussão candidata"]:::sub
+    P0 --> G5["5. Reformular a busca ou encerrar"]:::sub
+    G1 --> O11["1.1 Localizar e acionar o campo de busca"]:::op
+    G2 --> O21["2.1 Digitar termos relacionados ao problema"]:::op
+    G2 --> O22["2.2 Aplicar filtros de categoria e tag, se disponíveis"]:::op
+    G2 --> O23["2.3 Executar a consulta"]:::op
+    G3 --> O31["3.1 Examinar títulos e trechos dos resultados"]:::op
+    G3 --> O32["3.2 Comparar categoria, tag e data, quando exibidas"]:::op
+    G3 --> O33["3.3 Selecionar um resultado potencialmente relevante"]:::op
+    G4 --> O41["4.1 Abrir a discussão selecionada"]:::op
+    G4 --> O42["4.2 Comparar o problema com a necessidade atual"]:::op
+    G4 --> O43["4.3 Verificar as respostas e uma solução aplicável"]:::op
+    G5 --> O51["5.1 Alterar termos ou rever/remover filtros"]:::op
+    G5 --> O52["5.2 Executar novamente ou encerrar sem resultado"]:::op
+```
+
+**Figura 3** — Diagrama HTA da busca de discussão sobre Wi-Fi no Linux Mint.  
+_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
+
+**Plano 0:** acessar a busca, formular e executar a consulta, examinar resultados e avaliar uma discussão candidata. Se nenhum resultado for útil, reformular os termos ou rever os filtros; repetir até encontrar conteúdo aplicável ou encerrar.
+
+#### 2. Modelagem GOMS e estimativa KLM
+
+GOMS descreve objetivos, operadores, métodos e regras de seleção. KLM estima o tempo de uma sequência de operadores para um usuário competente que já domina a tarefa e não comete erros. O cálculo abaixo é uma estimativa teórica, não uma medição com participantes (BARBOSA; SILVA, 2010, p. 196–199).
+
+**Objetivo G0:** localizar uma discussão que possa responder a uma necessidade sobre Wi-Fi no Linux Mint.
+
+**Método M1 — busca direta com filtros na consulta:**
+
+1. Formular consulta com termos relacionados ao problema.
+2. Incluir filtros de categoria e tag, se forem conhecidos e aceitos pela interface.
+3. Executar a busca.
+4. Examinar os resultados e selecionar um candidato.
+5. Abrir a discussão e avaliar a compatibilidade do conteúdo.
+6. Se nenhum resultado for útil, alterar os termos ou rever os filtros e repetir.
+
+**Regras de seleção:**
+
+- Se o usuário conhece o nome da distribuição ou do componente, inclui esse termo na consulta.
+- Se os resultados forem numerosos ou pouco relacionados, acrescenta um filtro pertinente, desde que compreenda seu efeito.
+- Se não houver resultado útil, remove ou altera um filtro e tenta termos mais amplos.
+- Se encontrar uma discussão compatível, abre o tópico e avalia as respostas.
+- Se nenhuma discussão for aplicável após a reformulação, encerra a busca ou segue para a tarefa de criação de tópico, modelada separadamente.
+
+A Tabela 7 adota os tempos de referência de Barbosa e Silva (2010, p. 199): K = 0,20 s para digitador mediano; P = 1,10 s; B = 0,10 s por pressionar ou soltar o botão; H = 0,40 s; M = 1,20 s. O tempo de resposta do sistema varia.
+
+**Tabela 7** — Operadores KLM e tempos de referência adotados
+
+| Operador | Significado | Tempo adotado |
+| :---: | :--- | :---: |
+| **K** | Pressionar e soltar uma tecla | 0,20 s |
+| **P** | Apontar o cursor para um alvo na tela | 1,10 s |
+| **B** | Pressionar ou soltar o botão do mouse | 0,10 s |
+| **H** | Mover a mão entre teclado e mouse | 0,40 s |
+| **M** | Preparação mental para uma ação ou sequência relacionada | 1,20 s |
+| **T(n)** | Digitar cadeia de n caracteres | n × K |
+| **R** | Aguardar a resposta do sistema | Variável; medir na observação |
+
+_Fonte: Barbosa e Silva (2010, p. 199), aplicada à tarefa._
+
+Para uma conta reproduzível, considera-se a consulta `wifi Linux Mint categories:linux tags:linux-mint`, com 48 caracteres, digitada no campo de busca. A sintaxe de filtros `categories:` e `tags:` é documentada pelo Discourse (DISCOURSE, s.d.); a categoria, a tag e a compatibilidade dessa consulta precisam ser confirmadas na instância do fórum antes de usar o cálculo como resultado final. A Tabela 8 apresenta a sequência de operadores KLM calculada.
+
+**Tabela 8** — Sequência KLM ilustrativa para a busca
+
+| Ordem | Operador | Ação modelada | Tempo |
+| :---: | :---: | :--- | :---: |
+| 1 | M | Preparar a consulta e decidir os filtros | 1,20 s |
+| 2 | H | Mover a mão do teclado para o mouse | 0,40 s |
+| 3 | P | Apontar para o controle de busca | 1,10 s |
+| 4 | B + B | Pressionar e soltar para ativar a busca | 0,20 s |
+| 5 | H | Mover a mão para o teclado | 0,40 s |
+| 6 | T(48) | Digitar a consulta: 48 × 0,20 s | 9,60 s |
+| 7 | K | Pressionar Enter | 0,20 s |
+| 8 | R₁ | Aguardar a apresentação dos resultados | Variável |
+| 9 | M | Examinar resultados e escolher um candidato | 1,20 s |
+| 10 | H | Mover a mão do teclado para o mouse | 0,40 s |
+| 11 | P | Apontar para o resultado | 1,10 s |
+| 12 | B + B | Pressionar e soltar para abrir o resultado | 0,20 s |
+| 13 | R₂ | Aguardar a abertura da discussão | Variável |
+| 14 | M | Comparar a discussão com a necessidade | 1,20 s |
+|  |  | **Subtotal, sem R₁, R₂ e leitura detalhada** | **17,20 s** |
+
+_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026, com tempos de referência de Barbosa e Silva (2010, p. 199)._
+
+O subtotal de **17,20 segundos** cobre somente os operadores modelados. Não inclui tempo de resposta, leitura detalhada, reformulação da consulta ou diferenças individuais de digitação. Se a interface permitir aplicar filtros por controles gráficos em vez de digitar sintaxe, deve-se modelar esse método e comparar as sequências após observação.
+
+#### Limites e validação necessária
+
+1. Confirmar na interface como acessar a busca e quais filtros estão disponíveis.
+2. Verificar se categoria, tag, ordenação e eventual indicação de solução aceita podem ser usados na busca da instância atual.
+3. Conduzir a tarefa com participantes e registrar consultas, filtros, reformulações, erros e critério de sucesso.
+4. Revisar HTA e GOMS com base nas estratégias observadas.
+5. Recalcular o KLM para o método efetivamente usado; apresentar separadamente tempo de espera e leitura.
+6. Submeter a análise à revisão de Vinicius.
 
 ---
 
 ## Histórico de Versão
 
-A Tabela 6 documenta o histórico de versões deste artefato.
+A Tabela 9 documenta o histórico de versões deste artefato.
 
-**Tabela 6** — Histórico de versão do documento
+**Tabela 9** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 26/09/2026 | Estruturação metodológica, fundamentação canônica e modelagem integral da Tarefa 1 (HTA e KLM/GOMS) por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Revisão Circular 360º](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
+| `1.0` | 26/09/2026 | Estruturação metodológica e modelagem da Tarefa 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 26/09/2026 | Inclusão do rascunho de HTA e GOMS/KLM para busca avançada; validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), com apoio de IA generativa | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -270,8 +383,10 @@ _Fonte: Elaborada pelos autores, 2026._
 
 [5] PATERNÒ, Fabio. *Model-Based Design and Evaluation of Interactive Applications*. London: Springer-Verlag, 2000.
 
+[6] DISCOURSE. *Searching for content effectively*. Discourse Meta. Disponível em: <https://meta.discourse.org/t/searching-for-content-effectively/273328>. Acesso em: 26 set. 2026.
+
 ---
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a organização do layout em Markdown e estruturação dos diagramas e tabelas deste artefato, foi utilizado suporte supervisionado de Inteligência Artificial Generativa (LLM). Toda a decomposição hierárquica da Tarefa 1, elaboração do diagrama HTA, cálculo analítico do modelo KLM e recomendações de design foram concebidos, redigidos e validados por Vinicius Silva Araruna.
+Durante a preparação deste artefato, foi utilizado suporte de Inteligência Artificial Generativa para estruturar o rascunho preliminar da Tarefa 3 e auxiliar na formatação Markdown do diagrama e das tabelas. A modelagem proposta deve ser revisada pelo autor e validada na interface e com participantes; ela não é apresentada como resultado empírico. A contribuição da Tarefa 1 é atribuída a Vinicius Silva Araruna.
