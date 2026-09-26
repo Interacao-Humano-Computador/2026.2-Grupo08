@@ -4,7 +4,7 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Elaboração preliminar do Perfil 3 com apoio de IA generativa; validação empírica pendente. | 26/09/2026 | LLM: apoio na estruturação do rascunho; revisar e validar pelo autor |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Elaboração preliminar do Perfil 3](#perfil-3-usuario-pesquisador-buscador-autonomo) com apoio de IA generativa; validação empírica pendente. | 26/09/2026 | LLM: apoio na estruturação do rascunho; revisar e validar pelo autor |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual do Perfil 2 (Iniciante / Onboarding)](#perfil-2-usuario-iniciante-migracao-windows-linux) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, fundamentação canônica e autoria individual do Perfil 1 (Entusiasta / Criador)](#perfil-1-usuario-entusiasta-criador-de-topicos-tecnicos) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
 
@@ -165,7 +165,7 @@ A Tabela 4 documenta o histórico de versões deste artefato.
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 26/09/2026 | Estruturação metodológica, fundamentação canônica e elaboração individual do Perfil 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Revisão Circular 360º](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
+| `1.0` | 26/09/2026 | Estruturação metodológica, fundamentação canônica e elaboração individual do Perfil 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 26/09/2026 | Inclusão do rascunho preliminar do Perfil 3; validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), com apoio de IA generativa | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
