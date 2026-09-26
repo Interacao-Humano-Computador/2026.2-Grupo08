@@ -60,17 +60,41 @@ Conforme apresentado na Tabela 2, todos os artefatos de governança e transiçã
 
 ---
 
+## Entrega 2 — Perfil do Usuário, Aspectos Éticos e Análise de Tarefas
+
+A Tabela 3 documenta o andamento executado das atividades da Entrega 2, registrando as datas reais de conclusão, autores principais e revisores de cada artefato.
+
+**Tabela 3** — Cronograma executado da Entrega 2
+
+| Atividade / Artefato | Período Previsto | Realizado | Autores | Período de Revisão | Revisores |
+| :--- | :---: | :---: | :--- | :---: | :--- |
+| Aspectos Éticos e Minuta do TCLE (`aspectos-eticos.md`) | 09/09 - 14/09 | 26/09 | Vinicius Araruna, Edvaldo Soares | 26/09 | Edvaldo Soares |
+| Perfil de Usuário 1 — Entusiasta / Criador (`perfil-usuario.md`) | 08/09 - 18/09 | 26/09 | Vinicius Araruna | 26/09 | Edvaldo Soares |
+| Perfil de Usuário 3 — Pesquisador / Buscador (`perfil-usuario.md`) | 08/09 - 18/09 | 26/09 | Edvaldo Soares | 26/09 | Vinicius Araruna |
+| Elenco de Personas e Persona 1 (`personas.md`) | 15/09 - 20/09 | 26/09 | Vinicius Araruna | 26/09 | Edvaldo Soares |
+| Cenários de Interação e Cenário 1 (`cenarios.md`) | 15/09 - 20/09 | 26/09 | Vinicius Araruna | 26/09 | Edvaldo Soares |
+| Tarefa 1 — Publicação em Markdown (HTA e KLM) (`analise-tarefas.md`) | 16/09 - 24/09 | 26/09 | Vinicius Araruna | 26/09 | Edvaldo Soares |
+| Tarefa 3 — Busca Avançada (HTA e GOMS/KLM) (`analise-tarefas.md`) | 16/09 - 24/09 | 26/09 | Edvaldo Soares | 26/09 | Vinicius Araruna |
+| Listas de Verificação Canônicas (`conteudo-disciplina.md`) | 24/09 - 25/09 | 26/09 | Vinicius Araruna, Edvaldo Soares, Gustavo Antonio | 26/09 | Edvaldo Soares |
+
+_Fonte: Elaborada pelos autores, 2026._
+
+Conforme demonstrado na Tabela 3, as atividades da Entrega 2 foram consolidadas e integradas através de revisões por pares e rastreabilidade no repositório.
+
+---
+
 ## Histórico de Versão
 
-A Tabela 3 documenta o histórico de versões deste artefato.
+A Tabela 4 documenta o histórico de versões deste artefato.
 
-**Tabela 3** — Histórico de versão do documento
+**Tabela 4** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 04/09/2026 | Criação inicial do cronograma executado nos moldes de referência | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.2` | 26/09/2026 | Inclusão dos artefatos executados da mudança de escopo (pivot), Ata 4, menção de IA na tabela de contribuição e adequação da seção de Referências Bibliográficas (atendimento às OBS 4, 8 e 9) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.3` | 26/09/2026 | Inclusão do cronograma executado da Entrega 2, mapeamento dos revisores reais e sincronização com o repositório | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

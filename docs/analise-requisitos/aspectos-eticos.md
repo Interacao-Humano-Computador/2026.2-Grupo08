@@ -96,7 +96,7 @@ A Tabela 3 documenta o histórico de versões deste artefato.
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 26/09/2026 | Elaboração inicial do artefato de Aspectos Éticos, fundamentação na Resolução CNS nº 510/2016, 4 princípios bioéticos e minuta oficial do TCLE | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.0` | 26/09/2026 | Elaboração inicial do artefato de Aspectos Éticos, fundamentação na Resolução CNS nº 510/2016, 4 princípios bioéticos e minuta oficial do TCLE | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
