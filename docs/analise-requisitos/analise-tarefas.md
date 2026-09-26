@@ -319,7 +319,7 @@ A Tabela 7 adota os tempos de referência de Barbosa e Silva (2010, p. 199): K =
 
 _Fonte: Barbosa e Silva (2010, p. 199), aplicada à tarefa._
 
-Para uma conta reproduzível, considera-se a consulta `wifi Linux Mint categories:linux tags:linux-mint`, com 48 caracteres, digitada no campo de busca. A categoria, a tag e essa forma de consulta devem ser confirmadas na instância do fórum antes de usar o cálculo como resultado final.
+Para uma conta reproduzível, considera-se a consulta `wifi Linux Mint categories:linux tags:linux-mint`, com 48 caracteres, digitada no campo de busca. A sintaxe de filtros `categories:` e `tags:` é documentada pelo Discourse (DISCOURSE, s.d.); a categoria, a tag e a compatibilidade dessa consulta precisam ser confirmadas na instância do fórum antes de usar o cálculo como resultado final.
 
 **Tabela 8** — Sequência KLM ilustrativa para a busca
 
@@ -358,9 +358,9 @@ O subtotal de **17,20 segundos** cobre somente os operadores modelados. Não inc
 
 ## Histórico de Versão
 
-A Tabela 6 documenta o histórico de versões deste artefato.
+A Tabela 9 documenta o histórico de versões deste artefato.
 
-**Tabela 6** — Histórico de versão do documento
+**Tabela 9** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
