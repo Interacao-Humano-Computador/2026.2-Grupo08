@@ -4,7 +4,7 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Rascunho da modelagem da Tarefa 3 com apoio de IA generativa; validação empírica pendente. | 26/09/2026 | LLM: apoio na estruturação HTA/GOMS/KLM; revisar e validar com usuários |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Modelagem da Tarefa 3 com HTA e GOMS/KLM](#tarefa-3-busca-avancada-no-forum-hta-e-gomsklm-edvaldo-soares) com apoio de IA generativa; validação empírica pendente. | 26/09/2026 | LLM: apoio na estruturação HTA/GOMS/KLM; revisar e validar com usuários |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual da Tarefa 2 (Cadastro e Onboarding)](#tarefa-2-cadastro-e-onboarding-do-novo-usuario-gustavo-antonio) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, fundamentação e autoria integral da Tarefa 1 (Criação de Tópico com Tags e Markdown: HTA e KLM)](#tarefa-1-criacao-e-publicacao-de-topico-com-tags-e-markdown-vinicius-silva-araruna) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
 
@@ -244,7 +244,7 @@ A análise quantitativa dos tempos da Tabela 5 conduz a conclusões ergonômicas
 
 #### 1. Modelagem HTA — Análise Hierárquica de Tarefas
 
-A HTA parte dos objetivos do usuário e os decompõe em subobjetivos, operações e planos. A estrutura abaixo segue Barbosa e Silva (2010, p. 192–196).
+A HTA parte dos objetivos do usuário e os decompõe em subobjetivos, operações e planos. A estrutura abaixo segue Barbosa e Silva (2010, p. 192–196). A Figura 3 apresenta o diagrama hierárquico da decomposição da tarefa.
 
 ```mermaid
 graph TD
@@ -319,7 +319,7 @@ A Tabela 7 adota os tempos de referência de Barbosa e Silva (2010, p. 199): K =
 
 _Fonte: Barbosa e Silva (2010, p. 199), aplicada à tarefa._
 
-Para uma conta reproduzível, considera-se a consulta `wifi Linux Mint categories:linux tags:linux-mint`, com 48 caracteres, digitada no campo de busca. A sintaxe de filtros `categories:` e `tags:` é documentada pelo Discourse (DISCOURSE, s.d.); a categoria, a tag e a compatibilidade dessa consulta precisam ser confirmadas na instância do fórum antes de usar o cálculo como resultado final.
+Para uma conta reproduzível, considera-se a consulta `wifi Linux Mint categories:linux tags:linux-mint`, com 48 caracteres, digitada no campo de busca. A sintaxe de filtros `categories:` e `tags:` é documentada pelo Discourse (DISCOURSE, s.d.); a categoria, a tag e a compatibilidade dessa consulta precisam ser confirmadas na instância do fórum antes de usar o cálculo como resultado final. A Tabela 8 apresenta a sequência de operadores KLM calculada.
 
 **Tabela 8** — Sequência KLM ilustrativa para a busca
 
@@ -364,7 +364,7 @@ A Tabela 9 documenta o histórico de versões deste artefato.
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 26/09/2026 | Estruturação metodológica e modelagem da Tarefa 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Revisão Circular 360º](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
+| `1.0` | 26/09/2026 | Estruturação metodológica e modelagem da Tarefa 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 26/09/2026 | Inclusão do rascunho de HTA e GOMS/KLM para busca avançada; validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), com apoio de IA generativa | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
