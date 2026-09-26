@@ -168,7 +168,7 @@ A Tabela 7 documenta o histórico de versões deste artefato.
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 26/09/2026 | Elaboração inicial das 4 Listas de Verificação com fundamentação canônica textual em Barbosa e Silva (2021) e matriz de inspeção cruzada | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Revisão Circular 360º](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
+| `1.0` | 26/09/2026 | Elaboração inicial das 4 Listas de Verificação com fundamentação canônica textual em Barbosa e Silva (2021) e matriz de inspeção cruzada | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
