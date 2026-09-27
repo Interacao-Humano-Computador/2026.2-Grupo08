@@ -2,13 +2,13 @@
 
 ## Tabela de Contribuição
 
-| Integrante | Contribuição | Data | Horário |
-| :--- | :--- | :---: | :---: |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão e validação dos prazos e distribuição de tarefas das etapas 1 a 8](#historico-de-versao) | 06/09/2026 | 20:30 - 21:00 |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação inicial da tabela da Entrega 1](#etapa-1-planejamento-do-projeto-e-processo-de-design) | 04/09/2026 | 19:00 - 19:30 |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT](#referencias-bibliograficas) | 05/09/2026 | 20:00 - 20:30 |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Acompanhamento e validação de datas da disciplina](#historico-de-versao) | 05/09/2026 | 20:30 - 21:00 |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa do cronograma planejado de todas as etapas (Etapas 1 a 8), períodos de gravação e revisões pós-feedback (Ações 02, 03 e 04)](#etapa-1-planejamento-do-projeto-e-processo-de-design) | 06/09/2026 | 19:30 - 20:30 |
+| Integrante | Contribuição | Data | Ferramenta de IA e Contribuição |
+| :--- | :--- | :---: | :--- |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão e validação dos prazos e distribuição de tarefas das etapas 1 a 8](#historico-de-versao) | 06/09/2026 | — |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação inicial da tabela da Entrega 1](#etapa-1-planejamento-do-projeto-e-processo-de-design) | 04/09/2026 | — |
+| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT](#referencias-bibliograficas) | 05/09/2026 | — |
+| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Acompanhamento e validação de datas da disciplina](#historico-de-versao) | 05/09/2026 | — |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa do cronograma e adequação da Etapa 2 à matriz do professor e equipe de 3 membros](#etapa-2-perfil-do-usuario-aspectos-eticos-e-analise-de-tarefas) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
 
 ---
 
@@ -47,21 +47,23 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## Etapa 2: Perfil do Usuário, Aspectos Éticos e Análise de Tarefas
 
-A Tabela 2 apresenta as atividades planejadas para a Etapa 2, com foco na compreensão dos usuários e análise de tarefas do Portal Domínio Público.
+A Tabela 2 apresenta as atividades planejadas para a Etapa 2, estruturadas com foco na compreensão profunda dos usuários e análise de tarefas do **Fórum Diolinux Plus**, em consonância com a matriz metodológica estabelecida pelo professor e a atuação dos três integrantes ativos da equipe.
 
 **Tabela 2** — Cronograma planejado da Etapa 2
 
 | Atividade / Artefato | Período Planejado para Desenvolvimento | Autores | Período Planejado para Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Planejamento do Perfil de Usuário e Questionário | 08/09 - 13/09 | Edvaldo Soares, Pedro Paulo | 14/09 - 15/09 | Vinicius Araruna, Gustavo Antonio |
-| Aspectos Éticos em Pesquisas com Pessoas e TCLE | 09/09 - 14/09 | Edvaldo Soares, Jonathan Carpaneda | 15/09 - 16/09 | Vinicius Araruna, Pedro Paulo |
-| Coleta de Dados e Consolidação do Perfil | 14/09 - 18/09 | Edvaldo Soares, Jonathan Carpaneda, Vinicius Araruna | 18/09 - 19/09 | Gustavo Antonio, Pedro Paulo |
-| Personas e Cenários de Interação | 15/09 - 20/09 | Gustavo Antonio, Jonathan Carpaneda | 21/09 - 22/09 | Edvaldo Soares, Pedro Paulo |
-| Análise de Tarefas HTA (Hierarchical Task Analysis) | 16/09 - 24/09 | Vinicius Araruna, Pedro Paulo, Edvaldo Soares | 24/09 - 25/09 | Gustavo Antonio, Jonathan Carpaneda |
-| Análise de Tarefas GOMS / KLM / CTT | 16/09 - 24/09 | Gustavo Antonio, Jonathan Carpaneda | 24/09 - 25/09 | Vinicius Araruna, Edvaldo Soares |
-| Atas de Reuniões da Etapa 2 | 08/09 - 25/09 | Pedro Paulo | 25/09 | Vinicius Araruna |
-| **Gravação da Apresentação da Etapa 2** | 25/09 - 26/09 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 26/09 - 27/09 | **Gustavo Antonio, Pedro Paulo** |
-| **Ajustes e Correções pós-feedback da Etapa 2** | 30/09 - 02/10 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 02/10 - 03/10 | **Jonathan Carpaneda, Vinicius Araruna** |
+| Perfil de Usuário (3 perfis autorais individuais) | 08/09 - 24/09 | Vinicius Araruna, Gustavo Antonio, Edvaldo Soares | 24/09 - 25/09 | Revisão Circular 360º |
+| Aspectos Éticos em Pesquisas com Pessoas e TCLE | 09/09 - 24/09 | Vinicius Araruna, Edvaldo Soares | 24/09 - 25/09 | Gustavo Antonio |
+| Coleta de Dados e Elicitação de Requisitos | 14/09 - 24/09 | Edvaldo Soares, Vinicius Araruna | 24/09 - 25/09 | Gustavo Antonio |
+| Elenco de Personas (Consolidado do Grupo) | 15/09 - 24/09 | Gustavo Antonio, Edvaldo Soares | 24/09 - 25/09 | Vinicius Araruna |
+| Personas (1 individual por integrante) | 15/09 - 24/09 | Vinicius Araruna, Gustavo Antonio, Edvaldo Soares | 24/09 - 25/09 | Revisão Circular 360º |
+| Cenários de Interação (1 individual por integrante) | 15/09 - 24/09 | Vinicius Araruna, Gustavo Antonio, Edvaldo Soares | 24/09 - 25/09 | Revisão Circular 360º |
+| Análise de Tarefas (2 técnicas por integrante: HTA + GOMS/CTT) | 16/09 - 25/09 | Vinicius Araruna, Gustavo Antonio, Edvaldo Soares | 25/09 - 26/09 | Revisão Circular 360º |
+| Lista de Verificação (L.V) dos Itens da Disciplina (Tópicos 11 e 12) | 16/09 - 25/09 | Vinicius Araruna, Gustavo Antonio, Edvaldo Soares | 25/09 - 26/09 | Revisão Circular 360º |
+| Atas de Reuniões da Etapa 2 (Ata 4 de Reestruturação) | 08/09 - 25/09 | Vinicius Araruna | 25/09 - 26/09 | Edvaldo Soares, Gustavo Antonio |
+| **Gravação da Apresentação da Etapa 2** | 25/09 - 26/09 | **Edvaldo Soares, Gustavo Antonio, Vinicius Araruna** | 26/09 - 27/09 | **Edvaldo Soares, Gustavo Antonio, Vinicius Araruna** |
+| **Ajustes e Correções pós-feedback da Etapa 2** | 30/09 - 02/10 | **Edvaldo Soares, Gustavo Antonio, Vinicius Araruna** | 02/10 - 03/10 | **Edvaldo Soares, Gustavo Antonio, Vinicius Araruna** |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -198,6 +200,7 @@ _Fonte: Elaborada pelos autores, 2026._
 | `1.0` | 04/09/2026 | Criação inicial do cronograma planejado nos moldes de referência | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.2` | 06/09/2026 | Elaboração completa do cronograma planejado de todas as 8 etapas com mapeamento de datas do plano de ensino, balanceamento de esforço da equipe, previsão de janelas de gravação e períodos de ajustes pós-feedback (Ações 02, 03 e 04) | [Vinicius Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.3` | 26/09/2026 | Adequação do cronograma da Etapa 2 à matriz metodológica do professor (Elenco, Personas, Cenários, HTA/GOMS individuais e Lista de Verificação), atualização para 3 integrantes ativos, remoção de menção a site anterior e saneamento de referências (atendimento às OBS 8 e 9) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 
 ---
 
@@ -206,8 +209,6 @@ _Fonte: Elaborada pelos autores, 2026._
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010.
 
 [2] SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026.
-
-[3] SOMMERVILLE, Ian. *Engenharia de Software*. 10. ed. São Paulo: Pearson Education do Brasil, 2018.
 
 ---
 

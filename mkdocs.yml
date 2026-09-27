@@ -57,6 +57,13 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -73,11 +80,19 @@ nav:
     - Heat Map: planejamento/heatmap.md
     - Lista de Sites Avaliados: planejamento/sites-avaliados.md
     - Site Selecionado: planejamento/site-selecionado.md
+  - Análise de Requisitos:
+    - Aspectos Éticos e TCLE: analise-requisitos/aspectos-eticos.md
+    - Perfil do Usuário: analise-requisitos/perfil-usuario.md
+    - Personas e Elenco: analise-requisitos/personas.md
+    - Cenários: analise-requisitos/cenarios.md
+    - Análise de Tarefas: analise-requisitos/analise-tarefas.md
+    - Conteúdo da Disciplina: analise-requisitos/conteudo-disciplina.md
   - Atas de Reunião:
     - Índice de Atas: atas/index.md
     - Reunião 04/09/2026: atas/ata1.md
     - Reunião 07/09/2026 (Grupo +1): atas/ata2.md
     - Reunião 14/09/2026 (Mudança de Escopo): atas/ata3.md
+    - Reunião 25/09/2026 (Reestruturação da Equipe): atas/ata4.md
   - Verificação:
     - Auto-Avaliação (Grupo 08): verificacao/grupo08.md
   - Conteúdo Teórico:
