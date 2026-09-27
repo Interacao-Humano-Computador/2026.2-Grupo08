@@ -97,3 +97,7 @@ nav:
     - Auto-Avaliação (Grupo 08): verificacao/grupo08.md
   - Conteúdo Teórico:
     - Itens Avaliados: conteudo-teorico/index.md
+  - Análise de Requisitos:
+    - Perfil do Usuário: analise-requisitos/perfil-usuario.md
+    - Características da Plataforma: analise-requisitos/caracteristicas-da-plataforma.md
+    - Princípios Gerais de Projeto: analise-requisitos/principios-gerais-de-projeto.md
