@@ -43,7 +43,13 @@ Em consonância com o modelo bioético de Beauchamp e Childress (2013) e com as 
 
 _Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Beauchamp e Childress (2013), 2026._
 
-Conforme evidenciado na Tabela 1, todos os métodos de elicitação empregados pelo grupo subordinam-se estritamente à integridade e ao bem-estar dos participantes.
+Conforme evidenciado na Tabela 1, todos os métodos de elicitação empregados pelo grupo subordinam-se estritamente à integridade e ao bem-estar dos participantes. A Figura 1 apresenta o referencial teórico que embasa estes princípios.
+
+![Print do livro de IHC de Barbosa e Silva detalhando os 4 princípios éticos](../assets/referencias/aspectos_eticos_principios_pg137.png)
+
+**Figura 1** — Trecho do livro de Barbosa e Silva detalhando os 4 princípios éticos.
+
+
 
 ---
 
@@ -84,7 +90,13 @@ A Tabela 2 apresenta o modelo oficial do TCLE adotado pelo Grupo 08 para aplica�
 
 _Fonte: Elaborada pelos autores com base nas diretrizes de Barbosa e Silva (2021, Exemplo 7.1, p. 142), 2026._
 
-A Tabela 2 garante que nenhum usuário participe da investigação sem pleno conhecimento de seus direitos e garantias éticas.
+A Tabela 2 garante que nenhum usuário participe da investigação sem pleno conhecimento de seus direitos e garantias éticas. A exigência do consentimento prévio gravado e dos termos é respaldada pela literatura conforme ilustrado na Figura 2.
+
+![Print do livro de IHC de Barbosa e Silva detalhando a necessidade de consentimento e permissão de gravação](../assets/referencias/aspectos_eticos_tcle_pg138.png)
+
+**Figura 2** — Trecho do livro de Barbosa e Silva orientando o consentimento livre e esclarecido (TCLE) e a permissão de gravação.
+
+
 
 ---
 

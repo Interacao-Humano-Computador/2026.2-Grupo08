@@ -26,6 +26,17 @@ Em consonância com as exigências pedagógicas do Tópico 11 do Plano de Ensino
 2. **GOMS e Modelo de Nível de Teclas (KLM — *Keystroke-Level Model*)**: Formulado por Card, Moran e Newell (1983) e detalhado por Barbosa e Silva (2021, p. 185-188), o GOMS (*Goals, Operators, Methods, Selection Rules*) modela o conhecimento procedural do usuário. Sua variante quantitativa, o KLM, permite prever com precisão matemática o tempo de execução que um usuário especialista sem erros levará para concluir uma tarefa computacional, decompondo-a em operadores motores ($K, P, B, H$) e cognitivos ($M$).
 3. **Árvores de Tarefas Concorrentes (CTT — *Concurrent Task Trees*)**: Introduzida por Paternò (2000), a notação CTT enriquece a modelagem hierárquica ao categorizar as tarefas conforme seus agentes de execução (tarefas do usuário, do sistema, interativas ou abstratas) e formalizar operadores temporais avançados (escolha, concorrência, desativação e sincronização).
 
+A Figura 1 e a Figura 2 ilustram a definição destas técnicas (HTA e GOMS, respectivamente) extraídas diretamente da bibliografia base.
+
+![Print do livro de IHC de Barbosa e Silva detalhando a técnica HTA](../assets/referencias/analise_tarefas_hta_pg170.png)
+
+**Figura 1** — Trecho do livro de Barbosa e Silva detalhando a técnica HTA (Análise Hierárquica de Tarefas).
+
+![Print do livro de IHC de Barbosa e Silva detalhando a técnica GOMS](../assets/referencias/analise_tarefas_goms_pg180.png)
+
+**Figura 2** — Trecho do livro de Barbosa e Silva detalhando a técnica GOMS e o KLM.
+
+
 ---
 
 ## Mapeamento Geral das Tarefas Analisadas
@@ -228,9 +239,99 @@ A análise quantitativa dos tempos da Tabela 5 conduz a conclusões ergonômicas
 - **Revisor**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 - **Técnicas Adotadas**: HTA (Análise Hierárquica de Tarefas) e CTT (Árvores de Tarefas Concorrentes)
 
-!!! info "Espaço Reservado para Desenvolvimento Individual (Gustavo Antonio)"
-    Esta tarefa é de responsabilidade autoral exclusiva do discente **Gustavo Antonio Rodrigues e Silva**, sendo desenvolvida diretamente em sua respectiva branch temática (`feat/...`) para posterior submissão via Pull Request e revisão por Edvaldo Soares.
+### 1. Modelagem HTA (Análise Hierárquica de Tarefas)
 
+A Figura 4 apresenta o diagrama hierárquico da Tarefa 2 elaborado na notação canônica de Annett e Duncan.
+
+```mermaid
+graph TD
+    classDef goal fill:#1E293B,stroke:#0EA5E9,stroke-width:2px,color:#F8FAFC;
+    classDef sub fill:#334155,stroke:#94A3B8,stroke-width:1.5px,color:#F8FAFC;
+    classDef op fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#E2E8F0;
+    classDef plan fill:#475569,stroke:#F59E0B,stroke-width:1.5px,color:#FEF3C7;
+
+    G0["0. Realizar Cadastro e Onboarding no Fórum Diolinux Plus"]:::goal
+    P0["Plano 0: 1 depois 2 depois 3 e opcionalmente 4"]:::plan
+
+    G0 --> P0
+    P0 --> G1["1. Iniciar o processo de Cadastro"]:::sub
+    P0 --> G2["2. Preencher o Formulário de Inscrição"]:::sub
+    P0 --> G3["3. Validar a Conta de Usuário"]:::sub
+    P0 --> G4["4. Interagir com o Onboarding do Discobot"]:::sub
+
+    P1["Plano 1: 1.1"]:::plan
+    G1 --> P1
+    P1 --> O11["1.1 Clicar em 'Cadastrar' na barra superior"]:::op
+
+    P2["Plano 2: 2.1 depois 2.2 depois 2.3 depois 2.4"]:::plan
+    G2 --> P2
+    P2 --> O21["2.1 Informar o E-mail"]:::op
+    P2 --> O22["2.2 Criar um Nome de Usuário"]:::op
+    P2 --> O23["2.3 Criar uma Senha forte"]:::op
+    P2 --> O24["2.4 Clicar em 'Criar Conta'"]:::op
+
+    P3["Plano 3: 3.1 depois 3.2"]:::plan
+    G3 --> P3
+    P3 --> O31["3.1 Acessar a caixa de entrada do e-mail"]:::op
+    P3 --> O32["3.2 Clicar no link de ativação da conta"]:::op
+
+    P4["Plano 4: 4.1 depois (4.2 ou 4.3)"]:::plan
+    G4 --> P4
+    P4 --> O41["4.1 Abrir a mensagem de boas-vindas do Discobot"]:::op
+    P4 --> O42["4.2 Seguir as instruções interativas do tutorial"]:::op
+    P4 --> O43["4.3 Ignorar o tutorial e ir para a Home"]:::op
+```
+
+**Figura 4** — Diagrama HTA da tarefa de Cadastro e Onboarding.  
+_Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
+
+A Tabela 6 apresenta a decomposição hierárquica tabular da Tarefa 2.
+
+**Tabela 6** — Decomposição tabular da Tarefa 2 (Cadastro e Onboarding)
+
+| Identificador | Nome do Objetivo / Operação | Relação / Plano | Problemas de Usabilidade | Recomendações |
+| :--- | :--- | :--- | :--- | :--- |
+| **0** | **Realizar Cadastro e Onboarding** | **Plano 0**: 1, 2, 3 e opcionalmente 4. | O onboarding pode ser evasivo para usuários com pressa. | Opção clara de "Pular tutorial" na primeira tela. |
+| **1** | **Iniciar o processo de Cadastro** | **Plano 1**: Executar 1.1. | Botão pode não ter destaque suficiente em telas menores. | Usar cor de contraste maior para "Cadastrar". |
+| 1.1 | Clicar em "Cadastrar" | Operação física | N/A | N/A |
+| **2** | **Preencher o Formulário** | **Plano 2**: Executar 2.1 a 2.4 em ordem. | Falta de feedback imediato de nome de usuário em uso. | Validação assíncrona (AJAX) do nome enquanto digita. |
+| 2.1 | Informar o E-mail | Operação motora | N/A | N/A |
+| 2.2 | Criar um Nome de Usuário | Operação cognitiva | Dificuldade em achar nomes livres. | Sugerir nomes com base no e-mail fornecido. |
+| 2.3 | Criar uma Senha forte | Operação cognitiva | Regras de senha só aparecem após o erro. | Mostrar requisitos de senha visíveis o tempo todo. |
+| 2.4 | Clicar em 'Criar Conta' | Operação física | N/A | N/A |
+| **3** | **Validar a Conta** | **Plano 3**: Executar 3.1 e 3.2. | E-mail cai na caixa de spam com frequência. | Aviso explícito para verificar a pasta de Spam. |
+| 3.1 | Acessar o e-mail | Operação navegação | N/A | N/A |
+| 3.2 | Clicar no link de ativação | Operação física | Link longo quebra em alguns clientes de e-mail. | Usar botão HTML em vez de link de texto longo. |
+| **4** | **Interagir com o Onboarding** | **Plano 4**: 4.1 depois (4.2 ou 4.3). | O Discobot não explica o tempo médio do tutorial. | Indicar "Duração: 3 minutos" na mensagem. |
+| 4.1 | Abrir a mensagem de boas-vindas | Operação navegação | N/A | N/A |
+| 4.2 | Seguir as instruções interativas | Operação cognitiva | Pode ser tedioso para usuários experientes. | Permitir finalizar a qualquer momento e ganhar o badge. |
+| 4.3 | Ignorar o tutorial e ir para a Home | Operação de escape | A notificação da mensagem fica pendente. | Botão "Marcar como lido" no topo. |
+
+_Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
+
+### 2. Modelagem CTT (Árvores de Tarefas Concorrentes)
+
+O CTT (*Concurrent Task Trees*), formalizado por Paternò (2000), é utilizado para modelar interações concorrentes e papéis de tarefas (usuário, sistema, interação, abstrata). A seguir, a descrição textual hierárquica do modelo CTT para a Tarefa 2.
+
+*   **T1 (Abstrata):** Realizar Cadastro e Onboarding
+    *   **T1.1 (Interação):** Acessar a tela de Cadastro `>>` (Habilita)
+    *   **T1.2 (Abstrata):** Efetuar Inscrição `>>` (Habilita)
+        *   **T1.2.1 (Interação):** Preencher Dados do Formulário
+            *   **T1.2.1.1 (Usuário):** Digitar e-mail `|||` (Concorrência *interleave*) **T1.2.1.2 (Usuário):** Digitar usuário `|||` **T1.2.1.3 (Usuário):** Digitar senha
+        *   **T1.2.2 (Interação):** Submeter Inscrição `>>` (Habilita)
+        *   **T1.2.3 (Sistema):** Validar Dados e Enviar E-mail de Ativação `>>` (Habilita)
+    *   **T1.3 (Abstrata):** Ativar a Conta `>>` (Habilita)
+        *   **T1.3.1 (Usuário):** Acessar o E-mail Pessoal `>>` (Habilita)
+        *   **T1.3.2 (Interação):** Clicar no link de ativação `>>` (Habilita)
+        *   **T1.3.3 (Sistema):** Ativar Conta e Redirecionar para o Fórum `>>` (Habilita)
+    *   **T1.4 (Abstrata):** Executar Onboarding
+        *   **T1.4.1 (Sistema):** Enviar mensagem de boas-vindas do Discobot `>>` (Habilita)
+        *   **T1.4.2 (Interação):** Escolher interagir ou ignorar `[]` (Escolha exclusiva)
+            *   **T1.4.2.1 (Interação):** Responder ao Discobot `>>` (Habilita)
+                *   **T1.4.2.1.1 (Sistema):** Enviar nova dica (Iterativo)
+            *   **T1.4.2.2 (Interação):** Fechar a mensagem e seguir para Home
+
+Esta modelagem evidencia a forte sincronização necessária entre ações do sistema (envio de e-mail e validação de dados) e do usuário, destacando especialmente a flexibilidade de escolha (*Choice* `[]`) na etapa final de Onboarding (T1.4.2), onde o usuário tem liberdade para seguir fluxos paralelos.
 ---
 
 ## Tarefa 3: Busca Avançada e Filtros de Categoria (Edvaldo Soares)

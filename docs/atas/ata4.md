@@ -102,7 +102,7 @@ A Tabela 2 estabelece com clareza o encadeamento das atividades até o encerrame
 
 Em conformidade com as diretrizes de transparência e verificação contínua da disciplina, a gravação em vídeo da sessão síncrona está disponibilizada abaixo:
 
-- **Link de Acesso à Gravação:** [Acessar Gravação da Reunião 4 no YouTube](https://www.youtube.com/watch?v=placeholder_ata4_grupo08) *(Vídeo Não Listado)*
+- **Link de Acesso à Gravação:** [Acessar Gravação da Reunião 4 no YouTube](https://youtu.be/OANTQ0KYoYk) *(Vídeo Não Listado)*
 - **Data da Sessão Gravada:** 25/09/2026.
 
 ---

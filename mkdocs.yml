@@ -70,6 +70,10 @@ markdown_extensions:
 
 nav:
   - Início: index.md
+  - Entregas:
+    - Entrega 1: entregas/entrega1.md
+    - Entrega 2: entregas/entrega2.md
+    
   - Planejamento do Projeto:
     - Equipe: planejamento/equipe.md
     - Cronograma Planejado: planejamento/cronograma-planejado.md
@@ -86,6 +90,8 @@ nav:
     - Personas e Elenco: analise-requisitos/personas.md
     - Cenários: analise-requisitos/cenarios.md
     - Análise de Tarefas: analise-requisitos/analise-tarefas.md
+    - Características da Plataforma: analise-requisitos/caracteristicas-da-plataforma.md
+    - Princípios Gerais de Projeto: analise-requisitos/principios-gerais-de-projeto.md
     - Conteúdo da Disciplina: analise-requisitos/conteudo-disciplina.md
   - Atas de Reunião:
     - Índice de Atas: atas/index.md
@@ -97,7 +103,3 @@ nav:
     - Auto-Avaliação (Grupo 08): verificacao/grupo08.md
   - Conteúdo Teórico:
     - Itens Avaliados: conteudo-teorico/index.md
-  - Análise de Requisitos:
-    - Perfil do Usuário: analise-requisitos/perfil-usuario.md
-    - Características da Plataforma: analise-requisitos/caracteristicas-da-plataforma.md
-    - Princípios Gerais de Projeto: analise-requisitos/principios-gerais-de-projeto.md
