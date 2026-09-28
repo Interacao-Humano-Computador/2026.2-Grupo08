@@ -38,7 +38,12 @@ A Tabela 1 apresenta a definição conceitual de cada um dos elementos constitut
 
 _Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021, p. 177-179), 2026._
 
-Conforme detalhado na Tabela 1, a explicitação desses componentes impede que o cenário se torne uma descrição genérica e despersonalizada de software.
+Conforme detalhado na Tabela 1, a explicitação desses componentes impede que o cenário se torne uma descrição genérica e despersonalizada de software. A Figura 1 atesta a definição teórica destes elementos.
+
+![Print do livro de IHC de Barbosa e Silva detalhando os elementos que compõem um cenário](../assets/referencias/cenarios_elementos_pg170.png)
+
+**Figura 1** — Trecho do livro de Barbosa e Silva detalhando os elementos constitutivos de um cenário.
+
 
 ---
 
@@ -111,9 +116,33 @@ Conforme evidenciado na Tabela 3, a experiência de Lucas depende diretamente da
 - **Autor Principal**: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
 - **Revisor**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 
-!!! info "Espaço Reservado para Desenvolvimento Individual (Gustavo Antonio)"
-    Este cenário é de responsabilidade autoral exclusiva do discente **Gustavo Antonio Rodrigues e Silva**, sendo desenvolvido diretamente em sua respectiva branch temática (`feat/...`) para posterior submissão via Pull Request e revisão por Edvaldo Soares.
+### Narrativa Textual do Cenário
 
+É sábado à tarde e Carlos (45 anos, contador) está tentando usar o Linux Mint pela primeira vez em seu notebook antigo. Ele conseguiu instalar o sistema com a ajuda de um vídeo, mas agora está frustrado porque sua impressora Wi-Fi não está sendo reconhecida de jeito nenhum. Sem ter a quem recorrer pessoalmente, ele pesquisa no Google e encontra o Fórum Diolinux Plus, decidindo se cadastrar para pedir ajuda.
+
+Ao acessar a página inicial do fórum, Carlos procura e clica no botão "Cadastrar" no canto superior direito. Uma janela modal se abre pedindo e-mail, nome de usuário e senha. Ele preenche os dados rapidamente e, logo em seguida, abre seu e-mail pelo celular para clicar no link de confirmação enviado pelo sistema. Ao ser redirecionado e fazer seu primeiro login, a plataforma exibe uma tela de boas-vindas (Onboarding) e ele recebe uma notificação de mensagem privada do "discobot", um robô do fórum que oferece um tutorial interativo sobre como usar a plataforma.
+
+Como Carlos está com muita pressa para imprimir seus documentos, ele fecha a mensagem do robô e procura o botão "+ Novo Tópico". A janela de edição se abre e ele fica um pouco confuso sobre qual categoria escolher, acabando por selecionar "Iniciantes". No título, ele digita "Impressora não funciona no Mint". No corpo do texto, ele escreve apenas: "Gente, acabei de instalar o Linux Mint e minha impressora HP não imprime. Alguém me ajuda?". Ele não percebe que faltaram detalhes técnicos cruciais, como o modelo exato da impressora e a versão do sistema. Ele clica em "Criar Tópico".
+
+Aproximadamente 15 minutos depois, Carlos recebe uma notificação na tela. Um usuário mais experiente respondeu de forma acolhedora, dando as boas-vindas ao fórum e perguntando qual era o modelo da impressora HP. O usuário também sugeriu um comando simples no terminal (`lsusb`) para verificar se a impressora estava sendo vista pelo sistema via cabo. Embora a palavra "terminal" assuste Carlos um pouco, a explicação foi tão didática e amigável que ele se sente encorajado a tentar. Ele percebe que o fórum é um ambiente seguro para iniciantes e sente alívio por ter encontrado ajuda.
+
+### Detalhamento Estruturado dos Elementos
+
+A Tabela 4 detalha a decomposição estruturada do Cenário 2 conforme os parâmetros de Barbosa e Silva (2021).
+
+**Tabela 4** — Detalhamento estruturado dos elementos constitutivos do Cenário 2
+
+| Elemento Constitutivo | Detalhamento Empírico no Fórum Diolinux Plus |
+| :--- | :--- |
+| **Contexto** | Casa do usuário; sábado à tarde; notebook rodando Linux Mint recém-instalado; urgência moderada para imprimir documentos de trabalho. |
+| **Ator** | Carlos (Persona 2 - Iniciante); 45 anos; contador; baixa experiência em Linux e em fóruns técnicos; ansioso e focado na resolução imediata. |
+| **Objetivos** | Realizar o cadastro na plataforma, navegar pela interface inicial e conseguir postar um pedido de ajuda sobre hardware. |
+| **Planejamento** | • Localizar o botão de cadastro no site.<br>• Preencher as informações e validar o e-mail.<br>• Ignorar distrações iniciais (tutoriais/bots) para focar na tarefa urgente.<br>• Criar o tópico na categoria que parecer mais acolhedora ("Iniciantes"). |
+| **Ações** | 1. Clicar em "Cadastrar".<br>2. Preencher e-mail, nome e senha.<br>3. Confirmar o link no e-mail.<br>4. Ignorar o onboarding do "discobot".<br>5. Clicar em "+ Novo Tópico".<br>6. Selecionar categoria "Iniciantes".<br>7. Escrever título genérico e texto curto.<br>8. Clicar em "Criar Tópico". |
+| **Eventos** | • Modal de cadastro responsivo.<br>• E-mail automático enviado e validado.<br>• Notificação do sistema (mensagem privada do robô de onboarding).<br>• Publicação do tópico e posterior notificação push de resposta de outro usuário. |
+| **Resultados e Avaliação** | O cadastro foi simples e rápido, sem fricções. O usuário conseguiu pedir ajuda, mas a falta de experiência em fóruns técnicos fez com que ele omitisse dados importantes (modelo da impressora). O acolhimento da comunidade gerou confiança, e ele sentiu que a plataforma é útil. |
+
+_Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
 ---
 
 ## Cenário 3: Pesquisa Avançada por Filtros e Solução Aceita

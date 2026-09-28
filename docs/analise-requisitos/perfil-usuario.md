@@ -30,6 +30,15 @@ O Grupo 08 adota uma abordagem qualitativa e empírica para caracterizar os usu�
 
 As características descritas como hipóteses não devem ser tratadas como resultados de pesquisa. A equipe deverá confirmá-las, alterá-las ou removê-las com base nos dados coletados.
 
+As Figuras 2 e 3 comprovam a definição bibliográfica destas técnicas de coleta de dados e elicitação no livro de Barbosa e Silva (2010), atendendo aos critérios de verificação do projeto.
+
+![Print do livro de IHC de Barbosa e Silva detalhando a técnica de entrevistas](../assets/referencias/tecnicas_entrevistas_pg131.png)
+
+**Figura 2** — Trecho do livro de Barbosa e Silva detalhando a técnica de Entrevistas.
+
+![Print do livro de IHC de Barbosa e Silva detalhando as técnicas de grupos de foco e questionários](../assets/referencias/tecnicas_foco_questionario_pg138.png)
+
+**Figura 3** — Trecho do livro de Barbosa e Silva detalhando as técnicas de Grupos de Foco e Questionários.
 ---
 
 ## Grupos de Atributos
@@ -41,7 +50,13 @@ Com base na caracterização de usuários discutida por Barbosa e Silva (2010, p
 - **Atitudes e estratégias:** motivação, confiança, preferências de aprendizagem e estratégias usadas para realizar tarefas.
 - **Tarefas e objetivos:** ações realizadas no fórum e resultados que a pessoa espera alcançar.
 
-A coleta desses atributos deve se limitar ao que for útil para compreender as tarefas e necessidades do projeto.
+A coleta desses atributos deve se limitar ao que for útil para compreender as tarefas e necessidades do projeto. A Figura 1 comprova a definição bibliográfica destes atributos no modelo de Hackos e Redish (1998) citado por Barbosa e Silva.
+
+![Print do livro de IHC de Barbosa e Silva detalhando os grupos de atributos de um perfil de usuário](../assets/referencias/perfil_usuario_atributos_pg162.png)
+
+**Figura 1** — Trecho do livro de Barbosa e Silva detalhando os grupos de atributos de um perfil de usuário.
+
+
 
 ---
 
