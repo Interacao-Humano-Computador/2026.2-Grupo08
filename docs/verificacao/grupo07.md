@@ -10,7 +10,7 @@
 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Auditoria e mapeamento das inconsistências teóricas de HTA e CTT](#4-inconsistencias-relevantes-identificadas) | 28/09/2026 | Suporte na formatação textual |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Coordenação da auditoria, elaboração da matriz de verificação da Etapa 2 e redação das recomendações](#2-verificacao-dos-itens-de-conteudo-da-disciplina-etapa-2) | 28/09/2026 | Suporte na estruturação Markdown e tabelas |
 
----
+--- 
 
 ## Introdução
 
