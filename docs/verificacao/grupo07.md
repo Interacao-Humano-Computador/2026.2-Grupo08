@@ -4,17 +4,14 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Auditoria dos itens de desenvolvimento e governança técnica](#1-verificacao-dos-itens-de-desenvolvimento-e-governanca-do-projeto) | 28/09/2026 | Suporte na estruturação Markdown e tabelas |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Consolidação dos dados de verificação da Etapa 2 e gráficos de conformidade](#3-resumo-grafico-de-conformidade) | 28/09/2026 | Suporte na estruturação Markdown e tabelas |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Revisão e conferência das referências normativas e bibliográficas](#referencias-bibliograficas) | 28/09/2026 | Suporte na estruturação Markdown |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Auditoria e mapeamento das inconsistências teóricas de HTA e CTT](#4-inconsistencias-relevantes-identificadas) | 28/09/2026 | Suporte na formatação textual |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Coordenação da auditoria, elaboração da matriz de verificação da Etapa 2 e redação das recomendações](#2-verificacao-dos-itens-de-conteudo-da-disciplina-etapa-2) | 28/09/2026 | Suporte na estruturação Markdown e tabelas |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Auditoria técnica da Etapa 2, consolidação dos dados de verificação e apresentação em vídeo](https://youtu.be/1Aobj09jrYo) | 28/09/2026 | Suporte na estruturação Markdown e tabelas |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Coordenação da auditoria, elaboração da matriz, redação das recomendações e apresentação em vídeo](https://youtu.be/1Aobj09jrYo) | 28/09/2026 | Suporte na estruturação Markdown e tabelas |
 
 --- 
 
 ## Introdução
 
-Este documento consolida o **relatório formal de avaliação técnica e acadêmica do Grupo -1 (Grupo 07)** referente à **Etapa 2** (Perfil de Usuário, Aspectos Éticos e Análise de Tarefas), conduzido pela equipe do **Grupo 08** na disciplina de Interação Humano-Computador (FGA0173 — Turma 01), ministrada pelo Prof. Dr. André Barros de Sales na Faculdade UnB Gama da Universidade de Brasília (FGA/UnB).
+Este documento consolida o **relatório formal de avaliação técnica e acadêmica do Grupo -1 (Grupo 07)** referente à **Etapa 2** (Perfil de Usuário, Aspectos Éticos e Análise de Tarefas), conduzido pelos discentes **Vinicius Silva Araruna** e **Gustavo Antonio Rodrigues e Silva**, representando o **Grupo 08** na disciplina de Interação Humano-Computador (FGA0173 — Turma 01), ministrada pelo Prof. Dr. André Barros de Sales na Faculdade UnB Gama da Universidade de Brasília (FGA/UnB).
 
 A sistemática de avaliação entre grupos da disciplina determina que a equipe audite os artefatos produzidos pelo grupo precedente (Grupo $N-1$), aplicando os critérios oficiais contidos no Plano de Ensino da disciplina (*Sales, 2026*) e os fundamentos consolidados na literatura canônica de IHC (*Barbosa & Silva, 2021; Cooper, 1999; Carroll, 2000; Annett & Duncan, 1967; Paternò, 1999*). O objetivo desta auditoria é assegurar a qualidade científica, apontar inconsistências de forma construtiva e fornecer recomendações práticas para subsidiar os ajustes pós-feedback da equipe auditada.
 
@@ -35,14 +32,28 @@ A Tabela 1 sintetiza as informações cadastrais e os links de acesso aos artefa
 | **Data da Avaliação** | 28/09/2026 |
 | **Repositório no GitHub** | [github.com/Interacao-Humano-Computador/2026.2-Grupo07](https://github.com/Interacao-Humano-Computador/2026.2-Grupo07) |
 | **Documentação no GitPages** | [interacao-humano-computador.github.io/2026.2-Grupo07](https://interacao-humano-computador.github.io/2026.2-Grupo07/) |
-| **Vídeo da Apresentação da Etapa 2** | **Não disponibilizado** (Falha crítica: inexistência de página de apresentação da Etapa 2 no GitPages e sem link nos artefatos). |
-| **Gravação das Reuniões da Etapa 2** | **Não disponibilizadas** (Inexiste ata de reunião registrada para a Etapa 2 e nenhum link de gravação de alinhamento publicado). |
+| **Vídeo da Apresentação da Etapa 2 (Grupo 07)** | **Não disponibilizado** (Falha crítica: inexistência de página de apresentação da Etapa 2 no GitPages e sem link nos artefatos). |
+| **Gravação das Reuniões da Etapa 2 (Grupo 07)** | **Não disponibilizadas** (Inexiste ata de reunião registrada para a Etapa 2 e nenhum link de gravação de alinhamento publicado). |
+| **Vídeo da Avaliação Realizada pelo Grupo 08** | [Assistir no YouTube (1Aobj09jrYo)](https://youtu.be/1Aobj09jrYo) |
 
 _Fonte: Grupo 08, 2026._
 
 !!! info "Relatório em PDF Padronizado para Entrega Acadêmica"
     O documento formal consolidado com os resultados da avaliação do Grupo 07, formatado segundo a identidade visual e exigências da disciplina, está disponível para consulta e download:
     [:material-file-pdf-box: **ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf**](../assets/relatorios/ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf)
+
+---
+
+## Vídeo da Gravação da Avaliação
+
+O vídeo a seguir documenta a auditoria e apresentação da avaliação do Grupo 07 referente à Etapa 2, conduzida em conjunto pelos discentes Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva.
+
+<div style="text-align: center; margin: 1.5em 0;" markdown="1">
+  <iframe width="720" height="405" src="https://www.youtube.com/embed/1Aobj09jrYo" title="Avaliação do Grupo -1 (Grupo 07 — PCI Concursos) | IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p align="center" style="font-size: 0.85em; color: #64748B;"><b>Vídeo 1</b> — Gravação da avaliação formal do Grupo 07 referente à Etapa 2. (Fonte: Grupo 08, 2026).</p>
+</div>
+
+Caso não consiga visualizar o player incorporado acima, acesse diretamente através do link: [Assistir no YouTube (1Aobj09jrYo)](https://youtu.be/1Aobj09jrYo).
 
 ---
 
@@ -214,7 +225,8 @@ A Tabela 4 documenta o histórico de modificações deste relatório de avaliaç
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 28/09/2026 | Elaboração inicial da auditoria técnica e avaliação formal do Grupo 07 (Grupo -1) referente à Etapa 2 | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06), [Jonathan Lourenço](https://github.com/Jonathan-Carpaneda) |
+| `1.0` | 28/09/2026 | Elaboração inicial da auditoria técnica e avaliação formal do Grupo 07 (Grupo -1) referente à Etapa 2 | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.1` | 28/09/2026 | Adição do vídeo da gravação da avaliação do Grupo 07 no YouTube (1Aobj09jrYo) e incorporação de iframe | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Grupo 08, 2026._
 

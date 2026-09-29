@@ -5,10 +5,10 @@
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Acompanhamento e validação das datas reais de execução](#entrega-1-planejamento-do-projeto) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação inicial e acompanhamento das etapas executadas](#mudanca-de-escopo-pivot-para-o-forum-diolinux-plus) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Registro da avaliação e gravação do Grupo 07 (Etapa 2)](#entrega-2-perfil-do-usuario-aspectos-eticos-e-analise-de-tarefas) | 28/09/2026 | Suporte na estruturação Markdown e tabelas |
 | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início e padronização ABNT](#introducao) | 05/09/2026 | — |
 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Registro e consolidação das datas reais de execução (Ação 15)](#entrega-1-planejamento-do-projeto) | 05/09/2026 | — |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Inclusão dos artefatos da mudança de escopo, Ata 4 e adequação para Referências Bibliográficas](#historico-de-versao) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Inclusão da avaliação técnica e vídeo do Grupo 07 na Entrega 2](#entrega-2-perfil-do-usuario-aspectos-eticos-e-analise-de-tarefas) | 28/09/2026 | Suporte na estruturação Markdown e tabelas |
 
 ---
 
@@ -76,6 +76,7 @@ A Tabela 3 documenta o andamento executado das atividades da Entrega 2, registra
 | Tarefa 1 — Publicação em Markdown (HTA e KLM) (`analise-tarefas.md`) | 16/09 - 24/09 | 26/09 | Vinicius Araruna | 26/09 | Edvaldo Soares |
 | Tarefa 3 — Busca Avançada (HTA e GOMS/KLM) (`analise-tarefas.md`) | 16/09 - 24/09 | 26/09 | Edvaldo Soares | 26/09 | Vinicius Araruna |
 | Listas de Verificação Canônicas (`conteudo-disciplina.md`) | 24/09 - 25/09 | 26/09 | Vinicius Araruna, Edvaldo Soares, Gustavo Antonio | 26/09 | Edvaldo Soares |
+| Avaliação e Gravação em Vídeo do Grupo -1 — Grupo 07 (`grupo07.md`) | 27/09 - 28/09 | 28/09 | Vinicius Araruna, Gustavo Antonio | 28/09 | Gustavo Antonio, Vinicius Araruna |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -95,6 +96,7 @@ A Tabela 4 documenta o histórico de versões deste artefato.
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.2` | 26/09/2026 | Inclusão dos artefatos executados da mudança de escopo (pivot), Ata 4, menção de IA na tabela de contribuição e adequação da seção de Referências Bibliográficas (atendimento às OBS 4, 8 e 9) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.3` | 26/09/2026 | Inclusão do cronograma executado da Entrega 2, mapeamento dos revisores reais e sincronização com o repositório | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.4` | 28/09/2026 | Inclusão da avaliação do Grupo -1 (Grupo 07 — PCI Concursos) e gravação de vídeo por Vinicius e Gustavo | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
