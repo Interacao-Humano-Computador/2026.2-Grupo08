@@ -1,1 +1,28 @@
+# MkDocs build e cache
 site/
+.cache/
+
+# Python caches e ambientes
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e Temporarios
+*.log
+scratch/
+tmp/

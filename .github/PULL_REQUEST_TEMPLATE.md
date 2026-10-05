@@ -1,36 +1,44 @@
-## 📝 Descrição
-<!-- Descreva de forma concisa o que foi feito neste Pull Request e quais arquivos foram alterados/adicionados. -->
+## Descricao do Pull Request
+
+<!-- Descreva de forma concisa o objetivo deste PR e as alteracoes realizadas. -->
+
+**Issue Relacionada:** Closes #
 
 ---
 
-## 🏷️ Tipo de Alteração
+## Tipo de Modificacao
 
-- [ ] 📚 `docs:` Atualização ou adição de documentação
-- [ ] 🎨 `style:` Ajustes de layout, tema ou CSS
-- [ ] 🐛 `fix:` Correção de formatação, links ou pequenos ajustes
-- [ ] 🔧 `chore:` Configurações do projeto ou manutenção
+- [ ] `docs:` Novo artefato ou documentacao academica
+- [ ] `fix:` Correcao pos-feedback de banca/monitoria ou bugfix
+- [ ] `feat:` Nova funcionalidade ou pagina interativa
+- [ ] `chore/ci:` Alteracoes de infraestrutura, workflows ou MkDocs
+- [ ] `video:` Inclusao de ata ou gravacao audiovisual
 
 ---
 
-## 👥 Responsáveis
+## Autoria e Revisao por Pares
 
-- **Autor(es):**
+- **Autor(es) Principal(is):**
 - **Revisor(es) Designado(s):**
 
 ---
 
-## ✅ Checklist de Revisão
+## Dupla Dimensao Academica (Rigor da Disciplina)
 
-- [ ] Realizei uma auto-revisão do conteúdo nos arquivos alterados.
-- [ ] Os commits são atômicos e seguem o padrão *Conventional Commits*.
-- [ ] Tabelas e figuras contêm título, legenda, fonte e estão referenciadas no texto.
-- [ ] As referências seguem o padrão da ABNT.
-- [ ] Tabela de contribuição e histórico de versões devidamente preenchidos.
-- [ ] O build local do site (`python -m mkdocs build`) foi executado sem erros.
+- [ ] **A Teoria:** O documento apresenta fundamentacao teorica solida (Barbosa e Silva, Nielsen, Mayhew, etc.) com referencias canonicas e, quando pertinente, citacoes e referencias de livros para agilizar a conferencia.
+- [ ] **A Aplicacao da Teoria:** O documento demonstra explicitamente como os conceitos foram operacionalizados na pratica sobre o **Forum Diolinux Plus**.
 
 ---
 
-## 🔗 Links Úteis (Se aplicável)
+## Checklist Universal de Auto-Review (Gate SDD)
 
-- **Ata relacionada:**
-- **Gravação em vídeo:**
+- [ ] A branch foi criada a partir de `origin/main` atualizada.
+- [ ] Os commits sao estritamente atomicos no formato *Conventional Commits* (ex: `docs(metas): adiciona metas de usabilidade`).
+- [ ] Tabela de Contribuicao no topo com todos os integrantes, datas e ferramentas de IA discriminadas.
+- [ ] Introducao contextualiza adequadamente o artefato no Forum Diolinux Plus.
+- [ ] Todas as Tabelas e Figuras possuem titulo ("Tabela X - ..."), legenda, fonte ("Fonte: Autores, 2026.") e estao **explicitamente chamadas no texto**.
+- [ ] Diagramas Mermaid possuem alto contraste e legibilidade tanto em tema claro quanto escuro.
+- [ ] Historico de Versao ao final devidamente preenchido com hiperlinks para os perfis dos autores e revisores no GitHub.
+- [ ] Secao intitulada **Referencias Bibliograficas** contendo apenas as obras citadas em conformidade com as normas da ABNT.
+- [ ] Declaracao transparente de Agradecimentos e Uso de Inteligencia Artificial Generativa presente.
+- [ ] O comando local `python -m mkdocs build --strict` executou com sucesso (0 erros e 0 warnings).
