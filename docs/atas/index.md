@@ -5,7 +5,7 @@
 | Integrante | Contribuição | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Acompanhamento e registro das atas](#atas-de-reuniao) | 04/09/2026 | Suporte na estruturação Markdown sob curadoria |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Criação inicial da página de atas e registro da Ata 1](#historico-de-versao) | 04/09/2026 | Suporte na estruturação Markdown sob curadoria |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Criação inicial da página e registro das Atas 1 e 5](#historico-de-versao) | 05/10/2026 | Suporte na estruturação Markdown sob curadoria |
 | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início e padronização ABNT](#introducao) | 05/09/2026 | — |
 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão e conferência dos links de atas](#atas-de-reuniao) | 04/09/2026 | — |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Inclusão da Ata 4 (reestruturação) e governança das atas](#atas-de-reuniao) | 25/09/2026 | Suporte na estruturação Markdown sob curadoria |
@@ -30,6 +30,7 @@ A Tabela 1 lista as atas de reuniões realizadas pelo grupo ao longo do semestre
 | [Ata 2 - Avaliação do Grupo +1](ata2.md) | 07/09/2026 | Reunião presencial de avaliação dos artefatos da Etapa 1 do Grupo 01 (Oppia). | — |
 | [Ata 3 — Mudança de Escopo](ata3.md) | 14/09/2026 | Reunião extraordinária de deliberação para migração do objeto de estudo para o Fórum Diolinux Plus. | [Assistir no YouTube](https://www.youtube.com/watch?v=placeholder_ata3_grupo08) |
 | [Ata 4 — Reestruturação da Equipe](ata4.md) | 25/09/2026 | Reunião formalizando a atuação dos 3 integrantes ativos, análise de sobrecarga, governança e alinhamento da Entrega 2. | [Assistir no YouTube](https://youtu.be/OANTQ0KYoYk) |
+| [Ata 5 — Planejamento da Entrega 3](ata5.md) | 05/10/2026 | Reunião de planejamento da Entrega 3, divisão de tarefas para Metas de Usabilidade, Princípios Gerais e Guia de Estilo. | [Assistir no YouTube](https://youtu.be/PENDING_LINK_YOUTUBE) |
 
 _Fonte: Autores, 2026._
 
@@ -44,6 +45,7 @@ _Fonte: Autores, 2026._
 | `1.2` | 18/09/2026 | Inclusão da Ata 3 referente à reunião extraordinária de mudança de escopo | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.3` | 18/09/2026 | Adequação terminológica para Referências Bibliográficas ABNT e ancoragem textual de citação | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Jonathan Lourenço](https://github.com/Jonathan-Carpaneda) |
 | `1.4` | 25/09/2026 | Inclusão da Ata 4 (reestruturação para 3 discentes, análise de sobrecarga e alinhamento da Entrega 2) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.5` | 05/10/2026 | Inclusão da Ata 5 (planejamento da Entrega 3 e alinhamento do Guia de Estilo) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 

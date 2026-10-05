@@ -4,19 +4,19 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação metodológica e autoria do Perfil 1 (Entusiasta / Criador de Tópicos Técnicos). | 26/09/2026 | Suporte na estruturação Markdown e formatação de tabelas. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Elaboração preliminar do Perfil 3 (Pesquisador / Buscador Autônomo), sujeita a validação com usuários. | 26/09/2026 | LLM: apoio à estruturação do rascunho e à formatação; conteúdo a ser revisado pelo autor. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Autoria individual do Perfil 2 (Iniciante / Onboarding). | 27/09/2026 | Gemini: apoio na estruturação dos atributos e síntese teórica, conforme informado pelo autor. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação metodológica e autoria do Perfil 1 (Usuário Comum / Membro da Comunidade). | 05/10/2026 | Suporte na estruturação Markdown e formatação de tabelas. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Autoria individual do Perfil 2 (Moderador / Guardião da Comunidade). | 05/10/2026 | Gemini: apoio na estruturação dos atributos e síntese teórica. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Elaboração do Perfil 3 (Administrador / Gestor do Sistema). | 05/10/2026 | LLM: apoio à estruturação e à formatação de matrizes de privilégios. |
 
 ---
 
 ## Introdução
 
-Este artefato apresenta a caracterização preliminar dos perfis de usuário do **Fórum Diolinux Plus**, no âmbito da disciplina de Interação Humano-Computador (FGA0173), ministrada pelo Prof. Dr. André Barros de Sales, na Faculdade UnB Gama (FGA/UnB).
+Este artefato apresenta a caracterização detalhada dos perfis de usuário do **Fórum Diolinux Plus**, no âmbito da disciplina de Interação Humano-Computador (FGA0173), ministrada pelo Prof. Dr. André Barros de Sales, na Faculdade UnB Gama (FGA/UnB).
 
 A definição de perfis de usuário apoia a análise de requisitos e decisões de design. Barbosa e Silva (2010, p. 134–136; p. 174–176) discutem a importância de compreender os usuários, suas atividades e seu contexto de uso. Sem dados sobre o público, projetistas podem acabar tomando suas próprias experiências como referência para representar usuários diferentes.
 
-Os perfis apresentados neste documento organizam características, objetivos e tarefas que devem orientar a investigação do projeto. As informações sem confirmação empírica estão identificadas como hipóteses ou dados a levantar e deverão ser revisadas após entrevistas e observações.
+Após feedback metodológico e análise aprofundada da plataforma (baseada no ecossistema Discourse), o grupo refinou o escopo dos perfis para abranger a **complexidade hierárquica** da plataforma. Em vez de focar apenas no consumidor de conteúdo, os perfis agora representam os três diferentes níveis de privilégio e fluxos de interação: **Usuário Comum**, **Moderador** e **Administrador**.
 
 ---
 
@@ -24,11 +24,9 @@ Os perfis apresentados neste documento organizam características, objetivos e t
 
 O Grupo 08 adota uma abordagem qualitativa e empírica para caracterizar os usuários do fórum:
 
-1. **Brainstorming da equipe:** levantamento inicial de hipóteses sobre perfis, tarefas, dificuldades e objetivos de uso.
-2. **Entrevistas semiestruturadas:** conversas com usuários iniciantes e experientes, orientadas por um roteiro flexível. A participação deve ocorrer mediante consentimento, conforme o procedimento ético definido para o projeto.
-3. **Análise documental e observação do fórum:** observação de informações públicas do Diolinux Plus, como categorias, tópicos, respostas, tags e recursos de busca. Os dados observados devem ser registrados sem atribuir características pessoais aos participantes quando elas não estiverem disponíveis.
-
-As características descritas como hipóteses não devem ser tratadas como resultados de pesquisa. A equipe deverá confirmá-las, alterá-las ou removê-las com base nos dados coletados.
+1. **Brainstorming da equipe e Análise do Discourse:** Levantamento inicial de hipóteses sobre os papéis hierárquicos do fórum e suas permissões.
+2. **Entrevistas semiestruturadas:** Conversas orientadas por um roteiro flexível, focadas na jornada de consumo (usuários) e na gestão (administradores/moderadores). A participação ocorre mediante consentimento (TCLE).
+3. **Análise documental e observação do fórum:** Observação de informações públicas do Diolinux Plus, categorias de moderação, badges de confiança (Trust Levels) e tópicos fixados.
 
 As Figuras 2 e 3 comprovam a definição bibliográfica destas técnicas de coleta de dados e elicitação no livro de Barbosa e Silva (2010), atendendo aos critérios de verificação do projeto.
 
@@ -39,168 +37,121 @@ As Figuras 2 e 3 comprovam a definição bibliográfica destas técnicas de cole
 ![Print do livro de IHC de Barbosa e Silva detalhando as técnicas de grupos de foco e questionários](../assets/referencias/tecnicas_foco_questionario_pg138.png)
 
 **Figura 3** — Trecho do livro de Barbosa e Silva detalhando as técnicas de Grupos de Foco e Questionários.
+
 ---
 
 ## Grupos de Atributos
 
-Com base na caracterização de usuários discutida por Barbosa e Silva (2010, p. 134–136; p. 174–176), os perfis deste documento consideram os seguintes grupos de atributos:
+Com base na caracterização de usuários discutida por Barbosa e Silva (2010, p. 134–136; p. 174–176) e apoiado nos conceitos de Hackos e Redish (1998), os perfis deste documento consideram os seguintes grupos de atributos:
 
-- **Dados demográficos e contexto:** idade, ocupação, escolaridade, dispositivo, navegador, conexão e condições de uso, quando pertinentes e coletados.
-- **Experiência tecnológica e no domínio:** experiência com Linux, terminal, fóruns, ferramentas de busca e o assunto pesquisado.
-- **Atitudes e estratégias:** motivação, confiança, preferências de aprendizagem e estratégias usadas para realizar tarefas.
-- **Tarefas e objetivos:** ações realizadas no fórum e resultados que a pessoa espera alcançar.
-
-A coleta desses atributos deve se limitar ao que for útil para compreender as tarefas e necessidades do projeto. A Figura 1 comprova a definição bibliográfica destes atributos no modelo de Hackos e Redish (1998) citado por Barbosa e Silva.
+- **Dados demográficos e contexto:** idade, ocupação, escolaridade e infraestrutura de acesso.
+- **Experiência tecnológica e no domínio:** experiência com Linux, sistemas web e ferramentas de gestão/moderação.
+- **Atitudes e estratégias:** motivação de uso, tolerância a falhas do sistema e engajamento com a comunidade.
+- **Tarefas e objetivos primários:** ações cotidianas realizadas na plataforma.
 
 ![Print do livro de IHC de Barbosa e Silva detalhando os grupos de atributos de um perfil de usuário](../assets/referencias/perfil_usuario_atributos_pg162.png)
 
 **Figura 1** — Trecho do livro de Barbosa e Silva detalhando os grupos de atributos de um perfil de usuário.
 
-
-
 ---
 
-## Caracterização dos Perfis de Usuário
+## Caracterização dos Perfis de Usuário (Baseada em Nível de Privilégio)
 
-Cada perfil tem um integrante responsável por sua elaboração. A equipe deverá revisar os perfis em conjunto e atualizar as caracterizações conforme os dados da pesquisa.
+Cada perfil tem um integrante responsável por sua elaboração, garantindo a autoria individual exigida pelo plano de ensino.
 
-### Perfil 1 — Usuário Entusiasta / Criador de Tópicos Técnicos
+### Perfil 1 — Usuário Comum (Membro da Comunidade)
 
 - **Autor principal:** [Vinicius Silva Araruna](https://github.com/ViniciusA05)
 - **Revisor:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
 
-Este perfil representa a hipótese de um usuário que participa ativamente do fórum, criando tópicos, compartilhando tutoriais ou discutindo configurações e problemas técnicos. As características abaixo são uma caracterização inicial e precisam ser verificadas com participantes e com a observação das tarefas no fórum.
+Este perfil representa a vasta maioria da plataforma: o membro focado em consumir tutoriais, criar tópicos de dúvida ou compartilhar soluções. Seu nível de confiança (Trust Level do Discourse) costuma variar de 0 (Novo) a 3 (Membro Frequente).
 
-**Tabela 1** — Caracterização preliminar do Perfil 1
+**Tabela 1** — Caracterização do Perfil 1: Usuário Comum
 
-| Dimensão de análise | Atributo investigado | Caracterização preliminar |
+| Dimensão de análise | Atributo investigado | Caracterização / Hipótese |
 | :--- | :--- | :--- |
-| **Dados demográficos** | Faixa etária, ocupação e escolaridade | A levantar com participantes. O perfil não pressupõe uma faixa etária ou formação específica. |
-| **Experiência tecnológica** | Conhecimento em Linux | Hipótese de experiência intermediária ou avançada, a validar. Investigar distribuições utilizadas, tarefas realizadas e eventual uso do terminal. |
-| | Familiaridade com fóruns | A levantar. Investigar experiência com criação de tópicos, respostas, categorias, tags e formatação Markdown. |
-| | Frequência de acesso | A levantar por entrevista ou observação. |
-| **Atitudes e estratégias** | Motivação | Hipótese: compartilhar conhecimento, obter ajuda técnica ou discutir soluções. |
-| | Tolerância a problemas técnicos | A levantar. Investigar como a pessoa procura informações e reage quando uma solução não funciona. |
-| **Tarefas primárias** | Criação de tópico | Descrever um problema ou compartilhar uma informação, incluindo contexto e evidências relevantes. |
-| | Organização da publicação | Selecionar categoria e tags e formatar texto, comandos, logs ou imagens, quando necessário. |
-| | Participação em discussões | A levantar: investigar se acompanha respostas, complementa informações ou interage em tópicos de outras pessoas. |
+| **Dados demográficos** | Faixa etária, ocupação e escolaridade | 15 a 50+ anos. Estudantes de TI, desenvolvedores, curiosos ou profissionais migrando para Linux. |
+| **Experiência tecnológica** | Conhecimento em Linux | Variável (do iniciante absoluto ao usuário avançado de terminal). |
+| | Familiaridade com fóruns | Geralmente tem familiaridade com buscas orgânicas (Google) que os direcionam ao fórum. |
+| **Atitudes e estratégias** | Motivação | Consumir conteúdo técnico de qualidade, obter ajuda para um erro específico (ex: falha de áudio no Ubuntu) ou ajudar terceiros. |
+| | Tolerância a problemas técnicos | Baixa. Busca soluções rápidas e respostas diretas. Se a interface de postagem for confusa, tende a abandonar o fórum. |
+| **Tarefas primárias** | Busca e Consumo | Pesquisar por palavras-chave, ler tópicos antigos e testar comandos sugeridos. |
+| | Interação | Criar novos tópicos de suporte, responder tópicos existentes, curtir (like) e formatar textos com Markdown/BBCode. |
 
-_Fonte: Elaborada por Vinicius Silva Araruna, 2026. Caracterização preliminar, sujeita à validação com usuários._
+_Fonte: Elaborada por Vinicius Silva Araruna, 2026._
 
-O perfil sugere investigar se os recursos de edição, pré-visualização, categorização e formatação apoiam a criação de tópicos. Essas necessidades devem ser confirmadas durante a pesquisa.
+---
 
-### Perfil 2 — Usuário Iniciante / Migração Windows–Linux
+### Perfil 2 — Moderador (Guardião da Comunidade)
 
 - **Autor principal:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
 - **Revisor:** [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 
-Este perfil representa a hipótese de uma pessoa com pouca experiência em Linux ou em processo de migração de outro sistema operacional. Ela pode recorrer ao fórum para buscar orientação sobre instalação, configuração, compatibilidade de hardware ou alternativas a programas conhecidos. As características abaixo não devem ser interpretadas como dados observados até que sejam confirmadas por entrevistas ou observação.
+O Moderador atua como a linha de frente da organização do fórum. São usuários de altíssima confiança (Trust Level 4) ou voluntários oficiais. Sua interface possui botões e menus de contexto ocultos para usuários comuns.
 
-**Tabela 2** — Caracterização preliminar do Perfil 2
+**Tabela 2** — Caracterização do Perfil 2: Moderador
 
-| Dimensão de análise | Atributo investigado | Caracterização preliminar |
+| Dimensão de análise | Atributo investigado | Caracterização / Hipótese |
 | :--- | :--- | :--- |
-| **Dados demográficos** | Faixa etária, ocupação e escolaridade | A levantar com participantes. Não há dados disponíveis para definir uma faixa etária ou formação. |
-| **Experiência tecnológica** | Conhecimento em Linux | Hipótese: inicial ou limitado para a tarefa investigada. Confirmar com os participantes; não presumir que toda pessoa iniciante evita o terminal. |
-| | Familiaridade com fóruns | A levantar. Investigar experiência com busca, criação de tópicos, categorias, tags e leitura de respostas. |
-| | Formatação de conteúdo | A levantar. Verificar se a pessoa sabe incluir mensagens de erro, comandos ou capturas de tela. |
-| | Frequência de acesso | A levantar. |
-| **Atitudes e estratégias** | Motivação | Hipótese: resolver uma dúvida ou realizar uma tarefa específica durante o uso ou a migração para Linux. |
-| | Preferência de aprendizagem | A levantar. Investigar preferência por instruções passo a passo, vídeos, explicações conceituais ou experimentação. |
-| | Reação a erros | A levantar. Investigar que informações ajudam a pessoa a compreender e resolver um problema. |
-| **Tarefas primárias** | Busca de orientação | Pesquisar dúvidas sobre instalação, configuração, hardware ou programas. |
-| | Avaliação de instruções | Identificar se uma orientação corresponde à distribuição, versão e situação da pessoa. |
-| | Pedido de ajuda | Quando necessário, descrever o problema e fornecer informações que ajudem a comunidade a responder. |
+| **Dados demográficos** | Faixa etária, ocupação e escolaridade | Usuários maduros e de alta assiduidade. Profissionais de TI, *sysadmins* ou entusiastas fervorosos do Open Source. |
+| **Experiência tecnológica** | Experiência com a plataforma | Alta proficiência. Conhecem as regras, diretrizes de conduta e atalhos do Discourse profundamente. |
+| **Atitudes e estratégias** | Motivação | Manter o ecossistema saudável, livre de spam, brigas e tópicos repetidos. Sentimento de pertencimento e responsabilidade. |
+| | Reação a infrações | Age com pragmatismo e neutralidade, baseando-se no Código de Conduta do Diolinux Plus. |
+| **Tarefas primárias** | Triagem e Organização | Fechar tópicos duplicados, mover postagens para as categorias corretas, mesclar (*merge*) ou dividir (*split*) tópicos longos. |
+| | Curadoria e Punição | Analisar denúncias (*flags*) da comunidade, ocultar postagens ofensivas, emitir advertências e silenciar contas provisoriamente. |
 
-_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026. Caracterização preliminar, sujeita à validação com usuários._
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
 
-O perfil indica investigar se as pessoas compreendem as instruções, identificam quando uma solução se aplica ao seu contexto e conseguem descrever o problema ao pedir ajuda. Necessidades como linguagem acessível, exemplos e instruções graduais devem ser avaliadas com os participantes.
+---
 
-### Perfil 3 — Usuário Pesquisador / Buscador Autônomo
+### Perfil 3 — Administrador (Gestor do Sistema)
 
 - **Autor principal:** [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 - **Revisor:** [Vinicius Silva Araruna](https://github.com/ViniciusA05)
 
-Este perfil representa pessoas que acessam o Fórum Diolinux Plus para localizar informações ou soluções relacionadas a Linux, software livre ou tecnologia. Antes de publicar uma pergunta, esse usuário pode pesquisar discussões existentes, examinar resultados e avaliar se alguma resposta atende à sua necessidade.
+O Administrador é o mantenedor absoluto. Membro oficial do Diolinux (Staff), ele lida muito pouco com a leitura de tópicos e foca quase integralmente no *Dashboard Admin*, uma interface densa, voltada a gráficos, logs de servidor e segurança web.
 
-A busca autônoma é o foco deste perfil; ela não pressupõe que a pessoa conheça os filtros ou a sintaxe de pesquisa do Discourse. O nível de experiência com Linux, fóruns e ferramentas de busca deverá ser caracterizado a partir dos dados coletados. Barbosa e Silva (2010, p. 134–136; p. 174–176) orientam a compreender usuários, atividades e contexto e a refinar a caracterização conforme a investigação avança.
+**Tabela 3** — Caracterização do Perfil 3: Administrador
 
-**Tabela 3** — Caracterização preliminar do Perfil 3
-
-| Dimensão de análise | Atributo investigado | Caracterização preliminar |
+| Dimensão de análise | Atributo investigado | Caracterização / Hipótese |
 | :--- | :--- | :--- |
-| **Dados demográficos** | Faixa etária, ocupação e escolaridade | A levantar com participantes. |
-| | Contexto de acesso | A levantar, incluindo dispositivo, navegador, conexão e condições de uso. |
-| **Experiência tecnológica** | Experiência com computadores e Internet | A levantar; investigar ferramentas utilizadas e frequência de uso. |
-| | Conhecimento em Linux | Variável e a levantar. Pesquisar sobre Linux não significa necessariamente ser especialista no sistema. |
-| | Familiaridade com fóruns e buscas | A levantar; verificar experiência com tópicos, respostas, categorias, tags e filtros. |
-| **Conhecimento do domínio** | Conhecimento sobre o assunto pesquisado | Pode variar conforme a dúvida. Investigar se a pessoa está aprendendo ou buscando informação em uma área que já conhece. |
-| | Vocabulário utilizado | A levantar a partir das consultas dos participantes; pode incluir distribuições, programas, dispositivos ou mensagens de erro. |
-| **Atitudes e estratégias** | Motivação de acesso | Hipótese a validar: resolver uma necessidade ou aprender sobre um assunto consultando informações existentes antes de perguntar à comunidade. |
-| | Estratégia de aprendizagem | A levantar; investigar se prefere testar soluções, ler tutoriais, comparar respostas ou pedir ajuda. |
-| | Confiança nos resultados | A levantar; verificar como avalia clareza, atualidade, relevância e confiabilidade das respostas. |
-| **Tarefas primárias** | Busca de informação | Formular uma consulta relacionada à necessidade e examinar os resultados. |
-| | Avaliação dos resultados | Comparar títulos, categorias, datas e conteúdo das discussões para selecionar resultados pertinentes. |
-| | Verificação de solução | Ler respostas e verificar se alguma atende à necessidade e parece aplicável ao contexto. |
-| **Tarefas secundárias** | Refinamento da busca | Alterar termos ou aplicar/remover filtros quando os resultados iniciais não forem suficientes. |
-| | Participação na comunidade | Hipótese a validar: acompanhar ou responder a uma discussão; criar tópico quando a busca não encontrar resposta adequada. |
-| **Necessidades de interação** | Compreensão dos resultados | Investigar se títulos e contexto dos resultados permitem decidir quais discussões abrir. |
-| | Refinamento da consulta | Investigar se filtros e opções de ordenação são compreensíveis e se os critérios ativos ficam claros. |
-| | Avaliação da informação | Investigar quais informações ajudam a avaliar relevância e atualidade, como data, categoria e eventual indicação de solução. |
-| **Dificuldades e consequências** | Formulação e refinamento da busca | Hipóteses a validar: dificuldade para escolher termos específicos, entender filtros ou combinar critérios. |
-| | Seleção de resultados | Hipótese a validar: dificuldade para diferenciar resultados semelhantes ou avaliar se uma discussão antiga ainda se aplica. |
-| | Resultados irrelevantes ou desatualizados | Investigar se geram retrabalho, orientação inadequada ou desistência e com que frequência. |
-| **Frequência e duração** | Frequência e duração das buscas | A levantar por entrevista ou observação. |
-| | Importância da tarefa | Relacionada ao objetivo que motivou o acesso; urgência e importância devem ser investigadas em cada contexto. |
+| **Dados demográficos** | Faixa etária e Ocupação | Profissionais sêniores, membros contratados ou líderes fundadores do projeto Diolinux. |
+| **Experiência tecnológica** | Conhecimento de Infraestrutura web | Especialista. Lida com servidores, bancos de dados PostgreSQL/Redis e conteinerização (Docker), que sustentam o Discourse. |
+| **Atitudes e estratégias** | Motivação | Garantir a estabilidade da plataforma (uptime), velocidade de carregamento e adequação da ferramenta aos objetivos de negócio da marca. |
+| | Preocupação central | Segurança da informação, conformidade técnica e escalabilidade frente a picos de acesso. |
+| **Tarefas primárias** | Gestão de Software | Instalar e atualizar plugins, modificar o CSS global da plataforma, alterar domínios e gerenciar backups rotineiros. |
+| | Governança Global | Definir as regras de gamificação (pontos para subir de nível), aprovar novos moderadores, banir ranges de IP maliciosos e analisar métricas de engajamento do fórum. |
 
-_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026. Caracterização preliminar, sujeita à validação com usuários._
-
-O perfil orienta a investigação de como as pessoas localizam discussões, compreendem os resultados e avaliam se uma resposta atende à necessidade. Entrevistas e observação da tarefa de busca devem confirmar ou revisar as hipóteses, especialmente sobre experiência com Linux, hábitos de pesquisa, uso de filtros e critérios de confiança.
-
-#### Questões para validação nas entrevistas
-
-1. Antes de publicar uma pergunta, como você tenta encontrar uma resposta no fórum?
-2. Que palavras costuma usar na busca? Como decide se deve alterar os termos?
-3. Você usa filtros? Quais? Como entende o efeito de cada um?
-4. Como decide quais resultados abrir e se uma resposta é confiável e atual?
-5. Quando a busca não resolve sua necessidade, o que faz em seguida?
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026._
 
 ---
 
 ## Matriz Comparativa e Síntese dos Perfis
 
-A Tabela 4 resume o foco de cada perfil e indica quais informações ainda precisam ser investigadas. Ela não substitui as caracterizações completas das seções anteriores.
+A Tabela 4 resume o foco de cada perfil. Ela evidencia como uma mesma aplicação web apresenta desafios de IHC diametralmente opostos dependendo da permissão do usuário conectado.
 
-**Tabela 4** — Matriz comparativa dos perfis de usuário do Fórum Diolinux Plus
+**Tabela 4** — Matriz comparativa dos perfis hierárquicos do Fórum Diolinux Plus
 
-| Critério de comparação | Perfil 1 — Entusiasta / Criador | Perfil 2 — Iniciante / Onboarding | Perfil 3 — Pesquisador / Buscador |
+| Critério de comparação | Perfil 1 — Usuário Comum | Perfil 2 — Moderador | Perfil 3 — Administrador |
 | :--- | :--- | :--- | :--- |
-| **Autor responsável** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
-| **Experiência em Linux** | A investigar; hipótese de experiência intermediária ou avançada. | A investigar; hipótese de experiência inicial para a tarefa. | Variável; a investigar conforme o assunto pesquisado. |
-| **Foco de uso** | Criar tópicos, compartilhar informações e participar de discussões. | Buscar orientação e realizar tarefas durante o aprendizado ou migração. | Localizar, avaliar e refinar resultados de busca. |
-| **Motivação** | Hipótese: compartilhar conhecimento ou obter ajuda técnica. | Hipótese: resolver uma dúvida ou realizar uma tarefa específica. | Hipótese: localizar informação antes de perguntar à comunidade. |
-| **Fluxo principal** | Preparar e publicar um tópico. | Buscar orientação, avaliar instruções e, se necessário, pedir ajuda. | Buscar, avaliar e refinar resultados. |
-| **Dados a validar** | Experiência, frequência de participação e necessidades de publicação. | Experiência, estratégias de aprendizagem e dificuldades ao pedir ajuda. | Hábitos de busca, uso de filtros e critérios de confiança. |
+| **Autor responsável** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Interface Principal** | *Front-end* do fórum (leitura e edição). | *Front-end* acrescido de menus flutuantes e painel de denúncias. | *Dashboard Admin* (*Back-end* visual e formulários de infraestrutura). |
+| **Foco de uso** | Resolver problemas técnicos e interagir. | Manter a ordem, a ética e a categorização do fórum. | Manter o servidor no ar, gerenciar plugins e métricas globais. |
+| **Principais Tarefas** | Criar tópico, pesquisar, curtir e formatar texto. | Fechar tópicos, punir usuários e moderar denúncias. | Atualizar o Discourse, banir IPs, alterar CSS/temas e gerenciar backups. |
+| **Desafios de Usabilidade** | Encontrar respostas facilmente, não se perder na busca e facilidade no editor de texto. | Lidar com ações destrutivas em lote (ex: apagar 50 posts de spam de uma vez sem errar). | Lidar com sobrecarga de informações (*dashboard* com muitas variáveis e configurações vitais). |
 
-_Fonte: Elaborada pelos autores, 2026. Síntese de caracterizações preliminares._
-
-A comparação evidencia três focos de uso que devem ser investigados: criação de conteúdo, busca de orientação e pesquisa autônoma de informações existentes. A equipe deverá revisar essa matriz após a coleta e análise dos dados, sem tratar as hipóteses como características confirmadas.
+_Fonte: Elaborada pelos autores, 2026._
 
 ---
 
 ## Histórico de Versões
 
-A Tabela 5 registra as versões do artefato.
-
 **Tabela 5** — Histórico de versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 26/09/2026 | Estruturação metodológica e elaboração preliminar do Perfil 1. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
-| `1.1` | 26/09/2026 | Inclusão do rascunho preliminar do Perfil 3, sujeito a validação com usuários. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `1.2` | 27/09/2026 | Inclusão do Perfil 2 e atualização da matriz comparativa. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
-
-_Fonte: Elaborada pelos autores, 2026._
+| `1.0` | 26/09/2026 | Estruturação metodológica e elaboração preliminar dos perfis focados em usuários comuns. | [Vinicius S.](https://github.com/ViniciusA05), [Edvaldo S.](https://github.com/PajeMurici-dev) | Equipe |
+| `2.0` | 05/10/2026 | **Refatoração estrutural** mediante feedback: mudança de escopo para Usuário, Moderador e Administrador. Atualização das tabelas de atributos e da matriz comparativa. | [Vinicius S.](https://github.com/ViniciusA05), [Gustavo A.](https://github.com/gus-ant), [Edvaldo S.](https://github.com/PajeMurici-dev) | Revisão por Pares |
 
 ---
 
@@ -220,4 +171,4 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial Generativa
 
-Durante a preparação deste artefato, foram utilizados recursos de Inteligência Artificial Generativa para apoio à estruturação de rascunhos, organização do conteúdo e formatação Markdown, conforme indicado na tabela de contribuição. A autoria, a revisão e a validação das informações são responsabilidades dos integrantes identificados neste documento. As hipóteses ainda não validadas estão explicitamente indicadas como preliminares.
+Durante a preparação e a refatoração deste artefato, foram utilizados recursos de Inteligência Artificial Generativa para apoio analítico, readequação metodológica para o escopo de permissões hierárquicas (Usuário/Mod/Admin) e formatação Markdown avançada em matrizes comparativas. A autoria integral, revisão cruzada e validação pragmática continuam sendo de total responsabilidade dos estudantes que assinam cada perfil.
