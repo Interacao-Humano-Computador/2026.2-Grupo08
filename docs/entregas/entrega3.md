@@ -1,4 +1,4 @@
-# Entrega 3: Princípios Gerais de Projeto, Metas de Usabilidade, Guia de Estilo e Características da Plataforma
+# Entrega 3: Princípios Gerais de Projeto, Guia de Estilo e Características da Plataforma
 
 ## Tabela de Contribuição e Uso de IA Generativa
 
@@ -14,9 +14,8 @@ A **Entrega 3** consolida a fase de **Análise de Requisitos** do projeto de IHC
 
 1. **Características da Plataforma:** Mapeamento técnico da estrutura do Diolinux Plus (Single Page Application baseada no Discourse, paradigma mobile-first, atalhos nativos e suporte a navegadores).
 2. **Princípios Gerais de Projeto & Avaliação Heurística:** Aplicação dos 8 princípios fundamentais da literatura de IHC (Barbosa & Silva, 2021) e das 10 Heurísticas de Usabilidade de Nielsen (1994), respaldados por recortes destacados do livro-texto e capturas reais do fórum via agente web.
-3. **Metas de Usabilidade:** Definição operacional das 6 metas objetivas (Eficácia, Eficiência, Segurança, Utilidade, Aprendizagem e Memorabilidade), com critérios de aceite, métricas e evidências visuais.
-4. **Guia de Estilo:** Diretrizes visuais, paleta de cores oficial (Dark Mode), tipografia Inter/IBM Plex Mono, conformidade de contraste WCAG 2.1 e catálogo de componentes de interface.
-5. **Reestruturação do Perfil do Usuário:** Atualização conceitual detalhando a hierarquia dos perfis de **Usuário Comum**, **Moderador** e **Administrador/Staff**.
+3. **Guia de Estilo:** Diretrizes visuais, paleta de cores oficial (Dark Mode), tipografia Inter/IBM Plex Mono, conformidade de contraste WCAG 2.1 e catálogo de componentes de interface.
+4. **Reestruturação do Perfil do Usuário:** Atualização conceitual detalhando a hierarquia dos perfis de **Usuário Comum**, **Moderador** e **Administrador/Staff**.
 
 ---
 
@@ -26,7 +25,6 @@ A **Entrega 3** consolida a fase de **Análise de Requisitos** do projeto de IHC
 | :--- | :--- | :---: |
 | **Características da Plataforma** | Análise das especificidades técnicas, limitações de hardware/software e navegadores suportados pelo Discourse | [Acessar Artefato](../analise-requisitos/caracteristicas-da-plataforma.md) |
 | **Princípios Gerais de Projeto** | Mapeamento dos 8 princípios e 10 Heurísticas de Nielsen com trechos do livro destacados em marca-texto e capturas reais do fórum | [Acessar Artefato](../analise-requisitos/principios-gerais-de-projeto.md) |
-| **Metas de Usabilidade** | Especificação das 6 metas de usabilidade com critérios de aceite, métricas mensuráveis e capturas de tela | [Acessar Artefato](../analise-requisitos/metas-de-usabilidade.md) |
 | **Guia de Estilo** | Paleta de cores oficial, tipografia, razão de contraste WCAG 2.1 e catálogo de componentes UI | [Acessar Artefato](../analise-requisitos/guia-de-estilo.md) |
 | **Ata de Reunião nº 5** | Reunião de planejamento, distribuição de tarefas e prazos da Entrega 3 | [Acessar Ata 5](../atas/ata5.md) |
 
@@ -46,4 +44,4 @@ A **Entrega 3** consolida a fase de **Análise de Requisitos** do projeto de IHC
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 25/09/2026 | Criação da página síntese da Entrega 3 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `2.0` | 05/10/2026 | Atualização completa integrando todos os 4 artefatos principais (Características, Princípios Gerais, Metas de Usabilidade e Guia de Estilo), Perfil do Usuário e Ata 5 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `2.0` | 05/10/2026 | Atualização integrando os artefatos (Características, Princípios Gerais, e Guia de Estilo), Perfil do Usuário e Ata 5 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
