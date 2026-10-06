@@ -4,7 +4,7 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Autoria individual do Cenário 3](#cenario-3-pesquisa-avancada-por-filtros-e-solucao-aceita) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Elaboração do Cenário 3: pesquisa e avaliação de discussão sobre Wi-Fi no Linux Mint](#cenario-3-pesquisa-avancada-por-filtros-e-solucao-aceita) | 05/10/2026 | Apoio do Codex (OpenAI) na estruturação e revisão textual; cenário baseado na Tarefa 3, sem dados de entrevistas. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual do Cenário 2](#cenario-2-cadastro-onboarding-e-primeira-duvida-de-iniciante) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, fundamentação em Carroll e autoria individual do Cenário 1](#cenario-1-postagem-e-formatacao-de-duvida-tecnica-com-markdown-e-tags) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
 
@@ -59,7 +59,7 @@ A Tabela 2 apresenta o mapeamento de rastreabilidade entre os cenários, persona
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | **Cenário 1** | Postagem e Formatação de Dúvida Técnica com Markdown e Tags | [Lucas Mendonça (Primária)](personas.md#persona-1-lucas-o-entusiasta-devops-persona-primaria) | Criação e Publicação de Tópico de Dúvida com Tags e Markdown | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | **Cenário 2** | *A ser definido pelo autor* | Persona 2 (Iniciante) | Cadastro e Onboarding do Novo Usuário | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-| **Cenário 3** | *A ser definido pelo autor* | Persona 3 (Pesquisador) | Busca Avançada e Filtros por Categoria | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| **Cenário 3** | Pesquisa e avaliação de discussão sobre Wi-Fi no Linux Mint (hipótese a validar) | [Persona 3: Usuário Pesquisador Autônomo](personas.md#persona-3-usuario-pesquisador-autonomo-persona-secundaria) — perfil pendente | Busca avançada e filtros por categoria (Tarefa 3) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -150,8 +150,34 @@ _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus
 - **Autor Principal**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 - **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
 
-!!! info "Espaço Reservado para Desenvolvimento Individual (Edvaldo Soares)"
-    Este cenário é de responsabilidade autoral exclusiva do discente **Edvaldo Soares Brasileiro Filho**, sendo desenvolvido diretamente em sua respectiva branch temática (`feat/...`) para posterior submissão via Pull Request e revisão por Vinicius Silva Araruna.
+!!! info "Status e limites do Cenário 3"
+    **Delimitação:** este é um cenário analítico hipotético, elaborado a partir da Tarefa 3 em [Análise de Tarefas](analise-tarefas.md#tarefa-3-busca-avancada-e-filtros-de-categoria-edvaldo-soares). Não houve entrevistas nem observação de participantes; portanto, a narrativa não representa achados empíricos. A [Persona 3](personas.md#persona-3-usuario-pesquisador-autonomo-persona-secundaria) ainda é um espaço reservado, então o vínculo abaixo é provisório. Os passos e a disponibilidade dos filtros precisam ser conferidos na instância atual do fórum e validados com usuários.
+
+### Narrativa Textual do Cenário
+
+Em uma situação hipotética de estudo, uma pessoa que pesquisa soluções por conta própria percebe que a conexão Wi-Fi de seu notebook com Linux Mint cai repetidamente. Ela quer entender se alguém já descreveu um problema semelhante antes de abrir um novo tópico, para evitar uma publicação duplicada e encontrar uma orientação que se aplique ao seu caso.
+
+A pessoa acessa o Fórum Diolinux Plus e abre a busca. Começa com os termos “Wi-Fi Linux Mint” e examina os títulos e trechos apresentados. Como há discussões sobre falhas diferentes, tenta restringir os resultados usando os filtros de categoria ou tags disponíveis na interface. Ela não presume que o nome de uma categoria ou filtro seja fixo: observa as opções oferecidas pelo fórum e ajusta a consulta conforme elas.
+
+Entre os resultados, encontra uma discussão sobre desconexões de Wi-Fi. Antes de seguir a orientação, abre o tópico e compara a versão do Linux Mint, os sintomas descritos e os detalhes técnicos informados com o que ocorre em seu notebook. Lê as respostas e identifica uma sugestão que parece compatível. Depois de aplicá-la com cautela, verifica se a conexão permanece estável. A correspondência entre os sintomas e a melhora observada leva a pessoa a considerar que aquela discussão resolveu sua necessidade; isso expressa a avaliação do ator e não afirma a existência de um recurso de “solução aceita” na plataforma.
+
+Se a orientação não se mostrar aplicável ou a busca não trouxer um resultado útil, a pessoa reformula os termos — por exemplo, acrescentando a versão do sistema ou o sintoma específico — e remove ou altera filtros. Se ainda não encontrar resposta, encerra a pesquisa e considera criar um tópico novo, descrevendo o sistema, o problema e as tentativas já realizadas.
+
+### Detalhamento Estruturado dos Elementos
+
+**Tabela 5** — Elementos de Carroll no Cenário 3
+
+| Elemento de Carroll | Aplicação no Cenário 3 |
+| :--- | :--- |
+| **Ambiente** | Situação hipotética de estudo, em local de acesso pessoal, com um notebook executando Linux Mint e conectado à internet. O local, o dispositivo e o problema são pressupostos para a narrativa, não dados coletados de participante. |
+| **Atores** | Uma pessoa pesquisadora autônoma, vinculada provisoriamente à [Persona 3](personas.md#persona-3-usuario-pesquisador-autonomo-persona-secundaria), cujo perfil ainda será definido e validado. |
+| **Planejamento** | Pesquisar antes de publicar; formular termos iniciais; usar apenas filtros disponíveis na interface; comparar os detalhes dos tópicos encontrados com o próprio problema; refinar a consulta ou considerar uma nova publicação se necessário. |
+| **Ações** | 1. Acessar o fórum e abrir a busca.<br>2. Pesquisar “Wi-Fi Linux Mint”.<br>3. Examinar títulos e trechos dos resultados.<br>4. Aplicar ou ajustar categoria/tags, se disponíveis e pertinentes.<br>5. Abrir uma discussão candidata e ler a descrição e as respostas.<br>6. Comparar sistema, sintomas e orientação com o próprio caso.<br>7. Testar com cautela uma orientação compatível e observar o resultado.<br>8. Se necessário, reformular os termos, alterar filtros ou considerar criar um tópico. |
+| **Eventos** | A busca retorna resultados; a interface pode oferecer filtros e opções de categoria/tag; a consulta pode retornar discussões irrelevantes ou nenhuma discussão útil; ao testar uma orientação, a conexão pode melhorar ou continuar instável. Esses são eventos possíveis do cenário, ainda sujeitos à verificação na interface. |
+| **Avaliação** | A pessoa julga cada resultado pela correspondência entre versão do sistema, sintomas e contexto técnico. Considera a pesquisa bem-sucedida quando encontra uma orientação aplicável e consegue verificar melhora; caso contrário, avalia que precisa refinar a busca ou pedir ajuda em um novo tópico. |
+| **Epílogo** | Se o problema for resolvido, a pessoa encerra a busca sem criar uma publicação duplicada e pode retornar à discussão para relatar o resultado. Se permanecer sem solução, tenta uma nova consulta e, como último passo, prepara um tópico com detalhes do sistema e das tentativas já feitas. |
+
+_Fonte: Elaborada para esta análise com base na Tarefa 3 de [Análise de Tarefas](analise-tarefas.md#tarefa-3-busca-avancada-e-filtros-de-categoria-edvaldo-soares); cenário hipotético, sem validação empírica._
 
 ---
 
@@ -164,6 +190,7 @@ A Tabela 4 documenta o histórico de versões deste artefato.
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Estruturação metodológica, fundamentação em Carroll e elaboração do Cenário 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 05/10/2026 | Elaboração do Cenário 3 e detalhamento dos sete elementos de Carroll; narrativa hipotética, com validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Pendente |
 
 _Fonte: Elaborada pelos autores, 2026._
 
