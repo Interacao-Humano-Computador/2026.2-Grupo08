@@ -5,6 +5,7 @@
 | Integrante | Contribuição | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :--- | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) e [Gustavo Antonio](https://github.com/gus-ant) | Elaboração da fundamentação teórica, captura de evidências via agente web, avaliação heurística e classificação (Atende / Viola / Atende Parcialmente) | [Gustavo Antonio](https://github.com/gus-ant) | Gemini & Browser Subagent | Extração de páginas do livro-texto com destaques digitais e navegação automatizada para capturas de tela. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão do escopo, das inferências e da correspondência entre classificação e evidência disponível | Pendente | Codex (OpenAI) | Apoio à revisão factual e à redação, com base nas capturas registradas neste artefato. |
 
 ---
 
@@ -16,7 +17,9 @@ Este artefato apresenta a avaliação dos **Princípios Gerais de Projeto** e da
 
 ## Metodologia e Fundamentação Teórica
 
-A análise fundamenta-se nos princípios e diretrizes de design consolidados por **Barbosa e Silva (2010 / 2021, Cap. 10)** e nas 10 Heurísticas de Usabilidade formuladas por **Jakob Nielsen (1994)**. Segundo Barbosa et al. (2021, p. 221-232), os princípios de design orientam o projetista na tomada de decisões que respeitem os limites cognitivos, antecipem necessidades e minimizem o esforço de memória e a ocorrência de erros.
+A análise fundamenta-se nos princípios e diretrizes de design de **Barbosa e Silva (2010, Cap. 8)**, na edição ampliada de **Barbosa et al. (2021, Cap. 10)** e nas 10 Heurísticas de Usabilidade formuladas por **Jakob Nielsen (1994)**. A indicação do capítulo varia entre as edições: o Capítulo 8 é sobre princípios na edição de 2010; na edição de 2021, o conteúdo correspondente aparece no Capítulo 10, nas páginas 221–232. O Capítulo 8 da edição de 2021 trata da organização do espaço de problema.
+
+A inspeção da interface foi feita em **5 de outubro de 2026**, no site público do Diolinux Plus, em desktop e sem autenticação. As três capturas abaixo são a evidência usada para as observações visuais. Não foram testados fluxos de publicação, recuperação de erros, conta autenticada, outros tamanhos de tela ou diferentes navegadores. Assim, **Atende Parcialmente** também identifica casos em que a evidência observada não permite uma conclusão completa; não significa, por si só, que o sistema falhou.
 
 Abaixo estão apresentados os trechos originais da literatura de referência (*Barbosa & Silva, 2021*) recortados e destacados com **marca-texto digital amarelo** conforme os padrões de fundamentação:
 
@@ -108,7 +111,7 @@ Visualização de um tópico indicando categoria (`Diolinux Feed`), tags associa
 > *Fonte: Captura realizada via agente web no fórum Diolinux Plus.*
 
 ### Evidência 3: Aceleradores de Produtividade (Modal de Atalhos do Teclado)
-Modal completo de atalhos ativado pela tecla `?`, fornecendo comandos diretos para navegação (`G`+`H` para início, `G`+`C` para categorias) e edição, atendendo plenamente a usuários avançados.
+Modal de atalhos do teclado mostrando comandos de navegação, como `G` seguido de `H` para Início e `G` seguido de `C` para Categorias, além de comandos para percorrer e abrir tópicos. A captura comprova a presença da lista de atalhos, mas não avalia todas as combinações ou a facilidade de descoberta desse recurso.
 
 > **Figura 10:** Modal de atalhos de teclado do Discourse no Diolinux Plus.
 >
@@ -124,16 +127,16 @@ Abaixo é apresentada a matriz de avaliação heurística detalhada da interface
 
 | # | Princípio / Heurística (Nielsen / Barbosa) | Classificação | Análise Crítica e Justificativa na Interface Real | Evidência Visual / Recurso |
 | :-: | :--- | :---: | :--- | :--- |
-| **1** | **Visibilidade do Status do Sistema** *(Nielsen H1)* | **Atende** | O fórum informa claramente o estado atual por meio de indicadores visuais de progresso, leitura de tópicos (ex: *1/1*, data de última resposta), notificações em tempo real na barra superior e badges de tópico resolvido/fechado. | [Figura 9](#evidencia-2-estrutura-visual-de-topico-tecnico-breadcrumbs-status-e-perfil) |
-| **2** | **Correspondência com o Mundo Real** *(Nielsen H2 / Barbosa 1)* | **Atende** | Utiliza terminologias padrão da comunidade de Tecnologia e Open Source (*Kernel*, *Distro*, *Terminal*, *Hardware*, *Flatpak*). As categorias e tags espelham a linguagem natural dos usuários. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) |
-| **3** | **Controle e Liberdade do Usuário** *(Nielsen H3 / Barbosa 3)* | **Atende** | O usuário pode editar suas postagens após o envio, descartar rascunhos, excluir respostas recentes e fechar modais com saídas visuais claras (`X` ou tecla `Esc`). Rascunhos são salvos automaticamente no rodapé. | [Figura 10](#evidencia-3-aceleradores-de-produtividade-modal-de-atalhos-do-teclado) |
-| **4** | **Consistência e Padronização** *(Nielsen H4 / Barbosa 4)* | **Atende** | Toda a interface segue rigorosamente o design system do Discourse. Elementos como botões primários azuis, tags cinzas e estrutura de cards mantêm comportamento e padrão visual idênticos em todas as páginas. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) |
-| **5** | **Prevenção de Erros** *(Nielsen H5 / Barbosa 8)* | **Atende Parcialmente** | O fórum valida campos obrigatórios (título curto demais, falta de categoria) antes da publicação. Porém, permite postagens repetidas se o título for ligeiramente modificado e falta confirmação explícita ao clicar em links externos que saem do fórum. | Validação em formulário de criação de tópico. |
-| **6** | **Reconhecimento em vez de Memorização** *(Nielsen H6 / Barbosa 6)* | **Atende** | A busca apresenta sugestões automáticas (*autocomplete*) e etiquetas sugeridas. Os botões possuem ícones acompanhados de rótulos visuais explícitos. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) |
-| **7** | **Eficiência e Flexibilidade de Uso** *(Nielsen H7 / Barbosa 4)* | **Atende** | Amplo suporte a atalhos de teclado (tecla `?`, `c` para criar tópico, `/` para buscar), suporte a leitores de tela e modos visualmente flexíveis (Modo Escuro / Claro / Alto Contraste). | [Figura 10](#evidencia-3-aceleradores-de-produtividade-modal-de-atalhos-do-teclado) |
-| **8** | **Estética e Design Minimalista** *(Nielsen H8 / Barbosa 7)* | **Atende** | Layout chumbo/escuro limpo, sem banners de publicidade poluentes. A hierarquia tipográfica destaca o conteúdo das dúvidas e o realce de código (*syntax highlighting*). | [Figura 9](#evidencia-2-estrutura-visual-de-topico-tecnico-breadcrumbs-status-e-perfil) |
-| **9** | **Ajuda aos Usuários no Reconhecimento de Erros** *(Nielsen H9 / Barbosa 8)* | **Atende** | Mensagens de erro são apresentadas em balões vermelhos com explicação objetiva sobre o motivo da falha (ex: *"O corpo da mensagem deve conter pelo menos 20 caracteres"*). | Balão de erro em inputs inválidos. |
-| **10** | **Ajuda e Documentação** *(Nielsen H10)* | **Atende Parcialmente** | Existe uma categoria dedicada a *"Manuais do Fórum"* e tópicos fixados com regras da comunidade. No entanto, a documentação de atalhos e recursos avançados é pouco visível para novos usuários que não conhecem o atalho `?`. | Categoria "Manuais do Fórum" e Guia de Regras. |
+| **1** | **Visibilidade do Status do Sistema** *(Nielsen H1)* | **Atende** | Na leitura do tópico, a linha do tempo lateral mostra a posição `1/1` e as datas da publicação. Isso ajuda a pessoa a situar-se naquela discussão; a inspeção não avaliou notificações em tempo real. | [Figura 9](#evidencia-2-estrutura-visual-de-topico-tecnico-breadcrumbs-status-e-perfil) |
+| **2** | **Correspondência com o Mundo Real** *(Nielsen H2 / Barbosa 1)* | **Atende** | A busca por “Ubuntu” oferece etiquetas reconhecíveis para o domínio, como `ubuntu` e `ubuntu-2004`, e a interface está em português. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) |
+| **3** | **Controle e Liberdade do Usuário** *(Nielsen H3 / Barbosa 3)* | **Atende Parcialmente** | A janela de atalhos tem um controle visível para fechá-la (`X`). A captura não cobre edição, exclusão, cancelamento de publicação ou desfazer/refazer ações; esses fluxos precisam de inspeção própria. | [Figura 10](#evidencia-3-aceleradores-de-produtividade-modal-de-atalhos-do-teclado) |
+| **4** | **Consistência e Padronização** *(Nielsen H4 / Barbosa 4)* | **Atende** | Nas três telas, a barra superior, a navegação lateral, os botões e o tema escuro mantêm padrões visuais reconhecíveis entre busca, tópico e atalhos. A conclusão limita-se a essas telas. | Figuras [8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos), [9](#evidencia-2-estrutura-visual-de-topico-tecnico-breadcrumbs-status-e-perfil) e [10](#evidencia-3-aceleradores-de-produtividade-modal-de-atalhos-do-teclado) |
+| **5** | **Prevenção de Erros** *(Nielsen H5 / Barbosa 8)* | **Atende Parcialmente** | Não foi capturado nem executado o fluxo de criação de publicação; por isso, não há evidência suficiente para avaliar validações, prevenção de duplicidade ou confirmações antes de ações relevantes. | Fluxo de criação não inspecionado. |
+| **6** | **Reconhecimento em vez de Memorização** *(Nielsen H6 / Barbosa 6)* | **Atende** | A busca sugere etiquetas relacionadas ao texto digitado e a janela reúne os atalhos com seus nomes e combinações, tornando opções visíveis durante a tarefa. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) e [Figura 10](#evidencia-3-aceleradores-de-produtividade-modal-de-atalhos-do-teclado) |
+| **7** | **Eficiência e Flexibilidade de Uso** *(Nielsen H7 / Barbosa 4)* | **Atende** | A janela documenta combinações para navegar por teclado, mover a seleção e abrir tópicos, oferecendo um caminho alternativo à navegação por ponteiro. Não foram avaliados leitores de tela ou outros modos de entrada. | [Figura 10](#evidencia-3-aceleradores-de-produtividade-modal-de-atalhos-do-teclado) |
+| **8** | **Estética e Design Minimalista** *(Nielsen H8 / Barbosa 7)* | **Atende** | Na tela do tópico, o título, a categoria, as etiquetas e o conteúdo formam uma hierarquia visual clara; a busca mantém sugestões associadas ao termo digitado. A análise cobre somente as telas registradas. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) e [Figura 9](#evidencia-2-estrutura-visual-de-topico-tecnico-breadcrumbs-status-e-perfil) |
+| **9** | **Ajuda aos Usuários no Reconhecimento de Erros** *(Nielsen H9 / Barbosa 8)* | **Atende Parcialmente** | Não foi provocado um erro nem capturada uma mensagem de validação nesta inspeção. A clareza, a causa indicada e as opções de recuperação permanecem sem avaliação. | Fluxo de erro não inspecionado. |
+| **10** | **Ajuda e Documentação** *(Nielsen H10)* | **Atende Parcialmente** | A página inicial apresenta links para Regras e um tópico identificado como “Manuais do Fórum”. A captura não permite verificar a cobertura, atualização ou facilidade de encontrar instruções para tarefas específicas. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) |
 
 ---
 
@@ -141,18 +144,20 @@ Abaixo é apresentada a matriz de avaliação heurística detalhada da interface
 
 ```mermaid
 pie title Distribuição da Avaliação dos Princípios e Heurísticas
-    "Atende (80%)" : 8
-    "Atende Parcialmente (20%)" : 2
+    "Atende (60%)" : 6
+    "Atende Parcialmente (40%)" : 4
     "Viola (0%)" : 0
 ```
 
-### Principais Pontos Fortes:
-- **Consistência e Atalhos**: A integração nativa do Discourse garante navegabilidade exemplar por teclado e consistência visual rigorosa.
-- **Linguagem e Domínio**: A estruturação em categorias e tags específicas (*Linux, Kernel, Distros*) conecta-se diretamente com o modelo mental do público-alvo.
+### Principais Pontos Observados:
+- **Busca e reconhecimento**: a caixa de busca sugere etiquetas relacionadas ao termo digitado.
+- **Navegação**: a interface oferece navegação lateral, linha do tempo do tópico e comandos de teclado visíveis.
+- **Consistência visual**: elementos recorrentes aparecem nas três telas inspecionadas.
 
-### Oportunidades de Melhoria:
-- **Visibilidade da Ajuda de Atalhos**: Adicionar um botão discreto com ícone de teclado no cabeçalho para que usuários leigos descubram a central de atalhos `?`.
-- **Confirmação de Links Externos**: Implementar um modal de aviso ao clicar em links externos para prevenir saída não intencional do fórum.
+### Próximas verificações:
+- **Prevenção e recuperação de erros**: inspecionar a criação e edição de tópicos, registrando as mensagens de validação e as opções para corrigir ou cancelar.
+- **Ajuda e descoberta de atalhos**: observar com participantes se encontram a documentação e a janela de atalhos sem instrução prévia.
+- **Controle e liberdade**: verificar em tarefas reais como cancelar, editar ou reverter ações e quais confirmações são exibidas.
 
 ---
 
@@ -162,6 +167,7 @@ pie title Distribuição da Avaliação dos Princípios e Heurísticas
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 25/09/2026 | Criação inicial do documento com os 8 princípios gerais | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.0` | 05/10/2026 | Atualização completa com marcações do livro-texto, evidências visuais do fórum real via agente web, 10 Heurísticas de Nielsen e matriz classificatória (Atende/Viola/Atende Parcialmente) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `2.1` | 05/10/2026 | Ajuste da referência entre edições e revisão das classificações para separar observação de fluxos não testados | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Pendente |
 
 ---
 
