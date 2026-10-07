@@ -22,6 +22,10 @@ A interface do Diolinux Plus utiliza como base visual o modo escuro (*Dark Mode*
 
 ### 1.1 Cores Principais e de Superfície
 
+A **Tabela 1** apresenta as cores primárias, secundárias e de superfície, especificando o nível de contraste (WCAG 2.1).
+
+**Tabela 1** — Cores Principais e de Superfície
+
 | Token de Design | Código Hex | Descrição de Uso | Razão de Contraste (WCAG) | Nível WCAG |
 | :--- | :--- | :--- | :--- | :--- |
 | `--primary` / Text High | `#F5F6F8` | Texto principal, títulos e ícones de alto destaque | 13.8:1 (sobre `#1E1F24`) | AAA |
@@ -32,6 +36,10 @@ A interface do Diolinux Plus utiliza como base visual o modo escuro (*Dark Mode*
 | `--border-color` | `#2D2F36` | Divisores, bordas de tabela e inputs | 3.2:1 (contraste UI) | AA (UI) |
 
 ### 1.2 Cores de Feedback e Semântica
+
+A **Tabela 2** detalha as cores adotadas para feedback do sistema e semântica de comunicação.
+
+**Tabela 2** — Cores de Feedback e Semântica
 
 | Categoria | Token / Hex | Finalidade de Uso |
 | :--- | :--- | :--- |
@@ -54,6 +62,10 @@ A tipografia do Diolinux Plus prioriza legibilidade em longas leituras e integra
 
 ### 2.2 Escala de Tamanhos e Pesos
 
+A **Tabela 3** descreve a escala tipográfica padrão, detalhando tamanhos, pesos e aplicações.
+
+**Tabela 3** — Escala de Tamanhos e Pesos
+
 | Nível / Elemento | Tamanho | Altura da Linha (*Line Height*) | Peso (*Font Weight*) | Exemplo de Aplicação |
 | :--- | :--- | :--- | :--- | :--- |
 | **H1** | 24px (`1.5rem`) | 32px (`1.33`) | Bold (700) | Título do tópico aberto |
@@ -66,6 +78,10 @@ A tipografia do Diolinux Plus prioriza legibilidade em longas leituras e integra
 ---
 
 ## 3. Catálogo de Componentes UI
+
+Abaixo estão descritos os principais elementos de interface que compõem a navegação e a interação no Diolinux Plus.
+
+![Barra Lateral de Tópicos](../assets/images_prints/barra_lateral.png)
 
 ### 3.1 Botões (`.btn`)
 * **Botão Primário (`.btn-primary`):**  
@@ -81,6 +97,8 @@ A tipografia do Diolinux Plus prioriza legibilidade em longas leituras e integra
   * *Hover:* `#C0392B`  
   * *Uso:* "Excluir Post", "Suspender Usuário".
 
+![Botão Criar Tópico](../assets/images_prints/diolinux_topico_detalhe.png)
+
 ### 3.2 Caixa de Busca (`.search-bar`)
 * **Estrutura:** Campo de entrada com ícone de lupa (*Magnifying Glass*) integrado à direita ou esquerda.
 * **Dimensões e Estilo:** Altura mínima de `38px`, borda em `#2D2F36`, fundo `#16171B`, raio de curvatura de `6px`.
@@ -95,6 +113,8 @@ A tipografia do Diolinux Plus prioriza legibilidade em longas leituras e integra
   * *Aviso:* Fundo `#2D2619` com borda esquerda `#E67E22`.
   * *Erro:* Fundo `#301A1B` com borda esquerda `#E74C3C`.
 
+![Banner de Moderação / Alerta](../assets/images_prints/diolinux_busca_sugestoes.png)
+
 ### 3.4 Badges e Tags (`.badge-category` / `.discourse-tag`)
 * **Badges de Categoria:**  
   * Utilizam cor primária da categoria (ex.: Verde para *Linux*, Roxo para *Design*, Laranja para *Hardware*).  
@@ -103,6 +123,7 @@ A tipografia do Diolinux Plus prioriza legibilidade em longas leituras e integra
   * Fundo `#23252C`, texto `#A0A5B1`, tipografia `12px`, padding `2px 8px`, formato arredondado (`border-radius: 4px`).
 
 ### 3.5 Iconografia
+![Badges de Categoria](../assets/images_prints/diolinux_plus_print.png)
 * **Biblioteca Padrão:** **Font Awesome Free** (integrado nativamente ao core do Discourse).
 * **Grid de Ícones:** `16x16px` para ações inline e metadados; `20x20px` para barra de navegação/ações principais de cabeçalho.
 * **Ícones Frequentes:**
@@ -115,6 +136,10 @@ A tipografia do Diolinux Plus prioriza legibilidade em longas leituras e integra
 ---
 
 ## Histórico de Versão
+
+A **Tabela 4** documenta o histórico de versões deste artefato.
+
+**Tabela 4** — Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
