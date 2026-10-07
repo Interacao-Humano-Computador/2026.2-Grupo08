@@ -49,7 +49,7 @@ O vídeo da apresentação da Entrega 3 será incorporado no quadro abaixo após
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 1.5rem;">
   <iframe 
-    src="https://www.youtube.com/embed/placeholder_entrega3" 
+    src="https://www.youtube.com/embed/MIRdtPGGHmM" 
     title="Apresentação da Entrega 3 - Grupo 08 - IHC 2026.2" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -64,11 +64,11 @@ A Tabela 2 apresenta os dados de registro da gravação audiovisual da Entrega 3
 
 | Atributo | Detalhamento |
 | :--- | :--- |
-| **Link Direto (YouTube)** | *(A ser inserido após a realização da gravação)* |
-| **Participantes Previstos** | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna |
-| **Duração Prevista** | Entre 05 minutos e 07 minutos |
-| **Data da Gravação** | *(A ser preenchida após a gravação)* |
-| **Local de Gravação** | Microsoft Teams / OBS Studio |
+| **Link Direto (YouTube)** | [Assistir no YouTube (Não Listado)](https://youtu.be/MIRdtPGGHmM) |
+| **Participantes** | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna |
+| **Duração** | 09m 20s |
+| **Data da Gravação** | 06/10/2026 |
+| **Local de Gravação** | Google Meet |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -112,6 +112,7 @@ Durante a Etapa 3, as seguintes ferramentas computacionais foram empregadas:
 | `1.0` | 25/09/2026 | Criação da página síntese da Entrega 3 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.0` | 05/10/2026 | Atualização integrando os artefatos (Características, Princípios Gerais, e Guia de Estilo), Perfil do Usuário e Ata 5 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.1` | 06/10/2026 | Integração de Metas de Usabilidade e UX, container audiovisual e roteiro cronometrado da apresentação | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
+| `2.2` | 06/10/2026 | Inclusão do link oficial da gravação audiovisual da Entrega 3 no YouTube | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
 
 ---
 

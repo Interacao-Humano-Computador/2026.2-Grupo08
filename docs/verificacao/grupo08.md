@@ -1,12 +1,12 @@
-# Lista de Verificação — Grupo 08 (Auto-Avaliação das Entregas 1 e 2)
+# Lista de Verificação — Grupo 08 (Auto-Avaliação das Entregas 1, 2 e 3)
 
 ## Tabela de Contribuição
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Verificação dos artefatos da Entrega 2 (Perfil de Usuário e Aspectos Éticos)](#2-verificacao-da-entrega-2-perfil-do-usuario-aspectos-eticos-e-analise-de-tarefas) | 27/09/2026 | Suporte na estruturação Markdown e tabelas |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Consolidação dos dados de verificação da Entrega 2 e atualização dos gráficos](#resumo-grafico-de-conformidade-da-entrega-2) | 27/09/2026 | Suporte na estruturação Markdown e tabelas |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração da matriz de verificação da Entrega 2 (Personas, Cenários e Análise de Tarefas)](#2-verificacao-da-entrega-2-perfil-do-usuario-aspectos-eticos-e-analise-de-tarefas) | 27/09/2026 | Suporte na estruturação Markdown e tabelas |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Verificação dos artefatos da E2 e revisão da matriz de verificação da Entrega 3 | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Consolidação dos dados de verificação da E2 e E3 e atualização dos gráficos | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Elaboração da matriz de verificação da E2 e elaboração completa da verificação da Entrega 3 | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
 
 ---
 
@@ -14,7 +14,7 @@
 
 Este artefato apresenta a **auto-avaliação formal do Grupo 08** referente às etapas do projeto da disciplina de Interação Humano-Computador (FGA0173 — Turma 01), ministrada pelo Prof. Dr. André Barros de Sales na Faculdade UnB Gama (FGA/UnB).
 
-O objetivo deste documento é realizar a inspeção rigorosa dos artefatos produzidos pela equipe na **Entrega 1** (Planejamento do Projeto, Processo de Design e Governança) e na **Entrega 2** (Perfil de Usuário, Aspectos Éticos e Análise de Tarefas), garantindo total transparência, rastreabilidade e conformidade com as diretrizes do Plano de Ensino e com a literatura científica de IHC (*Barbosa & Silva, 2021; Sales, 2026*).
+O objetivo deste documento é realizar a inspeção rigorosa dos artefatos produzidos pela equipe na **Entrega 1** (Planejamento do Projeto, Processo de Design e Governança), na **Entrega 2** (Perfil de Usuário, Aspectos Éticos e Análise de Tarefas) e na **Entrega 3** (Análise de Requisitos: Características da Plataforma, Princípios Gerais, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Apresentação Audiovisual), garantindo total transparência, rastreabilidade e conformidade com as diretrizes do Plano de Ensino e com a literatura científica de IHC (*Barbosa & Silva, 2021; Sales, 2026*).
 
 ---
 
@@ -155,7 +155,38 @@ _Fonte: Grupo 08, 2026._
 
 ---
 
-## 3. Resumo Gráfico de Conformidade
+## 3. Verificação da Entrega 3 — Análise de Requisitos
+
+Abaixo está disposta a tabela de auto-avaliação dos artefatos produzidos para a **Entrega 3** (Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Página de Entrega 3), avaliada na branch `main`.
+
+**Tabela 8** — Verificação dos Itens da Entrega 3 (18 Itens Trabalhados)
+
+| ID | Item de Verificação | Avaliação | O que foi feito no repositório | O que ficou faltando ajustar |
+| :---: | :--- | :---: | :--- | :--- |
+| **01** | **Características da Plataforma** | ⚠️ Incompleto | Documentou o ecossistema SPA/Ember.js, limitações de hardware/software e navegadores suportados. | Falta inserir a foto da p. 105 de Barbosa e Silva (o arquivo `foto-plataforma-barbosa-p105.png` já existe na pasta de imagens), adicionar a linha `Autor: Gustavo Antonio` no bloco teórico e colocar legendas nas tabelas. |
+| **02** | **Princípios Gerais: Teoria e Fotos** | ⚠️ Incompleto | Apresentou fundamentação teórica de Barbosa et al. (2021) com recortes para os princípios de 1 a 7 e matriz heurística. | Falta inserir o recorte do 8º princípio ("Projeto para erros", imagem `crop_projeto_erros.png` já existe na pasta), indicar o autor no bloco conceitual e numerar a matriz heurística como Tabela. |
+| **03** | **Princípios Gerais: 8 Tópicos Canônicos** | ⚠️ Incompleto | Avaliou a interface do fórum frente às diretrizes de IHC e heurísticas de Nielsen. | O tópico "8. Projeto para Erros" foi omitido da seção teórica do livro (linhas 26–88). Deve ser incluído junto com sua imagem de referência. |
+| **04** | **Metas de Usabilidade e UX: Teoria e Foto** | ⚠️ Incompleto | Fundamentou metas de usabilidade (Nielsen) e UX (Rogers et al.), incluindo a foto da p. 106 de Barbosa e Silva chamada no texto. | Falta apenas adicionar a linha expressa `Autor: Vinicius Silva Araruna` diretamente abaixo da citação teórica do livro. |
+| **05** | **Metas de Usabilidade e UX: Justificativa** | ✅ Sim | Cruzou as metas com as personas, tarefas HTA e os 3 papéis funcionais; definiu níveis inaceitáveis, aceitáveis e ideais em tabelas chamadas no texto. | Plenamente atendido, sem pendências. |
+| **06** | **Guia de Estilo: Teoria e Foto do Livro** | ❌ Não | Criou o documento com introdução geral conectando o fórum Discourse. | Falta fundamentação teórica sobre Guia de Estilo baseada em Mayhew (1999) ou Barbosa et al. (2021), acompanhada de foto do livro e linha `Autor: Edvaldo Soares`. |
+| **07** | **Guia de Estilo: 6 Seções de Mayhew** | ❌ Não | Documentou paleta de cores, tipografia e botões básicos. | Faltam 4 das 6 seções obrigatórias: Seção 1 (falta público-alvo e manutenção); Seção 2 (Ambiente de Trabalho - ausente); Seção 3 (falta grid responsivo e modais); Seção 4 (Interação e atalhos - ausente); Seção 5 (Ações - ausente); Seção 6 (Vocabulário e diálogos - ausente). |
+| **08** | **Guia de Estilo: Imagens e Evidências** | ⚠️ Incompleto | Diretrizes de cores e fontes fiéis ao Fórum Diolinux Plus. | As 4 capturas de tela estão soltas no código Markdown (`![]()`). Devem ser transformadas em Figuras numeradas com título, legenda, fonte e chamadas no texto. |
+| **09** | **Itens Teóricos Individuais (3 Membros Ativos)** | ⚠️ Incompleto | Os 3 integrantes ativos dividiram os itens da E3 (Vinicius: Metas; Gustavo: Características e Princípios; Edvaldo: Guia de Estilo). | Falta inserir as fotos dos livros e as linhas de autoria nos blocos conceituais de Gustavo e Edvaldo. |
+| **10** | **Tabela de Contribuição no Topo dos Artefatos** | ✅ Sim | Todos os 5 artefatos da E3 possuem tabela de contribuição no início com os 3 membros ativos, suas tarefas e uso de IA. | Plenamente atendido, sem pendências. |
+| **11** | **Histórico de Versão e Revisão por Pares** | ⚠️ Incompleto | Todos os artefatos possuem histórico de versão com datas e autores. | Em `caracteristicas-da-plataforma.md` e `principios-gerais-de-projeto.md`, o revisor consta literalmente como "Pendente". A revisão cruzada entre os membros ativos precisa ser finalizada e registrada. |
+| **12** | **Introdução nos Artefatos da E3** | ✅ Sim | Todos os artefatos da E3 iniciam com texto contextualizando o Fórum Diolinux Plus e os objetivos da etapa. | Plenamente atendido, sem pendências. |
+| **13** | **Chamadas de Tabelas e Imagens no Texto** | ❌ Não | Metas de usabilidade possui todas as tabelas e imagens numeradas e chamadas no texto. | No Guia de Estilo há 4 capturas órfãs; em Características as tabelas não possuem numeração nem fontes; em Princípios Gerais a matriz heurística não está identificada como Tabela. |
+| **14** | **Cronograma Executado da Entrega 3** | ❌ Não | O cronograma executado documenta as Entregas 1 e 2. | Falta adicionar a Tabela 4 da Entrega 3 com as atividades executadas em 05/10/2026, autores e revisores ativos. |
+| **15** | **Ata da Reunião 5** | ✅ Sim | `docs/atas/ata5.md` documenta a reunião de planejamento com data, horário, pauta e deliberações com os 3 membros ativos. | Plenamente atendido, sem pendências. |
+| **16** | **Gravação da Reunião 5 no YouTube** | ⚠️ Incompleto | Ata 5 possui campo reservado para o vídeo da reunião. | O vídeo da reunião ainda não foi disponibilizado (link consta como placeholder). |
+| **17** | **Vídeo de Apresentação da Entrega 3** | ✅ Sim | Vídeo oficial gravado com os integrantes ativos e publicado no YouTube como "Não Listado" ([Assistir no YouTube](https://youtu.be/MIRdtPGGHmM)), incorporado na página `entrega3.md`. | Plenamente atendido, sem pendências. |
+| **18** | **Agradecimentos e Uso de IA Generativa** | ⚠️ Incompleto | Presente em `entrega3.md`, `metas-de-usabilidade.md`, `guia-de-estilo.md` e `ata5.md`. | Ausente nos artefatos `caracteristicas-da-plataforma.md` e `principios-gerais-de-projeto.md`. |
+
+_Fonte: Grupo 08, 2026._
+
+---
+
+## 4. Resumo Gráfico de Conformidade
 
 ### Resumo da Entrega 1 (22 itens)
 
@@ -199,37 +230,59 @@ _Fonte: Grupo 08, 2026._
 
 ---
 
-### Resumo Geral Consolidado (52 itens)
+### Resumo da Entrega 3 (18 itens)
+
+<div class="dp-checklist-summary">
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">✅ Atendido</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:28%">5 / 18</div></div>
+  </div>
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">⚠️ Pendente</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:50%">9 / 18</div></div>
+  </div>
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">❌ Não Atendido</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:22%">4 / 18</div></div>
+  </div>
+</div>
+
+**Taxa Ponderada da Entrega 3: 52,8%** (5 de 18 critérios atendidos plenamente, 9 incompletos e 4 não conformes).
+
+---
+
+### Resumo Geral Consolidado (70 itens)
 
 <div class="dp-checklist-summary">
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">✅ Total Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:100%">52 / 52</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:81%">57 / 70</div></div>
   </div>
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">⚠️ Total Pendente</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:0%">0 / 52</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:13%">9 / 70</div></div>
   </div>
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">❌ Total Não Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:0%">0 / 52</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:6%">4 / 70</div></div>
   </div>
 </div>
 
-**Conformidade Geral Consolidada: 100%** — 52 de 52 critérios atendidos.
+**Taxa Ponderada Geral Consolidada: 87,9%** (57 critérios plenamente atendidos, 9 pendentes e 4 não atendidos em todas as etapas).
 
 ---
 
 ## Histórico de Versão
 
-A Tabela 8 documenta o histórico de versões deste artefato.
+A Tabela 9 documenta o histórico de versões deste artefato.
 
-**Tabela 8** — Histórico de versão do documento
+**Tabela 9** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :---: | :---: |
+| :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/09/2026 | Criação da lista de verificação inicial do Grupo 08 referente à Entrega 1 | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `2.0` | 27/09/2026 | Atualização completa integrando os 30 critérios formais de auto-avaliação da Entrega 2 (Perfil de Usuário, Aspectos Éticos, Personas, Cenários, HTA/GOMS e Gravação) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `3.0` | 06/10/2026 | Inclusão da auto-avaliação e lista de verificação da Entrega 3 (Análise de Requisitos) com 18 itens e incorporação do vídeo oficial de apresentação | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Grupo 08, 2026._
 
