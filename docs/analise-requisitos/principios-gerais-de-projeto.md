@@ -1,105 +1,158 @@
-# Princípios Gerais de Projeto
+# Princípios Gerais de Projeto e Avaliação Heurística
 
 ## Tabela de Contribuição e Uso de IA Generativa
 
 | Integrante | Contribuição | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :--- | :--- | :--- |
-| [Gustavo Antonio](https://github.com/gus-ant) | Elaboração do documento de Princípios Gerais de Projeto | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Gemini | Apoio na estruturação inicial e revisão de linguagem. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) e [Gustavo Antonio](https://github.com/gus-ant) | Elaboração da fundamentação teórica, captura de evidências via agente web, avaliação heurística e classificação (Atende / Viola / Atende Parcialmente) | [Gustavo Antonio](https://github.com/gus-ant) | Gemini & Browser Subagent | Extração de páginas do livro-texto com destaques digitais e navegação automatizada para capturas de tela. |
 
 ---
 
 ## Introdução
 
-Este artefato apresenta os **Princípios Gerais de Projeto** que balizam as decisões de design, avaliação e prototipagem da interface do **Fórum Diolinux Plus**. Os princípios estabelecem as diretrizes e regras fundamentais que visam assegurar um padrão de usabilidade de alta qualidade, garantindo que o sistema atenda as necessidades do usuário de maneira eficiente, segura e com baixo esforço cognitivo.
+Este artefato apresenta a avaliação dos **Princípios Gerais de Projeto** e das **Heurísticas de Usabilidade de Nielsen (1994)** aplicadas ao **Fórum Diolinux Plus** (baseado na plataforma *Discourse*). O objetivo é correlacionar a teoria clássica de Interação Humano-Computador (IHC) com a prática real de interface do fórum, classificando cada diretriz visual e interativa como **Atende**, **Viola** ou **Atende Parcialmente**, suportado por fundamentação teórica extraída da literatura e evidências visuais capturadas em tempo real.
 
 ---
 
 ## Metodologia e Fundamentação Teórica
 
-No campo de Interação Humano-Computador, os princípios gerais de projeto funcionam como bússolas metodológicas. Conforme definido por Barbosa e Silva (2010, p. 203), esses princípios constituem orientações amplas aplicáveis à maioria das situações de design, independentemente do tipo de software ou da plataforma utilizada.
+A análise fundamenta-se nos princípios e diretrizes de design consolidados por **Barbosa e Silva (2010 / 2021, Cap. 10)** e nas 10 Heurísticas de Usabilidade formuladas por **Jakob Nielsen (1994)**. Segundo Barbosa et al. (2021, p. 221-232), os princípios de design orientam o projetista na tomada de decisões que respeitem os limites cognitivos, antecipem necessidades e minimizem o esforço de memória e a ocorrência de erros.
 
-Para as análises da Etapa 3 (Análise de Requisitos) e prototipagem do Diolinux Plus, apoiamo-nos nos 8 princípios fundamentais discutidos pela literatura, permitindo não apenas a avaliação heurística da plataforma, mas também projetando soluções para cenários falhos.
+Abaixo estão apresentados os trechos originais da literatura de referência (*Barbosa & Silva, 2021*) recortados e destacados com **marca-texto digital amarelo** conforme os padrões de fundamentação:
 
-> **Figura 1:** Trecho do livro-texto de IHC apresentando os Princípios Gerais de Design de IHC.
+### 1. Correspondência com as Expectativas dos Usuários (Nielsen H2)
+O sistema deve falar a linguagem do usuário, empregando palavras, conceitos e metáforas familiares à sua cultura e modelo mental.
+
+> **Figura 1:** Trecho do livro destacando a linguagem do usuário, convenções do mundo real e uso de metáforas.
 >
-> ![Trecho do Livro - Princípios Gerais de Design](../assets/images_prints/pagina_principios_gerais/foto-pg.222.png)
+> ![Livro - Correspondência com Expectativas](../assets/images_prints/pagina_principios_gerais/crop_correspondencia.png)
 >
-> *Fonte: BARBOSA e SILVA (2010, p. 204).*
+> *Fonte: BARBOSA et al. (2021, p. 223).*
+
+### 2. Simplicidade nas Estruturas das Tarefas (Nielsen H8 / Barbosa)
+Reduzir o número de opções e decisões que o usuário precisa tomar a cada instante, explorando o poder das restrições e dividindo tarefas em passos simples.
+
+> **Figura 2:** Trecho do livro destacando a simplicidade da estrutura de tarefas e restrições.
+>
+> ![Livro - Simplicidade nas Estruturas](../assets/images_prints/pagina_principios_gerais/crop_simplicidade.png)
+>
+> *Fonte: BARBOSA et al. (2021, p. 224).*
+
+### 3. Equilíbrio entre Controle e Liberdade do Usuário (Nielsen H3)
+Deixar o usuário no comando do ambiente de trabalho e fornecer capacidade de desfazer/refazer ações potencialmente perigosas.
+
+> **Figura 3:** Trecho do livro destacando o controle do usuário e a reversibilidade de ações.
+>
+> ![Livro - Controle e Liberdade](../assets/images_prints/pagina_principios_gerais/crop_controle_liberdade.png)
+>
+> *Fonte: BARBOSA et al. (2021, p. 225).*
+
+### 4. Consistência e Padronização (Nielsen H4)
+Padronizar ações, resultados de ações, layouts de diálogos e terminologias para que o usuário não duvide do significado das palavras ou botões.
+
+> **Figura 4:** Trecho do livro destacando a consistência e padronização.
+>
+> ![Livro - Consistência e Padronização](../assets/images_prints/pagina_principios_gerais/crop_consistencia.png)
+>
+> *Fonte: BARBOSA et al. (2021, p. 226).*
+
+### 5. Promover a Eficiência e Antecipação (Nielsen H7)
+Fornecer atalhos e aceleradores para usuários experientes e antecipar as necessidades do usuário disponibilizando os recursos adequados.
+
+> **Figura 5:** Trecho do livro destacando eficiência, aceleradores de uso e antecipação de necessidades.
+>
+> ![Livro - Eficiência e Aceleradores](../assets/images_prints/pagina_principios_gerais/crop_eficiencia.png)
+>
+> *Fonte: BARBOSA et al. (2021, p. 227).*
+
+### 6. Visibilidade do Status do Sistema e Reconhecimento (Nielsen H1 e H6)
+Manter o usuário informado sobre o que ocorreu através de feedback adequado no tempo certo e visibilidade de opções.
+
+> **Figura 6:** Trecho do livro destacando a visibilidade e o feedback do sistema.
+>
+> ![Livro - Visibilidade e Reconhecimento](../assets/images_prints/pagina_principios_gerais/crop_visibilidade.png)
+>
+> *Fonte: BARBOSA et al. (2021, p. 228).*
+
+### 7. Conteúdo Relevante e Expressão Adequada (Nielsen H8)
+Apresentar apenas as informações necessárias para a tarefa atual, evitando poluição visual e dados irrelevantes.
+
+> **Figura 7:** Trecho do livro destacando a relevância de conteúdo e clareza de expressão.
+>
+> ![Livro - Conteúdo Relevante](../assets/images_prints/pagina_principios_gerais/crop_conteudo_relevante.png)
+>
+> *Fonte: BARBOSA et al. (2021, p. 229).*
 
 ---
 
-## Princípios Gerais Aplicados ao Fórum Diolinux Plus
+## Evidências Visuais da Interface Real (Diolinux Plus)
 
-O grupo detalhou os 8 tópicos fundamentais e como eles estão (ou devem ser) aplicados dentro do contexto do fórum da comunidade Linux.
+Para fundamentar empiricamente a avaliação, utilizou-se o agente de navegação web autônomo para capturar telas reais da interface do Diolinux Plus ([https://plus.diolinux.com.br](https://plus.diolinux.com.br)):
 
-### 1. Correspondência com as Expectativas dos Usuários
+### Evidência 1: Busca Dinâmica com Sugestão Autônoma de Tags e Tópicos
+A barra de pesquisa antecipa termos e classifica dinamicamente por etiquetas como `#ubuntu`, `#ubuntu-2004` e resultados prévios, reduzindo o esforço do usuário ao buscar soluções repetidas.
 
-O sistema deve falar a linguagem do usuário, empregando palavras, frases e conceitos que lhe sejam familiares, e operando de acordo com as convenções do mundo real.
+> **Figura 8:** Captura real da barra de busca do Diolinux Plus com autocomplete e tags.
+>
+> ![Diolinux Plus - Busca e Sugestões](../assets/images_prints/diolinux_busca_sugestoes.png)
+>
+> *Fonte: Captura realizada via agente web no fórum Diolinux Plus.*
 
-* **Aplicação no Diolinux Plus:** A interface faz uso extensivo de terminologias e categorias consolidadas da comunidade *Open Source* e de Tecnologia da Informação, como *Distros*, *Kernel*, *Terminal* e *Hardware*. Tais termos estabelecem uma conexão imediata e reduzem a curva de aprendizado para o perfil focado da plataforma.
+### Evidência 2: Estrutura Visual de Tópico Técnico (Breadcrumbs, Status e Perfil)
+Visualização de um tópico indicando categoria (`Diolinux Feed`), tags associadas (`ubuntu`, `kernel`, `kernel-linux`), selo distintivo do autor (`Criador de Conteúdo`) e linha do tempo lateral para navegação rápida de posts.
 
-### 2. Simplicidade nas Estruturas das Tarefas
+> **Figura 9:** Captura real de um tópico técnico no Diolinux Plus.
+>
+> ![Diolinux Plus - Detalhe do Tópico](../assets/images_prints/diolinux_topico_detalhe.png)
+>
+> *Fonte: Captura realizada via agente web no fórum Diolinux Plus.*
 
-As tarefas devem ser projetadas de modo a reduzir a carga de processamento exigida do usuário (memória de trabalho), dividindo tarefas complexas em subtarefas simples e objetivas.
+### Evidência 3: Aceleradores de Produtividade (Modal de Atalhos do Teclado)
+Modal completo de atalhos ativado pela tecla `?`, fornecendo comandos diretos para navegação (`G`+`H` para início, `G`+`C` para categorias) e edição, atendendo plenamente a usuários avançados.
 
-* **Aplicação no Diolinux Plus:** Minimização rigorosa do número de cliques (passos) necessários para publicar uma nova dúvida ou responder em tópicos de suporte técnico. O editor de mensagens está sempre acessível e fixo na base da tela para facilitar interações imediatas.
+> **Figura 10:** Modal de atalhos de teclado do Discourse no Diolinux Plus.
+>
+> ![Diolinux Plus - Atalhos do Teclado](../assets/images_prints/diolinux_atalhos_teclado.png)
+>
+> *Fonte: Captura realizada via agente web no fórum Diolinux Plus.*
 
-![Simplicidade nas Estruturas das Tarefas](../assets/images_prints/pagina_principios_gerais/foto-pgs.223e224.png)
-<div align="center"><small><em>Fonte: BARBOSA et al. (2021, p. 223-224).</em></small></div>
+---
 
-### 3. Equilíbrio entre Controle e Liberdade do Usuário
+## Avaliação Prática e Classificação dos Princípios / Heurísticas
 
-Usuários frequentemente selecionam opções do sistema por engano e precisam de "saídas de emergência" claras para abandonar um estado indesejado.
+Abaixo é apresentada a matriz de avaliação heurística detalhada da interface real do Diolinux Plus:
 
-* **Aplicação no Diolinux Plus:** A plataforma proporciona autonomia disponibilizando opções seguras para editar postagens enviadas, cancelar ou excluir rascunhos em progresso, desfazer ações (`undo`) e navegar livremente utilizando a arquitetura flexível de *breadcrumbs* no topo dos tópicos.
+| # | Princípio / Heurística (Nielsen / Barbosa) | Classificação | Análise Crítica e Justificativa na Interface Real | Evidência Visual / Recurso |
+| :-: | :--- | :---: | :--- | :--- |
+| **1** | **Visibilidade do Status do Sistema** *(Nielsen H1)* | **Atende** | O fórum informa claramente o estado atual por meio de indicadores visuais de progresso, leitura de tópicos (ex: *1/1*, data de última resposta), notificações em tempo real na barra superior e badges de tópico resolvido/fechado. | [Figura 9](#evidencia-2-estrutura-visual-de-topico-tecnico-breadcrumbs-status-e-perfil) |
+| **2** | **Correspondência com o Mundo Real** *(Nielsen H2 / Barbosa 1)* | **Atende** | Utiliza terminologias padrão da comunidade de Tecnologia e Open Source (*Kernel*, *Distro*, *Terminal*, *Hardware*, *Flatpak*). As categorias e tags espelham a linguagem natural dos usuários. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) |
+| **3** | **Controle e Liberdade do Usuário** *(Nielsen H3 / Barbosa 3)* | **Atende** | O usuário pode editar suas postagens após o envio, descartar rascunhos, excluir respostas recentes e fechar modais com saídas visuais claras (`X` ou tecla `Esc`). Rascunhos são salvos automaticamente no rodapé. | [Figura 10](#evidencia-3-aceleradores-de-produtividade-modal-de-atalhos-do-teclado) |
+| **4** | **Consistência e Padronização** *(Nielsen H4 / Barbosa 4)* | **Atende** | Toda a interface segue rigorosamente o design system do Discourse. Elementos como botões primários azuis, tags cinzas e estrutura de cards mantêm comportamento e padrão visual idênticos em todas as páginas. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) |
+| **5** | **Prevenção de Erros** *(Nielsen H5 / Barbosa 8)* | **Atende Parcialmente** | O fórum valida campos obrigatórios (título curto demais, falta de categoria) antes da publicação. Porém, permite postagens repetidas se o título for ligeiramente modificado e falta confirmação explícita ao clicar em links externos que saem do fórum. | Validação em formulário de criação de tópico. |
+| **6** | **Reconhecimento em vez de Memorização** *(Nielsen H6 / Barbosa 6)* | **Atende** | A busca apresenta sugestões automáticas (*autocomplete*) e etiquetas sugeridas. Os botões possuem ícones acompanhados de rótulos visuais explícitos. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) |
+| **7** | **Eficiência e Flexibilidade de Uso** *(Nielsen H7 / Barbosa 4)* | **Atende** | Amplo suporte a atalhos de teclado (tecla `?`, `c` para criar tópico, `/` para buscar), suporte a leitores de tela e modos visualmente flexíveis (Modo Escuro / Claro / Alto Contraste). | [Figura 10](#evidencia-3-aceleradores-de-produtividade-modal-de-atalhos-do-teclado) |
+| **8** | **Estética e Design Minimalista** *(Nielsen H8 / Barbosa 7)* | **Atende** | Layout chumbo/escuro limpo, sem banners de publicidade poluentes. A hierarquia tipográfica destaca o conteúdo das dúvidas e o realce de código (*syntax highlighting*). | [Figura 9](#evidencia-2-estrutura-visual-de-topico-tecnico-breadcrumbs-status-e-perfil) |
+| **9** | **Ajuda aos Usuários no Reconhecimento de Erros** *(Nielsen H9 / Barbosa 8)* | **Atende** | Mensagens de erro são apresentadas em balões vermelhos com explicação objetiva sobre o motivo da falha (ex: *"O corpo da mensagem deve conter pelo menos 20 caracteres"*). | Balão de erro em inputs inválidos. |
+| **10** | **Ajuda e Documentação** *(Nielsen H10)* | **Atende Parcialmente** | Existe uma categoria dedicada a *"Manuais do Fórum"* e tópicos fixados com regras da comunidade. No entanto, a documentação de atalhos e recursos avançados é pouco visível para novos usuários que não conhecem o atalho `?`. | Categoria "Manuais do Fórum" e Guia de Regras. |
 
-![Equilíbrio entre Controle e Liberdade](../assets/images_prints/pagina_principios_gerais/foto-pg.225.png)
-<div align="center"><small><em>Fonte: BARBOSA et al. (2021, p. 225).</em></small></div>
+---
 
-### 4. Consistência e Padronização / Promoção da Eficiência do Usuário
+## Síntese dos Resultados da Avaliação Heurística
 
-O sistema não deve fazer o usuário questionar se diferentes palavras, situações ou ações significam a mesma coisa (consistência). Adicionalmente, deve fornecer atalhos e mecanismos que acelerem a navegação para usuários experientes (eficiência).
+```mermaid
+pie title Distribuição da Avaliação dos Princípios e Heurísticas
+    "Atende (80%)" : 8
+    "Atende Parcialmente (20%)" : 2
+    "Viola (0%)" : 0
+```
 
-* **Aplicação no Diolinux Plus:** A interface mantém um padrão visual coeso de "cartões de tópicos" independentemente da categoria acessada. Adicionalmente, suporta uma extensa gama de aceleradores visuais e teclas de atalho invisíveis que promovem a produtividade para a base de usuários avançados.
+### Principais Pontos Fortes:
+- **Consistência e Atalhos**: A integração nativa do Discourse garante navegabilidade exemplar por teclado e consistência visual rigorosa.
+- **Linguagem e Domínio**: A estruturação em categorias e tags específicas (*Linux, Kernel, Distros*) conecta-se diretamente com o modelo mental do público-alvo.
 
-![Consistência e Padronização](../assets/images_prints/pagina_principios_gerais/foto-pg.226.png)
-<div align="center"><small><em>Fonte: BARBOSA et al. (2021, p. 226).</em></small></div>
-
-### 5. Antecipação das Necessidades do Usuário
-
-Um bom sistema é capaz de prever os próximos passos mais lógicos ou cruciais que o usuário deseja dar, fornecendo as ferramentas necessárias antes de serem explicitamente solicitadas.
-
-* **Aplicação no Diolinux Plus:** O fórum implementa a sugestão autônoma e em tempo real de tópicos parecidos que já constam como resolvidos na base de dados assim que o usuário começa a digitar o título de uma nova postagem. Esse recurso previne retrabalho e evita a duplicação na criação de conteúdo de suporte.
-
-![Antecipação das Necessidades do Usuário](../assets/images_prints/pagina_principios_gerais/foto-pg.227.png)
-<div align="center"><small><em>Fonte: BARBOSA et al. (2021, p. 227).</em></small></div>
-
-### 6. Visibilidade e Reconhecimento
-
-A interface deve minimizar a dependência da memória do usuário, tornando ações, botões e informações críticas explicitamente visíveis na tela.
-
-* **Aplicação no Diolinux Plus:** A interface fornece destaque visual claro para o status atual dos tópicos (através de ícones e cores para tópicos "Resolvidos", "Abertos" ou "Fechados"). Da mesma forma, botões de ação primária estão espalhados com alto contraste cromático, exigindo zero esforço de memorização.
-
-![Visibilidade e Reconhecimento](../assets/images_prints/pagina_principios_gerais/foto-pg.228.png)
-<div align="center"><small><em>Fonte: BARBOSA et al. (2021, p. 228).</em></small></div>
-
-### 7. Conteúdo Relevante e Expressão Adequada
-
-Toda informação, erro ou rótulo na interface deve ser claro, livre de ruídos textuais e diretamente pertinente ao objetivo do usuário.
-
-* **Aplicação no Diolinux Plus:** Design com tipografia nítida e ausência de poluição visual (como banners invasivos). O grande foco recai sobre o texto centralizado da discussão técnica, com suporte a blocos ressaltados para fragmentos de código (*syntax highlighting*), vital para uma comunidade Linux.
-
-![Conteúdo Relevante e Expressão Adequada](../assets/images_prints/pagina_principios_gerais/foto-pg.230.png)
-<div align="center"><small><em>Fonte: BARBOSA et al. (2021, p. 230).</em></small></div>
-
-### 8. Projeto para Erros (Prevenção e Recuperação)
-
-Até mesmo usuários atentos cometem falhas; a interface deve evitar que eles gerem erros sempre que possível e os ajudar a recuperar o sistema em caso de acidentes.
-
-* **Aplicação no Diolinux Plus:** O formulário de tópicos possui validação contínua: não é possível publicar sem título ou sem categoria. Além disso, a plataforma apresenta mensagens claras em balões de alerta vermelhos caso o usuário infrinja o limite mínimo/máximo de caracteres ou se esqueça de preencher parâmetros essenciais.
-
-![Projeto para Erros](../assets/images_prints/pagina_principios_gerais/foto-pg.231.png)
-<div align="center"><small><em>Fonte: BARBOSA et al. (2021, p. 231).</em></small></div>
+### Oportunidades de Melhoria:
+- **Visibilidade da Ajuda de Atalhos**: Adicionar um botão discreto com ícone de teclado no cabeçalho para que usuários leigos descubram a central de atalhos `?`.
+- **Confirmação de Links Externos**: Implementar um modal de aviso ao clicar em links externos para prevenir saída não intencional do fórum.
 
 ---
 
@@ -107,7 +160,8 @@ Até mesmo usuários atentos cometem falhas; a interface deve evitar que eles ge
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 25/09/2026 | Criação inicial do documento com a fundamentação do livro | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.0` | 25/09/2026 | Criação inicial do documento com os 8 princípios gerais | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `2.0` | 05/10/2026 | Atualização completa com marcações do livro-texto, evidências visuais do fórum real via agente web, 10 Heurísticas de Nielsen e matriz classificatória (Atende/Viola/Atende Parcialmente) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 ---
 
@@ -116,3 +170,5 @@ Até mesmo usuários atentos cometem falhas; a interface deve evitar que eles ge
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010. Cap. 8: Princípios e Diretrizes para o Design de IHC, p. 203–218.
 
 [2] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. Cap. 10: Princípios e Diretrizes para o Design de IHC, p. 221–232.
+
+[3] NIELSEN, Jakob. *10 Usability Heuristics for User Interface Design*. Nielsen Norman Group, 1994. Disponível em: <https://www.nngroup.com/articles/ten-usability-heuristics/>. Acesso em: 05 out. 2026.
