@@ -63,9 +63,31 @@ Em estrito atendimento aos critérios de avaliação da disciplina e às diretri
 O protocolo de captura audiovisual segue os seguintes passos padronizados:
 
 1. **Antes de iniciar a gravação**: O pesquisador informa verbalmente o objetivo do estudo, o tempo estimado de duração e esclarece que a gravação é estritamente para registro acadêmico e análise qualitativa em IHC.
-2. **Início da gravação**: Imediatamente após acionar a ferramenta de captura (Google Meet / OBS), o pesquisador faz a pergunta formal: *"Você autoriza a gravação da sua voz e imagem para fins de análise acadêmica na disciplina de IHC da UnB?"*.
+2. **Início da gravação**: Imediatamente após acionar a ferramenta de captura (Google Meet / OBS), o pesquisador realiza a **leitura literal do script de consentimento verbal**, prestando todos os esclarecimentos ao participante.
 3. **Registro do consentimento**: O participante responde verbalmente em áudio e vídeo (*"Sim, autorizo"*).
 4. **Encerramento da gravação**: Ao final das tarefas ou da entrevista, a gravação é interrompida antes dos agradecimentos informais, e o vídeo é armazenado em ambiente seguro com acesso restrito aos integrantes da equipe.
+
+### Roteiro Textual Padronizado de Leitura Prévia do TCLE (Script Oral do Pesquisador)
+
+Para garantir que todos os membros da equipe realizem a leitura e o esclarecimento ético de forma uniforme, define-se o texto padrão a ser lido no início da chamada gravada:
+
+!!! quote "Script Oral Padronizado de Leitura do TCLE"
+    > *"Olá, [Nome do Participante], muito obrigado pela sua disponibilidade em participar da nossa pesquisa.*
+    >
+    > *Meu nome é [Nome do Entrevistador], sou estudante de Engenharia de Software da Universidade de Brasília (FGA/UnB). Esta atividade integra as pesquisas da disciplina de Interação Humano-Computador (FGA0173), sob docência e orientação do Prof. Dr. André Barros de Sales.*
+    >
+    > *O objetivo deste estudo é analisar os fluxos de navegação e propor melhorias de usabilidade e acessibilidade para a plataforma do **Fórum Diolinux Plus** (Discourse). Gostaríamos de ressaltar que **estamos avaliando a interface da plataforma, e não os seus conhecimentos ou habilidades pessoais** — qualquer dúvida, hesitação ou dificuldade sua é uma informação valiosa para o aprimoramento do sistema.*
+    >
+    > *A sessão terá duração estimada entre **10 e 15 minutos**. Sua participação é estritamente **voluntária e não remunerada**. Você tem o direito incondicional de recusar qualquer pergunta, pausar ou encerrar a sessão a qualquer instante, sem qualquer penalidade ou justificativa.*
+    >
+    > *Em conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018) e a Resolução CNS nº 510/2016, asseguramos o **anonimato absoluto** das suas respostas e dados pessoais na documentação pública, sendo você identificado apenas por um código neutro (ex: Participante 1).*
+    >
+    > *A gravação em áudio e vídeo será utilizada exclusivamente para fins de análise acadêmica na disciplina e hospedada como vídeo 'Não Listado' no YouTube.*
+    >
+    > *Você compreendeu os objetivos e garantias da pesquisa, e **autoriza a gravação do seu áudio, vídeo e compartilhamento de tela** para os fins acadêmicos deste projeto?"*
+    
+    **Confirmação do Participante (Gravada):**  
+    — *"Sim, compreendi e autorizo a participação e a gravação."*
 
 ---
 
@@ -109,6 +131,7 @@ A Tabela 3 documenta o histórico de versões deste artefato.
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Elaboração inicial do artefato de Aspectos Éticos, fundamentação na Resolução CNS nº 510/2016, 4 princípios bioéticos e minuta oficial do TCLE | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 09/10/2026 | Inclusão do roteiro textual padronizado de leitura prévia e consentimento verbal gravado do TCLE | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

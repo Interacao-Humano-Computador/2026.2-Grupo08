@@ -56,11 +56,29 @@ Para salvaguardar a integridade dos participantes, o protocolo da entrevista ope
 
 Para garantir que os entrevistadores Edvaldo Soares e Gustavo Antonio abordem todas as variáveis investigadas de forma padronizada, o roteiro foi estruturado em seis blocos sequenciais:
 
-### Bloco A — Abertura, Contextualização e Consentimento Verbal (2 minutos)
+### Bloco A — Abertura, Contextualização e Leitura Literal do TCLE (2 minutos)
 
-1. Apresentação do entrevistador e do projeto acadêmico de Interação Humano-Computador da UnB Gama;
-2. Explicação resumida de que a pesquisa visa avaliar a interface e os fluxos do Fórum Diolinux Plus, e não o conhecimento pessoal do participante;
-3. Leitura resumida do TCLE e solicitação expressa de autorização: *"Você autoriza a gravação do áudio e da tela desta sessão exclusivamente para fins de análise acadêmica na disciplina?"*
+O entrevistador inicia a gravação no Google Meet e realiza obrigatoriamente a leitura literal do termo a seguir antes de formular qualquer pergunta:
+
+!!! quote "Texto Literal de Leitura Prévia do TCLE (Script Oral do Entrevistador)"
+    *(O entrevistador deve acionar a gravação no Google Meet e ler o seguinte texto de forma clara para o participante):*
+
+    > *"Olá, [Nome do Participante], muito obrigado pela sua disponibilidade em colaborar com o nosso estudo.*
+    >
+    > *Meu nome é [Entrevistador], sou estudante de Engenharia de Software da Universidade de Brasília (FGA/UnB). Esta entrevista integra o projeto acadêmico da disciplina de Interação Humano-Computador (FGA0173), sob docência e orientação do Prof. Dr. André Barros de Sales.*
+    >
+    > *O objetivo desta pesquisa é avaliar os fluxos de navegação, usabilidade e acessibilidade na plataforma do **Fórum Diolinux Plus** (Discourse). Queremos enfatizar expressamente que **estamos avaliando a interface do sistema, e de forma alguma você ou seus conhecimentos** — quaisquer dúvidas, hesitações ou dificuldades que você encontrar são informações valiosas para identificarmos problemas de design.*
+    >
+    > *A sessão terá duração média de **10 a 15 minutos**. Sua participação é estritamente **voluntária e não remunerada**, em conformidade com as normas acadêmicas brasileiras. Você possui o direito incondicional de recusar qualquer pergunta, pausar ou encerrar a sua participação a qualquer momento, sem qualquer tipo de penalidade, cobrança ou justificativa.*
+    >
+    > *Em atenção à Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018) e às normas éticas da Resolução CNS nº 510/2016, asseguramos o **anonimato absoluto** das suas respostas e dados pessoais. Sua identidade será resguardada e tratada exclusivamente por códigos neutros (como Participante 1 ou P1).*
+    >
+    > *O registro em vídeo e áudio da chamada será utilizado unicamente para fins de análise acadêmica na disciplina e hospedado como vídeo 'Não Listado' no YouTube, sem acesso ao público geral.*
+    >
+    > *Diante de todos os esclarecimentos prestados, você declara que compreendeu os objetivos da pesquisa e **autoriza a gravação do seu áudio, vídeo e compartilhamento de tela** para fins de análise acadêmica neste projeto de IHC?"*
+    
+    **Confirmação Mandatória do Participante (Gravada em Áudio e Vídeo):**  
+    — *"Sim, compreendi os objetivos e autorizo a minha participação e a gravação."*
 
 ### Bloco B — Perfil Demográfico e Atitude Tecnológica (3 minutos)
 
@@ -182,7 +200,7 @@ A Tabela 5 documenta as versões deste artefato, acompanhando sua evolução ao 
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 09/10/2026 | Estruturação metodológica do artefato de entrevistas, fundamentação dos 4 princípios bioéticos, elaboração do roteiro em 6 blocos e definição dos templates de síntese para os executores | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.0` | 09/10/2026 | Estruturação metodológica do artefato de entrevistas, fundamentação dos 4 princípios bioéticos, script oral literal de leitura do TCLE no Bloco A, elaboração do roteiro em 6 blocos e definição dos templates de síntese para os executores | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
