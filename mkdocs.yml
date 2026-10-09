@@ -89,6 +89,7 @@ nav:
     - Elicitação de Requisitos:
       - Brainstorming: analise-requisitos/brainstorming.md
       - Entrevistas: analise-requisitos/entrevistas.md
+      - Questionário: analise-requisitos/questionario.md
     - Aspectos Éticos e TCLE: analise-requisitos/aspectos-eticos.md
     - Perfil do Usuário: analise-requisitos/perfil-usuario.md
     - Personas e Elenco: analise-requisitos/personas.md
