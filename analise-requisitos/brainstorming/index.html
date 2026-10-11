@@ -1,0 +1,2559 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto de Interação Humano-Computador do Grupo 08, FCTE/UnB, 2026.2.">
+      
+      
+        <meta name="author" content="Grupo 08 — IHC 2026.2">
+      
+      
+        <link rel="canonical" href="https://interacao-humano-computador.github.io/2026.2-Grupo08/analise-requisitos/brainstorming/">
+      
+      
+        <link rel="prev" href="../../planejamento/site-selecionado/">
+      
+      
+        <link rel="next" href="../entrevistas/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images_prints/LOGO_DIOLINUX.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Brainstorming - IHC 2026.2 - Grupo 08</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"IBM Plex Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#brainstorming" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="IHC 2026.2 - Grupo 08" class="md-header__button md-logo" aria-label="IHC 2026.2 - Grupo 08" data-md-component="logo">
+      
+  <img src="../../assets/images_prints/LOGO_DIOLINUX.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC 2026.2 - Grupo 08
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Brainstorming
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Mudar para modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Mudar para modo alto contraste"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo alto contraste" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.38 20.9a2 2 0 0 1-1.28-1.27L19.63 3.1a2 2 0 0 1 1.27 1.28zM20 16v2h-7v-2zM3 6h3V3h2v3h3v2H8v3H6V8H3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="contrast" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Mudar para modo escuro"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo08" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo08
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../entregas/entrega1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Entregas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../planejamento/equipe/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Planejamento do Projeto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Análise de Requisitos
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../atas/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Atas de Reunião
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../verificacao/grupo08/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../conteudo-teorico/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Conteúdo Teórico
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IHC 2026.2 - Grupo 08" class="md-nav__button md-logo" aria-label="IHC 2026.2 - Grupo 08" data-md-component="logo">
+      
+  <img src="../../assets/images_prints/LOGO_DIOLINUX.png" alt="logo">
+
+    </a>
+    IHC 2026.2 - Grupo 08
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo08" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo08
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entregas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entregas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/entrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/entrega2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregas/entrega3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Projeto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento do Projeto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/equipe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma-planejado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma Planejado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/cronograma-executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma Executado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/quadro-de-atribuicoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quadro de Atribuições
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heat Map
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lista de Sites Avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/site-selecionado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site Selecionado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elicitação de Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Elicitação de Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Contribuição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-fundamentacao-teorica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Fundamentação Teórica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-metodologia-da-sessao-presencial-em-sala-de-aula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Metodologia da Sessão Presencial em Sala de Aula
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-resultados-ideias-e-dores-elicitadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Resultados: Ideias e Dores Elicitadas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-lista-de-verificacao-da-tecnica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Lista de Verificação da Técnica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Histórico de Versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-agradecimentos-e-uso-de-inteligencia-artificial-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entrevistas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrevistas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos Éticos e TCLE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfil-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil do Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas e Elenco
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analise-tarefas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caracteristicas-da-plataforma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Características da Plataforma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../principios-gerais-de-projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Princípios Gerais de Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../metas-de-usabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metas de Usabilidade e UX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guia-de-estilo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de Estilo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conteudo-disciplina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conteúdo da Disciplina
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../atas/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas de Reunião
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas de Reunião
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 04/09/2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 07/09/2026 (Grupo +1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 14/09/2026 (Mudança de Escopo)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 25/09/2026 (Reestruturação da Equipe)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atas/ata5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 05/10/2026 (Planejamento Entrega 3)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Auto-Avaliação (Grupo 08)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Avaliação do Grupo -1 (Grupo 07)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verificacao/grupo01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Avaliação do Grupo +1 (Grupo 01)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../conteudo-teorico/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conteúdo Teórico
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Conteúdo Teórico
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Contribuição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-fundamentacao-teorica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Fundamentação Teórica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-metodologia-da-sessao-presencial-em-sala-de-aula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Metodologia da Sessão Presencial em Sala de Aula
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-resultados-ideias-e-dores-elicitadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Resultados: Ideias e Dores Elicitadas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-lista-de-verificacao-da-tecnica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Lista de Verificação da Técnica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Histórico de Versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-agradecimentos-e-uso-de-inteligencia-artificial-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="brainstorming">Brainstorming</h1>
+<h2 id="tabela-de-contribuicao">Tabela de Contribuição</h2>
+<p>A Tabela 1 detalha as contribuições de cada integrante na elaboração e revisão deste artefato.</p>
+<p><strong>Tabela 1</strong> — Matriz de Contribuição dos Integrantes no Brainstorming</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Integrante</th>
+<th style="text-align: left;">Contribuição</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Horário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/PajeMurici-dev">Edvaldo Soares Brasileiro Filho</a></td>
+<td style="text-align: left;">Participação ativa na ideação presencial, discussão de dores de busca e revisão técnica</td>
+<td style="text-align: center;">17/09/2026</td>
+<td style="text-align: center;">14:00 - 15:30</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/gus-ant">Gustavo Antonio Rodrigues e Silva</a></td>
+<td style="text-align: left;">Participação ativa na ideação presencial, levantamento de dores de onboarding e revisão por pares</td>
+<td style="text-align: center;">17/09/2026</td>
+<td style="text-align: center;">14:00 - 15:30</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/ViniciusA05">Vinicius Silva Araruna</a></td>
+<td style="text-align: left;">Mediação da dinâmica presencial, sistematização das ideias em clusters, redação do artefato e rastreabilidade</td>
+<td style="text-align: center;">17/09/2026</td>
+<td style="text-align: center;">14:00 - 15:30</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada pelos autores, 2026.</em></p>
+<hr />
+<h2 id="1-introducao">1. Introdução</h2>
+<p>A fase de Análise de Requisitos do Ciclo de Vida de Mayhew (1999) preconiza a investigação das reais necessidades, expectativas e restrições dos usuários antes de qualquer intervenção ou decisão de design. No projeto de Interação Humano-Computador do Grupo 08, que tem como objeto de estudo o <strong>Fórum Diolinux Plus</strong> (plataforma colaborativa baseada no Discourse), o brainstorming constitui a primeira técnica de elicitação direta empregada pela equipe.</p>
+<p>Como insumo preparatório para a sessão, a equipe utilizou a <strong>análise documental e observação preliminar da plataforma Discourse</strong> — examinando a estrutura de tags, as diretrizes da comunidade e a página <code>/about</code> do fórum. Essa análise documental prévia permitiu que os integrantes levassem para a dinâmica presencial um panorama concreto das dinâmicas do fórum, subsidiando o levantamento de hipóteses focado na realidade de estudantes universitários que buscam solucionar problemas técnicos e aprender comandos no ecossistema Linux.</p>
+<hr />
+<h2 id="2-fundamentacao-teorica">2. Fundamentação Teórica</h2>
+<p>Conforme ensinam Barbosa e Silva (2021, p. 152), o brainstorming é uma técnica em grupo amplamente consagrada no design de interação e na engenharia de requisitos, destinada a incentivar a geração livre de ideias sem censura prévia. Criado originalmente por Alex Osborn em 1953, o método apoia-se em quatro preceitos operacionais inegociáveis:</p>
+<ol>
+<li><strong>Adiar o julgamento:</strong> Nenhuma ideia deve ser criticada, descartada ou ridicularizada durante a fase divergente da sessão;</li>
+<li><strong>Estimular ideias ousadas:</strong> Ideias inusitadas ou aparentemente inviáveis são encorajadas, pois frequentemente abrem caminhos para soluções inovadoras;</li>
+<li><strong>Buscar quantidade:</strong> Quanto maior o volume bruto de proposições geradas, maior a probabilidade de identificar requisitos de alto impacto;</li>
+<li><strong>Combinar e aprimorar (efeito carona):</strong> Os participantes são incentivados a construir sobre as ideias dos colegas, combinando conceitos divergentes em propostas mais sólidas.</li>
+</ol>
+<p><em>Autor do Item Teórico: <a href="https://github.com/ViniciusA05">Vinicius Silva Araruna</a></em><br />
+<em>(Referencial teórico canônico fundamentado em Barbosa e Silva, 2021, p. 152).</em></p>
+<hr />
+<h2 id="3-metodologia-da-sessao-presencial-em-sala-de-aula">3. Metodologia da Sessão Presencial em Sala de Aula</h2>
+<p>A dinâmica de brainstorming foi realizada presencialmente pela equipe, respeitando o seguinte enquadramento operacional:</p>
+<ul>
+<li><strong>Data da Realização:</strong> 17 de setembro de 2026;</li>
+<li><strong>Horário:</strong> 14:00 às 15:30 (duração total: 90 minutos, divididos em 45 minutos de geração divergente e 45 minutos de agrupamento e refinamento);</li>
+<li><strong>Ambiente Físico:</strong> Sala de aula da Faculdade UnB Gama (FGA/UnB), durante o horário acadêmico da disciplina;</li>
+<li><strong>Participantes Ativos:</strong> Vinicius Silva Araruna (mediador), Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho;</li>
+<li><strong>Insumos Utilizados:</strong> Anotações em bloco de papel, dispositivos móveis consultando o fórum real e síntese documental prévia da estrutura do Discourse.</li>
+</ul>
+<blockquote>
+<p><strong>Nota Metodológica sobre o Registro:</strong> Por ter sido conduzida presencialmente no ambiente de sala de aula universitária, a sessão não contou com captação audiovisual em vídeo. As ideias, queixas e impressões expressas pelos membros foram registradas em notas manuscritas e digitadas imediatamente após o término da aula, sendo sistematizadas na Tabela 2 a seguir.</p>
+</blockquote>
+<hr />
+<h2 id="4-resultados-ideias-e-dores-elicitadas">4. Resultados: Ideias e Dores Elicitadas</h2>
+<p>Após a fase de geração livre, a equipe realizou a convergência e categorização das ideias em três <em>clusters</em> funcionais, alinhados diretamente às três tarefas principais modeladas no projeto e aos perfis de usuários (com destaque para o estudante universitário aprendiz).</p>
+<p>A Tabela 2 apresenta as ideias e dores elicitadas, seu impacto sobre a experiência do estudante e a respectiva rastreabilidade no projeto.</p>
+<p><strong>Tabela 2</strong> — Ideias e Dores Elicitadas no Brainstorming</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Cluster Temático</th>
+<th style="text-align: left;">Ideia / Dor Elicitada</th>
+<th style="text-align: left;">Impacto no Estudante</th>
+<th style="text-align: left;">Rastreabilidade de Tarefa / Persona</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>BR-01</strong></td>
+<td style="text-align: left;">Publicação de Dúvidas</td>
+<td style="text-align: left;">Dificuldade e receio de quebrar a formatação de código e logs ao colar comandos de terminal em Markdown</td>
+<td style="text-align: left;">Insegurança na postagem, postagens mal formatadas que demoram a receber resposta</td>
+<td style="text-align: left;">Tarefa 1 (Publicação com Markdown) / Persona 1 (Lucas)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>BR-02</strong></td>
+<td style="text-align: left;">Publicação de Dúvidas</td>
+<td style="text-align: left;">Hesitação na escolha das tags corretas diante de um número elevado de opções</td>
+<td style="text-align: left;">O estudante não sabe qual tag define seu problema (ex: kernel vs. hardware), gerando tópicos sem visibilidade</td>
+<td style="text-align: left;">Tarefa 1 (Publicação com Tags) / Persona 1 (Lucas)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>BR-03</strong></td>
+<td style="text-align: left;">Publicação de Dúvidas</td>
+<td style="text-align: left;">Falta de um template ou modelo prévio orientando quais dados de hardware/sistema devem ser informados</td>
+<td style="text-align: left;">O usuário esquece de informar versão da distribuição e comandos executados, atrasando o diagnóstico</td>
+<td style="text-align: left;">Tarefa 1 (Publicação de Dúvidas) / Persona 2 (Carlos)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>BR-04</strong></td>
+<td style="text-align: left;">Cadastro e Onboarding</td>
+<td style="text-align: left;">Desconhecimento do papel do bot interativo (Discobot) e receio de interagir com mensagens automatizadas</td>
+<td style="text-align: left;">O estudante ignora o tutorial inicial e deixa de aprender atalhos e boas práticas de convivência</td>
+<td style="text-align: left;">Tarefa 2 (Onboarding Discobot) / Persona 2 (Carlos)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>BR-05</strong></td>
+<td style="text-align: left;">Cadastro e Onboarding</td>
+<td style="text-align: left;">Frustração com as limitações de novo usuário (<em>Trust Level 0</em>), como bloqueio de postagens seguidas ou links</td>
+<td style="text-align: left;">O estudante tenta postar prints do terminal e tem o conteúdo travado pelo sistema antispam sem entender a razão</td>
+<td style="text-align: left;">Tarefa 2 (Progressão TL0 -&gt; TL1) / Persona 2 (Carlos)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>BR-06</strong></td>
+<td style="text-align: left;">Cadastro e Onboarding</td>
+<td style="text-align: left;">Falta de clareza visual nas regras da comunidade para novos membros recém-migrados do Windows</td>
+<td style="text-align: left;">Ansiedade de ser repreendido por moderadores devido a regras implícitas de etiqueta</td>
+<td style="text-align: left;">Tarefa 2 (Onboarding e Regras) / Persona 2 (Carlos)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>BR-07</strong></td>
+<td style="text-align: left;">Busca e Recuperação</td>
+<td style="text-align: left;">Dificuldade de filtrar resultados especificamente pela distribuição utilizada (ex: Linux Mint vs. Ubuntu)</td>
+<td style="text-align: left;">Resultados misturados com comandos incompatíveis com a interface Cinnamon do usuário</td>
+<td style="text-align: left;">Tarefa 3 (Busca Avançada) / Persona 3 (Pesquisador)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>BR-08</strong></td>
+<td style="text-align: left;">Busca e Recuperação</td>
+<td style="text-align: left;">Sobrecarga de tópicos antigos (3 a 5 anos atrás) com comandos desatualizados aparecendo no topo</td>
+<td style="text-align: left;">Risco de o estudante executar instruções obsoletas que danificam o gerenciador de pacotes do sistema</td>
+<td style="text-align: left;">Tarefa 3 (Filtros de Categoria/Data) / Persona 3 (Pesquisador)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>BR-09</strong></td>
+<td style="text-align: left;">Busca e Recuperação</td>
+<td style="text-align: left;">Desconhecimento da sintaxe de busca avançada do Discourse (operadores <code>in:title</code>, <code>tags:</code>, <code>order:views</code>)</td>
+<td style="text-align: left;">O estudante utiliza apenas termos genéricos e abandona a busca ao não encontrar respostas imediatas</td>
+<td style="text-align: left;">Tarefa 3 (Busca de Tópicos) / Persona 3 (Pesquisador)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada pelos autores, 2026.</em></p>
+<p>Conforme demonstrado na Tabela 2, os achados do brainstorming estabelecem a base empírica inicial para o refinamento das personas e para a identificação dos pontos críticos de interação na Análise Hierárquica de Tarefas (HTA).</p>
+<hr />
+<h2 id="5-lista-de-verificacao-da-tecnica">5. Lista de Verificação da Técnica</h2>
+<p>Para assegurar a conformidade metodológica da técnica aplicada com as exigências pedagógicas da disciplina, a Tabela 3 apresenta a lista de verificação preenchida pela equipe.</p>
+<p><strong>Tabela 3</strong> — Lista de Verificação da Técnica de Brainstorming</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Item / Questão Avaliada</th>
+<th style="text-align: left;">Origem / Fonte Normativa</th>
+<th style="text-align: center;">Conforme?</th>
+<th style="text-align: left;">Resposta Autoexplicativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: left;">A técnica de brainstorming possui fundamentação teórica baseada na literatura canônica de IHC?</td>
+<td style="text-align: center;">Barbosa &amp; Silva (2021); Mayhew (1999)</td>
+<td style="text-align: left;"><strong>Sim</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>2</strong></td>
+<td style="text-align: left;">O contexto, data, horário, local e participantes da sessão foram explicitados formalmente?</td>
+<td style="text-align: center;">Diretrizes Gerais da Disciplina</td>
+<td style="text-align: left;"><strong>Sim</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: left;">As regras clássicas da técnica (adiar julgamento, quantidade, ideias ousadas) foram operacionalizadas?</td>
+<td style="text-align: center;">Osborn (1953); Barbosa &amp; Silva (2021)</td>
+<td style="text-align: left;"><strong>Sim</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>4</strong></td>
+<td style="text-align: left;">As ideias e dores levantadas foram categorizadas em clusters estruturados?</td>
+<td style="text-align: center;">Preece, Rogers &amp; Sharp (2013)</td>
+<td style="text-align: left;"><strong>Sim</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: left;">Há rastreabilidade explícita entre as ideias elicitadas, as tarefas de IHC e o elenco de personas?</td>
+<td style="text-align: center;">Mayhew (1999); Barbosa &amp; Silva (2021)</td>
+<td style="text-align: left;"><strong>Sim</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: left;">Todas as tabelas possuem numeração formal, legenda, fonte e chamada antecedente no corpo do texto?</td>
+<td style="text-align: center;">Normas de Formatação da Disciplina</td>
+<td style="text-align: left;"><strong>Sim</strong></td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada pelos autores, 2026.</em></p>
+<hr />
+<h2 id="6-historico-de-versao">6. Histórico de Versão</h2>
+<p>A Tabela 4 documenta o histórico de versões deste artefato, registrando as modificações, datas, autores e revisores.</p>
+<p><strong>Tabela 4</strong> — Histórico de Versões do Artefato de Brainstorming</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição Detalhada da Modificação</th>
+<th style="text-align: left;">Autor(es)</th>
+<th style="text-align: left;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">09/10/2026</td>
+<td style="text-align: left;">Elaboração inicial do documento de Brainstorming com fundamentação teórica de Osborn, metodologia de sala de aula e clusters de tarefas</td>
+<td style="text-align: left;"><a href="https://github.com/ViniciusA05">Vinicius Silva Araruna</a></td>
+<td style="text-align: left;"><a href="https://github.com/gus-ant">Gustavo Antonio</a>, <a href="https://github.com/PajeMurici-dev">Edvaldo Soares</a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada pelos autores, 2026.</em></p>
+<hr />
+<h2 id="7-agradecimentos-e-uso-de-inteligencia-artificial-ia-generativa">7. Agradecimentos e Uso de Inteligência Artificial (IA) Generativa</h2>
+<p>Durante a elaboração deste artefato, foi utilizado apoio de Inteligência Artificial Generativa (Antigravity LLM) exclusivamente como suporte instrumental para auxílio na estruturação de tabelas Markdown e checagem de consistência contra a rubrica acadêmica. O planejamento da dinâmica, a mediação presencial em sala de aula, o levantamento das ideias empíricas e a validação do conteúdo foram realizados integralmente pelos discentes do Grupo 08.</p>
+<hr />
+<h2 id="8-referencias-bibliograficas">8. Referências Bibliográficas</h2>
+<p>[1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. <em>Interação Humano-Computador</em>. 1. ed. Rio de Janeiro: Elsevier / Campus, 2021.</p>
+<p>[2] MAYHEW, Deborah J. <em>The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design</em>. San Francisco: Morgan Kaufmann, 1999.</p>
+<p>[3] OSBORN, Alex F. <em>Applied Imagination: Principles and Procedures of Creative Problem-Solving</em>. New York: Charles Scribner's Sons, 1953.</p>
+<p>[4] ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. <em>Design de Interação: Além da Interação Humano-Computador</em>. 3. ed. Porto Alegre: Bookman, 2013.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../../planejamento/site-selecionado/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Site Selecionado">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Site Selecionado
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../entrevistas/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Entrevistas">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Entrevistas
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Grupo 08 · Interação Humano-Computador · FCTE/UnB · 2026.2
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+  
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  <script>
+    /* ======================================================
+       Widget de Acessibilidade — Tamanho de Fonte
+       Grupo 08 · IHC 2026.2
+    ====================================================== */
+    (function () {
+      var SIZES = { small: '90%', normal: '100%', large: '130%' };
+      var KEY = 'dp-font-size';
+
+      function applySize(size) {
+        document.documentElement.style.fontSize = SIZES[size] || SIZES.normal;
+        try { localStorage.setItem(KEY, size); } catch (e) {}
+      }
+
+      /* Restaura preferência salva */
+      try {
+        var saved = localStorage.getItem(KEY);
+        if (saved) applySize(saved);
+      } catch (e) {}
+
+      /* Cria widget após o DOM estar pronto */
+      document.addEventListener('DOMContentLoaded', function () {
+        var widget = document.createElement('div');
+        widget.className = 'dp-a11y-widget';
+        widget.setAttribute('aria-label', 'Controle de acessibilidade de fonte');
+        widget.innerHTML =
+          '<button class="dp-a11y-btn" title="Diminuir fonte" aria-label="Diminuir tamanho da fonte" onclick="(function(){document.documentElement.style.fontSize=\'90%\';try{localStorage.setItem(\'dp-font-size\',\'small\')}catch(e){}})()">A<span style="font-size:0.6em;vertical-align:sub">−</span></button>' +
+          '<button class="dp-a11y-btn" title="Fonte padrão" aria-label="Restaurar tamanho padrão da fonte" onclick="(function(){document.documentElement.style.fontSize=\'100%\';try{localStorage.setItem(\'dp-font-size\',\'normal\')}catch(e){}})()">A</button>' +
+          '<button class="dp-a11y-btn" title="Aumentar fonte" aria-label="Aumentar tamanho da fonte" onclick="(function(){document.documentElement.style.fontSize=\'130%\';try{localStorage.setItem(\'dp-font-size\',\'large\')}catch(e){}})()">A<span style="font-size:0.75em;vertical-align:super">+</span></button>';
+        document.body.appendChild(widget);
+      });
+    })();
+  </script>
+
+  </body>
+</html>
