@@ -86,6 +86,9 @@ nav:
     - Lista de Sites Avaliados: planejamento/sites-avaliados.md
     - Site Selecionado: planejamento/site-selecionado.md
   - Análise de Requisitos:
+    - Elicitação de Requisitos:
+      - Brainstorming: analise-requisitos/brainstorming.md
+      - Entrevistas: analise-requisitos/entrevistas.md
     - Aspectos Éticos e TCLE: analise-requisitos/aspectos-eticos.md
     - Perfil do Usuário: analise-requisitos/perfil-usuario.md
     - Personas e Elenco: analise-requisitos/personas.md
@@ -106,5 +109,6 @@ nav:
   - Verificação:
     - Auto-Avaliação (Grupo 08): verificacao/grupo08.md
     - Avaliação do Grupo -1 (Grupo 07): verificacao/grupo07.md
+    - Avaliação do Grupo +1 (Grupo 01): verificacao/grupo01.md
   - Conteúdo Teórico:
     - Itens Avaliados: conteudo-teorico/index.md
