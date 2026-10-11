@@ -5,8 +5,8 @@
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão técnica da matriz de conformidade e apoio na consolidação dos dados de inspeção | 10/10/2026 | Suporte na formatação Markdown e tabelas sob supervisão dos discentes |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Auditoria técnica de governança, repositório e metas de usabilidade; consolidação das métricas | 10/10/2026 | Suporte na estruturação Markdown e tabelas sob supervisão dos discentes |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Coordenação geral da inspeção, auditoria de características, princípios e guia de estilo; redação do relatório | 10/10/2026 | Suporte na estruturação Markdown e tabelas sob supervisão dos discentes |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Auditoria técnica de governança, repositório e metas de usabilidade; consolidação das métricas e apresentação em vídeo](https://youtu.be/lttsLbInYaM) | 10/10/2026 | Suporte na estruturação Markdown e tabelas sob supervisão dos discentes |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Coordenação geral da inspeção, auditoria de características, princípios e guia de estilo; redação do relatório e apresentação em vídeo](https://youtu.be/lttsLbInYaM) | 10/10/2026 | Suporte na estruturação Markdown e tabelas sob supervisão dos discentes |
 
 ---
 
@@ -36,7 +36,7 @@ A Tabela 1 sintetiza as informações cadastrais, o ambiente de versionamento e 
 | **Artefatos Inspecionados** | • [Características Gerais](https://interacao-humano-computador.github.io/2026.2-Grupo01/analise_de_requisitos/caracteristicas_gerais/)<br/>• [Princípios Gerais](https://interacao-humano-computador.github.io/2026.2-Grupo01/analise_de_requisitos/principios_gerais/)<br/>• [Metas de Usabilidade](https://interacao-humano-computador.github.io/2026.2-Grupo01/analise_de_requisitos/metas_usabilidade/)<br/>• [Guia de Estilo](https://interacao-humano-computador.github.io/2026.2-Grupo01/analise_de_requisitos/guia_estilo/) |
 | **Vídeo da Apresentação da Etapa 3 (Grupo 01)** | **Não disponibilizado (Falha Crítica)**: Inexistência de gravação ou página de apresentação da Etapa 3 no GitPages ou repositório. Em `atas/reunioes.md` há apenas o vídeo da Etapa 1. Em `cronograma_executado.md`, a atividade 3.6 consta como *"A ser realizada"* / *"A definir"*. |
 | **Gravação das Reuniões da Etapa 3 (Grupo 01)** | **Não disponibilizadas**: Inexiste ata de reunião registrada para a Etapa 3 na Tabela 1 de `reunioes.md` e nenhum link de gravação síncrona publicado. |
-| **Vídeo da Avaliação Realizada pelo Grupo 08** | *Link a ser incorporado após processamento audiovisual da gravação conduzida por Vinicius Araruna e Gustavo Antonio.* |
+| **Vídeo da Avaliação Realizada pelo Grupo 08** | [Assistir no YouTube (lttsLbInYaM)](https://youtu.be/lttsLbInYaM) |
 
 _Fonte: Grupo 08, 2026._
 
@@ -51,11 +51,11 @@ _Fonte: Grupo 08, 2026._
 O vídeo a seguir documenta a auditoria técnica da Etapa 3 do Grupo 01, conduzida pelos discentes Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva representando o Grupo 08.
 
 <div style="text-align: center; margin: 1.5em 0;" markdown="1">
-  <p style="padding: 1.5em; background-color: var(--md-code-bg-color); border: 1px dashed var(--md-typeset-table-color); border-radius: 6px;">
-    <b>Vídeo 1 — Gravação da Avaliação da Etapa 3 (Grupo 01 — Microsoft Teams)</b><br/>
-    <i>A gravação da avaliação técnica conduzida pelos discentes Vinicius Silva Araruna e Gustavo Antonio encontra-se em fase de upload e sincronização audiovisual no YouTube sob a modalidade Não Listado. O player incorporado será disponibilizado nesta seção.</i>
-  </p>
+  <iframe width="720" height="405" src="https://www.youtube.com/embed/lttsLbInYaM" title="Avaliação do Grupo +1 (Grupo 01 — Microsoft Teams) | IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p align="center" style="font-size: 0.85em; color: #64748B;"><b>Vídeo 1</b> — Gravação da avaliação formal do Grupo 01 referente à Etapa 3. (Fonte: Grupo 08, 2026).</p>
 </div>
+
+Caso não consiga visualizar o player incorporado acima, acesse diretamente através do link: [Assistir no YouTube (lttsLbInYaM)](https://youtu.be/lttsLbInYaM).
 
 ---
 
@@ -186,6 +186,7 @@ A Tabela 3 documenta o histórico de versões deste artefato de inspeção técn
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 10/10/2026 | Elaboração inicial da auditoria técnica da Etapa 3 do Grupo 01 (Grupo +1), matriz analítica de 18 critérios, síntese quantitativa e geração do relatório oficial em PDF | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.1` | 10/10/2026 | Adição do vídeo da gravação da avaliação do Grupo 01 no YouTube (lttsLbInYaM) e incorporação de iframe | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Grupo 08, 2026._
 
