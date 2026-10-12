@@ -1,20 +1,24 @@
-# Lista de Verificação — Grupo 08 (Auto-Avaliação das Entregas 1, 2 e 3)
+# Relatório de Inspeção e Autoavaliação — Grupo 08
 
 ## Tabela de Contribuição
+
+A distribuição de responsabilidades e uso de IA Generativa na elaboração e manutenção deste relatório de inspeção encontra-se sintetizada no quadro a seguir.
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Verificação dos artefatos da E2 e revisão da matriz de verificação da Entrega 3 | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Consolidação dos dados de verificação da E2 e E3 e atualização dos gráficos | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Elaboração da matriz de verificação da E2 e elaboração completa da verificação da Entrega 3 | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Desacoplamento arquitetural do relatório de inspeção frente aos templates de checklist (Issue #30), elaboração das matrizes de verificação da E2 e E3 | 12/10/2026 | Suporte na formatação Markdown sob supervisão discente |
 
 ---
 
 ## Introdução
 
-Este artefato apresenta a **auto-avaliação formal do Grupo 08** referente às etapas do projeto da disciplina de Interação Humano-Computador (FGA0173 — Turma 01), ministrada pelo Prof. Dr. André Barros de Sales na Faculdade UnB Gama (FGA/UnB).
+Este artefato documenta o **Relatório de Inspeção e Autoavaliação Formal do Grupo 08**, consolidando os achados empíricos obtidos na aplicação dos instrumentos normativos de auditoria definidos em [Listas de Verificação](lista-verificacao.md).
 
-O objetivo deste documento é realizar a inspeção rigorosa dos artefatos produzidos pela equipe na **Entrega 1** (Planejamento do Projeto, Processo de Design e Governança), na **Entrega 2** (Perfil de Usuário, Aspectos Éticos e Análise de Tarefas) e na **Entrega 3** (Análise de Requisitos: Características da Plataforma, Princípios Gerais, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Apresentação Audiovisual), garantindo total transparência, rastreabilidade e conformidade com as diretrizes do Plano de Ensino e com a literatura científica de IHC (*Barbosa & Silva, 2021; Sales, 2026*).
+A inspeção cobre as três etapas consolidadas do projeto na disciplina de Interação Humano-Computador (FGA0173), sob docência do Prof. Dr. André Barros de Sales na Faculdade UnB Gama (FGA/UnB): a **Entrega 1** (Planejamento do Projeto, Processo de Design e Governança), a **Entrega 2** (Perfil de Usuário, Aspectos Éticos e Análise de Tarefas) e a **Entrega 3** (Análise de Requisitos: Características da Plataforma, Princípios Gerais, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Apresentação Audiovisual).
+
+Em consonância com o método formal de Michael Fagan (1976), este documento atua como o registro da **Reunião de Inspeção (*Inspection Meeting*)**, sintetizando as conformidades, as evidências verificadas na documentação e orientando as atividades subsequentes de **Retrabalho (*Rework*)** da equipe frente às diretrizes do Plano de Ensino e à literatura científica de IHC (*Barbosa & Silva, 2021; Sales, 2026*).
 
 ---
 
@@ -23,6 +27,8 @@ O objetivo deste documento é realizar a inspeção rigorosa dos artefatos produ
 Abaixo estão dispostas as tabelas de auto-avaliação da primeira etapa do projeto.
 
 ### Itens de Planejamento Geral do Projeto (Entrega 1)
+
+A Tabela 1 apresenta os resultados da verificação empírica dos itens de planejamento geral do Grupo 08 referente à Entrega 1.
 
 **Tabela 1** — Verificação dos itens de planejamento geral do Grupo 08
 
@@ -43,6 +49,8 @@ _Fonte: Grupo 08, 2026._
 ---
 
 ### Itens de Desenvolvimento e Documentação (Entrega 1)
+
+A Tabela 2 sintetiza a avaliação dos aspectos de governança técnica, padronização editorial e registros da primeira etapa do projeto.
 
 **Tabela 2** — Verificação dos aspectos de documentação e conformidade técnica
 
@@ -66,6 +74,8 @@ _Fonte: Grupo 08, 2026._
 
 ### Itens de Conteúdo da Disciplina (Entrega 1)
 
+A Tabela 3 consolida a conformidade da fundamentação teórica do Processo de Design e dos itens de conteúdo individual da Entrega 1.
+
 **Tabela 3** — Verificação do Processo de Design e conteúdo teórico
 
 | Requisito de Conteúdo Teórico | Resposta | Evidência / Observação |
@@ -82,6 +92,8 @@ _Fonte: Grupo 08, 2026._
 Abaixo estão dispostas as tabelas de auto-avaliação dos artefatos produzidos para a **Entrega 2**.
 
 ### Perfil do Usuário e Aspectos Éticos (TCLE)
+
+A Tabela 4 detalha a verificação empírica dos artefatos de Perfil do Usuário e Aspectos Éticos desenvolvidos na Entrega 2.
 
 **Tabela 4** — Verificação dos artefatos de Perfil do Usuário e Aspectos Éticos
 
@@ -102,6 +114,8 @@ _Fonte: Grupo 08, 2026._
 
 ### Personas, Elenco de Personas e Cenários
 
+A Tabela 5 consolida os achados da inspeção realizada sobre as Personas, o Elenco de Personas e os Cenários de Interação da Entrega 2.
+
 **Tabela 5** — Verificação dos artefatos de Personas, Elenco e Cenários de Interação
 
 | ID | Critério da Rubrica / Literatura Canônica | Resposta | Evidência / Observação no Artefato |
@@ -120,7 +134,9 @@ _Fonte: Grupo 08, 2026._
 
 ---
 
-### Análise de Tarefas (HTA, GOMS/KLM e CTT)
+### Análise de Tarefas (HTA, GOMS e CTT)
+
+A Tabela 6 sintetiza a verificação dos artefatos de Análise de Tarefas frente às técnicas canônicas adotadas pela equipe.
 
 **Tabela 6** — Verificação dos artefatos de Análise de Tarefas
 
@@ -130,7 +146,7 @@ _Fonte: Grupo 08, 2026._
 | **E2-19** | A Análise Hierárquica de Tarefas (HTA) apresenta o objetivo de alto nível (nível 0) orientado ao estado final desejado? | ✅ Sim | Decomposição formal dos 5 fluxos do Fórum Diolinux Plus em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 | **E2-20** | A HTA apresenta tanto a representação em Diagrama Gráfico em árvore quanto a Tabela Analítica equivalente? | ✅ Sim | Todos os 5 fluxos possuem Diagrama Mermaid e Tabela HTA completa em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 | **E2-21** | Os planos em HTA especificam as condições lógicas e temporais utilizando os operadores canônicos (sequencial `>`, seleção `/`, paralelo `+`)? | ✅ Sim | Especificação rigorosa dos planos em cada nível hierárquico com regras de disparo em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
-| **E2-22** | Foi explicitado o critério formal de parada da decomposição HTA (regra $p \times c$ de Annett e Duncan e causa raiz)? | ✅ Sim | Seção metodológica e observações de encerramento justificando a parada em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
+| **E2-22** | Foi explicitado o critério formal de parada da decomposição HTA (regra p × c de Annett e Duncan e causa raiz)? | ✅ Sim | Seção metodológica e observações de encerramento justificando a parada em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 | **E2-23** | A modelagem GOMS/KLM especifica os operadores (K, P, H, D, M, R) e calcula a estimativa de tempo total de execução? | ✅ Sim | Tabelas KLM detalhando operadores com tempos em segundos e somatórios de tempo por tarefa em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 | **E2-24** | Cada discente ativo é autor principal de ao menos uma modelagem de tarefa completa e distinta? | ✅ Sim | Tabela de atribuição indicando as tarefas individuais desenvolvidas por Vinicius, Gustavo e Edvaldo em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 
@@ -139,6 +155,8 @@ _Fonte: Grupo 08, 2026._
 ---
 
 ### Requisitos Globais de Documentação e Gravação (Entrega 2)
+
+A Tabela 7 detalha a verificação dos aspectos de governança, conformidade editorial e gravações audiovisuais da Entrega 2.
 
 **Tabela 7** — Verificação de padronização e gravação da Entrega 2
 
@@ -157,7 +175,7 @@ _Fonte: Grupo 08, 2026._
 
 ## 3. Verificação da Entrega 3 — Análise de Requisitos
 
-Abaixo está disposta a tabela de auto-avaliação dos artefatos produzidos para a **Entrega 3** (Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Página de Entrega 3), avaliada na branch `main`.
+A Tabela 8 apresenta a autoavaliação dos 18 itens produzidos para a **Entrega 3** (Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Página de Entrega 3), avaliada na branch `main`.
 
 **Tabela 8** — Verificação dos Itens da Entrega 3 (18 Itens Trabalhados)
 
@@ -283,8 +301,10 @@ A Tabela 9 documenta o histórico de versões deste artefato.
 | `1.0` | 13/09/2026 | Criação da lista de verificação inicial do Grupo 08 referente à Entrega 1 | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `2.0` | 27/09/2026 | Atualização completa integrando os 30 critérios formais de auto-avaliação da Entrega 2 (Perfil de Usuário, Aspectos Éticos, Personas, Cenários, HTA/GOMS e Gravação) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `3.0` | 06/10/2026 | Inclusão da auto-avaliação e lista de verificação da Entrega 3 (Análise de Requisitos) com 18 itens e incorporação do vídeo oficial de apresentação | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `3.1` | 12/10/2026 | Desacoplamento arquitetural formal entre a Lista de Verificação (templates normativos em lista-verificacao.md) e o Relatório de Inspeção preenchido da equipe (Issue #30), com introdução contextualizada no método de Fagan (1976) e saneamento UTF-8 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Grupo 08, 2026._  
+_\*Nota histórica: O discente Pedro Paulo constava como integrante ativo na versão 1.0 de setembro/2026, sendo preservado seu registro fático documental da época em estrita conformidade com o princípio de não apagamento histórico e integridade acadêmica._
 
 ---
 
