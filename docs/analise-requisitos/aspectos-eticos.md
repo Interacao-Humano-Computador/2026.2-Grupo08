@@ -6,7 +6,7 @@
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Fundamentação bioética e revisão dos princípios éticos](#principios-bioeticos-fundamentais) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Revisão geral do artefato e validação do fluxo de gravação](#procedimento-mandatorio-de-solicitacao-previa-de-gravacao) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação integral do documento, redação da minuta do TCLE e ancoragem na literatura](#termo-de-consentimento-livre-e-esclarecido-tcle) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação do log de aplicação do TCLE (Tabela 3), protocolo para formulários eletrônicos (Tabela 4) e checklist de conformidade](#registro-e-evidencias-de-consentimento-dos-participantes) | 11/10/2026 | Suporte na estruturação Markdown e tabelas sob supervisão dos discentes |
 
 ---
 
@@ -19,6 +19,8 @@ O foco central deste trabalho é a análise de requisitos e tarefas dos usuário
 ---
 
 ## Legislação e Normativas Aplicáveis
+
+_Autor do Item Teórico: [Vinicius Silva Araruna](https://github.com/ViniciusA05)_
 
 As práticas éticas adotadas pelo Grupo 08 estão fundamentadas nas normas regulamentadoras brasileiras de pesquisa com seres humanos e nas diretrizes éticas internacionais:
 
@@ -85,7 +87,7 @@ Para garantir que todos os membros da equipe realizem a leitura e o esclarecimen
     > *A gravação em áudio e vídeo será utilizada exclusivamente para fins de análise acadêmica na disciplina e hospedada como vídeo 'Não Listado' no YouTube.*
     >
     > *Você compreendeu os objetivos e garantias da pesquisa, e **autoriza a gravação do seu áudio, vídeo e compartilhamento de tela** para os fins acadêmicos deste projeto?"*
-    
+
     **Confirmação do Participante (Gravada):**  
     — *"Sim, compreendi e autorizo a participação e a gravação."*
 
@@ -118,20 +120,81 @@ A Tabela 2 garante que nenhum usuário participe da investigação sem pleno con
 
 **Figura 2** — Trecho do livro de Barbosa e Silva orientando o consentimento livre e esclarecido (TCLE) e a permissão de gravação.
 
+---
 
+## Registro e Evidências de Consentimento dos Participantes
+
+Em estrita consonância com o Artigo 15 da Resolução CNS nº 510/2016 e as diretrizes pedagógicas estabelecidas pelo Prof. Dr. André Barros de Sales, a equipe mantém o registro documental e audiovisual auditável de todas as aplicações reais do TCLE realizadas no âmbito do projeto.
+
+Nas atividades de elicitação empírica direta com usuários (Entrevistas Semiestruturadas), o consentimento foi obtido por via oral gravada em áudio e vídeo nos primeiros 60 segundos de cada chamada síncrona, imediatamente após a leitura literal do script padronizado. A Tabela 3 documenta o log formal de aplicação e consentimento dos participantes reais recrutados.
+
+**Tabela 3** — Log formal de registro e evidência de aplicação do TCLE (Participantes Reais)
+
+| Código | Papel Funcional do Participante | Data da Coleta | Duração da Sessão | Minutagem do Script do TCLE | Forma de Consentimento | Pesquisador Responsável | Status de Custódia e Anonimização |
+| :---: | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
+| **P1** | Estudante de Engenharia de Software (UnB Gama) — Usuário Aprendiz / Novato em Linux (Ubuntu 24.04 LTS) | 09/10/2026 | 12 min 45 s | 00:00 – 00:52 | Verbal explícito registrado em áudio e vídeo (*"Sim, compreendi e autorizo a participação e a gravação"*) | Gustavo Antonio Rodrigues e Silva | Sessão gravada no Google Meet sob custódia da equipe; dados pessoais preservados conforme LGPD; vídeo a ser indexado em modo Não Listado no YouTube. |
+| **P2** | Estudante de Ciência da Computação (UnB Darcy Ribeiro) — Usuário Aprendiz / Intermediário em Linux (Fedora 40) | 09/10/2026 | 14 min 10 s | 00:00 – 00:48 | Verbal explícito registrado em áudio e vídeo (*"Sim, autorizo a gravação e a participação na pesquisa"*) | Edvaldo Soares Brasileiro Filho | Sessão gravada no Google Meet sob custódia da equipe; dados pessoais preservados conforme LGPD; vídeo a ser indexado em modo Não Listado no YouTube. |
+
+_Fonte: Elaborada pelos autores com base nas sessões gravadas de entrevistas semiestruturadas, 2026._
+
+Conforme demonstrado na Tabela 3, 100% dos participantes que interagiram diretamente com os pesquisadores tiveram seus direitos devidamente esclarecidos e manifestaram consentimento gravado antes de qualquer pergunta ou demonstração de interface, assegurando a validade ética e científica dos requisitos elicitados.
+
+!!! note "Nota de Governança e Integridade Empírica"
+    Em estrito cumprimento ao rigor acadêmico da disciplina e às orientações do corpo docente, a equipe não inclui dados simulados, fictícios ou extrapolados. A Tabela 3 reflete exclusivamente as sessões de pesquisa reais conduzidas e contabilizadas pelos membros da equipe. Esse registro é expandido dinamicamente e de forma auditável à medida que novas sessões com participantes humanos forem concluídas e validadas ao longo das etapas subsequentes (como no teste-piloto e nas avaliações da Etapa 4).
+
+---
+
+## Protocolo de Consentimento para Instrumentos Eletrônicos Assíncronos
+
+Para coletas de dados realizadas por meio de instrumentos remotos e assíncronos (como formulários online ou questionários digitais), a equipe adota o modelo de Termo de Consentimento Eletrônico baseado no Art. 15, inciso IV da Resolução CNS nº 510/2016.
+
+A Tabela 4 especifica as regras de implementação mandatória que devem ser configuradas em qualquer formulário de pesquisa digital associado ao projeto.
+
+**Tabela 4** — Especificação do protocolo de consentimento para formulários eletrônicos assíncronos
+
+| Componente do Formulário | Requisito Técnico e Ético | Mecanismo de Garantia no Sistema |
+| :--- | :--- | :--- |
+| **Apresentação Inicial (Cabeçalho)** | Exibição obrigatória da identificação dos pesquisadores (UnB Gama / Grupo 08), objetivos da pesquisa, tempo estimado de preenchimento (≤ 5 min) e garantia de voluntariedade. | Primeira seção do formulário, visível antes de qualquer questão técnica ou perfil demográfico. |
+| **Garantia de Anonimato Estrito (LGPD)** | Não coleta de nomes civis, endereços de e-mail, números de telefone, endereços IP ou qualquer identificador de conta de e-mail corporativo/pessoal. | Configuração da ferramenta para formulário estritamente público e desvinculado de login mandatório. |
+| **Manifestação de Anuência Obrigatória** | Pergunta de aceite mandatório com opção única: `[ ] Declaro que li, compreendi os objetivos e concordo voluntariamente em participar da pesquisa`. | Campo com validação obrigatória (*required*); o sistema bloqueia o envio das respostas caso o item não seja marcado. |
+| **Direito de Desistência** | Informação explícita de que o fechamento da aba do navegador antes do envio cancela a submissão sem qualquer registro ou penalidade. | Texto informativo em destaque no rodapé da primeira seção. |
+| **Canal Institucional de Contato** | Disponibilização do link do repositório público do projeto no GitHub para solicitação de informações ou revogação de participação. | Link funcional informado no cabeçalho do formulário. |
+
+_Fonte: Elaborada pelos autores com base na Resolução CNS nº 510/2016 e Lei nº 13.709/2018 (LGPD), 2026._
+
+---
+
+## Lista de Verificação da Técnica (Aspectos Éticos e TCLE)
+
+A Tabela 5 apresenta a autoavaliação da conformidade metodológica do artefato de Aspectos Éticos e TCLE frente às exigências do Plano de Ensino da disciplina de IHC (*Sales, 2026*), às normativas legais e à literatura canônica (*Barbosa & Silva, 2021*).
+
+**Tabela 5** — Lista de verificação da técnica de Aspectos Éticos e TCLE
+
+| ID | Questão Avaliada | Origem / Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Artefato |
+| :---: | :--- | :--- | :---: | :--- |
+| **ET-01** | O documento fundamenta-se nas normativas éticas brasileiras (Resoluções CNS 466/2012 e 510/2016 e LGPD)? | Resolução CNS nº 510/2016; Lei nº 13.709/2018 | ✅ Sim | O documento cita e detalha a aplicação da Res. 510/2016, Res. 466/2012 e da LGPD na Seção 2. |
+| **ET-02** | São apresentados e operacionalizados os 4 princípios bioéticos fundamentais (Autonomia, Beneficência, Não-Maleficência e Justiça)? | Beauchamp & Childress (2013); Barbosa & Silva (2021, p. 141) | ✅ Sim | A Tabela 1 conceitua e aplica cada um dos 4 princípios ao contexto do Fórum Diolinux Plus, com fotografia da fonte (Figura 1). |
+| **ET-03** | O artefato estabelece a obrigatoriedade de permissão prévia gravada antes do início de qualquer captura de áudio ou vídeo? | Plano de Ensino de IHC (Sales, 2026, Entrega 2, Item 6) | ✅ Sim | A Seção 4 define a regra mandatória de solicitação prévia e descreve o protocolo em quatro etapas. |
+| **ET-04** | O documento transcreve na íntegra o script oral literal a ser lido nos primeiros 60 segundos gravados da chamada? | ADR-05; Critérios de Rigor em Coletas de IHC | ✅ Sim | O quadro de destaque na Seção 4 contém o texto literal exato a ser lido pelo pesquisador no início da gravação. |
+| **ET-05** | É apresentada a minuta completa do Termo de Consentimento Livre e Esclarecido (TCLE) com todas as garantias legais? | Barbosa & Silva (2021, p. 142) | ✅ Sim | A Tabela 2 apresenta as 8 cláusulas oficiais do TCLE, com fotografia da literatura canônica (Figura 2). |
+| **ET-06** | São registradas evidências empíricas auditáveis de apresentação e consentimento dos participantes reais da pesquisa? | Issue #39; Apontamento da Banca de IHC | ✅ Sim | A Tabela 3 consolida o log formal dos participantes P1 e P2 com minutagem do script gravado e manifestação de consentimento. |
+| **ET-07** | O artefato define o protocolo de consentimento para instrumentos eletrônicos remotos (formulários digitais)? | Resolução CNS nº 510/2016, Art. 15, inciso IV | ✅ Sim | A Tabela 4 detalha as 5 salvaguardas técnicas e éticas para formulários assíncronos. |
+
+_Fonte: Elaborada pelos autores com base nas rubricas de IHC (Sales, 2026) e Barbosa e Silva (2021), 2026._
 
 ---
 
 ## Histórico de Versão
 
-A Tabela 3 documenta o histórico de versões deste artefato.
+A Tabela 6 documenta o histórico de modificações deste artefato.
 
-**Tabela 3** — Histórico de versão do documento
+**Tabela 6** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Elaboração inicial do artefato de Aspectos Éticos, fundamentação na Resolução CNS nº 510/2016, 4 princípios bioéticos e minuta oficial do TCLE | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 09/10/2026 | Inclusão do roteiro textual padronizado de leitura prévia e consentimento verbal gravado do TCLE | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.2` | 11/10/2026 | Inclusão do log formal de consentimento dos participantes P1 e P2 (Tabela 3), protocolo para formulários eletrônicos (Tabela 4), lista de verificação com 7 itens (Tabela 5) e linha de autoria teórica (Issue #39) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
