@@ -53,16 +53,12 @@ A Figura 2 sintetiza o fluxo relacional das seis dimensões operacionais do fram
 
 ```mermaid
 graph TD
-    classDef step fill:#FFFFFF,stroke:#0F172A,stroke-width:2px,color:#0F172A;
-    classDef ethical fill:#FEF3C7,stroke:#D97706,stroke-width:2px,color:#78350F;
-    classDef eval fill:#F1F5F9,stroke:#334155,stroke-width:2px,color:#0F172A;
-
-    D1["D — Determinar Objetivos Gerais (Metas Formativas)"]:::step
-    E1["E — Explorar Perguntas Investigativas (Desdobramento)"]:::step
-    C1["C — Escolher Métodos de Avaliação (Entrevista Semiestruturada)"]:::step
-    I1["I — Identificar Questões Práticas (Recrutamento e Cronograma)"]:::step
-    D2["D — Decidir Questões Éticas (TCLE e Script Oral Literal)"]:::ethical
-    E2["E — Avaliar, Interpretar e Apresentar Dados (Relatório de Reprojeto)"]:::eval
+    D1["D — Determinar Objetivos Gerais (Metas Formativas)"]
+    E1["E — Explorar Perguntas Investigativas (Desdobramento)"]
+    C1["C — Escolher Métodos de Avaliação (Entrevista Semiestruturada)"]
+    I1["I — Identificar Questões Práticas (Recrutamento e Cronograma)"]
+    D2["D — Decidir Questões Éticas (TCLE e Script Oral Literal)"]
+    E2["E — Avaliar, Interpretar e Apresentar Dados (Relatório de Reprojeto)"]
 
     D1 --> E1
     E1 --> C1
