@@ -103,11 +103,14 @@ nav:
       - Storyboard:
           - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-avaliacao.md
           - Planejamento do Relato dos Resultados: design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-relato-resultados.md
+          - Storyboards da Equipe: design-avaliacao-desenvolvimento/storyboards.md
       - Análise de Tarefas:
           - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-avaliacao.md
           - Planejamento do Relato dos Resultados: design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-relato-resultados.md
+          - Relato Preliminar (Tarefas): design-avaliacao-desenvolvimento/planejamento-relato-tarefas.md
       - Questões Práticas e Cronograma da Avaliação: design-avaliacao-desenvolvimento/nivel-1/questoes-praticas-cronograma.md
       - Teste-Piloto de Nível 1: design-avaliacao-desenvolvimento/nivel-1/teste-piloto.md
+      - Instrumentos de Observação: design-avaliacao-desenvolvimento/observacao-avaliador.md
   - Atas de Reunião:
     - Índice de Atas: atas/index.md
     - Reunião 04/09/2026: atas/ata1.md
@@ -122,3 +125,4 @@ nav:
   - Conteúdo Teórico:
     - Itens Avaliados: conteudo-teorico/index.md
     - Item Teórico - Storyboard: conteudo-teorico/item-teorico-storyboard.md
+    - Item Teórico - Métodos de Avaliação: design-avaliacao-desenvolvimento/item-teorico-metodos-avaliacao.md

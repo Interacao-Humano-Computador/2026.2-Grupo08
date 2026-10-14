@@ -687,3 +687,141 @@ html {
 .dp-bar-ok   { background: var(--dp-purple); }
 .dp-bar-warn { background: var(--dp-magenta); }
 .dp-bar-fail { background: var(--dp-cyan); color: #000; }
+
+/* ============================================================
+   DIAGRAMAS MERMAID — Contraste e Acessibilidade (Claro / Escuro / Alto Contraste)
+   Grupo 08 · IHC 2026.2
+   ============================================================ */
+
+.md-typeset .mermaid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.8rem 0;
+  overflow-x: auto;
+  background: transparent !important;
+}
+
+.md-typeset .mermaid svg {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Tipografia e rótulos dos nós */
+.md-typeset .mermaid .node .label,
+.md-typeset .mermaid .node text,
+.md-typeset .mermaid .node tspan,
+.md-typeset .mermaid .node span,
+.md-typeset .mermaid .node p,
+.md-typeset .mermaid .node div {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-size: 0.88rem !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+}
+
+/* Rótulos de arestas / conexões */
+.md-typeset .mermaid .edgeLabel,
+.md-typeset .mermaid .edgeLabel span {
+  background-color: var(--dp-card) !important;
+  color: var(--dp-text) !important;
+  fill: var(--dp-text) !important;
+  font-size: 0.82rem !important;
+}
+
+/* --- MODO CLARO (Default) --- */
+[data-md-color-scheme="default"] .md-typeset .mermaid .node rect,
+[data-md-color-scheme="default"] .md-typeset .mermaid .node circle,
+[data-md-color-scheme="default"] .md-typeset .mermaid .node ellipse,
+[data-md-color-scheme="default"] .md-typeset .mermaid .node polygon,
+[data-md-color-scheme="default"] .md-typeset .mermaid .node path:not(.flowchart-link) {
+  fill: #FFFFFF !important;
+  stroke: #7B2FFF !important;
+  stroke-width: 1.5px !important;
+}
+
+[data-md-color-scheme="default"] .md-typeset .mermaid .node .label,
+[data-md-color-scheme="default"] .md-typeset .mermaid .node text,
+[data-md-color-scheme="default"] .md-typeset .mermaid .node tspan,
+[data-md-color-scheme="default"] .md-typeset .mermaid .node span,
+[data-md-color-scheme="default"] .md-typeset .mermaid .node div {
+  fill: #18181E !important;
+  color: #18181E !important;
+}
+
+[data-md-color-scheme="default"] .md-typeset .mermaid .edgePath .path,
+[data-md-color-scheme="default"] .md-typeset .mermaid .flowchart-link {
+  stroke: #505A64 !important;
+  stroke-width: 1.5px !important;
+}
+
+[data-md-color-scheme="default"] .md-typeset .mermaid marker path,
+[data-md-color-scheme="default"] .md-typeset .mermaid .arrowMarkerPath {
+  fill: #505A64 !important;
+  stroke: #505A64 !important;
+}
+
+/* --- MODO ESCURO (Slate) --- */
+[data-md-color-scheme="slate"] .md-typeset .mermaid .node rect,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .node circle,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .node ellipse,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .node polygon,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .node path:not(.flowchart-link) {
+  fill: #1A1A24 !important;
+  stroke: #7B2FFF !important;
+  stroke-width: 1.5px !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .mermaid .node .label,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .node text,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .node tspan,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .node span,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .node div {
+  fill: #F4F4F8 !important;
+  color: #F4F4F8 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .mermaid .edgePath .path,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .flowchart-link {
+  stroke: #9AA5B4 !important;
+  stroke-width: 1.5px !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .mermaid marker path,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .arrowMarkerPath {
+  fill: #9AA5B4 !important;
+  stroke: #9AA5B4 !important;
+}
+
+/* --- MODO ALTO CONTRASTE (Contrast) --- */
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .node rect,
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .node circle,
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .node ellipse,
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .node polygon,
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .node path:not(.flowchart-link) {
+  fill: #000000 !important;
+  stroke: #FFFF00 !important;
+  stroke-width: 2px !important;
+}
+
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .node .label,
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .node text,
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .node tspan,
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .node span,
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .node div {
+  fill: #FFFFFF !important;
+  color: #FFFFFF !important;
+}
+
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .edgePath .path,
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .flowchart-link {
+  stroke: #FFFF00 !important;
+  stroke-width: 2px !important;
+}
+
+[data-md-color-scheme="contrast"] .md-typeset .mermaid marker path,
+[data-md-color-scheme="contrast"] .md-typeset .mermaid .arrowMarkerPath {
+  fill: #FFFF00 !important;
+  stroke: #FFFF00 !important;
+}
+
