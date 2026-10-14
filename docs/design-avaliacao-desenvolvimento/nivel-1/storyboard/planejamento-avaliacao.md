@@ -220,8 +220,11 @@ A Tabela 5 apresenta a autoavaliação da conformidade do planejamento da avalia
 | **CHK-ST-05** | O público-alvo dos testes é aderente ao papel central de Estudante / Usuário Aprendiz em Linux? | Diretrizes de IHC FGA/UnB | ✅ Sim | A Seção 6.1 restringe o recrutamento a estudantes universitários de tecnologia iniciantes/intermediários. |
 | **CHK-ST-06** | O documento transcreve na íntegra o Script Oral Literal do TCLE para leitura nos primeiros 60 segundos gravados? | Resolução CNS nº 510/2016; Diretrizes da Disciplina | ✅ Sim | A Seção 7 contém o bloco literal em destaque com a leitura obrigatória e solicitação de consentimento verbal. |
 | **CHK-ST-07** | Todas as tabelas e figuras possuem legendas, fontes e chamadas formais no corpo do texto? | Padrão Editorial FGA/UnB | ✅ Sim | 100% das 5 tabelas e 2 figuras possuem chamadas nominais antecedentes no texto (zero tabelas/figuras órfãs). |
+| **CHK-ST-08** | As perguntas investigativas cobrem as dimensões essenciais de Storyboards (*Setting, Sequence, Satisfaction*) e a premissa de prototipação rápida (~10 min)? | Scott Klemmer (2012); Amal Dar Aziz (2010) | ✅ Sim | A Tabela 2 e o Item Teórico articulam o cenário, sequência, gatilho, satisfação e a confecção ágil de baixa fidelidade. |
+| **CHK-ST-09** | O planejamento estabelece o papel do teste-piloto e isola expressamente seus dados dos resultados finais da avaliação? | Barbosa & Silva (2021, p. 280) | ✅ Sim | A Seção 6.4 define que o teste-piloto avalia o planejamento e que seus dados jamais são somados aos resultados da avaliação. |
+| **CHK-ST-10** | Há modelo estruturado para consolidação dos problemas encontrados com classificação de severidade de 0 a 4? | Nielsen (1994); Barbosa & Silva (2021) | ✅ Sim | A Seção 8 apresenta a Tabela 4 padronizada com a taxonomia de severidade de Nielsen (0 a 4) para orientar o reprojeto. |
 
-_Fonte: Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Sales (2026), 2026._
+_Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021), Scott Klemmer (2012) e Sales (2026), 2026._
 
 ---
 
@@ -233,9 +236,10 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 12/10/2026 | Elaboração inicial do Planejamento da Avaliação do Storyboard estruturado no Framework DECIDE, contendo objetivos, perguntas investigativas (Tabela 2), questões práticas, script oral literal do TCLE, modelo de consolidação (Tabela 4) e checklist com 7 itens (Issue #56). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.0` | 12/10/2026 | Elaboração inicial do Planejamento da Avaliação do Storyboard estruturado no Framework DECIDE, contendo objetivos, perguntas investigativas (Tabela 2), questões práticas, script oral literal do TCLE e modelo de consolidação (Tabela 4). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 13/10/2026 | Expansão da Lista de Verificação da Técnica (Tabela 5) para 10 itens normativos, incorporação dos critérios de Scott Klemmer (Setting, Sequence, Satisfaction e duração ágil de ~10 min), teste-piloto, severidade de Nielsen e saneamento de fontes nominais. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Vinicius Silva Araruna, 2026._
+_Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 
 ---
 
@@ -255,15 +259,17 @@ _Fonte: Vinicius Silva Araruna, 2026._
 
 [7] COOPER, Alan. *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity*. Indianapolis: Sams Publishing, 1999.
 
-[8] MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.
+[8] KLEMMER, Scott. *Storyboards, Paper Prototypes and Mockups*. Videoaula do curso "Human-Computer Interaction Design". University of California, San Diego / UC Berkeley, disponibilizado via Coursera. Disponível em: <https://www.youtube.com/watch?v=h2H3oIQtddU>. Acesso em: 13 out. 2026.
 
-[9] NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1994.
+[9] MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.
 
-[10] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: beyond human-computer interaction*. New York: John Wiley & Sons, 2002.
+[10] NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1994.
 
-[11] ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. *Design de Interação: além da interação humano-computador*. 3. ed. Porto Alegre: Bookman, 2013.
+[11] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: beyond human-computer interaction*. New York: John Wiley & Sons, 2002.
 
-[12] SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Brasília: Universidade de Brasília, Faculdade UnB Gama (FGA), 2026.
+[12] ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. *Design de Interação: além da interação humano-computador*. 3. ed. Porto Alegre: Bookman, 2013.
+
+[13] SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Brasília: Universidade de Brasília, Faculdade UnB Gama (FGA), 2026.
 
 ---
 
