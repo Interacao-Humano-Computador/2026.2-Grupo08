@@ -11,7 +11,7 @@ A Tabela 1 apresenta as informações de autoria e revisão deste artefato teór
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor do Item Teórico**: Pesquisa bibliográfica, redação da fundamentação conceitual de Storyboarding, transcrição de citações e seleção da evidência imagética. | 13/10/2026 | 19:30 - 21:00 | LLM (Antigravity): suporte na estruturação das tabelas Markdown e checagem ABNT. |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Designado**: Auditoria conceitual, verificação de consistência metodológica frente ao Plano de Ensino e conferência da evidência visual. | 13/10/2026 | 21:00 - 21:30 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -54,7 +54,7 @@ A Tabela 2 sintetiza as características essenciais do Storyboard frente a outra
 | **Fidelidade** | Baixa fidelidade conceitual. | Não aplicável (textual). | Média ou baixa fidelidade gráfica. |
 | **Momento de Aplicação** | Nível 1 do Ciclo de Mayhew (concepção e ideação preliminar). | Análise de requisitos e elicitação. | Nível 2 do Ciclo de Mayhew (padrões de design de tela). |
 
-_Fonte: Elaborada pelo autor com base em Barbosa e Silva (2021) e Rogers et al. (2013), 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Rogers et al. (2013), 2026._
 
 ---
 
@@ -93,7 +93,7 @@ A Tabela 3 documenta a evolução histórica deste documento.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração do item teórico individual sobre Storyboarding em IHC (Issue #63), com fundamentação conceitual, contextualização no Ciclo de Mayhew e Design Contextual, citação direta de Barbosa e Silva (2021, p. 107 e p. 251) e evidência visual do livro em 300 DPI. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
