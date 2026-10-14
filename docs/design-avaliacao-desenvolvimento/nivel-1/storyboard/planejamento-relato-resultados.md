@@ -12,7 +12,7 @@ A Tabela 1 apresenta a atribuição de responsabilidades na elaboração e revis
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Designado**: Auditoria de compatibilidade com o Framework DECIDE e verificação dos critérios de aceite do Plano de Ensino. | 13/10/2026 | 21:00 - 21:30 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Verificação de consistência entre o relato de Storyboards e o relato de Análise de Tarefas. | 13/10/2026 | 21:30 - 22:00 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna e Edvaldo Soares Brasileiro Filho, 2026._
 
 ---
 
@@ -71,7 +71,7 @@ O relatório apresentará a Tabela 2 preenchida com a identificação dos avalia
 | **P2** | Participante Convidado | *[Iniciais / Anonimizado]* | *[Idade]* | *[Curso de Graduação]* | *[Iniciante/Médio]* | *[Distribuição]* |
 | **P3** | Participante Convidado | *[Iniciais / Anonimizado]* | *[Idade]* | *[Curso de Graduação]* | *[Iniciante/Médio]* | *[Distribuição]* |
 
-_Fonte: Elaborada pelos autores, 2026. Dados a serem consolidados após a execução das entrevistas._
+_Fonte: Gustavo Antonio Rodrigues e Silva, 2026. Dados a serem consolidados após a execução das entrevistas._
 
 ---
 
@@ -101,7 +101,7 @@ A Tabela 3 apresenta a estrutura padronizada para este registro.
 | **PROB-SB-02** | *[Storyboard 1, 2 ou 3]* | *[Quadro X]* | *[Descrição]* | *[0 a 4]* | *[Categoria]* | *[Recomendação]* |
 | **PROB-SB-03** | *[Storyboard 1, 2 ou 3]* | *[Quadro X]* | *[Descrição]* | *[0 a 4]* | *[Categoria]* | *[Recomendação]* |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Nielsen (1994), 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Nielsen (1994), 2026._
 
 ---
 
@@ -134,7 +134,7 @@ A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessõ
 | **S02** | P2 | [Nome do Entrevistador] | *[Data / Hora]* | *[Minutos]* | [Acessar Gravação da Sessão S02](https://youtu.be/placeholder-s02) |
 | **S03** | P3 | [Nome do Entrevistador] | *[Data / Hora]* | *[Minutos]* | [Acessar Gravação da Sessão S03](https://youtu.be/placeholder-s03) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 
 ---
 
@@ -154,7 +154,7 @@ A Tabela 5 apresenta o checklist de autoavaliação da estrutura do relatório d
 | **6** | O documento prevê propostas e recomendações práticas de reprojeto? | Plano de Ensino (Item 7); Barbosa & Silva (2021) | ✅ Sim | A Seção 5 detalha o fluxo de correções para os desenhos de Nível 1 e protótipos de Nível 2. |
 | **7** | Há cláusula explícita assegurando que os resultados do teste-piloto não serão apresentados na avaliação? | Plano de Ensino (Item 12) | ✅ Sim | A Seção 6 inclui declaração formal garantindo o isolamento total dos dados do teste-piloto. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
 ---
 
@@ -168,7 +168,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial do planejamento do relato dos resultados da avaliação do Storyboard (Issue #61), contemplando objetivos, método de baixa fidelidade, perfil de participantes, tarefas, matriz de problemas com gravidade de Nielsen, diretrizes de reprojeto, isolamento do piloto e lista de verificação com 7 itens. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 
 ---
 
