@@ -55,7 +55,7 @@ A Tabela 1 detalha os seis passos do framework DECIDE e o mapeamento de sua apli
 | **D** | **Decidir como lidar com as questões éticas** | Garantir a integridade, privacidade, consentimento livre e esclarecido (TCLE) e respeito aos voluntários. | Elaboração formal do Termo de Consentimento Livre e Esclarecido (TCLE) na Etapa 2 e garantia de anonimato nas transcrições de testes. |
 | **E** | **Avaliar (*Evaluate*), interpretar e apresentar os dados** | Tratar os dados brutos coletados, identificar padrões, avaliar confiabilidade e gerar o relatório final de reprojeto. | Consolidação dos problemas identificados por grau de severidade (0 a 4) e elaboração de recomendações formais de redesign. |
 
-_Fonte: Elaborada pelo autor com base em Barbosa et al. (2021), 2026._
+_Fonte: Vinicius Silva Araruna com base em Barbosa et al. (2021), 2026._
 
 ### Evidência Visual da Fonte Bibliográfica
 
@@ -98,7 +98,7 @@ Para assegurar consistência diagnóstica, adota-se o conjunto clássico das **1
 | **H9** | **Ajuda para reconhecer, diagnosticar e recuperar-se de erros** | As mensagens de erro devem ser expressas em linguagem clara (sem códigos técnicos), indicar precisamente o problema e sugerir uma solução construtiva. |
 | **H10** | **Ajuda e documentação** | Embora seja melhor que o sistema possa ser usado sem documentação, pode ser necessário fornecer ajuda e documentação contextualizada e fácil de buscar. |
 
-_Fonte: Elaborada pelo autor com base em Nielsen (1994) e Barbosa e Silva (2010), 2026._
+_Fonte: Vinicius Silva Araruna com base em Nielsen (1994) e Barbosa e Silva (2010), 2026._
 
 ### Escala de Severidade dos Problemas de Usabilidade
 
@@ -114,7 +114,7 @@ A identificação de um problema de usabilidade requer a atribuição de uma esc
 | **3** | **Problema grave** | Causa severa frustração, perda de dados ou grande desperdício de tempo; dificulta muito a tarefa. | Alta prioridade; correção mandatória. |
 | **4** | **Problema catastrófico** | Impede totalmente a conclusão da tarefa pelo usuário ou causa falhas irreparáveis no sistema. | Urgência máxima; bloqueia o lançamento até ser corrigido. |
 
-_Fonte: Elaborada pelo autor com base em Nielsen (1994) e Barbosa e Silva (2010), 2026._
+_Fonte: Vinicius Silva Araruna com base em Nielsen (1994) e Barbosa e Silva (2010), 2026._
 
 ### Evidência Visual da Fonte Bibliográfica
 
@@ -161,6 +161,14 @@ A Figura 3 comprova a fundamentação conceitual do Storyboard na obra de refer�
 
 **Figura 3** — Registro textual do uso de Storyboards no Design Contextual. (Fonte: Barbosa e Silva, 2021, p. 107).
 
+##### Lista de Verificação Canônica do Storyboard (Item 14 do Plano de Ensino)
+
+Em conformidade estrita com o critério 14 do Plano de Ensino, este item teórico desenvolveu uma [Lista de Verificação Oficial com 10 Itens](item-teorico-storyboard.md#5-lista-de-verificacao-do-storyboard-baseada-no-referencial-teorico) fundamentada na metodologia internacional de IHC ministrada por Scott Klemmer (Universidade da Califórnia em San Diego / UC Berkeley - Coursera) e Amal Dar Aziz, cobrindo:
+1. **Setting (Cenário):** Atores envolvidos, ambiente de uso e tarefa em execução;
+2. **Sequence (Sequência):** Passos da tarefa, gatilho inicial de uso e aderência ao sistema;
+3. **Satisfaction (Satisfação):** Motivação de uso, conquistas alcançadas e atendimento à dor do usuário;
+4. **Prototipação Rápida:** Duração ágil de confecção de aproximadamente **10 minutos** por fluxo narrativo.
+
 ### Item Teórico: Jonathan Lourenço Carpaneda (Ação 22)
 
 > *(Espaço reservado para inclusão do tópico teórico individual com fundamentação, citação textual com página e fotografia da página do livro/artigo pelo integrante Jonathan Lourenço Carpaneda).*
@@ -179,20 +187,25 @@ A Figura 3 comprova a fundamentação conceitual do Storyboard na obra de refer�
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 06/09/2026 | Desenvolvimento completo dos itens teóricos de Framework DECIDE e Avaliação Heurística com citações diretas, tabelas analíticas e fotos comprobatórias do livro | [Vinicius Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.3` | 13/10/2026 | Desenvolvimento completo do item teórico individual sobre Storyboarding em IHC com citação direta de Barbosa e Silva (2021) e evidência visual (Issue #63) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Araruna](https://github.com/ViniciusA05) |
+| `1.4` | 13/10/2026 | Incorporação da Lista de Verificação Canônica de Storyboard baseada em Scott Klemmer (UC Berkeley / Coursera) com 10 itens normativos e saneamento nominal de fontes. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Araruna](https://github.com/ViniciusA05) |
 
 ---
 
 ## Referências Bibliográficas
 
-[1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010.
+[1] AZIZ, Amal Dar. *Guide to Storyboarding*. HCI Institute, Stanford / Berkeley. Disponível em: <http://hci.st/story>. Acesso em: 13 out. 2026.
 
-[2] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+[2] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010.
 
-[3] NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann Publishers, 1994.
+[3] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 
-[4] NIELSEN, Jakob. Heuristic evaluation. In: NIELSEN, Jakob; MACK, Robert L. (Org.). *Usability Inspection Methods*. New York: John Wiley & Sons, 1994. p. 25–62.
+[4] KLEMMER, Scott. *Storyboards, Paper Prototypes and Mockups*. Videoaula do curso "Human-Computer Interaction Design". University of California, San Diego / UC Berkeley, disponibilizado via Coursera. Disponível em: <https://www.youtube.com/watch?v=h2H3oIQtddU>. Acesso em: 13 out. 2026.
 
-[5] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: beyond human-computer interaction*. New York: John Wiley & Sons, 2002.
+[5] NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann Publishers, 1994.
+
+[6] NIELSEN, Jakob. Heuristic evaluation. In: NIELSEN, Jakob; MACK, Robert L. (Org.). *Usability Inspection Methods*. New York: John Wiley & Sons, 1994. p. 25–62.
+
+[7] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: beyond human-computer interaction*. New York: John Wiley & Sons, 2002.
 
 ---
 
