@@ -49,7 +49,7 @@ Para as avaliações formativas de Nível 1, a equipe estabeleceu uma amostragem
 
 Essa quantidade está rigorosamente amparada pela literatura canônica de Usabilidade:
 
-1. **Modelo de Nielsen e Landauer (1993) e Nielsen (2000):** Em testes qualitativos de usabilidade, a curva de descoberta de problemas segue uma função assintótica expressa por $ProblemsFound(i) = N(1 - (1 - \lambda)^i)$. Conforme demonstrado por Jakob Nielsen, **3 a 5 participantes são suficientes para revelar cerca de 80% a 85% dos problemas de usabilidade mais relevantes** de uma interface ou modelo conceitual. A inclusão de um número superior a 5 participantes em ciclos formativos rápidos gera retornos decrescentes de novas informações, aumentando o esforço operacional sem ganhos proporcionais de diagnóstico;
+1. **Modelo de Nielsen e Landauer (1993) e Nielsen (2000):** Em testes qualitativos de usabilidade, a curva de descoberta de problemas segue uma função assintótica expressa por `ProblemsFound(i) = N × [1 - (1 - λ)^i]`. Conforme demonstrado por Jakob Nielsen, **3 a 5 participantes são suficientes para revelar cerca de 80% a 85% dos problemas de usabilidade mais relevantes** de uma interface ou modelo conceitual. A inclusão de um número superior a 5 participantes em ciclos formativos rápidos gera retornos decrescentes de novas informações, aumentando o esforço operacional sem ganhos proporcionais de diagnóstico;
 2. **Recomendações de Steve Krug (2010):** Em testes rápidos de baixa fidelidade, testar com 3 a 4 usuários em ciclos iterativos curtos (*"testar cedo e com frequência"*) é muito mais eficaz do que conduzir uma avaliação única com dezenas de voluntários ao final do projeto;
 3. **Barbosa e Silva (2021, p. 280):** Enfatizam que, na prototipação de baixa fidelidade, o propósito reside em coletar impressões e identificar falhas estruturais de raciocínio, não sendo necessária uma amostra probabilística volumosa.
 
@@ -116,64 +116,87 @@ Para garantir a confiabilidade da coleta de dados e evitar sobrecarga cognitiva,
 
 ---
 
-## 7. Cronograma Integrado de Sessões de Avaliação
+## 7. Atividades do Método e Operacionalização das Tarefas (Tabela 12.9 Adaptada)
+
+Conforme orientação direta do Prof. Dr. André Barros de Sales (aula de 13/10/2026), as atividades metodológicas foram estruturadas com base na **Tabela 12.9 de Barbosa e Silva (2021, p. 304)**, adaptada formalmente para incluir uma **terceira coluna** discriminando a operacionalização prática das tarefas e funcionalidades sob responsabilidade de cada integrante da equipe.
+
+A Tabela 3 detalha a operacionalização das atividades de avaliação de Nível 1.
+
+**Tabela 3** — Atividades do método de avaliação adaptadas de Barbosa e Silva (2021, p. 304) com operacionalização das tarefas da equipe
+
+| Etapa do Método | Atividade Prevista (Barbosa & Silva, 2021) | Operacionalização no Projeto / Tarefas da Equipe |
+| :--- | :--- | :--- |
+| **Preparação** | Definir as tarefas para os participantes executarem | **Vinicius:** Tarefa 1 (Markdown e Tags); **Gustavo:** Tarefa 2 (Onboarding Discobot); **Edvaldo:** Tarefa 3 (Busca Avançada e Filtros). |
+| | Definir o perfil dos participantes e recrutá-los | Recrutamento de 3 discentes voluntários da UnB com vivência em Linux (Perfil 1 — Estudante Aprendiz). |
+| | Criar cenários e storyboards de baixa fidelidade | Confecção de Storyboards manuais em alta definição (300 DPI) entre 13/10 e 16/10/2026 por cada autor. |
+| | Executar um teste-piloto | Reunião técnica em 17/10/2026 às 14:00 para calibração de roteiro e TCLE (dados isolados e não computados). |
+| **Coleta de Dados** | Apresentar o TCLE e solicitar consentimento verbal | Leitura literal obrigatória do script oral nos primeiros 60 segundos gravados de cada sessão remota. |
+| | Observar o participante explorando os storyboards | Avaliação formativa da clareza narrativa, sequência e satisfação (Storyboards avaliados primeiro). |
+| | Conduzir o percurso de tarefas com o participante | Validação dos passos operacionais do HTA e CTT logo após a narrativa dos storyboards na mesma sessão. |
+| **Consolidação** | Tabular os problemas e sugestões coletados | Consolidação dos problemas de usabilidade com atribuição de severidade heurística de 0 a 4 (Nielsen). |
+| | Gerar relatório de resultados e propostas de reprojeto | Elaboração do documento do relato final da avaliação com recomendações concretas de redesign até 27/10/2026. |
+
+_Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021, p. 304) e Sales (2026), 2026._
+
+---
+
+## 8. Cronograma Integrado de Sessões de Avaliação
 
 A execução empírica foi dividida em duas etapas consecutivas: a realização obrigatória do **Teste-Piloto** e as **Sessões Oficiais de Avaliação com Usuários**.
 
-### 7.1 Cronograma do Teste-Piloto
+### 8.1 Cronograma do Teste-Piloto
 
 Conforme exigido pelo Plano de Ensino da disciplina (Itens 11 e 12), o teste-piloto será realizado previamente para validar os equipamentos, a temporização do TCLE e a clareza do roteiro.
 
-**Tabela 3** — Cronograma do Teste-Piloto de Nível 1
+**Tabela 4** — Cronograma do Teste-Piloto de Nível 1
 
 | Tipo de Avaliação | Data | Horário | Entrevistador | Observador | Participante (Piloto) | Local / Link |
 | :--- | :---: | :---: | :--- | :--- | :--- | :--- |
-| **Teste-Piloto: Storyboard** | 13/10/2026 | 13:00 - 13:30 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Colega discente de TI | Google Meet |
-| **Teste-Piloto: Análise de Tarefas** | 13/10/2026 | 13:30 - 14:00 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Colega discente de TI | Google Meet |
+| **Teste-Piloto: Storyboard e Tarefas** | 17/10/2026 | 14:00 - 15:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Discente voluntário de TI (UnB) | [Google Meet](https://meet.google.com/placeholder-piloto) |
 
-_Fonte: Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna e Edvaldo Soares Brasileiro Filho, 2026._
+_Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
 > ⚠️ **Cláusula Metodológica Obrigatória:** O teste-piloto tem como função exclusiva avaliar o planejamento e o protocolo. **Os dados coletados no teste-piloto JAMAIS serão computados ou apresentados nos resultados finais da avaliação dos usuários.**
 
 ---
 
-### 7.2 Cronograma das Sessões Oficiais de Avaliação do Storyboard
+### 8.2 Cronograma das Sessões Oficiais de Avaliação do Storyboard
 
-A Tabela 4 detalha as 3 sessões planejadas para a avaliação formativa dos Storyboards com usuários reais.
+A Tabela 5 detalha as 3 sessões planejadas para a avaliação formativa dos Storyboards com usuários reais.
 
-**Tabela 4** — Cronograma das Sessões de Avaliação do Storyboard
+**Tabela 5** — Cronograma das Sessões de Avaliação do Storyboard
 
 | Sessão | Data | Horário | Storyboard Avaliado | Entrevistador Principal | Observador / Anotador | Participante Recrutado | Local / Plataforma |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- |
-| **S01** | 13/10/2026 | 14:00 - 14:30 | Storyboard 1 (Markdown e Tags) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s01) |
-| **S02** | 13/10/2026 | 15:00 - 15:30 | Storyboard 2 (Cadastro e Onboarding) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s02) |
-| **S03** | 13/10/2026 | 16:00 - 16:30 | Storyboard 3 (Busca Avançada) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s03) |
+| **S01** | 19/10/2026 | 14:00 - 14:30 | Storyboard 1 (Markdown e Tags) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s01) |
+| **S02** | 20/10/2026 | 15:00 - 15:30 | Storyboard 2 (Cadastro e Onboarding) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s02) |
+| **S03** | 21/10/2026 | 16:00 - 16:30 | Storyboard 3 (Busca Avançada) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s03) |
 
-_Fonte: Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna e Edvaldo Soares Brasileiro Filho, 2026._
+_Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
 ---
 
-### 7.3 Cronograma das Sessões Oficiais de Avaliação da Análise de Tarefas
+### 8.3 Cronograma das Sessões Oficiais de Avaliação da Análise de Tarefas
 
-A Tabela 5 detalha as 3 sessões planejadas para a avaliação formativa dos modelos de Análise de Tarefas (HTA e CMN-GOMS).
+A Tabela 6 detalha as 3 sessões planejadas para a avaliação formativa dos modelos de Análise de Tarefas (HTA e CMN-GOMS), conduzidas imediatamente após a avaliação do Storyboard com o mesmo participante.
 
-**Tabela 5** — Cronograma das Sessões de Avaliação da Análise de Tarefas
+**Tabela 6** — Cronograma das Sessões de Avaliação da Análise de Tarefas
 
 | Sessão | Data | Horário | Tarefa Investigada | Entrevistador Principal | Observador / Anotador | Participante Recrutado | Local / Plataforma |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- |
-| **T01** | 13/10/2026 | 17:00 - 17:30 | Tarefa 1 (Publicação de Tópicos) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 4 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-t01) |
-| **T02** | 13/10/2026 | 18:00 - 18:30 | Tarefa 2 (Cadastro e Onboarding) | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 5 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-t02) |
-| **T03** | 13/10/2026 | 19:00 - 19:30 | Tarefa 3 (Busca e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 6 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-t03) |
+| **T01** | 19/10/2026 | 14:30 - 15:00 | Tarefa 1 (Publicação de Tópicos) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s01) |
+| **T02** | 20/10/2026 | 15:30 - 16:00 | Tarefa 2 (Cadastro e Onboarding) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s02) |
+| **T03** | 21/10/2026 | 16:30 - 17:00 | Tarefa 3 (Busca e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s03) |
 
-_Fonte: Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna e Edvaldo Soares Brasileiro Filho, 2026._
+_Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
 ---
 
-## 8. Lista de Verificação da Técnica (Questões Práticas e Cronograma)
+## 9. Lista de Verificação da Técnica (Questões Práticas e Cronograma)
 
-A Tabela 6 apresenta o checklist de conformidade frente aos critérios avaliativos da disciplina.
+A Tabela 7 apresenta o checklist de conformidade frente aos critérios avaliativos da disciplina.
 
-**Tabela 6** — Lista de Verificação das Questões Práticas e Cronograma
+**Tabela 7** — Lista de Verificação das Questões Práticas e Cronograma
 
 | Item / Critério Avaliado | Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Documento |
 | :---: | :--- | :---: | :--- |
@@ -183,27 +206,29 @@ A Tabela 6 apresenta o checklist de conformidade frente aos critérios avaliativ
 | **4** | Foram especificados todos os equipamentos e recursos necessários para os testes? | Plano de Ensino (Item 5) | ✅ Sim | A Seção 4 discrimina computadores, conexões, softwares e plataformas de registro. |
 | **5** | Há declaração orçamentária demonstrando os custos envolvidos? | Plano de Ensino (Item 5) | ✅ Sim | A Tabela 2 apresenta o demonstrativo orçamentário formal comprovando Custo Zero (R$ 0,00). |
 | **6** | Os papéis de mão de obra da equipe de avaliação foram claramente divididos? | Barbosa & Silva (2021); DECIDE | ✅ Sim | A Seção 6 divide expressamente as funções entre Entrevistador Principal e Observador/Anotador. |
-| **7** | Há cronograma detalhado de datas, horários e locais para Storyboard e Análise de Tarefas? | Plano de Ensino (Item 8) | ✅ Sim | As Tabelas 4 e 5 especificam as sessões completas S01 a S03 e T01 a T03 com links do Google Meet. |
+| **7** | A Tabela 12.9 de Barbosa & Silva foi adaptada contendo a 3ª coluna de tarefas da equipe? | Diretriz do Professor (Aula 13/10); Barbosa & Silva (2021) | ✅ Sim | A Tabela 3 inclui a terceira coluna detalhando a operacionalização prática da equipe em cada atividade. |
+| **8** | Há cronograma detalhado de datas, horários e locais para Storyboard e Análise de Tarefas? | Plano de Ensino (Item 8) | ✅ Sim | As Tabelas 5 e 6 especificam as sessões completas S01 a S03 e T01 a T03 com links do Google Meet. |
 
-_Fonte: Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Sales (2026), 2026._
+_Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
 ---
 
-## 9. Histórico de Versão
+## 10. Histórico de Versão
 
-A Tabela 7 documenta as versões deste artefato.
+A Tabela 8 documenta as versões deste artefato.
 
-**Tabela 7** — Histórico de Versão
+**Tabela 8** — Histórico de Versão
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 13/10/2026 | Elaboração inicial das questões práticas e cronograma consolidado da avaliação de Nível 1 (Issue #62), com perfil de recrutamento, justificativa teórica amostral (Nielsen, 2000), orçamento zero, divisão de papéis e tabelas de cronograma para Storyboard e Análise de Tarefas. | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.0` | 13/10/2026 | Elaboração inicial das questões práticas e cronograma consolidado da avaliação de Nível 1 (Issue #62), com perfil de recrutamento, justificativa teórica amostral (Nielsen, 2000), orçamento zero, divisão de papéis e tabelas de cronograma para Storyboard e Análise de Tarefas. | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 13/10/2026 | Incorporação da Tabela 12.9 adaptada de Barbosa e Silva (2021, p. 304) com 3ª coluna de operacionalização das tarefas, saneamento de tipografia UTF-8 nativa e alinhamento do cronograma integrado com piloto em 17/10 e campo de 19/10 a 23/10. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
-_Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
+_Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 
 ---
 
-## 10. Referências Bibliográficas
+## 11. Referências Bibliográficas
 
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier / Campus, 2010.
 
