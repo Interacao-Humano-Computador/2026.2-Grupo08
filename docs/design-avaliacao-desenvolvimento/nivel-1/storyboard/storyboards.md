@@ -25,7 +25,7 @@ Eles permitem representar visualmente e em formato sequencial de história em qu
 ### 1.1 Rastreabilidade com as Tarefas e Regra de Membros do Grupo
 
 Em estrita consonância com o Plano de Ensino da disciplina de IHC (Prof. Dr. André Barros de Sales, 2026):
-- **Item 9:** Cada desenho do Storyboard está diretamente relacionado a uma especificação do artefato de [Análise de Tarefas](../../analise-requisitos/analise-tarefas.md) (HTA e CMN-GOMS);
+- **Item 9:** Cada desenho do Storyboard está diretamente relacionado a uma especificação do artefato de [Análise de Tarefas](../../../analise-requisitos/analise-tarefas.md) (HTA e CMN-GOMS);
 - **Item 10:** A quantidade de storyboards é exatamente igual à quantidade de integrantes ativos do grupo (3 integrantes = 3 storyboards).
 
 A Tabela 2 apresenta o mapeamento de rastreabilidade entre os Storyboards e a Análise de Tarefas.
