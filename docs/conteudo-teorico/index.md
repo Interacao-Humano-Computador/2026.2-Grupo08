@@ -5,7 +5,7 @@
 | Integrante | Contribuição | Data | Horário |
 | :--- | :--- | :---: | :---: |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão e conferência dos conceitos de IHC](#topicos-individuais-dos-demais-integrantes) | 06/09/2026 | 18:00 - 18:30 |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação inicial da página teórica e revisão metodológica](#historico-de-versao) | 04/09/2026 | 19:00 - 19:30 |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Estruturação inicial da página e elaboração do Item Teórico: Storyboarding em IHC (Issue #63) | 13/10/2026 | 19:30 - 21:00 |
 | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT](#introducao) | 05/09/2026 | 20:00 - 20:30 |
 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão e validação metodológica dos itens teóricos](#historico-de-versao) | 06/09/2026 | 18:30 - 19:00 |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa dos itens teóricos: Framework DECIDE e Avaliação Heurística (com citações, tabelas e evidências visuais)](#1-o-framework-decide-no-planejamento-da-avaliacao-de-ihc) | 06/09/2026 | 17:00 - 18:30 |
@@ -134,9 +134,32 @@ Conforme as diretrizes pedagógicas da disciplina, os demais integrantes do Grup
 
 > *(Espaço reservado para inclusão do tópico teórico individual com fundamentação, citação textual com página e fotografia da página do livro/artigo pelo integrante Edvaldo Soares Brasileiro Filho).*
 
-### Item Teórico: Gustavo Antonio Rodrigues e Silva (Ação 22)
+### Item Teórico: Gustavo Antonio Rodrigues e Silva (Ação 22 / Entrega 4)
 
-> *(Espaço reservado para inclusão do tópico teórico individual com fundamentação, citação textual com página e fotografia da página do livro/artigo pelo integrante Gustavo Antonio Rodrigues e Silva).*
+#### Storyboarding em IHC: Prototipação Conceitual e Design Contextual
+
+- **Autor do Item:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
+- **Revisor Designado:** [Vinicius Silva Araruna](https://github.com/ViniciusA05)
+- **Documento Detalhado Individual:** [Item Teórico Completo: Storyboarding em IHC](item-teorico-storyboard.md)
+- **Referência Bibliográfica da Fonte:** BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier / Campus, 2010. / BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. Capítulo 6: Processos de Design de IHC, Seção 6.3.4 (*Design Contextual e Storyboards*), p. 107; Capítulo 11: Planejamento da Avaliação de IHC, p. 251.
+
+##### Fundamentação Teórica
+
+O Storyboard é uma técnica de prototipação de baixa fidelidade originária da indústria cinematográfica e da animação que foi incorporada à Engenharia de Usabilidade e ao Design de Interação para explorar alternativas conceituais de design antes de qualquer implementação de código.
+
+No processo de **Design Contextual** (*Contextual Design*), o storyboard desempenha papel crucial na etapa de **reprojeto do trabalho**, permitindo aos projetistas e às partes interessadas visualizarem como a tecnologia proposta se insere no ambiente cotidiano do usuário:
+
+> *"A consolidação dos modelos de trabalho fornece insumos para o designer reprojetar a forma como os usuários trabalham. O designer utiliza storyboards para explorar ideias sobre como melhorar a prática de trabalho com o suporte oferecido pela tecnologia."* (BARBOSA; SILVA, 2021, p. 107).
+
+Segundo Barbosa e Silva (2021, p. 251), o storyboard é um instrumento primordial da **avaliação formativa ou construtiva**, possibilitando que a equipe avalie com usuários reais o fluxo de atividades, os sentimentos, as reações e os desfechos antes do desenvolvimento de protótipos de média e alta fidelidade (Níveis 2 e 3 de Mayhew).
+
+##### Evidência Visual da Fonte Bibliográfica
+
+A Figura 3 comprova a fundamentação conceitual do Storyboard na obra de referência adotada.
+
+![Página 107 da obra de Barbosa e Silva (2021) apresentando o conceito e aplicação de Storyboards em Design Contextual](../assets/conteudo-teorico/storyboard_barbosa_pg107.png)
+
+**Figura 3** — Registro textual do uso de Storyboards no Design Contextual. (Fonte: Barbosa e Silva, 2021, p. 107).
 
 ### Item Teórico: Jonathan Lourenço Carpaneda (Ação 22)
 
@@ -155,6 +178,7 @@ Conforme as diretrizes pedagógicas da disciplina, os demais integrantes do Grup
 | `1.0` | 04/09/2026 | Criação inicial da página de conteúdo teórico | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 06/09/2026 | Desenvolvimento completo dos itens teóricos de Framework DECIDE e Avaliação Heurística com citações diretas, tabelas analíticas e fotos comprobatórias do livro | [Vinicius Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
+| `1.3` | 13/10/2026 | Desenvolvimento completo do item teórico individual sobre Storyboarding em IHC com citação direta de Barbosa e Silva (2021) e evidência visual (Issue #63) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Araruna](https://github.com/ViniciusA05) |
 
 ---
 
