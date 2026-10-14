@@ -99,6 +99,15 @@ nav:
     - Metas de Usabilidade e UX: analise-requisitos/metas-de-usabilidade.md
     - Guia de Estilo: analise-requisitos/guia-de-estilo.md
     - Conteúdo da Disciplina: analise-requisitos/conteudo-disciplina.md
+  - Design, Avaliação e Desenvolvimento (Nível 1):
+      - Storyboard:
+          - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-avaliacao.md
+          - Planejamento do Relato dos Resultados: design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-relato-resultados.md
+      - Análise de Tarefas:
+          - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-avaliacao.md
+          - Planejamento do Relato dos Resultados: design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-relato-resultados.md
+      - Questões Práticas e Cronograma da Avaliação: design-avaliacao-desenvolvimento/nivel-1/questoes-praticas-cronograma.md
+      - Teste-Piloto de Nível 1: design-avaliacao-desenvolvimento/nivel-1/teste-piloto.md
   - Atas de Reunião:
     - Índice de Atas: atas/index.md
     - Reunião 04/09/2026: atas/ata1.md
