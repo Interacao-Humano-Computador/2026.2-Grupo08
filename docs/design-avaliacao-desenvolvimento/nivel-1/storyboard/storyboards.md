@@ -12,7 +12,7 @@ A Tabela 1 apresenta a distribuição de responsabilidades na elaboração e cur
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor do Storyboard 1**: Concepção e diagramação do Storyboard 1 (Tarefa 1 - Publicação em Markdown) e revisão do Storyboard 2. | 13/10/2026 | 20:00 - 21:30 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Autor do Storyboard 3**: Concepção e diagramação do Storyboard 3 (Tarefa 3 - Busca Avançada) e revisão cruzada por pares. | 13/10/2026 | 20:00 - 21:30 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna e Edvaldo Soares Brasileiro Filho, 2026._
 
 ---
 
@@ -38,7 +38,7 @@ A Tabela 2 apresenta o mapeamento de rastreabilidade entre os Storyboards e a An
 | **Storyboard 2** | **Tarefa 2:** Cadastro e Onboarding com Discobot | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Lucas Mendonça | Criação de conta, acolhimento pelo @discobot e conquista do *Trust Level 1*. |
 | **Storyboard 3** | **Tarefa 3:** Realizar Busca Avançada | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Lucas Mendonça | Filtragem por categorias e resolução de falhas sem encontrar comandos obsoletos. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna e Edvaldo Soares Brasileiro Filho, 2026._
 
 ---
 
@@ -108,7 +108,7 @@ A Tabela 4 apresenta a autoavaliação da conformidade metodológica dos storybo
 | **5** | O desenho foi digitalizado em alta resolução (300 DPI)? | Diretrizes da Etapa 4 | ✅ Sim | A Figura 1 foi renderizada e preservada com densidade nativa de 300 DPI (3200x2200 pixels). |
 | **6** | O storyboard possui legendas explicativas e chamada formal antecedente no texto? | Padrão Editorial FGA/UnB | ✅ Sim | A Figura 1 é chamada formalmente no texto e possui legenda descritiva numerada. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
 ---
 
@@ -122,7 +122,7 @@ A Tabela 5 documenta o histórico evolutivo dos Storyboards.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Concepção, especificação técnica em 8 quadros, digitalização em 300 DPI e integração do Storyboard 2 (Cadastro e Onboarding com Discobot) vinculado à Tarefa 2 do HTA (Issue #60). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 
 ---
 
