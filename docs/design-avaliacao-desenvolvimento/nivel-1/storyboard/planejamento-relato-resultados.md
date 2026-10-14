@@ -146,13 +146,16 @@ A Tabela 5 apresenta o checklist de autoavaliação da estrutura do relatório d
 
 | Item / Critério Avaliado | Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Documento |
 | :---: | :--- | :---: | :--- |
-| **1** | A estrutura do relatório define os objetivos da avaliação? | Plano de Ensino (Item 7); Barbosa & Silva (2021) | ✅ Sim | A Seção 3.1 explicita as 4 metas investigadas (apropriação, clareza, modelo mental e alternativas). |
+| **1** | A estrutura do relatório define os objetivos gerais e formativos da avaliação? | Plano de Ensino (Item 7); Barbosa & Silva (2021) | ✅ Sim | A Seção 3.1 explicita as 4 metas investigadas (apropriação, clareza narrativa, modelo mental e alternativas). |
 | **2** | Há breve descrição do método de prototipação em papel e inspeção dos Storyboards? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.2 define o método de baixa fidelidade em 6 a 8 quadros com think-aloud e entrevistas. |
-| **3** | A estrutura contempla o número e perfil de avaliadores e participantes? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.3 e a Tabela 2 preparam os campos de caracterização demográfica alinhados ao Perfil 1. |
-| **4** | As tarefas executadas pelos participantes estão descritas e contextualizadas? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.4 especifica as 3 tarefas investigadas (Markdown, Onboarding/Discobot e Busca). |
+| **3** | A estrutura contempla o número, papéis e o perfil demográfico de avaliadores e participantes? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.3 e a Tabela 2 preparam os campos de caracterização alinhados ao Perfil 1 (Estudante/Linux). |
+| **4** | As tarefas executadas e inspecionadas pelos participantes estão descritas e contextualizadas? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.4 especifica as 3 tarefas investigadas (Markdown, Onboarding/Discobot e Busca). |
 | **5** | Há modelo estruturado para consolidação dos problemas encontrados com classificação de severidade? | Plano de Ensino (Item 7 e 13); Nielsen (1994) | ✅ Sim | A Tabela 3 estrutura a matriz de problemas com colunas para ID, quadro, descrição, severidade (0 a 4) e reprojeto. |
-| **6** | O documento prevê propostas e recomendações práticas de reprojeto? | Plano de Ensino (Item 7); Barbosa & Silva (2021) | ✅ Sim | A Seção 5 detalha o fluxo de correções para os desenhos de Nível 1 e protótipos de Nível 2. |
+| **6** | O documento prevê propostas e recomendações práticas de reprojeto a partir dos resultados? | Plano de Ensino (Item 7); Barbosa & Silva (2021) | ✅ Sim | A Seção 5 detalha o fluxo de correções para os desenhos de Nível 1 e protótipos de Nível 2. |
 | **7** | Há cláusula explícita assegurando que os resultados do teste-piloto não serão apresentados na avaliação? | Plano de Ensino (Item 12) | ✅ Sim | A Seção 6 inclui declaração formal garantindo o isolamento total dos dados do teste-piloto. |
+| **8** | O planejamento prevê a publicação dos registros audiovisuais das sessões (modo Não Listado) com TCLE gravado? | Plano de Ensino (Item 6 e 7); CNS 510/2016 | ✅ Sim | A Seção 7 e a Tabela 4 estruturam os links no YouTube (Não Listado) com áudio do TCLE nos primeiros 60s. |
+| **9** | A estrutura contempla o registro do cronograma executado das sessões com datas, horários e duração real? | Plano de Ensino (Item 7 e 8) | ✅ Sim | A Tabela 4 contempla campos específicos para registro de data, horário e duração de cada sessão executada. |
+| **10** | O modelo de consolidação prevê a priorização na correção dos problemas identificados na avaliação? | Plano de Ensino (Item 13); Nielsen (1994) | ✅ Sim | A Tabela 3 vincula a severidade (0 a 4) à prioridade de tratamento (graves e catastróficos antes de cosméticos). |
 
 _Fonte: Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
@@ -166,7 +169,8 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 13/10/2026 | Elaboração inicial do planejamento do relato dos resultados da avaliação do Storyboard (Issue #61), contemplando objetivos, método de baixa fidelidade, perfil de participantes, tarefas, matriz de problemas com gravidade de Nielsen, diretrizes de reprojeto, isolamento do piloto e lista de verificação com 7 itens. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.0` | 13/10/2026 | Elaboração inicial do planejamento do relato dos resultados da avaliação do Storyboard (Issue #61), contemplando objetivos, método de baixa fidelidade, perfil de participantes, tarefas, matriz de problemas com gravidade de Nielsen, diretrizes de reprojeto, isolamento do piloto e lista de verificação. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 13/10/2026 | Expansão da Lista de Verificação da Técnica (Tabela 5) para exatamente 10 itens normativos, incluindo registros audiovisuais, cronograma executado e priorização de problemas, além de fontes nominais. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 
