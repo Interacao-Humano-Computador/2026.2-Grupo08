@@ -143,9 +143,9 @@ A Tabela 3 apresenta a distribuição das sessões de avaliação do storyboard,
 
 | Sessão | Data | Horário | Entrevistador Principal | Observador / Anotador | Participante Convidado |
 | :---: | :---: | :---: | :--- | :--- | :--- |
-| **S01** | 19/10/2026 | 14:00 - 14:30 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (P1 — Estudante de Graduação) |
-| **S02** | 20/10/2026 | 15:00 - 15:30 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (P2 — Estudante de Graduação) |
-| **S03** | 21/10/2026 | 16:00 - 16:30 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 3 (P3 — Estudante de Graduação) |
+| **S01** | 13/10/2026 | 14:00 - 14:30 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (P1 — Estudante de Graduação) |
+| **S02** | 13/10/2026 | 15:00 - 15:30 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (P2 — Estudante de Graduação) |
+| **S03** | 13/10/2026 | 16:00 - 16:30 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 3 (P3 — Estudante de Graduação) |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -155,7 +155,7 @@ Conforme preconizado pela literatura de IHC (*Barbosa & Silva, 2021, p. 280*) e 
 
 > O teste-piloto tem como função exclusiva avaliar o **planejamento da avaliação** (clareza das perguntas, funcionamento do Google Meet, inteligibilidade do roteiro e temporização do TCLE). O teste-piloto **NUNCA** avalia o usuário ou o storyboard, e **os dados obtidos no teste-piloto JAMAIS são computados nos resultados finais da avaliação**.
 
-O teste-piloto será conduzido no dia 17/10/2026 às 14:00 com um discente voluntário simulando o papel de participante para calibrar o roteiro antes da ida a campo oficial.
+O teste-piloto será conduzido no dia 12/10/2026 com um integrante da equipe simulando o papel de participante para validar o fluxo técnico e a gravação.
 
 ---
 
