@@ -130,9 +130,35 @@ A Figura 2 comprova a fundamentação da Avaliação Heurística no livro-texto 
 
 Conforme as diretrizes pedagógicas da disciplina, os demais integrantes do Grupo 08 documentam abaixo seus respectivos tópicos conceituais com base na literatura acadêmica:
 
-### Item Teórico: Edvaldo Soares Brasileiro Filho (Ação 22)
+### Item Teórico: Edvaldo Soares Brasileiro Filho (Ação 22 / Entrega 4)
 
-> *(Espaço reservado para inclusão do tópico teórico individual com fundamentação, citação textual com página e fotografia da página do livro/artigo pelo integrante Edvaldo Soares Brasileiro Filho).*
+#### Métodos de Avaliação em IHC: Investigação e Inspeção em Análise de Tarefas
+
+- **Autor do Item:** [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
+- **Revisor Designado:** [Vinicius Silva Araruna](https://github.com/ViniciusA05)
+- **Referência Bibliográfica da Fonte:** BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010. Capítulo 9: Planejamento da Avaliação de IHC, Seção 9.6: Qual Tipo de Método de Avaliação Escolher?, pp. 301–302.
+
+##### Fundamentação Teórica
+
+A avaliação de Interação Humano-Computador (IHC) é uma atividade estruturante para garantir que as soluções de interação atendam às necessidades dos usuários com qualidade e eficiência. Segundo Barbosa e Silva (2010, p. 301), os métodos de avaliação subdividem-se classicamente em métodos de investigação (*inquiry*), métodos de inspeção e métodos de observação de uso.
+
+Na análise de tarefas, os **métodos de investigação** permitem ao avaliador coletar percepções, expectativas e experiências dos usuários antes ou depois da concepção das tarefas:
+
+> *"Os métodos de investigação (inquiry) envolvem o uso de questionários, a realização de entrevistas, grupos de foco e estudos de campo, entre outros. Esses métodos permitem ao avaliador ter acesso, interpretar e analisar concepções, opiniões, expectativas e comportamentos do usuário relacionados com sistemas interativos. Em particular, permitem investigar alternativas de design, problemas que os usuários costumam enfrentar, como eles se apropriaram da tecnologia existente e quais são suas expectativas para futuras interações com tecnologias atuais e novas [...] Em geral, os métodos de avaliação através de investigação não exigem que os usuários utilizem um sistema interativo durante a coleta de dados."* (BARBOSA; SILVA, 2010, p. 301).
+
+Já os **métodos de inspeção** permitem antecipar problemas na execução das tarefas examinando diretamente a interface ou os modelos conceituais de tarefas (como HTA e cenários):
+
+> *"Os métodos de inspeção permitem ao avaliador examinar (ou inspecionar) uma solução de IHC para tentar antever as possíveis consequências de certas decisões de design sobre as experiências de uso. Em outras palavras, tentar identificar problemas que os usuários podem vir a ter quando interagirem com o sistema. Esses métodos geralmente não envolvem diretamente usuários e, portanto, tratam de experiências de uso potenciais, e não reais."* (BARBOSA; SILVA, 2010, p. 301).
+
+Dentre os métodos de inspeção destacados na literatura de referência estão o **Percurso Cognitivo** (*Cognitive Walkthrough*), a **Avaliação Heurística** e a **Inspeção Semiótica**.
+
+##### Evidência Visual da Fonte Bibliográfica
+
+A Figura 3 reproduz o trecho da página 301 da obra de referência, comprovando a definição conceitual dos métodos de investigação e inspeção.
+
+![Página 301 da obra de Barbosa e Silva (2010) apresentando os métodos de investigação e inspeção](../assets/conteudo-teorico/metodos_avaliacao_barbosa_pg301.png)
+
+**Figura 3** — Registro textual dos Métodos de Investigação e Inspeção em IHC. (Fonte: Barbosa e Silva, 2010, p. 301).
 
 ### Item Teórico: Gustavo Antonio Rodrigues e Silva (Ação 22 / Entrega 4)
 
