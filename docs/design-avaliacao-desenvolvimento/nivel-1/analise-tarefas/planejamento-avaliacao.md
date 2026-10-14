@@ -141,17 +141,19 @@ Para a avaliação de Nível 1 da Análise de Tarefas, a equipe adotou a combina
 - **Visualização de Artefatos:** Compartilhamento de tela exibindo os diagramas HTA em tema claro e as tabelas analíticas de decomposição em alta resolução;
 - **Instrumentos de Registro:** Gravação audiovisual em 1080p autorizada verbalmente nos primeiros 60 segundos, combinada com notas de observação tomadas em tempo real.
 
-### 6.3 Cronograma Planejado das Sessões
+### 6.3 Cronograma Planejado das Sessões Integradas
 
-A Tabela 3 apresenta a distribuição das sessões de avaliação da análise de tarefas, os horários e as atribuições da equipe.
+A Tabela 3 apresenta a distribuição das sessões de avaliação da análise de tarefas. Em cada sessão de entrevista de 40 minutos, a Análise de Tarefas é **conduzida imediatamente após a validação do Storyboard** (Bloco 2 — 15 a 20 min), permitindo ao participante avaliar a estrutura dos planos lógicos e a decomposição operacional após já ter compreendido a narrativa e a ambientação geral da funcionalidade.
 
 **Tabela 3** — Cronograma planejado das sessões de avaliação da Análise de Tarefas
 
-| Sessão | Data | Horário | Entrevistador Principal | Observador / Anotador | Participante Convidado |
+| Sessão / Etapa | Data | Horário | Entrevistador Principal | Observador / Anotador | Participante Convidado / Papel |
 | :---: | :---: | :---: | :--- | :--- | :--- |
-| **ST01** | 13/10/2026 | 16:30 - 17:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (P1 — Estudante de Graduação) |
-| **ST02** | 13/10/2026 | 17:00 - 17:30 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (P2 — Estudante de Graduação) |
-| **ST03** | 13/10/2026 | 17:30 - 18:00 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 3 (P3 — Estudante de Graduação) |
+| **Teste-Piloto** | 17/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Colega discente de TI (Simulação de Ensaio) |
+| **ST01** | 19/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (P1 — Estudante de Graduação) |
+| **ST02** | 20/10/2026 | 15:00 - 15:40 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (P2 — Estudante de Graduação) |
+| **ST03** | 21/10/2026 | 16:00 - 16:40 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 3 (P3 — Estudante de Graduação) |
+| **ST04 (Reserva)** | 22/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 4 (P4 — Estudante de Graduação) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -161,7 +163,7 @@ Em consonância com as boas práticas metodológicas de avaliação em IHC (*Bar
 
 > O teste-piloto destina-se exclusivamente a **testar e aprimorar o planejamento da avaliação** (temporização das perguntas, inteligibilidade do roteiro de tarefas, áudio, compartilhamento de tela e leitura do TCLE). O teste-piloto **NUNCA** avalia a interface ou o usuário, e **seus dados não são computados nos resultados finais da avaliação**.
 
-O teste-piloto será conduzido no dia 12/10/2026 com simulação interna entre os discentes da equipe.
+O teste-piloto será conduzido no dia 17/10/2026 às 14:00 com um discente voluntário simulando o papel de participante para calibrar o roteiro de tarefas e o compartilhamento de tela dos diagramas HTA.
 
 ---
 
