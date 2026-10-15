@@ -2,11 +2,17 @@
 
 ## Tabela de Contribuição
 
+A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas utilizadas na realização desta auto-avaliação.
+
+**Tabela 0** — Matriz de Contribuição da Auto-Avaliação do Grupo 08
+
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Verificação dos artefatos da E2 e revisão da matriz de verificação da Entrega 3 | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Consolidação dos dados de verificação da E2 e E3 e atualização dos gráficos | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Elaboração da matriz de verificação da E2 e elaboração completa da verificação da Entrega 3 | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
+
+_Fonte: Elaborada pelos autores, 2026._
 
 ---
 
@@ -20,7 +26,7 @@ O objetivo deste documento é realizar a inspeção rigorosa dos artefatos produ
 
 ## 1. Verificação da Entrega 1 — Planejamento do Projeto
 
-Abaixo estão dispostas as tabelas de auto-avaliação da primeira etapa do projeto.
+A Tabela 1 apresenta a auto-avaliação dos itens de planejamento geral da Entrega 1 do projeto.
 
 ### Itens de Planejamento Geral do Projeto (Entrega 1)
 
@@ -44,6 +50,8 @@ _Fonte: Grupo 08, 2026._
 
 ### Itens de Desenvolvimento e Documentação (Entrega 1)
 
+A Tabela 2 apresenta a verificação dos aspectos de documentação e conformidade técnica da Entrega 1.
+
 **Tabela 2** — Verificação dos aspectos de documentação e conformidade técnica
 
 | ID | Critério de Desenvolvimento | Resposta | Evidência / Observação |
@@ -66,6 +74,8 @@ _Fonte: Grupo 08, 2026._
 
 ### Itens de Conteúdo da Disciplina (Entrega 1)
 
+A Tabela 3 apresenta a verificação do Processo de Design e conteúdo teórico da Entrega 1.
+
 **Tabela 3** — Verificação do Processo de Design e conteúdo teórico
 
 | Requisito de Conteúdo Teórico | Resposta | Evidência / Observação |
@@ -82,6 +92,8 @@ _Fonte: Grupo 08, 2026._
 Abaixo estão dispostas as tabelas de auto-avaliação dos artefatos produzidos para a **Entrega 2**.
 
 ### Perfil do Usuário e Aspectos Éticos (TCLE)
+
+A Tabela 4 apresenta a verificação dos artefatos de Perfil do Usuário e Aspectos Éticos da Entrega 2.
 
 **Tabela 4** — Verificação dos artefatos de Perfil do Usuário e Aspectos Éticos
 
@@ -101,6 +113,8 @@ _Fonte: Grupo 08, 2026._
 ---
 
 ### Personas, Elenco de Personas e Cenários
+
+A Tabela 5 apresenta a verificação dos artefatos de Personas, Elenco e Cenários de Interação da Entrega 2.
 
 **Tabela 5** — Verificação dos artefatos de Personas, Elenco e Cenários de Interação
 
@@ -122,6 +136,8 @@ _Fonte: Grupo 08, 2026._
 
 ### Análise de Tarefas (HTA, GOMS/KLM e CTT)
 
+A Tabela 6 apresenta a verificação dos artefatos de Análise de Tarefas da Entrega 2.
+
 **Tabela 6** — Verificação dos artefatos de Análise de Tarefas
 
 | ID | Critério da Rubrica / Literatura Canônica | Resposta | Evidência / Observação no Artefato |
@@ -130,7 +146,7 @@ _Fonte: Grupo 08, 2026._
 | **E2-19** | A Análise Hierárquica de Tarefas (HTA) apresenta o objetivo de alto nível (nível 0) orientado ao estado final desejado? | ✅ Sim | Decomposição formal dos 5 fluxos do Fórum Diolinux Plus em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 | **E2-20** | A HTA apresenta tanto a representação em Diagrama Gráfico em árvore quanto a Tabela Analítica equivalente? | ✅ Sim | Todos os 5 fluxos possuem Diagrama Mermaid e Tabela HTA completa em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 | **E2-21** | Os planos em HTA especificam as condições lógicas e temporais utilizando os operadores canônicos (sequencial `>`, seleção `/`, paralelo `+`)? | ✅ Sim | Especificação rigorosa dos planos em cada nível hierárquico com regras de disparo em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
-| **E2-22** | Foi explicitado o critério formal de parada da decomposição HTA (regra $p \times c$ de Annett e Duncan e causa raiz)? | ✅ Sim | Seção metodológica e observações de encerramento justificando a parada em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
+| **E2-22** | Foi explicitado o critério formal de parada da decomposição HTA (regra p × c de Annett e Duncan e causa raiz)? | ✅ Sim | Seção metodológica e observações de encerramento justificando a parada em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 | **E2-23** | A modelagem GOMS/KLM especifica os operadores (K, P, H, D, M, R) e calcula a estimativa de tempo total de execução? | ✅ Sim | Tabelas KLM detalhando operadores com tempos em segundos e somatórios de tempo por tarefa em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 | **E2-24** | Cada discente ativo é autor principal de ao menos uma modelagem de tarefa completa e distinta? | ✅ Sim | Tabela de atribuição indicando as tarefas individuais desenvolvidas por Vinicius, Gustavo e Edvaldo em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 
@@ -139,6 +155,8 @@ _Fonte: Grupo 08, 2026._
 ---
 
 ### Requisitos Globais de Documentação e Gravação (Entrega 2)
+
+A Tabela 7 apresenta a verificação de padronização, governança e gravação da Entrega 2.
 
 **Tabela 7** — Verificação de padronização e gravação da Entrega 2
 
@@ -157,7 +175,7 @@ _Fonte: Grupo 08, 2026._
 
 ## 3. Verificação da Entrega 3 — Análise de Requisitos
 
-Abaixo está disposta a tabela de auto-avaliação dos artefatos produzidos para a **Entrega 3** (Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Página de Entrega 3), avaliada na branch `main`.
+A Tabela 8 apresenta a auto-avaliação detalhada dos 18 itens da **Entrega 3** (Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Página de Entrega 3), avaliada na branch `main`.
 
 **Tabela 8** — Verificação dos Itens da Entrega 3 (18 Itens Trabalhados)
 

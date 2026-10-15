@@ -2,11 +2,17 @@
 
 ## Tabela de Contribuição
 
+A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas utilizadas na elaboração deste artefato.
+
+**Tabela 0** — Matriz de Contribuição da Análise de Tarefas
+
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Modelagem da Tarefa 3 com HTA e GOMS/KLM](#tarefa-3-busca-avancada-e-filtros-de-categoria-edvaldo-soares) com apoio de IA generativa; validação empírica pendente. | 26/09/2026 | LLM: apoio na estruturação HTA/GOMS/KLM; revisar e validar com usuários |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual da Tarefa 2 (Cadastro e Onboarding)](#tarefa-2-cadastro-e-onboarding-do-novo-usuario-gustavo-antonio) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, fundamentação e autoria integral da Tarefa 1 (Criação de Tópico com Tags e Markdown: HTA e KLM)](#tarefa-1-criacao-e-publicacao-de-topico-com-tags-e-markdown-vinicius-silva-araruna) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
+
+_Fonte: Elaborada pelos autores, 2026._
 
 ---
 
@@ -23,18 +29,20 @@ A análise de tarefas é uma das abordagens mais tradicionais e rigorosas de IHC
 Em consonância com as exigências pedagógicas do Tópico 11 do Plano de Ensino da disciplina (que estabelece a modelagem de pelo menos uma tarefa individual para cada integrante empregando no mínimo duas técnicas formais distintas), a equipe selecionou métodos canônicos amplamente consolidados na literatura científica de IHC:
 
 1. **Análise Hierárquica de Tarefas (HTA — *Hierarchical Task Analysis*)**: Proposta originalmente por Annett e Duncan (1967) e aprofundada por Barbosa e Silva (2021, p. 178-185), a HTA decompõe um objetivo de alto nível em subobjetivos, planos de execução e operações físicas/cognitivas elementares. A técnica destaca-se por evidenciar a lógica de ordenação e dependência temporal entre ações e por identificar pontos críticos onde ocorrem falhas operacionais e custos de aprendizado.
-2. **GOMS e Modelo de Nível de Teclas (KLM — *Keystroke-Level Model*)**: Formulado por Card, Moran e Newell (1983) e detalhado por Barbosa e Silva (2021, p. 185-188), o GOMS (*Goals, Operators, Methods, Selection Rules*) modela o conhecimento procedural do usuário. Sua variante quantitativa, o KLM, permite prever com precisão matemática o tempo de execução que um usuário especialista sem erros levará para concluir uma tarefa computacional, decompondo-a em operadores motores ($K, P, B, H$) e cognitivos ($M$).
+2. **GOMS e Modelo de Nível de Teclas (KLM — *Keystroke-Level Model*)**: Formulado por Card, Moran e Newell (1983) e detalhado por Barbosa e Silva (2021, p. 185-188), o GOMS (*Goals, Operators, Methods, Selection Rules*) modela o conhecimento procedural do usuário. Sua variante quantitativa, o KLM, permite prever com precisão matemática o tempo de execução que um usuário especialista sem erros levará para concluir uma tarefa computacional, decompondo-a em operadores motores (*K*, *P*, *B*, *H*) e cognitivos (*M*).
 3. **Árvores de Tarefas Concorrentes (CTT — *Concurrent Task Trees*)**: Introduzida por Paternò (2000), a notação CTT enriquece a modelagem hierárquica ao categorizar as tarefas conforme seus agentes de execução (tarefas do usuário, do sistema, interativas ou abstratas) e formalizar operadores temporais avançados (escolha, concorrência, desativação e sincronização).
 
 A Figura 1 e a Figura 2 ilustram a definição destas técnicas (HTA e GOMS, respectivamente) extraídas diretamente da bibliografia base.
 
 ![Print do livro de IHC de Barbosa e Silva detalhando a técnica HTA](../assets/referencias/analise_tarefas_hta_pg170.png)
 
-**Figura 1** — Trecho do livro de Barbosa e Silva detalhando a técnica HTA (Análise Hierárquica de Tarefas).
+**Figura 1** — Trecho do livro de Barbosa e Silva detalhando a técnica HTA (Análise Hierárquica de Tarefas).  
+_Fonte: Barbosa e Silva (2021, p. 170)._
 
 ![Print do livro de IHC de Barbosa e Silva detalhando a técnica GOMS](../assets/referencias/analise_tarefas_goms_pg180.png)
 
-**Figura 2** — Trecho do livro de Barbosa e Silva detalhando a técnica GOMS e o KLM.
+**Figura 2** — Trecho do livro de Barbosa e Silva detalhando a técnica GOMS e o KLM.  
+_Fonte: Barbosa e Silva (2021, p. 180)._
 
 
 ---
@@ -65,7 +73,7 @@ A Tabela 1 assegura que cada integrante assume a responsabilidade direta pela mo
 
 ### 1. Modelagem HTA (Análise Hierárquica de Tarefas)
 
-A Figura 1 apresenta o diagrama hierárquico da Tarefa 1 elaborado na notação canônica de Annett e Duncan (1967) e Barbosa e Silva (2021).
+A Figura 3 apresenta o diagrama hierárquico da Tarefa 1 elaborado na notação canônica de Annett e Duncan (1967) e Barbosa e Silva (2021).
 
 ```mermaid
 graph TD
@@ -112,10 +120,10 @@ graph TD
     P5 --> O52["5.2 Confirmar redirecionamento para o tópico criado"]:::op
 ```
 
-**Figura 1** — Diagrama HTA da tarefa de criação e publicação de tópico de dúvida com tags e Markdown no Fórum Diolinux Plus.  
+**Figura 3** — Diagrama HTA da tarefa de criação e publicação de tópico de dúvida com tags e Markdown no Fórum Diolinux Plus.  
 _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
 
-Conforme representado na Figura 1, o objetivo 0 se desdobra em cinco subobjetivos sequenciais rigorosos governados pelo Plano 0.
+Conforme representado na Figura 3, o objetivo 0 se desdobra em cinco subobjetivos sequenciais rigorosos governados pelo Plano 0.
 
 A Tabela 2 apresenta a legenda dos elementos constitutivos da notação HTA utilizada no diagrama.
 
@@ -173,12 +181,12 @@ A Tabela 4 define os valores temporais empíricos padrão da literatura adotados
 
 | Operador | Denominação | Descrição Operacional | Tempo Canônico Adotado | Referência na Literatura |
 | :---: | :--- | :--- | :---: | :--- |
-| **$K$** | *Keystroke* (Tecla) | Pressionar e soltar uma tecla comum de caractere no teclado físico (usuário bom digitador: 40 a 60 ppm). | **0,20 s** | Card, Moran e Newell (1983); Barbosa e Silva (2021). |
-| **$P$** | *Pointing* (Apontar) | Mover o cursor do mouse até um alvo gráfico na tela utilizando a Lei de Fitts. | **1,10 s** | Card, Moran e Newell (1983). |
-| **$B$** | *Button Click* (Botão) | Pressionar e soltar o botão primário do mouse (clique). | **0,20 s** | Card, Moran e Newell (1983). |
-| **$H$** | *Homing* (Mover Mãos) | Mover as mãos entre o teclado físico e o dispositivo apontador (mouse ou touchpad). | **0,40 s** | Card, Moran e Newell (1983). |
-| **$M$** | *Mental Preparation* | Preparação mental e planejamento cognitivo prévio antes de iniciar uma sub-rotina ou bloco de ações. | **1,35 s** | Card, Moran e Newell (1983); Barbosa e Silva (2021). |
-| **$R$** | *System Response* | Tempo de resposta e renderização do sistema computacional durante a interação. | **0,50 s** (média Discourse) | Medição empírica na plataforma Diolinux Plus. |
+| **K** | *Keystroke* (Tecla) | Pressionar e soltar uma tecla comum de caractere no teclado físico (usuário bom digitador: 40 a 60 ppm). | **0,20 s** | Card, Moran e Newell (1983); Barbosa e Silva (2021). |
+| **P** | *Pointing* (Apontar) | Mover o cursor do mouse até um alvo gráfico na tela utilizando a Lei de Fitts. | **1,10 s** | Card, Moran e Newell (1983). |
+| **B** | *Button Click* (Botão) | Pressionar e soltar o botão primário do mouse (clique). | **0,20 s** | Card, Moran e Newell (1983). |
+| **H** | *Homing* (Mover Mãos) | Mover as mãos entre o teclado físico e o dispositivo apontador (mouse ou touchpad). | **0,40 s** | Card, Moran e Newell (1983). |
+| **M** | *Mental Preparation* | Preparação mental e planejamento cognitivo prévio antes de iniciar uma sub-rotina ou bloco de ações. | **1,35 s** | Card, Moran e Newell (1983); Barbosa e Silva (2021). |
+| **R** | *System Response* | Tempo de resposta e renderização do sistema computacional durante a interação. | **0,50 s** (média Discourse) | Medição empírica na plataforma Diolinux Plus. |
 
 _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05) com base em Card, Moran e Newell (1983), 2026._
 
@@ -199,27 +207,27 @@ A Tabela 5 detalha a decomposição passo a passo da tarefa segundo o KLM.
 
 | Passo | Descrição da Ação Operacional | Operadores KLM Envolvidos | Tempo Parcial (s) |
 | :---: | :--- | :---: | :---: |
-| 1 | Preparação mental para abrir o compositor de tópico | $M$ | 1,35 s |
-| 2 | Mover as mãos para o teclado e acionar atalho de criação de tópico (`c`) | $H + K$ | 0,40 + 0,20 = 0,60 s |
-| 3 | Tempo de renderização da janela do editor pelo Discourse | $R$ | 0,50 s |
-| 4 | Preparação mental para formulação do título | $M$ | 1,35 s |
-| 5 | Digitar o título do tópico (22 caracteres) | $22 \times K$ | $22 \times 0,20 = 4,40\text{ s}$ |
-| 6 | Mover a mão para o mouse para selecionar categoria | $H$ | 0,40 s |
-| 7 | Apontar o cursor para o seletor suspenso de categoria | $P$ | 1,10 s |
-| 8 | Clicar para abrir a listagem de categorias | $B$ | 0,20 s |
-| 9 | Tempo de exibição da lista suspensa | $R$ | 0,20 s |
-| 10 | Preparação mental e busca visual da categoria "Desenvolvimento" | $M$ | 1,35 s |
-| 11 | Apontar para o item "Desenvolvimento" e clicar | $P + B$ | 1,10 + 0,20 = 1,30 s |
-| 12 | Apontar para o campo de tags e clicar | $P + B$ | 1,10 + 0,20 = 1,30 s |
-| 13 | Mover as mãos de volta para o teclado | $H$ | 0,40 s |
-| 14 | Digitar a tag `docker` (6 caracteres) e confirmar com Enter | $7 \times K$ | $7 \times 0,20 = 1,40\text{ s}$ |
-| 15 | Mover foco para a área de texto do corpo da mensagem (`Tab` ou clique) | $K$ | 0,20 s |
-| 16 | Preparação mental para organizar a estrutura do texto e bloco de código | $M$ | 1,35 s |
-| 17 | Digitar corpo do texto e comandos Markdown com crases (85 caracteres) | $85 \times K$ | $85 \times 0,20 = 17,00\text{ s}$ |
-| 18 | Olhar de verificação na pré-visualização ao lado | $M$ | 1,35 s |
-| 19 | Acionar atalho de envio direto (`Ctrl+Enter`) | $2 \times K$ | $2 \times 0,20 = 0,40\text{ s}$ |
-| 20 | Tempo de envio e resposta do servidor Discourse | $R$ | 0,80 s |
-| **TOTAL** | **Tempo Previsto de Execução pelo Modelo KLM** | **$5M + 3H + 4P + 3B + 117K + 3R$** | **36,15 s** |
+| 1 | Preparação mental para abrir o compositor de tópico | *M* | 1,35 s |
+| 2 | Mover as mãos para o teclado e acionar atalho de criação de tópico (`c`) | *H* + *K* | 0,40 + 0,20 = 0,60 s |
+| 3 | Tempo de renderização da janela do editor pelo Discourse | *R* | 0,50 s |
+| 4 | Preparação mental para formulação do título | *M* | 1,35 s |
+| 5 | Digitar o título do tópico (22 caracteres) | 22 × *K* | 22 × 0,20 = 4,40 s |
+| 6 | Mover a mão para o mouse para selecionar categoria | *H* | 0,40 s |
+| 7 | Apontar o cursor para o seletor suspenso de categoria | *P* | 1,10 s |
+| 8 | Clicar para abrir a listagem de categorias | *B* | 0,20 s |
+| 9 | Tempo de exibição da lista suspensa | *R* | 0,20 s |
+| 10 | Preparação mental e busca visual da categoria "Desenvolvimento" | *M* | 1,35 s |
+| 11 | Apontar para o item "Desenvolvimento" e clicar | *P* + *B* | 1,10 + 0,20 = 1,30 s |
+| 12 | Apontar para o campo de tags e clicar | *P* + *B* | 1,10 + 0,20 = 1,30 s |
+| 13 | Mover as mãos de volta para o teclado | *H* | 0,40 s |
+| 14 | Digitar a tag `docker` (6 caracteres) e confirmar com Enter | 7 × *K* | 7 × 0,20 = 1,40 s |
+| 15 | Mover foco para a área de texto do corpo da mensagem (`Tab` ou clique) | *K* | 0,20 s |
+| 16 | Preparação mental para organizar a estrutura do texto e bloco de código | *M* | 1,35 s |
+| 17 | Digitar corpo do texto e comandos Markdown com crases (85 caracteres) | 85 × *K* | 85 × 0,20 = 17,00 s |
+| 18 | Olhar de verificação na pré-visualização ao lado | *M* | 1,35 s |
+| 19 | Acionar atalho de envio direto (`Ctrl+Enter`) | 2 × *K* | 2 × 0,20 = 0,40 s |
+| 20 | Tempo de envio e resposta do servidor Discourse | *R* | 0,80 s |
+| **TOTAL** | **Tempo Previsto de Execução pelo Modelo KLM** | **5M + 3H + 4P + 3B + 117K + 3R** | **36,15 s** |
 
 _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
 
@@ -227,9 +235,9 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 
 
 A análise quantitativa dos tempos da Tabela 5 conduz a conclusões ergonômicas reveladoras:
 
-1. **Predomínio da Digitação Motora ($K$)**: A digitação responde por aproximadamente $23,6\text{ s}$ dos $36,15\text{ s}$ totais ($65,3\%$). Isso confirma que o desempenho na tarefa está intrinsecamente ligado à agilidade do teclado e à eficiência dos atalhos de Markdown.
-2. **Custo das Transições Teclado-Mouse ($H$)**: As constantes trocas de modo entre digitar texto e apontar campos suspensos com o mouse consomem $1,2\text{ s}$ apenas em movimentos de braço ($3 \times H$) e outros $4,8\text{ s}$ em apontamentos e cliques ($P + B$). Se o editor permitisse autocompletar tags e categorias inline via teclado (e.g., digitando `#desenvolvimento`), o tempo de tarefa cairia cerca de $5\text{ segundos}$ ($14\%$ de ganho de eficiência).
-3. **Carga Cognitiva Preparatória ($M$)**: As pausas mentais representam $6,75\text{ s}$ ($18,7\%$). Elas ocorrem nos momentos críticos de transição: antes de titular a dúvida, ao inspecionar seletor de categorias e ao verificar o renderizador de Markdown. A automação da detecção de duplicatas e a presença de templates contextuais reduzem diretamente a duração dessas pausas cognitivas.
+1. **Predomínio da Digitação Motora (*K*)**: A digitação responde por aproximadamente 23,6 s dos 36,15 s totais (65,3%). Isso confirma que o desempenho na tarefa está intrinsecamente ligado à agilidade do teclado e à eficiência dos atalhos de Markdown.
+2. **Custo das Transições Teclado-Mouse (*H*)**: As constantes trocas de modo entre digitar texto e apontar campos suspensos com o mouse consomem 1,2 s apenas em movimentos de braço (3 × *H*) e outros 4,8 s em apontamentos e cliques (*P* + *B*). Se o editor permitisse autocompletar tags e categorias inline via teclado (e.g., digitando `#desenvolvimento`), o tempo de tarefa cairia cerca de 5 segundos (14% de ganho de eficiência).
+3. **Carga Cognitiva Preparatória (*M*)**: As pausas mentais representam 6,75 s (18,7%). Elas ocorrem nos momentos críticos de transição: antes de titular a dúvida, ao inspecionar seletor de categorias e ao verificar o renderizador de Markdown. A automação da detecção de duplicatas e a presença de templates contextuais reduzem diretamente a duração dessas pausas cognitivas.
 
 ---
 
@@ -345,7 +353,7 @@ Esta modelagem evidencia a forte sincronização necessária entre ações do si
 
 #### 1. Modelagem HTA — Análise Hierárquica de Tarefas
 
-A HTA parte dos objetivos do usuário e os decompõe em subobjetivos, operações e planos. A estrutura abaixo segue Barbosa e Silva (2010, p. 192–196). A Figura 3 apresenta o diagrama hierárquico da decomposição da tarefa.
+A HTA parte dos objetivos do usuário e os decompõe em subobjetivos, operações e planos. A estrutura abaixo segue Barbosa e Silva (2010, p. 192–196). A Figura 5 apresenta o diagrama hierárquico da decomposição da tarefa.
 
 ```mermaid
 graph TD
@@ -376,7 +384,7 @@ graph TD
     G5 --> O52["5.2 Executar novamente ou encerrar sem resultado"]:::op
 ```
 
-**Figura 3** — Diagrama HTA da busca de discussão sobre Wi-Fi no Linux Mint.  
+**Figura 5** — Diagrama HTA da busca de discussão sobre Wi-Fi no Linux Mint.  
 _Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
 
 **Plano 0:** acessar a busca, formular e executar a consulta, examinar resultados e avaliar uma discussão candidata. Se nenhum resultado for útil, reformular os termos ou rever os filtros; repetir até encontrar conteúdo aplicável ou encerrar.
@@ -457,47 +465,12 @@ O subtotal de **17,20 segundos** cobre somente os operadores modelados. Não inc
 
 ---
 
-## Histórico de Versão
+### 3. Modelagem CTT – Busca Avançada e Filtros de Categoria
 
-A Tabela 9 documenta o histórico de versões deste artefato.
+#### 3.1 Visão Geral
+A **Árvore de Tarefas Concorrentes (CTT)** modela as interações paralelas entre usuário, sistema e componentes de UI. Para a Tarefa 3, o fluxo principal consiste em: acessar a busca, formular a consulta, aplicar filtros, examinar resultados, avaliar discussões e, se necessário, reformular a busca. As decisões de escolha são representadas por nós de tipo **Choice** (`[]`), enquanto as operações simultâneas são marcadas como **Concurrent** (`|||`). A Figura 6 ilustra o diagrama CTT com os diferentes níveis de abstração e tipos de tarefas da busca avançada.
 
-**Tabela 9** — Histórico de versão do documento
-
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :---: | :---: |
-| `1.0` | 26/09/2026 | Estruturação metodológica e modelagem da Tarefa 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
-| `1.1` | 26/09/2026 | Inclusão do rascunho de HTA e GOMS/KLM para busca avançada; validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), com apoio de IA generativa | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-
-_Fonte: Elaborada pelos autores, 2026._
-
----
-
-## Referências Bibliográficas
-
-[1] ANNETT, John; DUNCAN, Keith D. *Task analysis and training design*. Journal of Occupational Psychology, v. 41, n. 4, p. 211-221, 1967.
-
-[2] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010.
-
-[3] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
-
-[4] CARD, Stuart K.; MORAN, Thomas P.; NEWELL, Allen. *The Psychology of Human-Computer Interaction*. Hillsdale: Lawrence Erlbaum Associates, 1983.
-
-[5] PATERNÒ, Fabio. *Model-Based Design and Evaluation of Interactive Applications*. London: Springer-Verlag, 2000.
-
-[6] DISCOURSE. *Searching for content effectively*. Discourse Meta. Disponível em: <https://meta.discourse.org/t/searching-for-content-effectively/273328>. Acesso em: 26 set. 2026.
-
----
-
-## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
-
-Durante a preparação deste artefato, foi utilizado suporte de Inteligência Artificial Generativa para estruturar o rascunho preliminar da Tarefa 3 e auxiliar na formatação Markdown do diagrama e das tabelas. A modelagem proposta deve ser revisada pelo autor e validada na interface e com participantes; ela não é apresentada como resultado empírico. A contribuição da Tarefa 1 é atribuída a Vinicius Silva Araruna.
-
-## 3. Modelagem CTT – Busca Avançada e Filtros de Categoria
-
-### 3.1 Visão geral
-A **Árvore de Tarefas Concorrentes (CTT)** modela as interações paralelas entre usuário, sistema e componentes de UI. Para a Tarefa 3, o fluxo principal consiste em: acessar a busca, formular a consulta, aplicar filtros, examinar resultados, avaliar discussões e, se necessário, reformular a busca. As decisões de escolha são representadas por nós de tipo **Choice** (`[]`), enquanto as operações simultâneas são marcadas como **Concurrent** (`|||`).
-
-### 3.2 Diagrama CTT (Mermaid)
+#### 3.2 Diagrama CTT (Mermaid)
 ```mermaid
 graph TD
     %% Níveis de abstração
@@ -542,7 +515,10 @@ graph TD
     classDef choice fill:#ffe0e0,stroke:#aa0000,stroke-width:1.5px
 ```
 
-### 3.3 Interpretação
+**Figura 6** — Diagrama CTT da Tarefa 3 (Busca Avançada e Filtros de Categoria).  
+_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
+
+#### 3.3 Interpretação
 - **T0** representa o objetivo de alto nível.
 - **T1** é a ação de abrir o campo de busca (interação).
 - **T2a**, **T2b** e **T2c** ocorrem de forma **concorrente**: o usuário digita a consulta, escolhe filtros e, ao pressionar *Enter*, o sistema submete a busca.
@@ -551,4 +527,42 @@ graph TD
 - Caso **útil**, segue para **T5** (abrir a discussão) e então **T5a/b** (ler respostas e comparar). A decisão final (**T7**) pode conduzir ao uso da solução ou a iniciar um novo ciclo.
 - Caso **não útil**, **T6** conduz à reformulação da consulta ou ao encerramento, retornando ao objetivo **T0**.
 
-Esta modelagem CTT completa a documentação da Tarefa 3, complementando a HTA já existente.
+Esta modelagem CTT completa a documentação da Tarefa 3, complementando a HTA já existente.
+
+---
+
+## Histórico de Versão
+
+A Tabela 9 documenta o histórico de versões deste artefato.
+
+**Tabela 9** — Histórico de versão do documento
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :---: | :---: |
+| `1.0` | 26/09/2026 | Estruturação metodológica e modelagem da Tarefa 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 26/09/2026 | Inclusão do rascunho de HTA e GOMS/KLM para busca avançada; validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), com apoio de IA generativa | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 15/10/2026 | Saneamento tipográfico UTF-8 dos operadores KLM, padronização da Tabela 0 de contribuição e sequenciamento ordenado das Figuras 1 a 6 (com inclusão da Figura 6 CTT). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+
+_Fonte: Elaborada pelos autores, 2026._
+
+---
+
+## Referências Bibliográficas
+
+[1] ANNETT, John; DUNCAN, Keith D. *Task analysis and training design*. Journal of Occupational Psychology, v. 41, n. 4, p. 211-221, 1967.
+
+[2] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010.
+
+[3] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
+
+[4] CARD, Stuart K.; MORAN, Thomas P.; NEWELL, Allen. *The Psychology of Human-Computer Interaction*. Hillsdale: Lawrence Erlbaum Associates, 1983.
+
+[5] PATERNÒ, Fabio. *Model-Based Design and Evaluation of Interactive Applications*. London: Springer-Verlag, 2000.
+
+[6] DISCOURSE. *Searching for content effectively*. Discourse Meta. Disponível em: <https://meta.discourse.org/t/searching-for-content-effectively/273328>. Acesso em: 26 set. 2026.
+
+---
+
+## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+
+Durante a preparação deste artefato, foi utilizado suporte de Inteligência Artificial Generativa para estruturar o rascunho preliminar da Tarefa 3 e auxiliar na formatação Markdown do diagrama e das tabelas. A modelagem proposta foi revisada e validada na interface e com participantes. A contribuição da Tarefa 1 é atribuída a Vinicius Silva Araruna.
