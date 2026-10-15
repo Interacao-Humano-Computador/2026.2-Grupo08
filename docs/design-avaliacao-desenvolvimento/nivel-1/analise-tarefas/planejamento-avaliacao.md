@@ -118,9 +118,14 @@ A Tabela 2 orienta a inquirição sobre a representação da HTA, permitindo con
 
 Para a avaliação de Nível 1 da Análise de Tarefas, a equipe adotou a combinação entre **Entrevista Semiestruturada** e o método de **Percurso Conceitual Guiado de Tarefas (*Task Walkthrough*)** apoiado na técnica de verbalização concomitante adaptada (*Think Aloud*), conforme Barbosa e Silva (2021, p. 144) e Mayhew (1999).
 
+!!! note "DIRETRIZ METODOLÓGICA MANDATÓRIA — INVESTIGAÇÃO VS. INSPEÇÃO (BARBOSA & SILVA, 2021)"
+    O método adotado nesta avaliação é categoricamente de **INVESTIGAÇÃO EMPÍRICA (Entrevista Semiestruturada com Percurso Conceitual Guiado de Tarefas)**.  
+    Como a avaliação de Nível 1 investiga a decomposição hierárquica e a lógica das operações (HTA/GOMS/CTT), **não se trata de teste de usabilidade em software** (não há código executável ou cronometragem mecânica de cliques) e **não se trata de método de inspeção analítica** (métodos de inspeção, como avaliação heurística ou percurso cognitivo por especialistas, dispensam usuários).  
+    A sessão com o usuário é estritamente individual (1 Participante, 1 Entrevistador Condutor e 1 Observador/Anotador Silencioso), assegurando que o foco recaia sobre a verbalização do modelo mental do estudante e a validação das árvores de tarefas.
+
 ### Justificativa da Escolha Metodológica
 
-1. **Inspeção Procedural Passo a Passo:** O percurso conceitual permite que o entrevistador apresente cada subobjetivo e operação da HTA em sequência, solicitando que o estudante verbalize seu modelo mental e confirme se aquela é a forma mais lógica de agir;
+1. **Percurso Procedural Passo a Passo:** O percurso conceitual permite que o entrevistador apresente cada subobjetivo e operação da HTA em sequência, solicitando que o estudante verbalize seu modelo mental e confirme se aquela é a forma mais lógica de agir;
 2. **Identificação de Alternativas Ocultas:** A entrevista semiestruturada permite investigar por que o participante escolheria um caminho alternativo não previsto no plano de execução original;
 3. **Economia de Recursos:** Método formativo de execução rápida e alta densidade qualitativa, viabilizando correções estruturais antes da prototipação interativa.
 
@@ -130,10 +135,11 @@ Para a avaliação de Nível 1 da Análise de Tarefas, a equipe adotou a combina
 
 ### 6.1 Perfil e Recrutamento dos Participantes
 
-- **Público-Alvo:** Estudantes universitários de cursos de tecnologia (Engenharia de Software, Ciência da Computação, Engenharia de Redes ou correlatos);
-- **Perfil de Experiência:** Usuários iniciantes ou intermediários em distribuições Linux e ferramentas colaborativas;
-- **Amostragem:** Recrutamento de **2 a 3 participantes voluntários** sem contato prévio com a equipe de engenharia do projeto;
-- **Critério de Inclusão:** Estar cursando graduação em computação ou tecnologia e já ter enfrentado dúvidas de terminal ou configuração no ecossistema Linux.
+- **Público-Alvo:** Estudantes universitários de cursos de tecnologia (Engenharia de Software, Ciência da Computação, Engenharia de Redes ou correlatos) da Universidade de Brasília (campi FGA e Darcy Ribeiro);
+- **Perfil de Experiência:** Usuários iniciantes ou intermediários em distribuições Linux e ferramentas colaborativas (Perfil 1 — Estudante Aprendiz);
+- **Amostragem:** Serão recrutados **3 participantes voluntários reais** (P1, P2 e P3) para as sessões oficiais independentes (1 por tarefa), além de **1 discente voluntário para o Teste-Piloto prévio** (cujos dados não são computados nos resultados finais), em estrita conformidade com o modelo assintótico de Nielsen e Landauer (1993) e Krug (2010);
+- **Critério de Inclusão:** Estar cursando graduação em computação ou tecnologia e já ter enfrentado dúvidas de terminal ou configuração no ecossistema Linux;
+- **Critério de Exclusão e Imparcialidade:** Nenhum participante pode possuir vínculo com o desenvolvimento do projeto de IHC do Grupo 08.
 
 ### 6.2 Infraestrutura Tecnológica e Ferramentas
 
