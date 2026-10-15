@@ -119,9 +119,13 @@ nav:
     - Reunião 14/09/2026 (Mudança de Escopo): atas/ata3.md
     - Reunião 25/09/2026 (Reestruturação da Equipe): atas/ata4.md
     - Reunião 05/10/2026 (Planejamento Entrega 3): atas/ata5.md
+    - Reunião 14/10/2026 (Avaliação Grupo -1): atas/ata6.md
   - Verificação:
     - Auto-Avaliação (Grupo 08): verificacao/grupo08.md
-    - Avaliação do Grupo -1 (Grupo 07): verificacao/grupo07.md
+    - Avaliação do Grupo -1 (Grupo 07):
+      - Visão Geral: verificacao/grupo07.md
+      - Etapa 4 (Planejamento de Nível 1): verificacao/grupo07-etapa4.md
+      - Etapa 2 (Perfil de Usuário e Tarefas): verificacao/grupo07-etapa2.md
     - Avaliação do Grupo +1 (Grupo 01): verificacao/grupo01.md
   - Conteúdo Teórico:
     - Itens Avaliados: conteudo-teorico/index.md
