@@ -491,3 +491,64 @@ _Fonte: Elaborada pelos autores, 2026._
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
 Durante a preparação deste artefato, foi utilizado suporte de Inteligência Artificial Generativa para estruturar o rascunho preliminar da Tarefa 3 e auxiliar na formatação Markdown do diagrama e das tabelas. A modelagem proposta deve ser revisada pelo autor e validada na interface e com participantes; ela não é apresentada como resultado empírico. A contribuição da Tarefa 1 é atribuída a Vinicius Silva Araruna.
+
+## 3. Modelagem CTT – Busca Avançada e Filtros de Categoria
+
+### 3.1 Visão geral
+A **Árvore de Tarefas Concorrentes (CTT)** modela as interações paralelas entre usuário, sistema e componentes de UI. Para a Tarefa 3, o fluxo principal consiste em: acessar a busca, formular a consulta, aplicar filtros, examinar resultados, avaliar discussões e, se necessário, reformular a busca. As decisões de escolha são representadas por nós de tipo **Choice** (`[]`), enquanto as operações simultâneas são marcadas como **Concurrent** (`|||`).
+
+### 3.2 Diagrama CTT (Mermaid)
+```mermaid
+graph TD
+    %% Níveis de abstração
+    T0["T0 – Encontrar discussão útil sobre Wi‑Fi no Linux Mint"]:::abstract
+    
+    %% Etapa 1 – Acessar busca
+    T1["T1 – Acessar a busca do fórum"]:::interaction
+    T0 --> T1
+    
+    %% Etapa 2 – Formular e executar consulta (concurrente)
+    T2a["T2a – Digitar termos da consulta"]:::user
+    T2b["T2b – Aplicar filtros de categoria/tag"]:::user
+    T2c["T2c – Submeter a consulta"]:::system
+    T1 --> T2a & T2b & T2c
+    
+    %% Etapa 3 – Examinar resultados (paralelo ao carregamento)
+    T3a["T3a – Esperar carregamento dos resultados"]:::system
+    T3b["T3b – Percorrer títulos e trechos"]:::user
+    T2c --> T3a & T3b
+    
+    %% Etapa 4 – Avaliar discussão candidata (choice)
+    T4["T4 – Avaliar discussão candidata"]:::interaction
+    T3b --> T4
+    
+    T4 -->|"Útil"| T5["T5 – Abrir discussão selecionada"]:::interaction
+    T4 -->|"Não útil"| T6["T6 – Reformular busca ou encerrar"]:::choice
+    
+    %% Etapa 5 – Verificar solução (concurrente)
+    T5a["T5a – Ler respostas da discussão"]:::user
+    T5b["T5b – Comparar com necessidade"]:::user
+    T5 --> T5a & T5b
+    
+    %% Finalização
+    T5a --> T7["T7 – Decisão final: usar solução ou buscar outra"]:::choice
+    T5b --> T7
+    T6 --> T0  %% reinício do ciclo caso reformule
+    
+    classDef abstract fill:#f0f0f0,stroke:#333,stroke-width:2px
+    classDef interaction fill:#d1e8ff,stroke:#0055aa,stroke-width:1.5px
+    classDef user fill:#ffefd5,stroke:#aa5500,stroke-width:1.5px
+    classDef system fill:#e0ffe0,stroke:#00aa00,stroke-width:1.5px
+    classDef choice fill:#ffe0e0,stroke:#aa0000,stroke-width:1.5px
+```
+
+### 3.3 Interpretação
+- **T0** representa o objetivo de alto nível.
+- **T1** é a ação de abrir o campo de busca (interação).
+- **T2a**, **T2b** e **T2c** ocorrem de forma **concorrente**: o usuário digita a consulta, escolhe filtros e, ao pressionar *Enter*, o sistema submete a busca.
+- **T3a** (carregamento) e **T3b** (percorrer resultados) são simultâneos – o usuário pode começar a olhar os títulos enquanto o sistema ainda está respondendo.
+- **T4** é um ponto de **escolha** (`[]`): o usuário decide se o primeiro resultado é útil.
+- Caso **útil**, segue para **T5** (abrir a discussão) e então **T5a/b** (ler respostas e comparar). A decisão final (**T7**) pode conduzir ao uso da solução ou a iniciar um novo ciclo.
+- Caso **não útil**, **T6** conduz à reformulação da consulta ou ao encerramento, retornando ao objetivo **T0**.
+
+Esta modelagem CTT completa a documentação da Tarefa 3, complementando a HTA já existente.
