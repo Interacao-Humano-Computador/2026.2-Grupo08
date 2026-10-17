@@ -12,7 +12,7 @@ A distribuição de responsabilidades na concepção metodológica, desdobrament
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Perguntas investigativas da Tarefa 2 (Onboarding e Discobot), planejamento de infraestrutura e revisão por pares | 12/10/2026 | 03:30 - 04:00 | Nenhuma | Auditoria humana cruzada dos critérios e adequação ao perfil de novo usuário. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Perguntas investigativas da Tarefa 3 (Busca Avançada e Filtros), matriz de consolidação qualitativa e revisão ética | 12/10/2026 | 04:00 - 04:30 | Nenhuma | Verificação da rastreabilidade das questões de busca e conformidade do TCLE. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
 ---
 
@@ -53,16 +53,12 @@ A Figura 2 sintetiza o fluxo relacional das seis dimensões operacionais do fram
 
 ```mermaid
 graph TD
-    classDef step fill:#FFFFFF,stroke:#0F172A,stroke-width:2px,color:#0F172A;
-    classDef ethical fill:#FEF3C7,stroke:#D97706,stroke-width:2px,color:#78350F;
-    classDef eval fill:#F1F5F9,stroke:#334155,stroke-width:2px,color:#0F172A;
-
-    D1["D — Determinar Objetivos Gerais (Metas Formativas)"]:::step
-    E1["E — Explorar Perguntas Investigativas (Desdobramento)"]:::step
-    C1["C — Escolher Métodos de Avaliação (Entrevista Semiestruturada)"]:::step
-    I1["I — Identificar Questões Práticas (Recrutamento e Cronograma)"]:::step
-    D2["D — Decidir Questões Éticas (TCLE e Script Oral Literal)"]:::ethical
-    E2["E — Avaliar, Interpretar e Apresentar Dados (Relatório de Reprojeto)"]:::eval
+    D1["D — Determinar Objetivos Gerais (Metas Formativas)"]
+    E1["E — Explorar Perguntas Investigativas (Desdobramento)"]
+    C1["C — Escolher Métodos de Avaliação (Entrevista Semiestruturada)"]
+    I1["I — Identificar Questões Práticas (Recrutamento e Cronograma)"]
+    D2["D — Decidir Questões Éticas (TCLE e Script Oral Literal)"]
+    E2["E — Avaliar, Interpretar e Apresentar Dados (Relatório de Reprojeto)"]
 
     D1 --> E1
     E1 --> C1
@@ -72,7 +68,7 @@ graph TD
 ```
 
 **Figura 2** — Fluxo sequencial das etapas do Framework DECIDE na avaliação do Storyboard.  
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021), 2026._
+_Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho com base em Barbosa e Silva (2021), 2026._
 
 ---
 
@@ -104,7 +100,7 @@ Com base nos quatro objetivos gerais fixados, a Tabela 2 apresenta o desdobramen
 | **Oportunidades de Design** | **P07** | O desfecho da narrativa representou uma resolução satisfatória para a necessidade do personagem? | Averiguar se a intervenção proposta pela equipe proporciona percepção positiva de utilidade e eficácia. |
 | **Oportunidades de Design** | **P08** | Que funcionalidade ou elemento de interface você acrescentaria ou modificaria para tornar essa interação mais ágil e intuitiva? | Elicitar requisitos refinados de design para os futuros protótipos de baixa e alta fidelidade. |
 
-_Fonte: Elaborada pelos autores com base em Rogers, Sharp e Preece (2013), 2026._
+_Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho com base em Rogers, Sharp e Preece (2013), 2026._
 
 A Tabela 2 assegura que o entrevistador mantenha a investigação focada em respostas objetivas, sem desviar das metas de Engenharia de Usabilidade do projeto.
 
@@ -139,22 +135,19 @@ Em estrita consonância com o Perfil do Usuário e com as diretrizes metodológi
 - **Exibição do Material:** Compartilhamento de tela em alta definição (resolução mínima 1080p), exibindo os quadros do storyboard desenhados com densidade de 300 DPI;
 - **Instrumentos de Registro:** Gravação audiovisual completa da sessão (áudio, vídeo e tela) mediante consentimento expresso gravado, além de planilha padronizada de notas do observador.
 
-### 6.3 Cronograma Planejado das Sessões e Etapa de Produção
+### 6.3 Cronograma Planejado das Sessões
 
-A Tabela 3 apresenta a distribuição temporal do ciclo de avaliação do storyboard, integrando a etapa de produção técnica (até 16/10/2026), o teste-piloto prévio (17/10/2026) e as sessões de campo realizadas durante a semana seguinte (19/10 a 23/10/2026). Em cada sessão de entrevista, o Storyboard é **validado primeiro** (Bloco 1) para contextualizar a narrativa, antes da investigação microscópica do HTA.
+A Tabela 3 apresenta a distribuição das sessões de avaliação do storyboard, com os horários e a atribuição de papéis entre os integrantes da equipe.
 
 **Tabela 3** — Cronograma planejado das sessões de avaliação do Storyboard
 
-| Sessão / Etapa | Data | Horário | Entrevistador Principal | Observador / Anotador | Participante Convidado / Papel |
+| Sessão | Data | Horário | Entrevistador Principal | Observador / Anotador | Participante Convidado |
 | :---: | :---: | :---: | :--- | :--- | :--- |
-| **Produção Técnica** | 13/10 a 16/10/2026 | Integral | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Elaboração dos desenhos e vinhetas em escala de cinza (300 DPI) |
-| **Teste-Piloto** | 17/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Colega discente de TI (Simulação de Ensaio) |
-| **S01** | 19/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (P1 — Estudante de Graduação) |
-| **S02** | 20/10/2026 | 15:00 - 15:40 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (P2 — Estudante de Graduação) |
-| **S03** | 21/10/2026 | 16:00 - 16:40 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 3 (P3 — Estudante de Graduação) |
-| **S04 (Reserva)** | 22/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 4 (P4 — Estudante de Graduação) |
+| **S01** | 19/10/2026 | 14:00 - 14:30 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (P1 — Estudante de Graduação) |
+| **S02** | 20/10/2026 | 15:00 - 15:30 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (P2 — Estudante de Graduação) |
+| **S03** | 21/10/2026 | 16:00 - 16:30 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 3 (P3 — Estudante de Graduação) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
 ### 6.4 Papel e Execução do Teste-Piloto de Nível 1
 
@@ -208,7 +201,7 @@ A Tabela 4 apresenta o modelo formal que será utilizado no documento de consoli
 | **PROB-ST-02** | Tarefa 2 (Onboarding Discobot) | Quadro 4 | Exemplo: Participante considerou o tutorial do Discobot demorado e invasivo. | Grave | Incluir opção de atalho visual para 'Pular tutorial' mantendo os privilégios de TL1. |
 | **PROB-ST-03** | Tarefa 3 (Busca Avançada) | Quadro 2 | Exemplo: Participante esperava filtros automáticos por versão da distro Linux. | Leve | Exibir filtro de versão destacado na interface de busca do storyboard. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021), 2026._
+_Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho com base em Barbosa e Silva (2021), 2026._
 
 ---
 
@@ -227,8 +220,11 @@ A Tabela 5 apresenta a autoavaliação da conformidade do planejamento da avalia
 | **CHK-ST-05** | O público-alvo dos testes é aderente ao papel central de Estudante / Usuário Aprendiz em Linux? | Diretrizes de IHC FGA/UnB | ✅ Sim | A Seção 6.1 restringe o recrutamento a estudantes universitários de tecnologia iniciantes/intermediários. |
 | **CHK-ST-06** | O documento transcreve na íntegra o Script Oral Literal do TCLE para leitura nos primeiros 60 segundos gravados? | Resolução CNS nº 510/2016; Diretrizes da Disciplina | ✅ Sim | A Seção 7 contém o bloco literal em destaque com a leitura obrigatória e solicitação de consentimento verbal. |
 | **CHK-ST-07** | Todas as tabelas e figuras possuem legendas, fontes e chamadas formais no corpo do texto? | Padrão Editorial FGA/UnB | ✅ Sim | 100% das 5 tabelas e 2 figuras possuem chamadas nominais antecedentes no texto (zero tabelas/figuras órfãs). |
+| **CHK-ST-08** | As perguntas investigativas cobrem as dimensões essenciais de Storyboards (*Setting, Sequence, Satisfaction*) e a premissa de prototipação rápida (~10 min)? | Scott Klemmer (2012); Amal Dar Aziz (2010) | ✅ Sim | A Tabela 2 e o Item Teórico articulam o cenário, sequência, gatilho, satisfação e a confecção ágil de baixa fidelidade. |
+| **CHK-ST-09** | O planejamento estabelece o papel do teste-piloto e isola expressamente seus dados dos resultados finais da avaliação? | Barbosa & Silva (2021, p. 280) | ✅ Sim | A Seção 6.4 define que o teste-piloto avalia o planejamento e que seus dados jamais são somados aos resultados da avaliação. |
+| **CHK-ST-10** | Há modelo estruturado para consolidação dos problemas encontrados com classificação de severidade de 0 a 4? | Nielsen (1994); Barbosa & Silva (2021) | ✅ Sim | A Seção 8 apresenta a Tabela 4 padronizada com a taxonomia de severidade de Nielsen (0 a 4) para orientar o reprojeto. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Sales (2026), 2026._
+_Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021), Scott Klemmer (2012) e Sales (2026), 2026._
 
 ---
 
@@ -240,9 +236,10 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 12/10/2026 | Elaboração inicial do Planejamento da Avaliação do Storyboard estruturado no Framework DECIDE, contendo objetivos, perguntas investigativas (Tabela 2), questões práticas, script oral literal do TCLE, modelo de consolidação (Tabela 4) e checklist com 7 itens (Issue #56). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.0` | 12/10/2026 | Elaboração inicial do Planejamento da Avaliação do Storyboard estruturado no Framework DECIDE, contendo objetivos, perguntas investigativas (Tabela 2), questões práticas, script oral literal do TCLE e modelo de consolidação (Tabela 4). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 13/10/2026 | Expansão da Lista de Verificação da Técnica (Tabela 5) para 10 itens normativos, incorporação dos critérios de Scott Klemmer (Setting, Sequence, Satisfaction e duração ágil de ~10 min), teste-piloto, severidade de Nielsen e saneamento de fontes nominais. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 
 ---
 
@@ -262,15 +259,17 @@ _Fonte: Elaborada pelos autores, 2026._
 
 [7] COOPER, Alan. *The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity*. Indianapolis: Sams Publishing, 1999.
 
-[8] MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.
+[8] KLEMMER, Scott. *Storyboards, Paper Prototypes and Mockups*. Videoaula do curso "Human-Computer Interaction Design". University of California, San Diego / UC Berkeley, disponibilizado via Coursera. Disponível em: <https://www.youtube.com/watch?v=h2H3oIQtddU>. Acesso em: 13 out. 2026.
 
-[9] NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1994.
+[9] MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.
 
-[10] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: beyond human-computer interaction*. New York: John Wiley & Sons, 2002.
+[10] NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann, 1994.
 
-[11] ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. *Design de Interação: além da interação humano-computador*. 3. ed. Porto Alegre: Bookman, 2013.
+[11] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: beyond human-computer interaction*. New York: John Wiley & Sons, 2002.
 
-[12] SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Brasília: Universidade de Brasília, Faculdade UnB Gama (FGA), 2026.
+[12] ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. *Design de Interação: além da interação humano-computador*. 3. ed. Porto Alegre: Bookman, 2013.
+
+[13] SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Brasília: Universidade de Brasília, Faculdade UnB Gama (FGA), 2026.
 
 ---
 

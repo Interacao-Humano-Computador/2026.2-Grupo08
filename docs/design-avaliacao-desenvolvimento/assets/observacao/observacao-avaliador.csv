@@ -1,0 +1,4 @@
+Tarefa,Tempo (s),Hesitação (Y/N),Erro (Y/N),Severidade (0-4),Prioridade (Alta/Média/Baixa)
+"Busca avançada",12,Y,N,2,Alta
+"Aplicar filtro",8,N,Y,3,Média
+"Navegação resultados",15,Y,Y,4,Alta
