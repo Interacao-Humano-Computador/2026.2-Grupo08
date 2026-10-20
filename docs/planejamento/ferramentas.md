@@ -2,13 +2,14 @@
 
 ## Tabela de Contribuição
 
-| Integrante | Contribuição | Data | Horário |
+| Integrante | Contribuição | Data | Revisor |
 | :--- | :--- | :---: | :---: |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão das ferramentas de documentação](#historico-de-versao) | 05/09/2026 | 21:00 - 21:30 |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Seleção inicial das tecnologias de documentação e controle de versão](#historico-de-versao) | 04/09/2026 | 19:00 - 19:30 |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Detalhamento do uso prático das ferramentas e categorização de licenças](#detalhamento-do-uso-das-ferramentas) | 05/09/2026 | 20:00 - 20:45 |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão e validação das ferramentas de prototipação e design](#historico-de-versao) | 05/09/2026 | 20:30 - 21:00 |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Criação da estrutura inicial, tabela de ferramentas, badges e justificativas técnicas](#ferramentas-utilizadas) | 05/09/2026 | 20:00 - 20:30 |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Detalhamento do uso de Inteligência Artificial Generativa desde a Etapa 1, inclusão de ferramentas de IA na Tabela 1 e delimitação de esforço autoral vs computacional](#6-inteligencia-artificial-generativa-llms) | 20/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão das ferramentas de documentação](#historico-de-versao) | 05/09/2026 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Seleção inicial das tecnologias de documentação e controle de versão](#historico-de-versao) | 04/09/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Detalhamento do uso prático das ferramentas e categorização de licenças](#detalhamento-do-uso-das-ferramentas) | 05/09/2026 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) |
+| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão e validação das ferramentas de prototipação e design](#historico-de-versao) | 05/09/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Criação da estrutura inicial, tabela de ferramentas, badges e justificativas técnicas](#ferramentas-utilizadas) | 05/09/2026 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) |
 
 ---
 
@@ -40,8 +41,10 @@ A Tabela 1 apresenta a relação consolidada das ferramentas e tecnologias adota
 | <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code"> **Visual Studio Code** | Editor de Código | Redação de documentos Markdown, edição de arquivos de configuração e suporte a extensões de lint e Git. | Open Source | Editor leve e altamente extensível, integrado a extensões para MkDocs e ferramentas de rastreabilidade de código. |
 | <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white" alt="YouTube"> **YouTube** | Repositório de Vídeos | Armazenamento e disponibilização dos vídeos de reuniões e apresentações das etapas sob a modalidade "Não Listado". | Gratuito | Garante a reprodução fluida e sem sobrecarga do servidor para os avaliadores, atendendo aos requisitos de vídeo da disciplina. |
 | <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp"> **WhatsApp** | Comunicação Instantânea | Canal de mensagens rápidas para avisos operacionais urgentes, compartilhamento de links e lembretes de prazos. | Gratuito | Alta taxa de resposta e conveniência móvel para comunicação assíncrona diária entre os membros. |
+| <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat&logo=googlebard&logoColor=white" alt="Gemini"> **Google Gemini** | IA Generativa (LLM) | Apoio na estruturação sintática de tabelas Markdown, geração de rascunhos de layouts e cálculo de contrastes de cores. | Gratuito / Educacional | Otimização do tempo de formatação e suporte no alinhamento às diretrizes visuais e metodológicas de IHC. |
+| <img src="https://img.shields.io/badge/ChatGPT_OpenAI-74aa9c?style=flat&logo=openai&logoColor=white" alt="ChatGPT"> **OpenAI ChatGPT** | IA Generativa (LLM) | Auxílio em revisões gramaticais, sugestões textuais e conferência de padronização nas primeiras etapas do projeto. | Gratuito | Suporte computacional na redação e organização documental sob estrita supervisão e validação humana. |
 
-_Fonte: Elaborada pelos autores ([Vinicius Araruna](https://github.com/ViniciusA05) e [Jonathan Carpaneda](https://github.com/Jonathan-Carpaneda)), 2026._
+_Fonte: Elaborada pelos autores ([Vinicius Araruna](https://github.com/ViniciusA05), [Jonathan Carpaneda](https://github.com/Jonathan-Carpaneda) e [Gustavo Antonio](https://github.com/gus-ant)), 2026._
 
 ---
 
@@ -62,6 +65,19 @@ Os encontros síncronos da equipe ocorrem no **Discord**, complementados pelo **
 ### 5. Produtividade e Edição (VS Code, Google Workspace & WhatsApp)
 A edição e formatação dos artefatos em Markdown é realizada no **Visual Studio Code**, com apoio de extensões de pré-visualização. Para o planejamento inicial de cronogramas, matrizes de decisão e mapa de calor de disponibilidade (Heatmap), utiliza-se o **Google Sheets e Docs**. O alinhamento diário e os avisos de reuniões são mantidos de forma contínua no **WhatsApp**.
 
+### 6. Inteligência Artificial Generativa (LLMs)
+Desde a **Etapa 1 (Planejamento)** e se estendendo pelas etapas subsequentes do projeto (Etapa 2 - Análise de Requisitos, Etapa 3 - Guia de Estilo e Avaliação, Etapa 4 - Design e Prototipação), a equipe utilizou ferramentas de Inteligência Artificial Generativa baseadas em grandes modelos de linguagem (LLMs), notadamente o **Google Gemini** e o **OpenAI ChatGPT**.
+
+#### Finalidades e Limites de Aplicação
+O suporte de IA generativa foi delimitado estritamente como ferramenta de apoio operacional e computacional:
+- **Estruturação de Sintaxe Markdown e Tabelas:** Geração ágil de esqueletos de tabelas comparativas, alinhamentos de colunas e padronização visual conforme o tema MkDocs Material.
+- **Revisão Gramatical e Sintática:** Verificação ortográfica, clareza e coesão textual em seções descritivas.
+- **Apoio Técnico em Cálculos de Acessibilidade:** Auxílio na verificação e cálculo automatizado das razões de contraste cromático da paleta de cores segundo as diretrizes WCAG 2.1 no Guia de Estilo.
+- **Estruturação Preliminar de Rascunhos:** Apoio na organização inicial de tópicos e dimensões de análise com base nos modelos teóricos de Barbosa e Silva (2010; 2021).
+
+#### Delimitação do Esforço Autoral Humano vs. Suporte Computacional
+A equipe reitera o compromisso ético e acadêmico de que **o uso de IA não substituiu o esforço autoral, analítico ou investigativo dos integrantes**. Todo o raciocínio crítico, formulação de hipóteses, condução de pesquisas, aplicação de entrevistas, concepção das personas, desenho dos storyboards e protótipos de papel e validações metodológicas foram concebidos, desenvolvidos e verificados integralmente pelos membros do grupo. Toda saída gerada por LLM foi submetida a leitura crítica, refinamento manual e aprovação pelo autor responsável e revisor designado em cada documento.
+
 ---
 
 ## Histórico de Versão
@@ -70,6 +86,7 @@ A edição e formatação dos artefatos em Markdown é realizada no **Visual Stu
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 05/09/2026 | Criação inicial da página de ferramentas com tabela detalhada, badges visuais e justificativas | [Vinicius Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.1` | 06/09/2026 | Fusão colaborativa: inclusão da tabela de contribuição no topo, expansão da categorização de licenças e detalhamento textual do uso prático das tecnologias | [Vinicius Araruna](https://github.com/ViniciusA05) e [Jonathan Carpaneda](https://github.com/Jonathan-Carpaneda) | [Pedro Paulo](https://github.com/Pedrop06) |
+| `1.2` | 20/10/2026 | Detalhamento exaustivo do uso de IA Generativa desde a Etapa 1, inclusão de ferramentas na Tabela 1 e delimitação de esforço autoral humano vs suporte computacional (#41) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 
