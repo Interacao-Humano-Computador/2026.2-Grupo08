@@ -2,9 +2,10 @@
 
 ## Tabela de Contribuição e Uso de IA Generativa
 
-| Integrante | Contribuição | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
-| :--- | :--- | :--- | :--- | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Elaboração e estruturação do Guia de Estilo | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Araruna](https://github.com/ViniciusA05) | Gemini | Formatação de tabelas, adequação sintática em Markdown e suporte de estilo. |
+| Integrante | Contribuição | Data | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
+| :--- | :--- | :---: | :---: | :--- | :--- |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Validação das razões de contraste WCAG 2.1, revisão dos componentes UI e padronização do guia | 20/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Gemini | Verificação de conformidade de contraste e padronização das tabelas Markdown. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Elaboração inicial e estruturação do Guia de Estilo | 05/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Gemini | Formatação de tabelas, adequação sintática em Markdown e suporte de estilo. |
 
 ---
 
@@ -144,6 +145,7 @@ A **Tabela 4** documenta o histórico de versões deste artefato.
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 05/10/2026 | Criação do documento do Guia de Estilo com paleta de cores, tipografia e catálogo de componentes UI do Diolinux Plus | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Araruna](https://github.com/ViniciusA05) |
+| `1.1` | 20/10/2026 | Validação de contraste das cores sob WCAG 2.1, revisão de componentes e atualização da tabela de contribuição (#45) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 
