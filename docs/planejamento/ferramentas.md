@@ -87,6 +87,7 @@ A equipe reitera o compromisso ético e acadêmico de que **o uso de IA não sub
 | `1.0` | 05/09/2026 | Criação inicial da página de ferramentas com tabela detalhada, badges visuais e justificativas | [Vinicius Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.1` | 06/09/2026 | Fusão colaborativa: inclusão da tabela de contribuição no topo, expansão da categorização de licenças e detalhamento textual do uso prático das tecnologias | [Vinicius Araruna](https://github.com/ViniciusA05) e [Jonathan Carpaneda](https://github.com/Jonathan-Carpaneda) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.2` | 20/10/2026 | Detalhamento exaustivo do uso de IA Generativa desde a Etapa 1, inclusão de ferramentas na Tabela 1 e delimitação de esforço autoral humano vs suporte computacional (#41) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.3` | 21/10/2026 | Inclusão da referência bibliográfica canônica de Barbosa et al. (2021) em atendimento ao parecer de revisão por pares do PR #96 (#41) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 
@@ -94,11 +95,13 @@ A equipe reitera o compromisso ético e acadêmico de que **o uso de IA não sub
 
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010.
 
-[2] FIGMA. *Figma: The collaborative interface design tool*. San Francisco: Figma Inc., 2026. Disponível em: <https://www.figma.com>. Acesso em: 05 set. 2026.
+[2] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 
-[3] MATERIAL FOR MKDOCS. *Material for MkDocs Documentation*. Disponível em: <https://squidfunk.github.io/mkdocs-material/>. Acesso em: 05 set. 2026.
+[3] FIGMA. *Figma: The collaborative interface design tool*. San Francisco: Figma Inc., 2026. Disponível em: <https://www.figma.com>. Acesso em: 05 set. 2026.
 
-[4] SOMMERVILLE, Ian. *Engenharia de Software*. 10. ed. São Paulo: Pearson Education do Brasil, 2018.
+[4] MATERIAL FOR MKDOCS. *Material for MkDocs Documentation*. Disponível em: <https://squidfunk.github.io/mkdocs-material/>. Acesso em: 05 set. 2026.
+
+[5] SOMMERVILLE, Ian. *Engenharia de Software*. 10. ed. São Paulo: Pearson Education do Brasil, 2018.
 
 ---
 
