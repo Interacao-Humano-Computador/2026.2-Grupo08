@@ -5,7 +5,7 @@
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação metodológica, fundamentação demográfica com base secundária (IBGE) e autoria do Perfil 1 (Estudante / Usuário Comum). | 09/10/2026 | Suporte na estruturação Markdown e formatação de dados estatísticos. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Autoria individual e detalhamento completo do Perfil 2 (Moderador / Guardião da Comunidade) e consolidação da matriz comparativa. | 09/10/2026 | LLM (Antigravity): apoio na formulação dos atributos de moderação e alinhamento às diretrizes do Discourse. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Autoria individual e detalhamento completo do Perfil 2 (Moderador / Guardião da Comunidade), consolidação da matriz comparativa e adequação pós-revisão por pares do PR #71. | 21/10/2026 | LLM (Antigravity): apoio na formulação dos atributos de moderação e alinhamento às diretrizes do Discourse. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Autoria individual do Perfil 3 (Administrador / Gestor do Sistema) e elaboração da lista de verificação. | 09/10/2026 | LLM: apoio na síntese de atributos de infraestrutura e revisão cruzada por pares. |
 
 ---
@@ -22,29 +22,29 @@ Em atendimento às diretrizes do docente e às observações da monitoria (OBS 3
 2. **Perfil 2 — Moderador (Guardião da Comunidade e curador de conteúdo);**
 3. **Perfil 3 — Administrador (Gestor do Sistema, infraestrutura e governança).**
 
+> **Autor do Item Teórico:** [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisores:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) e [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
+
 ---
 
 ## 2. Metodologia de Elicitação e Base Demográfica Secundária
 
-A consolidação destes perfis fundamentou-se em uma abordagem mista (triangulação de dados) recomendada pela literatura de IHC (Barbosa e Silva, 2021; Mayhew, 1999; Courage e Baxter, 2005):
+A consolidação destes perfis fundamentou-se em uma abordagem metodológica empírica e documental rigorosa (triangulação de dados auditáveis), recomendada pela literatura de IHC (Barbosa e Silva, 2021; Mayhew, 1999; Courage e Baxter, 2005):
 
-1. **Levantamento Quantitativo (Questionário):** Aplicação de questionário estruturado com 38 respondentes da comunidade de tecnologia e estudantes universitários, mapeando hábitos de acesso, frequência de postagem e barreiras com a sintaxe Markdown e filtros de pesquisa.
-2. **Levantamento Qualitativo (Entrevistas Semiestruturadas):** Condução de entrevistas gravadas no Google Meet com estudantes universitários, aprofundando modelos mentais, atitudes emocionais frente a falhas de software e estratégias de busca.
-3. **Análise Documental e Observação da Plataforma:** Levantamento de dados públicos do Fórum Diolinux Plus (tópicos, badges de gamificação, níveis de confiança *Trust Levels* do Discourse e fluxos de denúncia).
-4. **Fundamentação Demográfica com Dados Secundários (IBGE / Cetic.br):** Para complementar a amostra primária e situar os perfis no panorama brasileiro, foram incorporados os dados da pesquisa **PNAD Contínua TIC Domicílios (IBGE, 2023/2024)** e do **Cetic.br (2023)** sobre o perfil de usuários de computadores e internet no Brasil:
+1. **Entrevistas Semiestruturadas com Estudantes Universitários:** Condução de entrevistas gravadas (via Google Meet e presenciais) com estudantes universitários de graduação, investigando rotinas de estudo, modelos mentais, dificuldades de navegação e atitudes emocionais frente a falhas de software e estratégias de busca no suporte técnico.
+2. **Análise Documental e Observação Sistemática da Plataforma:** Levantamento de métricas e dados públicos do Fórum Diolinux Plus (frequência de tópicos, badges de gamificação, níveis de confiança *Trust Levels* do Discourse, fluxos de moderação e categorização taxonômica).
+3. **Sessões de Brainstorming da Equipe:** Reuniões estruturadas entre os integrantes do grupo para mapear as jornadas dos usuários, papéis funcionais e hipóteses de interação no ecossistema do Discourse.
+4. **Fundamentação Demográfica com Dados Secundários (IBGE / Cetic.br):** Para situar os perfis no panorama sociodemográfico brasileiro de forma sólida e auditável, foram incorporados os dados da pesquisa **PNAD Contínua TIC Domicílios (IBGE, 2023/2024)** e do **Cetic.br (2023)** sobre o perfil de usuários de computadores e internet no Brasil:
    - A posse de microcomputadores e notebooks no Brasil concentra-se expressivamente nas faixas etárias de 18 a 34 anos (58,4% dos usuários ativos) com grau de instrução universitário completo ou em andamento (IBGE, 2023);
    - A realização de cursos, pesquisas de estudo e participação em fóruns de discussão especializados possui maior prevalência entre estudantes de nível superior e jovens profissionais das áreas de Ciências Exatas e Tecnologia (Cetic.br, 2023);
    - A banda larga fixa de alta velocidade é utilizada por mais de 83% dos lares dessa faixa acadêmica, permitindo acesso contínuo a plataformas web dinâmicas como o Discourse sem severas limitações de largura de banda, priorizando-se a velocidade de renderização e usabilidade da interface gráfica.
 
-As Figuras 1, 2 e 3 a seguir comprovam a fundamentação teórica nas obras de referência adotadas no projeto.
+A **Figura 1** apresenta a fundamentação conceitual da técnica de entrevistas em IHC, extraída diretamente da obra de Barbosa e Silva (2010, p. 131).
 
 ![Print do livro de IHC de Barbosa e Silva detalhando a técnica de entrevistas](../assets/referencias/tecnicas_entrevistas_pg131.png)
 
 **Figura 1** — Trecho do livro de Barbosa e Silva detalhando a técnica de Entrevistas. _Fonte: Barbosa e Silva (2010, p. 131)._
 
-![Print do livro de IHC de Barbosa e Silva detalhando as técnicas de grupos de foco e questionários](../assets/referencias/tecnicas_foco_questionario_pg138.png)
-
-**Figura 2** — Trecho do livro de Barbosa e Silva detalhando as técnicas de Grupos de Foco e Questionários. _Fonte: Barbosa e Silva (2010, p. 138)._
+> **Autor do Item Teórico:** [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisores:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) e [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 
 ---
 
@@ -58,9 +58,13 @@ Seguindo o referencial teórico de Hackos e Redish (1998) citado e aprofundado p
 - **Tarefas e objetivos:** Conjunto de atividades primárias e secundárias desempenhadas no ambiente da plataforma;
 - **Necessidades de interação e pontos de dor:** Recursos essenciais de interface e gargalos de usabilidade mapeados nas tarefas do Discourse.
 
+A **Figura 2** ilustra a estrutura dos grupos de atributos que caracterizam o perfil de usuário na perspectiva ergonômica de IHC, conforme sistematizado por Barbosa e Silva (2010, p. 162).
+
 ![Print do livro de IHC de Barbosa e Silva detalhando os grupos de atributos de um perfil de usuário](../assets/referencias/perfil_usuario_atributos_pg162.png)
 
-**Figura 3** — Grupos de atributos que caracterizam o perfil de usuário. _Fonte: Barbosa e Silva (2010, p. 162)._
+**Figura 2** — Grupos de atributos que caracterizam o perfil de usuário. _Fonte: Barbosa e Silva (2010, p. 162)._
+
+> **Autor do Item Teórico:** [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisores:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) e [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 
 ---
 
@@ -100,7 +104,7 @@ A Tabela 1 detalha os atributos investigados e preenchidos para este perfil.
 | **Dificuldades e Pontos de Dor** | Complexidade de Categorias | Dificuldade em classificar corretamente a dúvida na criação do tópico em meio a dezenas de categorias e subcategorias do Discourse. |
 | | Sintaxe de Busca Avançada | Desconhecimento de operadores de busca do Discourse (ex: `category:iniciantes status:solved`), dependendo exclusivamente da busca textual rasa. |
 
-_Fonte: Elaborada por Vinicius Silva Araruna, 2026. Consolidada com dados de questionário e entrevistas._
+_Fonte: Elaborada por Vinicius Silva Araruna, 2026. Consolidada com dados de entrevistas semiestruturadas, análise documental, brainstorming e dados secundários (IBGE/Cetic.br)._
 
 ---
 
@@ -214,7 +218,7 @@ A Tabela 5 apresenta a lista de verificação preenchida pela equipe para avalia
 | **3** | Os dados demográficos foram enriquecidos com fontes secundárias confiáveis (IBGE)? | Critério de Aceite da Issue #34; IBGE (2023) | **Sim** | A Seção 2 e a Tabela 1 incorporam os dados da PNAD Contínua TIC Domicílios e Cetic.br para estudantes universitários no Brasil. |
 | **4** | Todas as tabelas de caracterização possuem preenchimento completo de atributos sem depender de hipóteses em aberto? | Rubrica de Avaliação de Requisitos | **Sim** | As Tabelas 1, 2 e 3 detalham minuciosamente todas as dimensões de análise preconizadas por Hackos e Redish (1998). |
 | **5** | Há uma matriz comparativa sintetizando as diferenças críticas de interação entre os perfis? | Engenharia de Requisitos | **Sim** | A Tabela 4 sintetiza e confronta os três papéis em interfaces, permissões, tarefas e desafios de IHC. |
-| **6** | Todas as tabelas e figuras possuem numeração, títulos, chamadas no texto e fontes especificadas? | Normas de Formatação da Disciplina | **Sim** | Todas as tabelas (1 a 6) e figuras (1 a 3) são referenciadas no texto e possuem créditos de fonte completos. |
+| **6** | Todas as tabelas e figuras possuem numeração, títulos, chamadas no texto e fontes especificadas? | Normas de Formatação da Disciplina | **Sim** | Todas as tabelas (1 a 6) e figuras (1 e 2) são referenciadas expressamente no texto e possuem créditos de fonte completos. |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -231,6 +235,7 @@ A Tabela 6 registra as versões deste artefato e o histórico de evolução ao l
 | `1.0` | 26/09/2026 | Estruturação metodológica inicial e elaboração preliminar dos perfis focados em níveis de conhecimento técnico de Linux. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 27/09/2026 | Inclusão de rascunhos de perfis e elaboração de hipóteses preliminares de pesquisa. | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.0` | 09/10/2026 | **Refatoração estrutural completa (Issue #34)**: Reestruturação dos 3 perfis por papéis funcionais (Estudante/Usuário Comum, Moderador, Administrador); preenchimento integral de todos os atributos tabulares; incorporação de dados secundários do IBGE/Cetic.br; consolidação da matriz comparativa detalhada e checklist da técnica. | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Revisão por Pares |
+| `2.1` | 21/10/2026 | Desacoplamento metodológico de questionário em consonância com a recomendação docente e parecer de revisão do PR #71; explicitação da tríade empírica auditável (entrevistas, análise documental, brainstorming e dados secundários IBGE/Cetic.br); inserção das linhas de autoria teórica nas Seções 1, 2 e 3 e amarração textual com chamada da Figura 2 (#34). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
