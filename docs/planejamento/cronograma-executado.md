@@ -83,12 +83,23 @@ _Fonte: Elaborada pelos autores, 2026._
 Conforme demonstrado na Tabela 3, as atividades da Entrega 2 foram consolidadas e integradas através de revisões por pares e rastreabilidade no repositório.
 
 ---
+## Entrega 3 —
+
+A Tabela 4 documenta o andamento executado das atividades da Entrega 3, registrando as datas reais de conclusão, autores principais e revisores de cada artefato.
+
+**Tabela 4** — Cronograma executado da Entrega 3
+| Etapa          | Início (real) | Fim (real) | Autor(es)        | Revisor(es) |
+|----------------|----------------|------------|------------------|-------------|
+| 1 – Planejamento | 08/10/2026 | 09/10/2026 | Edvaldo Soares   | Vinicius A. |
+| 2 – Implementação | 10/10/2026 | 11/10/2026 | Gustavo Rodrigues| Edvaldo Soares |
+| 3 – Validação   | 12/10/2026 | 13/10/2026 | Vinicius A.      | Gustavo Rodrigues |
+| 4 – Documentação| 14/10/2026 | 14/10/2026 | Edvaldo Soares   | Vinicius A. |
 
 ## Histórico de Versão
 
-A Tabela 4 documenta o histórico de versões deste artefato.
+A Tabela 5 documenta o histórico de versões deste artefato.
 
-**Tabela 4** — Histórico de versão do documento
+**Tabela 5** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
