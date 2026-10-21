@@ -29,7 +29,7 @@ A Tabela 1 apresenta a síntese do elenco de personas do Fórum Diolinux Plus.
 | Papel de Usuário Mapeado | Nome / Identificador da Persona | Status de Design | Perfil de Usuário Vinculado | Autor Responsável |
 | :--- | :--- | :---: | :--- | :--- |
 | **Entusiasta / Desenvolvedor** | Lucas Mendonça | **Primária** | [Perfil 1: Entusiasta / Criador](perfil-usuario.md#perfil-1-usuario-entusiasta-criador-de-topicos-tecnicos) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| **Iniciante / Migração** | *A ser nomeada pelo autor* | **Secundária** | [Perfil 2: Iniciante / Onboarding](perfil-usuario.md#perfil-2-usuario-iniciante-migracao-windows-linux) | [Gustavo Antonio](https://github.com/gus-ant) |
+| **Iniciante / Migração** | *A ser nomeada pelo autor* | **Secundária** | [Perfil 2: Iniciante / Onboarding](perfil-usuario.md#perfil-2-usuario-iniciante-migracao-windowslinux) | [Gustavo Antonio](https://github.com/gus-ant) |
 | **Pesquisador / Técnico** | *A ser nomeada pelo autor* | **Secundária** | [Perfil 3: Pesquisador / Buscador](perfil-usuario.md#perfil-3-usuario-pesquisador-buscador-autonomo) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Antiusuário (Antipersona)** | Robô Spammer / Divulgador Malicioso | **Antipersona** | *Perfil fora do escopo de design legítimo* | [Equipe Grupo 08](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
 
