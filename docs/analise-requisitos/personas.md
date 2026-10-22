@@ -2,11 +2,11 @@
 
 ## Tabela de Contribuição
 
-| Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
-| :--- | :--- | :---: | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Autoria individual da Persona 3 (Secundária)](#persona-3-usuario-pesquisador-autonomo-persona-secundaria) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual da Persona 2 (Secundária)](#persona-2-usuario-iniciante-em-migracao-persona-secundaria) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, elenco consolidado e autoria individual da Persona 1 (Primária)](#persona-1-lucas-o-entusiasta-devops-persona-primaria) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
+| Integrante | Contribuição no Artefato | Data | Revisor | Ferramenta de IA e Contribuição |
+| :--- | :--- | :---: | :---: | :--- |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual da Persona 2 (Carlos Eduardo) e preenchimento da ficha completa](#persona-2-carlos-eduardo-o-iniciante-em-migracao-persona-secundaria) | 20/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Gemini: apoio na estruturação dos atributos e síntese das tabelas |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Autoria individual da Persona 3 (Mariana Ribeiro) e preenchimento da ficha completa](#persona-3-mariana-ribeiro-a-pesquisadora-autonoma-persona-secundaria) | 20/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Gemini: apoio na formatação da ficha e alinhamento ao Perfil 3 |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, elenco consolidado e autoria individual da Persona 1 (Lucas Mendonça)](#persona-1-lucas-o-entusiasta-devops-persona-primaria) | 26/09/2026 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Suporte na estruturação Markdown e tabelas |
 
 ---
 
@@ -29,8 +29,8 @@ A Tabela 1 apresenta a síntese do elenco de personas do Fórum Diolinux Plus.
 | Papel de Usuário Mapeado | Nome / Identificador da Persona | Status de Design | Perfil de Usuário Vinculado | Autor Responsável |
 | :--- | :--- | :---: | :--- | :--- |
 | **Entusiasta / Desenvolvedor** | Lucas Mendonça | **Primária** | [Perfil 1: Entusiasta / Criador](perfil-usuario.md#perfil-1-usuario-entusiasta-criador-de-topicos-tecnicos) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| **Iniciante / Migração** | *A ser nomeada pelo autor* | **Secundária** | [Perfil 2: Iniciante / Onboarding](perfil-usuario.md#perfil-2-usuario-iniciante-migracao-windowslinux) | [Gustavo Antonio](https://github.com/gus-ant) |
-| **Pesquisador / Técnico** | *A ser nomeada pelo autor* | **Secundária** | [Perfil 3: Pesquisador / Buscador](perfil-usuario.md#perfil-3-usuario-pesquisador-buscador-autonomo) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Iniciante / Migração** | Carlos Eduardo | **Secundária** | [Perfil 2: Iniciante / Onboarding](perfil-usuario.md#perfil-2-usuario-iniciante-migracao-windowslinux) | [Gustavo Antonio](https://github.com/gus-ant) |
+| **Pesquisador / Técnico** | Mariana Ribeiro | **Secundária** | [Perfil 3: Pesquisador / Buscador](perfil-usuario.md#perfil-3-usuario-pesquisador-buscador-autonomo) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Antiusuário (Antipersona)** | Robô Spammer / Divulgador Malicioso | **Antipersona** | *Perfil fora do escopo de design legítimo* | [Equipe Grupo 08](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -69,37 +69,77 @@ Conforme detalhado na Tabela 2, Lucas necessita de aceleradores de interface, re
 
 ---
 
-## Persona 2: Usuário Iniciante em Migração (Persona Secundária)
+## Persona 2: Carlos Eduardo, o Iniciante em Migração (Persona Secundária)
 
 - **Autor Principal**: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
-- **Revisor**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
+- **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
 - **Status**: **Persona Secundária**
 
-!!! info "Espaço Reservado para Desenvolvimento Individual (Gustavo Antonio)"
-    Esta persona é de responsabilidade autoral exclusiva do discente **Gustavo Antonio Rodrigues e Silva**, sendo desenvolvida diretamente em sua respectiva branch temática (`feat/...`) para posterior submissão via Pull Request e revisão por Edvaldo Soares.
+Carlos representa o público em fase de transição de sistemas operacionais proprietários (Windows) para distribuições amigáveis de Linux (Linux Mint), dependendo de orientação clara, vocabulário acessível e processos de onboarding simples.
+
+A Tabela 3 apresenta o detalhamento completo dos atributos da Persona 2, estruturados segundo o modelo de Barbosa e Silva (2021).
+
+**Tabela 3** — Detalhamento da Persona 2: Carlos Eduardo
+
+| Dimensão | Atributos e Detalhamento da Persona |
+| :--- | :--- |
+| **Identificação** | **Nome**: Carlos Eduardo |
+| | **Idade / Ocupação**: 45 anos, Contador autônomo. |
+| | **Escolaridade / Local**: Ensino superior completo em Ciências Contábeis, reside em Goiânia/GO. |
+| **Demografia e Contexto** | Usuário tradicional de Windows há mais de 20 anos que decidiu migrar seu computador do escritório para Linux Mint em busca de estabilidade e redução de custos com licenças. Utiliza o computador diariamente para planilhas, emissão de notas fiscais e navegação web. |
+| **Habilidades Técnicas** | Básicas a intermediárias em ferramentas de escritório (Excel/Calc) e navegadores; iniciante em Linux; desconhece comandos de terminal e receia danificar o sistema operacional ao executar scripts desconhecidos. |
+| **Objetivos no Fórum** | • **Objetivo Pessoal (Visceral)**: Sentir segurança e tranquilidade no novo ambiente sem receio de travar o computador de trabalho.<br>• **Objetivo Prático (Comportamental)**: Obter suporte passo a passo para configuração de periféricos (como impressoras e scanners), encontrar alternativas a programas legados do Windows e tirar dúvidas pontuais sem ser julgado por falta de conhecimento técnico.<br>• **Objetivo Corporativo/Comunitário**: Compreender a dinâmica do fórum para manter seu ambiente profissional em pleno funcionamento. |
+| **Frustrações e Dores** | • Respostas excessivamente técnicas com jargões ou comandos de terminal sem explicação do que cada parâmetro faz.<br>• Dificuldade em categorizar seu problema no momento de postar uma dúvida.<br>• Processos de cadastro extensos ou confusos quando precisa de uma ajuda rápida para uma tarefa de trabalho. |
+| **Citação Representativa** | *"Preciso que meu computador e minha impressora funcionem para eu entregar meus relatórios; se a resposta for simples e sem complicação, consigo resolver na hora."* |
+| **Relação com o Fórum** | Acessa o Fórum Diolinux Plus principalmente sob demanda (quando encontra um problema técnico ou incompatibilidade); lê tópicos de boas-vindas e categorias de suporte para iniciantes. |
+
+_Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
+
+Conforme detalhado na Tabela 3, Carlos valoriza fluxos de cadastro sem atrito, formulários simplificados de criação de tópicos com sugestões de preenchimento e um ambiente acolhedor da comunidade.
 
 ---
 
-## Persona 3: Usuário Pesquisador Autônomo (Persona Secundária)
+## Persona 3: Mariana Ribeiro, a Pesquisadora Autônoma (Persona Secundária)
 
 - **Autor Principal**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 - **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
 - **Status**: **Persona Secundária**
 
-!!! info "Espaço Reservado para Desenvolvimento Individual (Edvaldo Soares)"
-    Esta persona é de responsabilidade autoral exclusiva do discente **Edvaldo Soares Brasileiro Filho**, sendo desenvolvida diretamente em sua respectiva branch temática (`feat/...`) para posterior submissão via Pull Request e revisão por Vinicius Silva Araruna.
+Mariana personifica o usuário analítico que utiliza intensamente a pesquisa interna da plataforma para solucionar gargalos técnicos de forma independente, evitando a redundância de postagens.
+
+A Tabela 4 apresenta o detalhamento completo dos atributos da Persona 3, estruturados segundo Barbosa e Silva (2021).
+
+**Tabela 4** — Detalhamento da Persona 3: Mariana Ribeiro
+
+| Dimensão | Atributos e Detalhamento da Persona |
+| :--- | :--- |
+| **Identificação** | **Nome**: Mariana Ribeiro |
+| | **Idade / Ocupação**: 29 anos, Analista de Dados e Pesquisadora Acadêmica. |
+| | **Escolaridade / Local**: Mestranda em Ciência da Computação, reside em Belo Horizonte/MG. |
+| **Demografia e Contexto** | Utiliza Ubuntu LTS e Debian há 3 anos para desenvolvimento de modelos estatísticos, rotinas em Python e manipulação de bases de dados abertas. Acessa múltiplos fóruns técnicos e repositórios acadêmicos semanalmente. |
+| **Habilidades Técnicas** | Intermediárias a avançadas; familiarizada com terminal, manipulação de arquivos, ambientes virtuais e sintaxe de busca avançada; valoriza documentação reprodutível e fontes confiáveis. |
+| **Objetivos no Fórum** | • **Objetivo Pessoal (Visceral)**: Resolver problemas técnicos de forma rápida e autônoma, otimizando seu tempo de pesquisa.<br>• **Objetivo Prático (Comportamental)**: Encontrar tópicos consolidados que contenham soluções verificadas (*soluções aceitas*), aplicando filtros por categoria, data e relevância para não perder tempo com tópicos desatualizados.<br>• **Objetivo Corporativo/Comunitário**: Evitar a criação de tópicos duplicados e validar soluções propostas antes de aplicá-las em ambiente de produção/estudo. |
+| **Frustrações e Dores** | • Mecanismos de busca interna com filtros pouco intuitivos ou que retornam tópicos antigos de 5 anos atrás no topo sem indicação de obsolescência.<br>• Discussões longas sem marcação clara de qual resposta realmente resolveu a questão.<br>• Falta de filtros refinados por versão de distribuição ou tags específicas. |
+| **Citação Representativa** | *"Antes de abrir uma pergunta e esperar horas por uma resposta, prefiro buscar com bons filtros; quase sempre alguém já passou pelo mesmo problema e a solução já foi validada."* |
+| **Relação com o Fórum** | Visita o fórum 2 a 3 vezes por semana via desktop; usa intensamente a barra de busca e páginas de tópicos resolvidos; raramente posta novas perguntas, a menos que a pesquisa não traga nenhuma resposta satisfatória. |
+
+_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
+
+Conforme detalhado na Tabela 4, Mariana demanda um mecanismo de busca robusto com filtros rápidos por data, categoria e status de resolução (*solved*), além de sinalizações visuais claras de respostas corretas.
 
 ---
 
 ## Histórico de Versão
 
-A Tabela 3 documenta o histórico de versões deste artefato.
+A Tabela 5 documenta o histórico de versões deste artefato.
 
-**Tabela 3** — Histórico de versão do documento
+**Tabela 5** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Estruturação metodológica, consolidação do elenco de personas e autoria individual da Persona 1 (Lucas Mendonça) por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 20/10/2026 | Preenchimento completo das fichas da Persona 2 (Carlos Eduardo por Gustavo Antonio) e Persona 3 (Mariana Ribeiro por Edvaldo Soares), remoção de todos os placeholders e alinhamento aos Perfis de Usuário | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 21/10/2026 | Harmonização da declaração de uso de IA Generativa contemplando as Personas 2 e 3 em atendimento à revisão por pares do PR #95 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -121,4 +161,4 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a organização do layout em Markdown e estruturação das tabelas deste artefato, foi utilizado suporte supervisionado de Inteligência Artificial Generativa (LLM). Toda a concepção arquetípica da Persona 1, delimitação do elenco e fundamentação metodológica foram concebidas, redigidas e validadas por Vinicius Silva Araruna.
+Durante a organização do layout em Markdown e estruturação das tabelas deste artefato, foi utilizado suporte supervisionado de Inteligência Artificial Generativa (LLM). Toda a concepção arquetípica da Persona 1, delimitação do elenco e fundamentação metodológica foram concebidas, redigidas e validadas por Vinicius Silva Araruna. Para a estruturação dos atributos, síntese de dados e formatação em Markdown das fichas completas da Persona 2 (Carlos Eduardo) e da Persona 3 (Mariana Ribeiro), os autores Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho contaram com o suporte computacional supervisionado do Google Gemini, mantendo o rigor analítico, empírico e a responsabilidade autoral humana integral sobre o conteúdo final.
