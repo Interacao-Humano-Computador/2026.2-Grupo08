@@ -9,7 +9,7 @@ A distribuição de responsabilidades na concepção metodológica, desdobrament
 | Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA | Propósito do Uso de IA |
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Concepção metodológica, fundamentação do Framework DECIDE (Barbosa & Silva, 2021), elaboração das perguntas investigativas da Tarefa 1 (HTA/Markdown), script oral do TCLE e checklist | 12/10/2026 | 02:00 - 03:30 | Claude / Gemini | Apoio na organização sintática de tabelas Markdown e padronização visual. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Perguntas investigativas da Tarefa 2 (Cadastro e Onboarding com Discobot / Trust Levels), planejamento prático de sessões e revisão por pares | 12/10/2026 | 03:30 - 04:00 | Nenhuma | Auditoria humana cruzada dos critérios e adequação ao fluxo do novo usuário. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Perguntas investigativas da Tarefa 2 (Criação de Eventos Presenciais — CF02), planejamento de sessões e alinhamento metodológico (#104) | 22/10/2026 | 03:30 - 04:00 | Nenhuma | Auditoria humana cruzada dos critérios e adequação ao fluxo de criação e publicação de eventos. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Perguntas investigativas da Tarefa 3 (Busca Avançada e Filtros Facetados), matriz de discrepâncias de HTA e revisão ética | 12/10/2026 | 04:00 - 04:30 | Nenhuma | Verificação da rastreabilidade das questões de busca e conformidade do TCLE. |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -25,7 +25,7 @@ A **Análise de Tarefas** (representada pela Análise Hierárquica de Tarefas �
 O presente documento estabelece o planejamento detalhado para a avaliação das três tarefas centrais do **Fórum Diolinux Plus** modeladas na Etapa 2, orientando-se estritamente para o papel de **Estudante / Usuário Aprendiz** (iniciante ou intermediário em Linux):
 
 - **Tarefa 1:** Criação e Publicação de Tópico de Dúvida Técnica com Tags e Markdown (autor: Vinicius Silva Araruna);
-- **Tarefa 2:** Cadastro e Onboarding do Novo Usuário com Discobot e Níveis de Confiança — Trust Levels (autor: Gustavo Antonio);
+- **Tarefa 2:** Criação de Eventos Presenciais da Comunidade — CF02 (autor: Gustavo Antonio);
 - **Tarefa 3:** Busca Avançada e Filtros Facetados de Categoria e Distribuição Linux (autor: Edvaldo Soares).
 
 ---
@@ -102,8 +102,8 @@ A Tabela 2 apresenta o desdobramento dos objetivos em perguntas investigativas e
 | **Tarefa 1: Publicação com Tags e Markdown** | **PT01** | Ao precisar tirar uma dúvida técnica sobre Linux, você costuma redigir o corpo da dúvida antes ou depois de escolher a categoria e as tags? | Avaliar se a ordem sequencial do Plano 0 da HTA (título → categoria → tags → redação) reflete o fluxo espontâneo do usuário. |
 | **Tarefa 1: Publicação com Tags e Markdown** | **PT02** | Quando você cola um comando ou log extenso do terminal, você utiliza a barra de ferramentas do editor ou atalhos de Markdown (como crases triplas)? | Confrontar os métodos alternativos modelados no CMN-GOMS e verificar o grau de conhecimento sobre blocos de código cercados. |
 | **Tarefa 1: Publicação com Tags e Markdown** | **PT03** | O painel lateral de sugestão de tópicos semelhantes durante a digitação do título é útil ou interfere na sua concentração? | Avaliar a operação 2.2 da HTA e a receptividade do estudante frente aos mecanismos de desduplicação do Discourse. |
-| **Tarefa 2: Cadastro e Onboarding Discobot** | **PT04** | Após criar a conta e ativá-la por e-mail, você prefere explorar o fórum imediatamente ou realizar o tutorial guiado do robô de boas-vindas? | Validar o ramo de escolha alternativa modelado na HTA (Operação 4.2 vs. 4.3) e no operador de escolha `[]` do CTT. |
-| **Tarefa 2: Cadastro e Onboarding Discobot** | **PT05** | Você consideraria aceitável ter o upload de imagens e anexos bloqueado nas primeiras 24 horas após criar a conta? | Avaliar a percepção do estudante sobre as restrições antispam de Trust Level 0 (TL0) dissecadas na Análise Documental. |
+| **Tarefa 2: Criação de Eventos Presenciais** | **PT04** | Ao cadastrar o local de um evento presencial, você prefere digitar o endereço completo ou utilizar o mapa interativo para ajustar o marcador? | Validar a flexibilidade do Plano 3 da HTA (Operação 3.1 vs. 3.2) e a usabilidade da integração de mapas. |
+| **Tarefa 2: Criação de Eventos Presenciais** | **PT05** | Em relação aos ingressos e vagas, as opções de modalidade (gratuito vs. pago com rateio) e a definição de lotação máxima ficaram claras? | Avaliar a percepção do usuário sobre o controle de capacidade física e a configuração de taxas na etapa 4 da HTA. |
 | **Tarefa 3: Busca Avançada e Filtros** | **PT06** | Ao buscar solução para uma falha no Linux (ex.: problema de Wi-Fi), quais informações você busca primeiro na listagem de resultados? | Verificar a relevância atribuída a títulos, tags, data de postagem e ao badge de 'Solução Aceita' na HTA. |
 | **Tarefa 3: Busca Avançada e Filtros** | **PT07** | Se a busca retornar muitos resultados genéricos, você costuma refinar os termos ou utilizar filtros de categoria e distribuição? | Avaliar a decisão de transição entre o Método de Busca Direta e o Método de Filtros Facetados no modelo GOMS. |
 | **Geral / Modelo Mental** | **PT08** | Há alguma etapa no fluxo de realização dessas tarefas que parece desnecessária, confusa ou que está faltando? | Identificar operações atômicas ausentes na modelagem hierárquica ou passos que violam expectativas de usabilidade. |
@@ -200,7 +200,7 @@ A Tabela 4 apresenta o modelo formal que será utilizado no documento de consoli
 | ID da Discrepância | Tarefa Avaliada | Elemento da HTA (Objetivo / Operação / Plano) | Descrição da Divergência com o Modelo Mental | Impacto na Eficiência do Usuário | Proposta de Reestruturação do Modelo de Tarefas |
 | :---: | :--- | :--- | :--- | :---: | :--- |
 | **DISC-HTA-01** | Tarefa 1 (Markdown e Tags) | Plano 0 (Sequência 1 a 5) | Exemplo: Usuário redige texto antes de preencher categoria/tags. | Médio | Flexibilizar Plano 0 para permitir ordem livre entre os passos 2, 3 e 4. |
-| **DISC-HTA-02** | Tarefa 2 (Cadastro e Onboarding) | Operação 4.2 (Tutorial Discobot) | Exemplo: Participante desconhece a relação entre o Discobot e os Trust Levels. | Alto | Inserir feedback visual explícito relacionando o tutorial aos privilégios de TL1. |
+| **DISC-HTA-02** | Tarefa 2 (Criação de Eventos Presenciais) | Operação 3.2 (Ajuste no Mapa) | Exemplo: Participante teve dificuldade em posicionar o pin sem o campo de busca. | Médio | Tornar obrigatório o preenchimento prévio do endereço para centralizar o mapa. |
 | **DISC-HTA-03** | Tarefa 3 (Busca e Filtros) | Operação 2.2 (Filtros Avançados) | Exemplo: Usuário tenta digitar filtro de distro direto no campo simples. | Médio | Modelar suporte a operadores inline de busca (ex.: `distro:mint`). |
 
 _Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021), 2026._
@@ -217,7 +217,7 @@ A Tabela 5 apresenta a autoavaliação da conformidade do planejamento da avalia
 | :---: | :--- | :--- | :---: | :--- |
 | **CHK-AT-01** | O planejamento da avaliação fundamenta-se nas seis etapas do Framework DECIDE? | Preece et al. (2002); Barbosa & Silva (2021, p. 280) | ✅ Sim | As Seções 3 a 8 deste documento operacionalizam explicitamente as etapas D, E, C, I, D e E. |
 | **CHK-AT-02** | O artefato apresenta fundamentação teórica com linha formal de autoria e print do livro canônico? | Padrão Pedagógico FGA/UnB (*Sales, 2026*) | ✅ Sim | A Seção 2 apresenta fundamentação, linha de autoria de Vinicius Silva Araruna e a Figura 1 com evidência imagética. |
-| **CHK-AT-03** | As três tarefas centrais do projeto (Markdown/Tags, Onboarding/Discobot e Busca) são contempladas? | Diretrizes de IHC da Equipe | ✅ Sim | A Tabela 2 estrutura perguntas investigativas específicas para as Tarefas 1, 2 e 3 modeladas na Etapa 2. |
+| **CHK-AT-03** | As três tarefas centrais do projeto (Markdown/Tags, Criação de Eventos Presenciais e Busca) são contempladas? | Diretrizes de IHC da Equipe | ✅ Sim | A Tabela 2 estrutura perguntas investigativas específicas para as Tarefas 1, 2 e 3 modeladas na Etapa 2. |
 | **CHK-AT-04** | O método de avaliação selecionado combina entrevista com percurso guiado de tarefas (*Walkthrough*)? | Mayhew (1999); Barbosa & Silva (2021) | ✅ Sim | A Seção 5 detalha a condução da sessão com inspeção passo a passo dos subobjetivos da HTA. |
 | **CHK-AT-05** | O público-alvo dos testes respeita os critérios do papel central de Estudante / Aprendiz em Linux? | Perfil de Usuário do Projeto | ✅ Sim | A Seção 6.1 restringe os participantes a estudantes de graduação iniciantes/intermediários. |
 | **CHK-AT-06** | O documento inclui o Script Oral Literal de leitura prévia do TCLE nos primeiros 60 segundos gravados? | Resolução CNS nº 510/2016; Diretrizes da Disciplina | ✅ Sim | A Seção 7 transcreve o texto literal em destaque com a solicitação obrigatória de consentimento gravado. |
@@ -236,6 +236,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 12/10/2026 | Elaboração inicial do Planejamento da Avaliação da Análise de Tarefas estruturado no Framework DECIDE, cobrindo objetivos, perguntas investigativas das Tarefas 1, 2 e 3 (Tabela 2), questões práticas, script oral do TCLE, modelo de discrepâncias de HTA (Tabela 4) e checklist com 7 itens (Issue #56). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 22/10/2026 | Atualização das Tabelas 1, 2 e 4 alinhando a Tarefa 2 à Criação de Eventos Presenciais (CF02), com reformulação das perguntas PT04 e PT05. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

@@ -5,7 +5,7 @@
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Acompanhamento e validação das datas reais de execução](#entrega-1-planejamento-do-projeto) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Registro da avaliação e gravação do Grupo 07 (Etapa 2)](#entrega-2-perfil-do-usuario-aspectos-eticos-e-analise-de-tarefas) | 28/09/2026 | Suporte na estruturação Markdown e tabelas |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Registro da Etapa 2 e atualização do cronograma executado da Entrega 5 com teste-piloto (22/10), storyboard (23/10) e avaliação (23/10) (#104)](#entrega-5-relato-dos-resultados-do-storyboard-e-tarefas-planejamento-do-prototipo-de-papel) | 22/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início e padronização ABNT](#introducao) | 05/09/2026 | — |
 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Registro e consolidação das datas reais de execução (Ação 15)](#entrega-1-planejamento-do-projeto) | 05/09/2026 | — |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Inclusão da avaliação técnica e vídeo do Grupo 07 na Entrega 2](#entrega-2-perfil-do-usuario-aspectos-eticos-e-analise-de-tarefas) | 28/09/2026 | Suporte na estruturação Markdown e tabelas |

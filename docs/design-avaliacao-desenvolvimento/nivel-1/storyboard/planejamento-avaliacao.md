@@ -9,7 +9,7 @@ A distribuição de responsabilidades na concepção metodológica, desdobrament
 | Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA | Propósito do Uso de IA |
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Concepção metodológica, fundamentação do Framework DECIDE (Barbosa & Silva, 2021), elaboração das perguntas investigativas da Tarefa 1, script oral do TCLE e checklist | 12/10/2026 | 02:00 - 03:30 | Claude / Gemini | Apoio na organização sintática de tabelas Markdown e padronização visual. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Perguntas investigativas da Tarefa 2 (Onboarding e Discobot), planejamento de infraestrutura e revisão por pares | 12/10/2026 | 03:30 - 04:00 | Nenhuma | Auditoria humana cruzada dos critérios e adequação ao perfil de novo usuário. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Perguntas investigativas da Tarefa 2 (Criação de Eventos Presenciais — CF02), planejamento de infraestrutura e alinhamento metodológico (#104) | 22/10/2026 | 03:30 - 04:00 | Nenhuma | Auditoria humana cruzada dos critérios e adequação ao perfil de organizador da comunidade. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Perguntas investigativas da Tarefa 3 (Busca Avançada e Filtros), matriz de consolidação qualitativa e revisão ética | 12/10/2026 | 04:00 - 04:30 | Nenhuma | Verificação da rastreabilidade das questões de busca e conformidade do TCLE. |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
@@ -95,8 +95,8 @@ Com base nos quatro objetivos gerais fixados, a Tabela 2 apresenta o desdobramen
 | **Apropriação e Verossimilhança** | **P02** | As reações, falas e comportamentos do personagem ao longo dos quadros soam naturais para um estudante? | Verificar se o perfil da persona expressa linguagem e frustrações realistas, sem artificialidade ou excesso de formalismo. |
 | **Estrutura Narrativa** | **P03** | A sequência de acontecimentos entre o primeiro e o último quadro está clara e fácil de acompanhar? | Identificar se há rupturas no fluxo temporal ou passagens de cena que exigem explicação verbal externa do entrevistador. |
 | **Estrutura Narrativa** | **P04** | Os elementos visuais (expressões dos personagens, telas de computador, balões de texto e legendas) são legíveis e autoexplicativos? | Avaliar a eficácia da comunicação gráfica, composição dos quadros e contraste das ilustrações. |
-| **Problemas de Interação** | **P05** | A forma como o personagem resolve sua dúvida no Fórum Diolinux Plus corresponde ao que você esperaria fazer no sistema real? | Confrontar a solução retratada com o modelo mental do usuário frente aos recursos do Discourse (tags, formatação, busca e onboarding). |
-| **Problemas de Interação** | **P06** | Houve alguma etapa na história que pareceu forçada, desnecessária ou que omitiu um passo essencial da tarefa? | Mapear lacunas operacionais nas três tarefas modeladas (Markdown/Tags, Discobot/Trust Level ou Busca/Filtros). |
+| **Problemas de Interação** | **P05** | A forma como o personagem resolve sua dúvida no Fórum Diolinux Plus corresponde ao que você esperaria fazer no sistema real? | Confrontar a solução retratada com o modelo mental do usuário frente aos recursos do Discourse (tags, formatação, busca e criação de eventos presenciais). |
+| **Problemas de Interação** | **P06** | Houve alguma etapa na história que pareceu forçada, desnecessária ou que omitiu um passo essencial da tarefa? | Mapear lacunas operacionais nas três tarefas modeladas (Markdown/Tags, Criação de Eventos Presenciais ou Busca/Filtros). |
 | **Oportunidades de Design** | **P07** | O desfecho da narrativa representou uma resolução satisfatória para a necessidade do personagem? | Averiguar se a intervenção proposta pela equipe proporciona percepção positiva de utilidade e eficácia. |
 | **Oportunidades de Design** | **P08** | Que funcionalidade ou elemento de interface você acrescentaria ou modificaria para tornar essa interação mais ágil e intuitiva? | Elicitar requisitos refinados de design para os futuros protótipos de baixa e alta fidelidade. |
 
@@ -198,7 +198,7 @@ A Tabela 4 apresenta o modelo formal que será utilizado no documento de consoli
 | ID do Problema | Storyboard / Tarefa | Quadro Afetado | Descrição do Problema de Usabilidade | Gravidade Heurística (Leve / Média / Grave) | Recomendação de Reprojeto para a Equipe |
 | :---: | :--- | :---: | :--- | :---: | :--- |
 | **PROB-ST-01** | Tarefa 1 (Markdown e Tags) | Quadro 3 | Exemplo: Usuário não entendeu por que o código de terminal quebrou ao ser colado. | Média | Adicionar no balão de fala menção explícita à ausência de delimitadores de código. |
-| **PROB-ST-02** | Tarefa 2 (Onboarding Discobot) | Quadro 4 | Exemplo: Participante considerou o tutorial do Discobot demorado e invasivo. | Grave | Incluir opção de atalho visual para 'Pular tutorial' mantendo os privilégios de TL1. |
+| **PROB-ST-02** | Tarefa 2 (Criação de Eventos Presenciais) | Quadro 6 | Exemplo: Participante considerou confusa a transição entre o endereço digitado e o pin do mapa. | Média | Inserir campo de autocompletar e botão explícito 'Recentralizar mapa'. |
 | **PROB-ST-03** | Tarefa 3 (Busca Avançada) | Quadro 2 | Exemplo: Participante esperava filtros automáticos por versão da distro Linux. | Leve | Exibir filtro de versão destacado na interface de busca do storyboard. |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho com base em Barbosa e Silva (2021), 2026._
@@ -238,6 +238,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 12/10/2026 | Elaboração inicial do Planejamento da Avaliação do Storyboard estruturado no Framework DECIDE, contendo objetivos, perguntas investigativas (Tabela 2), questões práticas, script oral literal do TCLE e modelo de consolidação (Tabela 4). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 13/10/2026 | Expansão da Lista de Verificação da Técnica (Tabela 5) para 10 itens normativos, incorporação dos critérios de Scott Klemmer (Setting, Sequence, Satisfaction e duração ágil de ~10 min), teste-piloto, severidade de Nielsen e saneamento de fontes nominais. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 22/10/2026 | Atualização das Tabelas 1, 2 e 4 alinhando a Tarefa 2 e Storyboard 2 exclusivamente à Criação de Eventos Presenciais (CF02). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 

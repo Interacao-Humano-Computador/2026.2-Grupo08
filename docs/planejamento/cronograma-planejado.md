@@ -5,7 +5,7 @@
 | Integrante | Contribuição | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão e validação dos prazos e distribuição de tarefas das etapas 1 a 8](#historico-de-versao) | 06/09/2026 | — |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação inicial da tabela da Entrega 1](#etapa-1-planejamento-do-projeto-e-processo-de-design) | 04/09/2026 | — |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação inicial da Entrega 1 e atualização do cronograma da Etapa 5 com teste-piloto (22/10), storyboard (23/10) e avaliação (23/10) (#104)](#etapa-5-relato-do-storyboardtarefas-e-planejamento-do-prototipo-de-papel) | 22/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT](#referencias-bibliograficas) | 05/09/2026 | — |
 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Acompanhamento e validação de datas da disciplina](#historico-de-versao) | 05/09/2026 | — |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa do cronograma e adequação da Etapa 2 à matriz do professor e equipe de 3 membros](#etapa-2-perfil-do-usuario-aspectos-eticos-e-analise-de-tarefas) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |

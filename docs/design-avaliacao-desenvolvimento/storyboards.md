@@ -1,5 +1,12 @@
 # Storyboards da Equipe
 
+## Tabela de Contribuição e Transparência de IA Generativa
+
+| Integrante | Atribuição no Artefato | Data | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
+| :--- | :--- | :---: | :---: | :--- | :--- |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Elaboração do Storyboard 2 (Criação de Eventos Presenciais — CF02) fundamentado no Guia OCR e Barbosa & Silva (2021) | 22/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Gemini | Suporte na estruturação e formatação tabular do roteiro de cenas em Markdown. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Elaboração do Storyboard 3 (Busca Avançada e Filtros de Categoria por Estudante) | 13/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | — | Elaboração e validação de conteúdo. |
+
 Este documento reúne os storyboards desenvolvidos pelo Grupo 08 para a representação contextual e visual dos fluxos de interação dos usuários no sistema.
 
 ---
@@ -78,3 +85,32 @@ A Tabela 1 apresenta a decomposição sequencial quadro a quadro, detalhando o c
 > **Legenda**: Representa a sequência de quadros da tarefa de busca avançada com filtros de categoria, conforme descrita na Issue #64.
 
 ![Storyboard (300 DPI)](assets/storyboards/storyboard_busca_avancada.png)
+
+---
+
+## Histórico de Versão
+
+A Tabela 3 documenta o histórico evolutivo dos storyboards da equipe.
+
+**Tabela 3** — Histórico de Versão
+
+| Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :--- | :--- |
+| `1.0` | 13/10/2026 | Inclusão do Storyboard 3 (Busca Avançada e Filtros de Categoria por Estudante). | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.1` | 22/10/2026 | Inclusão do roteiro canônico do Storyboard 2 (Criação e Publicação de Eventos Presenciais da Comunidade — CF02) baseado no Guia OCR e Barbosa & Silva, iniciando no mundo real e preparando a versão manual em papel (300 DPI). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+
+---
+
+## Referências Bibliográficas
+
+[1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier / Campus, 2010.
+
+[2] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
+
+[3] OCR. *The OCR Guide to Storyboards (Skills Guide Version 2)*. Cambridge: Oxford Cambridge and RSA Examinations, 2020.
+
+---
+
+## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+
+Durante a organização do roteiro e tabelas deste documento, utilizou-se suporte supervisionado de Inteligência Artificial Generativa (LLM) exclusivamente para estruturação sintática de Markdown e alinhamento visual de colunas. As narrativas de uso, definições de personas e decisões de interface foram concebidas e validadas pelos discentes autores.
