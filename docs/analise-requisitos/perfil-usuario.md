@@ -108,7 +108,7 @@ _Fonte: Elaborada por Vinicius Silva Araruna, 2026. Consolidada com dados de ent
 
 ---
 
-### 4.2 Perfil 2 — Moderador (Guardião da Comunidade) <a id="perfil-2-usuario-iniciante-migracao-windows-linux"></a>
+### 4.2 Perfil 2 — Moderador (Guardião da Comunidade) <a id="perfil-2-usuario-iniciante-migracao-windows-linux"></a><a id="perfil-2-usuario-iniciante-migracao-windowslinux"></a>
 
 - **Autor principal:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
 - **Revisor:** [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)

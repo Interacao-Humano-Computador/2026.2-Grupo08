@@ -99,7 +99,7 @@ Conforme detalhado na Tabela 3, Carlos valoriza fluxos de cadastro sem atrito, f
 
 ---
 
-## Persona 3: Mariana Ribeiro, a Pesquisadora Autônoma (Persona Secundária)
+## Persona 3: Mariana Ribeiro, a Pesquisadora Autônoma (Persona Secundária) <a id="persona-3-usuario-pesquisador-autonomo-persona-secundaria"></a>
 
 - **Autor Principal**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 - **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
