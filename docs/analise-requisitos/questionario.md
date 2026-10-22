@@ -40,6 +40,8 @@ A Figura 1 comprova o referencial teórico de Barbosa e Silva (2010/2021) sobre 
 
 **Figura 1** — Trecho do livro de Barbosa e Silva detalhando a técnica de Questionários. _Fonte: Barbosa e Silva (2010, p. 138)._
 
+> **Autor do Item Teórico:** [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisores:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) e [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
+
 ---
 
 ## 3. Aspectos Éticos e Termo de Consentimento (TCLE)
@@ -68,17 +70,17 @@ A inclusão na amostra esteve condicionada à concordância explícita na pergun
 
 ## 5. Questões Aplicadas e Resultados Estatísticos
 
-A seguir são apresentadas fielmente as questões aplicadas aos voluntários, acompanhadas das tabelas de distribuição de frequências absolutas ($n$) e percentuais relativas ($\%$) e gráficos ilustrativos.
+A seguir são apresentadas fielmente as questões aplicadas aos voluntários, acompanhadas das tabelas de distribuição de frequências absolutas (n) e percentuais relativas (%) e gráficos ilustrativos.
 
 ### 5.1 Bloco 1: Perfil Demográfico e Acadêmico
 
 #### Questão 1 — Faixa Etária
 
-A Tabela 2 apresenta a distribuição etária dos participantes da pesquisa.
+A Tabela 2 apresenta a distribuição etária dos participantes da pesquisa, e a Figura 2 ilustra visualmente a distribuição percentual da amostra por faixas etárias.
 
 **Tabela 2** — Distribuição da Faixa Etária dos Respondentes
 
-| Opção de Resposta | Frequência Absoluta ($n$) | Frequência Relativa ($\%$) |
+| Opção de Resposta | Frequência Absoluta (n) | Frequência Relativa (%) |
 | :--- | :---: | :---: |
 | Menor de 18 anos | 0 | 0,0% |
 | Entre 18 e 24 anos | 25 | 65,8% |
@@ -97,6 +99,8 @@ xychart-beta
     bar [0, 65.8, 26.3, 5.3, 2.6]
 ```
 
+**Figura 2** — Distribuição por Faixa Etária dos Respondentes (N = 38). _Fonte: Elaborada pelos autores, 2026._
+
 ---
 
 #### Questão 2 — Ocupação Principal e Grau de Instrução
@@ -105,7 +109,7 @@ A Tabela 3 apresenta o perfil ocupacional e o nível educacional declarado.
 
 **Tabela 3** — Ocupação Principal e Nível Educacional
 
-| Opção de Resposta | Frequência Absoluta ($n$) | Frequência Relativa ($\%$) |
+| Opção de Resposta | Frequência Absoluta (n) | Frequência Relativa (%) |
 | :--- | :---: | :---: |
 | Estudante de Graduação / Ensino Superior (TI, Engenharias ou áreas afins) | 28 | 73,7% |
 | Profissional da Área de Tecnologia (Desenvolvedor, DevOps, Suporte, Sysadmin) | 7 | 18,4% |
@@ -121,11 +125,11 @@ _Fonte: Elaborada pelos autores, 2026._
 
 #### Questão 3 — Tempo de Experiência com Sistemas Operacionais Linux
 
-A Tabela 4 detalha o tempo de contato e utilização do sistema operacional Linux.
+A Tabela 4 detalha o tempo de contato e utilização do sistema operacional Linux, e a Figura 3 apresenta visualmente a distribuição do tempo de experiência dos participantes.
 
 **Tabela 4** — Tempo de Experiência com Sistemas Linux
 
-| Opção de Resposta | Frequência Absoluta ($n$) | Frequência Relativa ($\%$) |
+| Opção de Resposta | Frequência Absoluta (n) | Frequência Relativa (%) |
 | :--- | :---: | :---: |
 | Iniciante (menos de 6 meses) | 5 | 13,2% |
 | Básico / Intermediário (entre 6 meses e 2 anos) | 15 | 39,5% |
@@ -143,6 +147,8 @@ xychart-beta
     bar [13.2, 39.5, 28.9, 18.4]
 ```
 
+**Figura 3** — Tempo de Experiência com Sistemas Linux (N = 38). _Fonte: Elaborada pelos autores, 2026._
+
 ---
 
 #### Questão 4 — Família de Distribuição Linux Mais Utilizada
@@ -151,7 +157,7 @@ A Tabela 5 consolida a distribuição adotada prioritariamente pelos participant
 
 **Tabela 5** — Distribuição Linux Primária
 
-| Opção de Resposta | Frequência Absoluta ($n$) | Frequência Relativa ($\%$) |
+| Opção de Resposta | Frequência Absoluta (n) | Frequência Relativa (%) |
 | :--- | :---: | :---: |
 | Base Debian / Ubuntu (Ubuntu, Linux Mint, Pop!_OS, Zorin OS, Debian) | 22 | 57,9% |
 | Base Fedora / Red Hat (Fedora Workstation, RHEL, CentOS) | 8 | 21,1% |
@@ -169,7 +175,7 @@ A Tabela 6 sintetiza a autoavaliação dos respondentes quanto à sua predisposi
 
 **Tabela 6** — Atitude Tecnológica Declarada
 
-| Opção de Resposta | Classificação IHC | Frequência Absoluta ($n$) | Frequência Relativa ($\%$) |
+| Opção de Resposta | Classificação IHC | Frequência Absoluta (n) | Frequência Relativa (%) |
 | :--- | :--- | :---: | :---: |
 | "Aprecio tecnologia e a utilizo como meio prático para realizar tarefas e resolver problemas diários" | **Tecnófilo Pragmático** | 24 | 63,2% |
 | "Sou entusiasta de novidades; gosto de explorar recursos avançados, customizar interfaces e compilar programas" | **Tecnófilo Explorador** | 12 | 31,6% |
@@ -188,7 +194,7 @@ A Tabela 7 mapeia o enquadramento do participante com os papéis funcionais mode
 
 **Tabela 7** — Papel Funcional em Comunidades e Fóruns Web
 
-| Opção de Resposta | Papel Funcional Equivalente | Frequência Absoluta ($n$) | Frequência Relativa ($\%$) |
+| Opção de Resposta | Papel Funcional Equivalente | Frequência Absoluta (n) | Frequência Relativa (%) |
 | :--- | :--- | :---: | :---: |
 | "Acesso principalmente para pesquisar soluções de erros e ler tópicos informativos criados por terceiros" | **Estudante / Consumidor de Suporte** | 29 | 76,3% |
 | "Crio tópicos com dúvidas frequentes, compartilho scripts e interajo respondendo mensagens de colegas" | **Usuário Ativo / Colaborador** | 6 | 15,8% |
@@ -205,7 +211,7 @@ A Tabela 8 apresenta a percepção de facilidade ou barreira com a sintaxe Markd
 
 **Tabela 8** — Percepção sobre Formatação em Markdown
 
-| Opção de Resposta | Frequência Absoluta ($n$) | Frequência Relativa ($\%$) |
+| Opção de Resposta | Frequência Absoluta (n) | Frequência Relativa (%) |
 | :--- | :---: | :---: |
 | "Já enfrentei dificuldades ou erros visuais ao tentar formatar códigos de terminal, logs extensos ou imagens" | 18 | 47,4% |
 | "Consigo formatar o básico, mas acho demorado alternar entre botões e sintaxe de teclado sem prévia clara" | 12 | 31,6% |
@@ -222,7 +228,7 @@ A Tabela 9 documenta a interação dos respondentes com o bot educativo do Disco
 
 **Tabela 9** — Engajamento com o Onboarding Guiado (*Discobot*)
 
-| Opção de Resposta | Frequência Absoluta ($n$) | Frequência Relativa ($\%$) |
+| Opção de Resposta | Frequência Absoluta (n) | Frequência Relativa (%) |
 | :--- | :---: | :---: |
 | "Ignorei o tutorial por mensagem privada para ir direto ao fórum procurar a informação que eu precisava" | 20 | 52,6% |
 | "Iniciei ou concluí o tutorial e considerei uma experiência útil para aprender recursos da interface" | 11 | 28,9% |
@@ -235,11 +241,11 @@ _Fonte: Elaborada pelos autores, 2026._
 
 #### Questão 9 — Tarefa 3: Principais Frustrações com a Busca do Fórum
 
-A Tabela 10 consolida o principal gargalo de usabilidade vivenciado pelos usuários ao pesquisar informações no fórum.
+A Tabela 10 consolida o principal gargalo de usabilidade vivenciado pelos usuários ao pesquisar informações no fórum, e a Figura 4 sintetiza visualmente a distribuição relativa dessas dificuldades.
 
 **Tabela 10** — Principal Ponto de Dor na Tarefa de Busca
 
-| Opção de Resposta | Frequência Absoluta ($n$) | Frequência Relativa ($\%$) |
+| Opção de Resposta | Frequência Absoluta (n) | Frequência Relativa (%) |
 | :--- | :---: | :---: |
 | "Localizar soluções antigas/obsoletas que contêm comandos incompatíveis com distribuições atuais" | 19 | 50,0% |
 | "Dificuldade em acertar as palavras-chave exatas cadastradas no título dos tópicos" | 10 | 26,3% |
@@ -256,6 +262,8 @@ xychart-beta
     y-axis "Porcentagem (%)" 0 --> 60
     bar [50.0, 26.3, 18.4, 5.3]
 ```
+
+**Figura 4** — Principal Ponto de Dor na Busca do Fórum (N = 38). _Fonte: Elaborada pelos autores, 2026._
 
 ---
 
@@ -301,7 +309,7 @@ A Tabela 12 apresenta o checklist de autoavaliação preenchido pela equipe para
 | **1** | A técnica de questionário está fundamentada conceitualmente na literatura canônica de IHC? | Barbosa & Silva (2021); Mayhew (1999) | **Sim** | A Seção 2 detalha as características da técnica e faz referência à obra clássica de Barbosa e Silva. |
 | **2** | Os aspectos éticos da pesquisa foram respeitados com termo de consentimento prévio (TCLE)? | Resolução CNS nº 510/2016 | **Sim** | A Seção 3 comprova a inclusão do TCLE obrigatório no início do formulário com 100% de aceite voluntário. |
 | **3** | Todas as questões aplicadas no formulário estão fielmente reproduzidas no artefato? | Critério de Aceite da Issue #33 | **Sim** | A Seção 5 documenta detalhadamente as 10 perguntas formuladas, opções de escolha e métricas. |
-| **4** | Foram disponibilizadas tabelas de frequências absolutas e relativas para todos os itens? | Estatística Descritiva / Engenharia de Usabilidade | **Sim** | As Tabelas 2 a 10 apresentam os dados absolutos ($n$) e relativos ($\%$) com $N=38$. |
+| **4** | Foram disponibilizadas tabelas de frequências absolutas e relativas para todos os itens? | Estatística Descritiva / Engenharia de Usabilidade | **Sim** | As Tabelas 2 a 10 apresentam os dados absolutos (n) e relativos (%) com N = 38. |
 | **5** | O artefato apresenta gráficos estatísticos para apoiar a leitura visual dos dados? | Diretrizes Pedagógicas de IHC | **Sim** | Foram elaborados gráficos em formato Mermaid para faixas etárias, tempo de Linux e dores de busca. |
 | **6** | Foi realizada uma análise interpretativa dos dados estatísticos cruzando com os perfis de usuário? | Barbosa & Silva (2021) | **Sim** | A Seção 6 correlaciona os achados quantitativos diretamente com as características dos 3 perfis funcionais. |
 | **7** | Foram derivados requisitos de IHC com método explícito de priorização? | Engenharia de Requisitos | **Sim** | A Tabela 11 estabelece os requisitos derivados classificados pelo método MoSCoW. |
@@ -318,7 +326,8 @@ A Tabela 13 registra o histórico de elaboração e evolução deste documento.
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 09/10/2026 | **Criação e Consolidação do Artefato (Issue #33)**: Estruturação metodológica, fundamentação ética com TCLE, reprodução integral das questões aplicadas, tabulação estatística com frequências ($N=38$), geração de gráficos visuais, análise interpretativa cruzada com perfis funcionais, elicitação de requisitos com MoSCoW e lista de verificação. | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Revisão Cruzada por Pares |
+| `1.0` | 09/10/2026 | **Criação e Consolidação do Artefato (Issue #33)**: Estruturação metodológica, fundamentação ética com TCLE, reprodução integral das questões aplicadas, tabulação estatística com frequências (N = 38), geração de gráficos visuais, análise interpretativa cruzada com perfis funcionais, elicitação de requisitos com MoSCoW e lista de verificação. | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Revisão Cruzada por Pares |
+| `1.1` | 21/10/2026 | Saneamento tipográfico UTF-8 (remoção de delimitadores LaTeX crus), inclusão de chamadas e legendas formais das Figuras 2, 3 e 4 e inclusão da linha de autoria teórica em atendimento ao parecer de revisão do PR #73 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
