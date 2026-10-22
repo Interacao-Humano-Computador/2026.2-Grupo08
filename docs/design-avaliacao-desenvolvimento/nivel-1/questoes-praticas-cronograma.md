@@ -35,6 +35,14 @@ O recrutamento dos voluntários será conduzido nos ambientes acadêmicos da **U
 2. **Abordagem Direta:** Convite formal a discentes que cursam disciplinas com laboratórios de sistemas operacionais baseados em Linux;
 3. **Imparcialidade:** É critério mandatório que nenhum dos participantes convidados tenha qualquer participação no desenvolvimento do projeto de IHC do Grupo 08 ou nas decisões prévias de design da equipe.
 
+#### Script Literal de Abordagem e Convite aos Participantes
+
+Para assegurar transparência, padronização e respeito à autonomia discente, a equipe utiliza a seguinte mensagem padronizada nos contatos de recrutamento:
+
+> *"Olá! Somos discentes da Universidade de Brasília (FGA/UnB) conduzindo um estudo acadêmico de Interação Humano-Computador sob orientação do Prof. Dr. André Barros de Sales, focado na avaliação da experiência de uso do **Fórum Diolinux Plus** (Discourse) por estudantes que utilizam sistemas Linux.*  
+> *Gostaríamos de convidá-lo(a) a participar de uma sessão remota rápida (cerca de 25 minutos) via Google Meet. A atividade é voluntária, consiste na leitura de uma história em quadrinhos (storyboard) e no percurso conceitual de tarefas da interface, sem testes de conhecimento técnico ou pegadinhas.*  
+> *A sessão é gravada exclusivamente para fins acadêmicos e preservará seu anonimato, mediante leitura prévia do Termo de Consentimento Livre e Esclarecido (TCLE). Caso tenha interesse em nos apoiar, por gentileza nos informe seus horários de preferência entre 19 e 21 de outubro."*
+
 ### 2.2 Perfil dos Participantes
 
 O perfil dos voluntários está estritamente alinhado ao **Perfil 1: Estudante / Usuário Comum em Busca de Suporte** e à persona primária **Lucas Mendonça**, elicitados no projeto:
@@ -146,7 +154,7 @@ A execução empírica foi dividida em duas etapas consecutivas: a realização 
 
 ### 8.1 Cronograma do Teste-Piloto
 
-Conforme exigido pelo Plano de Ensino da disciplina (Itens 11 e 12), o teste-piloto será realizado previamente para validar os equipamentos, a temporização do TCLE e a clareza do roteiro.
+Conforme exigido pelo Plano de Ensino da disciplina (Itens 11 e 12), o teste-piloto será realizado previamente para validar os equipamentos, a temporização do TCLE e a clareza do roteiro. A Tabela 4 apresenta o cronograma detalhado para a execução do Teste-Piloto de Nível 1.
 
 **Tabela 4** — Cronograma do Teste-Piloto de Nível 1
 
@@ -192,11 +200,31 @@ _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soar
 
 ---
 
+### 8.4 Cronograma Executado e Esteira de Pós-Processamento da Avaliação
+
+Para garantir o rigor no encadeamento das atividades e atender à diretriz pedagógica da disciplina (aula de 15/10/2026), a Tabela 7 documenta a esteira integrada de execução, pós-processamento de dados e elaboração dos relatos de resultados até o prazo fatal de 25 de outubro de 2026.
+
+**Tabela 7** — Cronograma Executado e Esteira de Pós-Processamento e Relatos (17/10 a 25/10)
+
+| Fase / Atividade | Período / Data | Horário | Responsável(is) | Entregável / Registro Formal | Status |
+| :--- | :---: | :---: | :--- | :--- | :---: |
+| **Ensaio Geral (Teste-Piloto)** | 17/10/2026 | 14:00 - 15:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (Condutor), [Gustavo Antonio](https://github.com/gus-ant) (Anotador) | Calibração de tempo, validação do TCLE e relatório interno de ajustes pós-teste (dados isolados e não computados). | 🟡 Agendado |
+| **Sessão Oficial 01 (S01 / T01)** | 19/10/2026 | 14:00 - 15:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (Condutor), [Gustavo Antonio](https://github.com/gus-ant) (Anotador) | Gravação do consentimento verbal TCLE, avaliação do Storyboard 1 e percurso da Tarefa 1 (Markdown e Tags) com Participante 1. | 🟡 Agendado |
+| **Sessão Oficial 02 (S02 / T02)** | 20/10/2026 | 15:00 - 16:00 | [Gustavo Antonio](https://github.com/gus-ant) (Condutor), [Vinicius Silva Araruna](https://github.com/ViniciusA05) (Anotador) | Gravação do consentimento verbal TCLE, avaliação do Storyboard 2 e percurso da Tarefa 2 (Onboarding Discobot) com Participante 2. | 🟡 Agendado |
+| **Sessão Oficial 03 (S03 / T03)** | 21/10/2026 | 16:00 - 17:00 | [Edvaldo Soares](https://github.com/PajeMurici-dev) (Condutor), [Gustavo Antonio](https://github.com/gus-ant) (Anotador) | Gravação do consentimento verbal TCLE, avaliação do Storyboard 3 e percurso da Tarefa 3 (Busca e Filtros) com Participante 3. | 🟡 Agendado |
+| **Tabulação e Pós-Processamento** | 22/10 a 23/10/2026 | Integral | Todos os integrantes | Consolidação das planilhas de observação comportamental (`observacao-avaliador.csv`) e matriz de discrepâncias de HTA. | ⚪ Planejado |
+| **Análise de Severidade (Nielsen)** | 24/10/2026 | 14:00 - 18:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Classificação heurística de gravidade dos problemas de usabilidade encontrados na escala canônica de 0 a 4 de Nielsen (1994). | ⚪ Planejado |
+| **Redação Final e Publicação dos Relatos** | 25/10/2026 | Até 23:59 | Todos os integrantes | Publicação dos artefatos oficiais `storyboard/relato-resultados.md` e `analise-tarefas/relato-resultados.md` com propostas de redesign. | ⚪ Planejado |
+
+_Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
+
+---
+
 ## 9. Lista de Verificação da Técnica (Questões Práticas e Cronograma)
 
-A Tabela 7 apresenta o checklist de conformidade frente aos critérios avaliativos da disciplina.
+A Tabela 8 apresenta o checklist de conformidade frente aos critérios avaliativos da disciplina.
 
-**Tabela 7** — Lista de Verificação das Questões Práticas e Cronograma
+**Tabela 8** — Lista de Verificação das Questões Práticas e Cronograma
 
 | Item / Critério Avaliado | Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Documento |
 | :---: | :--- | :---: | :--- |
@@ -207,7 +235,7 @@ A Tabela 7 apresenta o checklist de conformidade frente aos critérios avaliativ
 | **5** | Há declaração orçamentária demonstrando os custos envolvidos? | Plano de Ensino (Item 5) | ✅ Sim | A Tabela 2 apresenta o demonstrativo orçamentário formal comprovando Custo Zero (R$ 0,00). |
 | **6** | Os papéis de mão de obra da equipe de avaliação foram claramente divididos? | Barbosa & Silva (2021); DECIDE | ✅ Sim | A Seção 6 divide expressamente as funções entre Entrevistador Principal e Observador/Anotador. |
 | **7** | A Tabela 12.9 de Barbosa & Silva foi adaptada contendo a 3ª coluna de tarefas da equipe? | Diretriz do Professor (Aula 13/10); Barbosa & Silva (2021) | ✅ Sim | A Tabela 3 inclui a terceira coluna detalhando a operacionalização prática da equipe em cada atividade. |
-| **8** | Há cronograma detalhado de datas, horários e locais para Storyboard e Análise de Tarefas? | Plano de Ensino (Item 8) | ✅ Sim | As Tabelas 5 e 6 especificam as sessões completas S01 a S03 e T01 a T03 com links do Google Meet. |
+| **8** | Há cronograma detalhado de datas, horários e locais para Storyboard e Análise de Tarefas? | Plano de Ensino (Item 8) | ✅ Sim | As Tabelas 5, 6 e 7 especificam as sessões completas S01 a S03, T01 a T03 e a esteira de relatos. |
 
 _Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
@@ -215,15 +243,16 @@ _Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva com base em B
 
 ## 10. Histórico de Versão
 
-A Tabela 8 documenta as versões deste artefato.
+A Tabela 9 documenta as versões deste artefato.
 
-**Tabela 8** — Histórico de Versão
+**Tabela 9** — Histórico de Versão
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial das questões práticas e cronograma consolidado da avaliação de Nível 1 (Issue #62), com perfil de recrutamento, justificativa teórica amostral (Nielsen, 2000), orçamento zero, divisão de papéis e tabelas de cronograma para Storyboard e Análise de Tarefas. | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 13/10/2026 | Incorporação da Tabela 12.9 adaptada de Barbosa e Silva (2021, p. 304) com 3ª coluna de operacionalização das tarefas, saneamento de tipografia UTF-8 nativa e alinhamento do cronograma integrado com piloto em 17/10 e campo de 19/10 a 23/10. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-| `1.2` | 22/10/2026 | Atualização das Tabelas 3, 5 e 6 alinhando formalmente a Tarefa 2 e Storyboard 2 à Criação de Eventos Presenciais (CF02). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 15/10/2026 | Refinamento pós-auditoria de 15/10 (#93): inclusão do script literal de abordagem discente, estruturação formal da Seção 8.4 (Cronograma Executado e Esteira de Pós-Processamento até 25/10) e sincronização de tabelas. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.3` | 22/10/2026 | Atualização das Tabelas 3, 5 e 6 alinhando formalmente a Tarefa 2 e Storyboard 2 à Criação de Eventos Presenciais (CF02) (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 

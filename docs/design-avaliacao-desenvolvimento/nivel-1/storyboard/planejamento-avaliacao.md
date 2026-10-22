@@ -108,7 +108,12 @@ A Tabela 2 assegura que o entrevistador mantenha a investigação focada em resp
 
 ## 5. C — Escolher os Métodos de Avaliação
 
-Para avaliar os storyboards no Nível 1, a equipe selecionou o método de **Investigação Empírica com Usuários por meio de Entrevistas Semiestruturadas** (*Barbosa & Silva, 2021, p. 144*), com apoio de inspeção visual dirigida.
+Para avaliar os storyboards no Nível 1, a equipe selecionou o método de **Investigação Empírica com Usuários por meio de Entrevistas Semiestruturadas** (*Barbosa & Silva, 2021, p. 144*), com apoio de roteiro visual dirigido.
+
+!!! note "DIRETRIZ METODOLÓGICA MANDATÓRIA — INVESTIGAÇÃO VS. INSPEÇÃO (BARBOSA & SILVA, 2021)"
+    O método adotado nesta avaliação é categoricamente de **INVESTIGAÇÃO EMPÍRICA (Entrevista Semiestruturada Individual)**.  
+    Como a avaliação de Nível 1 trata de representações conceituais preliminares e estáticas (Storyboards), **não se trata de teste de usabilidade clássico** (não há software interativo ou métricas de cliques/tempo) e **não se trata de método de inspeção** (métodos de inspeção, como avaliação heurística ou percurso cognitivo, são executados exclusivamente por especialistas e avaliadores de IHC, sem a presença de usuários).  
+    A dinâmica ocorre em sessões individuais com exatamente 3 participantes na sala: **1 Entrevistador Condutor**, **1 Observador/Anotador Silencioso** e **1 Participante Voluntário**, garantindo um ambiente acolhedor, livre de constrangimento e com foco absoluto na narrativa e no modelo mental do usuário.
 
 ### Justificativa da Escolha Metodológica
 
@@ -124,10 +129,11 @@ Para avaliar os storyboards no Nível 1, a equipe selecionou o método de **Inve
 
 Em estrita consonância com o Perfil do Usuário e com as diretrizes metodológicas da equipe:
 
-- **Público-Alvo:** Estudantes universitários de cursos de tecnologia (Engenharia de Software, Ciência da Computação, Engenharia de Redes ou correlatos) da Universidade de Brasília ou de instituições públicas;
-- **Faixa Etária e Experiência:** 18 a 30 anos, classificados como usuários iniciantes ou intermediários no ecossistema Linux;
-- **Amostragem:** Serão recrutados de **2 a 3 participantes voluntários** que não possuam vínculo direto com o desenvolvimento do projeto de IHC, garantindo imparcialidade na coleta;
-- **Critério de Inclusão:** Ter utilizado ao menos uma distribuição Linux nos últimos 12 meses e ter experiência prévia de consulta ou participação em fóruns técnicos na web.
+- **Público-Alvo:** Estudantes universitários de cursos de tecnologia (Engenharia de Software, Ciência da Computação, Engenharia de Redes ou correlatos) da Universidade de Brasília (campi FGA e Darcy Ribeiro);
+- **Faixa Etária e Experiência:** 18 a 30 anos, classificados como usuários iniciantes ou intermediários no ecossistema Linux (Perfil 1 — Estudante Aprendiz);
+- **Amostragem:** Serão recrutados **3 participantes voluntários reais** (P1, P2 e P3) para as sessões oficiais independentes (1 por tarefa), além de **1 discente voluntário para o Teste-Piloto prévio** (cujos dados não são computados nos resultados finais), em estrita conformidade com o modelo assintótico de Nielsen e Landauer (1993) e Krug (2010);
+- **Critério de Inclusão:** Ter utilizado ao menos uma distribuição Linux nos últimos 12 meses e ter experiência prévia de consulta ou participação em fóruns técnicos na web;
+- **Critério de Exclusão e Imparcialidade:** Nenhum participante pode possuir vínculo com o desenvolvimento do projeto de IHC do Grupo 08.
 
 ### 6.2 Infraestrutura Tecnológica e Ferramentas
 
@@ -216,10 +222,10 @@ A Tabela 5 apresenta a autoavaliação da conformidade do planejamento da avalia
 | **CHK-ST-01** | O planejamento foi estruturado integralmente com base nas seis etapas do Framework DECIDE? | Rogers et al. (2013); Barbosa & Silva (2021, p. 280) | ✅ Sim | As Seções 3 a 8 deste documento operacionalizam explicitamente as etapas D, E, C, I, D e E. |
 | **CHK-ST-02** | Há fundamentação teórica formal com linha de autoria discente e evidência imagética do livro canônico? | Padrão Pedagógico FGA/UnB (*Sales, 2026*) | ✅ Sim | A Seção 2 apresenta fundamentação, linha de autoria de Vinicius Silva Araruna e a Figura 1 com print do livro. |
 | **CHK-ST-03** | Foram formuladas perguntas investigativas desdobradas dos objetivos gerais da avaliação? | Barbosa & Silva (2021, p. 280) | ✅ Sim | A Tabela 2 apresenta 8 perguntas investigativas específicas articuladas com os 4 objetivos do passo D. |
-| **CHK-ST-04** | O método selecionado é justificado e adequado para protótipos conceituais de Nível 1? | Mayhew (1999); Barbosa & Silva (2021) | ✅ Sim | A Seção 5 justifica a escolha de entrevistas semiestruturadas com inspeção visual dos storyboards. |
+| **CHK-ST-04** | O método selecionado é justificado e adequado para protótipos conceituais de Nível 1? | Mayhew (1999); Barbosa & Silva (2021) | ✅ Sim | A Seção 5 justifica a escolha do método de investigação empírica por entrevistas semiestruturadas com usuários reais, com diretriz mandatória contra confusão com inspeção. |
 | **CHK-ST-05** | O público-alvo dos testes é aderente ao papel central de Estudante / Usuário Aprendiz em Linux? | Diretrizes de IHC FGA/UnB | ✅ Sim | A Seção 6.1 restringe o recrutamento a estudantes universitários de tecnologia iniciantes/intermediários. |
 | **CHK-ST-06** | O documento transcreve na íntegra o Script Oral Literal do TCLE para leitura nos primeiros 60 segundos gravados? | Resolução CNS nº 510/2016; Diretrizes da Disciplina | ✅ Sim | A Seção 7 contém o bloco literal em destaque com a leitura obrigatória e solicitação de consentimento verbal. |
-| **CHK-ST-07** | Todas as tabelas e figuras possuem legendas, fontes e chamadas formais no corpo do texto? | Padrão Editorial FGA/UnB | ✅ Sim | 100% das 5 tabelas e 2 figuras possuem chamadas nominais antecedentes no texto (zero tabelas/figuras órfãs). |
+| **CHK-ST-07** | Todas as tabelas e figuras possuem legendas, fontes e chamadas formais no corpo do texto? | Padrão Editorial FGA/UnB | ✅ Sim | 100% das 6 tabelas e 2 figuras possuem chamadas nominais antecedentes no texto (zero tabelas/figuras órfãs). |
 | **CHK-ST-08** | As perguntas investigativas cobrem as dimensões essenciais de Storyboards (*Setting, Sequence, Satisfaction*) e a premissa de prototipação rápida (~10 min)? | Scott Klemmer (2012); Amal Dar Aziz (2010) | ✅ Sim | A Tabela 2 e o Item Teórico articulam o cenário, sequência, gatilho, satisfação e a confecção ágil de baixa fidelidade. |
 | **CHK-ST-09** | O planejamento estabelece o papel do teste-piloto e isola expressamente seus dados dos resultados finais da avaliação? | Barbosa & Silva (2021, p. 280) | ✅ Sim | A Seção 6.4 define que o teste-piloto avalia o planejamento e que seus dados jamais são somados aos resultados da avaliação. |
 | **CHK-ST-10** | Há modelo estruturado para consolidação dos problemas encontrados com classificação de severidade de 0 a 4? | Nielsen (1994); Barbosa & Silva (2021) | ✅ Sim | A Seção 8 apresenta a Tabela 4 padronizada com a taxonomia de severidade de Nielsen (0 a 4) para orientar o reprojeto. |

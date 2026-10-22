@@ -2,11 +2,17 @@
 
 ## Tabela de Contribuição
 
+A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas utilizadas na realização desta avaliação.
+
+**Tabela 0** — Matriz de Contribuição da Avaliação do Grupo 01
+
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão técnica da matriz de conformidade e apoio na consolidação dos dados de inspeção | 10/10/2026 | Suporte na formatação Markdown e tabelas sob supervisão dos discentes |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Auditoria técnica de governança, repositório e metas de usabilidade; consolidação das métricas e apresentação em vídeo](https://youtu.be/lttsLbInYaM) | 10/10/2026 | Suporte na estruturação Markdown e tabelas sob supervisão dos discentes |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Coordenação geral da inspeção, auditoria de características, princípios e guia de estilo; redação do relatório e apresentação em vídeo](https://youtu.be/lttsLbInYaM) | 10/10/2026 | Suporte na estruturação Markdown e tabelas sob supervisão dos discentes |
+
+_Fonte: Elaborada pelos autores, 2026._
 
 ---
 
@@ -14,7 +20,7 @@
 
 Este documento consolida o **relatório formal de avaliação técnica e acadêmica do Grupo +1 (Grupo 01)** referente à **Etapa 3** (Análise de Requisitos: Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo), conduzido pelos discentes **Vinicius Silva Araruna**, **Gustavo Antonio Rodrigues e Silva** e **Edvaldo Soares Brasileiro Filho**, representando o **Grupo 08** na disciplina de Interação Humano-Computador (FGA0173 — Turma 01), ministrada pelo Prof. Dr. André Barros de Sales na Faculdade UnB Gama da Universidade de Brasília (FGA/UnB).
 
-A dinâmica de avaliação entre grupos da disciplina estabelece que a equipe audite os artefatos produzidos pelo grupo sucessor na escala cíclica (Grupo $N+1$, onde o Grupo 08 inspeciona o Grupo 01), aplicando rigorosamente os critérios oficiais contidos no Plano de Ensino da disciplina (*Sales, 2026*) e os fundamentos consolidados na literatura canônica de IHC (*Barbosa et al., 2021; Mayhew, 1999; Nielsen, 1994; ISO 9241-11, 2019; Rogers, Sharp & Preece, 2013; W3C/WCAG 2.2, 2023*). O objetivo desta auditoria é assegurar a excelência científica, apontar fragilidades de forma construtiva e fornecer recomendações práticas para subsidiar os ajustes pós-feedback da equipe auditada.
+A dinâmica de avaliação entre grupos da disciplina estabelece que a equipe audite os artefatos produzidos pelo grupo sucessor na escala cíclica (Grupo N + 1, onde o Grupo 08 inspeciona o Grupo 01), aplicando rigorosamente os critérios oficiais contidos no Plano de Ensino da disciplina (*Sales, 2026*) e os fundamentos consolidados na literatura canônica de IHC (*Barbosa et al., 2021; Mayhew, 1999; Nielsen, 1994; ISO 9241-11, 2019; Rogers, Sharp & Preece, 2013; W3C/WCAG 2.2, 2023*). O objetivo desta auditoria é assegurar a excelência científica, apontar fragilidades de forma construtiva e fornecer recomendações práticas para subsidiar os ajustes pós-feedback da equipe auditada.
 
 ---
 
