@@ -4,8 +4,8 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Modelagem e especificação integral da Tarefa 2: Criação de Eventos Presenciais (HTA e CTT) com Enquete e Quórum Mínimo](#tarefa-2-criacao-de-eventos-presenciais-gustavo-antonio) | 22/10/2026 | Gemini: suporte na estruturação das tabelas e sintaxe dos diagramas Mermaid |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Modelagem da Tarefa 3 com HTA e GOMS/KLM](#tarefa-3-busca-avancada-e-filtros-de-categoria-edvaldo-soares) com apoio de IA generativa; validação empírica pendente. | 26/09/2026 | LLM: apoio na estruturação HTA/GOMS/KLM; revisar e validar com usuários |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual da Tarefa 2 (Cadastro e Onboarding)](#tarefa-2-cadastro-e-onboarding-do-novo-usuario-gustavo-antonio) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, fundamentação e autoria integral da Tarefa 1 (Criação de Tópico com Tags e Markdown: HTA e KLM)](#tarefa-1-criacao-e-publicacao-de-topico-com-tags-e-markdown-vinicius-silva-araruna) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
 
 ---
@@ -45,10 +45,10 @@ A Tabela 1 apresenta a visão sistêmica da divisão das tarefas prioritárias d
 
 **Tabela 1** — Mapeamento de atribuição das tarefas e técnicas adotadas
 
-| Tarefa Analisada | Técnicas Empregadas | Autor Responsável | Revisor |
+| **Tarefa Analisada** | **Técnicas Empregadas** | **Autor Responsável** | **Revisor** |
 | :--- | :--- | :--- | :--- |
 | **Tarefa 1**: Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown | HTA (Diagrama + Tabela) + GOMS/KLM | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
-| **Tarefa 2**: Cadastro e Onboarding do Novo Usuário | HTA (Diagrama + Tabela) + CTT | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Tarefa 2**: Criação de Eventos Presenciais (Sondagem, Quórum e Agendamento) | HTA (Diagrama + Tabela) + CTT | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | **Tarefa 3**: Busca Avançada e Filtros de Categoria | HTA (Diagrama + Tabela) + GOMS/CMN-GOMS | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -233,15 +233,38 @@ A análise quantitativa dos tempos da Tabela 5 conduz a conclusões ergonômicas
 
 ---
 
-## Tarefa 2: Cadastro e Onboarding do Novo Usuário (Gustavo Antonio)
+## Tarefa 2: Criação de Eventos Presenciais (Gustavo Antonio)
 
 - **Autor Principal**: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
-- **Revisor**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
+- **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
 - **Técnicas Adotadas**: HTA (Análise Hierárquica de Tarefas) e CTT (Árvores de Tarefas Concorrentes)
+- **Objeto de Análise**: Fluxo sociotécnico de planejamento, validação comunitária e agendamento de eventos presenciais (workshops, meetups e encontros de software livre) na plataforma Discourse do Fórum Diolinux Plus. O fluxo abrange desde a sondagem de interesse e horários por enquete até a publicação do evento com restrição de quórum mínimo e gestão automatizada de ingressos/confirmação.
 
-### 1. Modelagem HTA (Análise Hierárquica de Tarefas)
+### 1. Especificação da Aplicação da Funcionalidade na Interface do Diolinux Plus
 
-A Figura 4 apresenta o diagrama hierárquico da Tarefa 2 elaborado na notação canônica de Annett e Duncan.
+A funcionalidade **Criação de Eventos Presenciais (CF02)** integra-se ao ecossistema Discourse por meio de três pontos de contato de interface:
+
+1. **Acesso e Navegação:**
+   - Adição do item **"Eventos e Encontros"** no menu de navegação da barra lateral (*Sidebar Navigation*) e no cabeçalho superior do fórum, permitindo filtrar eventos por região geográfica e status (*"Em Votação"*, *"Confirmados"*, *"Inscrições Abertas"*).
+   - Botão de ação primária **"+ Criar Evento"** disponibilizado na página da categoria ou acessível pelo compositor padrão via seletor de tipo de postagem (*Tópico Padrão* vs. *Evento Presencial*).
+
+2. **Mecanismo de Enquete de Horários e Local (Sondagem Prévia):**
+   - Para evitar eventos vazios ou datas inviáveis, o organizador pode abrir um tópico em modo **"Sondagem Coletiva"**.
+   - Integração com um componente interativo de **Grid de Disponibilidade/Enquete (Poll)** permitindo que os membros votem em múltiplos turnos, dias e polos sugeridos. O sistema processa os votos e oferece a opção de consolidar automaticamente a opção vencedora no formulário oficial do evento.
+
+3. **Formulário de Configuração, Quórum Mínimo e Gestão de Ingressos:**
+   - O organizador formaliza a data, horário, local (com integração a mapas) e limite de participantes (*Lotação Máxima*).
+   - **Regra de Negócio de Quórum Mínimo:** Definição obrigatória de um número mínimo de inscrições para viabilizar o evento (ex.: mínimo 10, máximo 30).
+   - **Controle de Estados e Visibilidade:**
+     - *Pendente de Quórum:* O evento aceita inscrições exibindo indicador de progresso (*"8 de 12 inscritos até o deadline"*).
+     - *Confirmado:* Quórum atingido antes do prazo limite; os ingressos definitivos (com QR Code) são emitidos e as cobranças (se evento pago com rateio) são debitadas.
+     - *Cancelado por Falta de Quórum:* Se o deadline expirar sem atingir a meta mínima, os inscritos são notificados, valores retidos são estornados e o tópico é atualizado automaticamente.
+
+---
+
+### 2. Modelagem HTA (Análise Hierárquica de Tarefas)
+
+A Figura 4 apresenta o diagrama hierárquico da Tarefa 2 elaborado na notação canônica de Annett e Duncan (1967) e Barbosa e Silva (2021).
 
 ```mermaid
 graph TD
@@ -250,88 +273,151 @@ graph TD
     classDef op fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#E2E8F0;
     classDef plan fill:#475569,stroke:#F59E0B,stroke-width:1.5px,color:#FEF3C7;
 
-    G0["0. Realizar Cadastro e Onboarding no Fórum Diolinux Plus"]:::goal
-    P0["Plano 0: 1 depois 2 depois 3 e opcionalmente 4"]:::plan
+    G0["0. Organizar e Publicar Evento Presencial da Comunidade"]:::goal
+    P0["Plano 0: 1 opcionalmente, depois 2, depois 3; se quórum atingido executar 4; senão executar 5"]:::plan
 
     G0 --> P0
-    P0 --> G1["1. Iniciar o processo de Cadastro"]:::sub
-    P0 --> G2["2. Preencher o Formulário de Inscrição"]:::sub
-    P0 --> G3["3. Validar a Conta de Usuário"]:::sub
-    P0 --> G4["4. Interagir com o Onboarding do Discobot"]:::sub
+    P0 --> G1["1. Sondar Interesse, Data e Local com a Comunidade"]:::sub
+    P0 --> G2["2. Configurar e Publicar a Página do Evento"]:::sub
+    P0 --> G3["3. Monitorar Inscrições e Adesão de Quórum"]:::sub
+    P0 --> G4["4. Confirmar Evento e Emitir Ingressos"]:::sub
+    P0 --> G5["5. Cancelar Evento por Falta de Quórum"]:::sub
 
-    P1["Plano 1: 1.1"]:::plan
+    P1["Plano 1: 1.1 > 1.2 > 1.3 > 1.4"]:::plan
     G1 --> P1
-    P1 --> O11["1.1 Clicar em 'Cadastrar' na barra superior"]:::op
+    P1 --> O11["1.1 Criar tópico de sondagem de evento na categoria regional"]:::op
+    P1 --> O12["1.2 Inserir enquete com opções de dias, turnos e locais"]:::op
+    P1 --> O13["1.3 Publicar enquete e aguardar votação dos interessados"]:::op
+    P1 --> O14["1.4 Avaliar opção vencedora na matriz de votos"]:::op
 
-    P2["Plano 2: 2.1 depois 2.2 depois 2.3 depois 2.4"]:::plan
+    P2["Plano 2: 2.1 > 2.2 > 2.3 > 2.4 > 2.5"]:::plan
     G2 --> P2
-    P2 --> O21["2.1 Informar o E-mail"]:::op
-    P2 --> O22["2.2 Criar um Nome de Usuário"]:::op
-    P2 --> O23["2.3 Criar uma Senha forte"]:::op
-    P2 --> O24["2.4 Clicar em 'Criar Conta'"]:::op
+    P2 --> O21["2.1 Informar título, ementa técnica e palestrantes"]:::op
+    P2 --> O22["2.2 Definir data, horário e endereço/mapa (ou importar da enquete)"]:::op
+    P2 --> O23["2.3 Definir quórum mínimo e lotação máxima de participantes"]:::op
+    P2 --> O24["2.4 Configurar modalidade de ingressos e taxa de rateio de custos"]:::op
+    P2 --> O25["2.5 Submeter e publicar evento oficial no fórum"]:::op
 
-    P3["Plano 3: 3.1 depois 3.2"]:::plan
+    P3["Plano 3: Repetir 3.1 até a data limite; se inscritos < mínimo, executar 3.2"]:::plan
     G3 --> P3
-    P3 --> O31["3.1 Acessar a caixa de entrada do e-mail"]:::op
-    P3 --> O32["3.2 Clicar no link de ativação da conta"]:::op
+    P3 --> O31["3.1 Acompanhar contador de inscritos em tempo real no dashboard"]:::op
+    P3 --> O32["3.2 Disparar lembrete de proximidade do prazo no tópico do fórum"]:::op
 
-    P4["Plano 4: 4.1 depois (4.2 ou 4.3)"]:::plan
+    P4["Plano 4: 4.1 > 4.2 > 4.3"]:::plan
     G4 --> P4
-    P4 --> O41["4.1 Abrir a mensagem de boas-vindas do Discobot"]:::op
-    P4 --> O42["4.2 Seguir as instruções interativas do tutorial"]:::op
-    P4 --> O43["4.3 Ignorar o tutorial e ir para a Home"]:::op
+    P4 --> O41["4.1 Alterar status do evento para 'Confirmado'"]:::op
+    P4 --> O42["4.2 Disparar ingressos com QR Code e confirmação por e-mail"]:::op
+    P4 --> O43["4.3 Abrir tópico/chat de alinhamento logístico entre confirmados"]:::op
+
+    P5["Plano 5: 5.1 > 5.2 > 5.3"]:::plan
+    G5 --> P5
+    P5 --> O51["5.1 Notificar automaticamente participantes sobre a insuficiência de quórum"]:::op
+    P5 --> O52["5.2 Estornar valores pré-autorizados ou taxa de inscrição"]:::op
+    P5 --> O53["5.3 Encerrar inscrições e arquivar tópico com justificativa"]:::op
 ```
 
-**Figura 4** — Diagrama HTA da tarefa de Cadastro e Onboarding.  
+**Figura 4** — Diagrama HTA da tarefa de Criação de Eventos Presenciais com Enquete e Quórum Mínimo.  
 _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
 
-A Tabela 6 apresenta a decomposição hierárquica tabular da Tarefa 2.
+A Tabela 6 apresenta a decomposição hierárquica tabular da Tarefa 2, detalhando condições de entrada, ações, feedback, problemas potenciais de usabilidade e recomendações ergonômicas de projeto.
 
-**Tabela 6** — Decomposição tabular da Tarefa 2 (Cadastro e Onboarding)
+**Tabela 6** — Decomposição tabular da Tarefa 2 (Criação de Eventos Presenciais)
 
-| Identificador | Nome do Objetivo / Operação | Relação / Plano | Problemas de Usabilidade | Recomendações |
+| Identificador | Nome do Objetivo / Operação | Relação / Plano | Problemas de Usabilidade Identificados | Recomendações Ergonômicas de IHC |
 | :--- | :--- | :--- | :--- | :--- |
-| **0** | **Realizar Cadastro e Onboarding** | **Plano 0**: 1, 2, 3 e opcionalmente 4. | O onboarding pode ser evasivo para usuários com pressa. | Opção clara de "Pular tutorial" na primeira tela. |
-| **1** | **Iniciar o processo de Cadastro** | **Plano 1**: Executar 1.1. | Botão pode não ter destaque suficiente em telas menores. | Usar cor de contraste maior para "Cadastrar". |
-| 1.1 | Clicar em "Cadastrar" | Operação física | N/A | N/A |
-| **2** | **Preencher o Formulário** | **Plano 2**: Executar 2.1 a 2.4 em ordem. | Falta de feedback imediato de nome de usuário em uso. | Validação assíncrona (AJAX) do nome enquanto digita. |
-| 2.1 | Informar o E-mail | Operação motora | N/A | N/A |
-| 2.2 | Criar um Nome de Usuário | Operação cognitiva | Dificuldade em achar nomes livres. | Sugerir nomes com base no e-mail fornecido. |
-| 2.3 | Criar uma Senha forte | Operação cognitiva | Regras de senha só aparecem após o erro. | Mostrar requisitos de senha visíveis o tempo todo. |
-| 2.4 | Clicar em 'Criar Conta' | Operação física | N/A | N/A |
-| **3** | **Validar a Conta** | **Plano 3**: Executar 3.1 e 3.2. | E-mail cai na caixa de spam com frequência. | Aviso explícito para verificar a pasta de Spam. |
-| 3.1 | Acessar o e-mail | Operação navegação | N/A | N/A |
-| 3.2 | Clicar no link de ativação | Operação física | Link longo quebra em alguns clientes de e-mail. | Usar botão HTML em vez de link de texto longo. |
-| **4** | **Interagir com o Onboarding** | **Plano 4**: 4.1 depois (4.2 ou 4.3). | O Discobot não explica o tempo médio do tutorial. | Indicar "Duração: 3 minutos" na mensagem. |
-| 4.1 | Abrir a mensagem de boas-vindas | Operação navegação | N/A | N/A |
-| 4.2 | Seguir as instruções interativas | Operação cognitiva | Pode ser tedioso para usuários experientes. | Permitir finalizar a qualquer momento e ganhar o badge. |
-| 4.3 | Ignorar o tutorial e ir para a Home | Operação de escape | A notificação da mensagem fica pendente. | Botão "Marcar como lido" no topo. |
+| **0** | **Organizar e Publicar Evento Presencial** | **Plano 0**: 1 opcionalmente, depois 2, depois 3; se quórum atingido executar 4; senão 5. | Organizador publicar evento sem validação prévia de público, gerando cancelamentos frequentes. | Sugerir proativamente a realização da sondagem de horários antes da publicação definitiva. |
+| **1** | **Sondar Interesse, Data e Local** | **Plano 1**: Executar 1.1 a 1.4 sequencialmente. | Enquetes genéricas em texto livre dificultam a apuração das melhores datas. | Componente estruturado de enquete de calendário com opções de múltipla escolha. |
+| 1.1 | Criar tópico de sondagem | Operação de composição | Dúvida sobre qual categoria regional escolher. | Seleção guiada de região/cidade no momento da abertura do tópico. |
+| 1.2 | Inserir enquete com datas/locais | Operação de configuração | Sintaxe de BBCode/Markdown de enquete do Discourse confusa para leigos. | Interface visual (*GUI*) para montagem de datas sem necessidade de escrever tags manualmente. |
+| 1.3 | Publicar enquete e aguardar votos | Operação do sistema / social | Pouca visibilidade inicial do tópico de sondagem. | Destaque automático (*pin temporário*) na categoria regional durante o período de votação. |
+| 1.4 | Avaliar opção vencedora | Operação cognitiva | Dificuldade em cruzar disponibilidade de múltiplos dias e turnos. | Tabela de calor visual indicando o horário com maior concentração de participantes favoráveis. |
+| **2** | **Configurar e Publicar a Página do Evento** | **Plano 2**: Executar 2.1 a 2.5 em ordem. | Formulário muito extenso pode causar fadiga ou abandono do organizador. | Formulário progressivo em etapas com salvamento automático de rascunho (*stepper*). |
+| 2.1 | Informar título, ementa e palestrantes | Operação de entrada de dados | Descrições vagas sem detalhamento de nível técnico exigido dos participantes. | Campos específicos para pré-requisitos (ex: "levar notebook", "nível básico"). |
+| 2.2 | Definir data, horário e endereço/mapa | Operação motora / cognitiva | Endereço digitado incorretamente inviabiliza a chegada de participantes. | Autocompletar de endereços com pré-visualização de mapa geográfico interativo. |
+| 2.3 | Definir quórum mínimo e lotação máxima | Operação de regra de negócio | Organizador não compreender a finalidade do quórum mínimo. | *Tooltip* explicativo: "Se este número de inscritos não for atingido até o prazo, o evento é cancelado automaticamente para evitar prejuízos". |
+| 2.4 | Configurar modalidade de ingressos | Operação financeira / cognitiva | Insegurança quanto ao destino de valores pagos em caso de cancelamento. | Indicação explícita de "Garantia de reembolso automático se o evento não atingir o quórum". |
+| 2.5 | Submeter e publicar evento | Operação física | Falta de confirmação dos dados essenciais antes da publicação. | Modal de revisão e confirmação (*summary*) com os dados críticos antes do disparo público. |
+| **3** | **Monitorar Inscrições e Adesão de Quórum** | **Plano 3**: Repetir 3.1 até a data limite; se inscritos < mínimo, executar 3.2. | Organizador não saber se o evento corre risco de ser cancelado por prazo. | Barra de progresso com contagem regressiva de tempo e vagas restantes no dashboard do organizador. |
+| 3.1 | Acompanhar contador de inscritos | Operação de monitoramento | Necessidade de recarregar a página para ver novos inscritos. | Atualização assíncrona em tempo real (*WebSocket*) dos inscritos. |
+| 3.2 | Disparar lembrete de proximidade do prazo | Operação de engajamento | Falta de canal ágil para reengajar interessados que ainda não concluíram inscrição. | Botão de "Lembrar interessados da enquete" com 1 clique no painel do organizador. |
+| **4** | **Confirmar Evento e Emitir Ingressos** | **Plano 4**: Executar 4.1 a 4.3 em ordem. | Participantes não encontrarem o comprovante ou ingresso no dia do evento. | Envio duplo: notificação interna no Discourse com QR Code + envio de ingresso em PDF por e-mail. |
+| 4.1 | Alterar status para 'Confirmado' | Operação do sistema | Demora de processamento ao fechar o quórum. | Transição de estado automática disparada no instante em que a vaga mínima é preenchida. |
+| 4.2 | Disparar ingressos com QR Code | Operação do sistema | Problemas de leitura de QR Code em telas de smartphone com brilho baixo. | Inclusão de código alfanumérico alternativo de validação sob o QR Code. |
+| 4.3 | Abrir tópico/chat de alinhamento | Operação colaborativa | Dúvidas repetidas sobre ponto de encontro e transporte. | Tópico privado gerado automaticamente apenas para os participantes com presença confirmada. |
+| **5** | **Cancelar Evento por Falta de Quórum** | **Plano 5**: Executar 5.1 a 5.3 em ordem. | Frustração dos usuários inscritos e desconfiança na plataforma. | Comunicação transparente e empática explicando o motivo do cancelamento e reembolso ágil. |
+| 5.1 | Notificar inscritos sobre insuficiência | Operação do sistema | Notificação por e-mail cair na caixa de spam. | Alerta visual prioritário tipo *banner* no cabeçalho do fórum na próxima sessão do usuário. |
+| 5.2 | Estornar valores pré-autorizados | Operação financeira | Demora no estorno de cartão/Pix. | Utilização de modelo de pré-autorização (retenção sem captura) para liberação instantânea. |
+| 5.3 | Encerrar inscrições e arquivar tópico | Operação de fechamento | Usuários continuarem tentando se inscrever em evento já cancelado. | Bloqueio imediato do botão de inscrição com selo indelével de "Cancelado por Quórum". |
 
 _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
 
-### 2. Modelagem CTT (Árvores de Tarefas Concorrentes)
+---
 
-O CTT (*Concurrent Task Trees*), formalizado por Paternò (2000), é utilizado para modelar interações concorrentes e papéis de tarefas (usuário, sistema, interação, abstrata). A seguir, a descrição textual hierárquica do modelo CTT para a Tarefa 2.
+### 3. Modelagem CTT (Árvores de Tarefas Concorrentes)
 
-*   **T1 (Abstrata):** Realizar Cadastro e Onboarding
-    *   **T1.1 (Interação):** Acessar a tela de Cadastro `>>` (Habilita)
-    *   **T1.2 (Abstrata):** Efetuar Inscrição `>>` (Habilita)
-        *   **T1.2.1 (Interação):** Preencher Dados do Formulário
-            *   **T1.2.1.1 (Usuário):** Digitar e-mail `|||` (Concorrência *interleave*) **T1.2.1.2 (Usuário):** Digitar usuário `|||` **T1.2.1.3 (Usuário):** Digitar senha
-        *   **T1.2.2 (Interação):** Submeter Inscrição `>>` (Habilita)
-        *   **T1.2.3 (Sistema):** Validar Dados e Enviar E-mail de Ativação `>>` (Habilita)
-    *   **T1.3 (Abstrata):** Ativar a Conta `>>` (Habilita)
-        *   **T1.3.1 (Usuário):** Acessar o E-mail Pessoal `>>` (Habilita)
-        *   **T1.3.2 (Interação):** Clicar no link de ativação `>>` (Habilita)
-        *   **T1.3.3 (Sistema):** Ativar Conta e Redirecionar para o Fórum `>>` (Habilita)
-    *   **T1.4 (Abstrata):** Executar Onboarding
-        *   **T1.4.1 (Sistema):** Enviar mensagem de boas-vindas do Discobot `>>` (Habilita)
-        *   **T1.4.2 (Interação):** Escolher interagir ou ignorar `[]` (Escolha exclusiva)
-            *   **T1.4.2.1 (Interação):** Responder ao Discobot `>>` (Habilita)
-                *   **T1.4.2.1.1 (Sistema):** Enviar nova dica (Iterativo)
-            *   **T1.4.2.2 (Interação):** Fechar a mensagem e seguir para Home
+O CTT (*Concurrent Task Trees*), formalizado por Paternò (2000), é utilizado para modelar as relações temporais, concorrências e papéis dos atores na tarefa de Criação de Eventos Presenciais.
 
-Esta modelagem evidencia a forte sincronização necessária entre ações do sistema (envio de e-mail e validação de dados) e do usuário, destacando especialmente a flexibilidade de escolha (*Choice* `[]`) na etapa final de Onboarding (T1.4.2), onde o usuário tem liberdade para seguir fluxos paralelos.
+```mermaid
+graph TD
+    classDef abstract fill:#f0f0f0,stroke:#333,stroke-width:2px;
+    classDef interaction fill:#d1e8ff,stroke:#0055aa,stroke-width:1.5px;
+    classDef user fill:#ffefd5,stroke:#aa5500,stroke-width:1.5px;
+    classDef system fill:#e0ffe0,stroke:#00aa00,stroke-width:1.5px;
+    classDef choice fill:#ffe0e0,stroke:#aa0000,stroke-width:1.5px;
+
+    %% Tarefa Raiz
+    T0["T0: Gerenciar Ciclo de Vida do Evento Presencial"]:::abstract
+
+    %% Subtarefas Nivel 1
+    T1["T1: Sondar Viabilidade e Horários"]:::abstract
+    T2["T2: Configurar e Publicar Evento"]:::abstract
+    T3["T3: Controlar Inscrições e Quórum"]:::abstract
+    T4["T4: Desfecho do Evento"]:::choice
+
+    T0 --> T1
+    T0 --> T2
+    T0 --> T3
+    T0 --> T4
+
+    %% Decomposicao T1
+    T1a["T1a: Propor opções de datas e locais"]:::interaction
+    T1b["T1b: Votar em opções de disponibilidade"]:::user
+    T1c["T1c: Apurar e consolidar votos da enquete"]:::system
+    T1 --> T1a
+    T1 --> T1b
+    T1 --> T1c
+
+    %% Decomposicao T2
+    T2a["T2a: Informar dados básicos e mapa"]:::interaction
+    T2b["T2b: Definir quórum mínimo e lotação"]:::user
+    T2c["T2c: Configurar ingressos e rateio"]:::interaction
+    T2d["T2d: Validar formulário e publicar página"]:::system
+    T2 --> T2a
+    T2 --> T2b
+    T2 --> T2c
+    T2 --> T2d
+
+    %% Decomposicao T3
+    T3a["T3a: Efetuar inscrição no evento"]:::interaction
+    T3b["T3b: Contabilizar quórum em tempo real"]:::system
+    T3c["T3c: Monitorar meta no painel"]:::user
+    T3 --> T3a
+    T3 --> T3b
+    T3 --> T3c
+
+    %% Decomposicao T4 (Escolha / Condicional)
+    T4a["T4a: Quórum Atingido: Emitir Ingressos e Confirmar"]:::system
+    T4b["T4b: Quórum Não Atingido: Cancelar e Estornar"]:::system
+    T4 -->|"Quórum OK"| T4a
+    T4 -->|"Prazo expirado sem quórum"| T4b
+```
+
+#### 3.1 Interpretação do Modelo CTT da Tarefa 2:
+- **T1 `[]>>` T2 (Sondagem com Habilitação Opcional):** A sondagem comunitária via enquete habilita o organizador a importar horários e locais consensuais diretamente para o formulário oficial de publicação.
+- **T2 `>>` T3 (Publicação Habilita Inscrição):** Uma vez publicado o evento, inicia-se a concorrência temporal (`|||`) entre as inscrições dos usuários (T3a), a contabilização em segundo plano pelo sistema (T3b) e o monitoramento pelo organizador (T3c).
+- **T4 (Ponto de Escolha e Alternância de Estados):**
+  - Se o limiar de **quórum mínimo** for satisfeito antes da data limite, dispara-se o ramo **T4a** (emissão de ingressos com QR Code, cobrança/confirmação e abertura de canal de interação para os confirmados).
+  - Caso o prazo expire sem atingir o contingente mínimo estipulado, o sistema aciona compulsoriamente o ramo **T4b** (notificação de cancelamento com justificativa clara e estorno integral de taxas pré-autorizadas).
 ---
 
 ## Tarefa 3: Busca Avançada e Filtros de Categoria (Edvaldo Soares)
@@ -467,6 +553,7 @@ A Tabela 9 documenta o histórico de versões deste artefato.
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Estruturação metodológica e modelagem da Tarefa 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 26/09/2026 | Inclusão do rascunho de HTA e GOMS/KLM para busca avançada; validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), com apoio de IA generativa | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 22/10/2026 | Modelagem integral da Tarefa 2: Criação de Eventos Presenciais (HTA com diagrama Mermaid, tabela de decomposição e CTT) incorporando enquete prévia de horários e regras de quórum mínimo/lotação (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
