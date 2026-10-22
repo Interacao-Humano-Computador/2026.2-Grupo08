@@ -118,14 +118,16 @@ A Tabela 5 detalha a execução dos relatos formativos e a preparação para a p
 
 | Atividade / Artefato | Período Planejado para Desenvolvimento | Autores | Período Planejado para Revisão | Revisores |
 | :--- | :---: | :--- | :---: | :--- |
-| Execução e Relato da Avaliação do Storyboard | 13/10 - 18/10 | Vinicius Araruna, Jonathan Carpaneda | 19/10 - 20/10 | Edvaldo Soares, Pedro Paulo |
-| Execução e Relato da Avaliação da Análise de Tarefas | 13/10 - 18/10 | Edvaldo Soares, Gustavo Antonio | 19/10 - 20/10 | Vinicius Araruna, Jonathan Carpaneda |
-| Planejamento da Avaliação do Protótipo de Papel | 16/10 - 21/10 | Pedro Paulo, Vinicius Araruna | 21/10 - 22/10 | Gustavo Antonio, Edvaldo Soares |
-| Planejamento do Relato do Protótipo de Papel | 17/10 - 22/10 | Jonathan Carpaneda, Edvaldo Soares | 22/10 - 23/10 | Pedro Paulo, Gustavo Antonio |
-| Planejamento e Condução do Teste-Piloto | 18/10 - 22/10 | Gustavo Antonio, Pedro Paulo | 22/10 - 23/10 | Vinicius Araruna, Jonathan Carpaneda |
-| Atas de Reuniões da Etapa 5 | 13/10 - 22/10 | Edvaldo Soares | 23/10 | Pedro Paulo |
-| **Gravação da Apresentação da Etapa 5** | 23/10 - 24/10 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 24/10 - 25/10 | **Gustavo Antonio, Pedro Paulo** |
-| **Ajustes e Correções pós-feedback da Etapa 5** | 28/10 - 30/10 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 30/10 - 31/10 | **Jonathan Carpaneda, Vinicius Araruna** |
+| Confeccionar Storyboard da Criação de Eventos Presenciais | 23/10 | Gustavo Antonio | 23/10 | Vinicius Silva Araruna |
+| Teste-Piloto da Avaliação do Storyboard | 22/10 | Gustavo Antonio | 22/10 | Vinicius Silva Araruna |
+| Execução e Relato da Avaliação do Storyboard | 23/10 | Gustavo Antonio, Vinicius Araruna | 23/10 - 24/10 | Edvaldo Soares |
+| Execução e Relato da Avaliação da Análise de Tarefas | 13/10 - 18/10 | Edvaldo Soares, Gustavo Antonio | 19/10 - 20/10 | Vinicius Araruna |
+| Planejamento da Avaliação do Protótipo de Papel | 16/10 - 21/10 | Vinicius Araruna | 21/10 - 22/10 | Gustavo Antonio, Edvaldo Soares |
+| Planejamento do Relato do Protótipo de Papel | 17/10 - 22/10 | Edvaldo Soares | 22/10 - 23/10 | Gustavo Antonio |
+| Planejamento e Condução do Teste-Piloto do Protótipo de Papel | 18/10 - 22/10 | Gustavo Antonio | 22/10 - 23/10 | Vinicius Araruna |
+| Atas de Reuniões da Etapa 5 | 13/10 - 22/10 | Edvaldo Soares | 23/10 | Gustavo Antonio |
+| **Gravação do Vídeo da Apresentação da Etapa 5** | 23/10 | **Gustavo Antonio, Vinicius Silva Araruna, Edvaldo Soares** | 23/10 - 24/10 | **Vinicius Silva Araruna** |
+| **Ajustes e Correções pós-feedback da Etapa 5** | 28/10 - 30/10 | **Gustavo Antonio, Vinicius Silva Araruna, Edvaldo Soares** | 30/10 - 31/10 | **Vinicius Silva Araruna** |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -201,6 +203,7 @@ _Fonte: Elaborada pelos autores, 2026._
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.2` | 06/09/2026 | Elaboração completa do cronograma planejado de todas as 8 etapas com mapeamento de datas do plano de ensino, balanceamento de esforço da equipe, previsão de janelas de gravação e períodos de ajustes pós-feedback (Ações 02, 03 e 04) | [Vinicius Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.3` | 26/09/2026 | Adequação do cronograma da Etapa 2 à matriz metodológica do professor (Elenco, Personas, Cenários, HTA/GOMS individuais e Lista de Verificação), atualização para 3 integrantes ativos, remoção de menção a site anterior e saneamento de referências (atendimento às OBS 8 e 9) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.4` | 22/10/2026 | Atualização do cronograma da Etapa 5 alocando teste-piloto (22/10), confecção e avaliação do storyboard (23/10) e gravação da Entrega 5 (23/10) para Gustavo Antonio (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 
