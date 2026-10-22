@@ -90,6 +90,7 @@ nav:
     - Metodologia de Pesquisa: analise-requisitos/metodologia.md
     - Elicitação de Requisitos:
       - Brainstorming: analise-requisitos/brainstorming.md
+      - Análise Documental: analise-requisitos/analise-documental.md
       - Entrevistas: analise-requisitos/entrevistas.md
     - Aspectos Éticos e TCLE: analise-requisitos/aspectos-eticos.md
     - Perfil do Usuário: analise-requisitos/perfil-usuario.md
