@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    /* ======================================================
+       Widget de Acessibilidade — Tamanho de Fonte
+       Grupo 08 · IHC 2026.2
+    ====================================================== */
+    (function () {
+      var SIZES = { small: '90%', normal: '100%', large: '130%' };
+      var KEY = 'dp-font-size';
+
+      function applySize(size) {
+        document.documentElement.style.fontSize = SIZES[size] || SIZES.normal;
+        try { localStorage.setItem(KEY, size); } catch (e) {}
+      }
+
+      /* Restaura preferência salva */
+      try {
+        var saved = localStorage.getItem(KEY);
+        if (saved) applySize(saved);
+      } catch (e) {}
+
+      /* Cria widget após o DOM estar pronto */
+      document.addEventListener('DOMContentLoaded', function () {
+        var widget = document.createElement('div');
+        widget.className = 'dp-a11y-widget';
+        widget.setAttribute('aria-label', 'Controle de acessibilidade de fonte');
+        widget.innerHTML =
+          '<button class="dp-a11y-btn" title="Diminuir fonte" aria-label="Diminuir tamanho da fonte" onclick="(function(){document.documentElement.style.fontSize=\'90%\';try{localStorage.setItem(\'dp-font-size\',\'small\')}catch(e){}})()">A<span style="font-size:0.6em;vertical-align:sub">−</span></button>' +
+          '<button class="dp-a11y-btn" title="Fonte padrão" aria-label="Restaurar tamanho padrão da fonte" onclick="(function(){document.documentElement.style.fontSize=\'100%\';try{localStorage.setItem(\'dp-font-size\',\'normal\')}catch(e){}})()">A</button>' +
+          '<button class="dp-a11y-btn" title="Aumentar fonte" aria-label="Aumentar tamanho da fonte" onclick="(function(){document.documentElement.style.fontSize=\'130%\';try{localStorage.setItem(\'dp-font-size\',\'large\')}catch(e){}})()">A<span style="font-size:0.75em;vertical-align:super">+</span></button>';
+        document.body.appendChild(widget);
+      });
+    })();
+  </script>
+{% endblock %}
