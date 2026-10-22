@@ -139,6 +139,7 @@ A Tabela 5 documenta o histórico de versões deste artefato.
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Estruturação metodológica, consolidação do elenco de personas e autoria individual da Persona 1 (Lucas Mendonça) por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 20/10/2026 | Preenchimento completo das fichas da Persona 2 (Carlos Eduardo por Gustavo Antonio) e Persona 3 (Mariana Ribeiro por Edvaldo Soares), remoção de todos os placeholders e alinhamento aos Perfis de Usuário | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 21/10/2026 | Harmonização da declaração de uso de IA Generativa contemplando as Personas 2 e 3 em atendimento à revisão por pares do PR #95 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -160,4 +161,4 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a organização do layout em Markdown e estruturação das tabelas deste artefato, foi utilizado suporte supervisionado de Inteligência Artificial Generativa (LLM). Toda a concepção arquetípica da Persona 1, delimitação do elenco e fundamentação metodológica foram concebidas, redigidas e validadas por Vinicius Silva Araruna.
+Durante a organização do layout em Markdown e estruturação das tabelas deste artefato, foi utilizado suporte supervisionado de Inteligência Artificial Generativa (LLM). Toda a concepção arquetípica da Persona 1, delimitação do elenco e fundamentação metodológica foram concebidas, redigidas e validadas por Vinicius Silva Araruna. Para a estruturação dos atributos, síntese de dados e formatação em Markdown das fichas completas da Persona 2 (Carlos Eduardo) e da Persona 3 (Mariana Ribeiro), os autores Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho contaram com o suporte computacional supervisionado do Google Gemini, mantendo o rigor analítico, empírico e a responsabilidade autoral humana integral sobre o conteúdo final.
