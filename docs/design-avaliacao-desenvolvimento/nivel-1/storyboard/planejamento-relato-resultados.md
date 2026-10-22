@@ -55,7 +55,7 @@ O relatório documentará o grau de atingimento dos quatro objetivos centrais es
 
 O relatório apresentará uma síntese do método empregado:
 
-> A técnica de Storyboarding consiste na representação gráfica e narrativa, em formato clássico de história em quadrinhos (6 a 8 quadros por narrativa desenhados à mão e digitalizados em 300 DPI), de uma persona interagindo com o sistema interativo para alcançar um objetivo específico. Durante a sessão remota no Google Meet, o entrevistador compartilha os quadros em alta definição (1080p), lê os balões de fala e legendas em conjunto com o voluntário e aplica as perguntas investigativas formuladas, estimulando a verbalização em voz alta (*think-aloud*).
+> A técnica de Storyboarding consiste na representação gráfica e narrativa, em formato clássico de história em quadrinhos (6 a 8 quadros por narrativa desenhados à mão e digitalizados em 300 DPI), de uma persona interagindo com o sistema interativo para alcançar um objetivo específico. Durante a sessão presencial na FGA/UnB, o entrevistador entrega as pranchas físicas impressas em alta definição (300 DPI), lê os balões de fala e legendas em conjunto com o voluntário e aplica as perguntas investigativas formuladas, estimulando a verbalização em voz alta (*think-aloud*).
 
 ### 3.3 Caracterização de Avaliadores e Participantes
 
@@ -65,8 +65,9 @@ O relatório apresentará a Tabela 2 preenchida com a identificação dos avalia
 
 | ID | Papel na Sessão | Nome / Código | Idade | Curso / Ocupação | Nível com Linux | Distribuição Habitual |
 | :---: | :--- | :--- | :---: | :--- | :---: | :--- |
-| **AV-01** | Entrevistador Principal | [Nome do Integrante] | — | Graduando em Eng. Software (UnB) | Avançado | — |
-| **AV-02** | Observador / Anotador | [Nome do Integrante] | — | Graduando em Eng. Software (UnB) | Avançado | — |
+| **AV-01** | Avaliador Responsável (T01) | Vinicius Silva Araruna | — | Graduando em Eng. Software (UnB) | Avançado | — |
+| **AV-02** | Avaliador Responsável (T02) | Gustavo Antonio | — | Graduando em Eng. Software (UnB) | Avançado | — |
+| **AV-03** | Avaliador Responsável (T03) | Edvaldo Soares | — | Graduando em Eng. Software (UnB) | Avançado | — |
 | **P1** | Participante Convidado | *[Iniciais / Anonimizado]* | *[Idade]* | *[Curso de Graduação]* | *[Iniciante/Médio]* | *[Distribuição]* |
 | **P2** | Participante Convidado | *[Iniciais / Anonimizado]* | *[Idade]* | *[Curso de Graduação]* | *[Iniciante/Médio]* | *[Distribuição]* |
 | **P3** | Participante Convidado | *[Iniciais / Anonimizado]* | *[Idade]* | *[Curso de Graduação]* | *[Iniciante/Médio]* | *[Distribuição]* |
@@ -118,13 +119,13 @@ O relatório de relato deverá desdobrar os problemas classificados em ações p
 
 Em atendimento estrito ao **Item 12 da Apresentação da Etapa 4** do Plano de Ensino, o relatório de resultados deverá conter uma seção explícita reiterando a blindagem metodológica do teste-piloto:
 
-> *"Declara-se formalmente que a sessão de Teste-Piloto, conduzida previamente para validar a temporização do TCLE, a clareza do roteiro e a estabilidade técnica da gravação no Google Meet, não teve seus dados computados, sintetizados ou incorporados na análise dos resultados da avaliação dos Storyboards com usuários."*
+> *"Declara-se formalmente que a sessão de Teste-Piloto, conduzida previamente para validar a temporização do TCLE, a clareza do roteiro e a calibração do dispositivo sobre a mesa, ambiente silencioso e gravação presencial, não teve seus dados computados, sintetizados ou incorporados na análise dos resultados da avaliação dos Storyboards com usuários."*
 
 ---
 
 ## 7. Modelo de Registros Audiovisuais das Sessões
 
-A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessões conduzidas no Google Meet e hospedadas no YouTube (regime Não Listado).
+A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessões presenciais conduzidas na FGA/UnB e hospedadas no YouTube (regime Não Listado).
 
 **Tabela 4** — Modelo de Registro Audiovisual das Sessões de Storyboard *(A preencher pós-sessões)*
 
@@ -171,6 +172,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial do planejamento do relato dos resultados da avaliação do Storyboard (Issue #61), contemplando objetivos, método de baixa fidelidade, perfil de participantes, tarefas, matriz de problemas com gravidade de Nielsen, diretrizes de reprojeto, isolamento do piloto e lista de verificação. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 13/10/2026 | Expansão da Lista de Verificação da Técnica (Tabela 5) para exatamente 10 itens normativos, incluindo registros audiovisuais, cronograma executado e priorização de problemas, além de fontes nominais. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 20/10/2026 | Adequação da modalidade para sessões presenciais no campus da FGA/UnB (Issue #100): manuseio físico de pranchas impressas a 300 DPI, gravação sobre a mesa em ambiente silencioso e alinhamento da esteira executiva. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 
