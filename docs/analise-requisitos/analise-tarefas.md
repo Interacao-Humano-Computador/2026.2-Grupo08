@@ -233,38 +233,35 @@ A análise quantitativa dos tempos da Tabela 5 conduz a conclusões ergonômicas
 
 ---
 
-## Tarefa 2: Criação de Eventos Presenciais (Gustavo Antonio)
+## Tarefa 2: Criação de Eventos Presenciais da Comunidade (Gustavo Antonio)
 
 - **Autor Principal**: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
 - **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
 - **Técnicas Adotadas**: HTA (Análise Hierárquica de Tarefas) e CTT (Árvores de Tarefas Concorrentes)
-- **Objeto de Análise**: Fluxo sociotécnico de planejamento, validação comunitária e agendamento de eventos presenciais (workshops, meetups e encontros de software livre) na plataforma Discourse do Fórum Diolinux Plus. O fluxo abrange desde a sondagem de interesse e horários por enquete até a publicação do evento com restrição de quórum mínimo e gestão automatizada de ingressos/confirmação.
+- **Objeto de Análise**: Fluxo de criação e publicação de eventos presenciais da comunidade (meetups, workshops, hackathons), abrangendo desde a iniciativa do organizador, inserção de programação e mídias, geolocalização com mapas e lotação física, até a precificação/gestão de ingressos (gratuitos ou pagos) e publicação integrada.
 
-### 1. Especificação da Aplicação da Funcionalidade na Interface do Diolinux Plus
+### 1. Especificação da Aplicação da Funcionalidade no Sistema
 
-A funcionalidade **Criação de Eventos Presenciais (CF02)** integra-se ao ecossistema Discourse por meio de três pontos de contato de interface:
+A funcionalidade **Criação de Eventos Presenciais (CF02)** proporciona um fluxo completo de gerenciamento de encontros comunitários no mundo real, estruturado em cinco etapas operacionais:
 
-1. **Acesso e Navegação:**
-   - Adição do item **"Eventos e Encontros"** no menu de navegação da barra lateral (*Sidebar Navigation*) e no cabeçalho superior do fórum, permitindo filtrar eventos por região geográfica e status (*"Em Votação"*, *"Confirmados"*, *"Inscrições Abertas"*).
-   - Botão de ação primária **"+ Criar Evento"** disponibilizado na página da categoria ou acessível pelo compositor padrão via seletor de tipo de postagem (*Tópico Padrão* vs. *Evento Presencial*).
-
-2. **Mecanismo de Enquete de Horários e Local (Sondagem Prévia):**
-   - Para evitar eventos vazios ou datas inviáveis, o organizador pode abrir um tópico em modo **"Sondagem Coletiva"**.
-   - Integração com um componente interativo de **Grid de Disponibilidade/Enquete (Poll)** permitindo que os membros votem em múltiplos turnos, dias e polos sugeridos. O sistema processa os votos e oferece a opção de consolidar automaticamente a opção vencedora no formulário oficial do evento.
-
-3. **Formulário de Configuração, Quórum Mínimo e Gestão de Ingressos:**
-   - O organizador formaliza a data, horário, local (com integração a mapas) e limite de participantes (*Lotação Máxima*).
-   - **Regra de Negócio de Quórum Mínimo:** Definição obrigatória de um número mínimo de inscrições para viabilizar o evento (ex.: mínimo 10, máximo 30).
-   - **Controle de Estados e Visibilidade:**
-     - *Pendente de Quórum:* O evento aceita inscrições exibindo indicador de progresso (*"8 de 12 inscritos até o deadline"*).
-     - *Confirmado:* Quórum atingido antes do prazo limite; os ingressos definitivos (com QR Code) são emitidos e as cobranças (se evento pago com rateio) são debitadas.
-     - *Cancelado por Falta de Quórum:* Se o deadline expirar sem atingir a meta mínima, os inscritos são notificados, valores retidos são estornados e o tópico é atualizado automaticamente.
+1. **Ponto de Entrada e Descoberta:**
+   - Botão de destaque **"+ Criar Evento"** localizado no Hub/Calendário de Eventos da plataforma ou via atalho no menu de perfil do organizador (*"Meus Eventos > Novo"*).
+2. **Dados Gerais e Programação:**
+   - Título, categorias temáticas, upload de banner de divulgação (com compressão no front-end) e ementa do evento com blocos modulares de cronograma/palestrantes sem depender de formatação em texto puro.
+3. **Local Físico, Geolocalização e Lotação:**
+   - Busca de endereço assistida por autocompletar integrado a mapas (*OpenStreetMap/Google Maps*), ajuste fino de marcador visual, referências detalhadas de sala/auditório e definição da lotação máxima do espaço físico (com opção de lista de espera).
+4. **Configuração de Ingressos e Pagamento:**
+   - Suporte a eventos gratuitos (com cota máxima por usuário para evitar abusos) ou eventos com taxa de rateio de custos/ingresso pago (com discriminação transparente de taxas e checkout via Pix/Gateway).
+5. **Revisão, Salvamento e Publicação:**
+   - Pré-visualização responsiva (mobile e desktop), salvamento automático contínuo de rascunhos para prevenção de perda de dados e emissão imediata de link público e QR Code para check-in.
 
 ---
 
 ### 2. Modelagem HTA (Análise Hierárquica de Tarefas)
 
 A Figura 4 apresenta o diagrama hierárquico da Tarefa 2 elaborado na notação canônica de Annett e Duncan (1967) e Barbosa e Silva (2021).
+
+![Diagrama HTA - Criação e Publicação de Evento Presencial da Comunidade](../assets/referencias/hta_criacao_eventos_presenciais_cf02.png)
 
 ```mermaid
 graph TD
@@ -273,81 +270,79 @@ graph TD
     classDef op fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#E2E8F0;
     classDef plan fill:#475569,stroke:#F59E0B,stroke-width:1.5px,color:#FEF3C7;
 
-    G0["0. Organizar e Publicar Evento Presencial da Comunidade"]:::goal
-    P0["Plano 0: 1 opcionalmente, depois 2, depois 3; se quórum atingido executar 4; senão executar 5"]:::plan
+    G0["0. Criar e Publicar Evento Presencial da Comunidade"]:::goal
+    P0["Plano 0: 1 > 2 > 3 > 4 > 5"]:::plan
 
     G0 --> P0
-    P0 --> G1["1. Sondar Interesse, Data e Local com a Comunidade"]:::sub
-    P0 --> G2["2. Configurar e Publicar a Página do Evento"]:::sub
-    P0 --> G3["3. Monitorar Inscrições e Adesão de Quórum"]:::sub
-    P0 --> G4["4. Confirmar Evento e Emitir Ingressos"]:::sub
-    P0 --> G5["5. Cancelar Evento por Falta de Quórum"]:::sub
+    P0 --> G1["1. Iniciar Criação do Evento"]:::sub
+    P0 --> G2["2. Informar Dados Gerais e Programação"]:::sub
+    P0 --> G3["3. Definir Local Físico e Capacidade"]:::sub
+    P0 --> G4["4. Configurar Ingressos e Pagamento"]:::sub
+    P0 --> G5["5. Revisar e Publicar Evento"]:::sub
 
-    P1["Plano 1: 1.1 > 1.2 > 1.3 > 1.4"]:::plan
+    P1["Plano 1: 1.1 / 1.2"]:::plan
     G1 --> P1
-    P1 --> O11["1.1 Criar tópico de sondagem de evento na categoria regional"]:::op
-    P1 --> O12["1.2 Inserir enquete com opções de dias, turnos e locais"]:::op
-    P1 --> O13["1.3 Publicar enquete e aguardar votação dos interessados"]:::op
-    P1 --> O14["1.4 Avaliar opção vencedora na matriz de votos"]:::op
+    P1 --> O11["1.1 Clicar em '+ Criar Evento' no Hub de Eventos"]:::op
+    P1 --> O12["1.2 Selecionar 'Novo Evento' no menu do perfil"]:::op
 
-    P2["Plano 2: 2.1 > 2.2 > 2.3 > 2.4 > 2.5"]:::plan
+    P2["Plano 2: (2.1 + 2.2 + 2.3) > 2.4"]:::plan
     G2 --> P2
-    P2 --> O21["2.1 Informar título, ementa técnica e palestrantes"]:::op
-    P2 --> O22["2.2 Definir data, horário e endereço/mapa (ou importar da enquete)"]:::op
-    P2 --> O23["2.3 Definir quórum mínimo e lotação máxima de participantes"]:::op
-    P2 --> O24["2.4 Configurar modalidade de ingressos e taxa de rateio de custos"]:::op
-    P2 --> O25["2.5 Submeter e publicar evento oficial no fórum"]:::op
+    P2 --> O21["2.1 Inserir título e categoria temática"]:::op
+    P2 --> O22["2.2 Redigir descrição e cronograma com editor"]:::op
+    P2 --> O23["2.3 Fazer upload do banner de divulgação"]:::op
+    P2 --> O24["2.4 Selecionar datas de início e término e fuso horário"]:::op
 
-    P3["Plano 3: Repetir 3.1 até a data limite; se inscritos < mínimo, executar 3.2"]:::plan
+    P3["Plano 3: 3.1 > (3.2 / 3.3) > 3.4"]:::plan
     G3 --> P3
-    P3 --> O31["3.1 Acompanhar contador de inscritos em tempo real no dashboard"]:::op
-    P3 --> O32["3.2 Disparar lembrete de proximidade do prazo no tópico do fórum"]:::op
+    P3 --> O31["3.1 Digitar endereço do local da atividade"]:::op
+    P3 --> O32["3.2 Selecionar ponto no mapa integrado"]:::op
+    P3 --> O33["3.3 Inserir referências adicionais de sala/bloco"]:::op
+    P3 --> O34["3.4 Estipular lotação máxima do espaço físico"]:::op
 
-    P4["Plano 4: 4.1 > 4.2 > 4.3"]:::plan
+    P4["Plano 4: 4.1 > (4.2 / 4.3)"]:::plan
     G4 --> P4
-    P4 --> O41["4.1 Alterar status do evento para 'Confirmado'"]:::op
-    P4 --> O42["4.2 Disparar ingressos com QR Code e confirmação por e-mail"]:::op
-    P4 --> O43["4.3 Abrir tópico/chat de alinhamento logístico entre confirmados"]:::op
+    P4 --> O41["4.1 Escolher modalidade do evento (Gratuito ou Pago)"]:::op
+    P4 --> O42["4.2 Configurar emissão gratuita e limite por participante"]:::op
+    P4 --> O43["4.3 Configurar lote pago, chave de repasse e checkout"]:::op
 
     P5["Plano 5: 5.1 > 5.2 > 5.3"]:::plan
     G5 --> P5
-    P5 --> O51["5.1 Notificar automaticamente participantes sobre a insuficiência de quórum"]:::op
-    P5 --> O52["5.2 Estornar valores pré-autorizados ou taxa de inscrição"]:::op
-    P5 --> O53["5.3 Encerrar inscrições e arquivar tópico com justificativa"]:::op
+    P5 --> O51["5.1 Visualizar prévia responsiva do evento"]:::op
+    P5 --> O52["5.2 Confirmar publicação no painel"]:::op
+    P5 --> O53["5.3 Obter link de divulgação e QR Code de check-in"]:::op
 ```
 
-**Figura 4** — Diagrama HTA da tarefa de Criação de Eventos Presenciais com Enquete e Quórum Mínimo.  
+**Figura 4** — Diagrama HTA da tarefa de Criar e Publicar Evento Presencial da Comunidade.  
 _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
 
-A Tabela 6 apresenta a decomposição hierárquica tabular da Tarefa 2 estritamente no **formato canônico da Tabela 8.4 de Barbosa & Silva (2021, p. 165–166)**, contendo as duas colunas estruturais (*objetivos / operações* com a tupla de ⟨*input*, *ação*, *feedback*, *plano*⟩ e *problemas e recomendações* de IHC).
+A Tabela 6 apresenta a decomposição hierárquica tabular da Tarefa 2 estritamente no **formato canônico da Tabela 8.4 de Barbosa & Silva (2021, p. 165–166)**, contendo as tuplas de ⟨*input*, *ação*, *feedback*, *plano*⟩ e *problemas e recomendações* de IHC.
 
-**Tabela 6** — Decomposição tabular da Tarefa 2: Criação de Eventos Presenciais (Formato Canônico: Tabela 8.4 de Barbosa & Silva)
+**Tabela 6** — Decomposição tabular da Tarefa 2: Criar e Publicar Evento Presencial (Formato Canônico: Tabela 8.4 de Barbosa & Silva)
 
 | Objetivos / Operações | Problemas e Recomendações de IHC |
 | :--- | :--- |
-| **0. Organizar e Publicar Evento Presencial da Comunidade** `(1)>2>3>(4/5)`<br>**input**: interesse da comunidade em promover workshop/meetup local de Linux e dados preliminares da atividade.<br>**feedback**: evento publicado na categoria regional do Discourse e notificação final aos participantes com ingressos confirmados ou aviso de cancelamento.<br>**plano**: realizar sondagem prévia (opcional), configurar e publicar a página do evento, monitorar quórum até o prazo limite; se o quórum mínimo for atingido, confirmar evento e emitir ingressos; caso contrário, cancelar evento por falta de quórum. | **problema**: organizadores publicarem eventos arbitrários sem validação prévia de público, gerando alto índice de cancelamentos e frustração coletiva.<br>**recomendação**: o sistema deve sugerir proativamente a execução da sondagem de horários e locais antes de abrir o formulário definitivo de publicação. |
-| **1. Sondar Interesse, Data e Local com a Comunidade** `1>2>3>4`<br>**input**: proposta de tema do encontro e opções preliminares de datas, horários e polos da cidade.<br>**feedback**: matriz consolidada de votos dos membros apontando a data/turno de maior convergência.<br>**plano**: criar tópico de sondagem, inserir componente de enquete de calendário, publicar tópico e aguardar votação, avaliar opção vencedora. | **problema**: enquetes informais em texto corrido dificultam a tabulação e geram dispersão de comentários.<br>**recomendação**: disponibilizar componente visual estruturado de enquete de disponibilidade (grid de datas e turnos). |
-| **1.1 Criar tópico de sondagem regional**<br>**ação**: redigir contextualização do encontro e selecionar a subcategoria regional correspondente no fórum. | **problema**: dúvida sobre qual categoria regional do Discourse enquadrar o tópico.<br>**recomendação**: interface com seletor guiado por estado/cidade no momento de abertura do tópico. |
-| **1.2 Inserir componente de enquete com opções de dias, turnos e locais**<br>**ação**: configurar opções de múltipla escolha com limites de datas no modal de enquete. | **problema**: sintaxe de BBCode/Markdown (`[poll]`) do Discourse complexa e propensa a erros de formatação para usuários iniciantes.<br>**recomendação**: fornecer construtor visual de enquetes interativo (*GUI*) com calendário gráfico integrado. |
-| **1.3 Publicar enquete e aguardar votação dos interessados**<br>**ação**: submeter o tópico e manter período aberto para participação dos membros. | **problema**: baixa visibilidade inicial de tópicos de sondagem na listagem geral do fórum.<br>**recomendação**: fixação automática temporária (*pin*) do tópico na categoria regional durante o período de votação. |
-| **1.4 Avaliar opção vencedora na matriz de votos**<br>**ação**: examinar o gráfico de distribuição de votos e identificar o horário com maior quórum potencial. | **problema**: organizador ter que cruzar manualmente disponibilidades conflitantes.<br>**recomendação**: o sistema deve destacar com badge a combinação vencedora e oferecer o botão "Importar para Novo Evento". |
-| **2. Configurar e Publicar a Página do Evento** `1>2>3>4>5`<br>**input**: dados de título, ementa, horário/local consolidados e regras de quórum.<br>**feedback**: tópico oficial de evento criado com selo de status *"Pendente de Quórum"* e formulário de inscrição ativo.<br>**plano**: informar dados descritivos, definir data/local (ou importar da sondagem), estipular quórum mínimo e lotação máxima, configurar modalidade de ingressos, submeter e publicar evento. | **problema**: formulário monolítico muito extenso gerando sobrecarga cognitiva e abandono de preenchimento.<br>**recomendação**: estruturar o formulário em etapas progressivas (*wizard/stepper*) com salvamento automático de rascunhos. |
-| **2.1 Informar título, ementa técnica e palestrantes**<br>**ação**: preencher os campos de descrição, objetivos do workshop e pré-requisitos dos participantes. | **problema**: descrições vagas sem explicitação do nível de conhecimento prévio exigido.<br>**recomendação**: campos dedicados para "Público-alvo" e "Materiais necessários" (ex.: trazer notebook). |
-| **2.2 Definir data, horário e endereço/mapa**<br>**ação**: inserir endereço físico do local do evento ou validar os dados importados da enquete. | **problema**: endereços informados de forma ambígua que dificultam a localização no dia do evento.<br>**recomendação**: campo com autocompletar integrado a mapas (*OpenStreetMap/Google Maps*) e pré-visualização visual de rotas. |
-| **2.3 Definir quórum mínimo e lotação máxima de participantes**<br>**ação**: especificar a quantidade mínima de inscritos para viabilidade do evento e a capacidade máxima do espaço físico. | **problema**: organizador não compreender o impacto do quórum mínimo na gestão do evento.<br>**recomendação**: inserir *tooltip* e aviso explicativo contextual: *"O evento será cancelado automaticamente caso o número mínimo não seja alcançado até a data limite"*. |
-| **2.4 Configurar modalidade de ingressos e taxa de rateio de custos**<br>**ação**: selecionar evento gratuito ou definir valor de contribuição para rateio (coffee break, reserva de sala). | **problema**: insegurança dos participantes quanto à devolução de valores em eventos não confirmados.<br>**recomendação**: garantia explícita visível: *"Em caso de cancelamento por falta de quórum, o valor é estornado automaticamente sem taxas adicionais"*. |
-| **2.5 Submeter e publicar evento oficial no fórum**<br>**ação**: revisar o resumo das informações e confirmar a publicação pública. | **problema**: publicação acidental de dados incorretos sem revisão prévia.<br>**recomendação**: exibir modal de confirmação (*review summary*) com os parâmetros críticos antes do disparo. |
-| **3. Monitorar Inscrições e Adesão de Quórum** `1 (se < mínimo > 2)`<br>**input**: fluxo contínuo de inscrições de usuários da comunidade.<br>**feedback**: barra de progresso de quórum atualizada em tempo real no topo da página do evento.<br>**plano**: acompanhar contador de inscritos até a data limite estipulada; se o contingente for inferior ao quórum mínimo, disparar lembrete de proximidade do prazo. | **problema**: organizador ficar no escuro quanto ao ritmo de inscrições e proximidade do prazo limite.<br>**recomendação**: dashboard do evento com contagem regressiva visual e taxa de preenchimento de vagas. |
-| **3.1 Acompanhar contador de inscritos em tempo real no dashboard**<br>**ação**: visualizar métricas de inscritos, vagas restantes e prazo limite. | **problema**: necessidade de recarregar a página continuamente para acompanhar novas inscrições.<br>**recomendação**: atualização assíncrona automática via WebSockets (*live reload*) do contador de inscritos. |
-| **3.2 Disparar lembrete de proximidade do prazo no tópico do fórum**<br>**ação**: emitir aviso público aos seguidores do tópico alertando sobre as últimas vagas e a proximidade do encerramento. | **problema**: falta de canal direto para reengajar os usuários que votaram na enquete mas ainda não formalizaram a inscrição.<br>**recomendação**: recurso de "Notificar interessados da enquete" com um único clique no painel do organizador. |
-| **4. Confirmar Evento e Emitir Ingressos** `1>2>3`<br>**input**: atingimento da meta de quórum mínimo antes do encerramento do prazo limite.<br>**feedback**: transição automática do status do evento para *"Confirmado"* e emissão dos comprovantes de acesso.<br>**plano**: atualizar status oficial, disparar ingressos eletrônicos com QR Code e abrir tópico exclusivo para logística dos participantes. | **problema**: participantes esquecerem ou não localizarem seus dados de acesso no dia da atividade.<br>**recomendação 1**: emissão com canal duplo (notificação no fórum com QR Code acessível offline + envio de PDF por e-mail).<br>**recomendação 2**: inclusão de código alfanumérico curto para conferência caso haja falha na leitura óptica do QR Code. |
-| **4.1 Alterar status do evento para 'Confirmado'**<br>**ação**: disparar gatilho sistêmico que encerra a fase de incerteza de quórum. | **problema**: atrasos na confirmação gerando desistência de participantes.<br>**recomendação**: automação imediata da transição no exato instante em que o último ingresso do quórum mínimo for preenchido. |
-| **4.2 Disparar ingressos com QR Code e confirmação por e-mail**<br>**ação**: gerar credencial nominal única criptografada para cada participante inscrito. | **problema**: indisponibilidade de conexão móvel no local do evento para abrir o e-mail.<br>**recomendação**: integração com armazenamento local na aplicação web (PWA) e possibilidade de download direto da imagem da credencial. |
-| **4.3 Abrir tópico/chat de alinhamento logístico entre confirmados**<br>**ação**: criar espaço restrito aos inscritos para combinação de caronas, dúvidas sobre rotas e materiais. | **problema**: tópicos públicos ficarem poluídos com conversas operacionais particulares de participantes locais.<br>**recomendação**: criação automática de uma mensagem em grupo no Discourse restrita aos membros com presença confirmada. |
-| **5. Cancelar Evento por Falta de Quórum** `1>2>3`<br>**input**: expiração da data limite sem que o quórum mínimo de inscritos tenha sido alcançado.<br>**feedback**: evento sinalizado como *"Cancelado por Quórum"* com envio de esclarecimentos empáticos e liberação de valores retidos.<br>**plano**: notificar participantes inscritos, executar estorno integral de taxas pré-autorizadas e arquivar tópico de inscrições. | **problema**: sensação de frustração, insegurança financeira e desestímulo à participação em futuros eventos da comunidade.<br>**recomendação 1**: mensagem transparente e humanizada explicando que o cancelamento protegeu a viabilidade da atividade coletiva.<br>**recomendação 2**: processo financeiro 100% automatizado por pré-autorização bancária (liberação sem retenção em fatura). |
-| **5.1 Notificar automaticamente participantes sobre a insuficiência de quórum**<br>**ação**: envio de notificação interna e e-mail informando o cancelamento com justificativa clara. | **problema**: e-mails de cancelamento caírem na caixa de spam do usuário.<br>**recomendação**: exibir notificação tipo *banner* destacado no cabeçalho do fórum no próximo login do usuário. |
-| **5.2 Estornar valores pré-autorizados ou taxa de inscrição**<br>**ação**: comando automático à intermediadora de pagamento liberando os limites retidos. | **problema**: demora no estorno de compras por cartão de crédito gerando reclamações e atritos.<br>**recomendação**: utilizar pré-autorização (captura tardia), de forma que o dinheiro só saia da conta do usuário se o quórum for atingido. |
-| **5.3 Encerrar inscrições e arquivar tópico com justificativa**<br>**ação**: bloquear novos registros de participantes e atualizar o título com tag `[CANCELADO]`. | **problema**: usuários continuarem tentando se inscrever ou comentar em eventos já cancelados.<br>**recomendação**: congelamento automático dos botões de ação e arquivamento do tópico para consulta histórica. |
+| **0. Criar e Publicar Evento Presencial da Comunidade** `1>2>3>4>5`<br>**input**: Membro autenticado da comunidade com permissão de organizador desejando promover encontro presencial (meetup, hackathon, workshop).<br>**feedback**: Página pública do evento criada com mapa interativo, lote de ingressos ativo e tópico de discussão vinculado no fórum.<br>**plano**: Iniciar criação (1), preencher dados e programação (2), definir local e lotação (3), configurar ingressos/pagamento (4) e revisar/publicar (5). | **recomendação**: Salvar rascunho automaticamente a cada etapa para prevenir perda de dados por fechamento acidental de aba ou falha de conectividade. |
+| **1. Iniciar Criação do Evento** `1.1 / 1.2`<br>**plano**: Clicar no botão principal de criação no calendário de eventos (1.1) ou acessar atalho no menu de perfil do organizador (1.2). | |
+| **1.1 Clicar em "+ Criar Evento" no Hub de Eventos**<br>**ação**: Acionar botão com destaque visual primário na área de Eventos. | **problema**: Se a aba "Eventos" estiver escondida na navegação secundária, novos organizadores não encontram o recurso.<br>**recomendação**: Inserir botão de fácil acesso no topo da barra de navegação global. |
+| **1.2 Selecionar no menu do perfil**<br>**ação**: Abrir menu dropdown do avatar e clicar em "Meus Eventos > Novo". | **problema**: Excesso de níveis de menu pode ocultar a ação rápida.<br>**recomendação**: Manter o atalho direto no primeiro nível do menu de perfil do usuário. |
+| **2. Informar Dados Gerais e Programação** `(2.1 + 2.2 + 2.3) > 2.4`<br>**input**: Formulário estruturado de cadastro de evento.<br>**feedback**: Campos validados com contador de caracteres e prévia do banner renderizada.<br>**plano**: Preencher título (2.1), descrição (2.2) e banner (2.3) em ordem livre (2.1 + 2.2 + 2.3), seguido da definição obrigatória de datas/horários (2.4). | |
+| **2.1 Inserir título e categoria temática**<br>**ação**: Digitar nome do evento e selecionar tags temáticas (ex: Linux, Hardware, DevOps). | **problema**: Títulos vagos geram eventos desordenados e de difícil indexação.<br>**recomendação**: Exibir placeholder com exemplo claro: "Ex: 1º Meetup Linux & Kernel de Brasília". |
+| **2.2 Redigir descrição e cronograma**<br>**ação**: Inserir a ementa das palestras e horários usando o editor rico. | **problema**: Dificuldade em formatar tabelas de horários em Markdown para quem não domina a sintaxe.<br>**recomendação**: Oferecer um componente visual "Adicionar Bloco de Horário/Palestrante" sem depender de texto puro. |
+| **2.3 Upload do banner de divulgação**<br>**ação**: Selecionar imagem JPG/PNG nos padrões de dimensão recomendados. | **problema**: Imagens muito pesadas falham sem aviso de limite de tamanho em megabytes.<br>**recomendação**: Compressão automática no front-end e indicação visual das dimensões ideais (1200x630px). |
+| **2.4 Selecionar data e horários**<br>**ação**: Preencher data de início, término e fuso horário da atividade. | **problema**: Usuário pode acidentalmente colocar horário de término anterior ao início.<br>**recomendação**: Validação bloqueante imediata que ajusta a data final automaticamente caso seja anterior à inicial. |
+| **3. Definir Local Físico e Capacidade** `3.1 > (3.2 / 3.3) > 3.4`<br>**input**: Painel de geolocalização e controle de capacidade.<br>**feedback**: Marcador (pin) posicionado no mapa com endereço formatado e limite de vagas definido.<br>**plano**: Digitar endereço (3.1), confirmar ponto no mapa (3.2) ou detalhar sala (3.3), e estipular lotação (3.4). | |
+| **3.1 Digitar endereço do local da atividade**<br>**ação**: Digitar rua, número, bairro e cidade no campo de busca de locais. | **problema**: Digitação incorreta gera erros de geocodificação no mapa.<br>**recomendação**: Autocomplete integrado com API de mapas (*OpenStreetMap / Google Maps*). |
+| **3.2 Selecionar ponto no mapa**<br>**ação**: Ajustar marcador visual no mapa interativo arrastando o pin.<br>**feedback**: Coordenadas atualizadas e rota estimada visível. | **problema**: Usuário perder o ponto de referência ao arrastar o mapa sem zoom adequado.<br>**recomendação**: Botão para "Recentralizar no endereço digitado". |
+| **3.3 Inserir referências adicionais de sala/bloco**<br>**ação**: Informar sala, andar, bloco universitário ou ponto de referência. | **recomendação**: Campo com tooltip explicativo: "Especialmente útil para auditórios e salas dentro de universidades ou coworkings". |
+| **3.4 Estipular lotação máxima do espaço físico**<br>**ação**: Definir número total de assentos e capacidade física suportada. | **problema**: Falta de clareza sobre o que acontece quando a lotação atinge 100%.<br>**recomendação**: Checkbox opcional: "Habilitar lista de espera automática quando esgotar as vagas". |
+| **4. Configurar Ingressos e Pagamento** `4.1 > (4.2 / 4.3)`<br>**input**: Painel de precificação e tipos de tíquete.<br>**feedback**: Resumo de taxas exibido e lote de ingressos validado.<br>**plano**: Escolher entre evento gratuito ou pago (4.1), procedendo para a emissão sem custo (4.2) ou configuração de checkout (4.3). | |
+| **4.1 Escolher modalidade do evento (Gratuito ou Pago)**<br>**ação**: Selecionar via botão de alternância (Toggle / Abas): "Gratuito" ou "Pago". | **problema**: Confusão entre eventos com taxa de rateio de custos e eventos com fins lucrativos.<br>**recomendação**: Explicação contextual sobre modalidades de ingressos. |
+| **4.2 Configurar emissão gratuita e limite por participante**<br>**ação**: Definir limite de ingressos gratuitos por participante (ex: máx. 2 por CPF/usuário).<br>**feedback**: Emissão direta via e-mail sem etapa de cobrança financeira. | **problema**: Esgotamento rápido por cadastros automatizados ou reservas fantasmas.<br>**recomendação**: Exigência de conta validada na comunidade para emissão de lote gratuito. |
+| **4.3 Configurar lote pago, chave de repasse e checkout**<br>**ação**: Inserir preço unitário, datas de virada de lote e chave Pix/Gateway de repasse. | **problema**: Falta de transparência imediata sobre taxas de intermediação financeira retidas.<br>**recomendação**: Exibir demonstrativo em tempo real: "Valor do ingresso: R$ 20,00 | Taxa retida: R$ 1,50 | Valor a receber por vaga: R$ 18,50". |
+| **5. Revisar e Publicar Evento** `5.1 > 5.2 > 5.3`<br>**input**: Dados de todas as etapas preenchidos com sucesso.<br>**feedback**: Modal de confirmação/celebração, link curto público gerado e criação automática de tópico no fórum.<br>**plano**: Visualizar prévia (5.1), confirmar publicação (5.2) e obter materiais de divulgação (5.3). | |
+| **5.1 Visualizar prévia responsiva do evento**<br>**ação**: Inspecionar a página como ela aparecerá para os participantes no celular e no desktop. | **problema**: Organizador notar erros visuais apenas após a publicação.<br>**recomendação**: Botão "Voltar e Editar" direto da tela de prévia sem perda do preenchimento. |
+| **5.2 Confirmar publicação no painel**<br>**ação**: Acionar botão "Publicar Evento Agora".<br>**feedback**: Mensagem de sucesso com criação simultânea do tópico "Discussão Oficial do Evento" na categoria correspondente da comunidade. | **problema**: Duplo clique acidental causando publicações duplicadas.<br>**recomendação**: Desabilitar o botão com estado de *loading* após o primeiro acionamento. |
+| **5.3 Obter link de divulgação e QR Code de check-in**<br>**ação**: Copiar URL curta ou baixar QR Code para validação de entrada no dia do encontro. | **problema**: Organizador não salvar o material no momento da publicação e ter dificuldade de reencontrar.<br>**recomendação**: Enviar kit de divulgação e credencial mestre do organizador automaticamente por e-mail. |
 
 _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026. Estruturada segundo o modelo canônico da Tabela 8.4 de Barbosa & Silva (2021)._
 
@@ -366,58 +361,67 @@ graph TD
     classDef choice fill:#ffe0e0,stroke:#aa0000,stroke-width:1.5px;
 
     %% Tarefa Raiz
-    T0["T0: Gerenciar Ciclo de Vida do Evento Presencial"]:::abstract
+    T0["T0: Criar e Publicar Evento Presencial"]:::abstract
 
     %% Subtarefas Nivel 1
-    T1["T1: Sondar Viabilidade e Horários"]:::abstract
-    T2["T2: Configurar e Publicar Evento"]:::abstract
-    T3["T3: Controlar Inscrições e Quórum"]:::abstract
-    T4["T4: Desfecho do Evento"]:::choice
+    T1["T1: Iniciar Criação"]:::abstract
+    T2["T2: Informar Dados e Programação"]:::abstract
+    T3["T3: Definir Local e Lotação"]:::abstract
+    T4["T4: Configurar Ingressos/Pagamento"]:::choice
+    T5["T5: Revisar e Publicar"]:::abstract
 
     T0 --> T1
     T0 --> T2
     T0 --> T3
     T0 --> T4
+    T0 --> T5
 
-    %% Decomposicao T1
-    T1a["T1a: Propor opções de datas e locais"]:::interaction
-    T1b["T1b: Votar em opções de disponibilidade"]:::user
-    T1c["T1c: Apurar e consolidar votos da enquete"]:::system
+    %% Decomposicao T1 (Escolha de Ponto de Entrada)
+    T1a["T1a: Clicar no botão do Hub de Eventos"]:::interaction
+    T1b["T1b: Acessar menu do perfil"]:::interaction
     T1 --> T1a
     T1 --> T1b
-    T1 --> T1c
 
-    %% Decomposicao T2
-    T2a["T2a: Informar dados básicos e mapa"]:::interaction
-    T2b["T2b: Definir quórum mínimo e lotação"]:::user
-    T2c["T2c: Configurar ingressos e rateio"]:::interaction
-    T2d["T2d: Validar formulário e publicar página"]:::system
+    %% Decomposicao T2 (Concorrencia de preenchimento)
+    T2a["T2a: Inserir título e tags"]:::interaction
+    T2b["T2b: Redigir ementa e cronograma"]:::interaction
+    T2c["T2c: Fazer upload de banner"]:::interaction
+    T2d["T2d: Definir datas de início e término"]:::interaction
     T2 --> T2a
     T2 --> T2b
     T2 --> T2c
     T2 --> T2d
 
-    %% Decomposicao T3
-    T3a["T3a: Efetuar inscrição no evento"]:::interaction
-    T3b["T3b: Contabilizar quórum em tempo real"]:::system
-    T3c["T3c: Monitorar meta no painel"]:::user
+    %% Decomposicao T3 (Geolocalizacao e Capacidade)
+    T3a["T3a: Digitar endereço"]:::interaction
+    T3b["T3b: Posicionar marcador no mapa"]:::interaction
+    T3c["T3c: Informar sala/referência"]:::interaction
+    T3d["T3d: Estipular lotação máxima"]:::user
     T3 --> T3a
     T3 --> T3b
     T3 --> T3c
+    T3 --> T3d
 
-    %% Decomposicao T4 (Escolha / Condicional)
-    T4a["T4a: Quórum Atingido: Emitir Ingressos e Confirmar"]:::system
-    T4b["T4b: Quórum Não Atingido: Cancelar e Estornar"]:::system
-    T4 -->|"Quórum OK"| T4a
-    T4 -->|"Prazo expirado sem quórum"| T4b
+    %% Decomposicao T4 (Escolha de Modalidade)
+    T4a["T4a: Configurar lote gratuito e cotas"]:::interaction
+    T4b["T4b: Configurar lote pago, taxas e Pix"]:::interaction
+    T4 -->|"Gratuito"| T4a
+    T4 -->|"Pago"| T4b
+
+    %% Decomposicao T5 (Publicacao e Conclusao)
+    T5a["T5a: Inspecionar prévia responsiva"]:::user
+    T5b["T5b: Confirmar submissão final"]:::interaction
+    T5c["T5c: Gerar página pública e QR Code"]:::system
+    T5 --> T5a
+    T5 --> T5b
+    T5 --> T5c
 ```
 
 #### 3.1 Interpretação do Modelo CTT da Tarefa 2:
-- **T1 `[]>>` T2 (Sondagem com Habilitação Opcional):** A sondagem comunitária via enquete habilita o organizador a importar horários e locais consensuais diretamente para o formulário oficial de publicação.
-- **T2 `>>` T3 (Publicação Habilita Inscrição):** Uma vez publicado o evento, inicia-se a concorrência temporal (`|||`) entre as inscrições dos usuários (T3a), a contabilização em segundo plano pelo sistema (T3b) e o monitoramento pelo organizador (T3c).
-- **T4 (Ponto de Escolha e Alternância de Estados):**
-  - Se o limiar de **quórum mínimo** for satisfeito antes da data limite, dispara-se o ramo **T4a** (emissão de ingressos com QR Code, cobrança/confirmação e abertura de canal de interação para os confirmados).
-  - Caso o prazo expire sem atingir o contingente mínimo estipulado, o sistema aciona compulsoriamente o ramo **T4b** (notificação de cancelamento com justificativa clara e estorno integral de taxas pré-autorizadas).
+- **T1 `>>` T2 (Acesso Habilita Formulário):** O organizador escolhe o ponto de entrada (`[]` entre Hub ou menu do perfil), habilitando a etapa de preenchimento dos dados.
+- **T2 `|||` T3 (Preenchimento Concorrente e Sequencial):** Os campos descritivos e o banner ocorrem de forma concorrente (`|||`), com salvamento contínuo de rascunhos pelo sistema em segundo plano.
+- **T4 (Ponto de Escolha `[]` de Modalidade):** Alternância exclusiva entre emissão gratuita com limitação de cotas (T4a) ou configuração de lote pago com integração de taxas e gateway (T4b).
+- **T5 (Revisão e Geração de Artefatos):** A inspeção da prévia habilita a confirmação definitiva (T5b), disparando compulsoriamente a criação da página e emissão de QR Code pelo sistema (T5c).
 ---
 
 ## Tarefa 3: Busca Avançada e Filtros de Categoria (Edvaldo Soares)
