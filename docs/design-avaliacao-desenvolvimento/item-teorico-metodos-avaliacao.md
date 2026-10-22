@@ -54,12 +54,12 @@ _Fonte: Elaborada pelo autor com base em Barbosa e Silva (2010, pp. 301–303, 3
 
 ---
 
-## 3. Aplicação Prática no Projeto do Grupo 08 (Portal Domínio Público)
+## 3. Aplicação Prática no Projeto do Grupo 08 (Fórum Diolinux Plus)
 
-No âmbito do projeto prático de IHC para a reformulação do **Portal Domínio Público (MEC)**, a articulação entre investigação e inspeção de tarefas foi concretizada nas seguintes frentes da **Etapa 4**:
+No âmbito do projeto prático de IHC para o **Fórum Diolinux Plus**, a articulação entre investigação e inspeção de tarefas foi concretizada nas seguintes frentes da **Etapa 4**:
 
-1. **Investigação da Tarefa:** A partir da análise dos questionários e do perfil de usuário levantados nas etapas anteriores, identificou-se que a tarefa de **Busca Avançada e Filtros de Categoria** (Tarefa 3 do HTA) é crítica para o estudante autônomo, gerando desvios e buscas frustradas na versão legada do portal.
-2. **Representação Visual e Cenários (Issue #64):** Os dados investigados fundamentaram a elaboração do Storyboard 3 em quadrinhos manuais (300 DPI), retratando o contexto situacional do estudante ao lidar com a busca avançada.
+1. **Investigação da Tarefa:** A partir da análise dos questionários e do perfil de usuário levantados nas etapas anteriores, identificou-se que a tarefa de **Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias** (Tarefa 3 do HTA) é crítica para o estudante aprendiz, viabilizando suporte síncrono estruturado para problemas técnicos complexos de Linux.
+2. **Representação Visual e Cenários (Issue #64):** Os dados investigados fundamentaram a elaboração do Storyboard 3 em quadrinhos manuais (300 DPI), retratando o contexto situacional do estudante ao agendar um horário com um mentor voluntário.
 3. **Planejamento do Relato e Severidade (Issue #65):** Estruturação do relatório formal de resultados categorizando as falhas identificadas segundo a escala clássica de severidade de Nielsen (0 a 4).
 4. **Instrumentos de Observação e Registro (Issue #66):** Criação do roteiro comportamental e da planilha de anotações do avaliador (`observacao-avaliador.csv`), permitindo correlacionar a inspeção analítica com a posterior observação empírica de hesitações e erros.
 

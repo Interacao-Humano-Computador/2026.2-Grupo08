@@ -15,9 +15,10 @@ Registrar de forma sistemática as ações, hesitações, erros e tempos de exec
 
 ```
 Tarefa,Tempo (s),Hesitação (Y/N),Erro (Y/N),Severidade (0‑4),Prioridade (Alta/Média/Baixa)
-"Busca avançada",12,Y,N,2,Alta
-"Aplicar filtro",8,N,Y,3,Média
-"Navegação resultados",15,Y,Y,4,Alta
+"Localizar botão de agendamento no perfil",6,Y,N,2,Média
+"Selecionar bloco livre na matriz semanal",11,N,Y,2,Alta
+"Preencher formulário da dúvida técnica",18,N,N,1,Baixa
+"Confirmar reserva e verificar bloqueio",4,N,N,0,Baixa
 ```
 
 > Salve a planilha como `observacao-avaliador.csv` e mantenha‑a no diretório `docs/design-avaliacao-desenvolvimento/assets/observacao/`.
