@@ -2,7 +2,9 @@
 
 ### Problema
 
-*Carlos, estudante e usuário iniciante de Linux, enfrentou uma falha crítica de inicialização (GRUB/bootloader) após uma atualização do sistema. As respostas em texto no fórum não foram suficientes para diagnosticar o erro em seu hardware específico. Ao encontrar um tópico publicado por um membro experiente da comunidade Diolinux, ele percebe que o autor disponibilizou horários para reuniões. Carlos precisa consultar a grade de disponibilidade, selecionar um horário vago e agendar uma reunião sem conflitos de agenda.*
+### Problema
+
+*Mariana, membro da comunidade Diolinux, publica um tópico no fórum com o objetivo de compartilhar conhecimentos e ajudar outros usuários com dúvidas sobre Linux. Para facilitar a comunicação e oferecer um atendimento mais organizado, ela deseja disponibilizar datas e horários em que pode realizar reuniões. Carlos, um usuário iniciante que encontra o tópico, precisa consultar os horários disponíveis, selecionar um período compatível com sua agenda e confirmar o agendamento para conversar com Mariana sobre suas dúvidas. A funcionalidade permite organizar esses encontros diretamente a partir do tópico, facilitando a colaboração entre os membros da comunidade e evitando conflitos de horários.*
 
 ### Por que o estudante usa essa funcionalidade?
 
