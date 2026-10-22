@@ -87,6 +87,7 @@ nav:
     - Lista de Sites Avaliados: planejamento/sites-avaliados.md
     - Site Selecionado: planejamento/site-selecionado.md
   - Análise de Requisitos:
+    - Metodologia de Pesquisa: analise-requisitos/metodologia.md
     - Elicitação de Requisitos:
       - Brainstorming: analise-requisitos/brainstorming.md
       - Entrevistas: analise-requisitos/entrevistas.md
