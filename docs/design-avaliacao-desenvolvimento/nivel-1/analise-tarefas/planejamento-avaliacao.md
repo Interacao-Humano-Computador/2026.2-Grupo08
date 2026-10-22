@@ -121,7 +121,7 @@ Para a avaliação de Nível 1 da Análise de Tarefas, a equipe adotou a combina
 !!! note "DIRETRIZ METODOLÓGICA MANDATÓRIA — INVESTIGAÇÃO VS. INSPEÇÃO (BARBOSA & SILVA, 2021)"
     O método adotado nesta avaliação é categoricamente de **INVESTIGAÇÃO EMPÍRICA (Entrevista Semiestruturada com Percurso Conceitual Guiado de Tarefas)**.  
     Como a avaliação de Nível 1 investiga a decomposição hierárquica e a lógica das operações (HTA/GOMS/CTT), **não se trata de teste de usabilidade em software** (não há código executável ou cronometragem mecânica de cliques) e **não se trata de método de inspeção analítica** (métodos de inspeção, como avaliação heurística ou percurso cognitivo por especialistas, dispensam usuários).  
-    A sessão com o usuário é estritamente individual (1 Participante, 1 Entrevistador Condutor e 1 Observador/Anotador Silencioso), assegurando que o foco recaia sobre a verbalização do modelo mental do estudante e a validação das árvores de tarefas.
+    A sessão com o usuário é estritamente individual (composta por 1 Avaliador Responsável pela condução e 1 Participante Convidado), assegurando um ambiente acolhedor, silencioso e sem intimidação, permitindo que o foco recaia inteiramente sobre a verbalização do modelo mental do estudante e a validação das árvores de tarefas.
 
 ### Justificativa da Escolha Metodológica
 
@@ -141,25 +141,25 @@ Para a avaliação de Nível 1 da Análise de Tarefas, a equipe adotou a combina
 - **Critério de Inclusão:** Estar cursando graduação em computação ou tecnologia e já ter enfrentado dúvidas de terminal ou configuração no ecossistema Linux;
 - **Critério de Exclusão e Imparcialidade:** Nenhum participante pode possuir vínculo com o desenvolvimento do projeto de IHC do Grupo 08.
 
-### 6.2 Infraestrutura Tecnológica e Ferramentas
+### 6.2 Infraestrutura Tecnológica e Ferramentas Presenciais
 
-- **Ambiente:** Sessões síncronas remotas no Google Meet;
-- **Visualização de Artefatos:** Compartilhamento de tela exibindo os diagramas HTA em tema claro e as tabelas analíticas de decomposição em alta resolução;
-- **Instrumentos de Registro:** Gravação audiovisual em 1080p autorizada verbalmente nos primeiros 60 segundos, combinada com notas de observação tomadas em tempo real.
+- **Ambiente Silencioso:** Salas de estudo individuais ou mesas reservadas do UAC / Biblioteca da FGA/UnB, oferecendo silêncio para máxima concentração do participante (sessão única contínua: Bloco 1 Storyboard + Bloco 2 Tarefas);
+- **Visualização e Percurso de Artefatos:** Notebook pessoal do avaliador conectado ao Fórum Diolinux Plus real e exibindo os diagramas HTA canônicos com visualização nítida;
+- **Instrumentos de Registro:** Smartphone ou webcam do notebook posicionado de forma estável sobre a mesa, capturando fala e gestos durante o percurso procedural (*think-aloud*) com acústica ambiente tranquila; planilha padronizada (`observacao-avaliador.csv`) para consolidação dos apontamentos.
 
 ### 6.3 Cronograma Planejado das Sessões Integradas
 
 A Tabela 3 apresenta a distribuição das sessões de avaliação da análise de tarefas. Em cada sessão de entrevista de 40 minutos, a Análise de Tarefas é **conduzida imediatamente após a validação do Storyboard** (Bloco 2 — 15 a 20 min), permitindo ao participante avaliar a estrutura dos planos lógicos e a decomposição operacional após já ter compreendido a narrativa e a ambientação geral da funcionalidade.
 
-**Tabela 3** — Cronograma planejado das sessões de avaliação da Análise de Tarefas
+**Tabela 3** — Cronograma planejado das sessões presenciais de avaliação da Análise de Tarefas (Condução Individual)
 
-| Sessão / Etapa | Data | Horário | Entrevistador Principal | Observador / Anotador | Participante Convidado / Papel |
-| :---: | :---: | :---: | :--- | :--- | :--- |
-| **Teste-Piloto** | 17/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Colega discente de TI (Simulação de Ensaio) |
-| **ST01** | 19/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (P1 — Estudante de Graduação) |
-| **ST02** | 20/10/2026 | 15:00 - 15:40 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (P2 — Estudante de Graduação) |
-| **ST03** | 21/10/2026 | 16:00 - 16:40 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 3 (P3 — Estudante de Graduação) |
-| **ST04 (Reserva)** | 22/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 4 (P4 — Estudante de Graduação) |
+| Sessão / Etapa | Data | Horário | Tarefa Investigada | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
+| :---: | :---: | :---: | :--- | :--- | :--- | :--- |
+| **Teste-Piloto** | 21/10/2026 | 14:00 - 14:45 | Autoensaio / Calibração | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Avaliador Solo | Presencial — FGA/UnB (Salas UAC) |
+| **ST01 (T01)** | 22/10/2026 | 14:20 - 14:40 | Tarefa 1 (Markdown e Tags com IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
+| **ST02 (T02)** | 22/10/2026 | 15:20 - 15:40 | Tarefa 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
+| **ST03 (T03)** | 22/10/2026 | 16:20 - 16:40 | Tarefa 3 (Busca Avançada e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
+| **ST04 (Reserva)** | 23/10/2026 | 10:00 - 10:40 | Tarefa Reserva / Validação Cruzada | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 4 (P4 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -167,9 +167,9 @@ _Fonte: Elaborada pelos autores, 2026._
 
 Em consonância com as boas práticas metodológicas de avaliação em IHC (*Barbosa & Silva, 2021*):
 
-> O teste-piloto destina-se exclusivamente a **testar e aprimorar o planejamento da avaliação** (temporização das perguntas, inteligibilidade do roteiro de tarefas, áudio, compartilhamento de tela e leitura do TCLE). O teste-piloto **NUNCA** avalia a interface ou o usuário, e **seus dados não são computados nos resultados finais da avaliação**.
+> O teste-piloto destina-se exclusivamente a **testar e aprimorar o planejamento da avaliação** (temporização das perguntas de tarefas procedurais, inteligibilidade do roteiro HTA, enquadramento do dispositivo sobre a mesa em ambiente silencioso e leitura do TCLE nos primeiros 60 segundos gravados). O teste-piloto **NUNCA** avalia a interface ou o usuário, e **seus dados não são computados nos resultados finais da avaliação**.
 
-O teste-piloto será conduzido no dia 17/10/2026 às 14:00 com um discente voluntário simulando o papel de participante para calibrar o roteiro de tarefas e o compartilhamento de tela dos diagramas HTA.
+O ensaio do teste-piloto será conduzido presencialmente no campus da FGA/UnB no dia 21/10/2026 às 14:00 com um discente voluntário simulando o papel de participante para calibrar o roteiro de tarefas e a observação procedural antes da ida a campo oficial.
 
 ---
 
@@ -184,12 +184,12 @@ A avaliação segue rigorosamente a **Resolução CNS nº 510/2016**, a **LGPD (
 
 ### Script Oral Padronizado de Leitura do TCLE (Primeiros 60 Segundos)
 
-O entrevistador deve obrigatoriamente ler o texto em destaque a seguir nos **primeiros 60 segundos gravados** da chamada:
+O entrevistador deve obrigatoriamente ler o texto em destaque a seguir nos **primeiros 60 segundos gravados** da sessão presencial:
 
 > **[INÍCIO DO SCRIPT ORAL — LEITURA OBRIGATÓRIA NOS PRIMEIROS 60 SEGUNDOS GRAVADOS]**  
 > *"Olá, meu nome é [Nome do Entrevistador], sou discente de Engenharia de Software da Faculdade UnB Gama (FGA/UnB) e estou conduzindo esta avaliação no âmbito da disciplina de Interação Humano-Computador, sob docência do Prof. Dr. André Barros de Sales.*  
 > *O propósito desta sessão é avaliar um modelo conceitual de análise de tarefas que descreve o fluxo de ações para uso do Fórum Diolinux Plus por estudantes universitários. Esclareço que o objeto de avaliação é exclusivamente o modelo de tarefas proposto pela equipe, e JAMAIS você ou suas capacidades.*  
-> *Sua participação é completamente voluntária e você possui liberdade total para interromper a chamada ou revogar seu consentimento a qualquer instante, sem nenhum prejuízo. Todas as informações coletadas, bem como a gravação audiovisual desta sessão, serão tratadas sob anonimato e sigilo estrito conforme a Lei Geral de Proteção de Dados, para fins unicamente educacionais.*  
+> *Sua participação é completamente voluntária e você possui liberdade total para interromper a sessão ou revogar seu consentimento a qualquer instante, sem nenhum prejuízo. Todas as informações coletadas, bem como a gravação audiovisual desta sessão, serão tratadas sob anonimato e sigilo estrito conforme a Lei Geral de Proteção de Dados, para fins unicamente educacionais.*  
 > *Você teve acesso prévio ao Termo de Consentimento Livre e Esclarecido e concorda formalmente em participar desta avaliação gravada nos termos descritos?"*  
 > **[AGUARDAR CONSENTIMENTO VERBAL EXPLÍCITO DO PARTICIPANTE: "SIM, CONCORDO"]**
 
@@ -242,7 +242,8 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 12/10/2026 | Elaboração inicial do Planejamento da Avaliação da Análise de Tarefas estruturado no Framework DECIDE, cobrindo objetivos, perguntas investigativas das Tarefas 1, 2 e 3 (Tabela 2), questões práticas, script oral do TCLE, modelo de discrepâncias de HTA (Tabela 4) e checklist com 7 itens (Issue #56). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
-| `1.1` | 22/10/2026 | Atualização das Tabelas 1, 2 e 4 alinhando a Tarefa 2 à Criação de Eventos Presenciais (CF02), com reformulação das perguntas PT04 e PT05. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.1` | 20/10/2026 | Adequação formal para modalidade presencial no campus da FGA/UnB em sessão única contínua com Storyboards (Issue #100): percurso procedural em notebook, condução autônoma individual em ambiente silencioso e gravação estável sobre a mesa, alinhamento do cronograma para 22/10 e realização do ensaio piloto em 21/10. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.2` | 22/10/2026 | Atualização das Tabelas 1, 2, 3 e 4 alinhando a Tarefa 2 à Criação de Eventos Presenciais (CF02), com reformulação das perguntas PT04 e PT05 (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

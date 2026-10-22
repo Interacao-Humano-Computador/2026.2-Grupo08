@@ -113,7 +113,7 @@ Para avaliar os storyboards no Nível 1, a equipe selecionou o método de **Inve
 !!! note "DIRETRIZ METODOLÓGICA MANDATÓRIA — INVESTIGAÇÃO VS. INSPEÇÃO (BARBOSA & SILVA, 2021)"
     O método adotado nesta avaliação é categoricamente de **INVESTIGAÇÃO EMPÍRICA (Entrevista Semiestruturada Individual)**.  
     Como a avaliação de Nível 1 trata de representações conceituais preliminares e estáticas (Storyboards), **não se trata de teste de usabilidade clássico** (não há software interativo ou métricas de cliques/tempo) e **não se trata de método de inspeção** (métodos de inspeção, como avaliação heurística ou percurso cognitivo, são executados exclusivamente por especialistas e avaliadores de IHC, sem a presença de usuários).  
-    A dinâmica ocorre em sessões individuais com exatamente 3 participantes na sala: **1 Entrevistador Condutor**, **1 Observador/Anotador Silencioso** e **1 Participante Voluntário**, garantindo um ambiente acolhedor, livre de constrangimento e com foco absoluto na narrativa e no modelo mental do usuário.
+    A dinâmica ocorre em sessões individuais com foco na concentração e acolhimento do voluntário: **1 Avaliador Responsável** (que conduz a inquirição e registra os apontamentos essenciais) e **1 Participante Voluntário**, garantindo um ambiente silencioso, livre de constrangimento ou intimidação, com foco absoluto na narrativa e no modelo mental do usuário.
 
 ### Justificativa da Escolha Metodológica
 
@@ -135,23 +135,26 @@ Em estrita consonância com o Perfil do Usuário e com as diretrizes metodológi
 - **Critério de Inclusão:** Ter utilizado ao menos uma distribuição Linux nos últimos 12 meses e ter experiência prévia de consulta ou participação em fóruns técnicos na web;
 - **Critério de Exclusão e Imparcialidade:** Nenhum participante pode possuir vínculo com o desenvolvimento do projeto de IHC do Grupo 08.
 
-### 6.2 Infraestrutura Tecnológica e Ferramentas
+### 6.2 Infraestrutura Tecnológica e Ferramentas Presenciais
 
-- **Ambiente:** Sessões síncronas remotas realizadas através da plataforma Google Meet;
-- **Exibição do Material:** Compartilhamento de tela em alta definição (resolução mínima 1080p), exibindo os quadros do storyboard desenhados com densidade de 300 DPI;
-- **Instrumentos de Registro:** Gravação audiovisual completa da sessão (áudio, vídeo e tela) mediante consentimento expresso gravado, além de planilha padronizada de notas do observador.
+A realização presencial potencializa a **validade ecológica** da avaliação (Barbosa & Silva, 2021, p. 278), pois aproxima a experiência do voluntário de uma interação natural com artefatos de baixa fidelidade:
+
+- **Ambiente Físico Silencioso:** Salas de estudo individuais ou mesas reservadas no Prédio UAC / Biblioteca da FGA/UnB, garantindo ambiente silencioso que favoreça a concentração e a naturalidade do participante;
+- **Exibição e Manuseio Físico do Material:** Pranchas físicas de Storyboard impressas individualmente em folhas A4 com alta resolução gráfica (300 DPI), permitindo ao participante folhear, ordenar sequências, apontar detalhes dos quadrinhos sobre a mesa e expressar reações espontâneas;
+- **Instrumentos de Registro Audiovisual:** Smartphone ou notebook posicionado de forma estável sobre a mesa capturando imagem e áudio com acústica natural da sala silenciosa, dispensando o uso de tripés ou microfones dedicados;
+- **Instrumentos Éticos e de Anotação:** Vias impressas do TCLE para assinatura física e planilha de observação (`observacao-avaliador.csv`) para preenchimento pelo avaliador logo após a sessão.
 
 ### 6.3 Cronograma Planejado das Sessões
 
 A Tabela 3 apresenta a distribuição das sessões de avaliação do storyboard, com os horários e a atribuição de papéis entre os integrantes da equipe.
 
-**Tabela 3** — Cronograma planejado das sessões de avaliação do Storyboard
+**Tabela 3** — Cronograma planejado das sessões presenciais de avaliação do Storyboard (Condução Individual)
 
-| Sessão | Data | Horário | Entrevistador Principal | Observador / Anotador | Participante Convidado |
-| :---: | :---: | :---: | :--- | :--- | :--- |
-| **S01** | 19/10/2026 | 14:00 - 14:30 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (P1 — Estudante de Graduação) |
-| **S02** | 20/10/2026 | 15:00 - 15:30 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (P2 — Estudante de Graduação) |
-| **S03** | 21/10/2026 | 16:00 - 16:30 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 3 (P3 — Estudante de Graduação) |
+| Sessão | Data | Horário | Storyboard Avaliado | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
+| :---: | :---: | :---: | :--- | :--- | :--- | :--- |
+| **S01** | 22/10/2026 | 14:00 - 14:40 | Storyboard 1 (Markdown e Tags com IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
+| **S02** | 22/10/2026 | 15:00 - 15:40 | Storyboard 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
+| **S03** | 22/10/2026 | 16:00 - 16:40 | Storyboard 3 (Busca Avançada) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -159,9 +162,9 @@ _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soar
 
 Conforme preconizado pela literatura de IHC (*Barbosa & Silva, 2021, p. 280*) e pelo padrão metodológico adotado pela equipe:
 
-> O teste-piloto tem como função exclusiva avaliar o **planejamento da avaliação** (clareza das perguntas, funcionamento do Google Meet, inteligibilidade do roteiro e temporização do TCLE). O teste-piloto **NUNCA** avalia o usuário ou o storyboard, e **os dados obtidos no teste-piloto JAMAIS são computados nos resultados finais da avaliação**.
+> O teste-piloto tem como função exclusiva avaliar o **planejamento da avaliação** (clareza das perguntas, enquadramento do dispositivo sobre a mesa, ambiente silencioso para concentração do participante, manuseio prático das pranchas impressas e temporização do TCLE nos primeiros 60 segundos gravados). O teste-piloto **NUNCA** avalia o usuário ou o storyboard, e **os dados obtidos no teste-piloto JAMAIS são computados nos resultados finais da avaliação**.
 
-O teste-piloto será conduzido no dia 17/10/2026 às 14:00 com um discente voluntário simulando o papel de participante para calibrar o roteiro antes da ida a campo oficial.
+O ensaio geral do teste-piloto será conduzido presencialmente no campus da FGA/UnB no dia 21/10/2026 às 14:00 com um discente voluntário simulando o papel de participante para calibrar a logística e a gravação antes da ida a campo oficial.
 
 ---
 
@@ -181,7 +184,7 @@ Para garantir a validade jurídica e a conformidade ética da gravação, o entr
 > **[INÍCIO DO SCRIPT ORAL — LEITURA OBRIGATÓRIA NOS PRIMEIROS 60 SEGUNDOS GRAVADOS]**  
 > *"Olá, meu nome é [Nome do Entrevistador], sou estudante do curso de Engenharia de Software da Faculdade UnB Gama (FGA/UnB) e estou conduzindo esta avaliação no âmbito da disciplina de Interação Humano-Computador, ministrada pelo Prof. Dr. André Barros de Sales.*  
 > *O objetivo desta sessão é avaliar um storyboard conceitual que ilustra situações de uso do Fórum Diolinux Plus por estudantes universitários. Ressalto que o que está sendo avaliado é exclusivamente o storyboard e o fluxo proposto, e JAMAIS você ou suas opiniões.*  
-> *Sua participação é estritamente voluntária e você pode interromper a sessão ou revogar sua permissão a qualquer momento, sem nenhuma justificativa ou prejuízo. Todas as informações coletadas, bem como o áudio e vídeo desta chamada, serão utilizados exclusivamente para fins acadêmicos e terão sua identidade completamente anonimizada segundo a Lei Geral de Proteção de Dados.*  
+> *Sua participação é estritamente voluntária e você pode interromper a sessão ou revogar sua permissão a qualquer momento, sem nenhuma justificativa ou prejuízo. Todas as informações coletadas, bem como o áudio e vídeo desta sessão, serão utilizados exclusivamente para fins acadêmicos e terão sua identidade completamente anonimizada segundo a Lei Geral de Proteção de Dados.*  
 > *Você teve acesso ao Termo de Consentimento Livre e Esclarecido e concorda formalmente em participar desta avaliação gravada sob as condições apresentadas?"*  
 > **[AGUARDAR CONSENTIMENTO VERBAL EXPLÍCITO DO PARTICIPANTE: "SIM, CONCORDO"]**
 
@@ -244,7 +247,8 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 12/10/2026 | Elaboração inicial do Planejamento da Avaliação do Storyboard estruturado no Framework DECIDE, contendo objetivos, perguntas investigativas (Tabela 2), questões práticas, script oral literal do TCLE e modelo de consolidação (Tabela 4). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 13/10/2026 | Expansão da Lista de Verificação da Técnica (Tabela 5) para 10 itens normativos, incorporação dos critérios de Scott Klemmer (Setting, Sequence, Satisfaction e duração ágil de ~10 min), teste-piloto, severidade de Nielsen e saneamento de fontes nominais. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `1.2` | 22/10/2026 | Atualização das Tabelas 1, 2 e 4 alinhando a Tarefa 2 e Storyboard 2 exclusivamente à Criação de Eventos Presenciais (CF02). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 20/10/2026 | Adequação da modalidade para sessões presenciais no campus da FGA/UnB (Issue #100): manuseio tátil de pranchas impressas em papel A4 (300 DPI) com ancoragem em validade ecológica (Barbosa & Silva, 2021), condução autônoma individual em ambiente silencioso com gravação sobre a mesa, alinhamento do cronograma com sessões em 22/10 e realização do teste-piloto em 21/10. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.3` | 22/10/2026 | Atualização das Tabelas 1, 2, 3 e 4 alinhando a Tarefa 2 e Storyboard 2 exclusivamente à Criação de Eventos Presenciais (CF02) (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 
