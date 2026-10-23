@@ -1,31 +1,38 @@
-## Storyboard 3 – Busca Avançada e Filtros de Categoria por Estudante
+## Storyboard 3 – Grade de Disponibilidade e Agendamento de Reuniões no Fórum Diolinux
 
 ### Problema
-> *Maria, estudante de mestrado, precisa escrever a revisão de literatura da sua dissertação sobre detecção de objetos. A busca simples do portal devolve milhares de artigos, muitos fora do escopo. Ela precisa refinar a busca para encontrar apenas trabalhos relevantes na área de Visão Computacional dentro da Inteligência Artificial.*
+
+### Problema
+
+*Mariana, membro da comunidade Diolinux, publica um tópico no fórum com o objetivo de compartilhar conhecimentos e ajudar outros usuários com dúvidas sobre Linux. Para facilitar a comunicação e oferecer um atendimento mais organizado, ela deseja disponibilizar datas e horários em que pode realizar reuniões. Carlos, um usuário iniciante que encontra o tópico, precisa consultar os horários disponíveis, selecionar um período compatível com sua agenda e confirmar o agendamento para conversar com Mariana sobre suas dúvidas. A funcionalidade permite organizar esses encontros diretamente a partir do tópico, facilitando a colaboração entre os membros da comunidade e evitando conflitos de horários.*
 
 ### Por que o estudante usa essa funcionalidade?
 
-**Story 1 – Preparação de trabalho acadêmico**
-> *Como estudante de mestrado, preciso encontrar artigos recentes sobre "deep learning para detecção de objetos" para embasar o capítulo de revisão de literatura da minha dissertação. Quero refinar a busca por área de estudo (Inteligência Artificial → Visão Computacional) para garantir que os resultados sejam altamente relevantes.*
+**Story 1 – Suporte técnico por meio de reuniões**
 
-**Story 2 – Projeto de laboratório**
-> *Como integrante de um laboratório de pesquisa, devo coletar rapidamente fontes de dados de diferentes categorias para treinar um modelo. A busca avançada com filtros me permite isolar artigos que contenham datasets públicos e código aberto.*
+*Como usuário iniciante de distribuições Linux, preciso agendar uma reunião com um membro experiente da comunidade para receber orientações sobre a recuperação do sistema, selecionando um horário disponibilizado pelo autor do tópico.*
 
-**Story 3 – Avaliação de competência**
-> *Como estudante de graduação em avaliação de usabilidade, preciso demonstrar que consigo usar ferramentas de busca avançada como parte de um estudo de caso. Preciso registrar a sequência de passos para gerar evidências no relatório.*
+**Story 2 – Disponibilização de horários pelo autor do tópico**
+
+*Como membro experiente da comunidade Diolinux, desejo disponibilizar horários para reuniões diretamente no tópico que publiquei, permitindo que outros usuários agendem conversas para esclarecer dúvidas e compartilhar conhecimentos.*
+
+**Story 3 – Organização e confirmação de reuniões**
+
+*Como usuário do fórum, preciso visualizar os horários disponíveis, confirmar o agendamento e receber os detalhes da reunião, garantindo que o horário escolhido seja reservado e não possa ser agendado por outra pessoa.*
 
 ### Visão geral do storyboard (sequência de quadros)
+
 | # | Cena (descrição) | Comentários de design |
 |---|------------------|-----------------------|
-| **1** | **Abertura da página de busca** – Maria vê a caixa de busca central e o menu lateral com opções de filtro. | Layout limpo; foco visual na caixa de texto. |
-| **2** | **Digitando a consulta** – O cursor pisca; o texto “deep learning para detecção de objetos” aparece. | Fonte legível (Segoe UI 12 pt). |
-| **3** | **Abrindo o painel de filtros** – Clica no ícone “Filtros”. O painel desliza da esquerda com categorias em árvore. | Animação “slide‑in” indica ação. |
-| **4** | **Selecionando categorias** – Marca “Inteligência Artificial” → “Visão Computacional”. As caixas ficam com check‑mark verde. | Realce visual ao selecionar (border 2 px #4CAF50). |
-| **5** | **Aplicando filtros** – Clica no botão “Aplicar”. Um spinner circular aparece por 0,8 s. | Feedback de carregamento claro. |
-| **6** | **Resultados carregados** – Lista de 10 resultados com título, resumo e tags. O primeiro resultado destaca‑se (highlight). | Layout em cards, espaçamento de 8 px. |
-| **7** | **Interagindo com um resultado** – Maria clica no título do primeiro item. A página do artigo abre em nova aba. | Indicação de “link externo” no canto superior direito. |
-| **8** | **Feedback de sucesso** – Toast “Pesquisa concluída com 10 resultados” aparece no canto inferior. | Mensagem curta, desaparece após 3 s. |
+| **1** | **Publicação do tópico e disponibilização de horários** – Mariana publica um tópico no fórum Diolinux para ajudar outros usuários com dúvidas sobre Linux. Na página do tópico, ela acessa a opção "Disponibilizar Horários" e seleciona os períodos em que pode realizar reuniões. | Botão de fácil identificação e formulário simples para cadastrar datas e horários. |
+| **2** | **Visualização dos horários disponíveis** – Carlos acessa o tópico de Mariana e encontra a opção "Agendar Reunião". Ao clicar, visualiza a grade com os dias e horários disponibilizados pela autora. | Calendário organizado, legenda clara e diferenciação visual entre horários disponíveis e reservados. |
+| **3** | **Seleção de um horário livre** – Carlos consulta a grade e seleciona o horário de quinta-feira, às 19h30. O sistema destaca o bloco selecionado para que ele confira a data e o horário antes de continuar. | Feedback visual imediato, áreas de clique adequadas e prevenção de seleções equivocadas. |
+| **4** | **Descrição do motivo da reunião** – O sistema apresenta um formulário para que Carlos informe o assunto da reunião, descrevendo brevemente a falha de inicialização do Linux e as tentativas de solução realizadas. | Campos objetivos, instruções claras e indicação dos campos obrigatórios. |
+| **5** | **Revisão dos dados do agendamento** – Carlos visualiza um resumo contendo o título do tópico, o nome da autora, a data, o horário e a descrição da dúvida. Em seguida, clica em "Confirmar Agendamento". | Resumo das informações antes da confirmação e possibilidade de voltar para corrigir os dados. |
+| **6** | **Confirmação e reserva do horário** – O sistema verifica se o horário continua disponível e registra o agendamento. O bloco selecionado passa para o estado "Reservado", impedindo que outro usuário marque o mesmo horário. | Prevenção de agendamentos duplicados e feedback imediato sobre o resultado da operação. |
+| **7** | **Exibição dos detalhes da reunião** – Carlos recebe uma mensagem de sucesso e visualiza um resumo com a data, o horário, o tópico relacionado e as informações de acesso à reunião, quando disponibilizadas pela autora. | Mensagem de confirmação clara e acesso fácil aos detalhes do agendamento. |
+| **8** | **Realização da reunião** – No horário combinado, Carlos e Mariana se encontram na plataforma de comunicação definida para a reunião e discutem a falha de inicialização. Com as orientações recebidas, Carlos consegue avançar na resolução do problema. | Conclusão satisfatória da tarefa, incentivo à colaboração e fortalecimento da comunidade Diolinux. |
 
-> **Legenda**: Representa a sequência de quadros da tarefa de busca avançada com filtros de categoria, conforme descrita na Issue #64.
+**Legenda:** Representa a sequência de quadros da funcionalidade de Grade de Disponibilidade e Agendamento de Reuniões vinculada aos tópicos do fórum Diolinux (Issue #64).
 
-![Storyboard (300 DPI)](assets/storyboards/storyboard_busca_avancada.png)
+![Storyboard (300 DPI)](assets/storyboards/storyboard_busca_avancada.png)

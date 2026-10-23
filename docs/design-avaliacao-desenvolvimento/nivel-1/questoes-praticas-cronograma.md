@@ -126,7 +126,7 @@ A Tabela 3 detalha a operacionalização das atividades de avaliação de Nível
 
 | Etapa do Método | Atividade Prevista (Barbosa & Silva, 2021) | Operacionalização no Projeto / Tarefas da Equipe |
 | :--- | :--- | :--- |
-| **Preparação** | Definir as tarefas para os participantes executarem | **Vinicius:** Tarefa 1 (Markdown e Tags); **Gustavo:** Tarefa 2 (Onboarding Discobot); **Edvaldo:** Tarefa 3 (Busca Avançada e Filtros). |
+| **Preparação** | Definir as tarefas para os participantes executarem | **Vinicius:** Tarefa 1 (Markdown e Tags); **Gustavo:** Tarefa 2 (Onboarding Discobot); **Edvaldo:** Tarefa 3 (Grade de Disponibilidade e Agendamento). |
 | | Definir o perfil dos participantes e recrutá-los | Recrutamento de 3 discentes voluntários da UnB com vivência em Linux (Perfil 1 — Estudante Aprendiz). |
 | | Criar cenários e storyboards de baixa fidelidade | Confecção de Storyboards manuais em alta definição (300 DPI) entre 13/10 e 16/10/2026 por cada autor. |
 | | Executar um teste-piloto | Reunião técnica em 17/10/2026 às 14:00 para calibração de roteiro e TCLE (dados isolados e não computados). |
@@ -170,7 +170,7 @@ A Tabela 5 detalha as 3 sessões planejadas para a avaliação formativa dos Sto
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- |
 | **S01** | 19/10/2026 | 14:00 - 14:30 | Storyboard 1 (Markdown e Tags) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s01) |
 | **S02** | 20/10/2026 | 15:00 - 15:30 | Storyboard 2 (Cadastro e Onboarding) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s02) |
-| **S03** | 21/10/2026 | 16:00 - 16:30 | Storyboard 3 (Busca Avançada) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s03) |
+| **S03** | 21/10/2026 | 16:00 - 16:30 | Storyboard 3 (Grade de Disponibilidade e Agendamento) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s03) |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -186,7 +186,7 @@ A Tabela 6 detalha as 3 sessões planejadas para a avaliação formativa dos mod
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- |
 | **T01** | 19/10/2026 | 14:30 - 15:00 | Tarefa 1 (Publicação de Tópicos) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s01) |
 | **T02** | 20/10/2026 | 15:30 - 16:00 | Tarefa 2 (Cadastro e Onboarding) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s02) |
-| **T03** | 21/10/2026 | 16:30 - 17:00 | Tarefa 3 (Busca e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s03) |
+| **T03** | 21/10/2026 | 16:30 - 17:00 | Tarefa 3 (Grade de Disponibilidade e Agendamento) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s03) |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 

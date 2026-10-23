@@ -54,24 +54,24 @@ Conforme ilustrado na Figura 1, o sítio eletrônico dispõe de uma interface de
 
 Para assegurar uma divisão de trabalho justa, equitativa e focada na equipe atual composta por três integrantes, o escopo de análise foi estruturado em torno de **três funcionalidades nucleares**, englobando fluxos existentes e uma nova proposta de intervenção:
 
-### 1. Criação e Edição de Tópicos com Formatação Rica
+### 1. Composição e Publicação de Tópico Técnico com Markdown e Tags
 Permite ao usuário publicar dúvidas, notícias ou tutoriais técnicos. O fluxo envolve a seleção de categorias e tags, preenchimento de título, editor de texto com suporte a Markdown, atalhos de formatação de blocos de código e upload de imagens ou logs do sistema operacional.
 
-### 2. Criação de Eventos Presenciais (Proposta de Nova Funcionalidade)
-Permite a organização de encontros locais, workshops e meetups para a comunidade. O fluxo interativo abrange a definição do evento (data, hora, local físico/mapa), configuração de lotação máxima, opções de pagamento de ingressos (gratuito ou pago) e emissão de ingressos, suprindo a necessidade de interação no mundo real.
+### 2. Tutorial Interativo de Boas-Vindas (Onboarding com Discobot)
+Permite a adaptação e socialização do usuário novato à plataforma. O fluxo interativo abrange a troca de mensagens guiadas em chat com o robô instrutor do Discourse (*Discobot*), aprendendo comandos elementares de formatação, interação e navegação nas regras de convivência da comunidade.
 
-### 3. Interação Social e Concessão de Solução Aceita (Mark as Solution)
-Em tópicos de suporte técnico e resolução de erros, o autor do tópico ou um moderador pode selecionar uma resposta específica como a solução oficial da dúvida. Isso insere um resumo no post inicial, destaca a mensagem no corpo da discussão e atualiza a reputação dos participantes.
+### 3. Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias (Proposta de Nova Funcionalidade)
+Permite que membros veteranos e voluntários configurem uma grade semanal de horários disponíveis (estilo *When2meet / Calendly*) diretamente em seu perfil ou em tópicos de suporte. Usuários novatos com problemas técnicos complexos (como falhas de boot, configuração de kernel ou particionamento) podem visualizar os blocos livres, selecionar um horário vago e confirmar a reserva de mentoria síncrona com prevenção de conflitos de agenda e geração de sala de conferência.
 
-A Tabela 1 detalha a relação entre as funcionalidades avaliadas, a complexidade estimada e a oportunidade de análise em IHC para os modelos HTA e GOMS.
+A Tabela 1 detalha a relação entre as funcionalidades avaliadas, a complexidade estimada e a oportunidade de análise em IHC para os modelos HTA e CTT.
 
 **Tabela 1** — Relação das funcionalidades avaliadas e potencial analítico de IHC
 
-| ID | Funcionalidade Nuclear | Nível de Complexidade | Oportunidade Analítica na Disciplina | Integrante Responsável pela Modelagem HTA/GOMS |
-| :---: | :--- | :---: | :--- | :--- |
-| **F01** | Criação e Edição de Tópicos em Markdown | Alta | Sobrecarga de comandos no editor; curva de aprendizado para formatação de código. | Edvaldo Soares |
-| **F02** | Criação de Eventos Presenciais (Novo) | Alta | Mapeamento de um fluxo inédito complexo envolvendo agendamento, formulários e integração de pagamento. | Gustavo Antonio |
-| **F03** | Interação e Marcação de Solução Aceita | Média | Visibilidade restrita da confirmação e atalhos pouco intuitivos em telas reduzidas. | Vinicius Araruna |
+| ID | Funcionalidade Nuclear | Nível de Complexidade | Oportunidade Analítica na Disciplina | Integrante Responsável pela Modelagem HTA/CTT |
+| :---: | :--- | :--- | :--- | :--- |
+| **F01** | Composição de Tópico Técnico com Markdown e Tags | Alta | Sobrecarga de comandos no editor; curva de aprendizado para formatação de código e desduplicação. | Vinicius Silva Araruna |
+| **F02** | Tutorial Interativo de Boas-Vindas (Discobot) | Média-Alta | Sequenciamento de onboarding conversacional e dimensões de Scott Klemmer. | Gustavo Antonio Rodrigues e Silva |
+| **F03** | Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias (Novo) | Alta | Mapeamento de matriz temporal interativa, concorrência temporal, prevenção de double-booking e sincronização de salas. | Edvaldo Soares Brasileiro Filho |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -98,6 +98,7 @@ A inspeção exploratória preliminar executada pelos membros do grupo sobre a i
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no topo e padronização com ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 18/09/2026 | Reestruturação integral para o Fórum Diolinux Plus, documentação do pivot, detalhamento das 5 funcionalidades e problemas de usabilidade | [Vinicius Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.3` | 25/09/2026 | Atualização das funcionalidades para refletir a nova composição (3 membros) e proposta da funcionalidade de Criação de Eventos Presenciais | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.4` | 22/10/2026 | Atualização da funcionalidade F03 para Grade de Disponibilidade e Agendamento de Dúvidas/Mentorias (estilo When2meet) sob responsabilidade de Edvaldo Soares | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 
