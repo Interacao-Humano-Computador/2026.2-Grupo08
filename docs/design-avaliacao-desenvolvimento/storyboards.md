@@ -1,16 +1,16 @@
 # Storyboards da Equipe (Nível 1)
 
-## Tabela de Contribuição e Uso de IA Generativa
+## Tabela de Contribuição e Transparência de IA Generativa
 
 A Tabela 1 apresenta a autoria e responsabilidade individual na elaboração dos storyboards da equipe.
 
 **Tabela 1** — Matriz de Contribuição dos Storyboards
 
-| Integrante | Atribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
-| :--- | :--- | :---: | :--- | :--- |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor do Storyboard 2**: Concepção narrativa, desenho manual em prancha física (8 quadros), digitalização em 300 DPI, redação das histórias e decomposição das cenas. | 22/10/2026 | — | Desenho manual autoral em papel e digitalização via scanner óptico. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Autor do Storyboard 3**: Concepção e estruturação da narrativa da Busca Avançada e Filtros de Categoria. | 13/10/2026 | LLM (Antigravity) | Apoio na estruturação inicial dos cenários e tabela de quadros. |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Geral**: Auditoria de conformidade com o Ciclo de Mayhew, integração no Framework DECIDE e verificação da notação de IHC. | 22/10/2026 | — | Revisão humana por pares. |
+| Integrante | Atribuição no Artefato | Data | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
+| :--- | :--- | :---: | :---: | :--- | :--- |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor do Storyboard 2**: Concepção narrativa, desenho manual em prancha física (8 quadros), digitalização em 300 DPI, redação das histórias e decomposição das cenas. | 22/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | — | Desenho manual autoral em papel e digitalização via scanner óptico. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Autor do Storyboard 3**: Concepção e estruturação da narrativa da Busca Avançada e Filtros de Categoria. | 13/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | LLM (Antigravity) | Apoio na estruturação inicial dos cenários e tabela de quadros. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Geral**: Auditoria de conformidade com o Ciclo de Mayhew, integração no Framework DECIDE e verificação da notação de IHC. | 22/10/2026 | [Gustavo Antonio](https://github.com/gus-ant) | — | Revisão humana por pares. |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -196,3 +196,9 @@ _Fonte: Elaborada pelos autores, 2026._
 [9] ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. *Design de Interação: além da interação humano-computador*. 3. ed. Porto Alegre: Bookman, 2013.
 
 [10] SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano-Computador*. Brasília: Universidade de Brasília, Faculdade UnB Gama (FGA), 2026.
+
+---
+
+## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+
+Durante a organização do roteiro e tabelas deste documento, utilizou-se suporte supervisionado de Inteligência Artificial Generativa (LLM) exclusivamente para estruturação sintática de Markdown e alinhamento visual de colunas. As narrativas de uso, definições de personas e decisões de interface foram concebidas e validadas pelos discentes autores.

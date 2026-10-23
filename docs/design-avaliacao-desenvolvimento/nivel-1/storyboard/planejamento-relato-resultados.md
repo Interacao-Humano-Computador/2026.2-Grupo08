@@ -8,7 +8,7 @@ A Tabela 1 apresenta a atribuição de responsabilidades na elaboração e revis
 
 | Integrante | Atribuição | Data | Horário | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :---: | :--- |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor Principal**: Estruturação formal do relatório de resultados, definição dos tópicos normativos, matriz de registro de problemas com gravidade heurística de Nielsen e diretrizes de reprojeto (Issue #61). | 13/10/2026 | 19:30 - 21:00 | LLM (Antigravity): apoio na estruturação das tabelas Markdown e checagem de itens normativos. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor Principal**: Estruturação formal do relatório de resultados, matriz de problemas de Nielsen e alinhamento do Storyboard 2 à Criação de Eventos Presenciais — CF02 (Issues #61, #104). | 22/10/2026 | 19:30 - 21:00 | LLM (Antigravity): apoio na estruturação das tabelas Markdown e checagem de itens normativos. |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Designado**: Auditoria de compatibilidade com o Framework DECIDE e verificação dos critérios de aceite do Plano de Ensino. | 13/10/2026 | 21:00 - 21:30 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Verificação de consistência entre o relato de Storyboards e o relato de Análise de Tarefas. | 13/10/2026 | 21:30 - 22:00 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 
@@ -46,7 +46,7 @@ Conforme preconizado por Barbosa e Silva (2021, p. 280-282) e pelas diretrizes p
 
 O relatório documentará o grau de atingimento dos quatro objetivos centrais estabelecidos no planejamento:
 
-- **Apropriação da Tecnologia:** Como os estudantes compreendem a inserção dos recursos do fórum (Markdown, Discobot e busca avançada) na resolução de problemas reais de computação;
+- **Apropriação da Tecnologia:** Como os estudantes compreendem a inserção dos recursos do portal (Markdown, Criação de Eventos Presenciais e busca avançada) na resolução de problemas reais de computação;
 - **Clareza e Legibilidade Narrativa:** Se a sequência de quadros, as falas, expressões faciais e legendas explicativas foram imediatamente compreendidas pelos usuários;
 - **Plausibilidade do Modelo Mental:** Se o comportamento do personagem e o fluxo de passos refletem o que um usuário real faria na mesma situação;
 - **Ideias e Alternativas de Design:** Levantamento de melhorias sugeridas espontaneamente pelos participantes durante a inspeção dos desenhos.
@@ -81,7 +81,7 @@ _Fonte: Gustavo Antonio Rodrigues e Silva, 2026. Dados a serem consolidados apó
 O relatório descreverá como cada um dos 3 storyboards foi inspecionado durante as sessões:
 
 - **Storyboard 1 (Tarefa 1 - Publicação de Tópico em Markdown):** Narrativa do estudante que tenta formatar saída de terminal com código de erro e enfrenta dúvidas sobre sintaxe e categorias;
-- **[Storyboard 2 (Criação e Divulgação de Workshop Presencial)](../../storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio):** Narrativa do estudante que idealiza uma oficina prática de Linux no transporte público, descobre a funcionalidade de eventos no Fórum Diolinux Plus, preenche o formulário e local no mapa e divulga para sua turma;
+- **[Storyboard 2 (Tarefa 2 - Criação de Eventos Presenciais)](../../storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio):** Narrativa do estudante organizador que idealiza uma oficina prática de Linux no transporte público, descobre a funcionalidade de eventos presenciais no Fórum Diolinux Plus, preenche programação, local com mapa interativo, lote de vagas e publica o evento com emissão de QR Code;
 - **Storyboard 3 (Tarefa 3 - Busca Avançada e Filtros):** Narrativa do usuário que refina resultados de busca por categorias técnicas para encontrar soluções atualizadas.
 
 ---
@@ -150,7 +150,7 @@ A Tabela 5 apresenta o checklist de autoavaliação da estrutura do relatório d
 | **1** | A estrutura do relatório define os objetivos gerais e formativos da avaliação? | Plano de Ensino (Item 7); Barbosa & Silva (2021) | ✅ Sim | A Seção 3.1 explicita as 4 metas investigadas (apropriação, clareza narrativa, modelo mental e alternativas). |
 | **2** | Há breve descrição do método de prototipação em papel e inspeção dos Storyboards? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.2 define o método de baixa fidelidade em 6 a 8 quadros com think-aloud e entrevistas. |
 | **3** | A estrutura contempla o número, papéis e o perfil demográfico de avaliadores e participantes? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.3 e a Tabela 2 preparam os campos de caracterização alinhados ao Perfil 1 (Estudante/Linux). |
-| **4** | As tarefas executadas e inspecionadas pelos participantes estão descritas e contextualizadas? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.4 especifica as 3 tarefas investigadas (Markdown, Onboarding/Discobot e Busca). |
+| **4** | As tarefas executadas e inspecionadas pelos participantes estão descritas e contextualizadas? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.4 especifica as 3 tarefas investigadas (Markdown, Criação de Eventos Presenciais e Busca). |
 | **5** | Há modelo estruturado para consolidação dos problemas encontrados com classificação de severidade? | Plano de Ensino (Item 7 e 13); Nielsen (1994) | ✅ Sim | A Tabela 3 estrutura a matriz de problemas com colunas para ID, quadro, descrição, severidade (0 a 4) e reprojeto. |
 | **6** | O documento prevê propostas e recomendações práticas de reprojeto a partir dos resultados? | Plano de Ensino (Item 7); Barbosa & Silva (2021) | ✅ Sim | A Seção 5 detalha o fluxo de correções para os desenhos de Nível 1 e protótipos de Nível 2. |
 | **7** | Há cláusula explícita assegurando que os resultados do teste-piloto não serão apresentados na avaliação? | Plano de Ensino (Item 12) | ✅ Sim | A Seção 6 inclui declaração formal garantindo o isolamento total dos dados do teste-piloto. |
@@ -173,6 +173,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | `1.0` | 13/10/2026 | Elaboração inicial do planejamento do relato dos resultados da avaliação do Storyboard (Issue #61), contemplando objetivos, método de baixa fidelidade, perfil de participantes, tarefas, matriz de problemas com gravidade de Nielsen, diretrizes de reprojeto, isolamento do piloto e lista de verificação. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 13/10/2026 | Expansão da Lista de Verificação da Técnica (Tabela 5) para exatamente 10 itens normativos, incluindo registros audiovisuais, cronograma executado e priorização de problemas, além de fontes nominais. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.2` | 20/10/2026 | Adequação da modalidade para sessões presenciais no campus da FGA/UnB (Issue #100): manuseio físico de pranchas impressas a 300 DPI, gravação sobre a mesa em ambiente silencioso e alinhamento da esteira executiva. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.3` | 22/10/2026 | Atualização da Seção 3.4 e Lista de Verificação alinhando o Storyboard 2 à Criação de Eventos Presenciais (CF02) (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 

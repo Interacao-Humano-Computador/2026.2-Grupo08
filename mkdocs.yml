@@ -108,6 +108,7 @@ nav:
           - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-avaliacao.md
           - Planejamento do Relato dos Resultados: design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-relato-resultados.md
           - Storyboards da Equipe: design-avaliacao-desenvolvimento/storyboards.md
+          - Storyboard de Eventos Presenciais: design-avaliacao-desenvolvimento/nivel-1/storyboard/storyboard-eventos-presenciais.md
       - Análise de Tarefas:
           - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-avaliacao.md
           - Planejamento do Relato dos Resultados: design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-relato-resultados.md
@@ -124,6 +125,7 @@ nav:
     - Reunião 05/10/2026 (Planejamento Entrega 3): atas/ata5.md
     - Reunião 14/10/2026 (Avaliação Grupo -1): atas/ata6.md
   - Verificação:
+    - Listas de Verificação (Checklists): verificacao/lista-verificacao.md
     - Auto-Avaliação (Grupo 08): verificacao/grupo08.md
     - Avaliação do Grupo -1 (Grupo 07):
       - Visão Geral: verificacao/grupo07.md
