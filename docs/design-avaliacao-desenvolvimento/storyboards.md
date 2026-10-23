@@ -1,3 +1,59 @@
+# Storyboards da Equipe
+
+## Tabela de Contribuição e Transparência de IA Generativa
+
+| Integrante | Atribuição no Artefato | Data | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
+| :--- | :--- | :---: | :---: | :--- | :--- |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Elaboração do Storyboard 2 (Criação de Eventos Presenciais — CF02) fundamentado no Guia OCR e Barbosa & Silva (2021) | 22/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Gemini | Suporte na estruturação e formatação tabular do roteiro de cenas em Markdown. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Elaboração do Storyboard 3 (Busca Avançada e Filtros de Categoria por Estudante) | 13/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | — | Elaboração e validação de conteúdo. |
+
+Este documento reúne os storyboards desenvolvidos pelo Grupo 08 para a representação contextual e visual dos fluxos de interação dos usuários no sistema.
+
+---
+
+## Storyboard 2 – Criação e Publicação de Eventos Presenciais da Comunidade (Gustavo Antonio)
+
+- **Autor**: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
+- **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
+- **Funcionalidade Mapeada**: `CF02` / `F02` — Criação de Eventos Presenciais
+- **Metodologia de Referência**: *The OCR Guide to Storyboards (Skills Guide Version 2)* e Barbosa & Silva (2021).
+- **Formato**: Roteiro pré-produção para confecção manual em papel (300 DPI).
+
+### Contexto e Motivação
+> *Durante uma aula no laboratório da universidade, Gustavo percebe o grande interesse dos colegas em distribuições Linux e DevOps, mas nota a carência de espaços presenciais para troca de experiências práticas e networking. Motivado a aproximar a comunidade técnica no mundo real, ele decide organizar o "1º Workshop Prático de Linux & DevOps de Brasília", utilizando a plataforma da comunidade para publicar a programação, geolocalizar o auditório com mapa, gerenciar a cota de ingressos e emitir credenciais com QR Code.*
+
+### Por que o usuário utiliza essa funcionalidade?
+
+**Story 1 – Mobilização Comunitária e Conexão no Mundo Real**
+> *Como organizador e entusiasta de software livre, quero promover encontros presenciais locais para aproximar estudantes e profissionais que já interagem virtualmente, criando um ambiente de aprendizado colaborativo e prático.*
+
+**Story 2 – Gestão Transparente de Local e Vagas**
+> *Como organizador de workshops técnicos, preciso definir claramente o endereço físico com mapa interativo e estipular o limite de assentos da sala, garantindo que o evento não ultrapasse a capacidade física do auditório.*
+
+**Story 3 – Facilidade no Credenciamento e Divulgação**
+> *Como responsável pelo evento, preciso emitir ingressos com QR Code de check-in e link público de divulgação imediata, simplificando o controle de entrada no dia da atividade sem burocracias em papel.*
+
+### Visão Geral do Storyboard (Roteiro dos 8 Quadros)
+
+A Tabela 1 apresenta a decomposição sequencial quadro a quadro, detalhando o contexto prévio ao uso do computador (desencadeamento no mundo real), o conteúdo das telas, as interações do usuário e os comentários ergonômicos de design baseados no Guia OCR e na literatura de IHC.
+
+**Tabela 1** — Roteiro quadro a quadro do Storyboard 2 (Criação de Eventos Presenciais)
+
+| # | Cena / Enquadramento | Descrição da Cena (Visual e Ação) | Fala / Balão de Pensamento | Conteúdo da Tela & Interação (*OCR Guide*) | Comentários de Design & Ergonomia (IHC) |
+|:---:|:---|:---|:---|:---|:---|
+| **1** | **Motivação na Sala de Aula** *(Plano Geral / Contexto Real)* | Durante uma aula no laboratório da faculdade, Gustavo observa colegas tirando dúvidas sobre Linux e tem a ideia de reunir as pessoas em um encontro presencial. | *"Será que tem mais gente aqui que gosta de Linux? E se a gente fizesse um encontro?"* | **Ambiente Real:** Laboratório universitário com computadores e lousa com referências a Linux.<br>**Interação:** Reflexão pessoal e observação do ambiente presencial. | Representação da necessidade humana no mundo real antes de qualquer contato com o sistema interativo. |
+| **2** | **Reflexão no Transporte (Ônibus)** *(Plano Médio / Trajeto)* | No caminho de volta para casa dentro do ônibus, olhando pela janela, Gustavo amadurece a ideia e se pergunta como organizar um encontro presencial com a comunidade. | *"No caminho pra casa... Como será que eu consigo organizar uma oficina presencial com a galera?"* | **Ambiente Real:** Interior do ônibus urbano em movimento, Gustavo pensativo na janela.<br>**Interação:** Processamento cognitivo e formulação da meta no trajeto. | Aprofunda o arco contextual humano no mundo real, evidenciando a formação do objetivo antes do uso de qualquer tecnologia. |
+| **3** | **Pesquisa no Computador e Descoberta** *(Over the Shoulder / Residência)* | Chegando em casa, Gustavo senta ao computador para pesquisar formas de viabilizar a oficina e descobre a área de eventos do portal da comunidade. | *"Cheguei em casa, vou pesquisar... Olha só! Tem uma área no Diolinux Plus para criar eventos!"* | **Tela do Computador:** Busca no navegador e portal do Diolinux Plus exibindo a seção do Hub de Eventos.<br>**Interação:** Digitação da pesquisa, clique e descoberta do recurso. | Transição fluida entre a intenção formulada no trajeto e o primeiro contato interativo com a interface. |
+| **4** | **Ponto de Entrada e Formulário Inicial** *(Plano Médio / Ação Inicial)* | Já autenticado em sua conta, Gustavo clica no botão primário `+ Criar Evento` e insere o título "1º Workshop Prático de Linux & DevOps" com tags temáticas. | *(Concentrado no início do cadastro)* | **Tela:** Cabeçalho com botão `+ Criar Evento` e abertura do formulário com campos de título (`47/100`) e tags (*Linux*, *DevOps*).<br>**Interação:** Clique no botão de criação e digitação do título e tags. | Botão de destaque com alto contraste (`#0084FF`) e campos com placeholders claros para orientar o preenchimento. |
+| **5** | **Cronograma e Programação Modular** *(Close-up na Interface / Editor)* | Gustavo estrutura os horários e atividades da oficina adicionando blocos modulares de programação sem depender de texto puro. | *(Adicionando atividades e palestras)* | **Tela:** Painel com blocos visuais de cronograma (`14:00 - Abertura`, `15:00 - Hands-on`) e upload de banner.<br>**Interação:** Clique em `+ Adicionar Atividade` e ajuste dos blocos de horário. | Redução da carga cognitiva através de componentes estruturados em vez de depender de sintaxe Markdown pura. |
+| **6** | **Local & Geolocalização** *(Visão Dividida / Split Screen)* | Gustavo digita o endereço do auditório e o sistema carrega o mapa interativo, ajustando o marcador no local exato do encontro. | *"O mapa achou o auditório certinho!"* | **Tela:** Campo de busca de logradouro na esquerda com mapa interativo à direita exibindo o marcador (*pin*) posicionado.<br>**Interação:** Seleção de endereço sugerido por autocomplete. | Redução da carga cognitiva e prevenção de erros de digitação via integração com API de mapas. |
+| **7** | **Capacidade e Prévia Responsiva** *(Enquadramento Médio / Multi-dispositivo)* | Gustavo define a modalidade gratuita com cota de 40 vagas (máx. 2 por pessoa) e abre o modo de pré-visualização responsiva (desktop e smartphone). | *(Análise cuidadosa do layout)* | **Tela:** Controles de ingresso (`Gratuito`), limite de 40 vagas e tela dividida com mockup mobile e desktop.<br>**Interação:** Alternância no toggle de ingressos e visualização da prévia. | Heurística de Controle e Liberdade do usuário: conferência visual prévia antes de qualquer disparo definitivo. |
+| **8** | **Desfecho de Sucesso & QR Code** *(Plano Aberto / Celebração)* | Com o evento publicado, a tela apresenta a mensagem de confirmação, o link curto gerado e o QR Code oficial de check-in. Gustavo comemora animado. | *"Tudo pronto para o sábado!"* | **Tela do Monitor:** Card de celebração *"Evento Publicado!"*, QR Code para credenciamento e botão `Copiar Link Curto`.<br>**Interação:** Gustavo ergue os braços comemorando o sucesso da publicação. | Feedback imediato e gratificante de objetivo atingido, gerando sensação de empoderamento e conclusão. |
+
+> **Nota Metodológica**: Este roteiro é a especificação canônica do Storyboard 2. A versão gráfica final será confeccionada manualmente em papel a 300 DPI conforme as diretrizes pedagógicas da disciplina e digitalizada para incorporação neste documento.
+
+---
+
 ## Storyboard 3 – Busca Avançada e Filtros de Categoria por Estudante
 
 ### Problema
@@ -29,3 +85,32 @@
 > **Legenda**: Representa a sequência de quadros da tarefa de busca avançada com filtros de categoria, conforme descrita na Issue #64.
 
 ![Storyboard (300 DPI)](assets/storyboards/storyboard_busca_avancada.png)
+
+---
+
+## Histórico de Versão
+
+A Tabela 3 documenta o histórico evolutivo dos storyboards da equipe.
+
+**Tabela 3** — Histórico de Versão
+
+| Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :--- | :--- |
+| `1.0` | 13/10/2026 | Inclusão do Storyboard 3 (Busca Avançada e Filtros de Categoria por Estudante). | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.1` | 22/10/2026 | Inclusão do roteiro canônico do Storyboard 2 (Criação e Publicação de Eventos Presenciais da Comunidade — CF02) baseado no Guia OCR e Barbosa & Silva, iniciando no mundo real e preparando a versão manual em papel (300 DPI). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+
+---
+
+## Referências Bibliográficas
+
+[1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier / Campus, 2010.
+
+[2] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
+
+[3] OCR. *The OCR Guide to Storyboards (Skills Guide Version 2)*. Cambridge: Oxford Cambridge and RSA Examinations, 2020.
+
+---
+
+## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+
+Durante a organização do roteiro e tabelas deste documento, utilizou-se suporte supervisionado de Inteligência Artificial Generativa (LLM) exclusivamente para estruturação sintática de Markdown e alinhamento visual de colunas. As narrativas de uso, definições de personas e decisões de interface foram concebidas e validadas pelos discentes autores.

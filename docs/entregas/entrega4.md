@@ -5,7 +5,7 @@
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação e consolidação da página de síntese, framework DECIDE, planejamento e relato da avaliação de Storyboards e Análise de Tarefas, questões práticas e teste-piloto | 13/10/2026 | Antigravity (LLM) | Apoio na formatação Markdown, estruturação sintática das tabelas e validação de referências ABNT. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Coautoria da síntese, expansão da lista de verificação de Storyboards com critérios de Scott Klemmer e item teórico individual de Storyboarding | 13/10/2026 | Antigravity (LLM) | Suporte na estruturação Markdown e checagem de bibliografia. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Coautoria da síntese, alinhamento da Tarefa/Storyboard 2 à Criação de Eventos Presenciais (CF02), expansão de checklist com critérios de Klemmer e item teórico de Storyboarding (#104) | 22/10/2026 | Antigravity (LLM) | Suporte na estruturação Markdown e checagem de bibliografia. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Coautoria da síntese, elaboração do Storyboard 3 (Busca Avançada), instrumentos de observação comportamental e item teórico individual de métodos de avaliação | 13/10/2026 | — | Elaboração e validação de conteúdo. |
 
 ---
@@ -92,7 +92,7 @@ A Tabela 3 apresenta o mapeamento das funcionalidades do Fórum Diolinux Plus so
 | Integrante | Funcionalidade Avaliada | Modelagem de Tarefas (HTA/CTT) | Storyboard / Cenário | Foco Metodológico da Avaliação |
 | :--- | :--- | :--- | :--- | :--- |
 | **Vinicius Silva Araruna** | Composição de Tópico Técnico com Markdown e Tags | Tarefa 1 do HTA (Subobjetivos 1.1 a 1.4 com critério de parada p × c) | Storyboard 1: Resolução de conflito de permissões Linux com blocos de código | Framework DECIDE, percurso cognitivo guiado e script oral do TCLE |
-| **Gustavo Antonio Rodrigues e Silva** | Tutorial Interativo de Boas-Vindas (Onboarding Discobot) | Tarefa 2 do HTA (Interação guiada com o robô instrutor do fórum) | Storyboard 2: Adaptação do usuário novato aos comandos básicos do Discourse | Dimensões de Scott Klemmer (*Setting, Sequence, Satisfaction*) |
+| **Gustavo Antonio Rodrigues e Silva** | Criação de Eventos Presenciais da Comunidade (CF02) | Tarefa 2 do HTA (Sondagem, Ingressos, Geolocalização e Quórum Mínimo) | Storyboard 2: Mobilização comunitária, geolocalização e publicação de workshop | Dimensões de Scott Klemmer (*Setting, Sequence, Satisfaction*) e Guia OCR |
 | **Edvaldo Soares Brasileiro Filho** | Busca Avançada e Filtros de Categoria | Tarefa 3 do HTA e Modelagem CTT (Ações concorrentes e pontos de escolha) | Storyboard 3: Refinamento de busca técnica para solução de problemas | Métodos de Investigação vs. Métodos de Inspeção e registro comportamental |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -139,6 +139,7 @@ A Tabela 5 documenta a evolução histórica deste artefato de síntese.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Estruturação inicial da página de síntese da Entrega 4 com consolidação de links de Nível 1, incorporação do vídeo oficial no YouTube, tabela de funcionalidades e cronograma integrado. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 22/10/2026 | Atualização da Tabela 3 alinhando formalmente a funcionalidade de Gustavo Antonio à Criação de Eventos Presenciais (CF02). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
