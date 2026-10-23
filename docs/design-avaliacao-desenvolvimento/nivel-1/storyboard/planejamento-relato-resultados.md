@@ -81,7 +81,7 @@ _Fonte: Gustavo Antonio Rodrigues e Silva, 2026. Dados a serem consolidados apó
 O relatório descreverá como cada um dos 3 storyboards foi inspecionado durante as sessões:
 
 - **Storyboard 1 (Tarefa 1 - Publicação de Tópico em Markdown):** Narrativa do estudante que tenta formatar saída de terminal com código de erro e enfrenta dúvidas sobre sintaxe e categorias;
-- **Storyboard 2 (Tarefa 2 - Cadastro e Onboarding com Discobot):** Narrativa do novo usuário que cria a conta no fórum, interage com o robô tutorial e alcança o nível *Trust Level 1*;
+- **[Storyboard 2 (Criação e Divulgação de Workshop Presencial)](../../storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio):** Narrativa do estudante que idealiza uma oficina prática de Linux no transporte público, descobre a funcionalidade de eventos no Fórum Diolinux Plus, preenche o formulário e local no mapa e divulga para sua turma;
 - **Storyboard 3 (Tarefa 3 - Busca Avançada e Filtros):** Narrativa do usuário que refina resultados de busca por categorias técnicas para encontrar soluções atualizadas.
 
 ---
