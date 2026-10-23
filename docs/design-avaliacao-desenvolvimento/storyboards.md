@@ -99,6 +99,35 @@ A Figura 1 reproduz a prancha física do Storyboard 2 elaborada por Gustavo Anto
 
 ---
 
+### 2.6 Registros Audiovisuais (Teste-Piloto e Avaliação Oficial)
+
+A Tabela 3 consolida os registros audiovisuais em vídeo das sessões práticas de validação do Storyboard 2 conduzidas por Gustavo Antonio, disponibilizadas no YouTube sob o regime Não Listado.
+
+**Tabela 3** — Registros audiovisuais do Storyboard 2 (Teste-Piloto e Avaliação com Usuário)
+
+| Etapa | Objetivo / Atividade | Responsável | Participante | Data | Vídeo no YouTube |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| **Teste-Piloto** | Calibração instrumental de enquadramento, áudio e temporização do script oral do TCLE (< 60s) | [Gustavo Antonio](https://github.com/gus-ant) | Simulação Solo | 22/10/2026 | [Assistir no YouTube (K5jVAyq4hAY)](https://youtu.be/K5jVAyq4hAY) |
+| **Avaliação Oficial** | Sessão de avaliação formativa presencial do Storyboard 2 via entrevista semiestruturada | [Gustavo Antonio](https://github.com/gus-ant) | Participante P2 | 23/10/2026 | [Assistir no YouTube (VhGgpfX9Rqk)](https://youtu.be/VhGgpfX9Rqk) |
+
+_Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
+
+#### Vídeo 1 — Teste-Piloto do Storyboard 2 (Gustavo Antonio)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/K5jVAyq4hAY" title="Teste-Piloto Storyboard 2 - Gustavo Antonio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro em vídeo do Teste-Piloto do Storyboard 2. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+</div>
+
+#### Vídeo 2 — Gravação da Avaliação do Storyboard 2 (Gustavo Antonio)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/VhGgpfX9Rqk" title="Avaliação do Storyboard 2 - Gustavo Antonio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 2</strong> — Registro em vídeo da Avaliação Formativa com Participante do Storyboard 2. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+</div>
+
+---
+
 ## 3. Storyboard 3 – Busca Avançada e Filtros de Categoria por Estudante (Edvaldo Soares)
 
 - **Autor Responsável:** [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
@@ -124,7 +153,7 @@ A Figura 1 reproduz a prancha física do Storyboard 2 elaborada por Gustavo Anto
 
 A Tabela 3 apresenta a decomposição dos quadros correspondentes à funcionalidade de Busca Avançada e Filtros de Categoria.
 
-**Tabela 3** — Sequência de quadros do Storyboard 3 (Busca Avançada no Fórum)
+**Tabela 4** — Sequência de quadros do Storyboard 3 (Busca Avançada no Fórum)
 
 | # | Cena (descrição da ação) | Comentários de Design e Usabilidade |
 | :-: | :--- | :--- |
@@ -162,14 +191,15 @@ Os storyboards documentados nesta página constituem o objeto central de investi
 
 ## 5. Histórico de Versão
 
-A Tabela 4 documenta o histórico evolutivo deste artefato.
+A Tabela 5 documenta o histórico evolutivo deste artefato.
 
-**Tabela 4** — Histórico de versão do documento
+**Tabela 5** — Histórico de versão do documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 12/10/2026 | Estruturação inicial do artefato com o Storyboard 3 (Busca Avançada). | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.1` | 22/10/2026 | Inclusão do Storyboard 2 autoral de Gustavo Antonio Rodrigues e Silva (digitalização em 300 DPI da prancha física com 8 quadros), detalhamento de User Stories, tabela analítica de cenas, alinhamento com os 3 pilares de Klemmer e atualização da matriz de contribuição. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 23/10/2026 | Incorporação dos registros em vídeo da execução do Teste-Piloto (YouTube Não Listado) e da gravação da Avaliação Oficial do Storyboard 2 com participante. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
