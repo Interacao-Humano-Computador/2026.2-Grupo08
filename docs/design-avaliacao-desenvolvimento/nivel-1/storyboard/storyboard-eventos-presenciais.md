@@ -179,11 +179,41 @@ Hand-drawn pencil storyboard, white A4 paper, 2x2 grid of 4 panels, thick black 
 
 ---
 
+## 8. Registros Audiovisuais (Teste-Piloto e Avaliação Oficial)
+
+A Tabela 7 consolida os registros audiovisuais em vídeo das sessões práticas de validação do Storyboard 2 conduzidas por Gustavo Antonio, hospedadas no YouTube em modalidade Não Listado.
+
+**Tabela 7** — Registros audiovisuais do Storyboard 2 (Teste-Piloto e Avaliação com Usuário)
+
+| Etapa | Objetivo / Atividade | Responsável | Participante | Data | Vídeo no YouTube |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| **Teste-Piloto** | Calibração instrumental de enquadramento, áudio e temporização do script oral do TCLE (< 60s) | [Gustavo Antonio](https://github.com/gus-ant) | Simulação Solo | 22/10/2026 | [Assistir no YouTube (K5jVAyq4hAY)](https://youtu.be/K5jVAyq4hAY) |
+| **Avaliação Oficial** | Sessão de avaliação formativa presencial do Storyboard 2 via entrevista semiestruturada | [Gustavo Antonio](https://github.com/gus-ant) | Participante P2 | 23/10/2026 | [Assistir no YouTube (VhGgpfX9Rqk)](https://youtu.be/VhGgpfX9Rqk) |
+
+_Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
+
+### Vídeo 1 — Gravação do Teste-Piloto do Storyboard 2 (Gustavo Antonio)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/K5jVAyq4hAY" title="Teste-Piloto Storyboard 2 - Gustavo Antonio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro em vídeo do Teste-Piloto do Storyboard 2. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+</div>
+
+### Vídeo 2 — Gravação da Avaliação do Storyboard 2 (Gustavo Antonio)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/VhGgpfX9Rqk" title="Avaliação do Storyboard 2 - Gustavo Antonio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 2</strong> — Registro em vídeo da Avaliação Formativa com Participante do Storyboard 2. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+</div>
+
+---
+
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 22/10/2026 | Criação do roteiro de 8 quadros, modelo de quadro, rastreabilidade com o HTA e prompt de inspiração visual (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.1` | 23/10/2026 | Inclusão dos registros audiovisuais do Teste-Piloto e da Avaliação com Usuário do Storyboard 2 no YouTube. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 
