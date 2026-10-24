@@ -142,10 +142,10 @@ A gravação integral do teste-piloto, estruturada no container responsivo do **
 
 !!! info "DISPONIBILIZAÇÃO AUDIOVISUAL DO TESTE-PILOTO NO YOUTUBE"
     - **Status da Gravação:** Autoensaio solo executado e calibrado conforme protocolo instrumental.
-    - **Link de Acesso Direto:** [Assistir Gravação do Teste-Piloto de Nível 1 no YouTube (Não Listado)](https://youtu.be/placeholder-piloto) *(Substituir pelo link definitivo após upload)*.
+    - **Link de Acesso Direto:** [Assistir Gravação do Teste-Piloto de Nível 1 no YouTube (Não Listado)](https://youtu.be/1F409M-E850).
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/placeholder-piloto" title="Gravação do Teste-Piloto de Nível 1 - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/1F409M-E850" title="Gravação do Teste-Piloto de Nível 1 - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
     <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto de Nível 1 na FGA/UnB. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
 </div>
 

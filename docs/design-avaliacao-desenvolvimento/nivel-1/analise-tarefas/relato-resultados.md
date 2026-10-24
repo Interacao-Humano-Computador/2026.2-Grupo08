@@ -149,7 +149,7 @@ A Tabela 4 sintetiza os registros audiovisuais das avaliações da Análise de T
 | :---: | :--- | :---: | :--- | :---: | :--- |
 | **T01** | Tarefa 1: Markdown, Tags e IA Semântica | P1 (J. V. S. — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ~16 min | [Assistir Sessão T01 no YouTube (Não Listado)](https://youtu.be/placeholder-t01) |
 | **T02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão T02 no YouTube (Não Listado)](https://youtu.be/placeholder-t02) |
-| **T03** | Tarefa 3: Busca Avançada e Filtros | P3 (G. H. R.) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~14 min | [Assistir Sessão T03 no YouTube (Não Listado)](https://youtu.be/placeholder-t03) |
+| **T03** | Tarefa 3: Grade de Disponibilidade e Agendamento | P3 (G. H. R.) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~15 min | [Assistir Sessão T03 no YouTube (Não Listado)](https://youtu.be/gqZ3yJ3ZYUc) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
