@@ -2,8 +2,6 @@
 
 ### Problema
 
-### Problema
-
 *Mariana, membro da comunidade Diolinux, publica um tópico no fórum com o objetivo de compartilhar conhecimentos e ajudar outros usuários com dúvidas sobre Linux. Para facilitar a comunicação e oferecer um atendimento mais organizado, ela deseja disponibilizar datas e horários em que pode realizar reuniões. Carlos, um usuário iniciante que encontra o tópico, precisa consultar os horários disponíveis, selecionar um período compatível com sua agenda e confirmar o agendamento para conversar com Mariana sobre suas dúvidas. A funcionalidade permite organizar esses encontros diretamente a partir do tópico, facilitando a colaboração entre os membros da comunidade e evitando conflitos de horários.*
 
 ### Por que o estudante usa essa funcionalidade?
@@ -36,3 +34,15 @@
 **Legenda:** Representa a sequência de quadros da funcionalidade de Grade de Disponibilidade e Agendamento de Reuniões vinculada aos tópicos do fórum Diolinux (Issue #64).
 
 ![Storyboard (300 DPI)](assets/storyboards/storyboard_busca_avancada.png)
+
+---
+
+## Registro Audiovisual da Avaliação do Storyboard 3
+
+A gravação da sessão de avaliação do Storyboard 3 (Grade de Disponibilidade e Agendamento), conduzida por Edvaldo Soares, está disponibilizada no YouTube em modo Não Listado:
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/gqZ3yJ3ZYUc" title="Avaliação do Storyboard 3 - Edvaldo Soares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da avaliação do Storyboard 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/gqZ3yJ3ZYUc" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/gqZ3yJ3ZYUc</a></p>
+</div>

@@ -334,6 +334,8 @@ O CTT (*Concurrent Task Trees*), formalizado por Paternò (2000), é utilizado p
 Esta modelagem evidencia a forte sincronização necessária entre ações do sistema (envio de e-mail e validação de dados) e do usuário, destacando especialmente a flexibilidade de escolha (*Choice* `[]`) na etapa final de Onboarding (T1.4.2), onde o usuário tem liberdade para seguir fluxos paralelos.
 ---
 
+<a id="tarefa-3-agendamento-de-horarios-de-duvidas-e-mentorias-na-grade-de-disponibilidade-edvaldo-soares"></a>
+<a id="tarefa-3-busca-avancada-e-filtros-de-categoria-edvaldo-soares"></a>
 ## Tarefa 3: Agendamento de Horário para Dúvidas e Mentorias na Grade de Disponibilidade (Edvaldo Soares)
 
 - **Autor Principal**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
@@ -345,7 +347,7 @@ Esta modelagem evidencia a forte sincronização necessária entre ações do si
 
 ### 1. Modelagem HTA (Análise Hierárquica de Tarefas)
 
-A HTA (Annett & Duncan, 1967; Barbosa & Silva, 2021) decompõe o objetivo de alto nível em subobjetivos, planos de execução e operações elementares, explicitando as condições de parada baseadas na relação $p \times c$ (probabilidade de falha vs. custo do erro). A Figura 3 apresenta o diagrama hierárquico da decomposição da tarefa.
+A HTA (Annett & Duncan, 1967; Barbosa & Silva, 2021) decompõe o objetivo de alto nível em subobjetivos, planos de execução e operações elementares, explicitando as condições de parada baseadas na relação p × c (probabilidade de falha vs. custo do erro). A Figura 3 apresenta o diagrama hierárquico da decomposição da tarefa.
 
 ```mermaid
 graph TD

@@ -152,7 +152,7 @@ Conforme exigido pelo Plano de Ensino da disciplina (Itens 11 e 12), o teste-pil
 
 | Tipo de Avaliação | Data | Horário | Entrevistador | Observador | Participante (Piloto) | Local / Link |
 | :--- | :---: | :---: | :--- | :--- | :--- | :--- |
-| **Teste-Piloto: Storyboard e Tarefas** | 17/10/2026 | 14:00 - 15:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Discente voluntário de TI (UnB) | [Google Meet](https://meet.google.com/placeholder-piloto) |
+| **Teste-Piloto: Storyboard e Tarefas** | 17/10/2026 | 14:00 - 15:00 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Discente voluntário de TI (UnB) | [Gravação no YouTube](https://youtu.be/1F409M-E850) |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -170,7 +170,7 @@ A Tabela 5 detalha as 3 sessões planejadas para a avaliação formativa dos Sto
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- |
 | **S01** | 19/10/2026 | 14:00 - 14:30 | Storyboard 1 (Markdown e Tags) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s01) |
 | **S02** | 20/10/2026 | 15:00 - 15:30 | Storyboard 2 (Cadastro e Onboarding) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s02) |
-| **S03** | 21/10/2026 | 16:00 - 16:30 | Storyboard 3 (Grade de Disponibilidade e Agendamento) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s03) |
+| **S03** | 21/10/2026 | 16:00 - 16:30 | Storyboard 3 (Grade de Disponibilidade e Agendamento) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Gravação no YouTube](https://youtu.be/gqZ3yJ3ZYUc) |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -186,7 +186,7 @@ A Tabela 6 detalha as 3 sessões planejadas para a avaliação formativa dos mod
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- | :--- |
 | **T01** | 19/10/2026 | 14:30 - 15:00 | Tarefa 1 (Publicação de Tópicos) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s01) |
 | **T02** | 20/10/2026 | 15:30 - 16:00 | Tarefa 2 (Cadastro e Onboarding) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s02) |
-| **T03** | 21/10/2026 | 16:30 - 17:00 | Tarefa 3 (Grade de Disponibilidade e Agendamento) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Google Meet](https://meet.google.com/placeholder-s03) |
+| **T03** | 21/10/2026 | 16:30 - 17:00 | Tarefa 3 (Grade de Disponibilidade e Agendamento) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 3 (Graduando UnB) | [Gravação no YouTube](https://youtu.be/gqZ3yJ3ZYUc) |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -223,6 +223,7 @@ A Tabela 8 documenta as versões deste artefato.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial das questões práticas e cronograma consolidado da avaliação de Nível 1 (Issue #62), com perfil de recrutamento, justificativa teórica amostral (Nielsen, 2000), orçamento zero, divisão de papéis e tabelas de cronograma para Storyboard e Análise de Tarefas. | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 13/10/2026 | Incorporação da Tabela 12.9 adaptada de Barbosa e Silva (2021, p. 304) com 3ª coluna de operacionalização das tarefas, saneamento de tipografia UTF-8 nativa e alinhamento do cronograma integrado com piloto em 17/10 e campo de 19/10 a 23/10. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.2` | 24/10/2026 | Atualização dos links de gravação da avaliação oficial e do teste-piloto da Tarefa 3 no YouTube, sob condução de Edvaldo Soares. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 

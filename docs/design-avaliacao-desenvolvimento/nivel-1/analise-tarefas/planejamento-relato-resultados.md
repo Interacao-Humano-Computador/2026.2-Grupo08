@@ -120,7 +120,7 @@ A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessõ
 | :---: | :---: | :--- | :---: | :---: | :--- |
 | **ST01** | P1 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 19/10/2026 14:00 | *[Minutos]* | [Acessar Gravação da Sessão ST01](https://youtu.be/placeholder-st01) |
 | **ST02** | P2 | [Gustavo Antonio](https://github.com/gus-ant) | 20/10/2026 15:00 | *[Minutos]* | [Acessar Gravação da Sessão ST02](https://youtu.be/placeholder-st02) |
-| **ST03** | P3 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 21/10/2026 16:00 | *[Minutos]* | [Acessar Gravação da Sessão ST03](https://youtu.be/placeholder-st03) |
+| **ST03** | P3 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 21/10/2026 16:00 | 15 min | [Acessar Gravação da Sessão ST03 (YouTube)](https://youtu.be/gqZ3yJ3ZYUc) |
 | **ST04** | P4 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 22/10/2026 14:00 | *[Minutos]* | [Acessar Gravação da Sessão ST04](https://youtu.be/placeholder-st04) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
@@ -159,6 +159,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial do planejamento do relato dos resultados da avaliação da Análise de Tarefas (Issue #61), com objetivos de tarefas, caracterização de participantes (Tabela 2), matriz de problemas com severidade de Nielsen (Tabela 3), diretrizes de refatoração, cláusula de isolamento do piloto e lista de verificação com 10 itens normativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 24/10/2026 | Atualização do link e dados da gravação da Sessão ST03 conduzida por Edvaldo Soares no YouTube. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 

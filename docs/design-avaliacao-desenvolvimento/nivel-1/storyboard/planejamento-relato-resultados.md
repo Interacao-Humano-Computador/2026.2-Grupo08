@@ -132,7 +132,7 @@ A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessõ
 | :---: | :---: | :--- | :---: | :---: | :--- |
 | **S01** | P1 | [Nome do Entrevistador] | *[Data / Hora]* | *[Minutos]* | [Acessar Gravação da Sessão S01](https://youtu.be/placeholder-s01) |
 | **S02** | P2 | [Nome do Entrevistador] | *[Data / Hora]* | *[Minutos]* | [Acessar Gravação da Sessão S02](https://youtu.be/placeholder-s02) |
-| **S03** | P3 | [Nome do Entrevistador] | *[Data / Hora]* | *[Minutos]* | [Acessar Gravação da Sessão S03](https://youtu.be/placeholder-s03) |
+| **S03** | P3 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 21/10/2026 16:00 | 15 min | [Acessar Gravação da Sessão S03 (YouTube)](https://youtu.be/gqZ3yJ3ZYUc) |
 
 _Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 
@@ -171,6 +171,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial do planejamento do relato dos resultados da avaliação do Storyboard (Issue #61), contemplando objetivos, método de baixa fidelidade, perfil de participantes, tarefas, matriz de problemas com gravidade de Nielsen, diretrizes de reprojeto, isolamento do piloto e lista de verificação. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 13/10/2026 | Expansão da Lista de Verificação da Técnica (Tabela 5) para exatamente 10 itens normativos, incluindo registros audiovisuais, cronograma executado e priorização de problemas, além de fontes nominais. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 24/10/2026 | Atualização do link e dados da gravação da Sessão S03 conduzida por Edvaldo Soares no YouTube. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 

@@ -57,7 +57,7 @@ A Tabela 2 define os parâmetros técnicos e logísticos da sessão de ensaio.
 | Parâmetro | Especificação Planejada |
 | :--- | :--- |
 | **Data e Horário** | 17/10/2026 — das 14:00 às 14:40 (Duração total estimada: 40 minutos) |
-| **Ambiente / Plataforma** | Chamada remota síncrona via [Google Meet](https://meet.google.com/placeholder-piloto) |
+| **Ambiente / Plataforma** | Chamada remota síncrona gravada e disponibilizada no [YouTube](https://youtu.be/1F409M-E850) |
 | **Hardware Empregado** | Computador pessoal dos avaliadores com microfone condensador e câmera HD 1080p |
 | **Software e Ferramentas** | Google Meet (com gravação em nuvem institucional UnB), navegador web e visualizador de imagens |
 | **Resolução de Exibição** | Compartilhamento de tela em 1080p (1920 × 1080) com renderização dos storyboards em 300 DPI |
@@ -134,11 +134,12 @@ A dinâmica do ensaio é subdividida em cinco fases operacionais cronometradas:
 
 ## 7. Registro Audiovisual do Teste-Piloto
 
-A gravação integral do teste-piloto, estruturada no container responsivo do **Vídeo 1**, será disponibilizada em modo Não Listado no YouTube, garantindo total transparência metodológica e auditabilidade pela banca da disciplina.
+A gravação integral do teste-piloto conduzido por Edvaldo Soares, estruturada no container responsivo do **Vídeo 1**, está disponibilizada em modo Não Listado no YouTube, garantindo total transparência metodológica e auditabilidade pela banca da disciplina:
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/placeholder-piloto" title="Gravação do Teste-Piloto de Nível 1 - Grupo 08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto de Nível 1. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/1F409M-E850" title="Gravação do Teste-Piloto de Nível 1 - Edvaldo Soares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto de Nível 1 por Edvaldo Soares. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/1F409M-E850" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/1F409M-E850</a></p>
 </div>
 
 ---
@@ -147,14 +148,14 @@ A gravação integral do teste-piloto, estruturada no container responsivo do **
 
 A Tabela 4 apresenta o modelo para consolidação das anomalias operacionais identificadas durante o teste-piloto e as respectivas ações de refinamento incorporadas aos roteiros oficiais antes das entrevistas de campo.
 
-**Tabela 4** — Matriz de Ocorrências, Atritos e Ações Corretivas do Teste-Piloto *(A preencher pós-ensaio)*
+**Tabela 4** — Matriz de Ocorrências, Atritos e Ações Corretivas do Teste-Piloto
 
 | Dimensão Avaliada | Atrito / Ocorrência Observada no Ensaio | Causa Raiz Diagnosticada | Ação Corretiva Implementada no Protocolo Oficial |
 | :--- | :--- | :--- | :--- |
-| **Linguagem do Roteiro** | *[Ex: Participante hesitou sobre termo técnico 'modelo conceitual']* | *Pergunta formulada com jargão técnico excessivo de IHC* | *Substituição por linguagem natural: 'Como você imagina que essa tarefa funciona?'* |
-| **Temporização** | *[Ex: Bloco de Storyboard estendeu-se por 18 min em vez de 12 min]* | *Entrevistador aprofundou discussões marginais fora do escopo* | *Inserção de balizadores de tempo rígidos na planilha do entrevistador* |
-| **Infraestrutura** | *[Ex: Letras do diagrama HTA pequenas em tela de notebook]* | *Diagrama compartilhado sem zoom pré-ajustado em 125%* | *Padronização do nível de zoom inicial em 150% antes do compartilhamento* |
-| **Script Oral do TCLE** | *[Ex: Leitura rápida e mecânica do consentimento]* | *Ansiedade do condutor para concluir antes de 60 segundos* | *Ritmo de fala calibrado para 45 segundos com pausas enfáticas de confirmação* |
+| **Linguagem do Roteiro** | Participante solicitou esclarecimento sobre a abrangência da grade de disponibilidade | Pergunta inicial focava apenas em marcar horário sem contextualizar o suporte entre pares | Esclarecimento prévio de que o agendamento visa o apoio colaborativo entre membros da comunidade |
+| **Temporização** | Roteiro transcorreu em ritmo adequado (aproximadamente 12 minutos) | Roteiro objetivo e perguntas diretas mantiveram a fluidez | Manutenção da estrutura enxuta de inquirição para a avaliação com usuários |
+| **Infraestrutura** | Gravação de áudio e compartilhamento de tela operaram sem interrupções | Conexão estável e microfone com boa captação | Validação da configuração técnica para as sessões oficiais |
+| **Script Oral do TCLE** | Leitura fluida e clara do consentimento nos primeiros 60 segundos | Roteiro do TCLE previamente impresso e praticado | Manutenção do padrão nos primeiros 60 segundos gravados |
 
 _Fonte: Vinicius Silva Araruna com base em Barbosa e Silva (2021), 2026._
 
@@ -189,6 +190,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial do Protocolo e Roteiro do Teste-Piloto de Nível 1 (Issue #58), com fundamentação em Barbosa & Silva (2021) e Mayhew (1999), cláusula mandatória de isolamento dos dados, parametrização operacional, cronometragem em 5 fases, matriz de ajustes pós-teste e lista de verificação com 7 itens. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 24/10/2026 | Inserção do link e player responsivo da gravação em vídeo do teste-piloto executado por Edvaldo Soares no YouTube e consolidação da matriz de ocorrências. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 
