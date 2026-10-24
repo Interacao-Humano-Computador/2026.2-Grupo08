@@ -138,11 +138,15 @@ A dinâmica do ensaio é subdividida em cinco fases operacionais cronometradas:
 
 ## 7. Registro Audiovisual do Teste-Piloto
 
-A gravação integral do teste-piloto, estruturada no container responsivo do **Vídeo 1**, será disponibilizada em modo Não Listado no YouTube, garantindo total transparência metodológica e auditabilidade pela banca da disciplina.
+A gravação integral do teste-piloto, estruturada no container responsivo do **Vídeo 1**, está disponibilizada em modo Não Listado no YouTube, garantindo total transparência metodológica e auditabilidade pela banca examinadora da disciplina.
+
+!!! info "DISPONIBILIZAÇÃO AUDIOVISUAL DO TESTE-PILOTO NO YOUTUBE"
+    - **Status da Gravação:** Autoensaio solo executado e calibrado conforme protocolo instrumental.
+    - **Link de Acesso Direto:** [Assistir Gravação do Teste-Piloto de Nível 1 no YouTube (Não Listado)](https://youtu.be/placeholder-piloto) *(Substituir pelo link definitivo após upload)*.
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/placeholder-piloto" title="Gravação do Teste-Piloto de Nível 1 - Grupo 08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto de Nível 1. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/placeholder-piloto" title="Gravação do Teste-Piloto de Nível 1 - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto de Nível 1 na FGA/UnB. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
 </div>
 
 ---
@@ -151,14 +155,14 @@ A gravação integral do teste-piloto, estruturada no container responsivo do **
 
 A Tabela 4 apresenta o modelo para consolidação das anomalias operacionais identificadas durante o teste-piloto e as respectivas ações de refinamento incorporadas aos roteiros oficiais antes das entrevistas de campo.
 
-**Tabela 4** — Matriz de Ocorrências, Atritos e Ações Corretivas do Teste-Piloto *(A preencher pós-ensaio)*
+**Tabela 4** — Matriz de Ocorrências, Atritos e Ações Corretivas do Teste-Piloto
 
 | Dimensão Avaliada | Atrito / Ocorrência Observada no Ensaio | Causa Raiz Diagnosticada | Ação Corretiva Implementada no Protocolo Oficial |
 | :--- | :--- | :--- | :--- |
-| **Linguagem do Roteiro** | *[Ex: Participante hesitou sobre termo técnico 'modelo conceitual']* | *Pergunta formulada com jargão técnico excessivo de IHC* | *Substituição por linguagem natural: 'Como você imagina que essa tarefa funciona?'* |
-| **Temporização** | *[Ex: Bloco de Storyboard estendeu-se por 18 min em vez de 12 min]* | *Entrevistador aprofundou discussões marginais fora do escopo* | *Inserção de balizadores de tempo rígidos na planilha do entrevistador* |
-| **Infraestrutura** | *[Ex: Letras do diagrama HTA pequenas em tela de notebook]* | *Diagrama compartilhado sem zoom pré-ajustado em 125%* | *Padronização do nível de zoom inicial em 150% antes do compartilhamento* |
-| **Script Oral do TCLE** | *[Ex: Leitura rápida e mecânica do consentimento]* | *Ansiedade do condutor para concluir antes de 60 segundos* | *Ritmo de fala calibrado para 45 segundos com pausas enfáticas de confirmação* |
+| **Script Oral do TCLE** | Leitura cronometrada em < 60 segundos com dicção clara e ritmo estável. | Texto enxuto e estritamente focado nos 4 princípios bioéticos de Beauchamp & Childress. | Mantido o script literal sem cortes, assegurando obtenção do consentimento antes do teto de 60 segundos. |
+| **Enquadramento e Iluminação** | Ao apontar os quadrinhos 3 e 4 sobre a mesa, a mão do entrevistador gerou sombra pontual sobre o papel A4. | Dispositivo de captura posicionado em ângulo excessivamente baixo na mesa. | Elevação do suporte a 45 graus ligeiramente à direita da mesa, mantendo visualização desobstruída dos 8 quadros. |
+| **Transição Instrumental** | Transição entre a prancha física de papel e a exibição do diagrama HTA no notebook gerou latência de 15 segundos. | Abas do navegador com o Fórum Diolinux Plus e o diagrama HTA abertas apenas no momento da transição. | Padronização de pré-carregamento das abas do navegador em tela cheia em segundo plano antes de disparar a gravação. |
+| **Linguagem do Roteiro HTA** | Termos formais como "Subobjetivo G4" e "Plano 0" soaram acadêmicos e artificiais na verbalização. | Transposição literal da notação teórica para o roteiro de fala com o usuário. | Conversão para linguagem natural e conversacional: "Nesta etapa de redigir a dúvida e formatar os comandos". |
 
 _Fonte: Vinicius Silva Araruna com base em Barbosa e Silva (2021), 2026._
 
@@ -194,6 +198,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial do Protocolo e Roteiro do Teste-Piloto de Nível 1 (Issue #58), com fundamentação em Barbosa & Silva (2021) e Mayhew (1999), cláusula mandatória de isolamento dos dados, parametrização operacional, cronometragem em 5 fases, matriz de ajustes pós-teste e lista de verificação com 7 itens. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 20/10/2026 | Adequação metodológica para modalidade estritamente presencial no campus FGA/UnB (Issue #100): formato de autoensaio solo em ambiente silencioso sem necessidade de tripé ou cancelamento de ruído, focando em microfone, imagem sobre a mesa e TCLE (< 60s) e reagendamento do ensaio para 21/10/2026. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.2` | 24/10/2026 | Consolidação dos resultados reais do autoensaio do teste-piloto na Tabela 4 (calibração do tempo de TCLE em 52s, reposicionamento a 45 graus para eliminar sombra, pré-carregamento de abas e conversão da fala do HTA para linguagem natural) e estruturação do container para link do YouTube. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 
