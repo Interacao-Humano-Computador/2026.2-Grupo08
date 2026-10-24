@@ -206,7 +206,7 @@ A Tabela 4 apresenta o modelo formal que será utilizado no documento de consoli
 
 | ID do Problema | Storyboard / Tarefa | Quadro Afetado | Descrição do Problema de Usabilidade | Gravidade Heurística (Leve / Média / Grave) | Recomendação de Reprojeto para a Equipe |
 | :---: | :--- | :---: | :--- | :---: | :--- |
-| **PROB-ST-01** | Tarefa 1 (Markdown e Tags) | Quadro 3 | Exemplo: Usuário não entendeu por que o código de terminal quebrou ao ser colado. | Média | Adicionar no balão de fala menção explícita à ausência de delimitadores de código. |
+| **PROB-ST-01** | Tarefa 1 (Markdown e Tags com Integração de IA Semântica) | Quadro 3 | Exemplo: Usuário não entendeu por que o código de terminal quebrou ao ser colado. | Média | Adicionar no balão de fala menção explícita à ausência de delimitadores de código. |
 | **PROB-ST-02** | Tarefa 2 (Criação de Eventos Presenciais) | Quadro 6 | Exemplo: Participante considerou confusa a transição entre o endereço digitado e o pin do mapa. | Média | Inserir campo de autocompletar e botão explícito 'Recentralizar mapa'. |
 | **PROB-ST-03** | Tarefa 3 (Busca Avançada) | Quadro 2 | Exemplo: Participante esperava filtros automáticos por versão da distro Linux. | Leve | Exibir filtro de versão destacado na interface de busca do storyboard. |
 
