@@ -178,7 +178,7 @@ A Tabela 5 detalha as 3 sessões planejadas para a avaliação formativa dos Sto
 
 | Sessão | Data | Horário | Storyboard Avaliado | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
-| **S01** | 22/10/2026 | 14:00 - 14:40 | Storyboard 1 (Markdown e Tags com IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
+| **S01** | 22/10/2026 | 14:00 - 14:40 | Storyboard 1 (Markdown e Tags com IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando CIC/UnB) | Presencial — Residência do Participante P1 (Ambiente Domiciliar) |
 | **S02** | 22/10/2026 | 15:00 - 15:40 | Storyboard 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 | **S03** | 22/10/2026 | 16:00 - 16:40 | Storyboard 3 (Busca Avançada) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 
@@ -194,7 +194,7 @@ A Tabela 6 detalha as 3 sessões planejadas para a avaliação formativa dos mod
 
 | Sessão | Data | Horário | Tarefa Investigada | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
-| **T01** | 22/10/2026 | 14:20 - 14:40 | Tarefa 1 (Publicação com Tags e IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
+| **T01** | 22/10/2026 | 14:20 - 14:40 | Tarefa 1 (Publicação com Tags e IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando CIC/UnB) | Presencial — Residência do Participante P1 (Ambiente Domiciliar) |
 | **T02** | 22/10/2026 | 15:20 - 15:40 | Tarefa 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 | **T03** | 22/10/2026 | 16:20 - 16:40 | Tarefa 3 (Busca Avançada e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 
@@ -211,7 +211,7 @@ Para garantir o rigor no encadeamento das atividades e atender à diretriz pedag
 | Fase / Atividade | Período / Data | Horário | Responsável(is) | Entregável / Registro Formal | Status |
 | :--- | :---: | :---: | :--- | :--- | :---: |
 | **Ensaio Presencial do Teste-Piloto** | 21/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (Avaliador Solo) | Ensaio individual testando microfone, imagem sobre a mesa em ambiente silencioso, leitura do TCLE (< 60s) e manuseio de pranchas (dados isolados e não computados). | 🟡 Agendado |
-| **Sessão Presencial Oficial 01 (S01 / T01)** | 22/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (Avaliador Responsável) | Gravação em ambiente silencioso, TCLE nos primeiros 60s, Storyboard 1 impresso e percurso da Tarefa 1 (Markdown e Tags com IA) com Participante 1 (P1). | 🟡 Agendado |
+| **Sessão Presencial Oficial 01 (S01 / T01)** | 22/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (Avaliador Responsável) | Gravação em ambiente domiciliar silencioso na residência do participante P1 (estudante de Ciência da Computação - CIC/UnB), TCLE nos primeiros 60s, Storyboard 1 impresso e percurso da Tarefa 1. | 🟡 Agendado |
 | **Sessão Presencial Oficial 02 (S02 / T02)** | 22/10/2026 | 15:00 - 15:40 | [Gustavo Antonio](https://github.com/gus-ant) (Avaliador Responsável) | Gravação em ambiente silencioso, TCLE nos primeiros 60s, Storyboard 2 impresso e percurso da Tarefa 2 (Criação de Eventos Presenciais) com Participante 2 (P2). | 🟡 Agendado |
 | **Sessão Presencial Oficial 03 (S03 / T03)** | 22/10/2026 | 16:00 - 16:40 | [Edvaldo Soares](https://github.com/PajeMurici-dev) (Avaliador Responsável) | Gravação em ambiente silencioso, TCLE nos primeiros 60s, Storyboard 3 impresso e percurso da Tarefa 3 (Busca e Filtros) com Participante 3 (P3). | 🟡 Agendado |
 | **Tabulação e Pós-Processamento** | 23/10/2026 | 09:00 - 13:00 | Todos os integrantes | Consolidação dos dados comportamentais na planilha `observacao-avaliador.csv` e síntese de discrepâncias de HTA. | ⚪ Planejado |
