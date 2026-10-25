@@ -5,7 +5,7 @@
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão das listas de verificação e aplicação nos artefatos da Entrega 2](#aplicacao-e-inspecao-cruzada-dos-artefatos-da-entrega-2) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Revisão das listas de verificação e aplicação nos artefatos da Entrega 2](#aplicacao-e-inspecao-cruzada-dos-artefatos-da-entrega-2) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Revisão das listas de verificação e alinhamento da Tarefa 2 à Criação de Eventos Presenciais — CF02 (#104)](#aplicacao-e-inspecao-cruzada-dos-artefatos-da-entrega-2) | 22/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa das 4 listas de verificação (HTA, Elenco de Personas, Personas e CTT) com fundamentação canônica textual e referências ABNT](#listas-de-verificacao-avaliativas-individuais) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
 
 ---
@@ -151,7 +151,7 @@ A Tabela 6 sintetiza a distribuição da aplicação das listas de verificação
 | Artefato sob Auditoria | Lista de Verificação Aplicada | Autor Primário do Artefato | Discente Auditor / Revisor |
 | :--- | :---: | :--- | :--- |
 | **HTA: Tarefa 1 (Markdown e Tags)** | LV-01 (HTA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
-| **HTA: Tarefa 2 (Cadastro e Onboarding)** | LV-01 (HTA) e LV-04 (CTT) | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **HTA: Tarefa 2 (Criação de Eventos Presenciais — CF02)** | LV-01 (HTA) e LV-04 (CTT) | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **HTA: Tarefa 3 (Busca Avançada)** | LV-01 (HTA) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | **Elenco de Personas (Consolidado)** | LV-02 (Elenco) | [Equipe Grupo 08](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) | [Revisão Circular 360º](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
 | **Personas 1, 2 e 3** | LV-03 (Personas) | [Vinicius](https://github.com/ViniciusA05), [Gustavo](https://github.com/gus-ant), [Edvaldo](https://github.com/PajeMurici-dev) | [Auditoria Cruzada Mútua](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
@@ -169,6 +169,7 @@ A Tabela 7 documenta o histórico de versões deste artefato.
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Elaboração inicial das 4 Listas de Verificação com fundamentação canônica textual em Barbosa e Silva (2021) e matriz de inspeção cruzada | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 22/10/2026 | Atualização da Tabela 6 alinhando formalmente a Tarefa 2 de Gustavo Antonio à Criação de Eventos Presenciais (CF02) (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

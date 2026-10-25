@@ -75,6 +75,7 @@ nav:
     - Entrega 2: entregas/entrega2.md
     - Entrega 3: entregas/entrega3.md
     - Entrega 4: entregas/entrega4.md
+    - Entrega 5: entregas/entrega5.md
 
   - Planejamento do Projeto:
     - Equipe: planejamento/equipe.md
@@ -87,8 +88,10 @@ nav:
     - Lista de Sites Avaliados: planejamento/sites-avaliados.md
     - Site Selecionado: planejamento/site-selecionado.md
   - Análise de Requisitos:
+    - Metodologia de Pesquisa: analise-requisitos/metodologia.md
     - Elicitação de Requisitos:
       - Brainstorming: analise-requisitos/brainstorming.md
+      - Análise Documental: analise-requisitos/analise-documental.md
       - Entrevistas: analise-requisitos/entrevistas.md
     - Aspectos Éticos e TCLE: analise-requisitos/aspectos-eticos.md
     - Perfil do Usuário: analise-requisitos/perfil-usuario.md
@@ -105,6 +108,7 @@ nav:
           - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-avaliacao.md
           - Planejamento do Relato dos Resultados: design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-relato-resultados.md
           - Storyboards da Equipe: design-avaliacao-desenvolvimento/storyboards.md
+          - Storyboard de Eventos Presenciais: design-avaliacao-desenvolvimento/nivel-1/storyboard/storyboard-eventos-presenciais.md
       - Análise de Tarefas:
           - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-avaliacao.md
           - Planejamento do Relato dos Resultados: design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-relato-resultados.md

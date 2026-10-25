@@ -2,13 +2,17 @@
 
 ## Tabela de Contribuição
 
-A distribuição de responsabilidades e uso de IA Generativa na elaboração e manutenção deste relatório de inspeção encontra-se sintetizada no quadro a seguir.
+A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas utilizadas na realização desta auto-avaliação.
+
+**Tabela 0** — Matriz de Contribuição da Auto-Avaliação do Grupo 08
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Verificação dos artefatos da E2 e revisão da matriz de verificação da Entrega 3 | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Consolidação dos dados de verificação da E2 e E3 e atualização dos gráficos | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Desacoplamento arquitetural do relatório de inspeção frente aos templates de checklist (Issue #30), elaboração das matrizes de verificação da E2 e E3 | 12/10/2026 | Suporte na formatação Markdown sob supervisão discente |
+
+_Fonte: Elaborada pelos autores, 2026._
 
 ---
 
@@ -24,7 +28,7 @@ Em consonância com o método formal de Michael Fagan (1976), este documento atu
 
 ## 1. Verificação da Entrega 1 — Planejamento do Projeto
 
-Abaixo estão dispostas as tabelas de auto-avaliação da primeira etapa do projeto.
+A Tabela 1 apresenta a auto-avaliação dos itens de planejamento geral da Entrega 1 do projeto.
 
 ### Itens de Planejamento Geral do Projeto (Entrega 1)
 
@@ -50,7 +54,7 @@ _Fonte: Grupo 08, 2026._
 
 ### Itens de Desenvolvimento e Documentação (Entrega 1)
 
-A Tabela 2 sintetiza a avaliação dos aspectos de governança técnica, padronização editorial e registros da primeira etapa do projeto.
+A Tabela 2 apresenta a verificação dos aspectos de documentação e conformidade técnica da Entrega 1.
 
 **Tabela 2** — Verificação dos aspectos de documentação e conformidade técnica
 
@@ -74,7 +78,7 @@ _Fonte: Grupo 08, 2026._
 
 ### Itens de Conteúdo da Disciplina (Entrega 1)
 
-A Tabela 3 consolida a conformidade da fundamentação teórica do Processo de Design e dos itens de conteúdo individual da Entrega 1.
+A Tabela 3 apresenta a verificação do Processo de Design e conteúdo teórico da Entrega 1.
 
 **Tabela 3** — Verificação do Processo de Design e conteúdo teórico
 
@@ -93,7 +97,7 @@ Abaixo estão dispostas as tabelas de auto-avaliação dos artefatos produzidos 
 
 ### Perfil do Usuário e Aspectos Éticos (TCLE)
 
-A Tabela 4 detalha a verificação empírica dos artefatos de Perfil do Usuário e Aspectos Éticos desenvolvidos na Entrega 2.
+A Tabela 4 apresenta a verificação dos artefatos de Perfil do Usuário e Aspectos Éticos da Entrega 2.
 
 **Tabela 4** — Verificação dos artefatos de Perfil do Usuário e Aspectos Éticos
 
@@ -114,7 +118,7 @@ _Fonte: Grupo 08, 2026._
 
 ### Personas, Elenco de Personas e Cenários
 
-A Tabela 5 consolida os achados da inspeção realizada sobre as Personas, o Elenco de Personas e os Cenários de Interação da Entrega 2.
+A Tabela 5 apresenta a verificação dos artefatos de Personas, Elenco e Cenários de Interação da Entrega 2.
 
 **Tabela 5** — Verificação dos artefatos de Personas, Elenco e Cenários de Interação
 
@@ -136,7 +140,7 @@ _Fonte: Grupo 08, 2026._
 
 ### Análise de Tarefas (HTA, GOMS e CTT)
 
-A Tabela 6 sintetiza a verificação dos artefatos de Análise de Tarefas frente às técnicas canônicas adotadas pela equipe.
+A Tabela 6 apresenta a verificação dos artefatos de Análise de Tarefas da Entrega 2 frente às técnicas canônicas adotadas pela equipe.
 
 **Tabela 6** — Verificação dos artefatos de Análise de Tarefas
 
@@ -156,7 +160,7 @@ _Fonte: Grupo 08, 2026._
 
 ### Requisitos Globais de Documentação e Gravação (Entrega 2)
 
-A Tabela 7 detalha a verificação dos aspectos de governança, conformidade editorial e gravações audiovisuais da Entrega 2.
+A Tabela 7 apresenta a verificação de padronização, governança e gravação da Entrega 2.
 
 **Tabela 7** — Verificação de padronização e gravação da Entrega 2
 
@@ -175,7 +179,7 @@ _Fonte: Grupo 08, 2026._
 
 ## 3. Verificação da Entrega 3 — Análise de Requisitos
 
-A Tabela 8 apresenta a autoavaliação dos 18 itens produzidos para a **Entrega 3** (Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Página de Entrega 3), avaliada na branch `main`.
+A Tabela 8 apresenta a autoavaliação detalhada dos 18 itens da **Entrega 3** (Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Página de Entrega 3), avaliada na branch `main`.
 
 **Tabela 8** — Verificação dos Itens da Entrega 3 (18 Itens Trabalhados)
 
