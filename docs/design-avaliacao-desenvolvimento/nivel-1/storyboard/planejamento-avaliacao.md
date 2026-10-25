@@ -153,7 +153,7 @@ A Tabela 3 apresenta a distribuição das sessões de avaliação do storyboard,
 | Sessão | Data | Horário | Storyboard Avaliado | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
 | **S01** | 22/10/2026 | 14:00 - 14:40 | Storyboard 1 (Markdown e Tags com IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
-| **S02** | 22/10/2026 | 15:00 - 15:40 | Storyboard 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
+| **S02** | 22/10/2026 | 15:00 - 15:40 | [Storyboard 2 (Criação de Eventos Presenciais)](../../storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 | **S03** | 22/10/2026 | 16:00 - 16:40 | Storyboard 3 (Busca Avançada) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
