@@ -95,7 +95,7 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 
 ### 2.5 Alinhamento com as Dimensões de Scott Klemmer (2012)
 
 - **Cenário (*Setting*):** O storyboard inicia no ambiente de desenvolvimento do estudante universitário (terminal de sistema operacional Linux), avança pela interface web da comunidade e encerra com o teste real executado no terminal.
-- **Sequência (*Sequence*):** Ordem causal estrita em 8 passos lógicos: Erro no terminal $\rightarrow$ Decisão de recorrer à comunidade $\rightarrow$ Categorização $\rightarrow$ Composição em Markdown $\rightarrow$ Verificação de IA pré-envio $\rightarrow$ Publicação $\rightarrow$ Notificação de resposta $\rightarrow$ Validação e marcação de solução aceita.
+- **Sequência (*Sequence*):** Ordem causal estrita em 8 passos lógicos: Erro no terminal → Decisão de recorrer à comunidade → Categorização → Composição em Markdown → Verificação de IA pré-envio → Publicação → Notificação de resposta → Validação e marcação de solução aceita.
 - **Satisfação (*Satisfaction*):** O desfecho cumpre o propósito de IHC: resolver a frustração do usuário com agilidade, empoderando-o a retribuir à comunidade através da marcação oficial de solução.
 
 ---
@@ -148,7 +148,7 @@ _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus
 
 Conforme preconizado por Klemmer (2012) e demonstrado na lista de verificação de Storyboards:
 - **Cenário (*Setting*):** O storyboard não se isola na tela do computador. Ele retrata o contexto sociocultural completo do aluno: a sala de aula da faculdade (FGA), o trajeto no ônibus urbano de Brasília, o quarto com o computador desktop e o uso subsequente do smartphone na palma da mão.
-- **Sequência (*Sequence*):** A narrativa possui uma ordem causal estrita em 8 passos sem saltos lógicos bruscos: Sentimento de isolamento $\rightarrow$ Ideação de workshop $\rightarrow$ Busca no PC $\rightarrow$ Descoberta da funcionalidade no Fórum $\rightarrow$ Preenchimento dos dados estruturados $\rightarrow$ Seleção do local no mapa $\rightarrow$ Compartilhamento mobile $\rightarrow$ Confirmação e alívio.
+- **Sequência (*Sequence*):** A narrativa possui uma ordem causal estrita em 8 passos sem saltos lógicos bruscos: Sentimento de isolamento → Ideação de workshop → Busca no PC → Descoberta da funcionalidade no Fórum → Preenchimento dos dados estruturados → Seleção do local no mapa → Compartilhamento mobile → Confirmação e alívio.
 - **Satisfação (*Satisfaction*):** O sistema atende à necessidade essencial de conectar entusiastas de Linux. A satisfação é transmitida visualmente pelo alívio no Quadro 5 e pelo entusiasmo gestual e textual no Quadro 8.
 
 ---
