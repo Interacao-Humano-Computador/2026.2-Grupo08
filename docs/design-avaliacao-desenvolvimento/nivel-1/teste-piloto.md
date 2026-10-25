@@ -145,7 +145,6 @@ A gravação integral do teste-piloto de Nível 1 está disponibilizada em modo 
     <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto de Nível 1. <em>Fonte: Elaborada pelos autores, 2026.</em></p>
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/1F409M-E850" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/1F409M-E850</a></p>
 </div>
-</div>
 
 ---
 

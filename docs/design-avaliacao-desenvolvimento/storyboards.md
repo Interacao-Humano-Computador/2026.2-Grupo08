@@ -292,17 +292,18 @@ Os storyboards documentados nesta página constituem o objeto central de investi
 
 ## 6. Histórico de Versão
 
-A Tabela 6 documenta o histórico evolutivo deste artefato.
+A Tabela 7 documenta o histórico evolutivo deste artefato.
 
-**Tabela 6** — Histórico de versão do documento
+**Tabela 7** — Histórico de versão do documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 12/10/2026 | Estruturação inicial do artefato com o Storyboard 3 (Busca Avançada). | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `1.1` | 22/10/2026 | Inclusão do Storyboard 2 autoral de Gustavo Antonio Rodrigues e Silva (digitalização em 300 DPI da prancha física com 8 quadros), detalhamento de User Stories, tabela analítica de cenas, alinhamento com os 3 pilares de Klemmer e atualização da matriz de contribuição. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `1.2` | 23/10/2026 | Incorporação dos registros em vídeo da execução do Teste-Piloto (YouTube Não Listado) e da gravação da Avaliação Oficial do Storyboard 2 com participante. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-<a id="3-storyboard-3-grade-de-disponibilidade-e-agendamento-de-reunioes-no-forum-diolinux-edvaldo-soares"></a>
-## 4. Storyboard 3 – Grade de Disponibilidade e Agendamento de Reuniões no Fórum Diolinux (Edvaldo Soares)
+| 1.0 | 12/10/2026 | Estruturação inicial do artefato com o Storyboard 3 (Busca Avançada). | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| 1.1 | 22/10/2026 | Inclusão do Storyboard 2 autoral de Gustavo Antonio Rodrigues e Silva (digitalização em 300 DPI da prancha física com 8 quadros), detalhamento de User Stories, tabela analítica de cenas, alinhamento com os 3 pilares de Klemmer e atualização da matriz de contribuição. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| 1.2 | 23/10/2026 | Incorporação dos registros em vídeo da execução do Teste-Piloto (YouTube Não Listado) e da gravação da Avaliação Oficial do Storyboard 2 com participante. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| 1.3 | 24/10/2026 | Inclusão dos registros audiovisuais (teste-piloto e avaliação oficial) do Storyboard 3 de Edvaldo Soares. | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| 1.4 | 24/10/2026 | Adição do Storyboard 1 de Vinicius Silva Araruna (digitalização em 300 DPI da prancha física A4 com 8 quadros da Tarefa 1 com IA semântica pré-envio), alinhamento com os 3 pilares de Klemmer e consolidação da tríade de storyboards da equipe. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| 1.5 | 25/10/2026 | Saneamento de delimitadores LaTeX para caracteres UTF-8 nativos e expurgo de arquivos de instrução interna (Leak-Free). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
