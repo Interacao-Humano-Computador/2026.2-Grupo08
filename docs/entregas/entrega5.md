@@ -65,6 +65,11 @@ A Tabela 3 apresenta os dados cadastrais da gravação da apresentação em víd
 
 _Fonte: Elaborada pelos autores, 2026._
 
+### 3.1 Destaques das Narrativas dos Storyboards da Equipe
+- **Storyboard 1 (Vinicius Silva Araruna):** [Acessar Storyboard 1](../design-avaliacao-desenvolvimento/storyboards.md#storyboard-1-topico-markdown) — Redação técnica com Markdown e tags assistida por IA semântica pré-envio.
+- **Storyboard 2 (Gustavo Antonio Rodrigues e Silva):** [Acessar Storyboard 2](../design-avaliacao-desenvolvimento/storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio) — Organização e divulgação de workshop presencial de Linux com mapa interativo e credenciamento.
+- **Storyboard 3 (Edvaldo Soares Brasileiro Filho):** [Acessar Storyboard 3](../design-avaliacao-desenvolvimento/storyboards.md#4-storyboard-3-grade-de-disponibilidade-e-agendamento-de-reunioes-no-forum-diolinux-edvaldo-soares) — Disponibilização e reserva de horários em grade interativa para mentoria e resolução de problemas de inicialização.
+
 ---
 
 ## 4. Consolidação das Funcionalidades e Síntese de Nível 1

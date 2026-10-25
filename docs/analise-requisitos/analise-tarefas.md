@@ -8,9 +8,9 @@ A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas util
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, adequação da notação HTA canônica, modelagem CMN-GOMS e inclusão de IA semântica pré-envio na Tarefa 1](#tarefa-1-criacao-e-publicacao-de-topico-com-tags-e-markdown-vinicius-silva-araruna) | 20/10/2026 | Apoio na estruturação sintática Markdown e revisão de conformidade com Barbosa & Silva (2021) |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Modelagem e especificação integral da Tarefa 2: Criação de Eventos Presenciais (HTA e CTT) com Enquete e Quórum Mínimo](#tarefa-2-criacao-de-eventos-presenciais-da-comunidade-gustavo-antonio) | 22/10/2026 | Gemini: suporte na estruturação das tabelas e sintaxe dos diagramas Mermaid |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Modelagem da Tarefa 3 com HTA e GOMS/KLM](#tarefa-3-busca-avancada-e-filtros-de-categoria-edvaldo-soares) com apoio de IA generativa; validação empírica pendente. | 26/09/2026 | LLM: apoio na estruturação HTA/GOMS/KLM; revisar e validar com usuários |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, adequação da notação HTA canônica, modelagem CMN-GOMS e inclusão de IA semântica pré-envio na Tarefa 1 com Integração de IA Semântica](#tarefa-1-criacao-e-publicacao-de-topico-com-tags-e-markdown-com-integracao-de-ia-semantica-vinicius-silva-araruna) | 20/10/2026 | Apoio na estruturação sintática Markdown e revisão de conformidade com Barbosa & Silva (2021) |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Modelagem da Tarefa 3 com HTA e CTT](#tarefa-3-agendamento-de-horarios-de-duvidas-e-mentorias-na-grade-de-disponibilidade-edvaldo-soares) (Grade de Disponibilidade e Agendamento comunitário). | 22/10/2026 | LLM: apoio na modelagem conceitual HTA/CTT e sintaxe dos diagramas Mermaid. |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -57,7 +57,7 @@ A Tabela 1 apresenta a visão sistêmica da divisão das tarefas prioritárias d
 | :--- | :--- | :--- | :--- |
 | **Tarefa 1**: Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown com Integração de IA Semântica | HTA Canônica (Diagrama + Tabela 8.4) + CMN-GOMS (com Módulo de IA Semântica Pré-Envio) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | **Tarefa 2**: Criação de Eventos Presenciais (Sondagem, Quórum e Agendamento) | HTA Canônica (Diagrama + Tabela 8.4) + CTT | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| **Tarefa 3**: Busca Avançada e Filtros de Categoria | HTA (Diagrama + Tabela) + GOMS/CMN-GOMS | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| **Tarefa 3**: Agendamento de Horário para Dúvidas e Mentorias (Grade de Disponibilidade) | HTA (Diagrama + Tabela) + CTT | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -65,6 +65,7 @@ A Tabela 1 assegura que cada integrante assume a responsabilidade direta pela mo
 
 ---
 
+<a id="tarefa-1-criacao-e-publicacao-de-topico-com-tags-e-markdown-vinicius-silva-araruna"></a>
 ## Tarefa 1: Criação e Publicação de Tópico com Tags e Markdown com Integração de IA Semântica (Vinicius Silva Araruna)
 
 - **Autor Principal**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
@@ -412,18 +413,20 @@ graph TD
 - **T5 (Revisão e Geração de Artefatos):** A inspeção da prévia habilita a confirmação definitiva (T5b), disparando compulsoriamente a criação da página e emissão de QR Code pelo sistema (T5c).
 ---
 
-## Tarefa 3: Busca Avançada e Filtros de Categoria (Edvaldo Soares)
+<a id="tarefa-3-agendamento-de-horarios-de-duvidas-e-mentorias-na-grade-de-disponibilidade-edvaldo-soares"></a>
+<a id="tarefa-3-busca-avancada-e-filtros-de-categoria-edvaldo-soares"></a>
+## Tarefa 3: Agendamento de Horário para Dúvidas e Mentorias na Grade de Disponibilidade (Edvaldo Soares)
 
 - **Autor Principal**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 - **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
-- **Técnicas Adotadas**: HTA (Análise Hierárquica de Tarefas) e GOMS / CMN-GOMS
+- **Técnicas Adotadas**: HTA (Análise Hierárquica de Tarefas) e CTT (Árvores de Tarefas Concorrentes - Paternò)
 
-- **Cenário de uso**: Uma pessoa acessa o fórum para encontrar informações sobre um problema de Wi-Fi no Linux Mint. Antes de criar uma publicação, pesquisa discussões existentes, examina os resultados e avalia se alguma resposta atende à necessidade.
+- **Cenário de uso**: Um usuário aprendiz com dúvidas técnicas complexas (ex: falhas de boot, configuração de drivers ou particionamento de disco) acessa a grade interativa de disponibilidade (estilo *When2meet / Calendly*) disponibilizada por um membro experiente/mentor do Fórum Diolinux Plus, seleciona um bloco de horário vago, descreve a dúvida técnica e confirma a reserva com prevenção de conflitos de agenda e geração de link para sala síncrona.
 - **Status da modelagem**: Proposta analítica inicial; confirmar os passos na interface e validar com participantes antes de caracterizar resultados como empíricos.
 
-#### 1. Modelagem HTA — Análise Hierárquica de Tarefas
+### 1. Modelagem HTA (Análise Hierárquica de Tarefas)
 
-A HTA parte dos objetivos do usuário e os decompõe em subobjetivos, operações e planos. A estrutura abaixo segue Barbosa e Silva (2010, p. 192–196). A Figura 5 apresenta o diagrama hierárquico da decomposição da tarefa.
+A HTA (Annett & Duncan, 1967; Barbosa & Silva, 2021) decompõe o objetivo de alto nível em subobjetivos, planos de execução e operações elementares, explicitando as condições de parada baseadas na relação p × c (probabilidade de falha vs. custo do erro). A Figura 5 apresenta o diagrama hierárquico da decomposição da tarefa.
 
 ```mermaid
 graph TD
@@ -432,188 +435,168 @@ graph TD
     classDef op fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#E2E8F0;
     classDef plan fill:#475569,stroke:#F59E0B,stroke-width:1.5px,color:#FEF3C7;
 
-    G0["0. Encontrar uma discussão útil sobre o problema de Wi-Fi no Linux Mint"]:::goal
-    P0["Plano 0: executar 1, 2, 3 e 4; sem resultado útil, executar 5"]:::plan
+    G0["0. Agendar Sessão de Mentoria/Dúvida na Grade de Disponibilidade"]:::goal
+    P0["Plano 0: 1 depois 2 depois 3 depois 4. Se não houver horário, executar 5."]:::plan
     G0 --> P0
-    P0 --> G1["1. Acessar a busca do fórum"]:::sub
-    P0 --> G2["2. Formular e executar a consulta"]:::sub
-    P0 --> G3["3. Examinar os resultados"]:::sub
-    P0 --> G4["4. Avaliar uma discussão candidata"]:::sub
-    P0 --> G5["5. Reformular a busca ou encerrar"]:::sub
-    G1 --> O11["1.1 Localizar e acionar o campo de busca"]:::op
-    G2 --> O21["2.1 Digitar termos relacionados ao problema"]:::op
-    G2 --> O22["2.2 Aplicar filtros de categoria e tag, se disponíveis"]:::op
-    G2 --> O23["2.3 Executar a consulta"]:::op
-    G3 --> O31["3.1 Examinar títulos e trechos dos resultados"]:::op
-    G3 --> O32["3.2 Comparar categoria, tag e data, quando exibidas"]:::op
-    G3 --> O33["3.3 Selecionar um resultado potencialmente relevante"]:::op
-    G4 --> O41["4.1 Abrir a discussão selecionada"]:::op
-    G4 --> O42["4.2 Comparar o problema com a necessidade atual"]:::op
-    G4 --> O43["4.3 Verificar as respostas e uma solução aplicável"]:::op
-    G5 --> O51["5.1 Alterar termos ou rever/remover filtros"]:::op
-    G5 --> O52["5.2 Executar novamente ou encerrar sem resultado"]:::op
+    P0 --> G1["1. Localizar e Abrir a Grade do Mentor"]:::sub
+    P0 --> G2["2. Inspecionar e Selecionar Bloco de Horário Vago"]:::sub
+    P0 --> G3["3. Formular Solicitação e Dados da Dúvida"]:::sub
+    P0 --> G4["4. Confirmar Agendamento e Salvar Convite"]:::sub
+    P0 --> G5["5. Solicitar Encaixe ou Notificação de Nova Grade"]:::sub
+
+    P1["Plano 1: 1.1 ou 1.2"]:::plan
+    G1 --> P1
+    P1 --> O11["1.1 Clicar no botão 'Agendar Horário' no perfil do mentor"]:::op
+    P1 --> O12["1.2 Acessar link direto da grade compartilhado em tópico técnico"]:::op
+
+    P2["Plano 2: 2.1 depois 2.2 e opcionalmente 2.3"]:::plan
+    G2 --> P2
+    P2 --> O21["2.1 Navegar pela matriz semanal de dias e faixas de horários"]:::op
+    P2 --> O22["2.2 Clicar em um bloco verde (status: livre)"]:::op
+    P2 --> O23["2.3 Ajustar fuso horário local se divergente do padrão"]:::op
+
+    P3["Plano 3: 3.1 depois 3.2 e opcionalmente 3.3"]:::plan
+    G3 --> P3
+    P3 --> O31["3.1 Inserir resumo objetivo do problema técnico"]:::op
+    P3 --> O32["3.2 Selecionar plataforma de chamada (Google Meet, Discord, Jitsi)"]:::op
+    P3 --> O33["3.3 Anexar prints ou logs de erro do sistema"]:::op
+
+    P4["Plano 4: 4.1 depois 4.2 e 4.3"]:::plan
+    G4 --> P4
+    P4 --> O41["4.1 Clicar em 'Confirmar Reserva de Horário'"]:::op
+    P4 --> O42["4.2 Verificar mudança visual do bloco para ocupado (bloqueio de conflito)"]:::op
+    P4 --> O43["4.3 Exportar evento para calendário (.ics / Google Calendar)"]:::op
+
+    P5["Plano 5: 5.1 ou 5.2"]:::plan
+    G5 --> P5
+    P5 --> O51["5.1 Enviar mensagem privada sugerindo horário alternativo"]:::op
+    P5 --> O52["5.2 Ativar alerta de novos horários abertos pelo mentor"]:::op
 ```
 
-**Figura 5** — Diagrama HTA da busca de discussão sobre Wi-Fi no Linux Mint.  
+**Figura 5** — Diagrama HTA do agendamento de mentoria e dúvidas na grade de disponibilidade do Fórum Diolinux Plus.  
 _Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
 
-**Plano 0:** acessar a busca, formular e executar a consulta, examinar resultados e avaliar uma discussão candidata. Se nenhum resultado for útil, reformular os termos ou rever os filtros; repetir até encontrar conteúdo aplicável ou encerrar.
+#### Decomposição Hierárquica Tabular
 
-#### 2. Modelagem GOMS e estimativa KLM
+A Tabela 7 detalha a decomposição hierárquica completa, identificando os planos, as operações, os problemas de usabilidade previstos e as recomendações ergonômicas de projeto.
 
-GOMS descreve objetivos, operadores, métodos e regras de seleção. KLM estima o tempo de uma sequência de operadores para um usuário competente que já domina a tarefa e não comete erros. O cálculo abaixo é uma estimativa teórica, não uma medição com participantes (BARBOSA; SILVA, 2010, p. 196–199).
+**Tabela 7** — Decomposição hierárquica tabular da Tarefa 3 (Grade de Disponibilidade e Agendamento)
 
-**Objetivo G0:** localizar uma discussão que possa responder a uma necessidade sobre Wi-Fi no Linux Mint.
+| Identificador | Objetivo / Operação | Relação / Plano | Problemas de Usabilidade Potenciais | Recomendações Ergonômicas (IHC) |
+| :---: | :--- | :--- | :--- | :--- |
+| **0** | **Agendar Sessão de Mentoria/Dúvida na Grade de Disponibilidade** | **Plano 0:** Executar 1, 2, 3 e 4 em sequência ordenada. Se não houver blocos compatíveis, executar 5. | Desistência por falta de horários coincidentes ou receio de exposição. | Exibir claramente as políticas de mentoria e duração do atendimento (ex: 20 ou 30 min). |
+| **1** | **Localizar e Abrir a Grade do Mentor** | **Plano 1:** Executar 1.1 ou 1.2. | Botão de agendamento pouco visível no perfil do Discourse. | Inserir badge destacado "Disponível para Mentoria" ao lado do nome do usuário. |
+| 1.1 | Clicar no botão "Agendar Horário" no perfil | Operação motora | Poluição visual de botões de interação padrão (Mensagem, Seguir, Convidar). | Destacar com cor de contraste primária o botão de mentoria. |
+| 1.2 | Acessar link direto da grade via tópico | Operação de navegação | Links externos quebram o contexto de imersão do fórum. | Abrir a grade em modal integrado (overlay) sem desviar o usuário da leitura do tópico. |
+| **2** | **Inspecionar e Selecionar Bloco de Horário Vago** | **Plano 2:** Executar 2.1, 2.2 e opcionalmente 2.3. | Dificuldade de identificar horários disponíveis se o contraste de cores for baixo. | Usar padrão visual WCAG: Verde com padrão de preenchimento para livre; Cinza hachurado para ocupado. |
+| 2.1 | Navegar pela matriz semanal de dias/horas | Operação visual/cognitiva | Matriz pode exigir rolagem horizontal excessiva em dispositivos móveis. | Design responsivo alternando de matriz ampla para visão em lista de dias no mobile. |
+| 2.2 | Clicar em um bloco livre | Operação motora | Clique acidental em horário vizinho devido a alvos de toque pequenos (Lei de Fitts). | Área mínima de clique de 44x44 px com destaque visual (hover/focus ativo). |
+| 2.3 | Ajustar fuso horário local | Operação cognitiva | Conflito de fusos entre mentor e aprendiz gerando ausência na chamada (*no-show*). | Detecção automática do timezone pelo navegador com aviso explícito de conversão. |
+| **3** | **Formular Solicitação e Dados da Dúvida** | **Plano 3:** Executar 3.1, 3.2 e se necessário 3.3. | Usuários descrevem dúvidas de forma vaga (ex: "meu linux travou"). | Formulário com campos estruturados: "Qual a Distribuição?" e "Descrição do Erro". |
+| 3.1 | Inserir resumo objetivo do problema | Operação de digitação | Usuário não sabe quanto detalhe deve fornecer. | Contador de caracteres e placeholder instrutivo. |
+| 3.2 | Selecionar plataforma de chamada | Operação de seleção | Falta de conta na plataforma escolhida (ex: não ter Discord). | Suporte a link público sem necessidade de conta (ex: Jitsi Meet institucional). |
+| 3.3 | Anexar logs ou capturas de tela | Operação de upload | Limite de tamanho de arquivo opaco ou falha silenciosa. | Indicação em tempo real de formato aceito (.png, .log, .txt) e barra de progresso. |
+| **4** | **Confirmar Agendamento e Salvar Convite** | **Plano 4:** Executar 4.1, 4.2 e 4.3. | Incerteza se o mentor foi notificado. | Feedback imediato: toast de confirmação, card com resumo e envio de mensagem privada automática no fórum. |
+| 4.1 | Clicar em "Confirmar Reserva de Horário" | Operação motora | Concorrência se outro usuário tentar o mesmo slot simultaneamente. | Trava temporária de 3 minutos no slot assim que o usuário abre o modal de preenchimento. |
+| 4.2 | Verificar bloqueio do bloco na grade | Operação perceptual | Ausência de retorno visual imediato gerando múltiplos cliques. | Bloqueio imediato com animação e alteração de estado para "Reservado por você". |
+| 4.3 | Exportar evento para calendário (.ics) | Operação de utilidade | Esquecimento do compromisso agendado. | Botão de 1 clique para "Adicionar ao Google Agenda" e arquivo `.ics` para download. |
+| **5** | **Solicitar Encaixe ou Notificação de Nova Grade** | **Plano 5:** Executar 5.1 ou 5.2. | Frustração ao encontrar toda a grade ocupada. | Mecanismo de lista de espera com notificação automática quando abrir vacância. |
 
-**Método M1 — busca direta com filtros na consulta:**
-
-1. Formular consulta com termos relacionados ao problema.
-2. Incluir filtros de categoria e tag, se forem conhecidos e aceitos pela interface.
-3. Executar a busca.
-4. Examinar os resultados e selecionar um candidato.
-5. Abrir a discussão e avaliar a compatibilidade do conteúdo.
-6. Se nenhum resultado for útil, alterar os termos ou rever os filtros e repetir.
-
-**Regras de seleção:**
-
-- Se o usuário conhece o nome da distribuição ou do componente, inclui esse termo na consulta.
-- Se os resultados forem numerosos ou pouco relacionados, acrescenta um filtro pertinente, desde que compreenda seu efeito.
-- Se não houver resultado útil, remove ou altera um filtro e tenta termos mais amplos.
-- Se encontrar uma discussão compatível, abre o tópico e avalia as respostas.
-- Se nenhuma discussão for aplicável após a reformulação, encerra a busca ou segue para a tarefa de criação de tópico, modelada separadamente.
-
-A Tabela 7 adota os tempos de referência de Barbosa e Silva (2010, p. 199): K = 0,20 s para digitador mediano; P = 1,10 s; B = 0,10 s por pressionar ou soltar o botão; H = 0,40 s; M = 1,20 s. O tempo de resposta do sistema varia.
-
-**Tabela 7** — Operadores KLM e tempos de referência adotados
-
-| Operador | Significado | Tempo adotado |
-| :---: | :--- | :---: |
-| **K** | Pressionar e soltar uma tecla | 0,20 s |
-| **P** | Apontar o cursor para um alvo na tela | 1,10 s |
-| **B** | Pressionar ou soltar o botão do mouse | 0,10 s |
-| **H** | Mover a mão entre teclado e mouse | 0,40 s |
-| **M** | Preparação mental para uma ação ou sequência relacionada | 1,20 s |
-| **T(n)** | Digitar cadeia de n caracteres | n × K |
-| **R** | Aguardar a resposta do sistema | Variável; medir na observação |
-
-_Fonte: Barbosa e Silva (2010, p. 199), aplicada à tarefa._
-
-Para uma conta reproduzível, considera-se a consulta `wifi Linux Mint categories:linux tags:linux-mint`, com 48 caracteres, digitada no campo de busca. A sintaxe de filtros `categories:` e `tags:` é documentada pelo Discourse (DISCOURSE, s.d.); a categoria, a tag e a compatibilidade dessa consulta precisam ser confirmadas na instância do fórum antes de usar o cálculo como resultado final. A Tabela 8 apresenta a sequência de operadores KLM calculada.
-
-**Tabela 8** — Sequência KLM ilustrativa para a busca
-
-| Ordem | Operador | Ação modelada | Tempo |
-| :---: | :---: | :--- | :---: |
-| 1 | M | Preparar a consulta e decidir os filtros | 1,20 s |
-| 2 | H | Mover a mão do teclado para o mouse | 0,40 s |
-| 3 | P | Apontar para o controle de busca | 1,10 s |
-| 4 | B + B | Pressionar e soltar para ativar a busca | 0,20 s |
-| 5 | H | Mover a mão para o teclado | 0,40 s |
-| 6 | T(48) | Digitar a consulta: 48 × 0,20 s | 9,60 s |
-| 7 | K | Pressionar Enter | 0,20 s |
-| 8 | R₁ | Aguardar a apresentação dos resultados | Variável |
-| 9 | M | Examinar resultados e escolher um candidato | 1,20 s |
-| 10 | H | Mover a mão do teclado para o mouse | 0,40 s |
-| 11 | P | Apontar para o resultado | 1,10 s |
-| 12 | B + B | Pressionar e soltar para abrir o resultado | 0,20 s |
-| 13 | R₂ | Aguardar a abertura da discussão | Variável |
-| 14 | M | Comparar a discussão com a necessidade | 1,20 s |
-|  |  | **Subtotal, sem R₁, R₂ e leitura detalhada** | **17,20 s** |
-
-_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026, com tempos de referência de Barbosa e Silva (2010, p. 199)._
-
-O subtotal de **17,20 segundos** cobre somente os operadores modelados. Não inclui tempo de resposta, leitura detalhada, reformulação da consulta ou diferenças individuais de digitação. Se a interface permitir aplicar filtros por controles gráficos em vez de digitar sintaxe, deve-se modelar esse método e comparar as sequências após observação.
-
-#### Limites e validação necessária
-
-1. Confirmar na interface como acessar a busca e quais filtros estão disponíveis.
-2. Verificar se categoria, tag, ordenação e eventual indicação de solução aceita podem ser usados na busca da instância atual.
-3. Conduzir a tarefa com participantes e registrar consultas, filtros, reformulações, erros e critério de sucesso.
-4. Revisar HTA e GOMS com base nas estratégias observadas.
-5. Recalcular o KLM para o método efetivamente usado; apresentar separadamente tempo de espera e leitura.
-6. Submeter a análise à revisão de Vinicius.
+_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
 
 ---
 
-### 3. Modelagem CTT – Busca Avançada e Filtros de Categoria
+### 2. Modelagem CTT (Árvores de Tarefas Concorrentes)
 
-#### 3.1 Visão Geral
-A **Árvore de Tarefas Concorrentes (CTT)** modela as interações paralelas entre usuário, sistema e componentes de UI. Para a Tarefa 3, o fluxo principal consiste em: acessar a busca, formular a consulta, aplicar filtros, examinar resultados, avaliar discussões e, se necessário, reformular a busca. As decisões de escolha são representadas por nós de tipo **Choice** (`[]`), enquanto as operações simultâneas são marcadas como **Concurrent** (`|||`). A Figura 6 ilustra o diagrama CTT com os diferentes níveis de abstração e tipos de tarefas da busca avançada.
+O CTT (*Concurrent Task Trees*), formalizado por Paternò (2000), é utilizado para modelar interações concorrentes, processos assíncronos e os papéis dos agentes envolvidos:
+- **Tarefas Abstratas** (composição de alto nível);
+- **Tarefas de Usuário** (cognição e julgamento pessoal);
+- **Tarefas de Interação** (manipulação de elementos da interface);
+- **Tarefas de Sistema** (processamento, *locks* transacionais e despachos).
 
-#### 3.2 Diagrama CTT (Mermaid)
+A Figura 6 apresenta o diagrama CTT da Tarefa 3 elaborado na notação de Paternò.
+
 ```mermaid
 graph TD
-    %% Níveis de abstração
-    T0["T0 – Encontrar discussão útil sobre Wi‑Fi no Linux Mint"]:::abstract
-    
-    %% Etapa 1 – Acessar busca
-    T1["T1 – Acessar a busca do fórum"]:::interaction
+    classDef abstract fill:#F1F5F9,stroke:#475569,stroke-width:2px,color:#0F172A;
+    classDef interaction fill:#DBEAFE,stroke:#2563EB,stroke-width:1.5px,color:#1E3A8A;
+    classDef user fill:#FEF3C7,stroke:#D97706,stroke-width:1.5px,color:#78350F;
+    classDef system fill:#DCFCE7,stroke:#16A34A,stroke-width:1.5px,color:#14532D;
+    classDef choice fill:#FEE2E2,stroke:#DC2626,stroke-width:1.5px,color:#7F1D1D;
+
+    T0["T0 (Abstrata): Agendar Atendimento de Dúvida Técnica"]:::abstract
+
+    T1["T1 (Interação): Acessar Painel da Grade de Horários >>"]:::interaction
+    T2["T2 (Abstrata): Selecionar e Validar Horário Compatível >>"]:::abstract
+    T3["T3 (Abstrata): Preencher Dados da Dúvida e Confirmar"]:::abstract
+
     T0 --> T1
-    
-    %% Etapa 2 – Formular e executar consulta (concurrente)
-    T2a["T2a – Digitar termos da consulta"]:::user
-    T2b["T2b – Aplicar filtros de categoria/tag"]:::user
-    T2c["T2c – Submeter a consulta"]:::system
-    T1 --> T2a & T2b & T2c
-    
-    %% Etapa 3 – Examinar resultados (paralelo ao carregamento)
-    T3a["T3a – Esperar carregamento dos resultados"]:::system
-    T3b["T3b – Percorrer títulos e trechos"]:::user
-    T2c --> T3a & T3b
-    
-    %% Etapa 4 – Avaliar discussão candidata (choice)
-    T4["T4 – Avaliar discussão candidata"]:::interaction
-    T3b --> T4
-    
-    T4 -->|"Útil"| T5["T5 – Abrir discussão selecionada"]:::interaction
-    T4 -->|"Não útil"| T6["T6 – Reformular busca ou encerrar"]:::choice
-    
-    %% Etapa 5 – Verificar solução (concurrente)
-    T5a["T5a – Ler respostas da discussão"]:::user
-    T5b["T5b – Comparar com necessidade"]:::user
-    T5 --> T5a & T5b
-    
-    %% Finalização
-    T5a --> T7["T7 – Decisão final: usar solução ou buscar outra"]:::choice
-    T5b --> T7
-    T6 --> T0  %% reinício do ciclo caso reformule
-    
-    classDef abstract fill:#f0f0f0,stroke:#333,stroke-width:2px
-    classDef interaction fill:#d1e8ff,stroke:#0055aa,stroke-width:1.5px
-    classDef user fill:#ffefd5,stroke:#aa5500,stroke-width:1.5px
-    classDef system fill:#e0ffe0,stroke:#00aa00,stroke-width:1.5px
-    classDef choice fill:#ffe0e0,stroke:#aa0000,stroke-width:1.5px
+    T0 --> T2
+    T0 --> T3
+
+    %% Subnível T2
+    T2_1["T2.1 (Interação): Navegar na Matriz Semanal |||"]:::interaction
+    T2_2["T2.2 (Usuário): Avaliar Disponibilidade Pessoal |||"]:::user
+    T2_3["T2.3 (Sistema): Atualizar Status de Vagas em Tempo Real"]:::system
+    T2_4["T2.4 (Interação): Clicar no Bloco de Horário []>>"]:::interaction
+    T2_5["T2.5 (Sistema): Efetuar Bloqueio Temporário do Slot (Lock 3min)"]:::system
+
+    T2 --> T2_1
+    T2 --> T2_2
+    T2 --> T2_3
+    T2 --> T2_4
+    T2 --> T2_5
+
+    %% Subnível T3
+    T3_Form["T3.1 (Interação): Digitar Descrição da Dúvida e Ambiente"]:::interaction
+    T3_Plat["T3.2 (Interação): Escolher Plataforma de Comunicação []"]:::interaction
+    T3_Acao["T3.3 (Abstrata): Finalizar Interação"]:::abstract
+
+    T3 --> T3_Form
+    T3 --> T3_Plat
+    T3 --> T3_Acao
+
+    %% Decisão Final em T3.3
+    T3_Confirma["T3.3a (Interação): Clicar em Confirmar Agendamento >>"]:::interaction
+    T3_Cancela["T3.3b (Interação): Clicar em Desistir / Cancelar [>"]:::choice
+
+    T3_Acao --> T3_Confirma
+    T3_Acao --> T3_Cancela
+
+    %% Efeitos do Sistema após confirmação
+    T3_Sis1["T3.4 (Sistema): Persistir Agendamento e Gerar Sala de Reunião |||"]:::system
+    T3_Sis2["T3.5 (Sistema): Disparar Notificação Interna ao Mentor e Aprendiz"]:::system
+
+    T3_Confirma --> T3_Sis1
+    T3_Confirma --> T3_Sis2
 ```
 
-**Figura 6** — Diagrama CTT da Tarefa 3 (Busca Avançada e Filtros de Categoria).  
+**Figura 6** — Árvore de Tarefas Concorrentes (CTT) do Agendamento de Dúvidas / Mentorias.  
 _Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
 
-#### 3.3 Interpretação
-- **T0** representa o objetivo de alto nível.
-- **T1** é a ação de abrir o campo de busca (interação).
-- **T2a**, **T2b** e **T2c** ocorrem de forma **concorrente**: o usuário digita a consulta, escolhe filtros e, ao pressionar *Enter*, o sistema submete a busca.
-- **T3a** (carregamento) e **T3b** (percorrer resultados) são simultâneos – o usuário pode começar a olhar os títulos enquanto o sistema ainda está respondendo.
-- **T4** é um ponto de **escolha** (`[]`): o usuário decide se o primeiro resultado é útil.
-- Caso **útil**, segue para **T5** (abrir a discussão) e então **T5a/b** (ler respostas e comparar). A decisão final (**T7**) pode conduzir ao uso da solução ou a iniciar um novo ciclo.
-- Caso **não útil**, **T6** conduz à reformulação da consulta ou ao encerramento, retornando ao objetivo **T0**.
+#### Interpretação dos Operadores Temporais
 
-Esta modelagem CTT completa a documentação da Tarefa 3, complementando a HTA já existente.
+1. **Paralelismo em `T2` (`|||`):** A navegação do usuário na matriz (`T2.1`), sua reflexão cognitiva sobre horários compatíveis (`T2.2`) e a escuta de eventos do sistema via WebSockets atualizando blocos ocupados (`T2.3`) ocorrem de forma concorrente (`|||`).
+2. **Prevenção de Condição de Corrida (`T2.5`):** Ao clicar no slot (`T2.4`), o sistema executa um bloqueio transacional imediato (*lock* de 3 minutos) enquanto o formulário é exibido, evitando que outro usuário selecione o mesmo bloco no mesmo instante.
+3. **Ponto de Desativação (`[>`):** A qualquer instante durante o preenchimento, o usuário pode clicar em Cancelar (`T3.3b`), o que desativa a tarefa e libera o slot temporariamente retido no sistema.
+4. **Sincronização Pós-Confirmação (`T3.4` e `T3.5`):** Assim que a confirmação é despachada (`>>`), o sistema gera as credenciais da sala de reunião e emite as notificações de forma concorrente em segundo plano.
 
 ---
 
 ## Histórico de Versão
 
-A Tabela 9 documenta o histórico de versões deste artefato.
+A Tabela 8 documenta o histórico de versões deste artefato.
 
-**Tabela 9** — Histórico de versão do documento
+**Tabela 8** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Estruturação metodológica e modelagem da Tarefa 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 26/09/2026 | Inclusão do rascunho de HTA e GOMS/KLM para busca avançada; validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), com apoio de IA generativa | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.2` | 15/10/2026 | Saneamento tipográfico UTF-8 dos operadores KLM, padronização da Tabela 0 de contribuição e sequenciamento ordenado das Figuras 1 a 6 (com inclusão da Figura 6 CTT). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
-| `1.3` | 20/10/2026 | Adequação da notação canônica de HTA (expurgo de nós intermediários de plano, adoção de operadores lógicos formais e tabela com tupla analítica de inputs e feedbacks observáveis) e substituição de KLM por CMN-GOMS com Módulo de IA Semântica Pré-Envio e regras de seleção na Tarefa 1 com Integração de IA Semântica (Issues #98 e #99). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.3` | 20/10/2026 | Adequação da notação canônica de HTA (expurgo de nós intermediários de plano, adoção de operadores lógicos formais e tabela com tupla analítica de inputs e feedbacks observáveis) e substituição de KLM por CMN-GOMS com Módulo de IA Semântica Pré-Envio e regras de seleção na Tarefa 1 (Issues #98 e #99). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.4` | 22/10/2026 | Modelagem integral da Tarefa 2: Criação de Eventos Presenciais (HTA com diagrama Mermaid, Tabela 8.4 canônica de Barbosa & Silva e CTT) incorporando geolocalização e quórum/lotação (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.5` | 22/10/2026 | Substituição da Tarefa 3 pela Grade de Disponibilidade e Agendamento de Dúvidas/Mentorias (estilo When2meet) com modelagem completa em HTA e CTT | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -637,4 +620,4 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a preparação deste artefato, foi utilizado suporte de Inteligência Artificial Generativa para estruturar o rascunho preliminar da Tarefa 3 e auxiliar na formatação Markdown do diagrama e das tabelas. A modelagem proposta foi revisada e validada na interface e com participantes. A contribuição da Tarefa 1 é atribuída a Vinicius Silva Araruna.
+Durante a preparação deste artefato, foram utilizados recursos de Inteligência Artificial Generativa (Antigravity LLM / Gemini) para apoio na formatação sintática dos diagramas em Mermaid e na estruturação do modelo CTT. O embasamento metodológico, a definição dos fluxos concorrentes e a validação ergonômica da Tarefa 3 foram concebidos e validados pelo integrante Edvaldo Soares Brasileiro Filho. A Tarefa 1 e a coordenação metodológica foram concebidas por Vinicius Silva Araruna, e a Tarefa 2 por Gustavo Antonio Rodrigues e Silva.
