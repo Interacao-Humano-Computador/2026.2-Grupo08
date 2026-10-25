@@ -32,7 +32,7 @@ Conforme preconizado pela literatura clássica de IHC (Barbosa & Silva, 2021, p.
 2. **Metodologia de Avaliação Empregada:** Descrição da abordagem de investigação empírica qualitativa por meio de entrevistas semiestruturadas com inspeção mediada dos diagramas HTA e tabelas de objetivos/planos;
 3. **Número e Perfil de Avaliadores e Participantes:** Dados demográficos consolidados dos voluntários recrutados (alinhados ao Perfil 1: Estudante Aprendiz de Linux) e identificação da dupla de avaliadores (entrevistador e observador);
 4. **Tarefas Investigadas e Cenários de Uso:** Contextualização das três tarefas canônicas analisadas com os participantes:
-   - **Tarefa 1:** Criação e publicação de tópico de dúvida técnica com formatação Markdown e seleção de tags (Vinicius Silva Araruna);
+   - **Tarefa 1:** Criação e publicação de tópico de dúvida técnica com formatação Markdown, seleção de tags e integração de IA semântica (Vinicius Silva Araruna);
    - **Tarefa 2:** Criação de Eventos Presenciais da Comunidade — CF02 (Gustavo Antonio);
    - **Tarefa 3:** Busca avançada com filtros facetados e identificação de solução aceita (Edvaldo Soares).
 5. **Síntese dos Dados Coletados e Análise de Discrepâncias:** Consolidação qualitativa das respostas às perguntas investigativas do framework DECIDE;

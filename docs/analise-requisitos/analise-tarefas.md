@@ -55,7 +55,7 @@ A Tabela 1 apresenta a visão sistêmica da divisão das tarefas prioritárias d
 
 | **Tarefa Analisada** | **Técnicas Empregadas** | **Autor Responsável** | **Revisor** |
 | :--- | :--- | :--- | :--- |
-| **Tarefa 1**: Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown | HTA Canônica (Diagrama + Tabela 8.4) + CMN-GOMS (com Módulo de IA Semântica Pré-Envio) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| **Tarefa 1**: Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown com Integração de IA Semântica | HTA Canônica (Diagrama + Tabela 8.4) + CMN-GOMS (com Módulo de IA Semântica Pré-Envio) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | **Tarefa 2**: Criação de Eventos Presenciais (Sondagem, Quórum e Agendamento) | HTA Canônica (Diagrama + Tabela 8.4) + CTT | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | **Tarefa 3**: Agendamento de Horário para Dúvidas e Mentorias (Grade de Disponibilidade) | HTA (Diagrama + Tabela) + CTT | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
@@ -65,7 +65,8 @@ A Tabela 1 assegura que cada integrante assume a responsabilidade direta pela mo
 
 ---
 
-## Tarefa 1: Criação e Publicação de Tópico com Tags e Markdown (Vinicius Silva Araruna)
+<a id="tarefa-1-criacao-e-publicacao-de-topico-com-tags-e-markdown-vinicius-silva-araruna"></a>
+## Tarefa 1: Criação e Publicação de Tópico com Tags e Markdown com Integração de IA Semântica (Vinicius Silva Araruna)
 
 - **Autor Principal**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
 - **Revisor**: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
@@ -73,60 +74,19 @@ A Tabela 1 assegura que cada integrante assume a responsabilidade direta pela mo
 
 ### 1. Modelagem HTA (Análise Hierárquica de Tarefas)
 
-A Figura 3 apresenta o diagrama hierárquico da Tarefa 1 elaborado estritamente na notação canônica de Annett e Duncan (1967) e Barbosa e Silva (2021, p. 177–185), na qual os objetivos se decompõem diretamente em subobjetivos sem intermediação de nós artificiais, os planos de execução governam formalmente as ramificações através de operadores lógicos normativos e as operações elementares representam a base da hierarquia (nós-folha).
+A Figura 3 apresenta o diagrama hierárquico da Tarefa 1 elaborado estritamente na notação canônica de Annett e Duncan (1967) e Barbosa e Silva (2021, p. 177–185), na qual os objetivos se decompõem diretamente em subobjetivos sem intermediação de nós artificiais, os planos de execução governam formalmente as ramificações através de operadores lógicos normativos e as operações elementares representam a base da hierarquia (nós-folha). A representação contempla tanto o diagrama digital normativo (Figura 3a) quanto a prancha física original desenhada à mão em folha A4 por Vinicius Silva Araruna (Figura 3b), evidenciando a conformidade das linhas terminais nas operações (fim da linha).
 
-```mermaid
-graph TD
-    classDef goal fill:#0F172A,stroke:#0284C7,stroke-width:2px,color:#F8FAFC;
-    classDef sub fill:#1E293B,stroke:#94A3B8,stroke-width:1.5px,color:#F8FAFC;
-    classDef op fill:#1E293B,stroke:#38BDF8,stroke-width:2px,color:#FFFFFF;
+<div style="text-align: center; margin: 1.5rem 0;">
+    <img src="../assets/referencias/hta_tarefa1_topico_markdown_ia.png" alt="Diagrama HTA Canônico Digitalizado da Tarefa 1 com Integração de IA Semântica" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #CBD5E1;" />
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 3a</strong> — Diagrama HTA canônico digitalizado da Tarefa 1 (Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown com Integração de IA Semântica). <em>Fonte: Elaborada por Vinicius Silva Araruna com base em Barbosa e Silva (2021), 2026.</em></p>
+</div>
 
-    G0["<b>0. Publicar Tópico de Dúvida Técnica no Fórum Diolinux Plus</b><br><i>Plano 0: 1 > 2 > 3 > 4 > 5</i>"]:::goal
+<div style="text-align: center; margin: 1.5rem 0;">
+    <img src="../assets/referencias/hta_manuscrito_tarefa1_Vinicius_Araruna.jpeg" alt="Prancha física desenhada à mão do Diagrama HTA da Tarefa 1 por Vinicius Silva Araruna" style="max-width: 95%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); border: 1px solid #CBD5E1;" />
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 3b</strong> — Prancha original manuscrita em papel A4 do Diagrama HTA da Tarefa 1 com Integração de IA Semântica. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+</div>
 
-    G1["<b>1. Acionar Mecanismo de Criação de Tópico</b><br><i>Plano 1: 1.1 / 1.2</i>"]:::sub
-    G2["<b>2. Definir Título e Categorização Taxonômica</b><br><i>Plano 2: 2.1 > 2.2</i>"]:::sub
-    G3["<b>3. Redigir Conteúdo e Inserir Código Markdown</b><br><i>Plano 3: 3.1 > 3.2</i>"]:::sub
-    G4["<b>4. Avaliar Tópicos Similares por IA Pré-Envio</b><br><i>Plano 4: 4.1 > (4.2 / 4.3)</i>"]:::sub
-    G5["<b>5. Confirmar e Publicar Mensagem no Fórum</b><br><i>Plano 5: 5.1 > 5.2</i>"]:::sub
-
-    G0 --> G1
-    G0 --> G2
-    G0 --> G3
-    G0 --> G4
-    G0 --> G5
-
-    O11["1.1 Clicar no botão '+ Novo Tópico'<br><u>[Operação Física / Clique]</u>"]:::op
-    O12["1.2 Pressionar tecla de atalho 'c'<br><u>[Operação Teclado]</u>"]:::op
-    G1 --> O11
-    G1 --> O12
-
-    O21["2.1 Digitar título com sintaxe da dúvida"]:::op
-    O22["2.2 Selecionar categoria e inserir tags"]:::op
-    G2 --> O21
-    G2 --> O22
-
-    O31["3.1 Redigir descrição do problema no editor"]:::op
-    O32["3.2 Inserir blocos de logs com cercas Markdown"]:::op
-    G3 --> O31
-    G3 --> O32
-
-    O41["4.1 Inspecionar sugestões de similaridade por IA"]:::op
-    O42["4.2 Selecionar solução similar e abortar criação"]:::op
-    O43["4.3 Confirmar ausência de solução prévia"]:::op
-    G4 --> O41
-    G4 --> O42
-    G4 --> O43
-
-    O51["5.1 Acionar botão 'Criar Tópico' (ou Ctrl+Enter)"]:::op
-    O52["5.2 Validar redirecionamento para o tópico criado"]:::op
-    G5 --> O51
-    G5 --> O52
-```
-
-**Figura 3** — Diagrama HTA canônico da tarefa de criação e publicação de tópico de dúvida com tags, Markdown e verificação semântica de IA no Fórum Diolinux Plus.  
-_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
-
-Conforme representado na Figura 3, o objetivo de alto nível 0 ramifica-se diretamente em cinco subobjetivos coordenados pelo Plano 0 (`1 > 2 > 3 > 4 > 5`).
+Conforme representado na Figura 3 (Figuras 3a e 3b), o objetivo de alto nível 0 ramifica-se diretamente em cinco subobjetivos coordenados pelo Plano 0 (`1 > 2 > 3 > 4 > 5`).
 
 A Tabela 2 apresenta a legenda dos elementos constitutivos da notação HTA canônica empregada no diagrama, em estrita conformidade com Barbosa e Silva (2021, p. 177).
 
@@ -134,9 +94,9 @@ A Tabela 2 apresenta a legenda dos elementos constitutivos da notação HTA can�
 
 | Elemento Gráfico | Notação HTA Canônica | Descrição e Papel na Modelagem |
 | :---: | :---: | :--- |
-| **Retângulo Escuro com Borda Ciano** | Objetivo Nível 0 | Meta de alto nível orientada ao estado final pretendido pelo usuário na interação. |
-| **Retângulo com Borda Cinza** | Subobjetivo (Nível 1) | Decomposição funcional intermediária; possui plano associado que governa as ações subordinadas. |
-| **Retângulo com Borda Azul e Sublinhado** | Operação (Nível 2 — Folha) | Unidade fundamental indivisível em HTA; ação física ou perceptual executada diretamente na interface sem decomposição posterior. |
+| **Retângulo Branco com Borda Espessa** | Objetivo Nível 0 | Meta de alto nível orientada ao estado final pretendido pelo usuário na interação. |
+| **Retângulo Branco com Borda Simples** | Subobjetivo (Nível 1) | Decomposição funcional intermediária; possui plano associado que governa as ações subordinadas. |
+| **Retângulo Branco com Linha Grossa na Base (Fim da Linha)** | Operação (Nível 2 — Folha) | Unidade fundamental indivisível em HTA (critério de parada p × c); ação física ou perceptual executada diretamente na interface sem decomposição posterior. |
 | **Operador Lógico `>`** | Sequência Estrita | Dita a ordem temporal causal obrigatória de execução (executar A e depois B). |
 | **Operador Lógico `/`** | Seleção Alternativa (Escolha) | Dita uma bifurcação condicional mútua (escolher entre A ou B com base nas circunstâncias). |
 | **Operador Lógico `+`** | Concorrência / Paralelismo | Indica ações que podem ocorrer simultaneamente sem bloqueio recíproco. |
@@ -145,11 +105,11 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05) c
 
 A Tabela 3 complementa o diagrama hierárquico ao apresentar a decomposição tabular completa no formato normativo de Barbosa e Silva (2021, p. 179, Tabela 8.4), estruturada na tupla de inputs disparadores, ações procedurais e feedbacks observáveis de conclusão.
 
-**Tabela 3** — Decomposição hierárquica tabular da Tarefa 1 (Criação e Publicação de Tópico de Dúvida)
+**Tabela 3** — Decomposição hierárquica tabular da Tarefa 1 (Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown com Integração de IA Semântica)
 
 | Identificador | Objetivo / Subobjetivo / Operação | Plano Formal | Circunstâncias Disparadoras (Inputs de Entrada) | Ações e Procedimentos Executados | Feedback Observável de Sucesso | Problemas de Usabilidade Detectados | Recomendações Ergonômicas de Melhoria |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **0** | **Publicar Tópico de Dúvida Técnica no Fórum Diolinux Plus** | **Plano 0:** 1 > 2 > 3 > 4 > 5 | Usuário autenticado enfrentando gargalo técnico de Linux sem solução imediata. | Execução sequencial ordenada das metas 1 a 5. | Tópico publicado com URL acessível e listado na respectiva categoria. | Postagem recorrente de dúvidas idênticas por pressa de novatos. | Adicionar verificação bloqueante de similaridade semântica por IA pré-envio. |
+| **0** | **Publicar Tópico de Dúvida Técnica no Fórum Diolinux Plus com Integração de IA Semântica** | **Plano 0:** 1 > 2 > 3 > 4 > 5 | Usuário autenticado enfrentando gargalo técnico de Linux sem solução imediata. | Execução sequencial ordenada das metas 1 a 5. | Tópico publicado com URL acessível e listado na respectiva categoria. | Postagem recorrente de dúvidas idênticas por pressa de novatos. | Adicionar verificação bloqueante de similaridade semântica por IA pré-envio. |
 | **1** | **Acionar Mecanismo de Criação de Tópico** | **Plano 1:** 1.1 / 1.2 | Página inicial ou feed de tópicos do fórum completamente carregada. | Escolha alternativa entre acionamento via mouse ou teclado. | Modal inferior do composer expandido com foco no campo de título. | O atalho `c` é desconhecido por usuários iniciantes. | Sinalizar o atalho no tooltip do botão "+ Novo Tópico". |
 | 1.1 | Clicar no botão "+ Novo Tópico" | Operação física | Botão visível no canto superior direito da interface. | Apontar o cursor e clicar com o botão primário. | Abertura imediata da gaveta do composer. | N/A (componente bem posicionado). | Preservar alto contraste WCAG AA. |
 | 1.2 | Pressionar tecla de atalho `c` | Operação de teclado | Foco do teclado fora de campos de texto editáveis. | Pressionar e soltar a tecla `c`. | Abertura imediata do composer. | Falha de acionamento caso um input prévio retenha o foco. | Evidenciar estados de foco de forma nítida. |
@@ -181,7 +141,7 @@ Diferente de abordagens estritamente preditivas de tempo mecânico (como o KLM),
 
 A Tabela 4 sintetiza a arquitetura dos componentes do CMN-GOMS aplicados à Tarefa 1.
 
-**Tabela 4** — Componentes e Estrutura Geral do Modelo CMN-GOMS da Tarefa 1
+**Tabela 4** — Componentes e Estrutura Geral do Modelo CMN-GOMS da Tarefa 1 com Integração de IA Semântica
 
 | Componente GOMS | Conceituação Canônica (Card, Moran & Newell, 1983) | Instanciação Concreta na Tarefa 1 (Diolinux Plus) |
 | :--- | :--- | :--- |
@@ -633,7 +593,7 @@ A Tabela 8 documenta o histórico de versões deste artefato.
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Estruturação metodológica e modelagem da Tarefa 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 26/09/2026 | Inclusão do rascunho de HTA e GOMS/KLM para busca avançada; validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), com apoio de IA generativa | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `1.2` | 15/10/2026 | Saneamento tipográfico UTF-8 dos operadores KLM, padronização da Tabela 0 de contribuição e sequenciamento ordenado das Figuras 1 a 6 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.2` | 15/10/2026 | Saneamento tipográfico UTF-8 dos operadores KLM, padronização da Tabela 0 de contribuição e sequenciamento ordenado das Figuras 1 a 6 (com inclusão da Figura 6 CTT). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.3` | 20/10/2026 | Adequação da notação canônica de HTA (expurgo de nós intermediários de plano, adoção de operadores lógicos formais e tabela com tupla analítica de inputs e feedbacks observáveis) e substituição de KLM por CMN-GOMS com Módulo de IA Semântica Pré-Envio e regras de seleção na Tarefa 1 (Issues #98 e #99). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.4` | 22/10/2026 | Modelagem integral da Tarefa 2: Criação de Eventos Presenciais (HTA com diagrama Mermaid, Tabela 8.4 canônica de Barbosa & Silva e CTT) incorporando geolocalização e quórum/lotação (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.5` | 22/10/2026 | Substituição da Tarefa 3 pela Grade de Disponibilidade e Agendamento de Dúvidas/Mentorias (estilo When2meet) com modelagem completa em HTA e CTT | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
