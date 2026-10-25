@@ -118,10 +118,9 @@ A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessõ
 
 | Sessão | Participante | Entrevistador | Data e Horário | Duração da Gravação | Link do Vídeo (YouTube — Não Listado) |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| **ST01** | P1 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 22/10/2026 14:20 | *[Minutos]* | [Acessar Gravação da Sessão ST01](https://youtu.be/placeholder-st01) |
-| **ST02** | P2 | [Gustavo Antonio](https://github.com/gus-ant) | 22/10/2026 15:20 | *[Minutos]* | [Acessar Gravação da Sessão ST02](https://youtu.be/placeholder-st02) |
-| **ST03** | P3 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 22/10/2026 16:20 | 15 min | [Acessar Gravação da Sessão ST03 (YouTube)](https://youtu.be/gqZ3yJ3ZYUc) |
-| **ST04** | P4 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 23/10/2026 10:00 | *[Minutos]* | [Acessar Gravação da Sessão ST04](https://youtu.be/placeholder-st04) |
+| **ST01** | P1 (J.V.S — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 22/10/2026 14:20 | ~16 min | [Acessar Gravação da Sessão ST01 (YouTube)](https://youtu.be/_4nQ50nN7b8) |
+| **ST02** | P2 (L.C.F) | [Gustavo Antonio](https://github.com/gus-ant) | 23/10/2026 15:20 | ~15 min | [Acessar Gravação da Sessão ST02 (YouTube)](https://youtu.be/VhGgpfX9Rqk) |
+| **ST03** | P3 (G.H.R) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 24/10/2026 16:20 | ~15 min | [Acessar Gravação da Sessão ST03 (YouTube)](https://youtu.be/gqZ3yJ3ZYUc) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 
@@ -162,6 +161,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | `1.1` | 20/10/2026 | Harmonização para sessões presenciais no campus da FGA/UnB (Issue #100): percurso procedural assistido em tela de notebook, sincronização de datas de campo em 22/10 e 23/10, teste-piloto presencial em 21/10 e ajuste do prazo final da Entrega 5 para 25/10/2026. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 22/10/2026 | Atualização das seções 2, 3.3 e 3.4 alinhando a Tarefa 2 à Criação de Eventos Presenciais (CF02) (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.3` | 24/10/2026 | Atualização do link e dados da gravação da Sessão ST03 conduzida por Edvaldo Soares no YouTube. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.4` | 25/10/2026 | Atualização dos links e dados das gravações das sessões ST01 (Vinicius Silva Araruna com participante J.V.S) e ST02 (Gustavo Antonio) no YouTube. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 

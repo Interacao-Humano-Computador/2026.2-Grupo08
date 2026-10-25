@@ -144,15 +144,47 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 
 
 ---
 
+## Registros Audiovisuais (Teste-Piloto e Avaliação Oficial)
+
+A Tabela 5 consolida os registros audiovisuais em vídeo das sessões práticas de validação do Storyboard 1 conduzidas por Vinicius Silva Araruna, disponibilizadas no YouTube sob o regime Não Listado.
+
+**Tabela 5** — Registros audiovisuais do Storyboard 1 (Teste-Piloto e Avaliação Formativa com Participante)
+
+| Etapa | Objetivo / Atividade | Responsável | Participante | Data | Vídeo no YouTube |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| **Teste-Piloto** | Calibração instrumental de enquadramento, iluminação, áudio e temporização do script oral do TCLE (< 60s) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Autoensaio Solo | 21/10/2026 | [Assistir no YouTube (e4annKBJd3I)](https://youtu.be/e4annKBJd3I) |
+| **Avaliação Oficial** | Sessão de avaliação formativa presencial do Storyboard 1 e HTA via entrevista semiestruturada | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante J.V.S (CIC/UnB) | 22/10/2026 | [Assistir no YouTube (_4nQ50nN7b8)](https://youtu.be/_4nQ50nN7b8) |
+
+_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
+
+### Vídeo 1 — Teste-Piloto do Storyboard 1 (Vinicius Silva Araruna)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/e4annKBJd3I" title="Teste-Piloto do Storyboard 1 - Vinicius Silva Araruna" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro em vídeo do Teste-Piloto do Storyboard 1 (autoensaio solo). <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/e4annKBJd3I" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/e4annKBJd3I</a></p>
+</div>
+
+### Vídeo 2 — Gravação da Avaliação Oficial do Storyboard 1 (Vinicius Silva Araruna)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/_4nQ50nN7b8" title="Avaliação do Storyboard 1 - Vinicius Silva Araruna" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 2</strong> — Registro em vídeo da Avaliação Formativa com Participante (J.V.S) do Storyboard 1. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/_4nQ50nN7b8" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/_4nQ50nN7b8</a></p>
+</div>
+
+---
+
 ## Histórico de Versão
 
-A Tabela 5 documenta o ciclo evolutivo deste artefato.
+A Tabela 6 documenta o ciclo evolutivo deste artefato.
 
-**Tabela 5** — Histórico de Versão
+**Tabela 6** — Histórico de Versão
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 24/10/2026 | Elaboração inicial do Storyboard da Tarefa 1: Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown com Integração de IA Semântica (Opção B - Desenho Manual em Papel A4), contendo prancha fotográfica tratada, roteiro detalhado dos 8 quadros, matriz de rastreabilidade HTA, lista de verificação de 8 itens e fundamentação teórica. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.1` | 25/10/2026 | Incorporação dos registros em vídeo do Teste-Piloto (e4annKBJd3I) e da Avaliação Oficial (_4nQ50nN7b8) com o participante J.V.S (estudante de Ciência da Computação / CIC), com inserção de tabela de metadados e players audiovisuais. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

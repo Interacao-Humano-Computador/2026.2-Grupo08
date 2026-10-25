@@ -57,7 +57,7 @@ A Tabela 2 define os parâmetros técnicos e logísticos da sessão de ensaio.
 | Parâmetro | Especificação Planejada |
 | :--- | :--- |
 | **Data e Horário** | 21/10/2026 — das 14:00 às 14:45 (Ensaio geral presencial) / 17/10/2026 (Ensaio da Tarefa 3) |
-| **Ambiente / Espaço Físico** | Presencial — Campus FGA/UnB (Salas de Estudo do UAC / LDTEA) e registro audiovisual disponibilizado no [YouTube](https://youtu.be/1F409M-E850) |
+| **Ambiente / Espaço Físico** | Presencial — Campus FGA/UnB (Salas de Estudo do UAC / LDTEA) e registro audiovisual disponibilizado no [YouTube (Vinicius: e4annKBJd3I)](https://youtu.be/e4annKBJd3I) e [YouTube (Edvaldo: 1F409M-E850)](https://youtu.be/1F409M-E850) |
 | **Hardware Empregado** | Smartphone ou notebook com câmera e microfone integrados posicionado sobre a mesa em ambiente silencioso |
 | **Materiais Físicos de Teste** | Pranchas de Storyboard impressas em papel A4 (300 DPI), duas vias físicas do TCLE, prancheta de acrílico e canetas |
 | **Resolução e Enquadramento** | Gravação audiovisual sobre a mesa em ambiente silencioso, capturando participante, pranchas e tela de exibição |
@@ -138,11 +138,21 @@ A dinâmica do ensaio é subdividida em cinco fases operacionais cronometradas:
 
 ## 7. Registro Audiovisual do Teste-Piloto
 
-A gravação integral do teste-piloto de Nível 1 está disponibilizada em modo Não Listado no YouTube, garantindo total transparência metodológica e auditabilidade pela banca examinadora da disciplina:
+As gravações integrais dos ensaios de teste-piloto de Nível 1 estão disponibilizadas em modo Não Listado no YouTube, garantindo total transparência metodológica e auditabilidade pela banca examinadora da disciplina:
+
+#### Vídeo 1 — Autoensaio Solo do Teste-Piloto da Tarefa 1 (Vinicius Silva Araruna)
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/1F409M-E850" title="Gravação do Teste-Piloto de Nível 1 - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto de Nível 1. <em>Fonte: Elaborada pelos autores, 2026.</em></p>
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/e4annKBJd3I" title="Autoensaio do Teste-Piloto de Nível 1 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual do Autoensaio Solo do Teste-Piloto da Tarefa 1. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/e4annKBJd3I" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/e4annKBJd3I</a></p>
+</div>
+
+#### Vídeo 2 — Ensaio do Teste-Piloto da Tarefa 3 (Edvaldo Soares)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/1F409M-E850" title="Gravação do Teste-Piloto de Nível 1 - Edvaldo Soares - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 2</strong> — Registro audiovisual da execução do Teste-Piloto da Tarefa 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/1F409M-E850" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/1F409M-E850</a></p>
 </div>
 

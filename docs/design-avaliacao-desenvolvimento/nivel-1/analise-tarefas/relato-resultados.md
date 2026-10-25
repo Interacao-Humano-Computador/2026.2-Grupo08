@@ -147,8 +147,8 @@ A Tabela 4 sintetiza os registros audiovisuais das avaliações da Análise de T
 
 | Sessão | Funcionalidade / Tarefa Investigada | Participante | Avaliador Responsável | Duração | Link de Acesso no YouTube |
 | :---: | :--- | :---: | :--- | :---: | :--- |
-| **T01** | Tarefa 1: Markdown, Tags e IA Semântica | P1 (J. V. S. — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ~16 min | [Assistir Sessão T01 no YouTube (Não Listado)](https://youtu.be/placeholder-t01) |
-| **T02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão T02 no YouTube (Não Listado)](https://youtu.be/placeholder-t02) |
+| **T01** | Tarefa 1: Markdown, Tags e IA Semântica | P1 (J. V. S. — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ~16 min | [Assistir Sessão T01 no YouTube (Não Listado)](https://youtu.be/_4nQ50nN7b8) |
+| **T02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão T02 no YouTube (Não Listado)](https://youtu.be/VhGgpfX9Rqk) |
 | **T03** | Tarefa 3: Grade de Disponibilidade e Agendamento | P3 (G. H. R.) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~15 min | [Assistir Sessão T03 no YouTube (Não Listado)](https://youtu.be/gqZ3yJ3ZYUc) |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -156,8 +156,9 @@ _Fonte: Elaborada pelos autores, 2026._
 #### Reprodução Audiovisual da Sessão T01 (Tarefa 1 — Vinicius Silva Araruna)
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/placeholder-t01" title="Avaliação da Análise de Tarefas 1 - Sessão T01 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/_4nQ50nN7b8" title="Avaliação da Análise de Tarefas 1 - Sessão T01 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
     <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da avaliação da Análise de Tarefas da Tarefa 1 na residência do participante. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/_4nQ50nN7b8" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/_4nQ50nN7b8</a></p>
 </div>
 
 ---
@@ -200,6 +201,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 24/10/2026 | Elaboração inicial do Relato dos Resultados da Avaliação da Análise de Tarefas (Nível 1), consolidando os dados empíricos de campo com percurso cognitivo guiado, caracterização dos voluntários P1 a P3, análise de discrepâncias de planos lógicos (PT01 a PT08), validação de regras de seleção do CMN-GOMS, classificação de severidade de Nielsen (0 a 4), recomendações de refatoração no HTA, container de vídeo, cláusula de isolamento do piloto e checklist de conformidade. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 25/10/2026 | Incorporação do link oficial e player do registro audiovisual da avaliação da Sessão T01 (Vinicius Silva Araruna com participante J.V.S no YouTube) e consolidação da gravação da Sessão T02 (Gustavo Antonio). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
