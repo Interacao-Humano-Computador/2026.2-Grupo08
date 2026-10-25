@@ -100,6 +100,37 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 
 
 ---
 
+### 2.6 Registros Audiovisuais (Teste-Piloto e Avaliação Oficial)
+
+A Tabela 3 consolida os registros audiovisuais em vídeo das sessões práticas de validação do Storyboard 1 conduzidas por Vinicius Silva Araruna, disponibilizadas no YouTube sob o regime Não Listado.
+
+**Tabela 3** — Registros audiovisuais do Storyboard 1 (Teste-Piloto e Avaliação com Usuário)
+
+| Etapa | Objetivo / Atividade | Responsável | Participante | Data | Vídeo no YouTube |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| **Teste-Piloto** | Calibração instrumental de enquadramento, iluminação, áudio e temporização do script oral do TCLE (< 60s) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Autoensaio Solo | 21/10/2026 | [Assistir no YouTube (e4annKBJd3I)](https://youtu.be/e4annKBJd3I) |
+| **Avaliação Oficial** | Sessão de avaliação formativa presencial do Storyboard 1 e HTA via entrevista semiestruturada | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante J.V.S (CIC/UnB) | 22/10/2026 | [Assistir no YouTube (_4nQ50nN7b8)](https://youtu.be/_4nQ50nN7b8) |
+
+_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
+
+#### Vídeo 1 — Teste-Piloto do Storyboard 1 (Vinicius Silva Araruna)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/e4annKBJd3I" title="Teste-Piloto do Storyboard 1 - Vinicius Silva Araruna" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro em vídeo do Teste-Piloto do Storyboard 1 (autoensaio solo). <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/e4annKBJd3I" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/e4annKBJd3I</a></p>
+</div>
+
+#### Vídeo 2 — Gravação da Avaliação Oficial do Storyboard 1 (Vinicius Silva Araruna)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/_4nQ50nN7b8" title="Avaliação do Storyboard 1 - Vinicius Silva Araruna" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 2</strong> — Registro em vídeo da Avaliação Formativa com Participante (J.V.S) do Storyboard 1. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/_4nQ50nN7b8" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/_4nQ50nN7b8</a></p>
+</div>
+
+---
+
 <a id="2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio"></a>
 ## 3. Storyboard 2 – Criação e Divulgação de Workshop Presencial de Linux (Gustavo Antonio)
 
@@ -125,9 +156,9 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 
 
 ### 3.3 Visão Geral das Cenas do Storyboard (Sequência de 8 Quadros)
 
-A Tabela 3 descreve a narrativa visual quadro a quadro do Storyboard 2, articulando as falas originais transcritas do desenho manual com os comentários ergonômicos e decisões de design.
+A Tabela 4 descreve a narrativa visual quadro a quadro do Storyboard 2, articulando as falas originais transcritas do desenho manual com os comentários ergonômicos e decisões de design.
 
-**Tabela 3** — Decomposição analítica dos quadros do Storyboard 2 (Criação de Evento no Diolinux Plus)
+**Tabela 4** — Decomposição analítica dos quadros do Storyboard 2 (Criação de Evento no Diolinux Plus)
 
 | # | Cena / Ambiente (*Setting*) | Transcrição Literal dos Balões | Comentários Ergonômicos e Decisões de Design |
 | :-: | :--- | :--- | :--- |
@@ -168,9 +199,9 @@ A Figura 2 reproduz a prancha física do Storyboard 2 elaborada por Gustavo Anto
 
 ### 3.6 Registros Audiovisuais (Teste-Piloto e Avaliação Oficial)
 
-A Tabela 4 consolida os registros audiovisuais em vídeo das sessões práticas de validação do Storyboard 2 conduzidas por Gustavo Antonio, disponibilizadas no YouTube sob o regime Não Listado.
+A Tabela 5 consolida os registros audiovisuais em vídeo das sessões práticas de validação do Storyboard 2 conduzidas por Gustavo Antonio, disponibilizadas no YouTube sob o regime Não Listado.
 
-**Tabela 4** — Registros audiovisuais do Storyboard 2 (Teste-Piloto e Avaliação com Usuário)
+**Tabela 5** — Registros audiovisuais do Storyboard 2 (Teste-Piloto e Avaliação com Usuário)
 
 | Etapa | Objetivo / Atividade | Responsável | Participante | Data | Vídeo no YouTube |
 | :---: | :--- | :--- | :---: | :---: | :--- |
@@ -179,18 +210,18 @@ A Tabela 4 consolida os registros audiovisuais em vídeo das sessões práticas 
 
 _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
 
-#### Vídeo 1 — Teste-Piloto do Storyboard 2 (Gustavo Antonio)
+#### Vídeo 3 — Teste-Piloto do Storyboard 2 (Gustavo Antonio)
 
 <div style="text-align: center; margin: 1.5rem 0;">
     <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/K5jVAyq4hAY" title="Teste-Piloto do Storyboard 2 - Gustavo Antonio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro em vídeo do Teste-Piloto do Storyboard 2. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 3</strong> — Registro em vídeo do Teste-Piloto do Storyboard 2. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
 </div>
 
-#### Vídeo 2 — Gravação da Avaliação do Storyboard 2 (Gustavo Antonio)
+#### Vídeo 4 — Gravação da Avaliação do Storyboard 2 (Gustavo Antonio)
 
 <div style="text-align: center; margin: 1.5rem 0;">
     <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/VhGgpfX9Rqk" title="Avaliação do Storyboard 2 - Gustavo Antonio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 2</strong> — Registro em vídeo da Avaliação Formativa com Participante do Storyboard 2. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 4</strong> — Registro em vídeo da Avaliação Formativa com Participante do Storyboard 2. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
 </div>
 
 ---
@@ -221,9 +252,9 @@ _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus
 
 ### 4.3 Visão Geral das Cenas do Storyboard (Sequência de 8 Quadros)
 
-A Tabela 5 apresenta a sequência de quadros da funcionalidade de Grade de Disponibilidade e Agendamento de Reuniões vinculada aos tópicos do Fórum Diolinux Plus.
+A Tabela 6 apresenta a sequência de quadros da funcionalidade de Grade de Disponibilidade e Agendamento de Reuniões vinculada aos tópicos do Fórum Diolinux Plus.
 
-**Tabela 5** — Sequência de quadros do Storyboard 3 (Grade de Disponibilidade e Agendamento no Fórum)
+**Tabela 6** — Sequência de quadros do Storyboard 3 (Grade de Disponibilidade e Agendamento no Fórum)
 
 | # | Cena (descrição da ação) | Comentários de Design e Usabilidade |
 | :-: | :--- | :--- |
@@ -255,9 +286,9 @@ A Figura 3 apresenta a representação gráfica do Storyboard 3 (Grade de Dispon
 
 ### 4.5 Registros Audiovisuais (Teste-Piloto e Avaliação Oficial)
 
-A Tabela 6 consolida os registros audiovisuais em vídeo das sessões práticas de validação do Storyboard 3 conduzidas por Edvaldo Soares, disponibilizadas no YouTube sob o regime Não Listado.
+A Tabela 7 consolida os registros audiovisuais em vídeo das sessões práticas de validação do Storyboard 3 conduzidas por Edvaldo Soares, disponibilizadas no YouTube sob o regime Não Listado.
 
-**Tabela 6** — Registros audiovisuais do Storyboard 3 (Teste-Piloto e Avaliação com Usuário)
+**Tabela 7** — Registros audiovisuais do Storyboard 3 (Teste-Piloto e Avaliação com Usuário)
 
 | Etapa | Objetivo / Atividade | Responsável | Participante | Data | Vídeo no YouTube |
 | :---: | :--- | :--- | :--- | :---: | :--- |
@@ -266,19 +297,19 @@ A Tabela 6 consolida os registros audiovisuais em vídeo das sessões práticas 
 
 _Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
 
-#### Vídeo 3 — Teste-Piloto do Storyboard 3 (Edvaldo Soares)
+#### Vídeo 5 — Teste-Piloto do Storyboard 3 (Edvaldo Soares)
 
 <div style="text-align: center; margin: 1.5rem 0;">
     <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/1F409M-E850" title="Teste-Piloto do Storyboard 3 - Edvaldo Soares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 3</strong> — Registro audiovisual do Teste-Piloto do Storyboard 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 5</strong> — Registro audiovisual do Teste-Piloto do Storyboard 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/1F409M-E850" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/1F409M-E850</a></p>
 </div>
 
-#### Vídeo 4 — Gravação da Avaliação Oficial do Storyboard 3 (Edvaldo Soares)
+#### Vídeo 6 — Gravação da Avaliação Oficial do Storyboard 3 (Edvaldo Soares)
 
 <div style="text-align: center; margin: 1.5rem 0;">
     <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/gqZ3yJ3ZYUc" title="Avaliação do Storyboard 3 - Edvaldo Soares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 4</strong> — Registro audiovisual da avaliação com participante do Storyboard 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 6</strong> — Registro audiovisual da avaliação com participante do Storyboard 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/gqZ3yJ3ZYUc" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/gqZ3yJ3ZYUc</a></p>
 </div>
 
@@ -292,9 +323,9 @@ Os storyboards documentados nesta página constituem o objeto central de investi
 
 ## 6. Histórico de Versão
 
-A Tabela 7 documenta o histórico evolutivo deste artefato.
+A Tabela 8 documenta o histórico evolutivo deste artefato.
 
-**Tabela 7** — Histórico de versão do documento
+**Tabela 8** — Histórico de versão do documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
@@ -304,6 +335,7 @@ A Tabela 7 documenta o histórico evolutivo deste artefato.
 | 1.3 | 24/10/2026 | Inclusão dos registros audiovisuais (teste-piloto e avaliação oficial) do Storyboard 3 de Edvaldo Soares. | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | 1.4 | 24/10/2026 | Adição do Storyboard 1 de Vinicius Silva Araruna (digitalização em 300 DPI da prancha física A4 com 8 quadros da Tarefa 1 com IA semântica pré-envio), alinhamento com os 3 pilares de Klemmer e consolidação da tríade de storyboards da equipe. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | 1.5 | 25/10/2026 | Saneamento de delimitadores LaTeX para caracteres UTF-8 nativos e expurgo de arquivos de instrução interna (Leak-Free). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| 1.6 | 25/10/2026 | Incorporação dos registros em vídeo da execução do Teste-Piloto (e4annKBJd3I) e da gravação da Avaliação Oficial do Storyboard 1 com o participante J.V.S (_4nQ50nN7b8), e renumeração harmônica e sequencial de todas as tabelas e vídeos da tríade de storyboards. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

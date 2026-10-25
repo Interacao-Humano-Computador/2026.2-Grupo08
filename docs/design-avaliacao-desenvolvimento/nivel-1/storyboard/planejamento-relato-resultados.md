@@ -131,9 +131,9 @@ A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessõ
 
 | Sessão | Participante | Entrevistador | Data e Horário | Duração da Gravação | Link do Vídeo (YouTube - Não Listado) |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| **S01** | P1 | [Nome do Entrevistador] | *[Data / Hora]* | *[Minutos]* | [Acessar Gravação da Sessão S01](https://youtu.be/placeholder-s01) |
-| **S02** | P2 | [Nome do Entrevistador] | *[Data / Hora]* | *[Minutos]* | [Acessar Gravação da Sessão S02](https://youtu.be/placeholder-s02) |
-| **S03** | P3 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 21/10/2026 16:00 | 15 min | [Acessar Gravação da Sessão S03 (YouTube)](https://youtu.be/gqZ3yJ3ZYUc) |
+| **S01** | P1 (J.V.S — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 22/10/2026 14:00 | ~16 min | [Acessar Gravação da Sessão S01 (YouTube)](https://youtu.be/_4nQ50nN7b8) |
+| **S02** | P2 (L.C.F) | [Gustavo Antonio](https://github.com/gus-ant) | 23/10/2026 15:00 | ~15 min | [Acessar Gravação da Sessão S02 (YouTube)](https://youtu.be/VhGgpfX9Rqk) |
+| **S03** | P3 (G.H.R) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 24/10/2026 16:00 | ~15 min | [Acessar Gravação da Sessão S03 (YouTube)](https://youtu.be/gqZ3yJ3ZYUc) |
 
 _Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 
@@ -175,6 +175,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | `1.2` | 20/10/2026 | Adequação da modalidade para sessões presenciais no campus da FGA/UnB (Issue #100): manuseio físico de pranchas impressas a 300 DPI, gravação sobre a mesa em ambiente silencioso e alinhamento da esteira executiva. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.3` | 22/10/2026 | Atualização da Seção 3.4 e Lista de Verificação alinhando o Storyboard 2 à Criação de Eventos Presenciais (CF02) (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.4` | 24/10/2026 | Atualização do link e dados da gravação da Sessão S03 conduzida por Edvaldo Soares no YouTube. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.5` | 25/10/2026 | Atualização dos links e dados das gravações das sessões S01 (Vinicius Silva Araruna com participante J.V.S) e S02 (Gustavo Antonio) no YouTube. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 

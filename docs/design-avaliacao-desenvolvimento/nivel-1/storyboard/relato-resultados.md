@@ -161,7 +161,7 @@ A Tabela 4 sintetiza as gravações audiovisuais das avaliações do Storyboard.
 
 | Sessão | Funcionalidade / Storyboard | Participante | Avaliador Responsável | Duração | Link de Acesso no YouTube |
 | :---: | :--- | :---: | :--- | :---: | :--- |
-| **S01** | Tarefa 1: Markdown, Tags e IA Semântica | P1 (J. V. S. — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ~14 min | [Assistir Sessão S01 no YouTube (Não Listado)](https://youtu.be/placeholder-s01) |
+| **S01** | Tarefa 1: Markdown, Tags e IA Semântica | P1 (J. V. S. — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ~14 min | [Assistir Sessão S01 no YouTube (Não Listado)](https://youtu.be/_4nQ50nN7b8) |
 | **S02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão S02 no YouTube (Não Listado)](https://youtu.be/VhGgpfX9Rqk) |
 | **S03** | Tarefa 3: Grade de Disponibilidade e Agendamento | P3 (G. H. R.) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~15 min | [Assistir Sessão S03 no YouTube (Não Listado)](https://youtu.be/gqZ3yJ3ZYUc) |
 
@@ -170,8 +170,9 @@ _Fonte: Elaborada pelos autores, 2026._
 #### Reprodução Audiovisual da Sessão 01 (Storyboard 1 — Vinicius Silva Araruna)
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/placeholder-s01" title="Avaliação do Storyboard 1 - Sessão 01 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/_4nQ50nN7b8" title="Avaliação do Storyboard 1 - Sessão 01 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
     <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da avaliação do Storyboard 1 na residência do participante. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/_4nQ50nN7b8" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/_4nQ50nN7b8</a></p>
 </div>
 
 ---
@@ -214,6 +215,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 24/10/2026 | Elaboração inicial do Relato dos Resultados da Avaliação do Storyboard (Nível 1), consolidando os resultados empíricos das entrevistas presenciais, caracterização dos participantes P1 a P3, análise qualitativa de P01 a P08, classificação de problemas na severidade de Nielsen (0 a 4), recomendações de reprojeto para protótipos de papel, container de vídeo, cláusula de isolamento do piloto e checklist de conformidade. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 25/10/2026 | Incorporação do link oficial e player do registro audiovisual da avaliação da Sessão S01 (Vinicius Silva Araruna com participante J.V.S no YouTube). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
