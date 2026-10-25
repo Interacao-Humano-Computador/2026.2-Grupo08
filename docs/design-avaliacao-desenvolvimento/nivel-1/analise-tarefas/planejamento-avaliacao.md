@@ -156,7 +156,7 @@ A Tabela 3 apresenta a distribuição das sessões de avaliação da análise de
 | Sessão / Etapa | Data | Horário | Tarefa Investigada | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
 | **Teste-Piloto** | 21/10/2026 | 14:00 - 14:45 | Autoensaio / Calibração | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Avaliador Solo | Presencial — FGA/UnB (Salas UAC) |
-| **ST01 (T01)** | 22/10/2026 | 14:20 - 14:40 | Tarefa 1 (Markdown e Tags com Integração de IA Semântica) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
+| **ST01 (T01)** | 22/10/2026 | 14:20 - 14:40 | Tarefa 1 (Markdown e Tags com Integração de IA Semântica) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando CIC/UnB) | Presencial — Residência do Participante P1 (Ambiente Domiciliar) |
 | **ST02 (T02)** | 22/10/2026 | 15:20 - 15:40 | Tarefa 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
 | **ST03 (T03)** | 22/10/2026 | 16:20 - 16:40 | Tarefa 3 (Busca Avançada e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
 | **ST04 (Reserva)** | 23/10/2026 | 10:00 - 10:40 | Tarefa Reserva / Validação Cruzada | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 4 (P4 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
