@@ -32,7 +32,7 @@ Conforme ensinam Barbosa e Silva (2021, p. 276):
 
 > *"O objetivo de um teste-piloto é avaliar o próprio planejamento, e não a interface ou o usuário. Ele permite verificar se a linguagem do roteiro está clara, se o tempo previsto para cada atividade é realista, se os equipamentos e ferramentas funcionam conforme esperado e se os avaliadores estão bem alinhados em seus papéis."*
 
-Complementarmente, Mayhew (1999) descreve o teste-piloto como um **ensaio geral rigoroso** (*dry run* ou *rehearsal*), conduzido nas mesmas condições técnicas e ambientais planejadas para o estudo oficial, simulando todo o percurso da dinâmica — desde a abertura com o consentimento livre e esclarecido até o encerramento da inquirição.
+Complementarmente, Mayhew (1999) descreve o teste-piloto como um **ensaio geral rigoroso** (*dry run* ou *rehearsal*), conduzido nas mesmas condições técnicas e ambientais planejadas para o estudo oficial, simulando todo o percurso da dinâmica — desde a abertura com o consentimento livre e esclarecido até o encerramento da inquirição. Conforme orientação pedagógica explícita do Prof. Dr. André Barros de Sales (aula de 20/10/2026), o ensaio do teste-piloto pode ser registrado em vídeo individualmente pelo próprio avaliador em modo solo (ou com simulação de um colega discente), atuando como uma calibração instrumental e técnica para assegurar que o microfone está captando som nítido, a qualidade da imagem e o enquadramento do smartphone ou notebook sobre a mesa estão adequados, a leitura oral do TCLE cumpre o teto de 60 segundos e o percurso do Storyboard e das tarefas transcorre sem atritos.
 
 _Autor do Item Teórico: [Vinicius Silva Araruna](https://github.com/ViniciusA05)_
 
@@ -44,7 +44,7 @@ A literatura canônica de IHC e as diretrizes pedagógicas da Universidade de Br
 
 !!! warning "CLÁUSULA METODOLÓGICA OBRIGATÓRIA — NÃO COMPUTAÇÃO DOS DADOS DO TESTE-PILOTO"
     Em estrita conformidade com os princípios científicos de IHC (Barbosa & Silva, 2021, p. 276; Mayhew, 1999), fica solenemente declarado e registrado que os dados, verbalizações, comportamentos e respostas obtidos durante a execução deste Teste-Piloto **NÃO SERÃO COMPUTADOS NEM INCORPORADOS AOS RESULTADOS FINAIS DA AVALIAÇÃO DE NÍVEL 1**.  
-    O Teste-Piloto destina-se com exclusividade a **avaliar o planejamento da avaliação e sua infraestrutura prática** (clareza das perguntas do roteiro, precisão da cronometragem, eficácia da leitura prévia do Script Oral do TCLE, estabilidade das conexões e gravações no Google Meet e sintonia entre entrevistador e anotador). Os dados que subsidiarão o relato final de resultados provêm unicamente das sessões oficiais realizadas subsequentemente com os estudantes voluntários recrutados.
+    O Teste-Piloto destina-se com exclusividade a **avaliar o planejamento da avaliação e sua infraestrutura prática presencial** (clareza das perguntas do roteiro, precisão da cronometragem, eficácia da leitura prévia do Script Oral do TCLE nos primeiros 60 segundos gravados, qualidade do microfone, imagem nítida sobre a mesa em ambiente silencioso sem ruídos externos, manuseio tátil das pranchas impressas em papel A4 a 300 DPI e autodomínio operacional do avaliador na condução individual). Os dados que subsidiarão o relato final de resultados provêm unicamente das sessões oficiais realizadas subsequentemente com os estudantes voluntários recrutados.
 
 ---
 
@@ -56,24 +56,23 @@ A Tabela 2 define os parâmetros técnicos e logísticos da sessão de ensaio.
 
 | Parâmetro | Especificação Planejada |
 | :--- | :--- |
-| **Data e Horário** | 17/10/2026 — das 14:00 às 14:40 (Duração total estimada: 40 minutos) |
-| **Ambiente / Plataforma** | Chamada remota síncrona via [Google Meet](https://meet.google.com/placeholder-piloto) |
-| **Hardware Empregado** | Computador pessoal dos avaliadores com microfone condensador e câmera HD 1080p |
-| **Software e Ferramentas** | Google Meet (com gravação em nuvem institucional UnB), navegador web e visualizador de imagens |
-| **Resolução de Exibição** | Compartilhamento de tela em 1080p (1920 × 1080) com renderização dos storyboards em 300 DPI |
-| **Artefatos Inspecionados** | Storyboards das Tarefas 1, 2 e 3 e Diagramas Hierárquicos de Tarefas (HTA) |
+| **Data e Horário** | 21/10/2026 — das 14:00 às 14:45 (Ensaio geral presencial) / 17/10/2026 (Ensaio da Tarefa 3) |
+| **Ambiente / Espaço Físico** | Presencial — Campus FGA/UnB (Salas de Estudo do UAC / LDTEA) e registro audiovisual disponibilizado no [YouTube](https://youtu.be/1F409M-E850) |
+| **Hardware Empregado** | Smartphone ou notebook com câmera e microfone integrados posicionado sobre a mesa em ambiente silencioso |
+| **Materiais Físicos de Teste** | Pranchas de Storyboard impressas em papel A4 (300 DPI), duas vias físicas do TCLE, prancheta de acrílico e canetas |
+| **Resolução e Enquadramento** | Gravação audiovisual sobre a mesa em ambiente silencioso, capturando participante, pranchas e tela de exibição |
+| **Artefatos Inspecionados** | Storyboards impressos das Tarefas 1, 2 e 3, diagramas HTA canônicos e interface web do Fórum Diolinux Plus |
 
 _Fonte: Elaborada pelos autores, 2026._
 
 A Tabela 3 apresenta a distribuição de responsabilidades e atribuição de papéis entre os participantes do ensaio piloto.
 
-**Tabela 3** — Definição e Atribuição de Papéis da Equipe no Teste-Piloto
+**Tabela 3** — Definição e Atribuição de Papéis no Teste-Piloto
 
 | Papel no Teste-Piloto | Integrante Responsável | Responsabilidades Operacionais |
 | :--- | :--- | :--- |
-| **Avaliador Condutor (Entrevistador)** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Recepcionar o participante simulado, proferir o Script Oral literal do TCLE nos primeiros 60 segundos gravados, compartilhar os artefatos visuais e conduzir a inquirição semiestruturada. |
-| **Avaliador Observador (Anotador)** | [Gustavo Antonio](https://github.com/gus-ant) | Operar a gravação no Google Meet, controlar o cronômetro rigoroso de cada fase, registrar atritos de comunicação, hesitações e problemas técnicos sem intervir na fala do condutor. |
-| **Participante Simulado** | Discente Convidado (Graduando em TI) | Emular com fidelidade o comportamento, dúvidas, nível de conhecimento técnico e barreiras cognitivas típicas do Perfil 1 (Estudante Aprendiz de Linux). |
+| **Avaliador Solo (Condução Autônoma)** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Conduzir individualmente a gravação em ambiente silencioso, verificar o microfone, calibrar o enquadramento do smartphone/notebook na mesa, testar a leitura do Script Oral do TCLE (< 60s) e simular a apresentação do Storyboard 1 e tarefas. |
+| **Participante Simulado** | Autoensaio Solo do Avaliador (ou Colega Convidado) | Simulação autônoma pelo próprio avaliador para verificação estritamente instrumental de captação sonora, nitidez visual e ritmo de fala. |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -115,30 +114,36 @@ _Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021), 2026._
 
 A dinâmica do ensaio é subdividida em cinco fases operacionais cronometradas:
 
-### Fase 1: Pré-Sessão e Checagem Técnica (0m a 5m)
-- **Ações:** Teste de entrada de áudio e microfone; teste da webcam em 1080p; verificação do botão de gravação do Google Meet; abertura prévia dos links dos Storyboards e dos diagramas HTA em abas dedicadas; checagem da planilha de anotações do observador.
+### Fase 1: Pré-Sessão e Checagem da Infraestrutura Presencial (0m a 5m)
+
+- **Ações:** Escolha de ambiente silencioso propício à concentração; posicionamento estável do smartphone ou notebook sobre a mesa de testes; teste de captação do microfone e nitidez da imagem; organização das pranchas impressas de Storyboard (A4, 300 DPI) e vias do TCLE sobre a mesa.
 
 ### Fase 2: Abertura Ética e Script Oral do TCLE (5m a 8m)
-- **Ações:** Disparo da gravação na nuvem; leitura integral e literal do **Script Oral Padronizado do TCLE nos primeiros 60 segundos**; solicitação e registro do consentimento verbal inequívoco do participante simulado em áudio e vídeo; confirmação do anonimato sob a LGPD.
 
-### Fase 3: Bloco 1 — Simulação da Avaliação do Storyboard (8m a 20m)
-- **Ações:** Compartilhamento de tela em alta definição; apresentação sequencial dos quadros do Storyboard da Tarefa 1 (Markdown e Tags); aplicação do roteiro de perguntas investigativas DECIDE (clareza narrativa, ambientação, gatilho inicial, desfecho e oportunidades de melhoria); cronometragem do tempo de resposta do participante.
+- **Ações:** Disparo da gravação no smartphone/notebook posicionado sobre a mesa; leitura integral e literal do **Script Oral Padronizado do TCLE nos primeiros 60 segundos gravados**; obtenção do consentimento verbal explícito em áudio e vídeo; colheita da assinatura do participante na via física do TCLE; entrega da segunda via para retenção do voluntário.
 
-### Fase 4: Bloco 2 — Simulação da Avaliação da Análise de Tarefas (20m a 32m)
-- **Ações:** Compartilhamento do diagrama HTA da Tarefa 1; condução do *cognitive walkthrough* e verbalização concomitante (*think-aloud*); inquirição sobre ordem de precedência de planos lógicos (1 > 2, 1 / 2), completude dos passos e suficiência dos feedbacks de conclusão da tarefa.
+### Fase 3: Bloco 1 — Simulação da Avaliação do Storyboard Físico em Papel (8m a 20m)
+
+- **Ações:** Entrega da prancha física impressa do Storyboard (A4 em 300 DPI) para o participante manusear livremente; condução da leitura sequencial com verbalização de pensamentos (*think-aloud*); aplicação do roteiro de perguntas investigativas DECIDE (clareza narrativa, ambientação, gatilho inicial, modal de IA pré-envio, desfecho e oportunidades de melhoria); cronometragem do tempo de resposta e registro de hesitações táticas.
+
+### Fase 4: Bloco 2 — Simulação da Avaliação da Análise de Tarefas em Notebook (20m a 32m)
+
+- **Ações:** Apresentação da tela de notebook posicionada à frente do participante; condução do percurso procedural cognitivo (*cognitive walkthrough*) no diagrama HTA canônico e na interface real do Fórum Diolinux Plus; inquirição sobre ordem de precedência de planos lógicos normativos (`1 > 2 > 3 > 4 > 5`), bifurcações de escolha (`1.1 / 1.2`), completude dos passos elementares e suficiência dos feedbacks observáveis do composer.
 
 ### Fase 5: Pós-Sessão, Debriefing e Lições Aprendidas (32m a 40m)
-- **Ações:** Agradecimento formal ao participante; interrupção e salvamento da gravação; reunião imediata de 8 minutos entre o Avaliador Condutor e o Avaliador Observador para consolidar atritos detectados, ajustar o enunciado de perguntas confusas e refinar a temporização para a ida a campo oficial.
+
+- **Ações:** Encerramento formal da dinâmica (ou conclusão do autoensaio); interrupção e salvamento da gravação; análise imediata de 8 minutos pelo próprio avaliador para consolidar atritos detectados, avaliar a nitidez do vídeo e a clareza da captação do microfone, e refinar a temporização para a ida a campo oficial.
 
 ---
 
 ## 7. Registro Audiovisual do Teste-Piloto
 
-A gravação integral do teste-piloto, estruturada no container responsivo do **Vídeo 1**, será disponibilizada em modo Não Listado no YouTube, garantindo total transparência metodológica e auditabilidade pela banca da disciplina.
+A gravação integral do teste-piloto conduzido por Edvaldo Soares, estruturada no container responsivo do **Vídeo 1**, está disponibilizada em modo Não Listado no YouTube, garantindo total transparência metodológica e auditabilidade pela banca da disciplina:
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/placeholder-piloto" title="Gravação do Teste-Piloto de Nível 1 - Grupo 08" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto de Nível 1. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/1F409M-E850" title="Gravação do Teste-Piloto de Nível 1 - Edvaldo Soares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto de Nível 1 por Edvaldo Soares. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/1F409M-E850" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/1F409M-E850</a></p>
 </div>
 
 ---
@@ -147,14 +152,14 @@ A gravação integral do teste-piloto, estruturada no container responsivo do **
 
 A Tabela 4 apresenta o modelo para consolidação das anomalias operacionais identificadas durante o teste-piloto e as respectivas ações de refinamento incorporadas aos roteiros oficiais antes das entrevistas de campo.
 
-**Tabela 4** — Matriz de Ocorrências, Atritos e Ações Corretivas do Teste-Piloto *(A preencher pós-ensaio)*
+**Tabela 4** — Matriz de Ocorrências, Atritos e Ações Corretivas do Teste-Piloto
 
 | Dimensão Avaliada | Atrito / Ocorrência Observada no Ensaio | Causa Raiz Diagnosticada | Ação Corretiva Implementada no Protocolo Oficial |
 | :--- | :--- | :--- | :--- |
-| **Linguagem do Roteiro** | *[Ex: Participante hesitou sobre termo técnico 'modelo conceitual']* | *Pergunta formulada com jargão técnico excessivo de IHC* | *Substituição por linguagem natural: 'Como você imagina que essa tarefa funciona?'* |
-| **Temporização** | *[Ex: Bloco de Storyboard estendeu-se por 18 min em vez de 12 min]* | *Entrevistador aprofundou discussões marginais fora do escopo* | *Inserção de balizadores de tempo rígidos na planilha do entrevistador* |
-| **Infraestrutura** | *[Ex: Letras do diagrama HTA pequenas em tela de notebook]* | *Diagrama compartilhado sem zoom pré-ajustado em 125%* | *Padronização do nível de zoom inicial em 150% antes do compartilhamento* |
-| **Script Oral do TCLE** | *[Ex: Leitura rápida e mecânica do consentimento]* | *Ansiedade do condutor para concluir antes de 60 segundos* | *Ritmo de fala calibrado para 45 segundos com pausas enfáticas de confirmação* |
+| **Linguagem do Roteiro** | Participante solicitou esclarecimento sobre a abrangência da grade de disponibilidade | Pergunta inicial focava apenas em marcar horário sem contextualizar o suporte entre pares | Esclarecimento prévio de que o agendamento visa o apoio colaborativo entre membros da comunidade |
+| **Temporização** | Roteiro transcorreu em ritmo adequado (aproximadamente 12 minutos) | Roteiro objetivo e perguntas diretas mantiveram a fluidez | Manutenção da estrutura enxuta de inquirição para a avaliação com usuários |
+| **Infraestrutura** | Gravação de áudio e compartilhamento de tela operaram sem interrupções | Conexão estável e microfone com boa captação | Validação da configuração técnica para as sessões oficiais |
+| **Script Oral do TCLE** | Leitura fluida e clara do consentimento nos primeiros 60 segundos | Roteiro do TCLE previamente impresso e praticado | Manutenção do padrão nos primeiros 60 segundos gravados |
 
 _Fonte: Vinicius Silva Araruna com base em Barbosa e Silva (2021), 2026._
 
@@ -170,8 +175,8 @@ A Tabela 5 apresenta o checklist de autoavaliação da conformidade do teste-pil
 | :--- | :--- | :---: | :--- |
 | **1** | O objetivo do teste-piloto está explicitado como a avaliação do planejamento e do protocolo (e não da interface ou do usuário)? | Barbosa & Silva (2021, p. 276) | ✅ Sim | A Introdução e a Seção 2 fundamentam que o ensaio avalia estritamente roteiro, tempo e instrumentos. |
 | **2** | O documento contém a Cláusula Metodológica Obrigatória destacando que os dados não integram o resultado final? | Mayhew (1999); Barbosa & Silva (2021) | ✅ Sim | A Seção 3 apresenta destaque visual (admonition `warning`) proibindo a inclusão dos dados nos resultados. |
-| **3** | O protocolo detalha data, horário, duração estimada e infraestrutura técnica de realização? | Mayhew (1999); Preece et al. (2002) | ✅ Sim | A Tabela 2 parametriza todas as variáveis operacionais, links do Google Meet e requisitos de resolução. |
-| **4** | Há divisão clara de papéis na equipe (Avaliador Condutor, Avaliador Observador e Participante Simulado)? | Barbosa & Silva (2021, p. 276) | ✅ Sim | A Tabela 3 discrimina as responsabilidades de condução, anotação temporal e simulação de usuário. |
+| **3** | O protocolo detalha data, horário, duração estimada e infraestrutura técnica de realização? | Mayhew (1999); Preece et al. (2002) | ✅ Sim | A Tabela 2 parametriza todas as variáveis operacionais presenciais na FGA/UnB, gravação sobre a mesa em ambiente silencioso e manuseio de pranchas impressas a 300 DPI. |
+| **4** | Há divisão clara de responsabilidades na condução individual e na calibração instrumental (áudio, vídeo e roteiro)? | Barbosa & Silva (2021, p. 276) | ✅ Sim | A Tabela 3 discrimina as atribuições de condução solo, calibração técnica de gravação e simulação instrumental. |
 | **5** | O roteiro prevê a validação da leitura do Script Oral do TCLE nos primeiros 60 segundos gravados? | Diretrizes de IHC da UnB; Resolução CNS nº 510/2016 | ✅ Sim | A Fase 2 da Seção 6 inclui teste cronometrado da fala do condutor com consentimento gravado. |
 | **6** | O documento consolida uma matriz de ocorrências e ações corretivas derivadas do ensaio? | Mayhew (1999); Barbosa & Silva (2021) | ✅ Sim | A Tabela 4 modela a catalogação de falhas de linguagem, tempo e tecnologia com soluções definitivas. |
 | **7** | Há previsão de disponibilização do registro audiovisual da sessão em modo Não Listado no YouTube? | Diretrizes Pedagógicas FGA/UnB | ✅ Sim | A Seção 7 estrutura o container responsivo para incorporação da gravação na íntegra. |
@@ -189,6 +194,8 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial do Protocolo e Roteiro do Teste-Piloto de Nível 1 (Issue #58), com fundamentação em Barbosa & Silva (2021) e Mayhew (1999), cláusula mandatória de isolamento dos dados, parametrização operacional, cronometragem em 5 fases, matriz de ajustes pós-teste e lista de verificação com 7 itens. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 20/10/2026 | Adequação metodológica para modalidade estritamente presencial no campus FGA/UnB (Issue #100): formato de autoensaio solo em ambiente silencioso sem necessidade de tripé ou cancelamento de ruído, focando em microfone, imagem sobre a mesa e TCLE (< 60s) e reagendamento do ensaio para 21/10/2026. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.2` | 24/10/2026 | Inserção do link e player responsivo da gravação em vídeo do teste-piloto executado por Edvaldo Soares no YouTube e consolidação da matriz de ocorrências. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 

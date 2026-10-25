@@ -106,7 +106,7 @@ As especificações de estilo atendem de forma balanceada às três personas map
 O catálogo de componentes e regras de interação foi calibrado diretamente a partir das três tarefas essenciais analisadas pelo grupo:
 
 * **Tarefa 1: Criação e Publicação de Tópico com Tags e Markdown (HTA/KLM)**:
-  * O editor de texto de tela dividida (*side-by-side split screen*) com pré-visualização em tempo real e barra de ferramentas rica reduz os operadores mentais ($M$) e motores ($K, P$) modelados no KLM. O salvamento contínuo em segundo plano (rascunho automático) mitiga o estresse cognitivo do usuário.
+  * O editor de texto de tela dividida (*side-by-side split screen*) com pré-visualização em tempo real e barra de ferramentas rica reduz os operadores mentais (M) e motores (K, P) modelados no KLM. O salvamento contínuo em segundo plano (rascunho automático) mitiga o estresse cognitivo do usuário.
 * **Tarefa 2: Cadastro e Onboarding do Novo Usuário (HTA/CTT)**:
   * Formulários com validação inline instantânea e mensagens semânticas em cores acessíveis eliminam barreiras operacionais no onboarding, acolhendo o iniciante (Carlos Eduardo) com clareza nos requisitos de senha e preenchimento de perfil.
 * **Tarefa 3: Busca Avançada e Filtros de Categoria (HTA/CMN-GOMS)**:
@@ -408,6 +408,7 @@ A **Tabela 10** documenta a evolução histórica das versões deste artefato.
 | `1.0` | 05/10/2026 | Elaboração inicial do Guia de Estilo com paleta básica de cores, escala tipográfica e catálogo preliminar de botões e caixas de busca | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Araruna](https://github.com/ViniciusA05) |
 | `1.1` | 20/10/2026 | Validação de conformidade das razões de contraste sob critérios WCAG 2.1 e atualização inicial da tabela de contribuição (#45) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.0` | 21/10/2026 | Reestruturação integral do artefato segundo as 6 seções canônicas de Mayhew (1999); integração da fundamentação teórica com fotos do livro; mapeamento com as personas Lucas, Carlos e Mariana e tarefas HTA/GOMS; catálogo completo de estados de botões e atalhos de teclado do Discourse; correção de legendas e chamadas de todas as figuras; inclusão da lista de verificação com 10 itens e compilação do relatório oficial em PDF (#45) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `2.1` | 25/10/2026 | Saneamento de tipografia limpa UTF-8 eliminando delimitadores LaTeX crus em operadores mentais e motores do KLM e sincronização com a develop (#45) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

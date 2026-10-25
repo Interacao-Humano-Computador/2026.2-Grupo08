@@ -8,9 +8,9 @@ A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas util
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Modelagem da Tarefa 3 com HTA e GOMS/KLM](#tarefa-3-busca-avancada-e-filtros-de-categoria-edvaldo-soares) com apoio de IA generativa; validação empírica pendente. | 26/09/2026 | LLM: apoio na estruturação HTA/GOMS/KLM; revisar e validar com usuários |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual da Tarefa 2 (Cadastro e Onboarding)](#tarefa-2-cadastro-e-onboarding-do-novo-usuario-gustavo-antonio) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, adequação da notação HTA canônica, modelagem CMN-GOMS e inclusão de IA semântica pré-envio na Tarefa 1](#tarefa-1-criacao-e-publicacao-de-topico-com-tags-e-markdown-vinicius-silva-araruna) | 20/10/2026 | Apoio na estruturação sintática Markdown e revisão de conformidade com Barbosa & Silva (2021) |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Modelagem e especificação integral da Tarefa 2: Criação de Eventos Presenciais (HTA e CTT) com Enquete e Quórum Mínimo](#tarefa-2-criacao-de-eventos-presenciais-da-comunidade-gustavo-antonio) | 22/10/2026 | Gemini: suporte na estruturação das tabelas e sintaxe dos diagramas Mermaid |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Modelagem da Tarefa 3 com HTA e CTT](#tarefa-3-agendamento-de-horarios-de-duvidas-e-mentorias-na-grade-de-disponibilidade-edvaldo-soares) (Grade de Disponibilidade e Agendamento comunitário). | 22/10/2026 | LLM: apoio na modelagem conceitual HTA/CTT e sintaxe dos diagramas Mermaid. |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -53,11 +53,11 @@ A Tabela 1 apresenta a visão sistêmica da divisão das tarefas prioritárias d
 
 **Tabela 1** — Mapeamento de atribuição das tarefas e técnicas adotadas
 
-| Tarefa Analisada | Técnicas Empregadas | Autor Responsável | Revisor |
+| **Tarefa Analisada** | **Técnicas Empregadas** | **Autor Responsável** | **Revisor** |
 | :--- | :--- | :--- | :--- |
 | **Tarefa 1**: Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown | HTA Canônica (Diagrama + Tabela 8.4) + CMN-GOMS (com Módulo de IA Semântica Pré-Envio) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
-| **Tarefa 2**: Cadastro e Onboarding do Novo Usuário | HTA (Diagrama + Tabela) + CTT | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-| **Tarefa 3**: Busca Avançada e Filtros de Categoria | HTA (Diagrama + Tabela) + GOMS/CMN-GOMS | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| **Tarefa 2**: Criação de Eventos Presenciais (Sondagem, Quórum e Agendamento) | HTA Canônica (Diagrama + Tabela 8.4) + CTT | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| **Tarefa 3**: Agendamento de Horário para Dúvidas e Mentorias (Grade de Disponibilidade) | HTA (Diagrama + Tabela) + CTT | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -262,15 +262,35 @@ A decomposição formal em CMN-GOMS fundamenta conclusões de fatores humanos de
 
 ---
 
-## Tarefa 2: Cadastro e Onboarding do Novo Usuário (Gustavo Antonio)
+## Tarefa 2: Criação de Eventos Presenciais da Comunidade (Gustavo Antonio)
 
 - **Autor Principal**: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
-- **Revisor**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
+- **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
 - **Técnicas Adotadas**: HTA (Análise Hierárquica de Tarefas) e CTT (Árvores de Tarefas Concorrentes)
+- **Objeto de Análise**: Fluxo de criação e publicação de eventos presenciais da comunidade (meetups, workshops, hackathons), abrangendo desde a iniciativa do organizador, inserção de programação e mídias, geolocalização com mapas e lotação física, até a precificação/gestão de ingressos (gratuitos ou pagos) e publicação integrada.
 
-### 1. Modelagem HTA (Análise Hierárquica de Tarefas)
+### 1. Especificação da Aplicação da Funcionalidade no Sistema
 
-A Figura 4 apresenta o diagrama hierárquico da Tarefa 2 elaborado na notação canônica de Annett e Duncan.
+A funcionalidade **Criação de Eventos Presenciais (CF02)** proporciona um fluxo completo de gerenciamento de encontros comunitários no mundo real, estruturado em cinco etapas operacionais:
+
+1. **Ponto de Entrada e Descoberta:**
+   - Botão de destaque **"+ Criar Evento"** localizado no Hub/Calendário de Eventos da plataforma ou via atalho no menu de perfil do organizador (*"Meus Eventos > Novo"*).
+2. **Dados Gerais e Programação:**
+   - Título, categorias temáticas, upload de banner de divulgação (com compressão no front-end) e ementa do evento com blocos modulares de cronograma/palestrantes sem depender de formatação em texto puro.
+3. **Local Físico, Geolocalização e Lotação:**
+   - Busca de endereço assistida por autocompletar integrado a mapas (*OpenStreetMap/Google Maps*), ajuste fino de marcador visual, referências detalhadas de sala/auditório e definição da lotação máxima do espaço físico (com opção de lista de espera).
+4. **Configuração de Ingressos e Pagamento:**
+   - Suporte a eventos gratuitos (com cota máxima por usuário para evitar abusos) ou eventos com taxa de rateio de custos/ingresso pago (com discriminação transparente de taxas e checkout via Pix/Gateway).
+5. **Revisão, Salvamento e Publicação:**
+   - Pré-visualização responsiva (mobile e desktop), salvamento automático contínuo de rascunhos para prevenção de perda de dados e emissão imediata de link público e QR Code para check-in.
+
+---
+
+### 2. Modelagem HTA (Análise Hierárquica de Tarefas)
+
+A Figura 4 apresenta o diagrama hierárquico da Tarefa 2 elaborado na notação canônica de Annett e Duncan (1967) e Barbosa e Silva (2021).
+
+![Diagrama HTA - Criação e Publicação de Evento Presencial da Comunidade](../assets/referencias/hta_criacao_eventos_presenciais_cf02.png)
 
 ```mermaid
 graph TD
@@ -279,102 +299,174 @@ graph TD
     classDef op fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#E2E8F0;
     classDef plan fill:#475569,stroke:#F59E0B,stroke-width:1.5px,color:#FEF3C7;
 
-    G0["0. Realizar Cadastro e Onboarding no Fórum Diolinux Plus"]:::goal
-    P0["Plano 0: 1 depois 2 depois 3 e opcionalmente 4"]:::plan
+    G0["0. Criar e Publicar Evento Presencial da Comunidade"]:::goal
+    P0["Plano 0: 1 > 2 > 3 > 4 > 5"]:::plan
 
     G0 --> P0
-    P0 --> G1["1. Iniciar o processo de Cadastro"]:::sub
-    P0 --> G2["2. Preencher o Formulário de Inscrição"]:::sub
-    P0 --> G3["3. Validar a Conta de Usuário"]:::sub
-    P0 --> G4["4. Interagir com o Onboarding do Discobot"]:::sub
+    P0 --> G1["1. Iniciar Criação do Evento"]:::sub
+    P0 --> G2["2. Informar Dados Gerais e Programação"]:::sub
+    P0 --> G3["3. Definir Local Físico e Capacidade"]:::sub
+    P0 --> G4["4. Configurar Ingressos e Pagamento"]:::sub
+    P0 --> G5["5. Revisar e Publicar Evento"]:::sub
 
-    P1["Plano 1: 1.1"]:::plan
+    P1["Plano 1: 1.1 / 1.2"]:::plan
     G1 --> P1
-    P1 --> O11["1.1 Clicar em 'Cadastrar' na barra superior"]:::op
+    P1 --> O11["1.1 Clicar em '+ Criar Evento' no Hub de Eventos"]:::op
+    P1 --> O12["1.2 Selecionar 'Novo Evento' no menu do perfil"]:::op
 
-    P2["Plano 2: 2.1 depois 2.2 depois 2.3 depois 2.4"]:::plan
+    P2["Plano 2: (2.1 + 2.2 + 2.3) > 2.4"]:::plan
     G2 --> P2
-    P2 --> O21["2.1 Informar o E-mail"]:::op
-    P2 --> O22["2.2 Criar um Nome de Usuário"]:::op
-    P2 --> O23["2.3 Criar uma Senha forte"]:::op
-    P2 --> O24["2.4 Clicar em 'Criar Conta'"]:::op
+    P2 --> O21["2.1 Inserir título e categoria temática"]:::op
+    P2 --> O22["2.2 Redigir descrição e cronograma com editor"]:::op
+    P2 --> O23["2.3 Fazer upload do banner de divulgação"]:::op
+    P2 --> O24["2.4 Selecionar datas de início e término e fuso horário"]:::op
 
-    P3["Plano 3: 3.1 depois 3.2"]:::plan
+    P3["Plano 3: 3.1 > (3.2 / 3.3) > 3.4"]:::plan
     G3 --> P3
-    P3 --> O31["3.1 Acessar a caixa de entrada do e-mail"]:::op
-    P3 --> O32["3.2 Clicar no link de ativação da conta"]:::op
+    P3 --> O31["3.1 Digitar endereço do local da atividade"]:::op
+    P3 --> O32["3.2 Selecionar ponto no mapa integrado"]:::op
+    P3 --> O33["3.3 Inserir referências adicionais de sala/bloco"]:::op
+    P3 --> O34["3.4 Estipular lotação máxima do espaço físico"]:::op
 
-    P4["Plano 4: 4.1 depois (4.2 ou 4.3)"]:::plan
+    P4["Plano 4: 4.1 > (4.2 / 4.3)"]:::plan
     G4 --> P4
-    P4 --> O41["4.1 Abrir a mensagem de boas-vindas do Discobot"]:::op
-    P4 --> O42["4.2 Seguir as instruções interativas do tutorial"]:::op
-    P4 --> O43["4.3 Ignorar o tutorial e ir para a Home"]:::op
+    P4 --> O41["4.1 Escolher modalidade do evento (Gratuito ou Pago)"]:::op
+    P4 --> O42["4.2 Configurar emissão gratuita e limite por participante"]:::op
+    P4 --> O43["4.3 Configurar lote pago, chave de repasse e checkout"]:::op
+
+    P5["Plano 5: 5.1 > 5.2 > 5.3"]:::plan
+    G5 --> P5
+    P5 --> O51["5.1 Visualizar prévia responsiva do evento"]:::op
+    P5 --> O52["5.2 Confirmar publicação no painel"]:::op
+    P5 --> O53["5.3 Obter link de divulgação e QR Code de check-in"]:::op
 ```
 
-**Figura 4** — Diagrama HTA da tarefa de Cadastro e Onboarding.  
+**Figura 4** — Diagrama HTA da tarefa de Criar e Publicar Evento Presencial da Comunidade.  
 _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
 
-A Tabela 6 apresenta a decomposição hierárquica tabular da Tarefa 2.
+A Tabela 6 apresenta a decomposição hierárquica tabular da Tarefa 2 estritamente no **formato canônico da Tabela 8.4 de Barbosa & Silva (2021, p. 165–166)**, contendo as tuplas de ⟨*input*, *ação*, *feedback*, *plano*⟩ e *problemas e recomendações* de IHC.
 
-**Tabela 6** — Decomposição tabular da Tarefa 2 (Cadastro e Onboarding)
+**Tabela 6** — Decomposição tabular da Tarefa 2: Criar e Publicar Evento Presencial (Formato Canônico: Tabela 8.4 de Barbosa & Silva)
 
-| Identificador | Nome do Objetivo / Operação | Relação / Plano | Problemas de Usabilidade | Recomendações |
-| :--- | :--- | :--- | :--- | :--- |
-| **0** | **Realizar Cadastro e Onboarding** | **Plano 0**: 1, 2, 3 e opcionalmente 4. | O onboarding pode ser evasivo para usuários com pressa. | Opção clara de "Pular tutorial" na primeira tela. |
-| **1** | **Iniciar o processo de Cadastro** | **Plano 1**: Executar 1.1. | Botão pode não ter destaque suficiente em telas menores. | Usar cor de contraste maior para "Cadastrar". |
-| 1.1 | Clicar em "Cadastrar" | Operação física | N/A | N/A |
-| **2** | **Preencher o Formulário** | **Plano 2**: Executar 2.1 a 2.4 em ordem. | Falta de feedback imediato de nome de usuário em uso. | Validação assíncrona (AJAX) do nome enquanto digita. |
-| 2.1 | Informar o E-mail | Operação motora | N/A | N/A |
-| 2.2 | Criar um Nome de Usuário | Operação cognitiva | Dificuldade em achar nomes livres. | Sugerir nomes com base no e-mail fornecido. |
-| 2.3 | Criar uma Senha forte | Operação cognitiva | Regras de senha só aparecem após o erro. | Mostrar requisitos de senha visíveis o tempo todo. |
-| 2.4 | Clicar em 'Criar Conta' | Operação física | N/A | N/A |
-| **3** | **Validar a Conta** | **Plano 3**: Executar 3.1 e 3.2. | E-mail cai na caixa de spam com frequência. | Aviso explícito para verificar a pasta de Spam. |
-| 3.1 | Acessar o e-mail | Operação navegação | N/A | N/A |
-| 3.2 | Clicar no link de ativação | Operação física | Link longo quebra em alguns clientes de e-mail. | Usar botão HTML em vez de link de texto longo. |
-| **4** | **Interagir com o Onboarding** | **Plano 4**: 4.1 depois (4.2 ou 4.3). | O Discobot não explica o tempo médio do tutorial. | Indicar "Duração: 3 minutos" na mensagem. |
-| 4.1 | Abrir a mensagem de boas-vindas | Operação navegação | N/A | N/A |
-| 4.2 | Seguir as instruções interativas | Operação cognitiva | Pode ser tedioso para usuários experientes. | Permitir finalizar a qualquer momento e ganhar o badge. |
-| 4.3 | Ignorar o tutorial e ir para a Home | Operação de escape | A notificação da mensagem fica pendente. | Botão "Marcar como lido" no topo. |
+| Objetivos / Operações | Problemas e Recomendações de IHC |
+| :--- | :--- |
+| **0. Criar e Publicar Evento Presencial da Comunidade** `1>2>3>4>5`<br>**input**: Membro autenticado da comunidade com permissão de organizador desejando promover encontro presencial (meetup, hackathon, workshop).<br>**feedback**: Página pública do evento criada com mapa interativo, lote de ingressos ativo e tópico de discussão vinculado no fórum.<br>**plano**: Iniciar criação (1), preencher dados e programação (2), definir local e lotação (3), configurar ingressos/pagamento (4) e revisar/publicar (5). | **recomendação**: Salvar rascunho automaticamente a cada etapa para prevenir perda de dados por fechamento acidental de aba ou falha de conectividade. |
+| **1. Iniciar Criação do Evento** `1.1 / 1.2`<br>**plano**: Clicar no botão principal de criação no calendário de eventos (1.1) ou acessar atalho no menu de perfil do organizador (1.2). | |
+| **1.1 Clicar em "+ Criar Evento" no Hub de Eventos**<br>**ação**: Acionar botão com destaque visual primário na área de Eventos. | **problema**: Se a aba "Eventos" estiver escondida na navegação secundária, novos organizadores não encontram o recurso.<br>**recomendação**: Inserir botão de fácil acesso no topo da barra de navegação global. |
+| **1.2 Selecionar no menu do perfil**<br>**ação**: Abrir menu dropdown do avatar e clicar em "Meus Eventos > Novo". | **problema**: Excesso de níveis de menu pode ocultar a ação rápida.<br>**recomendação**: Manter o atalho direto no primeiro nível do menu de perfil do usuário. |
+| **2. Informar Dados Gerais e Programação** `(2.1 + 2.2 + 2.3) > 2.4`<br>**input**: Formulário estruturado de cadastro de evento.<br>**feedback**: Campos validados com contador de caracteres e prévia do banner renderizada.<br>**plano**: Preencher título (2.1), descrição (2.2) e banner (2.3) em ordem livre (2.1 + 2.2 + 2.3), seguido da definição obrigatória de datas/horários (2.4). | |
+| **2.1 Inserir título e categoria temática**<br>**ação**: Digitar nome do evento e selecionar tags temáticas (ex: Linux, Hardware, DevOps). | **problema**: Títulos vagos geram eventos desordenados e de difícil indexação.<br>**recomendação**: Exibir placeholder com exemplo claro: "Ex: 1º Meetup Linux & Kernel de Brasília". |
+| **2.2 Redigir descrição e cronograma**<br>**ação**: Inserir a ementa das palestras e horários usando o editor rico. | **problema**: Dificuldade em formatar tabelas de horários em Markdown para quem não domina a sintaxe.<br>**recomendação**: Oferecer um componente visual "Adicionar Bloco de Horário/Palestrante" sem depender de texto puro. |
+| **2.3 Upload do banner de divulgação**<br>**ação**: Selecionar imagem JPG/PNG nos padrões de dimensão recomendados. | **problema**: Imagens muito pesadas falham sem aviso de limite de tamanho em megabytes.<br>**recomendação**: Compressão automática no front-end e indicação visual das dimensões ideais (1200x630px). |
+| **2.4 Selecionar data e horários**<br>**ação**: Preencher data de início, término e fuso horário da atividade. | **problema**: Usuário pode acidentalmente colocar horário de término anterior ao início.<br>**recomendação**: Validação bloqueante imediata que ajusta a data final automaticamente caso seja anterior à inicial. |
+| **3. Definir Local Físico e Capacidade** `3.1 > (3.2 / 3.3) > 3.4`<br>**input**: Painel de geolocalização e controle de capacidade.<br>**feedback**: Marcador (pin) posicionado no mapa com endereço formatado e limite de vagas definido.<br>**plano**: Digitar endereço (3.1), confirmar ponto no mapa (3.2) ou detalhar sala (3.3), e estipular lotação (3.4). | |
+| **3.1 Digitar endereço do local da atividade**<br>**ação**: Digitar rua, número, bairro e cidade no campo de busca de locais. | **problema**: Digitação incorreta gera erros de geocodificação no mapa.<br>**recomendação**: Autocomplete integrado com API de mapas (*OpenStreetMap / Google Maps*). |
+| **3.2 Selecionar ponto no mapa**<br>**ação**: Ajustar marcador visual no mapa interativo arrastando o pin.<br>**feedback**: Coordenadas atualizadas e rota estimada visível. | **problema**: Usuário perder o ponto de referência ao arrastar o mapa sem zoom adequado.<br>**recomendação**: Botão para "Recentralizar no endereço digitado". |
+| **3.3 Inserir referências adicionais de sala/bloco**<br>**ação**: Informar sala, andar, bloco universitário ou ponto de referência. | **recomendação**: Campo com tooltip explicativo: "Especialmente útil para auditórios e salas dentro de universidades ou coworkings". |
+| **3.4 Estipular lotação máxima do espaço físico**<br>**ação**: Definir número total de assentos e capacidade física suportada. | **problema**: Falta de clareza sobre o que acontece quando a lotação atinge 100%.<br>**recomendação**: Checkbox opcional: "Habilitar lista de espera automática quando esgotar as vagas". |
+| **4. Configurar Ingressos e Pagamento** `4.1 > (4.2 / 4.3)`<br>**input**: Painel de precificação e tipos de tíquete.<br>**feedback**: Resumo de taxas exibido e lote de ingressos validado.<br>**plano**: Escolher entre evento gratuito ou pago (4.1), procedendo para a emissão sem custo (4.2) ou configuração de checkout (4.3). | |
+| **4.1 Escolher modalidade do evento (Gratuito ou Pago)**<br>**ação**: Selecionar via botão de alternância (Toggle / Abas): "Gratuito" ou "Pago". | **problema**: Confusão entre eventos com taxa de rateio de custos e eventos com fins lucrativos.<br>**recomendação**: Explicação contextual sobre modalidades de ingressos. |
+| **4.2 Configurar emissão gratuita e limite por participante**<br>**ação**: Definir limite de ingressos gratuitos por participante (ex: máx. 2 por CPF/usuário).<br>**feedback**: Emissão direta via e-mail sem etapa de cobrança financeira. | **problema**: Esgotamento rápido por cadastros automatizados ou reservas fantasmas.<br>**recomendação**: Exigência de conta validada na comunidade para emissão de lote gratuito. |
+| **4.3 Configurar lote pago, chave de repasse e checkout**<br>**ação**: Inserir preço unitário, datas de virada de lote e chave Pix/Gateway de repasse. | **problema**: Falta de transparência imediata sobre taxas de intermediação financeira retidas.<br>**recomendação**: Exibir demonstrativo em tempo real: "Valor do ingresso: R$ 20,00 | Taxa retida: R$ 1,50 | Valor a receber por vaga: R$ 18,50". |
+| **5. Revisar e Publicar Evento** `5.1 > 5.2 > 5.3`<br>**input**: Dados de todas as etapas preenchidos com sucesso.<br>**feedback**: Modal de confirmação/celebração, link curto público gerado e criação automática de tópico no fórum.<br>**plano**: Visualizar prévia (5.1), confirmar publicação (5.2) e obter materiais de divulgação (5.3). | |
+| **5.1 Visualizar prévia responsiva do evento**<br>**ação**: Inspecionar a página como ela aparecerá para os participantes no celular e no desktop. | **problema**: Organizador notar erros visuais apenas após a publicação.<br>**recomendação**: Botão "Voltar e Editar" direto da tela de prévia sem perda do preenchimento. |
+| **5.2 Confirmar publicação no painel**<br>**ação**: Acionar botão "Publicar Evento Agora".<br>**feedback**: Mensagem de sucesso com criação simultânea do tópico "Discussão Oficial do Evento" na categoria correspondente da comunidade. | **problema**: Duplo clique acidental causando publicações duplicadas.<br>**recomendação**: Desabilitar o botão com estado de *loading* após o primeiro acionamento. |
+| **5.3 Obter link de divulgação e QR Code de check-in**<br>**ação**: Copiar URL curta ou baixar QR Code para validação de entrada no dia do encontro. | **problema**: Organizador não salvar o material no momento da publicação e ter dificuldade de reencontrar.<br>**recomendação**: Enviar kit de divulgação e credencial mestre do organizador automaticamente por e-mail. |
 
-_Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
+_Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026. Estruturada segundo o modelo canônico da Tabela 8.4 de Barbosa & Silva (2021)._
 
-### 2. Modelagem CTT (Árvores de Tarefas Concorrentes)
-
-O CTT (*Concurrent Task Trees*), formalizado por Paternò (2000), é utilizado para modelar interações concorrentes e papéis de tarefas (usuário, sistema, interação, abstrata). A seguir, a descrição textual hierárquica do modelo CTT para a Tarefa 2.
-
-*   **T1 (Abstrata):** Realizar Cadastro e Onboarding
-    *   **T1.1 (Interação):** Acessar a tela de Cadastro `>>` (Habilita)
-    *   **T1.2 (Abstrata):** Efetuar Inscrição `>>` (Habilita)
-        *   **T1.2.1 (Interação):** Preencher Dados do Formulário
-            *   **T1.2.1.1 (Usuário):** Digitar e-mail `|||` (Concorrência *interleave*) **T1.2.1.2 (Usuário):** Digitar usuário `|||` **T1.2.1.3 (Usuário):** Digitar senha
-        *   **T1.2.2 (Interação):** Submeter Inscrição `>>` (Habilita)
-        *   **T1.2.3 (Sistema):** Validar Dados e Enviar E-mail de Ativação `>>` (Habilita)
-    *   **T1.3 (Abstrata):** Ativar a Conta `>>` (Habilita)
-        *   **T1.3.1 (Usuário):** Acessar o E-mail Pessoal `>>` (Habilita)
-        *   **T1.3.2 (Interação):** Clicar no link de ativação `>>` (Habilita)
-        *   **T1.3.3 (Sistema):** Ativar Conta e Redirecionar para o Fórum `>>` (Habilita)
-    *   **T1.4 (Abstrata):** Executar Onboarding
-        *   **T1.4.1 (Sistema):** Enviar mensagem de boas-vindas do Discobot `>>` (Habilita)
-        *   **T1.4.2 (Interação):** Escolher interagir ou ignorar `[]` (Escolha exclusiva)
-            *   **T1.4.2.1 (Interação):** Responder ao Discobot `>>` (Habilita)
-                *   **T1.4.2.1.1 (Sistema):** Enviar nova dica (Iterativo)
-            *   **T1.4.2.2 (Interação):** Fechar a mensagem e seguir para Home
-
-Esta modelagem evidencia a forte sincronização necessária entre ações do sistema (envio de e-mail e validação de dados) e do usuário, destacando especialmente a flexibilidade de escolha (*Choice* `[]`) na etapa final de Onboarding (T1.4.2), onde o usuário tem liberdade para seguir fluxos paralelos.
 ---
 
-## Tarefa 3: Busca Avançada e Filtros de Categoria (Edvaldo Soares)
+### 3. Modelagem CTT (Árvores de Tarefas Concorrentes)
+
+O CTT (*Concurrent Task Trees*), formalizado por Paternò (2000), é utilizado para modelar as relações temporais, concorrências e papéis dos atores na tarefa de Criação de Eventos Presenciais.
+
+```mermaid
+graph TD
+    classDef abstract fill:#f0f0f0,stroke:#333,stroke-width:2px;
+    classDef interaction fill:#d1e8ff,stroke:#0055aa,stroke-width:1.5px;
+    classDef user fill:#ffefd5,stroke:#aa5500,stroke-width:1.5px;
+    classDef system fill:#e0ffe0,stroke:#00aa00,stroke-width:1.5px;
+    classDef choice fill:#ffe0e0,stroke:#aa0000,stroke-width:1.5px;
+
+    %% Tarefa Raiz
+    T0["T0: Criar e Publicar Evento Presencial"]:::abstract
+
+    %% Subtarefas Nivel 1
+    T1["T1: Iniciar Criação"]:::abstract
+    T2["T2: Informar Dados e Programação"]:::abstract
+    T3["T3: Definir Local e Lotação"]:::abstract
+    T4["T4: Configurar Ingressos/Pagamento"]:::choice
+    T5["T5: Revisar e Publicar"]:::abstract
+
+    T0 --> T1
+    T0 --> T2
+    T0 --> T3
+    T0 --> T4
+    T0 --> T5
+
+    %% Decomposicao T1 (Escolha de Ponto de Entrada)
+    T1a["T1a: Clicar no botão do Hub de Eventos"]:::interaction
+    T1b["T1b: Acessar menu do perfil"]:::interaction
+    T1 --> T1a
+    T1 --> T1b
+
+    %% Decomposicao T2 (Concorrencia de preenchimento)
+    T2a["T2a: Inserir título e tags"]:::interaction
+    T2b["T2b: Redigir ementa e cronograma"]:::interaction
+    T2c["T2c: Fazer upload de banner"]:::interaction
+    T2d["T2d: Definir datas de início e término"]:::interaction
+    T2 --> T2a
+    T2 --> T2b
+    T2 --> T2c
+    T2 --> T2d
+
+    %% Decomposicao T3 (Geolocalizacao e Capacidade)
+    T3a["T3a: Digitar endereço"]:::interaction
+    T3b["T3b: Posicionar marcador no mapa"]:::interaction
+    T3c["T3c: Informar sala/referência"]:::interaction
+    T3d["T3d: Estipular lotação máxima"]:::user
+    T3 --> T3a
+    T3 --> T3b
+    T3 --> T3c
+    T3 --> T3d
+
+    %% Decomposicao T4 (Escolha de Modalidade)
+    T4a["T4a: Configurar lote gratuito e cotas"]:::interaction
+    T4b["T4b: Configurar lote pago, taxas e Pix"]:::interaction
+    T4 -->|"Gratuito"| T4a
+    T4 -->|"Pago"| T4b
+
+    %% Decomposicao T5 (Publicacao e Conclusao)
+    T5a["T5a: Inspecionar prévia responsiva"]:::user
+    T5b["T5b: Confirmar submissão final"]:::interaction
+    T5c["T5c: Gerar página pública e QR Code"]:::system
+    T5 --> T5a
+    T5 --> T5b
+    T5 --> T5c
+```
+
+#### 3.1 Interpretação do Modelo CTT da Tarefa 2:
+- **T1 `>>` T2 (Acesso Habilita Formulário):** O organizador escolhe o ponto de entrada (`[]` entre Hub ou menu do perfil), habilitando a etapa de preenchimento dos dados.
+- **T2 `|||` T3 (Preenchimento Concorrente e Sequencial):** Os campos descritivos e o banner ocorrem de forma concorrente (`|||`), com salvamento contínuo de rascunhos pelo sistema em segundo plano.
+- **T4 (Ponto de Escolha `[]` de Modalidade):** Alternância exclusiva entre emissão gratuita com limitação de cotas (T4a) ou configuração de lote pago com integração de taxas e gateway (T4b).
+- **T5 (Revisão e Geração de Artefatos):** A inspeção da prévia habilita a confirmação definitiva (T5b), disparando compulsoriamente a criação da página e emissão de QR Code pelo sistema (T5c).
+---
+
+<a id="tarefa-3-agendamento-de-horarios-de-duvidas-e-mentorias-na-grade-de-disponibilidade-edvaldo-soares"></a>
+<a id="tarefa-3-busca-avancada-e-filtros-de-categoria-edvaldo-soares"></a>
+## Tarefa 3: Agendamento de Horário para Dúvidas e Mentorias na Grade de Disponibilidade (Edvaldo Soares)
 
 - **Autor Principal**: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 - **Revisor**: [Vinicius Silva Araruna](https://github.com/ViniciusA05)
-- **Técnicas Adotadas**: HTA (Análise Hierárquica de Tarefas) e GOMS / CMN-GOMS
+- **Técnicas Adotadas**: HTA (Análise Hierárquica de Tarefas) e CTT (Árvores de Tarefas Concorrentes - Paternò)
 
-- **Cenário de uso**: Uma pessoa acessa o fórum para encontrar informações sobre um problema de Wi-Fi no Linux Mint. Antes de criar uma publicação, pesquisa discussões existentes, examina os resultados e avalia se alguma resposta atende à necessidade.
+- **Cenário de uso**: Um usuário aprendiz com dúvidas técnicas complexas (ex: falhas de boot, configuração de drivers ou particionamento de disco) acessa a grade interativa de disponibilidade (estilo *When2meet / Calendly*) disponibilizada por um membro experiente/mentor do Fórum Diolinux Plus, seleciona um bloco de horário vago, descreve a dúvida técnica e confirma a reserva com prevenção de conflitos de agenda e geração de link para sala síncrona.
 - **Status da modelagem**: Proposta analítica inicial; confirmar os passos na interface e validar com participantes antes de caracterizar resultados como empíricos.
 
-#### 1. Modelagem HTA — Análise Hierárquica de Tarefas
+### 1. Modelagem HTA (Análise Hierárquica de Tarefas)
 
-A HTA parte dos objetivos do usuário e os decompõe em subobjetivos, operações e planos. A estrutura abaixo segue Barbosa e Silva (2010, p. 192–196). A Figura 5 apresenta o diagrama hierárquico da decomposição da tarefa.
+A HTA (Annett & Duncan, 1967; Barbosa & Silva, 2021) decompõe o objetivo de alto nível em subobjetivos, planos de execução e operações elementares, explicitando as condições de parada baseadas na relação p × c (probabilidade de falha vs. custo do erro). A Figura 5 apresenta o diagrama hierárquico da decomposição da tarefa.
 
 ```mermaid
 graph TD
@@ -383,187 +475,168 @@ graph TD
     classDef op fill:#0F172A,stroke:#38BDF8,stroke-width:1px,color:#E2E8F0;
     classDef plan fill:#475569,stroke:#F59E0B,stroke-width:1.5px,color:#FEF3C7;
 
-    G0["0. Encontrar uma discussão útil sobre o problema de Wi-Fi no Linux Mint"]:::goal
-    P0["Plano 0: executar 1, 2, 3 e 4; sem resultado útil, executar 5"]:::plan
+    G0["0. Agendar Sessão de Mentoria/Dúvida na Grade de Disponibilidade"]:::goal
+    P0["Plano 0: 1 depois 2 depois 3 depois 4. Se não houver horário, executar 5."]:::plan
     G0 --> P0
-    P0 --> G1["1. Acessar a busca do fórum"]:::sub
-    P0 --> G2["2. Formular e executar a consulta"]:::sub
-    P0 --> G3["3. Examinar os resultados"]:::sub
-    P0 --> G4["4. Avaliar uma discussão candidata"]:::sub
-    P0 --> G5["5. Reformular a busca ou encerrar"]:::sub
-    G1 --> O11["1.1 Localizar e acionar o campo de busca"]:::op
-    G2 --> O21["2.1 Digitar termos relacionados ao problema"]:::op
-    G2 --> O22["2.2 Aplicar filtros de categoria e tag, se disponíveis"]:::op
-    G2 --> O23["2.3 Executar a consulta"]:::op
-    G3 --> O31["3.1 Examinar títulos e trechos dos resultados"]:::op
-    G3 --> O32["3.2 Comparar categoria, tag e data, quando exibidas"]:::op
-    G3 --> O33["3.3 Selecionar um resultado potencialmente relevante"]:::op
-    G4 --> O41["4.1 Abrir a discussão selecionada"]:::op
-    G4 --> O42["4.2 Comparar o problema com a necessidade atual"]:::op
-    G4 --> O43["4.3 Verificar as respostas e uma solução aplicável"]:::op
-    G5 --> O51["5.1 Alterar termos ou rever/remover filtros"]:::op
-    G5 --> O52["5.2 Executar novamente ou encerrar sem resultado"]:::op
+    P0 --> G1["1. Localizar e Abrir a Grade do Mentor"]:::sub
+    P0 --> G2["2. Inspecionar e Selecionar Bloco de Horário Vago"]:::sub
+    P0 --> G3["3. Formular Solicitação e Dados da Dúvida"]:::sub
+    P0 --> G4["4. Confirmar Agendamento e Salvar Convite"]:::sub
+    P0 --> G5["5. Solicitar Encaixe ou Notificação de Nova Grade"]:::sub
+
+    P1["Plano 1: 1.1 ou 1.2"]:::plan
+    G1 --> P1
+    P1 --> O11["1.1 Clicar no botão 'Agendar Horário' no perfil do mentor"]:::op
+    P1 --> O12["1.2 Acessar link direto da grade compartilhado em tópico técnico"]:::op
+
+    P2["Plano 2: 2.1 depois 2.2 e opcionalmente 2.3"]:::plan
+    G2 --> P2
+    P2 --> O21["2.1 Navegar pela matriz semanal de dias e faixas de horários"]:::op
+    P2 --> O22["2.2 Clicar em um bloco verde (status: livre)"]:::op
+    P2 --> O23["2.3 Ajustar fuso horário local se divergente do padrão"]:::op
+
+    P3["Plano 3: 3.1 depois 3.2 e opcionalmente 3.3"]:::plan
+    G3 --> P3
+    P3 --> O31["3.1 Inserir resumo objetivo do problema técnico"]:::op
+    P3 --> O32["3.2 Selecionar plataforma de chamada (Google Meet, Discord, Jitsi)"]:::op
+    P3 --> O33["3.3 Anexar prints ou logs de erro do sistema"]:::op
+
+    P4["Plano 4: 4.1 depois 4.2 e 4.3"]:::plan
+    G4 --> P4
+    P4 --> O41["4.1 Clicar em 'Confirmar Reserva de Horário'"]:::op
+    P4 --> O42["4.2 Verificar mudança visual do bloco para ocupado (bloqueio de conflito)"]:::op
+    P4 --> O43["4.3 Exportar evento para calendário (.ics / Google Calendar)"]:::op
+
+    P5["Plano 5: 5.1 ou 5.2"]:::plan
+    G5 --> P5
+    P5 --> O51["5.1 Enviar mensagem privada sugerindo horário alternativo"]:::op
+    P5 --> O52["5.2 Ativar alerta de novos horários abertos pelo mentor"]:::op
 ```
 
-**Figura 5** — Diagrama HTA da busca de discussão sobre Wi-Fi no Linux Mint.  
+**Figura 5** — Diagrama HTA do agendamento de mentoria e dúvidas na grade de disponibilidade do Fórum Diolinux Plus.  
 _Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
 
-**Plano 0:** acessar a busca, formular e executar a consulta, examinar resultados e avaliar uma discussão candidata. Se nenhum resultado for útil, reformular os termos ou rever os filtros; repetir até encontrar conteúdo aplicável ou encerrar.
+#### Decomposição Hierárquica Tabular
 
-#### 2. Modelagem GOMS e estimativa KLM
+A Tabela 7 detalha a decomposição hierárquica completa, identificando os planos, as operações, os problemas de usabilidade previstos e as recomendações ergonômicas de projeto.
 
-GOMS descreve objetivos, operadores, métodos e regras de seleção. KLM estima o tempo de uma sequência de operadores para um usuário competente que já domina a tarefa e não comete erros. O cálculo abaixo é uma estimativa teórica, não uma medição com participantes (BARBOSA; SILVA, 2010, p. 196–199).
+**Tabela 7** — Decomposição hierárquica tabular da Tarefa 3 (Grade de Disponibilidade e Agendamento)
 
-**Objetivo G0:** localizar uma discussão que possa responder a uma necessidade sobre Wi-Fi no Linux Mint.
+| Identificador | Objetivo / Operação | Relação / Plano | Problemas de Usabilidade Potenciais | Recomendações Ergonômicas (IHC) |
+| :---: | :--- | :--- | :--- | :--- |
+| **0** | **Agendar Sessão de Mentoria/Dúvida na Grade de Disponibilidade** | **Plano 0:** Executar 1, 2, 3 e 4 em sequência ordenada. Se não houver blocos compatíveis, executar 5. | Desistência por falta de horários coincidentes ou receio de exposição. | Exibir claramente as políticas de mentoria e duração do atendimento (ex: 20 ou 30 min). |
+| **1** | **Localizar e Abrir a Grade do Mentor** | **Plano 1:** Executar 1.1 ou 1.2. | Botão de agendamento pouco visível no perfil do Discourse. | Inserir badge destacado "Disponível para Mentoria" ao lado do nome do usuário. |
+| 1.1 | Clicar no botão "Agendar Horário" no perfil | Operação motora | Poluição visual de botões de interação padrão (Mensagem, Seguir, Convidar). | Destacar com cor de contraste primária o botão de mentoria. |
+| 1.2 | Acessar link direto da grade via tópico | Operação de navegação | Links externos quebram o contexto de imersão do fórum. | Abrir a grade em modal integrado (overlay) sem desviar o usuário da leitura do tópico. |
+| **2** | **Inspecionar e Selecionar Bloco de Horário Vago** | **Plano 2:** Executar 2.1, 2.2 e opcionalmente 2.3. | Dificuldade de identificar horários disponíveis se o contraste de cores for baixo. | Usar padrão visual WCAG: Verde com padrão de preenchimento para livre; Cinza hachurado para ocupado. |
+| 2.1 | Navegar pela matriz semanal de dias/horas | Operação visual/cognitiva | Matriz pode exigir rolagem horizontal excessiva em dispositivos móveis. | Design responsivo alternando de matriz ampla para visão em lista de dias no mobile. |
+| 2.2 | Clicar em um bloco livre | Operação motora | Clique acidental em horário vizinho devido a alvos de toque pequenos (Lei de Fitts). | Área mínima de clique de 44x44 px com destaque visual (hover/focus ativo). |
+| 2.3 | Ajustar fuso horário local | Operação cognitiva | Conflito de fusos entre mentor e aprendiz gerando ausência na chamada (*no-show*). | Detecção automática do timezone pelo navegador com aviso explícito de conversão. |
+| **3** | **Formular Solicitação e Dados da Dúvida** | **Plano 3:** Executar 3.1, 3.2 e se necessário 3.3. | Usuários descrevem dúvidas de forma vaga (ex: "meu linux travou"). | Formulário com campos estruturados: "Qual a Distribuição?" e "Descrição do Erro". |
+| 3.1 | Inserir resumo objetivo do problema | Operação de digitação | Usuário não sabe quanto detalhe deve fornecer. | Contador de caracteres e placeholder instrutivo. |
+| 3.2 | Selecionar plataforma de chamada | Operação de seleção | Falta de conta na plataforma escolhida (ex: não ter Discord). | Suporte a link público sem necessidade de conta (ex: Jitsi Meet institucional). |
+| 3.3 | Anexar logs ou capturas de tela | Operação de upload | Limite de tamanho de arquivo opaco ou falha silenciosa. | Indicação em tempo real de formato aceito (.png, .log, .txt) e barra de progresso. |
+| **4** | **Confirmar Agendamento e Salvar Convite** | **Plano 4:** Executar 4.1, 4.2 e 4.3. | Incerteza se o mentor foi notificado. | Feedback imediato: toast de confirmação, card com resumo e envio de mensagem privada automática no fórum. |
+| 4.1 | Clicar em "Confirmar Reserva de Horário" | Operação motora | Concorrência se outro usuário tentar o mesmo slot simultaneamente. | Trava temporária de 3 minutos no slot assim que o usuário abre o modal de preenchimento. |
+| 4.2 | Verificar bloqueio do bloco na grade | Operação perceptual | Ausência de retorno visual imediato gerando múltiplos cliques. | Bloqueio imediato com animação e alteração de estado para "Reservado por você". |
+| 4.3 | Exportar evento para calendário (.ics) | Operação de utilidade | Esquecimento do compromisso agendado. | Botão de 1 clique para "Adicionar ao Google Agenda" e arquivo `.ics` para download. |
+| **5** | **Solicitar Encaixe ou Notificação de Nova Grade** | **Plano 5:** Executar 5.1 ou 5.2. | Frustração ao encontrar toda a grade ocupada. | Mecanismo de lista de espera com notificação automática quando abrir vacância. |
 
-**Método M1 — busca direta com filtros na consulta:**
-
-1. Formular consulta com termos relacionados ao problema.
-2. Incluir filtros de categoria e tag, se forem conhecidos e aceitos pela interface.
-3. Executar a busca.
-4. Examinar os resultados e selecionar um candidato.
-5. Abrir a discussão e avaliar a compatibilidade do conteúdo.
-6. Se nenhum resultado for útil, alterar os termos ou rever os filtros e repetir.
-
-**Regras de seleção:**
-
-- Se o usuário conhece o nome da distribuição ou do componente, inclui esse termo na consulta.
-- Se os resultados forem numerosos ou pouco relacionados, acrescenta um filtro pertinente, desde que compreenda seu efeito.
-- Se não houver resultado útil, remove ou altera um filtro e tenta termos mais amplos.
-- Se encontrar uma discussão compatível, abre o tópico e avalia as respostas.
-- Se nenhuma discussão for aplicável após a reformulação, encerra a busca ou segue para a tarefa de criação de tópico, modelada separadamente.
-
-A Tabela 7 adota os tempos de referência de Barbosa e Silva (2010, p. 199): K = 0,20 s para digitador mediano; P = 1,10 s; B = 0,10 s por pressionar ou soltar o botão; H = 0,40 s; M = 1,20 s. O tempo de resposta do sistema varia.
-
-**Tabela 7** — Operadores KLM e tempos de referência adotados
-
-| Operador | Significado | Tempo adotado |
-| :---: | :--- | :---: |
-| **K** | Pressionar e soltar uma tecla | 0,20 s |
-| **P** | Apontar o cursor para um alvo na tela | 1,10 s |
-| **B** | Pressionar ou soltar o botão do mouse | 0,10 s |
-| **H** | Mover a mão entre teclado e mouse | 0,40 s |
-| **M** | Preparação mental para uma ação ou sequência relacionada | 1,20 s |
-| **T(n)** | Digitar cadeia de n caracteres | n × K |
-| **R** | Aguardar a resposta do sistema | Variável; medir na observação |
-
-_Fonte: Barbosa e Silva (2010, p. 199), aplicada à tarefa._
-
-Para uma conta reproduzível, considera-se a consulta `wifi Linux Mint categories:linux tags:linux-mint`, com 48 caracteres, digitada no campo de busca. A sintaxe de filtros `categories:` e `tags:` é documentada pelo Discourse (DISCOURSE, s.d.); a categoria, a tag e a compatibilidade dessa consulta precisam ser confirmadas na instância do fórum antes de usar o cálculo como resultado final. A Tabela 8 apresenta a sequência de operadores KLM calculada.
-
-**Tabela 8** — Sequência KLM ilustrativa para a busca
-
-| Ordem | Operador | Ação modelada | Tempo |
-| :---: | :---: | :--- | :---: |
-| 1 | M | Preparar a consulta e decidir os filtros | 1,20 s |
-| 2 | H | Mover a mão do teclado para o mouse | 0,40 s |
-| 3 | P | Apontar para o controle de busca | 1,10 s |
-| 4 | B + B | Pressionar e soltar para ativar a busca | 0,20 s |
-| 5 | H | Mover a mão para o teclado | 0,40 s |
-| 6 | T(48) | Digitar a consulta: 48 × 0,20 s | 9,60 s |
-| 7 | K | Pressionar Enter | 0,20 s |
-| 8 | R₁ | Aguardar a apresentação dos resultados | Variável |
-| 9 | M | Examinar resultados e escolher um candidato | 1,20 s |
-| 10 | H | Mover a mão do teclado para o mouse | 0,40 s |
-| 11 | P | Apontar para o resultado | 1,10 s |
-| 12 | B + B | Pressionar e soltar para abrir o resultado | 0,20 s |
-| 13 | R₂ | Aguardar a abertura da discussão | Variável |
-| 14 | M | Comparar a discussão com a necessidade | 1,20 s |
-|  |  | **Subtotal, sem R₁, R₂ e leitura detalhada** | **17,20 s** |
-
-_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026, com tempos de referência de Barbosa e Silva (2010, p. 199)._
-
-O subtotal de **17,20 segundos** cobre somente os operadores modelados. Não inclui tempo de resposta, leitura detalhada, reformulação da consulta ou diferenças individuais de digitação. Se a interface permitir aplicar filtros por controles gráficos em vez de digitar sintaxe, deve-se modelar esse método e comparar as sequências após observação.
-
-#### Limites e validação necessária
-
-1. Confirmar na interface como acessar a busca e quais filtros estão disponíveis.
-2. Verificar se categoria, tag, ordenação e eventual indicação de solução aceita podem ser usados na busca da instância atual.
-3. Conduzir a tarefa com participantes e registrar consultas, filtros, reformulações, erros e critério de sucesso.
-4. Revisar HTA e GOMS com base nas estratégias observadas.
-5. Recalcular o KLM para o método efetivamente usado; apresentar separadamente tempo de espera e leitura.
-6. Submeter a análise à revisão de Vinicius.
+_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
 
 ---
 
-### 3. Modelagem CTT – Busca Avançada e Filtros de Categoria
+### 2. Modelagem CTT (Árvores de Tarefas Concorrentes)
 
-#### 3.1 Visão Geral
-A **Árvore de Tarefas Concorrentes (CTT)** modela as interações paralelas entre usuário, sistema e componentes de UI. Para a Tarefa 3, o fluxo principal consiste em: acessar a busca, formular a consulta, aplicar filtros, examinar resultados, avaliar discussões e, se necessário, reformular a busca. As decisões de escolha são representadas por nós de tipo **Choice** (`[]`), enquanto as operações simultâneas são marcadas como **Concurrent** (`|||`). A Figura 6 ilustra o diagrama CTT com os diferentes níveis de abstração e tipos de tarefas da busca avançada.
+O CTT (*Concurrent Task Trees*), formalizado por Paternò (2000), é utilizado para modelar interações concorrentes, processos assíncronos e os papéis dos agentes envolvidos:
+- **Tarefas Abstratas** (composição de alto nível);
+- **Tarefas de Usuário** (cognição e julgamento pessoal);
+- **Tarefas de Interação** (manipulação de elementos da interface);
+- **Tarefas de Sistema** (processamento, *locks* transacionais e despachos).
 
-#### 3.2 Diagrama CTT (Mermaid)
+A Figura 6 apresenta o diagrama CTT da Tarefa 3 elaborado na notação de Paternò.
+
 ```mermaid
 graph TD
-    %% Níveis de abstração
-    T0["T0 – Encontrar discussão útil sobre Wi‑Fi no Linux Mint"]:::abstract
-    
-    %% Etapa 1 – Acessar busca
-    T1["T1 – Acessar a busca do fórum"]:::interaction
+    classDef abstract fill:#F1F5F9,stroke:#475569,stroke-width:2px,color:#0F172A;
+    classDef interaction fill:#DBEAFE,stroke:#2563EB,stroke-width:1.5px,color:#1E3A8A;
+    classDef user fill:#FEF3C7,stroke:#D97706,stroke-width:1.5px,color:#78350F;
+    classDef system fill:#DCFCE7,stroke:#16A34A,stroke-width:1.5px,color:#14532D;
+    classDef choice fill:#FEE2E2,stroke:#DC2626,stroke-width:1.5px,color:#7F1D1D;
+
+    T0["T0 (Abstrata): Agendar Atendimento de Dúvida Técnica"]:::abstract
+
+    T1["T1 (Interação): Acessar Painel da Grade de Horários >>"]:::interaction
+    T2["T2 (Abstrata): Selecionar e Validar Horário Compatível >>"]:::abstract
+    T3["T3 (Abstrata): Preencher Dados da Dúvida e Confirmar"]:::abstract
+
     T0 --> T1
-    
-    %% Etapa 2 – Formular e executar consulta (concurrente)
-    T2a["T2a – Digitar termos da consulta"]:::user
-    T2b["T2b – Aplicar filtros de categoria/tag"]:::user
-    T2c["T2c – Submeter a consulta"]:::system
-    T1 --> T2a & T2b & T2c
-    
-    %% Etapa 3 – Examinar resultados (paralelo ao carregamento)
-    T3a["T3a – Esperar carregamento dos resultados"]:::system
-    T3b["T3b – Percorrer títulos e trechos"]:::user
-    T2c --> T3a & T3b
-    
-    %% Etapa 4 – Avaliar discussão candidata (choice)
-    T4["T4 – Avaliar discussão candidata"]:::interaction
-    T3b --> T4
-    
-    T4 -->|"Útil"| T5["T5 – Abrir discussão selecionada"]:::interaction
-    T4 -->|"Não útil"| T6["T6 – Reformular busca ou encerrar"]:::choice
-    
-    %% Etapa 5 – Verificar solução (concurrente)
-    T5a["T5a – Ler respostas da discussão"]:::user
-    T5b["T5b – Comparar com necessidade"]:::user
-    T5 --> T5a & T5b
-    
-    %% Finalização
-    T5a --> T7["T7 – Decisão final: usar solução ou buscar outra"]:::choice
-    T5b --> T7
-    T6 --> T0  %% reinício do ciclo caso reformule
-    
-    classDef abstract fill:#f0f0f0,stroke:#333,stroke-width:2px
-    classDef interaction fill:#d1e8ff,stroke:#0055aa,stroke-width:1.5px
-    classDef user fill:#ffefd5,stroke:#aa5500,stroke-width:1.5px
-    classDef system fill:#e0ffe0,stroke:#00aa00,stroke-width:1.5px
-    classDef choice fill:#ffe0e0,stroke:#aa0000,stroke-width:1.5px
+    T0 --> T2
+    T0 --> T3
+
+    %% Subnível T2
+    T2_1["T2.1 (Interação): Navegar na Matriz Semanal |||"]:::interaction
+    T2_2["T2.2 (Usuário): Avaliar Disponibilidade Pessoal |||"]:::user
+    T2_3["T2.3 (Sistema): Atualizar Status de Vagas em Tempo Real"]:::system
+    T2_4["T2.4 (Interação): Clicar no Bloco de Horário []>>"]:::interaction
+    T2_5["T2.5 (Sistema): Efetuar Bloqueio Temporário do Slot (Lock 3min)"]:::system
+
+    T2 --> T2_1
+    T2 --> T2_2
+    T2 --> T2_3
+    T2 --> T2_4
+    T2 --> T2_5
+
+    %% Subnível T3
+    T3_Form["T3.1 (Interação): Digitar Descrição da Dúvida e Ambiente"]:::interaction
+    T3_Plat["T3.2 (Interação): Escolher Plataforma de Comunicação []"]:::interaction
+    T3_Acao["T3.3 (Abstrata): Finalizar Interação"]:::abstract
+
+    T3 --> T3_Form
+    T3 --> T3_Plat
+    T3 --> T3_Acao
+
+    %% Decisão Final em T3.3
+    T3_Confirma["T3.3a (Interação): Clicar em Confirmar Agendamento >>"]:::interaction
+    T3_Cancela["T3.3b (Interação): Clicar em Desistir / Cancelar [>"]:::choice
+
+    T3_Acao --> T3_Confirma
+    T3_Acao --> T3_Cancela
+
+    %% Efeitos do Sistema após confirmação
+    T3_Sis1["T3.4 (Sistema): Persistir Agendamento e Gerar Sala de Reunião |||"]:::system
+    T3_Sis2["T3.5 (Sistema): Disparar Notificação Interna ao Mentor e Aprendiz"]:::system
+
+    T3_Confirma --> T3_Sis1
+    T3_Confirma --> T3_Sis2
 ```
 
-**Figura 6** — Diagrama CTT da Tarefa 3 (Busca Avançada e Filtros de Categoria).  
+**Figura 6** — Árvore de Tarefas Concorrentes (CTT) do Agendamento de Dúvidas / Mentorias.  
 _Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
 
-#### 3.3 Interpretação
-- **T0** representa o objetivo de alto nível.
-- **T1** é a ação de abrir o campo de busca (interação).
-- **T2a**, **T2b** e **T2c** ocorrem de forma **concorrente**: o usuário digita a consulta, escolhe filtros e, ao pressionar *Enter*, o sistema submete a busca.
-- **T3a** (carregamento) e **T3b** (percorrer resultados) são simultâneos – o usuário pode começar a olhar os títulos enquanto o sistema ainda está respondendo.
-- **T4** é um ponto de **escolha** (`[]`): o usuário decide se o primeiro resultado é útil.
-- Caso **útil**, segue para **T5** (abrir a discussão) e então **T5a/b** (ler respostas e comparar). A decisão final (**T7**) pode conduzir ao uso da solução ou a iniciar um novo ciclo.
-- Caso **não útil**, **T6** conduz à reformulação da consulta ou ao encerramento, retornando ao objetivo **T0**.
+#### Interpretação dos Operadores Temporais
 
-Esta modelagem CTT completa a documentação da Tarefa 3, complementando a HTA já existente.
+1. **Paralelismo em `T2` (`|||`):** A navegação do usuário na matriz (`T2.1`), sua reflexão cognitiva sobre horários compatíveis (`T2.2`) e a escuta de eventos do sistema via WebSockets atualizando blocos ocupados (`T2.3`) ocorrem de forma concorrente (`|||`).
+2. **Prevenção de Condição de Corrida (`T2.5`):** Ao clicar no slot (`T2.4`), o sistema executa um bloqueio transacional imediato (*lock* de 3 minutos) enquanto o formulário é exibido, evitando que outro usuário selecione o mesmo bloco no mesmo instante.
+3. **Ponto de Desativação (`[>`):** A qualquer instante durante o preenchimento, o usuário pode clicar em Cancelar (`T3.3b`), o que desativa a tarefa e libera o slot temporariamente retido no sistema.
+4. **Sincronização Pós-Confirmação (`T3.4` e `T3.5`):** Assim que a confirmação é despachada (`>>`), o sistema gera as credenciais da sala de reunião e emite as notificações de forma concorrente em segundo plano.
 
 ---
 
 ## Histórico de Versão
 
-A Tabela 9 documenta o histórico de versões deste artefato.
+A Tabela 8 documenta o histórico de versões deste artefato.
 
-**Tabela 9** — Histórico de versão do documento
+**Tabela 8** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Estruturação metodológica e modelagem da Tarefa 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 26/09/2026 | Inclusão do rascunho de HTA e GOMS/KLM para busca avançada; validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), com apoio de IA generativa | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `1.2` | 15/10/2026 | Saneamento tipográfico UTF-8 dos operadores KLM, padronização da Tabela 0 de contribuição e sequenciamento ordenado das Figuras 1 a 6 (com inclusão da Figura 6 CTT). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.2` | 15/10/2026 | Saneamento tipográfico UTF-8 dos operadores KLM, padronização da Tabela 0 de contribuição e sequenciamento ordenado das Figuras 1 a 6 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.3` | 20/10/2026 | Adequação da notação canônica de HTA (expurgo de nós intermediários de plano, adoção de operadores lógicos formais e tabela com tupla analítica de inputs e feedbacks observáveis) e substituição de KLM por CMN-GOMS com Módulo de IA Semântica Pré-Envio e regras de seleção na Tarefa 1 (Issues #98 e #99). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.4` | 22/10/2026 | Modelagem integral da Tarefa 2: Criação de Eventos Presenciais (HTA com diagrama Mermaid, Tabela 8.4 canônica de Barbosa & Silva e CTT) incorporando geolocalização e quórum/lotação (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.5` | 22/10/2026 | Substituição da Tarefa 3 pela Grade de Disponibilidade e Agendamento de Dúvidas/Mentorias (estilo When2meet) com modelagem completa em HTA e CTT | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -587,4 +660,4 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a preparação deste artefato, foi utilizado suporte de Inteligência Artificial Generativa para estruturar o rascunho preliminar da Tarefa 3 e auxiliar na formatação Markdown do diagrama e das tabelas. A modelagem proposta foi revisada e validada na interface e com participantes. A contribuição da Tarefa 1 é atribuída a Vinicius Silva Araruna.
+Durante a preparação deste artefato, foram utilizados recursos de Inteligência Artificial Generativa (Antigravity LLM / Gemini) para apoio na formatação sintática dos diagramas em Mermaid e na estruturação do modelo CTT. O embasamento metodológico, a definição dos fluxos concorrentes e a validação ergonômica da Tarefa 3 foram concebidos e validados pelo integrante Edvaldo Soares Brasileiro Filho. A Tarefa 1 e a coordenação metodológica foram concebidas por Vinicius Silva Araruna, e a Tarefa 2 por Gustavo Antonio Rodrigues e Silva.
