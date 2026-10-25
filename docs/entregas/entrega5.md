@@ -10,7 +10,7 @@ A Tabela 1 apresenta a matriz de responsabilidades e atribuições na consolida�
 | :--- | :--- | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Tech Lead / PO**: Estruturação geral da síntese da Entrega 5, coordenação do Planejamento do Protótipo de Papel (Nível 2), consolidação dos relatos da Tarefa 1 (Markdown e IA Semântica) e checagem de rigor normativo. | 24/10/2026 | Antigravity (LLM) | Apoio na estruturação Markdown, padronização tabular e validação de referências ABNT. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Consolidação dos resultados da avaliação da Tarefa 2 (Eventos Presenciais — CF02), integração do Storyboard 2 e revisão metodológica da Entrega 5. | 24/10/2026 | Antigravity (LLM) | Suporte na estruturação Markdown e checagem de hiperligações. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Consolidação dos resultados da avaliação da Tarefa 3 (Busca Avançada e Filtros), revisão dos instrumentos de observação e validação de consistência. | 24/10/2026 | — | Elaboração e validação de conteúdo. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Consolidação dos resultados da avaliação da Tarefa 3 (Grade de Disponibilidade e Agendamento), revisão dos instrumentos de observação e validação de consistência. | 24/10/2026 | — | Elaboração e validação de conteúdo. |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -38,44 +38,27 @@ A Tabela 2 relaciona todos os artefatos constitutivos da Entrega 5, com indicaç
 | **Nível 1 — Storyboard** | [Relato dos Resultados do Storyboard](../design-avaliacao-desenvolvimento/nivel-1/storyboard/relato-resultados.md) | Consolidação empírica das sessões de Storyboard, análise qualitativa de P01 a P08, severidade de Nielsen e recomendações de reprojeto | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Nível 1 — Tarefas** | [Relato dos Resultados da Análise de Tarefas](../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/relato-resultados.md) | Análise de discrepâncias de planos lógicos (PT01 a PT08), validação de regras CMN-GOMS e refatoração da HTA | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Nível 1 — Piloto** | [Protocolo e Resultados do Teste-Piloto](../design-avaliacao-desenvolvimento/nivel-1/teste-piloto.md) | Relatório de calibração instrumental (áudio, enquadramento de pranchas e TCLE em 52s) com cláusula mandatória de isolamento dos dados | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-| **Nível 1 — Planejamentos** | [Planejamento da Avaliação do Storyboard](../design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-avaliacao.md) | Framework DECIDE, perguntas investigativas, infraestrutura, script oral literal do TCLE e checklist canônico | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-| **Nível 1 — Planejamentos** | [Planejamento da Avaliação da Análise de Tarefas](../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-avaliacao.md) | Protocolo de percurso cognitivo guiado (*Task Walkthrough*), objetivos, perguntas investigativas e roteiro de validação das árvores HTA | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
-| **Nível 1 — Catálogo** | [Storyboards da Equipe](../design-avaliacao-desenvolvimento/storyboards.md) | Catálogo com pranchas em alta resolução (300 DPI), narrativas de uso, decomposição em 8 quadros e alinhamento com Klemmer | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | Toda a Equipe |
-| **Nível 1 — Tarefas** | [Modelagem Canônica de Tarefas](../analise-requisitos/analise-tarefas.md) | HTA Canônica com operadores causais normativos, dupla comprovação visual (digital e manuscrita) e regras de seleção CMN-GOMS | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Toda a Equipe |
-| **Nível 2 — Protótipo de Papel** | [Planejamento da Avaliação do Protótipo de Papel](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md) | Framework DECIDE de Nível 2 focado na Tarefa 1 (Markdown e IA), dinâmica com Facilitador e Computador Humano, cronogramas e 15 critérios normativos | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-| **Nível 2 — Protótipo de Papel** | [Planejamento do Relato do Protótipo de Papel](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-relato-resultados.md) | Estrutura formal em 9 tópicos, modelo tabular com severidade de Nielsen (0 a 4) e priorização para protótipos de alta fidelidade | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Nível 1 — Planejamentos** | [Planejamento da Avaliação do Storyboard](../design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-avaliacao.md) | Framework DECIDE com roteiro semiestruturado, questões práticas, dimensões de Scott Klemmer e script oral do TCLE | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Nível 1 — Planejamentos** | [Planejamento do Relato do Storyboard](../design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-relato-resultados.md) | Diretrizes para consolidação analítica, catalogação de erros e priorização de correções de Storyboards | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Nível 1 — Planejamentos** | [Planejamento da Avaliação da Análise de Tarefas](../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-avaliacao.md) | Protocolo de percurso cognitivo guiado (*Task Walkthrough*), objetivos, perguntas investigativas e roteiro de validação | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
+| **Nível 1 — Planejamentos** | [Planejamento do Relato da Análise de Tarefas](../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-relato-resultados.md) | Matriz de discrepâncias entre modelo concebido e mental, taxonomia de erros de plano e reprojeto | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
+| **Nível 2 — Protótipo de Papel** | [Planejamento da Avaliação do Protótipo de Papel](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md) | Framework DECIDE para prototipação em papel, papéis da equipe (facilitador e "computador humano"), tarefas de teste e checklist de 15 critérios | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Nível 2 — Protótipo de Papel** | [Planejamento do Relato do Protótipo de Papel](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-relato-resultados.md) | Estrutura formal para documentação de inconsistências em papel, métricas de eficiência de Mayhew e plano de reprojeto | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
 ---
 
-## 3. Apresentação da Entrega 5 (Gravação Audiovisual da Equipe)
+## 3. Gravação da Apresentação da Entrega 5
 
-Em estrito atendimento ao regulamento didático da disciplina:
-1. **Publicação no YouTube em Modo Não Listado:** A equipe registrou a apresentação audiovisual oficial da Entrega 5, hospedada no YouTube na modalidade Não Listado e incorporada nesta página;
-2. **Foco Prático e Aplicado:** A apresentação concentra-se na demonstração dos resultados de campo de Nível 1, nas correções incorporadas aos modelos e na operacionalização prática do planejamento do Protótipo de Papel de Nível 2, sem leituras teóricas expositivas.
+A Tabela 3 apresenta os dados cadastrais da gravação da apresentação em vídeo da Entrega 5, publicada no YouTube na modalidade Não Listado com duração regulamentar entre 20 e 30 minutos.
 
-### Vídeo da Apresentação da Equipe
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 1.5rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/placeholder-entrega5" 
-    title="Apresentação da Entrega 5 - Relatos de Nível 1 e Planejamento de Nível 2 - Grupo 08 - IHC 2026.2" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px;">
-  </iframe>
-</div>
-
-A Tabela 3 sintetiza os dados técnicos da gravação audiovisual da Entrega 5.
-
-**Tabela 3** — Dados técnicos da gravação audiovisual da Entrega 5
+**Tabela 3** — Metadados da gravação oficial da Entrega 5
 
 | Atributo | Detalhamento |
 | :--- | :--- |
-| **Link Direto (YouTube)** | [Assistir Apresentação da Entrega 5 no YouTube (Não Listado)](https://youtu.be/placeholder-entrega5) *(Substituir pelo link definitivo após upload)* |
-| **Participantes** | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| **Link do Vídeo no YouTube** | [Em produção / Gravação síncrona da equipe](https://youtu.be/) |
+| **Integrantes Participantes** | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | **Objeto de Avaliação** | Relato de Resultados de Storyboard e Tarefas (Nível 1) e Planejamento do Protótipo de Papel (Nível 2) |
 | **Data da Gravação** | 02/11/2026 |
 | **Ambiente de Gravação** | Sessão síncrona gravada com compartilhamento dos artefatos oficiais |
@@ -92,9 +75,9 @@ A Tabela 4 sintetiza a distribuição das funcionalidades prioritárias sob resp
 
 | Integrante | Funcionalidade Avaliada | Modelagem de Nível 1 (Storyboard e HTA) | Principais Problemas Diagnosticados (Nielsen) | Recomendações de Reprojeto para Nível 2 |
 | :--- | :--- | :--- | :--- | :--- |
-| **Vinicius Silva Araruna** | Composição de Tópico com Tags, Markdown e IA Semântica | Storyboard 1 (8 quadros A4) e HTA Canônica com regras CMN-GOMS | • Risco de apreensão quanto ao bloqueio do envio pela IA (Severidade 2)<br>• Ausência de atalho de tags em lote (Severidade 2)<br>• Precedência rígida entre tags e redação (Severidade 1) | • Inserir botão neutro de envio direto ignorando sugestões<br>• Modelar operador de aceitação de tags com 1 clique<br>• Flexibilizar o Plano 0: `G1 > G2 > (G3 + G4) > G5` |
-| **Gustavo Antonio Rodrigues e Silva** | Criação e Divulgação de Workshop Presencial (CF02) | Storyboard 2 (8 quadros A4) e HTA de Eventos Presenciais | • Dúvida transitória sobre ajuste fino de pin no mapa (Severidade 2)<br>• Falta de confirmação imediata de raio visual (Severidade 2) | • Adicionar autocompletar com geolocalização e raio visual no mapa interativo |
-| **Edvaldo Soares Brasileiro Filho** | Busca Avançada e Filtros Especializados de Categoria | Storyboard 3 (8 quadros) e Modelagem HTA/CTT de Busca | • Dificuldade na identificação visual de tópico com 'Solução Aceita' (Severidade 2) | • Destacar badge explícito de 'Resolvido' com realce cromático de sucesso |
+| **Vinicius Silva Araruna** | Composição de Tópico com Tags, Markdown e IA Semântica | [Storyboard 1 (8 quadros A4)](../design-avaliacao-desenvolvimento/storyboards.md#storyboard-1-topico-markdown) e HTA Canônica com regras CMN-GOMS | • Risco de apreensão quanto ao bloqueio do envio pela IA (Severidade 2)<br>• Ausência de atalho de tags em lote (Severidade 2)<br>• Precedência rígida entre tags e redação (Severidade 1) | • Inserir botão neutro de envio direto ignorando sugestões<br>• Modelar operador de aceitação de tags com 1 clique<br>• Flexibilizar o Plano 0: `G1 > G2 > (G3 + G4) > G5` |
+| **Gustavo Antonio Rodrigues e Silva** | Criação e Divulgação de Workshop Presencial (CF02) | [Storyboard 2 (8 quadros A4)](../design-avaliacao-desenvolvimento/storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio) e HTA de Eventos Presenciais | • Dúvida transitória sobre ajuste fino de pin no mapa (Severidade 2)<br>• Falta de confirmação imediata de raio visual (Severidade 2) | • Adicionar autocompletar com geolocalização e raio visual no mapa interativo |
+| **Edvaldo Soares Brasileiro Filho** | Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias | [Storyboard 3 (8 quadros)](../design-avaliacao-desenvolvimento/storyboards.md#4-storyboard-3-grade-de-disponibilidade-e-agendamento-de-reunioes-no-forum-diolinux-edvaldo-soares) e Modelagem HTA/CTT de Agendamento | • Dificuldade na identificação visual de tópico com 'Solução Aceita' (Severidade 2)<br>• Incerteza no fluxo de cancelamento de slot de mentoria (Severidade 2) | • Destacar badge explícito de 'Resolvido' com realce cromático de sucesso<br>• Inserir confirmação com feedback imediato de cancelamento/reagendamento |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -105,7 +88,8 @@ _Fonte: Elaborada pelos autores, 2026._
 As recomendações elicitadas na fase de Nível 1 atuam como requisitos diretos para a confecção dos **Protótipos de Papel**, permitindo testar com discentes:
 1. **Modais Móveis em Papel:** O componente de IA pré-envio será confeccionado em cartão destacável com layout não-obstrutivo;
 2. **Preview Lado a Lado do Markdown:** Simulação em papel com folha dividida entre código fonte e resultado renderizado;
-3. **Simulação Interativa com o "Computador Humano":** Permite testar as regras de transição de telas e tempo de resposta perceptual percebido pelo usuário.
+3. **Seleção de Horários e Mapa em Papel:** Interface de grade de calendário e componentes de pinagem para validação rápida de layout;
+4. **Simulação Interativa com o "Computador Humano":** Permite testar as regras de transição de telas e tempo de resposta perceptual percebido pelo usuário.
 
 ---
 
@@ -118,7 +102,9 @@ A Tabela 5 documenta a evolução histórica desta página de consolidação.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 18/10/2026 | Estrutura preliminar da Entrega 5. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
-| `1.1` | 24/10/2026 | Consolidação completa da Entrega 5: integração dos Relatos de Resultados de Storyboard e Análise de Tarefas (Nível 1), incorporação do Planejamento do Protótipo de Papel (Nível 2), tabela de artefatos com links diretos, container de vídeo da equipe e mapeamento de reprojeto dos 3 membros ativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 22/10/2026 | Estruturação completa da página de síntese da Entrega 5, incorporação da matriz de artefatos de Nível 1 e Nível 2, destaque do Storyboard 2 (Gustavo Antonio) em 300 DPI e consolidação das referências. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 24/10/2026 | Consolidação completa da Entrega 5: integração dos Relatos de Resultados de Storyboard e Análise de Tarefas (Nível 1), incorporação do Planejamento do Protótipo de Papel (Nível 2), tabela de artefatos com links diretos, container de vídeo da equipe e mapeamento de reprojeto dos 3 membros ativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.3` | 25/10/2026 | Sincronização com a develop: harmonização dos links de Storyboard 1, 2 e 3 (Grade de Agendamento) e resolução de conflitos de merge. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -126,9 +112,22 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## 7. Referências Bibliográficas (ABNT)
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-- MAYHEW, Deborah J. *The Usability Engineering Lifecycle: a practitioner's handbook for user interface design*. San Francisco: Morgan Kaufmann Publishers, 1999.
-- NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann Publishers, 1994.
-- ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. *Design de Interação: além da interação humano-computador*. 3. ed. Porto Alegre: Bookman, 2013.
-- SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Brasília: Universidade de Brasília, Faculdade UnB Gama (FGA), 2026.
-- SNYDER, Carolyn. *Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces*. San Francisco: Morgan Kaufmann Publishers, 2003.
+[1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+
+[2] KLEMMER, Scott. *Storyboards, Paper Prototypes and Mockups*. Videoaula do curso "Human-Computer Interaction Design". University of California, San Diego / UC Berkeley, disponibilizado via Coursera. Disponível em: <https://www.youtube.com/watch?v=h2H3oIQtddU>. Acesso em: 13 out. 2026.
+
+[3] MAYHEW, Deborah J. *The Usability Engineering Lifecycle: a practitioner's handbook for user interface design*. San Francisco: Morgan Kaufmann Publishers, 1999.
+
+[4] NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann Publishers, 1994.
+
+[5] ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. *Design de Interação: além da interação humano-computador*. 3. ed. Porto Alegre: Bookman, 2013.
+
+[6] SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Brasília: Universidade de Brasília, Faculdade UnB Gama (FGA), 2026.
+
+[7] SNYDER, Carolyn. *Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces*. San Francisco: Morgan Kaufmann Publishers, 2003.
+
+---
+
+## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+
+Durante a organização do roteiro e tabelas deste documento, utilizou-se suporte supervisionado de Inteligência Artificial Generativa (LLM) exclusivamente para estruturação sintática de Markdown e alinhamento visual de colunas. As narrativas de uso, definições de personas e decisões de interface foram concebidas e validadas pelos discentes autores.
