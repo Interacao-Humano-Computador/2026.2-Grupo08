@@ -9,7 +9,7 @@ A Tabela 1 apresenta a autoria e responsabilidade individual na elaboração dos
 | Integrante | Atribuição no Artefato | Data | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor do Storyboard 2**: Concepção narrativa, desenho manual em prancha física (8 quadros), digitalização em 300 DPI, redação das histórias e decomposição das cenas. | 22/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | — | Desenho manual autoral em papel e digitalização via scanner óptico. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Autor do Storyboard 3**: Concepção e estruturação da narrativa da Busca Avançada e Filtros de Categoria. | 13/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | LLM (Antigravity) | Apoio na estruturação inicial dos cenários e tabela de quadros. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Autor do Storyboard 3**: Concepção e estruturação da narrativa da Grade de Disponibilidade e Agendamento de Reuniões/Mentorias no fórum. | 24/10/2026 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | LLM (Antigravity) | Apoio na estruturação dos cenários e tabela de quadros. |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Geral**: Auditoria de conformidade com o Ciclo de Mayhew, integração no Framework DECIDE e verificação da notação de IHC. | 22/10/2026 | [Gustavo Antonio](https://github.com/gus-ant) | — | Revisão humana por pares. |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -115,7 +115,7 @@ _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus
 #### Vídeo 1 — Teste-Piloto do Storyboard 2 (Gustavo Antonio)
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/K5jVAyq4hAY" title="Teste-Piloto Storyboard 2 - Gustavo Antonio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/K5jVAyq4hAY" title="Teste-Piloto do Storyboard 2 - Gustavo Antonio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
     <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro em vídeo do Teste-Piloto do Storyboard 2. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
 </div>
 
@@ -128,43 +128,45 @@ _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus
 
 ---
 
-## 3. Storyboard 3 – Busca Avançada e Filtros de Categoria por Estudante (Edvaldo Soares)
+<a id="3-storyboard-3-busca-avancada-e-filtros-de-categoria-por-estudante-edvaldo-soares"></a>
+## 3. Storyboard 3 – Grade de Disponibilidade e Agendamento de Reuniões no Fórum Diolinux (Edvaldo Soares)
 
 - **Autor Responsável:** [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
 - **Revisor Designado:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
-- **Perfil de Usuário Atendido:** Estudante de pós-graduação/mestrado em computação buscando literatura especializada (*Maria — Persona Secundária*).
+- **Perfil de Usuário Atendido:** Estudante/pesquisadora experiente e usuário iniciante em busca de suporte e mentoria técnica (*Mariana Ribeiro e Carlos Eduardo — Personas da Comunidade*).
+- **Técnica de Confecção:** Roteirização sequencial em 8 quadros com comentários ergonômicos e de usabilidade, resolução gráfica de 300 DPI (Issue #64).
 
 ### 3.1 Contexto e Problema Identificado
 
-> *Maria, estudante de mestrado, precisa escrever a revisão de literatura da sua dissertação sobre detecção de objetos. A busca simples do portal devolve milhares de artigos e tópicos, muitos fora do escopo desejado. Ela precisa refinar a busca para encontrar apenas trabalhos relevantes na área de Visão Computacional dentro da Inteligência Artificial, isolando tópicos técnicos de discussões gerais.*
+> *Mariana, membro da comunidade Diolinux, publica um tópico no fórum com o objetivo de compartilhar conhecimentos e ajudar outros usuários com dúvidas sobre Linux. Para facilitar a comunicação e oferecer um atendimento mais organizado, ela deseja disponibilizar datas e horários em que pode realizar reuniões. Carlos, um usuário iniciante que encontra o tópico, precisa consultar os horários disponíveis, selecionar um período compatível com sua agenda e confirmar o agendamento para conversar com Mariana sobre suas dúvidas. A funcionalidade permite organizar esses encontros diretamente a partir do tópico, facilitando a colaboração entre os membros da comunidade e evitando conflitos de horários.*
 
 ### 3.2 Motivação e Histórias de Usuário (*User Stories*)
 
-- **Story 1 – Preparação de Trabalho Acadêmico:**  
-  > *Como estudante de mestrado, preciso encontrar artigos recentes sobre "deep learning para detecção de objetos" para embasar o capítulo de revisão de literatura da minha dissertação. Quero refinar a busca por área de estudo (Inteligência Artificial $\rightarrow$ Visão Computacional) para garantir que os resultados sejam altamente relevantes.*
-- **Story 2 – Projeto de Laboratório de Pesquisa:**  
-  > *Como integrante de um laboratório de pesquisa, devo coletar rapidamente fontes de dados de diferentes categorias para treinar um modelo. A busca avançada com filtros me permite isolar artigos que contenham datasets públicos e código aberto.*
-- **Story 3 – Avaliação de Competência e Usabilidade:**  
-  > *Como estudante de graduação em avaliação de usabilidade, preciso demonstrar que consigo usar ferramentas de busca avançada como parte de um estudo de caso. Preciso registrar a sequência de passos para gerar evidências no relatório.*
+- **Story 1 – Suporte técnico por meio de reuniões:**  
+  > *Como usuário iniciante de distribuições Linux, preciso agendar uma reunião com um membro experiente da comunidade para receber orientações sobre a recuperação do sistema, selecionando um horário disponibilizado pelo autor do tópico.*
+- **Story 2 – Disponibilização de horários pelo autor do tópico:**  
+  > *Como membro experiente da comunidade Diolinux, desejo disponibilizar horários para reuniões diretamente no tópico que publiquei, permitindo que outros usuários agendem conversas para esclarecer dúvidas e compartilhar conhecimentos.*
+- **Story 3 – Organização e confirmação de reuniões:**  
+  > *Como usuário do fórum, preciso visualizar os horários disponíveis, confirmar o agendamento e receber os detalhes da reunião, garantindo que o horário escolhido seja reservado e não possa ser agendado por outra pessoa.*
 
 ---
 
 ### 3.3 Visão Geral das Cenas do Storyboard (Sequência de 8 Quadros)
 
-A Tabela 3 apresenta a decomposição dos quadros correspondentes à funcionalidade de Busca Avançada e Filtros de Categoria.
+A Tabela 4 apresenta a sequência de quadros da funcionalidade de Grade de Disponibilidade e Agendamento de Reuniões vinculada aos tópicos do Fórum Diolinux Plus.
 
-**Tabela 4** — Sequência de quadros do Storyboard 3 (Busca Avançada no Fórum)
+**Tabela 4** — Sequência de quadros do Storyboard 3 (Grade de Disponibilidade e Agendamento no Fórum)
 
 | # | Cena (descrição da ação) | Comentários de Design e Usabilidade |
 | :-: | :--- | :--- |
-| **1** | **Abertura da página de busca:** Maria visualiza a caixa de busca central e o menu lateral com opções de filtro avançado. | Layout limpo; foco visual prioritário na caixa de entrada de texto. |
-| **2** | **Digitando a consulta:** O cursor pisca; o texto *“deep learning para detecção de objetos”* é digitado pelo teclado. | Tipografia legível com feedback imediato de caracteres inseridos. |
-| **3** | **Abrindo o painel de filtros:** Usuária clica no ícone “Filtros”. O painel desliza suavemente da esquerda com categorias em árvore taxonômica. | Transição de interface indicando ação expansível sem recarregamento de página. |
-| **4** | **Selecionando categorias:** Marca a taxonomia *“Inteligência Artificial”* $\rightarrow$ *“Visão Computacional”*. As caixas exibem marcação destacada. | Realce visual evidente de estado selecionado. |
-| **5** | **Aplicando filtros:** Clica no botão de ação “Aplicar Filtros”. Um indicador de carregamento (spinner) é apresentado por 0,8 s. | Fornecimento de feedback de sistema em conformidade com as diretrizes de Nielsen. |
-| **6** | **Resultados carregados:** Lista de 10 tópicos qualificados contendo título, resumo e tags. O primeiro resultado ganha destaque visual. | Apresentação em cards com espaçamento uniforme e legibilidade otimizada. |
-| **7** | **Interagindo com o resultado:** Maria clica no título da discussão selecionada. A página do tópico abre em nova aba. | Indicação iconográfica clara de link para thread completa. |
-| **8** | **Feedback de conclusão:** Notificação temporária (*toast*) confirmando que a pesquisa retornou os tópicos refinados solicitados. | Notificação não intrusiva que desaparece automaticamente após 3 segundos. |
+| **1** | **Publicação do tópico e disponibilização de horários:** Mariana publica um tópico no fórum Diolinux para ajudar outros usuários com dúvidas sobre Linux. Na página do tópico, ela acessa a opção "Disponibilizar Horários" e seleciona os períodos em que pode realizar reuniões. | Botão de fácil identificação e formulário simples para cadastrar datas e horários. |
+| **2** | **Visualização dos horários disponíveis:** Carlos acessa o tópico de Mariana e encontra a opção "Agendar Reunião". Ao clicar, visualiza a grade com os dias e horários disponibilizados pela autora. | Calendário organizado, legenda clara e diferenciação visual entre horários disponíveis e reservados. |
+| **3** | **Seleção de um horário livre:** Carlos consulta a grade e seleciona o horário de quinta-feira, às 19h30. O sistema destaca o bloco selecionado para que ele confira a data e o horário antes de continuar. | Feedback visual imediato, áreas de clique adequadas e prevenção de seleções equivocadas. |
+| **4** | **Descrição do motivo da reunião:** O sistema apresenta um formulário para que Carlos informe o assunto da reunião, descrevendo brevemente a falha de inicialização do Linux e as tentativas de solução realizadas. | Campos objetivos, instruções claras e indicação dos campos obrigatórios. |
+| **5** | **Revisão dos dados do agendamento:** Carlos visualiza um resumo contendo o título do tópico, o nome da autora, a data, o horário e a descrição da dúvida. Em seguida, clica em "Confirmar Agendamento". | Resumo das informações antes da confirmação e possibilidade de voltar para corrigir os dados. |
+| **6** | **Confirmação e reserva do horário:** O sistema verifica se o horário continua disponível e registra o agendamento. O bloco selecionado passa para o estado "Reservado", impedindo que outro usuário marque o mesmo horário. | Prevenção de agendamentos duplicados e feedback imediato sobre o resultado da operação. |
+| **7** | **Exibição dos detalhes da reunião:** Carlos recebe uma mensagem de sucesso e visualiza um resumo com a data, o horário, o tópico relacionado e as informações de acesso à reunião, quando disponibilizadas pela autora. | Mensagem de confirmação clara e acesso fácil aos detalhes do agendamento. |
+| **8** | **Realização da reunião:** No horário combinado, Carlos e Mariana se encontram na plataforma de comunicação definida para a reunião e discutem a falha de inicialização. Com as orientações recebidas, Carlos consegue avançar na resolução do problema. | Conclusão satisfatória da tarefa, incentivo à colaboração e fortalecimento da comunidade Diolinux. |
 
 _Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
 
@@ -172,14 +174,45 @@ _Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeM
 
 ### 3.4 Evidência Visual
 
-A Figura 2 apresenta a representação gráfica do Storyboard 3 da equipe.
+A Figura 2 apresenta a representação gráfica do Storyboard 3 (Grade de Disponibilidade e Agendamento).
 
-![Figura 2 – Storyboard 3: Busca Avançada e Filtros de Categoria](assets/storyboards/storyboard_busca_avancada.png)
+![Figura 2 – Storyboard 3: Grade de Disponibilidade e Agendamento de Reuniões no Fórum Diolinux](assets/storyboards/storyboard_busca_avancada.png)
 
 <p align="center" style="font-size: 0.85em; color: #64748B;">
-<b>Figura 2</b> — Sequência de quadros da tarefa de busca avançada com filtros de categoria.<br>
+<b>Figura 2</b> — Sequência de quadros da funcionalidade de Grade de Disponibilidade e Agendamento de Reuniões vinculada aos tópicos do fórum Diolinux (Issue #64).<br>
 <i>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</i>
 </p>
+
+---
+
+### 3.5 Registros Audiovisuais (Teste-Piloto e Avaliação Oficial)
+
+A Tabela 5 consolida os registros audiovisuais em vídeo das sessões práticas de validação do Storyboard 3 conduzidas por Edvaldo Soares, disponibilizadas no YouTube sob o regime Não Listado.
+
+**Tabela 5** — Registros audiovisuais do Storyboard 3 (Teste-Piloto e Avaliação com Usuário)
+
+| Etapa | Objetivo / Atividade | Responsável | Participante | Data | Vídeo no YouTube |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| **Teste-Piloto** | Calibração instrumental de gravação, roteiro e temporização da sessão de avaliação | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Simulação Solo | 24/10/2026 | [Assistir no YouTube (1F409M-E850)](https://youtu.be/1F409M-E850) |
+| **Avaliação Oficial** | Sessão de avaliação formativa do Storyboard 3 via entrevista semiestruturada | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante Voluntário | 24/10/2026 | [Assistir no YouTube (gqZ3yJ3ZYUc)](https://youtu.be/gqZ3yJ3ZYUc) |
+
+_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
+
+#### Vídeo 3 — Teste-Piloto do Storyboard 3 (Edvaldo Soares)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/1F409M-E850" title="Teste-Piloto do Storyboard 3 - Edvaldo Soares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 3</strong> — Registro audiovisual do Teste-Piloto do Storyboard 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/1F409M-E850" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/1F409M-E850</a></p>
+</div>
+
+#### Vídeo 4 — Gravação da Avaliação Oficial do Storyboard 3 (Edvaldo Soares)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/gqZ3yJ3ZYUc" title="Avaliação do Storyboard 3 - Edvaldo Soares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 4</strong> — Registro audiovisual da avaliação com participante do Storyboard 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/gqZ3yJ3ZYUc" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/gqZ3yJ3ZYUc</a></p>
+</div>
 
 ---
 
@@ -191,15 +224,17 @@ Os storyboards documentados nesta página constituem o objeto central de investi
 
 ## 5. Histórico de Versão
 
-A Tabela 5 documenta o histórico evolutivo deste artefato.
+A Tabela 6 documenta o histórico evolutivo deste artefato.
 
-**Tabela 5** — Histórico de versão do documento
+**Tabela 6** — Histórico de versão do documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 12/10/2026 | Estruturação inicial do artefato com o Storyboard 3 (Busca Avançada). | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.1` | 22/10/2026 | Inclusão do Storyboard 2 autoral de Gustavo Antonio Rodrigues e Silva (digitalização em 300 DPI da prancha física com 8 quadros), detalhamento de User Stories, tabela analítica de cenas, alinhamento com os 3 pilares de Klemmer e atualização da matriz de contribuição. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.2` | 23/10/2026 | Incorporação dos registros em vídeo da execução do Teste-Piloto (YouTube Não Listado) e da gravação da Avaliação Oficial do Storyboard 2 com participante. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.3` | 25/10/2026 | Atualização do Storyboard 3 para a funcionalidade de Grade de Disponibilidade e Agendamento de Reuniões, adição do registro audiovisual de avaliação e sincronização com a develop. | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.4` | 25/10/2026 | Incorporação do registro em vídeo do Teste-Piloto do Storyboard 3 (Edvaldo Soares) e ajuste da numeração das tabelas. | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

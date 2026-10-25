@@ -63,10 +63,10 @@ Em cumprimento estrito aos critérios de avaliação da disciplina (*Sales, 2026
 <i>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</i>
 </p>
 
-### 3.2 Storyboard 3 – Busca Avançada e Filtros de Categoria por Estudante (Edvaldo Soares)
+### 3.2 Storyboard 3 – Grade de Disponibilidade e Agendamento de Reuniões (Edvaldo Soares)
 - **Autor:** [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
-- **Artefato Completo:** [Acessar documentação detalhada do Storyboard 3](../design-avaliacao-desenvolvimento/storyboards.md#3-storyboard-3-busca-avancada-e-filtros-de-categoria-por-estudante-edvaldo-soares)
-- **Resumo da Narrativa:** Retrata Maria, estudante de mestrado, refinando a busca no fórum por categorias especializadas de Inteligência Artificial e Visão Computacional para encontrar tópicos de ponta com datasets e códigos abertos para sua dissertação.
+- **Artefato Completo:** [Acessar documentação detalhada do Storyboard 3](../design-avaliacao-desenvolvimento/storyboards.md#3-storyboard-3-grade-de-disponibilidade-e-agendamento-de-reunioes-no-forum-diolinux-edvaldo-soares)
+- **Resumo da Narrativa:** Retrata Mariana disponibilizando horários em seu tópico no fórum Diolinux e Carlos agendando uma reunião de mentoria técnica para sanar uma falha de inicialização em sua distribuição Linux.
 
 ---
 
