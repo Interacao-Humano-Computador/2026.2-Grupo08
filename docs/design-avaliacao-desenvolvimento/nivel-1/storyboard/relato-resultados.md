@@ -162,7 +162,7 @@ A Tabela 4 sintetiza as gravações audiovisuais das avaliações do Storyboard.
 | Sessão | Funcionalidade / Storyboard | Participante | Avaliador Responsável | Duração | Link de Acesso no YouTube |
 | :---: | :--- | :---: | :--- | :---: | :--- |
 | **S01** | Tarefa 1: Markdown, Tags e IA Semântica | P1 (J. V. S. — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ~14 min | [Assistir Sessão S01 no YouTube (Não Listado)](https://youtu.be/placeholder-s01) |
-| **S02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão S02 no YouTube (Não Listado)](https://youtu.be/placeholder-s02) |
+| **S02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão S02 no YouTube (Não Listado)](https://youtu.be/VhGgpfX9Rqk) |
 | **S03** | Tarefa 3: Grade de Disponibilidade e Agendamento | P3 (G. H. R.) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~15 min | [Assistir Sessão S03 no YouTube (Não Listado)](https://youtu.be/gqZ3yJ3ZYUc) |
 
 _Fonte: Elaborada pelos autores, 2026._
