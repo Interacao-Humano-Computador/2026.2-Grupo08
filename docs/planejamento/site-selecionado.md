@@ -63,9 +63,9 @@ Permite ao usuário redigir e publicar dúvidas técnicas, tutoriais ou notícia
 
 Permite ao novo usuário criar sua conta na comunidade e realizar a jornada inicial de acolhimento e aprendizagem de regras. O fluxo compreende o preenchimento de formulário ou autenticação social, confirmação de correio eletrônico, recebimento de mensagem privada de boas-vindas do assistente automatizado (*Discobot*), execução do tutorial guiado de formatação/atalhos e compreensão das travas de segurança dos níveis de confiança (*Trust Level 0 para Trust Level 1*).
 
-### 3. F03: Busca Avançada e Filtros de Categoria
+### 3. F03: Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias (Proposta de Nova Funcionalidade)
 
-Permite aos usuários localizar soluções prévias para problemas técnicos e configurações de hardware. O fluxo envolve o acionamento da barra de pesquisa, uso de operadores avançados de filtragem (por categoria, autor, etiquetas e status de resolução aceita), navegação pelas sugestões dinâmicas e refinamento de termos para evitar a execução de comandos obsoletos.
+Permite que membros veteranos e voluntários configurem uma grade semanal de horários disponíveis (estilo *When2meet / Calendly*) diretamente em seu perfil ou em tópicos de suporte. Usuários novatos com problemas técnicos complexos (como falhas de boot, configuração de kernel ou particionamento) podem visualizar os blocos livres, selecionar um horário vago e confirmar a reserva de mentoria síncrona com prevenção de conflitos de agenda e geração de sala de conferência.
 
 A Tabela 1 sintetiza a correspondência formal entre as funcionalidades nucleares selecionadas, o nível de complexidade técnica, o potencial analítico em IHC e a distribuição de responsabilidades individuais entre os discentes, sincronizada em proporção 1:1 com os fluxos modelados em [Análise de Tarefas](../analise-requisitos/analise-tarefas.md).
 
@@ -75,7 +75,7 @@ A Tabela 1 sintetiza a correspondência formal entre as funcionalidades nucleare
 | :---: | :--- | :---: | :--- | :--- | :--- |
 | **F01** | Criação e Edição de Tópicos com Tags e Markdown | Alta | Sobrecarga de comandos no editor; hesitação na seleção de tags adequadas; erros frequentes na formatação de blocos de código de terminal por novatos. | HTA (Diagrama + Tabela) + GOMS/KLM | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | **F02** | Cadastro e Onboarding do Novo Usuário com Discobot | Alta | Barreiras de acolhimento; atrito com limitações antispam do Trust Level 0 (TL0); evasão do tutorial do Discobot por falta de clareza visual. | HTA (Diagrama + Tabela) + GOMS | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
-| **F03** | Busca Avançada e Filtros de Categoria | Alta | Dificuldade de filtrar por distribuições específicas (ex: Linux Mint vs. Ubuntu); risco de comandos obsoletos em tópicos antigos; modais de busca densos. | HTA (Diagrama + Tabela) + GOMS/CMN-GOMS | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| **F03** | Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias | Alta | Mapeamento de matriz temporal interativa, concorrência temporal, prevenção de double-booking e sincronização de salas. | HTA (Diagrama + Tabela) + CTT | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -128,8 +128,7 @@ A Tabela 3 documenta o histórico evolutivo de versões deste artefato, acompanh
 | `1.2` | 18/09/2026 | Reestruturação integral para o Fórum Diolinux Plus, documentação do pivot e detalhamento das funcionalidades preliminares | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.3` | 25/09/2026 | Atualização preliminar de escopo e registro da redução da equipe ([Ata 4](../atas/ata4.md)) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.4` | 10/10/2026 | Sincronização 1:1 da Tabela 1 com as tarefas oficiais de HTA/GOMS, expurgo integral de propostas legadas ("Eventos Presenciais"), higienização de membros inativos e inclusão de lista de verificação analítica com 6 itens (Issue #53) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
-
-_Fonte: Elaborada pelos autores, 2026._
+| `1.5` | 22/10/2026 | Atualização da funcionalidade F03 para Grade de Disponibilidade e Agendamento de Dúvidas/Mentorias sob responsabilidade de Edvaldo Soares | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 ---
 

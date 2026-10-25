@@ -56,12 +56,12 @@ _Fonte: Elaborada pelo autor com base em Barbosa e Silva (2010, pp. 301–303, 3
 
 ## 3. Aplicação Prática no Projeto do Grupo 08 (Fórum Diolinux Plus)
 
-No âmbito do projeto prático de IHC para o **Fórum Diolinux Plus (Discourse)**, a articulação entre métodos de investigação e de inspeção de tarefas foi operacionalizada nas seguintes frentes da **Etapa 4**:
+No âmbito do projeto prático de IHC para o **Fórum Diolinux Plus**, a articulação entre métodos de investigação e de inspeção de tarefas foi operacionalizada nas seguintes frentes da **Etapa 4**:
 
-1. **Investigação da Tarefa:** A partir da análise dos perfis e do arquétipo de estudante/usuário aprendiz levantados nas etapas preliminares, a investigação empírica (via entrevistas semiestruturadas com roteiro dirigido) confronta diretamente a percepção do usuário sobre as tarefas centrais do fórum, em especial a **Busca Avançada e Filtros Facetados de Categoria e Distribuição** (Tarefa 3 da HTA), verificando se a navegação do Discourse atende às expectativas de localização de soluções de terminal e drivers.
-2. **Representação Visual e Cenários:** Os dados investigados fundamentaram a modelagem do Storyboard 3 em quadrinhos (300 DPI), contextualizando o estudante ao pesquisar tópicos com filtros e badges de "Solução Aceita".
-3. **Planejamento do Relato e Severidade:** Estruturação do protocolo formal de resultados categorizando eventuais problemas identificados na entrevista segundo a escala clássica de severidade de Nielsen (0 a 4).
-4. **Instrumentos de Observação e Registro:** Emprego da planilha de anotações do observador (`observacao-avaliador.csv`), permitindo registrar em tempo real hesitações, comentários e tempos aproximados durante a inquirição semiestruturada.
+1. **Investigação da Tarefa:** A partir da análise dos questionários e do perfil de usuário levantados nas etapas anteriores, identificou-se que a tarefa de **Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias** (Tarefa 3 do HTA) é crítica para o estudante aprendiz, viabilizando suporte síncrono estruturado para problemas técnicos complexos de Linux.
+2. **Representação Visual e Cenários (Issue #64):** Os dados investigados fundamentaram a elaboração do Storyboard 3 em quadrinhos manuais (300 DPI), retratando o contexto situacional do estudante ao agendar um horário com um mentor voluntário.
+3. **Planejamento do Relato e Severidade (Issue #65):** Estruturação do relatório formal de resultados categorizando as falhas identificadas segundo a escala clássica de severidade de Nielsen (0 a 4).
+4. **Instrumentos de Observação e Registro (Issue #66):** Criação do roteiro comportamental e da planilha de anotações do avaliador (`observacao-avaliador.csv`), permitindo correlacionar a inspeção analítica com a posterior observação empírica de hesitações e erros.
 
 ---
 
@@ -86,6 +86,7 @@ A Tabela 2 documenta o histórico evolutivo deste artefato teórico.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial do item teórico sobre métodos de avaliação em IHC (investigação vs. inspeção) baseado em Barbosa e Silva (2010). | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.1` | 15/10/2026 | Saneamento de escopo pós-auditoria de 15/10 (#93): expurgo de menções legadas a projetos anteriores e alinhamento prático estrito com o Fórum Diolinux Plus (Discourse) e Tarefa 3 de busca avançada. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.2` | 22/10/2026 | Atualização da aplicação prática da Etapa 4 para a Tarefa 3 de Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
