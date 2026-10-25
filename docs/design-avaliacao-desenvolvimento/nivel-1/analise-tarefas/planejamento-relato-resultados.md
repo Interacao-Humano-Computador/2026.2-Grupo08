@@ -120,7 +120,7 @@ A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessõ
 | :---: | :---: | :--- | :---: | :---: | :--- |
 | **ST01** | P1 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 22/10/2026 14:20 | *[Minutos]* | [Acessar Gravação da Sessão ST01](https://youtu.be/placeholder-st01) |
 | **ST02** | P2 | [Gustavo Antonio](https://github.com/gus-ant) | 22/10/2026 15:20 | *[Minutos]* | [Acessar Gravação da Sessão ST02](https://youtu.be/placeholder-st02) |
-| **ST03** | P3 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 22/10/2026 16:20 | *[Minutos]* | [Acessar Gravação da Sessão ST03](https://youtu.be/placeholder-st03) |
+| **ST03** | P3 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 22/10/2026 16:20 | 15 min | [Acessar Gravação da Sessão ST03 (YouTube)](https://youtu.be/gqZ3yJ3ZYUc) |
 | **ST04** | P4 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 23/10/2026 10:00 | *[Minutos]* | [Acessar Gravação da Sessão ST04](https://youtu.be/placeholder-st04) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
@@ -161,6 +161,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | `1.0` | 13/10/2026 | Elaboração inicial do planejamento do relato dos resultados da avaliação da Análise de Tarefas (Issue #61), com objetivos de tarefas, caracterização de participantes (Tabela 2), matriz de problemas com severidade de Nielsen (Tabela 3), diretrizes de refatoração, cláusula de isolamento do piloto e lista de verificação com 10 itens normativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 20/10/2026 | Harmonização para sessões presenciais no campus da FGA/UnB (Issue #100): percurso procedural assistido em tela de notebook, sincronização de datas de campo em 22/10 e 23/10, teste-piloto presencial em 21/10 e ajuste do prazo final da Entrega 5 para 25/10/2026. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 22/10/2026 | Atualização das seções 2, 3.3 e 3.4 alinhando a Tarefa 2 à Criação de Eventos Presenciais (CF02) (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.3` | 24/10/2026 | Atualização do link e dados da gravação da Sessão ST03 conduzida por Edvaldo Soares no YouTube. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 

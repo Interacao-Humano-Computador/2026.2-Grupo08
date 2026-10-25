@@ -136,7 +136,7 @@ A Tabela 3 detalha a operacionalização das atividades de avaliação de Nível
 
 | Etapa do Método | Atividade Prevista (Barbosa & Silva, 2021) | Operacionalização no Projeto / Tarefas da Equipe |
 | :--- | :--- | :--- |
-| **Preparação** | Definir as tarefas para os participantes executarem | **Vinicius:** Tarefa 1 (Markdown e Tags); **Gustavo:** Tarefa 2 (Criação de Eventos Presenciais); **Edvaldo:** Tarefa 3 (Busca Avançada e Filtros). |
+| **Preparação** | Definir as tarefas para os participantes executarem | **Vinicius:** Tarefa 1 (Markdown e Tags); **Gustavo:** Tarefa 2 (Criação de Eventos Presenciais); **Edvaldo:** Tarefa 3 (Grade de Disponibilidade e Agendamento). |
 | | Definir o perfil dos participantes e recrutá-los | Recrutamento de 3 discentes voluntários da UnB com vivência em Linux (Perfil 1 — Estudante Aprendiz). |
 | | Criar cenários e storyboards de baixa fidelidade | Confecção de Storyboards manuais em alta definição (300 DPI) entre 13/10 e 16/10/2026 por cada autor. |
 | | Executar um teste-piloto | Ensaio solo presencial em 21/10/2026 das 14:00 às 14:45 na FGA/UnB para calibração de microfone, imagem, ambiente silencioso e TCLE (dados isolados e não computados). |
@@ -163,6 +163,7 @@ Conforme exigido pelo Plano de Ensino da disciplina (Itens 11 e 12), o teste-pil
 | Tipo de Avaliação | Data | Horário | Entrevistador | Observador | Participante (Piloto) | Local / Espaço Físico |
 | :--- | :---: | :---: | :--- | :--- | :--- | :--- |
 | **Ensaio Presencial do Teste-Piloto** | 21/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Discente voluntário de TI (UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
+| **Teste-Piloto da Tarefa 3 (Edvaldo)** | 17/10/2026 | 14:00 - 15:00 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Discente voluntário de TI (UnB) | [Gravação no YouTube](https://youtu.be/1F409M-E850) |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -176,11 +177,11 @@ A Tabela 5 detalha as 3 sessões planejadas para a avaliação formativa dos Sto
 
 **Tabela 5** — Cronograma das Sessões de Avaliação do Storyboard (Conduzidas Individualmente)
 
-| Sessão | Data | Horário | Storyboard Avaliado | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
+| Sessão | Data | Horário | Storyboard Avaliado | Avaliador Responsável | Participante Convidado | Local Físico / Link |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
 | **S01** | 22/10/2026 | 14:00 - 14:40 | Storyboard 1 (Markdown e Tags com IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 | **S02** | 22/10/2026 | 15:00 - 15:40 | Storyboard 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
-| **S03** | 22/10/2026 | 16:00 - 16:40 | Storyboard 3 (Busca Avançada) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
+| **S03** | 22/10/2026 | 16:00 - 16:40 | Storyboard 3 (Grade de Disponibilidade e Agendamento) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | [Gravação no YouTube](https://youtu.be/gqZ3yJ3ZYUc) / FGA |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -192,11 +193,11 @@ A Tabela 6 detalha as 3 sessões planejadas para a avaliação formativa dos mod
 
 **Tabela 6** — Cronograma das Sessões de Avaliação da Análise de Tarefas (Sessão Única Contínua com Storyboard)
 
-| Sessão | Data | Horário | Tarefa Investigada | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
+| Sessão | Data | Horário | Tarefa Investigada | Avaliador Responsável | Participante Convidado | Local Físico / Link |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
 | **T01** | 22/10/2026 | 14:20 - 14:40 | Tarefa 1 (Publicação com Tags e IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 | **T02** | 22/10/2026 | 15:20 - 15:40 | Tarefa 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
-| **T03** | 22/10/2026 | 16:20 - 16:40 | Tarefa 3 (Busca Avançada e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
+| **T03** | 22/10/2026 | 16:20 - 16:40 | Tarefa 3 (Grade de Disponibilidade e Agendamento) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | [Gravação no YouTube](https://youtu.be/gqZ3yJ3ZYUc) / FGA |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -213,7 +214,7 @@ Para garantir o rigor no encadeamento das atividades e atender à diretriz pedag
 | **Ensaio Presencial do Teste-Piloto** | 21/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (Avaliador Solo) | Ensaio individual testando microfone, imagem sobre a mesa em ambiente silencioso, leitura do TCLE (< 60s) e manuseio de pranchas (dados isolados e não computados). | 🟡 Agendado |
 | **Sessão Presencial Oficial 01 (S01 / T01)** | 22/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (Avaliador Responsável) | Gravação em ambiente silencioso, TCLE nos primeiros 60s, Storyboard 1 impresso e percurso da Tarefa 1 (Markdown e Tags com IA) com Participante 1 (P1). | 🟡 Agendado |
 | **Sessão Presencial Oficial 02 (S02 / T02)** | 22/10/2026 | 15:00 - 15:40 | [Gustavo Antonio](https://github.com/gus-ant) (Avaliador Responsável) | Gravação em ambiente silencioso, TCLE nos primeiros 60s, Storyboard 2 impresso e percurso da Tarefa 2 (Criação de Eventos Presenciais) com Participante 2 (P2). | 🟡 Agendado |
-| **Sessão Presencial Oficial 03 (S03 / T03)** | 22/10/2026 | 16:00 - 16:40 | [Edvaldo Soares](https://github.com/PajeMurici-dev) (Avaliador Responsável) | Gravação em ambiente silencioso, TCLE nos primeiros 60s, Storyboard 3 impresso e percurso da Tarefa 3 (Busca e Filtros) com Participante 3 (P3). | 🟡 Agendado |
+| **Sessão Presencial Oficial 03 (S03 / T03)** | 22/10/2026 | 16:00 - 16:40 | [Edvaldo Soares](https://github.com/PajeMurici-dev) (Avaliador Responsável) | Gravação em ambiente silencioso, TCLE nos primeiros 60s, Storyboard 3 impresso e percurso da Tarefa 3 (Grade de Disponibilidade e Agendamento) com Participante 3 (P3). | 🟡 Agendado |
 | **Tabulação e Pós-Processamento** | 23/10/2026 | 09:00 - 13:00 | Todos os integrantes | Consolidação dos dados comportamentais na planilha `observacao-avaliador.csv` e síntese de discrepâncias de HTA. | ⚪ Planejado |
 | **Análise de Severidade (Nielsen)** | 23/10/2026 | 14:00 - 18:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Classificação heurística da gravidade dos problemas encontrados na escala de 0 a 4 de Nielsen (1994) e proposição de redesigns. | ⚪ Planejado |
 | **Redação dos Relatos e Homologação** | 23/10/2026 | 18:00 - 23:59 | Todos os integrantes | Redação completa e homologação técnica de `storyboard/relato-resultados.md` e `analise-tarefas/relato-resultados.md`. | ⚪ Planejado |
@@ -258,6 +259,7 @@ A Tabela 9 documenta as versões deste artefato.
 | `1.2` | 15/10/2026 | Refinamento pós-auditoria de 15/10 (#93): inclusão do script literal de abordagem discente, estruturação formal da Seção 8.4 (Cronograma Executado e Esteira de Pós-Processamento até 25/10) e sincronização de tabelas. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.3` | 20/10/2026 | Adequação formal para modalidade estritamente presencial no campus da FGA/UnB (Issue #100): condução autônoma individual em ambiente silencioso favorável à concentração, gravação com smartphone/notebook sobre a mesa, manuseio de pranchas impressas (300 DPI), script de abordagem presencial, realização de sessões contínuas integradas em 22/10 e esteira executiva com gravação em 24/10. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.4` | 22/10/2026 | Atualização das Tabelas 3, 5, 6 e 7 alinhando formalmente a Tarefa 2 e Storyboard 2 à Criação de Eventos Presenciais (CF02) (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.5` | 24/10/2026 | Atualização dos links de gravação da avaliação oficial e do teste-piloto da Tarefa 3 (Grade de Disponibilidade e Agendamento) no YouTube, sob condução de Edvaldo Soares. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 

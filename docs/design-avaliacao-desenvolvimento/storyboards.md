@@ -253,13 +253,32 @@ A Figura 3 apresenta a representação gráfica do Storyboard 3 (Grade de Dispon
 
 ---
 
-### 4.5 Registro Audiovisual da Avaliação do Storyboard 3
+### 4.5 Registros Audiovisuais (Teste-Piloto e Avaliação Oficial)
 
-A gravação da sessão de avaliação do Storyboard 3 (Grade de Disponibilidade e Agendamento), conduzida por Edvaldo Soares, está disponibilizada no YouTube em modo Não Listado:
+A Tabela 6 consolida os registros audiovisuais em vídeo das sessões práticas de validação do Storyboard 3 conduzidas por Edvaldo Soares, disponibilizadas no YouTube sob o regime Não Listado.
+
+**Tabela 6** — Registros audiovisuais do Storyboard 3 (Teste-Piloto e Avaliação com Usuário)
+
+| Etapa | Objetivo / Atividade | Responsável | Participante | Data | Vídeo no YouTube |
+| :---: | :--- | :--- | :--- | :---: | :--- |
+| **Teste-Piloto** | Calibração instrumental de gravação, roteiro e temporização da sessão de avaliação | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Simulação Solo | 24/10/2026 | [Assistir no YouTube (1F409M-E850)](https://youtu.be/1F409M-E850) |
+| **Avaliação Oficial** | Sessão de avaliação formativa do Storyboard 3 via entrevista semiestruturada | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante Voluntário | 24/10/2026 | [Assistir no YouTube (gqZ3yJ3ZYUc)](https://youtu.be/gqZ3yJ3ZYUc) |
+
+_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), 2026._
+
+#### Vídeo 3 — Teste-Piloto do Storyboard 3 (Edvaldo Soares)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/1F409M-E850" title="Teste-Piloto do Storyboard 3 - Edvaldo Soares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 3</strong> — Registro audiovisual do Teste-Piloto do Storyboard 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/1F409M-E850" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/1F409M-E850</a></p>
+</div>
+
+#### Vídeo 4 — Gravação da Avaliação Oficial do Storyboard 3 (Edvaldo Soares)
 
 <div style="text-align: center; margin: 1.5rem 0;">
     <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/gqZ3yJ3ZYUc" title="Avaliação do Storyboard 3 - Edvaldo Soares" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 3</strong> — Registro audiovisual da avaliação do Storyboard 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 4</strong> — Registro audiovisual da avaliação com participante do Storyboard 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/gqZ3yJ3ZYUc" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/gqZ3yJ3ZYUc</a></p>
 </div>
 
@@ -282,8 +301,8 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | `1.0` | 12/10/2026 | Estruturação inicial do artefato com o Storyboard 3 (Busca Avançada). | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.1` | 22/10/2026 | Inclusão do Storyboard 2 autoral de Gustavo Antonio Rodrigues e Silva (digitalização em 300 DPI da prancha física com 8 quadros), detalhamento de User Stories, tabela analítica de cenas, alinhamento com os 3 pilares de Klemmer e atualização da matriz de contribuição. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.2` | 23/10/2026 | Incorporação dos registros em vídeo da execução do Teste-Piloto (YouTube Não Listado) e da gravação da Avaliação Oficial do Storyboard 2 com participante. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `1.3` | 24/10/2026 | Inclusão do Storyboard 1 (Criação de Tópico de Dúvida com Tags e Formatação Markdown com Integração de IA Semântica — CF01) de Vinicius Silva Araruna, contendo prancha manuscrita original (Opção B a 300 DPI), roteiro de 8 quadros com IA pré-envio e link para o artefato aprofundado. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
-| `1.4` | 25/10/2026 | Atualização do Storyboard 3 para a funcionalidade de Grade de Disponibilidade e Agendamento de Reuniões, adição do registro audiovisual de avaliação e sincronização com a develop. | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
+<a id="3-storyboard-3-grade-de-disponibilidade-e-agendamento-de-reunioes-no-forum-diolinux-edvaldo-soares"></a>
+## 4. Storyboard 3 – Grade de Disponibilidade e Agendamento de Reuniões no Fórum Diolinux (Edvaldo Soares)
 
 _Fonte: Elaborada pelos autores, 2026._
 
