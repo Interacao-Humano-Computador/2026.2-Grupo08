@@ -49,40 +49,68 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ---
 
-## 3. Gravação da Apresentação da Entrega 5
+## 3. Registros Audiovisuais da Entrega 5
 
-A Tabela 3 apresenta os dados cadastrais da gravação da apresentação em vídeo da Entrega 5, publicada no YouTube na modalidade Não Listado com duração regulamentar entre 20 e 30 minutos.
-
-**Tabela 3** — Metadados da gravação oficial da Entrega 5
-
-| Atributo | Detalhamento |
-| :--- | :--- |
-| **Link do Vídeo no YouTube** | [Em produção / Gravação síncrona da equipe](https://youtu.be/) |
-| **Integrantes Participantes** | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
-| **Objeto de Avaliação** | Relato de Resultados de Storyboard e Tarefas (Nível 1) e Planejamento do Protótipo de Papel (Nível 2) |
-| **Data da Gravação** | 02/11/2026 |
-| **Ambiente de Gravação** | Sessão síncrona gravada com compartilhamento dos artefatos oficiais |
-
-_Fonte: Elaborada pelos autores, 2026._
-
-### 3.1 Destaques das Narrativas dos Storyboards da Equipe
-- **Storyboard 1 (Vinicius Silva Araruna):** [Acessar Storyboard 1](../design-avaliacao-desenvolvimento/storyboards.md#storyboard-1-topico-markdown) — Redação técnica com Markdown e tags assistida por IA semântica pré-envio.
-- **Storyboard 2 (Gustavo Antonio Rodrigues e Silva):** [Acessar Storyboard 2](../design-avaliacao-desenvolvimento/storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio) — Organização e divulgação de workshop presencial de Linux com mapa interativo e credenciamento.
-- **Storyboard 3 (Edvaldo Soares Brasileiro Filho):** [Acessar Storyboard 3](../design-avaliacao-desenvolvimento/storyboards.md#4-storyboard-3-grade-de-disponibilidade-e-agendamento-de-reunioes-no-forum-diolinux-edvaldo-soares) — Disponibilização e reserva de horários em grade interativa para mentoria e resolução de problemas de inicialização.
+Em atendimento às diretrizes pedagógicas da disciplina (*Sales, 2026*), esta seção consolida as gravações em vídeo da Entrega 5 publicadas no YouTube sob o regime Não Listado. A equipe organizou as apresentações em duas modalidades complementares: as **Apresentações Individuais por Funcionalidade** (focadas na modelagem profunda, avaliação formativa de Nível 1 e planejamento de Nível 2 de cada integrante) e a **Apresentação Síncrona Coletiva da Equipe**.
 
 ---
 
-## 4. Consolidação das Funcionalidades e Síntese de Nível 1
+### 3.1 Apresentação Individual da Tarefa 1 — Vinicius Silva Araruna
 
-A Tabela 4 sintetiza a distribuição das funcionalidades prioritárias sob responsabilidade de cada integrante da equipe e os principais achados derivados das avaliações formativas de Nível 1.
+A Tabela 3 apresenta os dados cadastrais da gravação da apresentação individual conduzida por Vinicius Silva Araruna, abordando a modelagem da Tarefa 1, a avaliação de Storyboard e HTA com discente voluntário e o planejamento do Protótipo de Papel via Framework DECIDE.
 
-**Tabela 4** — Síntese das funcionalidades avaliadas e achados de Nível 1
+**Tabela 3** — Metadados da apresentação individual da Tarefa 1 (Vinicius Silva Araruna)
 
-| Integrante | Funcionalidade Avaliada | Modelagem de Nível 1 (Storyboard e HTA) | Principais Problemas Diagnosticados (Nielsen) | Recomendações de Reprojeto para Nível 2 |
-| :--- | :--- | :--- | :--- | :--- |
-| **Vinicius Silva Araruna** | Composição de Tópico com Tags, Markdown e IA Semântica | [Storyboard 1 (8 quadros A4)](../design-avaliacao-desenvolvimento/storyboards.md#storyboard-1-topico-markdown) e HTA Canônica com regras CMN-GOMS | • Risco de apreensão quanto ao bloqueio do envio pela IA (Severidade 2)<br>• Ausência de atalho de tags em lote (Severidade 2)<br>• Precedência rígida entre tags e redação (Severidade 1) | • Inserir botão neutro de envio direto ignorando sugestões<br>• Modelar operador de aceitação de tags com 1 clique<br>• Flexibilizar o Plano 0: `G1 > G2 > (G3 + G4) > G5` |
-| **Gustavo Antonio Rodrigues e Silva** | Criação e Divulgação de Workshop Presencial (CF02) | [Storyboard 2 (8 quadros A4)](../design-avaliacao-desenvolvimento/storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio) e HTA de Eventos Presenciais | • Dúvida transitória sobre ajuste fino de pin no mapa (Severidade 2)<br>• Falta de confirmação imediata de raio visual (Severidade 2) | • Adicionar autocompletar com geolocalização e raio visual no mapa interativo |
-| **Edvaldo Soares Brasileiro Filho** | Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias | [Storyboard 3 (8 quadros)](../design-avaliacao-desenvolvimento/storyboards.md#4-storyboard-3-grade-de-disponibilidade-e-agendamento-de-reunioes-no-forum-diolinux-edvaldo-soares) e Modelagem HTA/CTT de Agendamento | • Dificuldade na identificação visual de tópico com 'Solução Aceita' (Severidade 2)<br>• Incerteza no fluxo de cancelamento de slot de mentoria (Severidade 2) | • Destacar badge explícito de 'Resolvido' com realce cromático de sucesso<br>• Inserir confirmação com feedback imediato de cancelamento/reagendamento |
+| Atributo | Detalhamento |
+| :--- | :--- |
+| **Apresentador Responsável** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (Tech Lead / PO) |
+| **Funcionalidade Mapeada** | `CF01` / `F01` — Criação e Publicação de Tópico de Dúvida com Tags, Formatação Markdown e IA Semântica Pré-Envio |
+| **Escopo de Nível 1 Coberto** | • Storyboard 1 em papel A4 (Opção B - 300 DPI, 8 quadros e Klemmer)<br>• Teste-Piloto instrumental solo (52s, isolamento total de dados)<br>• Avaliação de campo presencial com discente J.V.S (CIC/UnB)<br>• Matriz de Problemas e Severidade de Nielsen (PROB-ST-01/02 e PROB-AT-01/02) |
+| **Escopo de Nível 2 Coberto** | • Planejamento da Avaliação do Protótipo de Papel (Framework DECIDE)<br>• Separação estrita de papéis: Facilitador vs. Computador Humano<br>• Roteiro de tarefas táteis com cartão destacável da IA e split-view<br>• Planejamento do Relato de Resultados e transição para o Nível 3 |
+| **Data da Gravação** | 25/10/2026 |
+| **Ambiente de Gravação** | Gravação individual audiovisual com compartilhamento de tela e pranchas físicas |
+| **Link do Vídeo no YouTube** | [Assistir Apresentação Individual no YouTube (Não Listado)](https://youtu.be/cRSrm-Zc2no) |
+
+_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
+
+#### Reprodução Audiovisual da Apresentação Individual (Vinicius Silva Araruna)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/cRSrm-Zc2no" title="Apresentação Individual da Entrega 5 - Tarefa 1 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Apresentação individual da Entrega 5 conduzida por Vinicius Silva Araruna (Tarefa 1: Markdown, Tags e IA Semântica). <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/cRSrm-Zc2no" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/cRSrm-Zc2no</a></p>
+</div>
+
+---
+
+### 3.2 Apresentações das Demais Funcionalidades e Gravação Coletiva da Equipe
+
+A Tabela 4 consolida o mapeamento dos registros audiovisuais das funcionalidades conduzidas pelos demais integrantes da equipe e a sessão coletiva síncrona de alinhamento geral.
+
+**Tabela 4** — Status das gravações audiovisuais individuais e coletivas da Entrega 5
+
+| Modalidade / Escopo | Responsável(is) | Funcionalidade Mapeada | Status / Previsão | Registro no YouTube |
+| :--- | :--- | :--- | :---: | :--- |
+| **Apresentação Individual — Tarefa 1** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Criação de Tópico com Tags, Markdown e IA Semântica (CF01) | 🟢 Concluído | [Assistir no YouTube (cRSrm-Zc2no)](https://youtu.be/cRSrm-Zc2no) |
+| **Apresentação Individual — Tarefa 2** | [Gustavo Antonio](https://github.com/gus-ant) | Criação de Eventos Presenciais da Comunidade (CF02) | 🟡 Em gravação | [Assistir no YouTube](https://youtu.be/placeholder-apresentacao-gustavo) |
+| **Apresentação Individual — Tarefa 3** | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias | 🟡 Em gravação | [Assistir no YouTube](https://youtu.be/placeholder-apresentacao-edvaldo) |
+| **Gravação Síncrona Coletiva** | Toda a Equipe | Consolidação integrada da Entrega 5 e alinhamento para o Nível 2 | Previsto (02/11/2026) | [Em produção](https://youtu.be/) |
+
+_Fonte: Elaborada pelos autores, 2026._
+
+---
+
+## 4. Consolidação das Entregas Individuais por Funcionalidade
+
+A Tabela 5 sintetiza a distribuição das funcionalidades prioritárias sob responsabilidade de cada integrante da equipe, articulando os artefatos de Nível 1 e Nível 2 entregues e os principais achados derivados das avaliações formativas com discentes.
+
+**Tabela 5** — Síntese das funcionalidades avaliadas, artefatos de Nível 1/2 e achados de usabilidade
+
+| Integrante | Funcionalidade Avaliada | Modelagem de Nível 1 (Storyboard e HTA) | Avaliação de Campo e Piloto | Planejamento de Nível 2 (Protótipo de Papel) | Principais Problemas Diagnosticados (Nielsen) | Recomendações de Reprojeto para Nível 2 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Vinicius Silva Araruna** | Composição de Tópico com Tags, Markdown e IA Semântica (`CF01`) | [Storyboard 1 (8 quadros A4)](../design-avaliacao-desenvolvimento/storyboards.md#storyboard-1-topico-markdown) e HTA Canônica com regras CMN-GOMS | • [Teste-Piloto Solo (52s)](../design-avaliacao-desenvolvimento/nivel-1/teste-piloto.md)<br>• [Relato do Storyboard](../design-avaliacao-desenvolvimento/nivel-1/storyboard/relato-resultados.md)<br>• [Relato de Tarefas](../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/relato-resultados.md)<br>• Sessão S01/T01 com J.V.S (CIC) | • [Planejamento da Avaliação DECIDE](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md)<br>• [Planejamento do Relato](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-relato-resultados.md)<br>• Facilitador vs. Computador Humano | • Risco de apreensão quanto ao bloqueio do envio pela IA (Severidade 2)<br>• Ausência de atalho de tags em lote (Severidade 2)<br>• Precedência rígida entre tags e redação (Severidade 1) | • Inserir botão neutro de envio direto ignorando sugestões<br>• Modelar operador de aceitação de tags com 1 clique<br>• Flexibilizar o Plano 0: `G1 > G2 > (G3 + G4) > G5` |
+| **Gustavo Antonio Rodrigues e Silva** | Criação e Divulgação de Workshop Presencial (`CF02`) | [Storyboard 2 (8 quadros A4)](../design-avaliacao-desenvolvimento/storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio) e HTA de Eventos Presenciais | • [Teste-Piloto](../design-avaliacao-desenvolvimento/nivel-1/teste-piloto.md)<br>• [Relato do Storyboard](../design-avaliacao-desenvolvimento/nivel-1/storyboard/relato-resultados.md)<br>• Sessão S02 com L.C.F | • [Planejamento do Protótipo de Papel](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md)<br>• Roteiro de tarefas de eventos presenciais | • Dúvida transitória sobre ajuste fino de pin no mapa (Severidade 2)<br>• Falta de confirmação imediata de raio visual (Severidade 2) | • Adicionar autocompletar com geolocalização e raio visual no mapa interativo |
+| **Edvaldo Soares Brasileiro Filho** | Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias (`CF03`) | [Storyboard 3 (8 quadros)](../design-avaliacao-desenvolvimento/storyboards.md#4-storyboard-3-grade-de-disponibilidade-e-agendamento-de-reunioes-no-forum-diolinux-edvaldo-soares) e Modelagem HTA/CTT de Agendamento | • [Teste-Piloto](../design-avaliacao-desenvolvimento/nivel-1/teste-piloto.md)<br>• [Relato do Storyboard](../design-avaliacao-desenvolvimento/nivel-1/storyboard/relato-resultados.md)<br>• [Relato de Tarefas](../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/relato-resultados.md)<br>• Sessão S03/T03 com G.H.R | • [Planejamento do Protótipo de Papel](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md)<br>• Roteiro de tarefas de agendamento | • Dificuldade na identificação visual de tópico com 'Solução Aceita' (Severidade 2)<br>• Incerteza no fluxo de cancelamento de slot de mentoria (Severidade 2) | • Destacar badge explícito de 'Resolvido' com realce cromático de sucesso<br>• Inserir confirmação com feedback imediato de cancelamento/reagendamento |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -100,9 +128,9 @@ As recomendações elicitadas na fase de Nível 1 atuam como requisitos diretos 
 
 ## 6. Histórico de Versão
 
-A Tabela 5 documenta a evolução histórica desta página de consolidação.
+A Tabela 6 documenta a evolução histórica desta página de consolidação.
 
-**Tabela 5** — Histórico de Versão
+**Tabela 6** — Histórico de Versão
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
@@ -110,6 +138,7 @@ A Tabela 5 documenta a evolução histórica desta página de consolidação.
 | `1.1` | 22/10/2026 | Estruturação completa da página de síntese da Entrega 5, incorporação da matriz de artefatos de Nível 1 e Nível 2, destaque do Storyboard 2 (Gustavo Antonio) em 300 DPI e consolidação das referências. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.2` | 24/10/2026 | Consolidação completa da Entrega 5: integração dos Relatos de Resultados de Storyboard e Análise de Tarefas (Nível 1), incorporação do Planejamento do Protótipo de Papel (Nível 2), tabela de artefatos com links diretos, container de vídeo da equipe e mapeamento de reprojeto dos 3 membros ativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.3` | 25/10/2026 | Sincronização com a develop: harmonização dos links de Storyboard 1, 2 e 3 (Grade de Agendamento) e resolução de conflitos de merge. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.4` | 25/10/2026 | Estruturação dinâmica da Entrega 5 com integração da Apresentação Individual da Tarefa 1 (Vinicius Silva Araruna), consolidação da matriz de artefatos de Nível 1 e 2 por integrante e container de vídeo dedicado. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
