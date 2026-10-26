@@ -64,10 +64,12 @@ Em estrito atendimento aos critérios de avaliação do Plano de Ensino da disci
 
 A Figura 1 apresenta a prancha desenhada à mão em folha de papel sulfite A4 por Vinicius Silva Araruna, contendo a sequência cronológica completa dos 8 quadros da Tarefa 1.
 
-<div style="text-align: center; margin: 1.5rem 0;">
-    <img src="assets/storyboards/storyboard_Vinicius_Araruna.jpeg" alt="Prancha física do Storyboard 1 de autoria de Vinicius Silva Araruna" style="max-width: 85%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #CBD5E1;" />
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 1</strong> — Prancha original manuscrita do Storyboard 1 (Opção B, 300 DPI) com verificação semântica de IA. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
-</div>
+![Figura 1 – Prancha completa do Storyboard 1: Criação de Tópico com Tags, Markdown e Verificação Semântica de IA](assets/storyboards/storyboard_Vinicius_Araruna.jpeg)
+
+<p align="center" style="font-size: 0.85em; color: #64748B;">
+<b>Figura 1</b> — Prancha original manuscrita do Storyboard 1 (Opção B, 300 DPI) com verificação semântica de IA.<br>
+<i>Fonte: Vinicius Silva Araruna, 2026.</i>
+</p>
 
 ---
 
@@ -336,6 +338,7 @@ A Tabela 8 documenta o histórico evolutivo deste artefato.
 | 1.4 | 24/10/2026 | Adição do Storyboard 1 de Vinicius Silva Araruna (digitalização em 300 DPI da prancha física A4 com 8 quadros da Tarefa 1 com IA semântica pré-envio), alinhamento com os 3 pilares de Klemmer e consolidação da tríade de storyboards da equipe. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | 1.5 | 25/10/2026 | Saneamento de delimitadores LaTeX para caracteres UTF-8 nativos e expurgo de arquivos de instrução interna (Leak-Free). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | 1.6 | 25/10/2026 | Incorporação dos registros em vídeo da execução do Teste-Piloto (e4annKBJd3I) e da gravação da Avaliação Oficial do Storyboard 1 com o participante J.V.S (_4nQ50nN7b8), e renumeração harmônica e sequencial de todas as tabelas e vídeos da tríade de storyboards. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| 1.7 | 25/10/2026 | Correção da sintaxe do caminho relativo da imagem da prancha física do Storyboard 1 para correta renderização pelo MkDocs e alinhamento de orientação da imagem (180°). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

@@ -63,10 +63,12 @@ A narrativa do storyboard materializa diretamente as características e motivaç
 
 A Figura 1 apresenta a prancha completa do Storyboard da Tarefa 1 confeccionada à mão em papel por Vinicius Silva Araruna, contendo a sequência cronológica dos 8 quadros da jornada de interação.
 
-<div style="text-align: center; margin: 1.5rem 0;">
-    <img src="../../assets/storyboards/storyboard_Vinicius_Araruna.jpeg" alt="Prancha física desenhada à mão do Storyboard da Tarefa 1 por Vinicius Silva Araruna" style="max-width: 90%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #CBD5E1;" />
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 1</strong> — Prancha original manuscrita do Storyboard da Tarefa 1 (Opção B). <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
-</div>
+![Figura 1 – Prancha completa desenhada à mão do Storyboard da Tarefa 1 por Vinicius Silva Araruna](../../assets/storyboards/storyboard_Vinicius_Araruna.jpeg)
+
+<p align="center" style="font-size: 0.85em; color: #64748B;">
+<b>Figura 1</b> — Prancha original manuscrita do Storyboard da Tarefa 1 (Opção B).<br>
+<i>Fonte: Vinicius Silva Araruna, 2026.</i>
+</p>
 
 Conforme ilustrado na Figura 1, a narrativa percorre desde o gatilho emocional no terminal até o encerramento com validação colaborativa na comunidade.
 
