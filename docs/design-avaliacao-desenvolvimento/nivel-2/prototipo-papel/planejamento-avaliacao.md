@@ -51,7 +51,7 @@ Segundo Barbosa e Silva (2021, p. 248-252) e Marc Rettig (1994), a prototipaçã
 A avaliação formativa do Protótipo de Papel tem como meta confrontar as soluções de interface concebidas para a Tarefa 1 com o modelo mental espontâneo dos estudantes universitários. Em consonância com Barbosa e Silva (2021, p. 280), foram estabelecidos quatro objetivos gerais:
 
 1. **Avaliar a Usabilidade da Interface do Editor de Postagem (*Composer*):** Verificar se o discente identifica com rapidez onde inserir o título, como selecionar a categoria correta e onde redigir o corpo da dúvida;
-2. **Avaliar a Clareza das Instruções e da Área de Visualização de Markdown:** Avaliar se a divisão visual entre a área de digitação e o painel de pré-visualização lado a lado (*split-view*) em papel é compreendida e se os botões de atalho de código (`</>`) são intuitivos;
+2. **Avaliar a Clareza das Instruções e da Área de Visualização de Markdown:** Avaliar se a divisão visual entre a área de digitação e o painel de pré-visualização lado a lado (*split-view*) em papel é compreendida e se os botões de atalho de código (`&lt;/&gt;`) são intuitivos;
 3. **Validar a Ergonomia e Aceitação do Modal da IA Semântica de Pré-Envio:** Testar se o cartão destacável com as sugestões automáticas da IA (tags técnicas e verificação de tópicos semelhantes) é percebido como um facilitador preventivo e se os botões de controle (*"Aplicar Sugestões e Enviar"* vs. *"Publicar como está"*) garantem autonomia ao usuário;
 4. **Mapear Falhas de Affordance e Hesitações de Preenchimento:** Diagnosticar pontos onde o participante hesita ao simular o clique com o dedo, dúvidas sobre a obrigatoriedade de campos e dificuldades na seleção de tags técnicas.
 
@@ -98,7 +98,7 @@ flowchart LR
     F -->|Registra Observações| F
 ```
 
-- **O Facilitador ([Vinicius Silva Araruna](https://github.com/ViniciusA05)):** Acolhe o voluntário, lê o Script Oral do TCLE (< 60s), apresenta o cenário de uso, estimula a fala em voz alta sem induzir respostas e registra as anotações na planilha de observação;
+- **O Facilitador ([Vinicius Silva Araruna](https://github.com/ViniciusA05)):** Acolhe o voluntário, lê o Script Oral do TCLE (menos de 60s), apresenta o cenário de uso, estimula a fala em voz alta sem induzir respostas e registra as anotações na planilha de observação;
 - **O "Computador Humano":** Permanece em absoluto silêncio ao lado da mesa. Sua atribuição é exclusivamente mecânica: quando o participante toca em um botão com o dedo, o Computador Humano posiciona o cartão correspondente (ex: abre o modal de IA pré-envio, exibe o menu de tags ou troca para a tela de tópico publicado);
 - **O Participante (P1):** Discente de tecnologia da UnB que interage com as pranchas apontando com o dedo onde clicaria e simulando a redação verbal dos comandos.
 
@@ -234,7 +234,7 @@ A avaliação atende com rigor aos **4 Princípios Bioéticos** (*Beauchamp & Ch
 
 Antes da sessão oficial com o voluntário discente, será realizado o ensaio do teste-piloto de Nível 2:
 - **Data e Horário:** 30/10/2026 das 14:00 às 14:45 na FGA/UnB;
-- **Objetivo Instrumental:** Avaliar a agilidade manual do "Computador Humano" na troca das peças de papel, verificar a nitidez do enquadramento do smartphone a 45 graus e calibrar o ritmo de fala do Facilitador na leitura do TCLE (< 60s).
+- **Objetivo Instrumental:** Avaliar a agilidade manual do "Computador Humano" na troca das peças de papel, verificar a nitidez do enquadramento do smartphone a 45 graus e calibrar o ritmo de fala do Facilitador na leitura do TCLE (menos de 60s).
 
 !!! warning "CLÁUSULA METODOLÓGICA DE ISOLAMENTO DOS DADOS DO TESTE-PILOTO"
     Conforme preconizado pela literatura canônica de IHC (*Barbosa & Silva, 2021, p. 276; Mayhew, 1999*) e pelo regulamento da disciplina (*Sales, 2026*), a equipe declara formalmente que **os dados, tempos e observações colhidos durante a execução do Teste-Piloto de Nível 2 JAMAIS serão computados ou mesclados aos resultados oficiais da avaliação com o usuário**. O piloto serve estritamente para calibração interna dos instrumentos da equipe.

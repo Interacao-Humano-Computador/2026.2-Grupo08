@@ -89,7 +89,7 @@ A inquirição procedural revelou apontamentos ricos sobre a engenharia cognitiv
 
 ### PT02 — Métodos de Formatação Markdown (CMN-GOMS: Atalho de Teclado vs. Botão da Barra)
 - **Constatação:** Validação empírica imediata da Regra de Seleção 1 (*Selection Rule 1*) do CMN-GOMS.
-- **Relato Chave de P1:** *"Como curso computação e uso Markdown no GitHub, eu quase sempre digito as três crases direto no teclado (` ```bash `) porque é muito mais rápido e não tiro a mão do teclado. Mas vejo colegas iniciantes que preferem selecionar o texto com o mouse e clicar no botão `</>` da barra do editor. É fundamental o sistema manter os dois caminhos."*
+- **Relato Chave de P1:** *"Como curso computação e uso Markdown no GitHub, eu quase sempre digito as três crases direto no teclado (` ```bash `) porque é muito mais rápido e não tiro a mão do teclado. Mas vejo colegas iniciantes que preferem selecionar o texto com o mouse e clicar no botão `&lt;/&gt;` da barra do editor. É fundamental o sistema manter os dois caminhos."*
 - **Conclusão de Usabilidade:** Confirma-se a adequação da modelagem dual de métodos (Método Rápido por Teclado vs. Método Visual por Barra de Ferramentas).
 
 ### PT03 — Sugestões em Tempo Real e Modal da IA Pré-Envio

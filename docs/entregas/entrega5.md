@@ -9,8 +9,8 @@ A Tabela 1 apresenta a matriz de responsabilidades e atribuições na consolida�
 | Integrante | Atribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Tech Lead / PO**: Estruturação geral da síntese da Entrega 5, coordenação do Planejamento do Protótipo de Papel (Nível 2), consolidação dos relatos da Tarefa 1 (Markdown e IA Semântica) e checagem de rigor normativo. | 24/10/2026 | Antigravity (LLM) | Apoio na estruturação Markdown, padronização tabular e validação de referências ABNT. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Consolidação dos resultados da avaliação da Tarefa 2 (Eventos Presenciais — CF02), integração do Storyboard 2 e revisão metodológica da Entrega 5. | 24/10/2026 | Antigravity (LLM) | Suporte na estruturação Markdown e checagem de hiperligações. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Consolidação dos resultados da avaliação da Tarefa 3 (Grade de Disponibilidade e Agendamento), revisão dos instrumentos de observação e validação de consistência. | 24/10/2026 | — | Elaboração e validação de conteúdo. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Consolidação dos resultados da avaliação da Tarefa 2 (Eventos Presenciais — CF02), integração do Storyboard 2, condução e gravação síncrona da apresentação da Entrega 5 (22:30 - 22:44), redação da Ata 7 e revisão metodológica da Entrega 5. | 25/10/2026 | Antigravity (LLM) | Suporte na estruturação Markdown e checagem de hiperligações. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Consolidação dos resultados da avaliação da Tarefa 3 (Grade de Disponibilidade e Agendamento), condução e gravação síncrona da apresentação da Entrega 5 (22:30 - 22:44), revisão dos instrumentos de observação e validação de consistência. | 25/10/2026 | — | Apresentação síncrona, elaboração e validação de conteúdo. |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -51,15 +51,42 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## 3. Registros Audiovisuais da Entrega 5
 
-Em atendimento às diretrizes pedagógicas da disciplina (*Sales, 2026*), esta seção consolida as gravações em vídeo da Entrega 5 publicadas no YouTube sob o regime Não Listado. A equipe organizou as apresentações em duas modalidades complementares: as **Apresentações Individuais por Funcionalidade** (focadas na modelagem profunda, avaliação formativa de Nível 1 e planejamento de Nível 2 de cada integrante) e a **Apresentação Síncrona Coletiva da Equipe**.
+Em atendimento às diretrizes pedagógicas da disciplina (*Sales, 2026*), esta seção consolida as gravações em vídeo da Entrega 5 publicadas no YouTube sob o regime Não Listado. A equipe organizou as apresentações contemplando a **Apresentação Oficial da Entrega 5** (conduzida síncronamente pelos discentes Gustavo Antonio e Edvaldo Soares, abordando a visão geral, os relatos empíricos de Nível 1 e o planejamento do Protótipo de Papel de Nível 2) e as apresentações complementares individuais.
+
+### 3.1 Apresentação Oficial da Entrega 5 (Gustavo Antonio e Edvaldo Soares)
+
+A Tabela 3 apresenta os dados cadastrais da gravação da apresentação oficial da Entrega 5, cobrindo os artefatos de Nível 1 e Nível 2 das 3 tarefas da equipe.
+
+**Tabela 3** — Metadados da apresentação oficial da Entrega 5
+
+| Atributo | Detalhamento |
+| :--- | :--- |
+| **Link do Vídeo no YouTube** | [Assistir Apresentação no YouTube (Não Listado): https://youtu.be/KO4E0UjvhOw](https://youtu.be/KO4E0UjvhOw) |
+| **Integrantes Participantes na Gravação** | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) *(com apresentação dos artefatos de autoria de [Vinicius Silva Araruna](https://github.com/ViniciusA05))* |
+| **Objeto de Avaliação** | Relato de Resultados de Storyboard e Tarefas (Nível 1) e Planejamento do Protótipo de Papel e seu Relato (Nível 2) |
+| **Data da Gravação** | 25/10/2026 |
+| **Horário da Gravação** | 22:30 às 22:44h |
+| **Duração** | 14 minutos |
+| **Ambiente de Gravação** | Sessão síncrona remota via Google Meet com compartilhamento dos artefatos oficiais na Wiki |
+| **Ata de Reunião Vinculada** | [Ata 7 — Gravação da Apresentação da Entrega 5](../atas/ata7.md) |
+
+_Fonte: Elaborada pelos autores, 2026._
+
+#### Reprodução Audiovisual da Apresentação Oficial
+
+<div style="text-align: center; margin: 1.5rem 0;" markdown="1">
+  <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/KO4E0UjvhOw" title="Apresentação Oficial da Entrega 5 - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+  <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Gravação oficial da apresentação da Entrega 5 (Nível 1 e Nível 2). <em>Fonte: Autores (Grupo 08), 2026.</em></p>
+  <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/KO4E0UjvhOw" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube (Não Listado): https://youtu.be/KO4E0UjvhOw</a></p>
+</div>
 
 ---
 
-### 3.1 Apresentação Individual da Tarefa 1 — Vinicius Silva Araruna
+### 3.2 Apresentação Individual da Tarefa 1 — Vinicius Silva Araruna
 
-A Tabela 3 apresenta os dados cadastrais da gravação da apresentação individual conduzida por Vinicius Silva Araruna, abordando a modelagem da Tarefa 1, a avaliação de Storyboard e HTA com discente voluntário e o planejamento do Protótipo de Papel via Framework DECIDE.
+A Tabela 4 apresenta os dados cadastrais da gravação da apresentação individual conduzida por Vinicius Silva Araruna, abordando a modelagem da Tarefa 1, a avaliação de Storyboard e HTA com discente voluntário e o planejamento do Protótipo de Papel via Framework DECIDE.
 
-**Tabela 3** — Metadados da apresentação individual da Tarefa 1 (Vinicius Silva Araruna)
+**Tabela 4** — Metadados da apresentação individual da Tarefa 1 (Vinicius Silva Araruna)
 
 | Atributo | Detalhamento |
 | :--- | :--- |
@@ -77,24 +104,33 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 
 
 <div style="text-align: center; margin: 1.5rem 0;">
     <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/cRSrm-Zc2no" title="Apresentação Individual da Entrega 5 - Tarefa 1 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Apresentação individual da Entrega 5 conduzida por Vinicius Silva Araruna (Tarefa 1: Markdown, Tags e IA Semântica). <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 2</strong> — Apresentação individual da Entrega 5 conduzida por Vinicius Silva Araruna (Tarefa 1: Markdown, Tags e IA Semântica). <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/cRSrm-Zc2no" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/cRSrm-Zc2no</a></p>
 </div>
 
 ---
 
-### 3.2 Apresentações das Demais Funcionalidades e Gravação Coletiva da Equipe
+### 3.3 Quadro Consolidado das Gravações da Entrega 5
 
-A Tabela 4 consolida o mapeamento dos registros audiovisuais das funcionalidades conduzidas pelos demais integrantes da equipe e a sessão coletiva síncrona de alinhamento geral.
+A Tabela 5 consolida o mapeamento dos registros audiovisuais de apresentação e avaliações de campo da equipe na Entrega 5.
 
-**Tabela 4** — Status das gravações audiovisuais individuais e coletivas da Entrega 5
+**Tabela 5** — Registro consolidado das gravações audiovisuais da Entrega 5
 
-| Modalidade / Escopo | Responsável(is) | Funcionalidade Mapeada | Status / Previsão | Registro no YouTube |
+| Modalidade / Escopo | Responsável(is) | Funcionalidade Mapeada | Status | Registro no YouTube |
 | :--- | :--- | :--- | :---: | :--- |
+| **Apresentação Oficial da Entrega 5** | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Consolidação integrada da Entrega 5 (Nível 1 e Nível 2) | 🟢 Concluído | [Assistir no YouTube (KO4E0UjvhOw)](https://youtu.be/KO4E0UjvhOw) |
 | **Apresentação Individual — Tarefa 1** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Criação de Tópico com Tags, Markdown e IA Semântica (CF01) | 🟢 Concluído | [Assistir no YouTube (cRSrm-Zc2no)](https://youtu.be/cRSrm-Zc2no) |
-| **Apresentação Individual — Tarefa 2** | [Gustavo Antonio](https://github.com/gus-ant) | Criação de Eventos Presenciais da Comunidade (CF02) | 🟡 Em gravação | [Assistir no YouTube](https://youtu.be/placeholder-apresentacao-gustavo) |
-| **Apresentação Individual — Tarefa 3** | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias | 🟡 Em gravação | [Assistir no YouTube](https://youtu.be/placeholder-apresentacao-edvaldo) |
-| **Gravação Síncrona Coletiva** | Toda a Equipe | Consolidação integrada da Entrega 5 e alinhamento para o Nível 2 | Previsto (02/11/2026) | [Em produção](https://youtu.be/) |
+| **Avaliação de Campo — Tarefa 2** | [Gustavo Antonio](https://github.com/gus-ant) | Criação de Eventos Presenciais da Comunidade (CF02) | 🟢 Concluído | [Assistir no YouTube (VhGgpfX9Rqk)](https://youtu.be/VhGgpfX9Rqk) |
+| **Avaliação de Campo — Tarefa 3** | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Grade de Agendamento e Dúvidas / Mentorias | 🟢 Concluído | [Assistir no YouTube (gqZ3yJ3ZYUc)](https://youtu.be/gqZ3yJ3ZYUc) |
+
+_Fonte: Elaborada pelos autores, 2026._
+
+---
+
+### 3.4 Destaques das Narrativas dos Storyboards da Equipe
+- **Storyboard 1 (Vinicius Silva Araruna):** [Acessar Storyboard 1](../design-avaliacao-desenvolvimento/storyboards.md#storyboard-1-topico-markdown) — Redação técnica com Markdown e tags assistida por IA semântica pré-envio.
+- **Storyboard 2 (Gustavo Antonio Rodrigues e Silva):** [Acessar Storyboard 2](../design-avaliacao-desenvolvimento/storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio) — Organização e divulgação de workshop presencial de Linux com mapa interativo e credenciamento.
+- **Storyboard 3 (Edvaldo Soares Brasileiro Filho):** [Acessar Storyboard 3](../design-avaliacao-desenvolvimento/storyboards.md#4-storyboard-3-grade-de-disponibilidade-e-agendamento-de-reunioes-no-forum-diolinux-edvaldo-soares) — Disponibilização e reserva de horários em grade interativa para mentoria e resolução de problemas de inicialização.
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -139,6 +175,7 @@ A Tabela 6 documenta a evolução histórica desta página de consolidação.
 | `1.2` | 24/10/2026 | Consolidação completa da Entrega 5: integração dos Relatos de Resultados de Storyboard e Análise de Tarefas (Nível 1), incorporação do Planejamento do Protótipo de Papel (Nível 2), tabela de artefatos com links diretos, container de vídeo da equipe e mapeamento de reprojeto dos 3 membros ativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.3` | 25/10/2026 | Sincronização com a develop: harmonização dos links de Storyboard 1, 2 e 3 (Grade de Agendamento) e resolução de conflitos de merge. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.4` | 25/10/2026 | Estruturação dinâmica da Entrega 5 com integração da Apresentação Individual da Tarefa 1 (Vinicius Silva Araruna), consolidação da matriz de artefatos de Nível 1 e 2 por integrante e container de vídeo dedicado. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.5` | 25/10/2026 | Incorporação da gravação oficial da apresentação da Entrega 5 no YouTube (KO4E0UjvhOw), metadados da sessão realizada por Gustavo Antonio e Edvaldo Soares (22:30 às 22:44), vinculação da Ata 7 e inserção do player audiovisual. | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

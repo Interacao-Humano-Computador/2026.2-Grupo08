@@ -5,7 +5,7 @@
 | Integrante | Contribuição | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Acompanhamento e registro das atas](#atas-de-reuniao) | 04/09/2026 | Suporte na estruturação Markdown sob curadoria |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Criação inicial da página e registro das Atas 1 e 5](#historico-de-versao) | 05/10/2026 | Suporte na estruturação Markdown sob curadoria |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Criação inicial da página e registro das Atas 1, 5 e 7](#historico-de-versao) | 25/10/2026 | Suporte na estruturação Markdown sob curadoria |
 | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início e padronização ABNT](#introducao) | 05/09/2026 | — |
 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão e conferência dos links de atas](#atas-de-reuniao) | 04/09/2026 | — |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Inclusão das Atas 4 e 6 e governança das atas](#atas-de-reuniao) | 14/10/2026 | Suporte na estruturação Markdown sob curadoria |
@@ -32,6 +32,7 @@ A Tabela 1 lista as atas de reuniões realizadas pelo grupo ao longo do semestre
 | [Ata 4 — Reestruturação da Equipe](ata4.md) | 25/09/2026 | Reunião formalizando a atuação dos 3 integrantes ativos, análise de sobrecarga, governança e alinhamento da Entrega 2. | [Assistir no YouTube](https://youtu.be/OANTQ0KYoYk) |
 | [Ata 5 — Planejamento da Entrega 3](ata5.md) | 05/10/2026 | Reunião de planejamento da Entrega 3, divisão de tarefas para Metas de Usabilidade, Princípios Gerais e Guia de Estilo. | [Assistir no YouTube](https://youtu.be/PENDING_LINK_YOUTUBE) |
 | [Ata 6 — Avaliação do Grupo -1 (Etapa 4)](ata6.md) | 14/10/2026 | Reunião de inspeção e avaliação formal da Etapa 4 do Grupo 07 (PCI Concursos: Planejamento e Storyboard). | [Assistir no YouTube](https://youtu.be/f6q9lgPUmVA) |
+| [Ata 7 — Apresentação da Entrega 5](ata7.md) | 25/10/2026 | Gravação da reunião de apresentação oficial da Entrega 5 (Nível 1 e Nível 2) por Gustavo e Edvaldo. | [Assistir no YouTube](https://youtu.be/KO4E0UjvhOw) |
 
 _Fonte: Autores, 2026._
 
@@ -52,6 +53,7 @@ A Tabela 2 documenta o histórico de versões deste artefato.
 | `1.4` | 25/09/2026 | Inclusão da Ata 4 (reestruturação para 3 discentes, análise de sobrecarga e alinhamento da Entrega 2) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.5` | 05/10/2026 | Inclusão da Ata 5 (planejamento da Entrega 3 e alinhamento do Guia de Estilo) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.6` | 14/10/2026 | Inclusão da Ata 6 (inspeção e avaliação da Etapa 4 do Grupo 07 e link da gravação) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.7` | 25/10/2026 | Inclusão da Ata 7 (gravação da apresentação oficial da Entrega 5 por Gustavo Antonio e Edvaldo Soares e link no YouTube) | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Autores, 2026._
 
