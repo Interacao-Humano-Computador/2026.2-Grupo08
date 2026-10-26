@@ -9,7 +9,7 @@ A distribuição de responsabilidades na concepção metodológica, desdobrament
 | Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA | Propósito do Uso de IA |
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Concepção metodológica, fundamentação do Framework DECIDE (Barbosa & Silva, 2021), elaboração das perguntas investigativas da Tarefa 1 (HTA/Markdown), script oral do TCLE e checklist | 12/10/2026 | 02:00 - 03:30 | Claude / Gemini | Apoio na organização sintática de tabelas Markdown e padronização visual. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Perguntas investigativas da Tarefa 2 (Cadastro e Onboarding com Discobot / Trust Levels), planejamento prático de sessões e revisão por pares | 12/10/2026 | 03:30 - 04:00 | Nenhuma | Auditoria humana cruzada dos critérios e adequação ao fluxo do novo usuário. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Perguntas investigativas da Tarefa 2 (Criação de Eventos Presenciais — CF02), planejamento de sessões e alinhamento metodológico (#104) | 22/10/2026 | 03:30 - 04:00 | Nenhuma | Auditoria humana cruzada dos critérios e adequação ao fluxo de criação e publicação de eventos. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Perguntas investigativas da Tarefa 3 (Busca Avançada e Filtros Facetados), matriz de discrepâncias de HTA e revisão ética | 12/10/2026 | 04:00 - 04:30 | Nenhuma | Verificação da rastreabilidade das questões de busca e conformidade do TCLE. |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -24,8 +24,8 @@ A **Análise de Tarefas** (representada pela Análise Hierárquica de Tarefas �
 
 O presente documento estabelece o planejamento detalhado para a avaliação das três tarefas centrais do **Fórum Diolinux Plus** modeladas na Etapa 2, orientando-se estritamente para o papel de **Estudante / Usuário Aprendiz** (iniciante ou intermediário em Linux):
 
-- **Tarefa 1:** Criação e Publicação de Tópico de Dúvida Técnica com Tags e Markdown (autor: Vinicius Silva Araruna);
-- **Tarefa 2:** Cadastro e Onboarding do Novo Usuário com Discobot e Níveis de Confiança — Trust Levels (autor: Gustavo Antonio);
+- **Tarefa 1:** Criação e Publicação de Tópico de Dúvida Técnica com Tags e Markdown com Integração de IA Semântica (autor: Vinicius Silva Araruna);
+- **Tarefa 2:** Criação de Eventos Presenciais da Comunidade — CF02 (autor: Gustavo Antonio);
 - **Tarefa 3:** Busca Avançada e Filtros Facetados de Categoria e Distribuição Linux (autor: Edvaldo Soares).
 
 ---
@@ -99,11 +99,11 @@ A Tabela 2 apresenta o desdobramento dos objetivos em perguntas investigativas e
 
 | Tarefa / Escopo | Nº | Pergunta Investigativa Específica | Foco de Observação e Critério de Sucesso |
 | :--- | :---: | :--- | :--- |
-| **Tarefa 1: Publicação com Tags e Markdown** | **PT01** | Ao precisar tirar uma dúvida técnica sobre Linux, você costuma redigir o corpo da dúvida antes ou depois de escolher a categoria e as tags? | Avaliar se a ordem sequencial do Plano 0 da HTA (título → categoria → tags → redação) reflete o fluxo espontâneo do usuário. |
-| **Tarefa 1: Publicação com Tags e Markdown** | **PT02** | Quando você cola um comando ou log extenso do terminal, você utiliza a barra de ferramentas do editor ou atalhos de Markdown (como crases triplas)? | Confrontar os métodos alternativos modelados no CMN-GOMS e verificar o grau de conhecimento sobre blocos de código cercados. |
-| **Tarefa 1: Publicação com Tags e Markdown** | **PT03** | O painel lateral de sugestão de tópicos semelhantes durante a digitação do título é útil ou interfere na sua concentração? | Avaliar a operação 2.2 da HTA e a receptividade do estudante frente aos mecanismos de desduplicação do Discourse. |
-| **Tarefa 2: Cadastro e Onboarding Discobot** | **PT04** | Após criar a conta e ativá-la por e-mail, você prefere explorar o fórum imediatamente ou realizar o tutorial guiado do robô de boas-vindas? | Validar o ramo de escolha alternativa modelado na HTA (Operação 4.2 vs. 4.3) e no operador de escolha `[]` do CTT. |
-| **Tarefa 2: Cadastro e Onboarding Discobot** | **PT05** | Você consideraria aceitável ter o upload de imagens e anexos bloqueado nas primeiras 24 horas após criar a conta? | Avaliar a percepção do estudante sobre as restrições antispam de Trust Level 0 (TL0) dissecadas na Análise Documental. |
+| **Tarefa 1: Publicação com Tags, Markdown e Integração de IA Semântica** | **PT01** | Ao precisar tirar uma dúvida técnica sobre Linux, você costuma redigir o corpo da dúvida antes ou depois de escolher a categoria e as tags? | Avaliar se a ordem sequencial do Plano 0 da HTA (título → categoria → tags → redação) reflete o fluxo espontâneo do usuário. |
+| **Tarefa 1: Publicação com Tags, Markdown e Integração de IA Semântica** | **PT02** | Quando você cola um comando ou log extenso do terminal, você utiliza a barra de ferramentas do editor ou atalhos de Markdown (como crases triplas)? | Confrontar os métodos alternativos modelados no CMN-GOMS e verificar o grau de conhecimento sobre blocos de código cercados. |
+| **Tarefa 1: Publicação com Tags, Markdown e Integração de IA Semântica** | **PT03** | O painel lateral de sugestão de tópicos semelhantes durante a digitação do título é útil ou interfere na sua concentração? | Avaliar a operação 2.2 da HTA e a receptividade do estudante frente aos mecanismos de desduplicação do Discourse. |
+| **Tarefa 2: Criação de Eventos Presenciais** | **PT04** | Ao cadastrar o local de um evento presencial, você prefere digitar o endereço completo ou utilizar o mapa interativo para ajustar o marcador? | Validar a flexibilidade do Plano 3 da HTA (Operação 3.1 vs. 3.2) e a usabilidade da integração de mapas. |
+| **Tarefa 2: Criação de Eventos Presenciais** | **PT05** | Em relação aos ingressos e vagas, as opções de modalidade (gratuito vs. pago com rateio) e a definição de lotação máxima ficaram claras? | Avaliar a percepção do usuário sobre o controle de capacidade física e a configuração de taxas na etapa 4 da HTA. |
 | **Tarefa 3: Busca Avançada e Filtros** | **PT06** | Ao buscar solução para uma falha no Linux (ex.: problema de Wi-Fi), quais informações você busca primeiro na listagem de resultados? | Verificar a relevância atribuída a títulos, tags, data de postagem e ao badge de 'Solução Aceita' na HTA. |
 | **Tarefa 3: Busca Avançada e Filtros** | **PT07** | Se a busca retornar muitos resultados genéricos, você costuma refinar os termos ou utilizar filtros de categoria e distribuição? | Avaliar a decisão de transição entre o Método de Busca Direta e o Método de Filtros Facetados no modelo GOMS. |
 | **Geral / Modelo Mental** | **PT08** | Há alguma etapa no fluxo de realização dessas tarefas que parece desnecessária, confusa ou que está faltando? | Identificar operações atômicas ausentes na modelagem hierárquica ou passos que violam expectativas de usabilidade. |
@@ -118,9 +118,14 @@ A Tabela 2 orienta a inquirição sobre a representação da HTA, permitindo con
 
 Para a avaliação de Nível 1 da Análise de Tarefas, a equipe adotou a combinação entre **Entrevista Semiestruturada** e o método de **Percurso Conceitual Guiado de Tarefas (*Task Walkthrough*)** apoiado na técnica de verbalização concomitante adaptada (*Think Aloud*), conforme Barbosa e Silva (2021, p. 144) e Mayhew (1999).
 
+!!! note "DIRETRIZ METODOLÓGICA MANDATÓRIA — INVESTIGAÇÃO VS. INSPEÇÃO (BARBOSA & SILVA, 2021)"
+    O método adotado nesta avaliação é categoricamente de **INVESTIGAÇÃO EMPÍRICA (Entrevista Semiestruturada com Percurso Conceitual Guiado de Tarefas)**.  
+    Como a avaliação de Nível 1 investiga a decomposição hierárquica e a lógica das operações (HTA/GOMS/CTT), **não se trata de teste de usabilidade em software** (não há código executável ou cronometragem mecânica de cliques) e **não se trata de método de inspeção analítica** (métodos de inspeção, como avaliação heurística ou percurso cognitivo por especialistas, dispensam usuários).  
+    A sessão com o usuário é estritamente individual (composta por 1 Avaliador Responsável pela condução e 1 Participante Convidado), assegurando um ambiente acolhedor, silencioso e sem intimidação, permitindo que o foco recaia inteiramente sobre a verbalização do modelo mental do estudante e a validação das árvores de tarefas.
+
 ### Justificativa da Escolha Metodológica
 
-1. **Inspeção Procedural Passo a Passo:** O percurso conceitual permite que o entrevistador apresente cada subobjetivo e operação da HTA em sequência, solicitando que o estudante verbalize seu modelo mental e confirme se aquela é a forma mais lógica de agir;
+1. **Percurso Procedural Passo a Passo:** O percurso conceitual permite que o entrevistador apresente cada subobjetivo e operação da HTA em sequência, solicitando que o estudante verbalize seu modelo mental e confirme se aquela é a forma mais lógica de agir;
 2. **Identificação de Alternativas Ocultas:** A entrevista semiestruturada permite investigar por que o participante escolheria um caminho alternativo não previsto no plano de execução original;
 3. **Economia de Recursos:** Método formativo de execução rápida e alta densidade qualitativa, viabilizando correções estruturais antes da prototipação interativa.
 
@@ -130,30 +135,31 @@ Para a avaliação de Nível 1 da Análise de Tarefas, a equipe adotou a combina
 
 ### 6.1 Perfil e Recrutamento dos Participantes
 
-- **Público-Alvo:** Estudantes universitários de cursos de tecnologia (Engenharia de Software, Ciência da Computação, Engenharia de Redes ou correlatos);
-- **Perfil de Experiência:** Usuários iniciantes ou intermediários em distribuições Linux e ferramentas colaborativas;
-- **Amostragem:** Recrutamento de **2 a 3 participantes voluntários** sem contato prévio com a equipe de engenharia do projeto;
-- **Critério de Inclusão:** Estar cursando graduação em computação ou tecnologia e já ter enfrentado dúvidas de terminal ou configuração no ecossistema Linux.
+- **Público-Alvo:** Estudantes universitários de cursos de tecnologia (Engenharia de Software, Ciência da Computação, Engenharia de Redes ou correlatos) da Universidade de Brasília (campi FGA e Darcy Ribeiro);
+- **Perfil de Experiência:** Usuários iniciantes ou intermediários em distribuições Linux e ferramentas colaborativas (Perfil 1 — Estudante Aprendiz);
+- **Amostragem:** Serão recrutados **3 participantes voluntários reais** (P1, P2 e P3) para as sessões oficiais independentes (1 por tarefa), além de **1 discente voluntário para o Teste-Piloto prévio** (cujos dados não são computados nos resultados finais), em estrita conformidade com o modelo assintótico de Nielsen e Landauer (1993) e Krug (2010);
+- **Critério de Inclusão:** Estar cursando graduação em computação ou tecnologia e já ter enfrentado dúvidas de terminal ou configuração no ecossistema Linux;
+- **Critério de Exclusão e Imparcialidade:** Nenhum participante pode possuir vínculo com o desenvolvimento do projeto de IHC do Grupo 08.
 
-### 6.2 Infraestrutura Tecnológica e Ferramentas
+### 6.2 Infraestrutura Tecnológica e Ferramentas Presenciais
 
-- **Ambiente:** Sessões síncronas remotas no Google Meet;
-- **Visualização de Artefatos:** Compartilhamento de tela exibindo os diagramas HTA em tema claro e as tabelas analíticas de decomposição em alta resolução;
-- **Instrumentos de Registro:** Gravação audiovisual em 1080p autorizada verbalmente nos primeiros 60 segundos, combinada com notas de observação tomadas em tempo real.
+- **Ambiente Silencioso:** Salas de estudo individuais ou mesas reservadas do UAC / Biblioteca da FGA/UnB, oferecendo silêncio para máxima concentração do participante (sessão única contínua: Bloco 1 Storyboard + Bloco 2 Tarefas);
+- **Visualização e Percurso de Artefatos:** Notebook pessoal do avaliador conectado ao Fórum Diolinux Plus real e exibindo os diagramas HTA canônicos com visualização nítida;
+- **Instrumentos de Registro:** Smartphone ou webcam do notebook posicionado de forma estável sobre a mesa, capturando fala e gestos durante o percurso procedural (*think-aloud*) com acústica ambiente tranquila; planilha padronizada (`observacao-avaliador.csv`) para consolidação dos apontamentos.
 
 ### 6.3 Cronograma Planejado das Sessões Integradas
 
 A Tabela 3 apresenta a distribuição das sessões de avaliação da análise de tarefas. Em cada sessão de entrevista de 40 minutos, a Análise de Tarefas é **conduzida imediatamente após a validação do Storyboard** (Bloco 2 — 15 a 20 min), permitindo ao participante avaliar a estrutura dos planos lógicos e a decomposição operacional após já ter compreendido a narrativa e a ambientação geral da funcionalidade.
 
-**Tabela 3** — Cronograma planejado das sessões de avaliação da Análise de Tarefas
+**Tabela 3** — Cronograma planejado das sessões presenciais de avaliação da Análise de Tarefas (Condução Individual)
 
-| Sessão / Etapa | Data | Horário | Entrevistador Principal | Observador / Anotador | Participante Convidado / Papel |
-| :---: | :---: | :---: | :--- | :--- | :--- |
-| **Teste-Piloto** | 17/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Colega discente de TI (Simulação de Ensaio) |
-| **ST01** | 19/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 1 (P1 — Estudante de Graduação) |
-| **ST02** | 20/10/2026 | 15:00 - 15:40 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 2 (P2 — Estudante de Graduação) |
-| **ST03** | 21/10/2026 | 16:00 - 16:40 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 3 (P3 — Estudante de Graduação) |
-| **ST04 (Reserva)** | 22/10/2026 | 14:00 - 14:40 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 4 (P4 — Estudante de Graduação) |
+| Sessão / Etapa | Data | Horário | Tarefa Investigada | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
+| :---: | :---: | :---: | :--- | :--- | :--- | :--- |
+| **Teste-Piloto** | 21/10/2026 | 14:00 - 14:45 | Autoensaio / Calibração | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Avaliador Solo | Presencial — FGA/UnB (Salas UAC) |
+| **ST01 (T01)** | 22/10/2026 | 14:20 - 14:40 | Tarefa 1 (Markdown e Tags com Integração de IA Semântica) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando CIC/UnB) | Presencial — Residência do Participante P1 (Ambiente Domiciliar) |
+| **ST02 (T02)** | 22/10/2026 | 15:20 - 15:40 | Tarefa 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
+| **ST03 (T03)** | 22/10/2026 | 16:20 - 16:40 | Tarefa 3 (Busca Avançada e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
+| **ST04 (Reserva)** | 23/10/2026 | 10:00 - 10:40 | Tarefa Reserva / Validação Cruzada | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 4 (P4 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -161,9 +167,9 @@ _Fonte: Elaborada pelos autores, 2026._
 
 Em consonância com as boas práticas metodológicas de avaliação em IHC (*Barbosa & Silva, 2021*):
 
-> O teste-piloto destina-se exclusivamente a **testar e aprimorar o planejamento da avaliação** (temporização das perguntas, inteligibilidade do roteiro de tarefas, áudio, compartilhamento de tela e leitura do TCLE). O teste-piloto **NUNCA** avalia a interface ou o usuário, e **seus dados não são computados nos resultados finais da avaliação**.
+> O teste-piloto destina-se exclusivamente a **testar e aprimorar o planejamento da avaliação** (temporização das perguntas de tarefas procedurais, inteligibilidade do roteiro HTA, enquadramento do dispositivo sobre a mesa em ambiente silencioso e leitura do TCLE nos primeiros 60 segundos gravados). O teste-piloto **NUNCA** avalia a interface ou o usuário, e **seus dados não são computados nos resultados finais da avaliação**.
 
-O teste-piloto será conduzido no dia 17/10/2026 às 14:00 com um discente voluntário simulando o papel de participante para calibrar o roteiro de tarefas e o compartilhamento de tela dos diagramas HTA.
+O ensaio do teste-piloto será conduzido presencialmente no campus da FGA/UnB no dia 21/10/2026 às 14:00 com um discente voluntário simulando o papel de participante para calibrar o roteiro de tarefas e a observação procedural antes da ida a campo oficial.
 
 ---
 
@@ -178,12 +184,12 @@ A avaliação segue rigorosamente a **Resolução CNS nº 510/2016**, a **LGPD (
 
 ### Script Oral Padronizado de Leitura do TCLE (Primeiros 60 Segundos)
 
-O entrevistador deve obrigatoriamente ler o texto em destaque a seguir nos **primeiros 60 segundos gravados** da chamada:
+O entrevistador deve obrigatoriamente ler o texto em destaque a seguir nos **primeiros 60 segundos gravados** da sessão presencial:
 
 > **[INÍCIO DO SCRIPT ORAL — LEITURA OBRIGATÓRIA NOS PRIMEIROS 60 SEGUNDOS GRAVADOS]**  
 > *"Olá, meu nome é [Nome do Entrevistador], sou discente de Engenharia de Software da Faculdade UnB Gama (FGA/UnB) e estou conduzindo esta avaliação no âmbito da disciplina de Interação Humano-Computador, sob docência do Prof. Dr. André Barros de Sales.*  
 > *O propósito desta sessão é avaliar um modelo conceitual de análise de tarefas que descreve o fluxo de ações para uso do Fórum Diolinux Plus por estudantes universitários. Esclareço que o objeto de avaliação é exclusivamente o modelo de tarefas proposto pela equipe, e JAMAIS você ou suas capacidades.*  
-> *Sua participação é completamente voluntária e você possui liberdade total para interromper a chamada ou revogar seu consentimento a qualquer instante, sem nenhum prejuízo. Todas as informações coletadas, bem como a gravação audiovisual desta sessão, serão tratadas sob anonimato e sigilo estrito conforme a Lei Geral de Proteção de Dados, para fins unicamente educacionais.*  
+> *Sua participação é completamente voluntária e você possui liberdade total para interromper a sessão ou revogar seu consentimento a qualquer instante, sem nenhum prejuízo. Todas as informações coletadas, bem como a gravação audiovisual desta sessão, serão tratadas sob anonimato e sigilo estrito conforme a Lei Geral de Proteção de Dados, para fins unicamente educacionais.*  
 > *Você teve acesso prévio ao Termo de Consentimento Livre e Esclarecido e concorda formalmente em participar desta avaliação gravada nos termos descritos?"*  
 > **[AGUARDAR CONSENTIMENTO VERBAL EXPLÍCITO DO PARTICIPANTE: "SIM, CONCORDO"]**
 
@@ -199,8 +205,8 @@ A Tabela 4 apresenta o modelo formal que será utilizado no documento de consoli
 
 | ID da Discrepância | Tarefa Avaliada | Elemento da HTA (Objetivo / Operação / Plano) | Descrição da Divergência com o Modelo Mental | Impacto na Eficiência do Usuário | Proposta de Reestruturação do Modelo de Tarefas |
 | :---: | :--- | :--- | :--- | :---: | :--- |
-| **DISC-HTA-01** | Tarefa 1 (Markdown e Tags) | Plano 0 (Sequência 1 a 5) | Exemplo: Usuário redige texto antes de preencher categoria/tags. | Médio | Flexibilizar Plano 0 para permitir ordem livre entre os passos 2, 3 e 4. |
-| **DISC-HTA-02** | Tarefa 2 (Cadastro e Onboarding) | Operação 4.2 (Tutorial Discobot) | Exemplo: Participante desconhece a relação entre o Discobot e os Trust Levels. | Alto | Inserir feedback visual explícito relacionando o tutorial aos privilégios de TL1. |
+| **DISC-HTA-01** | Tarefa 1 (Markdown e Tags com Integração de IA Semântica) | Plano 0 (Sequência 1 a 5) | Exemplo: Usuário redige texto antes de preencher categoria/tags. | Médio | Flexibilizar Plano 0 para permitir ordem livre entre os passos 2, 3 e 4. |
+| **DISC-HTA-02** | Tarefa 2 (Criação de Eventos Presenciais) | Operação 3.2 (Ajuste no Mapa) | Exemplo: Participante teve dificuldade em posicionar o pin sem o campo de busca. | Médio | Tornar obrigatório o preenchimento prévio do endereço para centralizar o mapa. |
 | **DISC-HTA-03** | Tarefa 3 (Busca e Filtros) | Operação 2.2 (Filtros Avançados) | Exemplo: Usuário tenta digitar filtro de distro direto no campo simples. | Médio | Modelar suporte a operadores inline de busca (ex.: `distro:mint`). |
 
 _Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021), 2026._
@@ -217,7 +223,7 @@ A Tabela 5 apresenta a autoavaliação da conformidade do planejamento da avalia
 | :---: | :--- | :--- | :---: | :--- |
 | **CHK-AT-01** | O planejamento da avaliação fundamenta-se nas seis etapas do Framework DECIDE? | Preece et al. (2002); Barbosa & Silva (2021, p. 280) | ✅ Sim | As Seções 3 a 8 deste documento operacionalizam explicitamente as etapas D, E, C, I, D e E. |
 | **CHK-AT-02** | O artefato apresenta fundamentação teórica com linha formal de autoria e print do livro canônico? | Padrão Pedagógico FGA/UnB (*Sales, 2026*) | ✅ Sim | A Seção 2 apresenta fundamentação, linha de autoria de Vinicius Silva Araruna e a Figura 1 com evidência imagética. |
-| **CHK-AT-03** | As três tarefas centrais do projeto (Markdown/Tags, Onboarding/Discobot e Busca) são contempladas? | Diretrizes de IHC da Equipe | ✅ Sim | A Tabela 2 estrutura perguntas investigativas específicas para as Tarefas 1, 2 e 3 modeladas na Etapa 2. |
+| **CHK-AT-03** | As três tarefas centrais do projeto (Markdown/Tags, Criação de Eventos Presenciais e Busca) são contempladas? | Diretrizes de IHC da Equipe | ✅ Sim | A Tabela 2 estrutura perguntas investigativas específicas para as Tarefas 1, 2 e 3 modeladas na Etapa 2. |
 | **CHK-AT-04** | O método de avaliação selecionado combina entrevista com percurso guiado de tarefas (*Walkthrough*)? | Mayhew (1999); Barbosa & Silva (2021) | ✅ Sim | A Seção 5 detalha a condução da sessão com inspeção passo a passo dos subobjetivos da HTA. |
 | **CHK-AT-05** | O público-alvo dos testes respeita os critérios do papel central de Estudante / Aprendiz em Linux? | Perfil de Usuário do Projeto | ✅ Sim | A Seção 6.1 restringe os participantes a estudantes de graduação iniciantes/intermediários. |
 | **CHK-AT-06** | O documento inclui o Script Oral Literal de leitura prévia do TCLE nos primeiros 60 segundos gravados? | Resolução CNS nº 510/2016; Diretrizes da Disciplina | ✅ Sim | A Seção 7 transcreve o texto literal em destaque com a solicitação obrigatória de consentimento gravado. |
@@ -236,6 +242,8 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 12/10/2026 | Elaboração inicial do Planejamento da Avaliação da Análise de Tarefas estruturado no Framework DECIDE, cobrindo objetivos, perguntas investigativas das Tarefas 1, 2 e 3 (Tabela 2), questões práticas, script oral do TCLE, modelo de discrepâncias de HTA (Tabela 4) e checklist com 7 itens (Issue #56). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 20/10/2026 | Adequação formal para modalidade presencial no campus da FGA/UnB em sessão única contínua com Storyboards (Issue #100): percurso procedural em notebook, condução autônoma individual em ambiente silencioso e gravação estável sobre a mesa, alinhamento do cronograma para 22/10 e realização do ensaio piloto em 21/10. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.2` | 22/10/2026 | Atualização das Tabelas 1, 2, 3 e 4 alinhando a Tarefa 2 à Criação de Eventos Presenciais (CF02), com reformulação das perguntas PT04 e PT05 (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

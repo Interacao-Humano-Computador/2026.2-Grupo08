@@ -9,7 +9,7 @@ A Tabela 1 apresenta a atribuição de responsabilidades na elaboração e revis
 | Integrante | Atribuição | Data | Horário | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :---: | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Estruturação formal do relatório de resultados de tarefas, definição dos tópicos normativos, matriz de registro de discrepâncias de modelo mental com gravidade de Nielsen e diretrizes de refatoração do HTA (Issue #61). | 13/10/2026 | 21:30 - 22:45 | LLM (Antigravity): apoio na estruturação das matrizes Markdown e checagem de rigor normativo. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor Metodológico**: Verificação da conformidade com o Framework DECIDE e consistência com o relato de Storyboards. | 13/10/2026 | 22:45 - 23:15 | Nenhuma ferramenta utilizada (revisão humana por pares). |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor Metodológico e Autor de Tarefa**: Alinhamento da Tarefa 2 (Criação de Eventos Presenciais — CF02) e conformidade DECIDE (#104). | 22/10/2026 | 22:45 - 23:15 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Designado**: Auditoria de compatibilidade com os nós folha da árvore de HTA e critérios do Plano de Ensino. | 13/10/2026 | 23:15 - 23:45 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
@@ -32,8 +32,8 @@ Conforme preconizado pela literatura clássica de IHC (Barbosa & Silva, 2021, p.
 2. **Metodologia de Avaliação Empregada:** Descrição da abordagem de investigação empírica qualitativa por meio de entrevistas semiestruturadas com inspeção mediada dos diagramas HTA e tabelas de objetivos/planos;
 3. **Número e Perfil de Avaliadores e Participantes:** Dados demográficos consolidados dos voluntários recrutados (alinhados ao Perfil 1: Estudante Aprendiz de Linux) e identificação da dupla de avaliadores (entrevistador e observador);
 4. **Tarefas Investigadas e Cenários de Uso:** Contextualização das três tarefas canônicas analisadas com os participantes:
-   - **Tarefa 1:** Criação e publicação de tópico de dúvida técnica com formatação Markdown e seleção de tags (Vinicius Silva Araruna);
-   - **Tarefa 2:** Cadastro e onboarding com o Discobot e progressão TL0 -> TL1 (Gustavo Antonio);
+   - **Tarefa 1:** Criação e publicação de tópico de dúvida técnica com formatação Markdown, seleção de tags e integração de IA semântica (Vinicius Silva Araruna);
+   - **Tarefa 2:** Criação de Eventos Presenciais da Comunidade — CF02 (Gustavo Antonio);
    - **Tarefa 3:** Busca avançada com filtros facetados e identificação de solução aceita (Edvaldo Soares).
 5. **Síntese dos Dados Coletados e Análise de Discrepâncias:** Consolidação qualitativa das respostas às perguntas investigativas do framework DECIDE;
 6. **Tabela Estruturada de Problemas e Discrepâncias de Modelo Mental:** Registro tabular minucioso das falhas de fluxo, subobjetivos omitidos e inadequações de planos lógicos, classificados pela **Escala de Severidade de Nielsen (0 a 4)**;
@@ -67,10 +67,10 @@ A Tabela 2 apresenta o modelo de síntese demográfica que será preenchido no r
 
 | Código | Nome Social / Iniciais | Idade | Curso / Ocupação | Nível no Linux | Tarefa(s) Avaliada(s) | Data da Sessão | Duração |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: | :---: |
-| **P1** | *[Nome do Participante 1]* | *[Anos]* | Graduando UnB | Iniciante | Tarefa 1 (Markdown e Tags) | 19/10/2026 | *[Min]* |
-| **P2** | *[Nome do Participante 2]* | *[Anos]* | Graduando UnB | Intermediário | Tarefa 2 (Onboarding Discobot) | 20/10/2026 | *[Min]* |
-| **P3** | *[Nome do Participante 3]* | *[Anos]* | Graduando UnB | Iniciante | Tarefa 3 (Busca Avançada) | 21/10/2026 | *[Min]* |
-| **P4** | *[Nome do Participante 4]* | *[Anos]* | Graduando UnB | Intermediário | Tarefas 1 e 3 (Reserva / Validação Cruzada) | 22/10/2026 | *[Min]* |
+| **P1** | *[Nome do Participante 1]* | *[Anos]* | Graduando UnB | Iniciante | Tarefa 1 (Markdown e Tags com IA) | 22/10/2026 | *[Min]* |
+| **P2** | *[Nome do Participante 2]* | *[Anos]* | Graduando UnB | Intermediário | Tarefa 2 (Criação de Eventos Presenciais) | 22/10/2026 | *[Min]* |
+| **P3** | *[Nome do Participante 3]* | *[Anos]* | Graduando UnB | Iniciante | Tarefa 3 (Busca Avançada) | 22/10/2026 | *[Min]* |
+| **P4** | *[Nome do Participante 4]* | *[Anos]* | Graduando UnB | Intermediário | Tarefa Reserva / Validação Cruzada | 23/10/2026 | *[Min]* |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 
@@ -97,7 +97,7 @@ _Fonte: Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Nielsen (199
 Os problemas registrados na Tabela 3 subsidiarão duas frentes de atuação de engenharia de IHC:
 
 1. **Refatoração dos Modelos HTA (Nível 1):** Atualização dos diagramas em árvore e das tabelas textuais de tarefas para espelhar as correções pactuadas com os usuários (ex: inversão de precedência em planos 1 > 2, acréscimo de alternativas de seleção 1 / 2 e revisão dos critérios de parada p × c);
-2. **Insumos para a Prototipação em Papel (Nível 2):** Conversão imediata dos nós de ação elementar validados no HTA em botões, campos de texto e caixas de diálogo na confecção dos protótipos de papel para a Entrega 5 (27/10/2026).
+2. **Insumos para a Prototipação em Papel (Nível 2):** Conversão imediata dos nós de ação elementar validados no HTA em botões, campos de texto e caixas de diálogo na confecção dos protótipos de papel para a Entrega 5 (25/10/2026).
 
 ---
 
@@ -106,22 +106,21 @@ Os problemas registrados na Tabela 3 subsidiarão duas frentes de atuação de e
 Em cumprimento estrito ao **Item 12 da Apresentação da Etapa 4** do Plano de Ensino da disciplina, declara-se solenemente:
 
 > ⚠️ **CLÁUSULA METODOLÓGICA DE BLINDAGEM DO TESTE-PILOTO:**  
-> Os dados, verbalizações, comportamentos e respostas coletados durante a execução do **Teste-Piloto de Nível 1** (agendado para 17/10/2026) **NÃO SERÃO COMPUTADOS NEM INTEGRADOS AOS RESULTADOS FINAIS DA AVALIAÇÃO DA ANÁLISE DE TAREFAS**. O ensaio piloto serve estritamente para avaliar a instrumentação da equipe (clareza das perguntas do roteiro, tempos de resposta, estabilidade de rede e leitura prévia do TCLE).
+> Os dados, verbalizações, comportamentos e respostas coletados durante a execução do **Teste-Piloto de Nível 1** (agendado para 21/10/2026) **NÃO SERÃO COMPUTADOS NEM INTEGRADOS AOS RESULTADOS FINAIS DA AVALIAÇÃO DA ANÁLISE DE TAREFAS**. O ensaio piloto serve estritamente para avaliar a instrumentação presencial da equipe (enquadramento do dispositivo sobre a mesa em ambiente silencioso, clareza das perguntas do roteiro, tempos de resposta e leitura prévia do TCLE nos primeiros 60 segundos gravados).
 
 ---
 
 ## 7. Modelo de Registros Audiovisuais das Sessões
 
-A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessões de tarefas conduzidas via Google Meet e hospedadas no YouTube (modo Não Listado).
+A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessões presenciais de tarefas conduzidas no campus da FGA/UnB e hospedadas no YouTube (modo Não Listado).
 
 **Tabela 4** — Modelo de Registro Audiovisual das Sessões de Tarefas *(A preencher pós-sessões)*
 
 | Sessão | Participante | Entrevistador | Data e Horário | Duração da Gravação | Link do Vídeo (YouTube — Não Listado) |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| **ST01** | P1 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 19/10/2026 14:00 | *[Minutos]* | [Acessar Gravação da Sessão ST01](https://youtu.be/placeholder-st01) |
-| **ST02** | P2 | [Gustavo Antonio](https://github.com/gus-ant) | 20/10/2026 15:00 | *[Minutos]* | [Acessar Gravação da Sessão ST02](https://youtu.be/placeholder-st02) |
-| **ST03** | P3 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 21/10/2026 16:00 | *[Minutos]* | [Acessar Gravação da Sessão ST03](https://youtu.be/placeholder-st03) |
-| **ST04** | P4 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 22/10/2026 14:00 | *[Minutos]* | [Acessar Gravação da Sessão ST04](https://youtu.be/placeholder-st04) |
+| **ST01** | P1 (J.V.S — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 22/10/2026 14:20 | ~16 min | [Acessar Gravação da Sessão ST01 (YouTube)](https://youtu.be/_4nQ50nN7b8) |
+| **ST02** | P2 (L.C.F) | [Gustavo Antonio](https://github.com/gus-ant) | 23/10/2026 15:20 | ~15 min | [Acessar Gravação da Sessão ST02 (YouTube)](https://youtu.be/VhGgpfX9Rqk) |
+| **ST03** | P3 (G.H.R) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 24/10/2026 16:20 | ~15 min | [Acessar Gravação da Sessão ST03 (YouTube)](https://youtu.be/gqZ3yJ3ZYUc) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 
@@ -138,7 +137,7 @@ A Tabela 5 apresenta o checklist de autoavaliação da estrutura do relatório d
 | **1** | A estrutura do relatório define os objetivos gerais e formativos da avaliação de tarefas? | Plano de Ensino (Item 7); Barbosa & Silva (2021) | ✅ Sim | A Seção 3.1 explicita as metas de conformidade de modelo mental, clareza de planos e completude. |
 | **2** | Há descrição detalhada do método de entrevista semiestruturada e inspeção mediada do HTA? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.2 define o método de condução assistida com verbalização concomitante (*think-aloud*). |
 | **3** | A estrutura contempla o número, papéis e perfil demográfico dos participantes? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 3.3 e a Tabela 2 preparam a caracterização demográfica no Perfil 1 (Estudante/Linux). |
-| **4** | As tarefas avaliadas pelos participantes estão descritas e contextualizadas? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 2 discrimina formalmente as três tarefas (Markdown, Onboarding Discobot e Busca). |
+| **4** | As tarefas avaliadas pelos participantes estão descritas e contextualizadas? | Plano de Ensino (Item 7) | ✅ Sim | A Seção 2 discrimina formalmente as três tarefas (Markdown, Criação de Eventos Presenciais e Busca). |
 | **5** | Há modelo estruturado para consolidação dos problemas com severidade heurística de Nielsen? | Plano de Ensino (Item 7 e 13); Nielsen (1994) | ✅ Sim | A Tabela 3 vincula cada problema à escala de severidade (0 a 4) e tipo de inconsistência estrutural. |
 | **6** | O documento prevê recomendações práticas de refatoração para os modelos de tarefas? | Plano de Ensino (Item 7); Barbosa & Silva (2021) | ✅ Sim | A Seção 5 detalha as diretrizes de atualização do HTA e transferência de requisitos para protótipos de papel. |
 | **7** | Há cláusula explícita assegurando que os resultados do teste-piloto não serão computados? | Plano de Ensino (Item 12) | ✅ Sim | A Seção 6 inclui a cláusula formal obrigatória de isolamento total dos dados do ensaio piloto. |
@@ -159,6 +158,10 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 13/10/2026 | Elaboração inicial do planejamento do relato dos resultados da avaliação da Análise de Tarefas (Issue #61), com objetivos de tarefas, caracterização de participantes (Tabela 2), matriz de problemas com severidade de Nielsen (Tabela 3), diretrizes de refatoração, cláusula de isolamento do piloto e lista de verificação com 10 itens normativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 20/10/2026 | Harmonização para sessões presenciais no campus da FGA/UnB (Issue #100): percurso procedural assistido em tela de notebook, sincronização de datas de campo em 22/10 e 23/10, teste-piloto presencial em 21/10 e ajuste do prazo final da Entrega 5 para 25/10/2026. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.2` | 22/10/2026 | Atualização das seções 2, 3.3 e 3.4 alinhando a Tarefa 2 à Criação de Eventos Presenciais (CF02) (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.3` | 24/10/2026 | Atualização do link e dados da gravação da Sessão ST03 conduzida por Edvaldo Soares no YouTube. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.4` | 25/10/2026 | Atualização dos links e dados das gravações das sessões ST01 (Vinicius Silva Araruna com participante J.V.S) e ST02 (Gustavo Antonio) no YouTube. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 

@@ -54,12 +54,12 @@ _Fonte: Elaborada pelo autor com base em Barbosa e Silva (2010, pp. 301–303, 3
 
 ---
 
-## 3. Aplicação Prática no Projeto do Grupo 08 (Portal Domínio Público)
+## 3. Aplicação Prática no Projeto do Grupo 08 (Fórum Diolinux Plus)
 
-No âmbito do projeto prático de IHC para a reformulação do **Portal Domínio Público (MEC)**, a articulação entre investigação e inspeção de tarefas foi concretizada nas seguintes frentes da **Etapa 4**:
+No âmbito do projeto prático de IHC para o **Fórum Diolinux Plus**, a articulação entre métodos de investigação e de inspeção de tarefas foi operacionalizada nas seguintes frentes da **Etapa 4**:
 
-1. **Investigação da Tarefa:** A partir da análise dos questionários e do perfil de usuário levantados nas etapas anteriores, identificou-se que a tarefa de **Busca Avançada e Filtros de Categoria** (Tarefa 3 do HTA) é crítica para o estudante autônomo, gerando desvios e buscas frustradas na versão legada do portal.
-2. **Representação Visual e Cenários (Issue #64):** Os dados investigados fundamentaram a elaboração do Storyboard 3 em quadrinhos manuais (300 DPI), retratando o contexto situacional do estudante ao lidar com a busca avançada.
+1. **Investigação da Tarefa:** A partir da análise dos questionários e do perfil de usuário levantados nas etapas anteriores, identificou-se que a tarefa de **Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias** (Tarefa 3 do HTA) é crítica para o estudante aprendiz, viabilizando suporte síncrono estruturado para problemas técnicos complexos de Linux.
+2. **Representação Visual e Cenários (Issue #64):** Os dados investigados fundamentaram a elaboração do Storyboard 3 em quadrinhos manuais (300 DPI), retratando o contexto situacional do estudante ao agendar um horário com um mentor voluntário.
 3. **Planejamento do Relato e Severidade (Issue #65):** Estruturação do relatório formal de resultados categorizando as falhas identificadas segundo a escala clássica de severidade de Nielsen (0 a 4).
 4. **Instrumentos de Observação e Registro (Issue #66):** Criação do roteiro comportamental e da planilha de anotações do avaliador (`observacao-avaliador.csv`), permitindo correlacionar a inspeção analítica com a posterior observação empírica de hesitações e erros.
 
@@ -71,11 +71,28 @@ A Figura 1 reproduz o trecho da **página 301** da obra *Interação Humano-Comp
 
 ![Página 301 da obra de Barbosa e Silva (2010) apresentando os métodos de investigação e inspeção](assets/fotos/metodos_avaliacao.png)
 
-**Figura 1** — Registro textual dos Métodos de Investigação e Inspeção em IHC. (Fonte: Barbosa e Silva, 2010, p. 301).
+**Figura 1** — Registro textual dos Métodos de Investigação e Inspeção em IHC.  
+_Fonte: Barbosa e Silva (2010, p. 301)._
 
 ---
 
-## 5. Referências Bibliográficas
+## 5. Histórico de Versão
+
+A Tabela 2 documenta o histórico evolutivo deste artefato teórico.
+
+**Tabela 2** — Histórico de Versão do Item Teórico de Métodos de Avaliação
+
+| Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :--- | :--- |
+| `1.0` | 13/10/2026 | Elaboração inicial do item teórico sobre métodos de avaliação em IHC (investigação vs. inspeção) baseado em Barbosa e Silva (2010). | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.1` | 15/10/2026 | Saneamento de escopo pós-auditoria de 15/10 (#93): expurgo de menções legadas a projetos anteriores e alinhamento prático estrito com o Fórum Diolinux Plus (Discourse) e Tarefa 3 de busca avançada. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.2` | 22/10/2026 | Atualização da aplicação prática da Etapa 4 para a Tarefa 3 de Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
+
+_Fonte: Elaborada pelos autores, 2026._
+
+---
+
+## 6. Referências Bibliográficas
 
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010. Capítulo 9: Planejamento da Avaliação de IHC, pp. 286–314.
 
@@ -89,4 +106,4 @@ A Figura 1 reproduz o trecho da **página 301** da obra *Interação Humano-Comp
 
 ---
 
-**Autor do Item Teórico:** Edvaldo Soares Brasileiro Filho
+**Autor do Item Teórico:** [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)

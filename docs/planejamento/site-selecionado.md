@@ -2,108 +2,139 @@
 
 ## Tabela de Contribuição
 
-| Integrante | Contribuição | Data |
-| :--- | :--- | :---: |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Avaliação dos critérios de escolha e impacto nos prazos de desenvolvimento](#justificativa-da-mudanca-de-escopo-pivot) | 14/09/2026 |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Elaboração da documentação da plataforma Discourse e mapeamento dos fluxos interativos](#visao-geral-do-forum-diolinux-plus) | 14/09/2026 |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Padronização das referências bibliográficas em ABNT e conformidade documental](#referencias-bibliograficas) | 18/09/2026 |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Validação dos problemas preliminares de usabilidade e revisão geral](#problemas-preliminares-de-usabilidade-identificados) | 18/09/2026 |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Detalhamento das 5 funcionalidades centrais, análise de complexidade e justificativa de pivot](#escopo-e-funcionalidades-avaliadas) | 18/09/2026 |
+A distribuição de responsabilidades entre os membros ativos do Grupo 08 na concepção, estruturação e atualizações evolutivas deste artefato de planejamento encontra-se detalhada a seguir.
+
+| Integrante | Atribuição no Artefato | Data | Ferramenta de IA e Contribuição |
+| :--- | :--- | :---: | :--- |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Avaliação dos critérios de escolha, oportunidades de análise da busca avançada e revisão técnica geral | 10/10/2026 | Suporte na formatação Markdown e padronização tabular sob supervisão dos discentes |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Documentação da plataforma Discourse, mapeamento da jornada de onboarding com Discobot e revisão cruzada | 10/10/2026 | Suporte na formatação Markdown e padronização tabular sob supervisão dos discentes |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Justificativa do pivot, detalhamento da funcionalidade de tópicos em Markdown, alinhamento 1:1 com a HTA e coordenação | 10/10/2026 | Suporte na formatação Markdown e padronização tabular sob supervisão dos discentes |
 
 ---
 
 ## Introdução
 
-Este artefato formaliza a seleção do **Fórum Diolinux Plus** como o objeto oficial de estudo e avaliação de Interação Humano-Computador (IHC) do Grupo 08 na disciplina ministrada pelo Prof. Dr. André Barros de Sales (Faculdade UnB Gama — FGA/UnB, semestre 2026.2).
+Este artefato formaliza a seleção do **Fórum Diolinux Plus** como o sítio eletrônico oficial de estudo e avaliação de Interação Humano-Computador (IHC) do Grupo 08 na disciplina ministrada pelo Prof. Dr. André Barros de Sales (Faculdade UnB Gama — FGA/UnB, semestre letivo 2026.2).
 
-O objetivo deste documento é apresentar as características da plataforma, contextualizar transparentemente a mudança de escopo (pivot) realizada após a apresentação da Etapa 1, delimitar as cinco funcionalidades centrais que nortearão as próximas fases do projeto e elencar os problemas preliminares de usabilidade identificados na interface.
+O objetivo deste documento é apresentar as características operacionais da plataforma, contextualizar transparentemente a mudança de escopo (*pivot*) realizada após o feedback da Etapa 1, delimitar as três funcionalidades nucleares que norteiam as atividades analíticas da equipe e elencar os problemas preliminares de usabilidade observados na interface.
 
 ---
 
 ## Justificativa da Mudança de Escopo (Pivot)
 
-Na fase inicial de planejamento (Etapa 1), o grupo selecionou o *Portal Domínio Público (MEC)*. Contudo, durante o feedback presencial da apresentação da primeira etapa, a banca examinadora destacou uma inconsistência de escopo pedagógico: o portal possui **baixa densidade interativa**, operando essencialmente como um repositório para consultas pontuais e download de arquivos em formato PDF.
+Na fase inicial de planejamento (Etapa 1), a equipe havia selecionado originalmente o *Portal Domínio Público (MEC)*. Contudo, durante a arguição presencial de apresentação da primeira etapa, a banca examinadora destacou uma inconsistência de densidade pedagógica: o portal possui **baixa complexidade interativa**, operando essencialmente como um repositório básico para consultas pontuais e download direto de arquivos em formato PDF.
 
-Para uma equipe composta por cinco discentes de Engenharia de Software, um sistema restrito a formulários básicos de busca limitaria drasticamente a profundidade das análises exigidas ao longo do semestre letivo, em especial:
-- A modelagem individual de tarefas na Entrega 2, onde cada integrante precisa modelar formalmente uma tarefa distinta e não trivial em **HTA** (Análise Hierárquica de Tarefas) e **GOMS/KLM**;
-- A identificação e categorização de problemas com base nas heurísticas de Nielsen e diretrizes de Mayhew;
-- O projeto de Storyboards e protótipos de baixa, média e alta fidelidade nas entregas seguintes.
+Para uma equipe de Engenharia de Software, um sistema restrito a formulários simples de busca limitaria severamente a profundidade das investigações exigidas ao longo do semestre letivo, em especial:
 
-Diante desse cenário, a equipe realizou uma reunião extraordinária, registrada na [Ata 3](../atas/ata3.md), deliberando de forma unânime pelo reposicionamento do projeto para o **Fórum Diolinux Plus**. Essa decisão garante maior rigor acadêmico, riqueza de interações e pleno alinhamento com a rubrica oficial da disciplina.
+1. A modelagem individual de tarefas na Entrega 2, onde cada estudante é responsável pela modelagem formal de uma tarefa distinta e não-trivial empregando **HTA** (Análise Hierárquica de Tarefas) e **GOMS/KLM** (*Barbosa & Silva, 2021*);
+2. A identificação e categorização de problemas com base nas heurísticas de Nielsen (1994) e nas diretrizes ergonômicas de Mayhew (1999);
+3. O projeto de Storyboards e protótipos de baixa, média e alta fidelidade nas etapas posteriores.
+
+Diante desse diagnóstico, o grupo realizou uma reunião extraordinária, registrada na [Ata 3](../atas/ata3.md), deliberando de forma unânime pelo reposicionamento (*pivot*) do projeto para o **Fórum Diolinux Plus**. Essa decisão assegurou riqueza de interações colaborativas, pluralidade de perfis e estrita consonância com a rubrica avaliativa da disciplina.
 
 ---
 
 ## Visão Geral do Fórum Diolinux Plus
 
-O **Fórum Diolinux Plus** é um dos maiores e mais influentes ambientes de discussão e suporte colaborativo sobre tecnologia, software livre e sistemas operacionais de código aberto no Brasil. A comunidade é sustentada pela plataforma de software livre *Discourse*, concebida especificamente para viabilizar discussões civilizadas e ricas em recursos modernos de interação.
+O **Fórum Diolinux Plus** é uma das maiores e mais ativas comunidades de suporte técnico colaborativo sobre tecnologia, distribuições Linux e software livre da América Latina. O ambiente é sustentado pelo motor de código aberto *Discourse*, concebido especificamente para viabilizar discussões estruturadas e ricas em recursos modernos de interação social.
 
-A plataforma atende a um público amplo que engloba desde usuários iniciantes no mundo Linux até desenvolvedores, administradores de sistemas e entusiastas de tecnologia — perfil diretamente acessível na Faculdade UnB Gama, simplificando os processos de pesquisa de campo, questionários e entrevistas semiestruturadas.
+A plataforma atende a um público amplo que engloba desde estudantes universitários iniciantes em sistemas operacionais até desenvolvedores e administradores de infraestrutura — perfil diretamente acessível na Faculdade UnB Gama, simplificando os processos de pesquisa de campo, entrevistas e testes de usabilidade.
 
-A Figura 1 ilustra a interface principal da comunidade do Fórum Diolinux Plus.
+A Figura 1 ilustra a interface pública principal do Fórum Diolinux Plus.
 
-![Imagem da página inicial do Fórum Diolinux Plus](../assets/images_prints/diolinux_plus_print.png)
-<div align="center">
-<p><strong>Figura 1</strong> — Página inicial da plataforma comunitária Diolinux Plus. (Fonte: plus.diolinux.com.br, 2026).</p>
-</div>
+![Interface da página inicial do Fórum Diolinux Plus](../assets/images_prints/diolinux_plus_print.png)
 
-Conforme ilustrado na Figura 1, o sítio eletrônico dispõe de uma interface densa e contemporânea, com múltiplos fluxos de navegação por categorias, tópicos recentes e painéis dinâmicos de interação.
+**Figura 1** — Interface principal da plataforma comunitária Diolinux Plus.  
+_Fonte: Fórum Diolinux Plus (plus.diolinux.com.br), 2026._
+
+Conforme ilustrado na Figura 1, o sítio eletrônico dispõe de uma interface densa e contemporânea, com múltiplos fluxos de navegação por categorias, listagem cronológica de tópicos recentes e painéis dinâmicos de interação.
 
 ---
 
 ## Escopo e Funcionalidades Avaliadas
 
-Para assegurar uma divisão de trabalho justa, equitativa e focada na equipe atual composta por três integrantes, o escopo de análise foi estruturado em torno de **três funcionalidades nucleares**, englobando fluxos existentes e uma nova proposta de intervenção:
+Em conformidade com a reestruturação da equipe para três integrantes ativos ([Ata 4](../atas/ata4.md)), o escopo de análise foi calibrado em torno de **três funcionalidades nucleares**. Essas funcionalidades sincronizam-se perfeitamente com as tarefas modeladas em [Análise de Tarefas](../analise-requisitos/analise-tarefas.md), garantindo cobertura integral das principais jornadas do usuário:
 
-### 1. Criação e Edição de Tópicos com Formatação Rica
-Permite ao usuário publicar dúvidas, notícias ou tutoriais técnicos. O fluxo envolve a seleção de categorias e tags, preenchimento de título, editor de texto com suporte a Markdown, atalhos de formatação de blocos de código e upload de imagens ou logs do sistema operacional.
+### 1. F01: Criação e Edição de Tópicos com Tags e Markdown
 
-### 2. Criação de Eventos Presenciais (Proposta de Nova Funcionalidade)
-Permite a organização de encontros locais, workshops e meetups para a comunidade. O fluxo interativo abrange a definição do evento (data, hora, local físico/mapa), configuração de lotação máxima, opções de pagamento de ingressos (gratuito ou pago) e emissão de ingressos, suprindo a necessidade de interação no mundo real.
+Permite ao usuário redigir e publicar dúvidas técnicas, tutoriais ou notícias. O fluxo interativo abrange o acionamento do editor, preenchimento de título com verificação de desduplicação em tempo real, seleção de categorias e etiquetas taxonômicas, escrita de texto com suporte à sintaxe Markdown (com ênfase na inclusão de trechos de código e logs de erro do terminal via crases) e inspeção do painel de pré-visualização antes da submissão final.
 
-### 3. Interação Social e Concessão de Solução Aceita (Mark as Solution)
-Em tópicos de suporte técnico e resolução de erros, o autor do tópico ou um moderador pode selecionar uma resposta específica como a solução oficial da dúvida. Isso insere um resumo no post inicial, destaca a mensagem no corpo da discussão e atualiza a reputação dos participantes.
+### 2. F02: Cadastro e Onboarding do Novo Usuário com Discobot
 
-A Tabela 1 detalha a relação entre as funcionalidades avaliadas, a complexidade estimada e a oportunidade de análise em IHC para os modelos HTA e GOMS.
+Permite ao novo usuário criar sua conta na comunidade e realizar a jornada inicial de acolhimento e aprendizagem de regras. O fluxo compreende o preenchimento de formulário ou autenticação social, confirmação de correio eletrônico, recebimento de mensagem privada de boas-vindas do assistente automatizado (*Discobot*), execução do tutorial guiado de formatação/atalhos e compreensão das travas de segurança dos níveis de confiança (*Trust Level 0 para Trust Level 1*).
 
-**Tabela 1** — Relação das funcionalidades avaliadas e potencial analítico de IHC
+### 3. F03: Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias (Proposta de Nova Funcionalidade)
 
-| ID | Funcionalidade Nuclear | Nível de Complexidade | Oportunidade Analítica na Disciplina | Integrante Responsável pela Modelagem HTA/GOMS |
-| :---: | :--- | :---: | :--- | :--- |
-| **F01** | Criação e Edição de Tópicos em Markdown | Alta | Sobrecarga de comandos no editor; curva de aprendizado para formatação de código. | Edvaldo Soares |
-| **F02** | Criação de Eventos Presenciais (Novo) | Alta | Mapeamento de um fluxo inédito complexo envolvendo agendamento, formulários e integração de pagamento. | Gustavo Antonio |
-| **F03** | Interação e Marcação de Solução Aceita | Média | Visibilidade restrita da confirmação e atalhos pouco intuitivos em telas reduzidas. | Vinicius Araruna |
+Permite que membros veteranos e voluntários configurem uma grade semanal de horários disponíveis (estilo *When2meet / Calendly*) diretamente em seu perfil ou em tópicos de suporte. Usuários novatos com problemas técnicos complexos (como falhas de boot, configuração de kernel ou particionamento) podem visualizar os blocos livres, selecionar um horário vago e confirmar a reserva de mentoria síncrona com prevenção de conflitos de agenda e geração de sala de conferência.
+
+A Tabela 1 sintetiza a correspondência formal entre as funcionalidades nucleares selecionadas, o nível de complexidade técnica, o potencial analítico em IHC e a distribuição de responsabilidades individuais entre os discentes, sincronizada em proporção 1:1 com os fluxos modelados em [Análise de Tarefas](../analise-requisitos/analise-tarefas.md).
+
+**Tabela 1** — Relação das funcionalidades nucleares e potencial analítico de IHC
+
+| ID | Funcionalidade Nuclear do Sistema | Nível de Complexidade | Oportunidade Analítica em IHC e Dores Observadas | Técnicas de IHC Associadas | Integrante Responsável pela Modelagem |
+| :---: | :--- | :---: | :--- | :--- | :--- |
+| **F01** | Criação e Edição de Tópicos com Tags e Markdown | Alta | Sobrecarga de comandos no editor; hesitação na seleção de tags adequadas; erros frequentes na formatação de blocos de código de terminal por novatos. | HTA (Diagrama + Tabela) + GOMS/KLM | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| **F02** | Cadastro e Onboarding do Novo Usuário com Discobot | Alta | Barreiras de acolhimento; atrito com limitações antispam do Trust Level 0 (TL0); evasão do tutorial do Discobot por falta de clareza visual. | HTA (Diagrama + Tabela) + GOMS | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
+| **F03** | Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias | Alta | Mapeamento de matriz temporal interativa, concorrência temporal, prevenção de double-booking e sincronização de salas. | HTA (Diagrama + Tabela) + CTT | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
-Conforme sistematizado na Tabela 1, cada funcionalidade selecionada provê complexidade satisfatória para a modelagem detalhada na Entrega 2, garantindo que os três estudantes executem tarefas robustas e complementares.
+Conforme demonstrado na Tabela 1, a divisão assegura equidade analítica rigorosa, garantindo que cada discente seja titular de um fluxo de alta densidade cognitiva devidamente conectado às demais fases do ciclo de usabilidade.
 
 ---
 
 ## Problemas Preliminares de Usabilidade Identificados
 
-A inspeção exploratória preliminar executada pelos membros do grupo sobre a interface do Discourse revelou oportunidades significativas de aprimoramento de IHC:
+A inspeção exploratória preliminar conduzida pela equipe sobre a interface do Fórum Diolinux Plus evidenciou oportunidades substanciais de aprimoramento de IHC:
 
-1. **Curva de Aprendizagem Íngreme no Editor de Publicação:** Usuários novatos que não dominam a sintaxe de formatação Markdown frequentemente cometem falhas na inclusão de trechos de código e logs de erro de terminal, poluindo as discussões por falta de botões intuitivos e assistentes visuais.
-2. **Sobrecarga Cognitiva no Painel de Notificações:** O sistema oferece dezenas de categorias de alertas com terminologias abstratas ("Rastreando", "Observando o primeiro post"), dificultando a compreensão do usuário sobre a real frequência de mensagens que receberá.
-3. **Complexidade Excessiva na Busca Avançada:** Para realizar buscas com mais de um filtro, a interface exige abertura de modais densos com campos pouco tolerantes a termos aproximados, violando a heurística de reconhecimento em vez de memorização (Nielsen, 1994).
-4. **Visibilidade Reduzida do Status de Moderação:** Ao reportar um conteúdo impróprio, o participante recebe pouco ou nenhum feedback sobre o andamento de sua denúncia, gerando insegurança quanto à efetividade da ação.
+1. **Curva de Aprendizagem Íngreme no Editor de Markdown:** Usuários novatos que desconhecem a sintaxe Markdown frequentemente cometem falhas ao colar mensagens de erro de terminal, poluindo as discussões devido à ausência de assistentes visuais dedicados a logs;
+2. **Fricção Inicial por Travas de Confiança (Trust Level 0):** Estudantes recém-cadastrados que tentam enviar imagens de falhas de *boot* têm seu conteúdo bloqueado pelo sistema antispam, sem que a interface forneça orientação clara sobre como desbloquear permissões;
+3. **Complexidade Excessiva na Busca Avançada:** Para localizar tópicos com filtros combinados (categoria + tag + solução aceita), a interface exige a abertura de modais densos com terminologias abstratas, sobrecarregando a memória de trabalho do usuário;
+4. **Visibilidade Reduzida do Status de Moderação e Soluções:** Em discussões técnicas extensas, nem sempre a solução homologada pelo autor é destacada de forma inequívoca no topo da visualização móvel.
+
+---
+
+## Lista de Verificação do Planejamento de Escopo
+
+A Tabela 2 apresenta a autoavaliação da conformidade metodológica do planejamento de escopo frente às exigências do Plano de Ensino da disciplina (*Sales, 2026*) e às decisões registradas nas atas de reunião.
+
+**Tabela 2** — Lista de verificação de conformidade do planejamento de escopo
+
+| Item | Questão Avaliada | Origem / Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Artefato |
+| :---: | :--- | :--- | :---: | :--- |
+| **1** | A escolha do Fórum Diolinux Plus possui justificativa explícita e fundamentada no rigor acadêmico de IHC? | Plano de Ensino da Disciplina; Mayhew (1999) | ✅ Sim | O texto detalha o pivot a partir do Portal Domínio Público devido à baixa densidade interativa do repositório anterior. |
+| **2** | O escopo está dimensionado equitativamente para os 3 discentes ativos da equipe? | Diretrizes de Reestruturação ([Ata 4](../atas/ata4.md)) | ✅ Sim | O escopo delimita exatamente 3 funcionalidades de alta complexidade (F01, F02 e F03) atribuídas individualmente na Tabela 1. |
+| **3** | Há sincronização 1:1 rigorosa entre a Tabela 1 e os fluxos modelados em Análise de Tarefas? | Critério de Coerência Transversal | ✅ Sim | F01 corresponde à Tarefa 1 de Vinicius; F02 corresponde à Tarefa 2 de Gustavo; F03 corresponde à Tarefa 3 de Edvaldo em `analise-tarefas.md`. |
+| **4** | Foram expurgadas todas as propostas legadas obsoletas (ex: "Eventos Presenciais")? | Princípio de Fidelidade Operacional | ✅ Sim | Toda menção a eventos ou venda de ingressos foi removida, consolidando o Onboarding com Discobot na F02. |
+| **5** | A Tabela de Contribuição e o corpo do texto estão alinhados com a composição ativa da equipe? | Diretrizes de Reestruturação da Equipe; [Ata 4](../atas/ata4.md) | ✅ Sim | A Tabela de Contribuição lista unicamente Vinicius Araruna, Gustavo Antonio e Edvaldo Soares, preservando os créditos históricos nas versões 1.0 a 1.2 da Tabela 3. |
+| **6** | Todas as tabelas e figuras possuem chamada formal antecedente no texto, numeração e indicação de fonte? | Padrão Editorial da FGA/UnB | ✅ Sim | A Figura 1 e as Tabelas 1, 2 e 3 possuem chamadas textuais explícitas, títulos e legendas padronizadas. |
+
+_Fonte: Elaborada pelos autores, 2026._
+
+Conforme evidenciado na Tabela 2, todas as decisões de escopo atendem plenamente aos critérios da disciplina e às orientações metodológicas da docência.
 
 ---
 
 ## Histórico de Versão
 
+A Tabela 3 documenta o histórico evolutivo de versões deste artefato, acompanhando as decisões de planejamento e reestruturação da equipe.
+
+**Tabela 3** — Histórico de versão do documento
+
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 04/09/2026 | Criação inicial da página de site selecionado (Portal Domínio Público) | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no topo e padronização com ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Gustavo Antonio](https://github.com/gus-ant) |
-| `1.2` | 18/09/2026 | Reestruturação integral para o Fórum Diolinux Plus, documentação do pivot, detalhamento das 5 funcionalidades e problemas de usabilidade | [Vinicius Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
-| `1.3` | 25/09/2026 | Atualização das funcionalidades para refletir a nova composição (3 membros) e proposta da funcionalidade de Criação de Eventos Presenciais | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 18/09/2026 | Reestruturação integral para o Fórum Diolinux Plus, documentação do pivot e detalhamento das funcionalidades preliminares | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
+| `1.3` | 25/09/2026 | Atualização preliminar de escopo e registro da redução da equipe ([Ata 4](../atas/ata4.md)) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.4` | 10/10/2026 | Sincronização 1:1 da Tabela 1 com as tarefas oficiais de HTA/GOMS, expurgo integral de propostas legadas ("Eventos Presenciais"), higienização de membros inativos e inclusão de lista de verificação analítica com 6 itens (Issue #53) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.5` | 22/10/2026 | Atualização da funcionalidade F03 para Grade de Disponibilidade e Agendamento de Dúvidas/Mentorias sob responsabilidade de Edvaldo Soares | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 ---
 
 ## Referências Bibliográficas
 
-[1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010.
+[1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier / Campus, 2010.
 
 [2] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021.
 
@@ -121,4 +152,4 @@ A inspeção exploratória preliminar executada pelos membros do grupo sobre a i
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a organização sintática e estruturação deste artefato em Markdown, foi utilizado o suporte de Inteligência Artificial Generativa (LLM). Todo o embasamento teórico, mapeamento de funcionalidades, delimitação de problemas heurísticos e deliberações foram concebidos, verificados e validados pelos integrantes do Grupo 08.
+Durante a organização sintática e formatação deste artefato em Markdown, foi utilizado o suporte de Inteligência Artificial Generativa (LLM). Todo o embasamento metodológico, delimitação de escopo, alinhamento de tarefas e decisões de engenharia foram concebidos, verificados e aprovados pelos discentes ativos do Grupo 08.
