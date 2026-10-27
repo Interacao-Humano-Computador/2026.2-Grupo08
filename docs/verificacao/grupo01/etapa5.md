@@ -1,5 +1,13 @@
 # Avaliação do Grupo +1 — Grupo 01 (Microsoft Teams) — Etapa 5
 
+<div class="dp-page-nav" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.2rem 0 1.8rem 0; padding: 0.8rem 1rem; background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px;" markdown="1">
+
+[:material-hub: **Hub Central (Visão Geral)**](index.md){ .md-button }
+[:material-rocket-launch: **Etapa 5 (Relatos Nível 1 e Protótipo de Papel)**](etapa5.md){ .md-button .md-button--primary }
+[:material-clipboard-check: **Etapa 3 (Princípios, Metas e Guia de Estilo)**](etapa3.md){ .md-button }
+
+</div>
+
 ## Tabela de Contribuição e Transparência de IA Generativa
 
 A Tabela 1 apresenta a distribuição de responsabilidades, papéis e ferramentas utilizadas pelos discentes do Grupo 08 na realização desta avaliação analítica.
@@ -58,7 +66,7 @@ _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 !!! info "Relatório em PDF Padronizado da Avaliação (Grupo 08)"
     Em estrito atendimento às exigências pedagógicas do Plano de Ensino da disciplina (*Sales, 2026*) e do enunciado oficial da tarefa no Teams (*"PlajRelatoStoryBoarProtPapeldNomedoSite.pdf"*), o relatório analítico consolidado desta inspeção formal — contendo cabeçalho institucional UnB/FGA, matriz tabular completa, percentuais e assinaturas — encontra-se disponível para download direto:
     
-    [:material-file-pdf-box: **Baixar Relatório Oficial da Inspeção: PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf**](../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf){ .md-button .md-button--primary }
+    [:material-file-pdf-box: **Baixar Relatório Oficial da Inspeção: PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf**](../../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf){ .md-button .md-button--primary }
 
 ---
 
@@ -66,9 +74,9 @@ _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
 O Vídeo 1 a seguir documenta a auditoria técnica da Etapa 5 do Grupo 01, conduzida pelos discentes do Grupo 08:
 
-<div style="text-align: center; margin: 1.5rem 0;" markdown="1">
+<div style="text-align: center; margin: 1.5rem 0;">
   <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/QjAnF0_ooT8" title="Avaliação da Etapa 5 do Grupo +1 (Grupo 01 — Microsoft Teams) | Grupo 08 — IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
-  <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da auditoria formal da Etapa 5 do Grupo 01 (Microsoft Teams). <em>Fonte: Autores (Grupo 08), 2026.</em></p>
+  <p style="font-size: 0.85rem; color: var(--dp-muted); margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da auditoria formal da Etapa 5 do Grupo 01 (Microsoft Teams). <em>Fonte: Autores (Grupo 08), 2026.</em></p>
   <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/QjAnF0_ooT8" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube (Não Listado): https://youtu.be/QjAnF0_ooT8</a></p>
 </div>
 
@@ -76,7 +84,7 @@ O Vídeo 1 a seguir documenta a auditoria técnica da Etapa 5 do Grupo 01, condu
 
 ## 4. Matriz Geral de Inspeção da Etapa 5 (15 Critérios da Disciplina)
 
-A conformidade técnica dos produtos de trabalho entregues pelo Grupo 01 foi auditada frente aos 15 critérios objetivos que compõem a lista de verificação normativa da Etapa 5 ([`docs/verificacao/lista-verificacao.md`](file:///c:/Users/vinic/Desktop/IHC/2026.2-Grupo08/docs/verificacao/lista-verificacao.md)). A Tabela 3 detalha a situação de cada item, sua evidência no repositório e a justificativa técnica correspondente.
+A conformidade técnica dos produtos de trabalho entregues pelo Grupo 01 foi auditada frente aos 15 critérios objetivos que compõem a lista de verificação normativa da Etapa 5 ([`Listas de Verificação`](../lista-verificacao.md)). A Tabela 3 detalha a situação de cada item, sua evidência no repositório e a justificativa técnica correspondente.
 
 **Tabela 3** — Auditoria dos critérios de conteúdo, metodologia e governança da Etapa 5 (Grupo 01)
 
@@ -119,46 +127,47 @@ _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
 ---
 
-## 6. Resumo Gráfico e Indicadores de Conformidade
+## 6. Resumo e Métricas de Conformidade
 
-A Figura 1 e os indicadores abaixo sintetizam o panorama geral de atendimento aos critérios da Etapa 5 pelo Grupo 01:
+A Tabela 4 e a Figura 1 sintetizam o panorama geral de atendimento aos critérios da Etapa 5 pelo Grupo 01.
 
-### Distribuição dos 15 Critérios da Etapa 5
+**Tabela 4** — Resumo dos resultados da avaliação da Etapa 5 (Grupo 01)
 
-<div style="margin: 1.5rem 0;" markdown="1">
-  <div style="margin-bottom: 0.75rem;">
-    <div style="font-size: 0.85rem; font-weight: bold; margin-bottom: 0.25rem;">✅ Atendido Plenamente (Sim) — 1 / 15 (6,7%)</div>
-    <div style="background-color: #E2E8F0; border-radius: 4px; height: 22px; width: 100%; overflow: hidden;">
-      <div style="background-color: #10B981; height: 100%; width: 6.7%; text-align: center; color: white; font-size: 0.75rem; line-height: 22px; font-weight: bold;">6,7%</div>
-    </div>
+| Status de Aferição | Quantidade de Itens | Porcentagem | Itens Correspondentes |
+| :--- | :---: | :---: | :--- |
+| ✅ **Conforme (Atendido Plenamente)** | 1 | 6,7% | 07 |
+| ⚠️ **Incompleto (Atendido Parcialmente)** | 7 | 46,7% | 03, 04, 05, 06, 08, 10, 13 |
+| ❌ **Não Conforme (Omissão / Descumprimento)** | 7 | 46,7% | 01, 02, 09, 11, 12, 14, 15 |
+| **TOTAL GERAL** | **15** | **100,0%** | **Taxa Ponderada de Conformidade*: 30,0%** |
+
+_Fonte: Elaborada pelos autores (Grupo 08), 2026._  
+*\*Critério Ponderado: Conforme = 1,0 ponto; Incompleto = 0,5 ponto; Não Conforme = 0,0 ponto.*
+
+### Distribuição Visual dos 15 Critérios da Etapa 5
+
+<div class="dp-checklist-summary">
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">✅ Atendido Plenamente</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:6.7%">1 / 15 (6,7%)</div></div>
   </div>
-  <div style="margin-bottom: 0.75rem;">
-    <div style="font-size: 0.85rem; font-weight: bold; margin-bottom: 0.25rem;">⚠️ Atendido Parcialmente (Incompleto) — 7 / 15 (46,7%)</div>
-    <div style="background-color: #E2E8F0; border-radius: 4px; height: 22px; width: 100%; overflow: hidden;">
-      <div style="background-color: #F59E0B; height: 100%; width: 46.7%; text-align: center; color: white; font-size: 0.75rem; line-height: 22px; font-weight: bold;">46,7%</div>
-    </div>
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">⚠️ Atendido Parcialmente</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:46.7%">7 / 15 (46,7%)</div></div>
   </div>
-  <div style="margin-bottom: 0.75rem;">
-    <div style="font-size: 0.85rem; font-weight: bold; margin-bottom: 0.25rem;">❌ Não Atendido (Omissão / Não Conforme) — 7 / 15 (46,7%)</div>
-    <div style="background-color: #E2E8F0; border-radius: 4px; height: 22px; width: 100%; overflow: hidden;">
-      <div style="background-color: #EF4444; height: 100%; width: 46.7%; text-align: center; color: white; font-size: 0.75rem; line-height: 22px; font-weight: bold;">46,7%</div>
-    </div>
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">❌ Não Atendido / Omissão</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:46.7%">7 / 15 (46,7%)</div></div>
   </div>
 </div>
 
-<p style="font-size: 0.85rem; color: #64748B; text-align: center;"><strong>Figura 1</strong> — Distribuição percentual da conformidade da Etapa 5 do Grupo 01. <em>Fonte: Autores (Grupo 08), 2026.</em></p>
+<p style="font-size: 0.85rem; color: var(--dp-muted); text-align: center;"><strong>Figura 1</strong> — Distribuição percentual da conformidade da Etapa 5 do Grupo 01. <em>Fonte: Autores (Grupo 08), 2026.</em></p>
 
 ### Cálculo da Taxa Ponderada de Conformidade Técnica:
-Adotando a ponderação acadêmica de **1,0** para critérios atendidos plenamente (*Sim*), **0,5** para critérios com lacunas (*Incompleto*) e **0,0** para critérios desatendidos (*Não*):
 
-<div style="background-color: #F8FAFC; border: 1px solid #CBD5E1; border-radius: 6px; padding: 1rem; margin: 1rem 0; text-align: center;" markdown="1">
-  <p style="font-size: 1rem; margin: 0; color: #0F172A;">
-    <strong>Taxa Ponderada de Conformidade Técnica</strong> = 
-    <span style="font-family: monospace;">[(1 × 1,0) + (7 × 0,5) + (7 × 0,0)] ÷ 15</span> = 
-    <span style="font-family: monospace;">4,5 ÷ 15</span> = 
-    <strong style="color: #0F2D59; font-size: 1.15rem;">30,0%</strong>
-  </p>
-</div>
+!!! note "Cálculo da Taxa Ponderada de Conformidade Técnica"
+    Adotando a ponderação acadêmica de **1,0** para critérios atendidos plenamente (*Sim*), **0,5** para critérios com lacunas (*Incompleto*) e **0,0** para critérios desatendidos (*Não*):
+
+    **Taxa Ponderada** = [(1 × 1,0) + (7 × 0,5) + (7 × 0,0)] ÷ 15 = 4,5 ÷ 15 = **30,0%**
 
 ---
 
@@ -187,9 +196,9 @@ O Grupo 08 recomenda que o Grupo 01 execute os seguintes ajustes com máxima pri
 
 ## 9. Histórico de Versão
 
-A Tabela 4 documenta o histórico de versões e auditorias deste artefato técnico.
+A Tabela 5 documenta o histórico de versões e auditorias deste artefato técnico.
 
-**Tabela 4** — Histórico de Versão do Documento
+**Tabela 5** — Histórico de Versão do Documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
