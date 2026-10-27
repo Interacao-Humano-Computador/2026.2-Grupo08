@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    /* ======================================================
+       Widget de Acessibilidade — Tamanho de Fonte
+       Grupo 08 · IHC 2026.2
+    ====================================================== */
+    (function () {
+      var SIZES = { small: '90%', normal: '100%', large: '130%' };
+      var KEY = 'dp-font-size';
+
+      function applySize(size) {
+        document.documentElement.style.fontSize = SIZES[size] || SIZES.normal;
+        try { localStorage.setItem(KEY, size); } catch (e) {}
+      }
+
+      /* Restaura preferência salva */
+      try {
+        var saved = localStorage.getItem(KEY);
+        if (saved) applySize(saved);
+      } catch (e) {}
+
+      /* Cria widget após o DOM estar pronto */
+      document.addEventListener('DOMContentLoaded', function () {
+        var widget = document.createElement('div');
+        widget.className = 'dp-a11y-widget';
+        widget.setAttribute('aria-label', 'Controle de acessibilidade de fonte');
+        widget.innerHTML =
+          '<button class="dp-a11y-btn" title="Diminuir fonte" aria-label="Diminuir tamanho da fonte" onclick="(function(){document.documentElement.style.fontSize=\'90%\';try{localStorage.setItem(\'dp-font-size\',\'small\')}catch(e){}})()">A<span style="font-size:0.6em;vertical-align:sub">−</span></button>' +
+          '<button class="dp-a11y-btn" title="Fonte padrão" aria-label="Restaurar tamanho padrão da fonte" onclick="(function(){document.documentElement.style.fontSize=\'100%\';try{localStorage.setItem(\'dp-font-size\',\'normal\')}catch(e){}})()">A</button>' +
+          '<button class="dp-a11y-btn" title="Aumentar fonte" aria-label="Aumentar tamanho da fonte" onclick="(function(){document.documentElement.style.fontSize=\'130%\';try{localStorage.setItem(\'dp-font-size\',\'large\')}catch(e){}})()">A<span style="font-size:0.75em;vertical-align:super">+</span></button>';
+        document.body.appendChild(widget);
+      });
+    })();
+
+    /* ======================================================
+       Navegação das Abas Superiores (Setas, Scroll e Wheel)
+       Grupo 08 · IHC 2026.2
+    ====================================================== */
+    (function () {
+      function initTabsNavigation() {
+        var tabsNav = document.querySelector('.md-tabs');
+        if (!tabsNav) return;
+
+        var grid = tabsNav.querySelector('.md-grid');
+        var tabsList = tabsNav.querySelector('.md-tabs__list');
+        if (!grid || !tabsList) return;
+
+        // Evita inicialização duplicada
+        if (grid.querySelector('.dp-tabs-arrow--prev')) return;
+
+        // Cria as setinhas de navegação
+        var prevBtn = document.createElement('button');
+        prevBtn.className = 'dp-tabs-arrow dp-tabs-arrow--prev';
+        prevBtn.setAttribute('type', 'button');
+        prevBtn.setAttribute('aria-label', 'Rolar abas para a esquerda');
+        prevBtn.setAttribute('title', 'Rolar abas para a esquerda');
+        prevBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>';
+
+        var nextBtn = document.createElement('button');
+        nextBtn.className = 'dp-tabs-arrow dp-tabs-arrow--next';
+        nextBtn.setAttribute('type', 'button');
+        nextBtn.setAttribute('aria-label', 'Rolar abas para a direita');
+        nextBtn.setAttribute('title', 'Rolar abas para a direita');
+        nextBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>';
+
+        // Insere as setinhas antes e depois da lista dentro do grid
+        grid.insertBefore(prevBtn, tabsList);
+        grid.appendChild(nextBtn);
+
+        // Atualiza visibilidade e estado das setas
+        function updateArrows() {
+          var scrollLeft = tabsList.scrollLeft;
+          var maxScroll = tabsList.scrollWidth - tabsList.clientWidth;
+          var hasOverflow = maxScroll > 4;
+
+          if (!hasOverflow) {
+            prevBtn.style.display = 'none';
+            nextBtn.style.display = 'none';
+            return;
+          }
+
+          prevBtn.style.display = 'inline-flex';
+          nextBtn.style.display = 'inline-flex';
+
+          prevBtn.disabled = scrollLeft <= 4;
+          nextBtn.disabled = scrollLeft >= (maxScroll - 4);
+        }
+
+        // Scroll suave com as setas
+        var SCROLL_STEP = 260;
+        prevBtn.addEventListener('click', function () {
+          tabsList.scrollBy({ left: -SCROLL_STEP, behavior: 'smooth' });
+          setTimeout(updateArrows, 300);
+        });
+
+        nextBtn.addEventListener('click', function () {
+          tabsList.scrollBy({ left: SCROLL_STEP, behavior: 'smooth' });
+          setTimeout(updateArrows, 300);
+        });
+
+        // Conversão da roda do mouse (scroll vertical) em scroll horizontal nas abas
+        tabsNav.addEventListener('wheel', function (e) {
+          if (tabsList.scrollWidth > tabsList.clientWidth) {
+            if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+              e.preventDefault();
+              tabsList.scrollLeft += (e.deltaY * 1.2);
+              updateArrows();
+            }
+          }
+        }, { passive: false });
+
+        // Atualização em eventos de rolagem
+        tabsList.addEventListener('scroll', updateArrows, { passive: true });
+
+        // Monitoramento de redimensionamento da janela e contêiner
+        if (window.ResizeObserver) {
+          var ro = new ResizeObserver(updateArrows);
+          ro.observe(tabsNav);
+          ro.observe(tabsList);
+        } else {
+          window.addEventListener('resize', updateArrows);
+        }
+
+        // Auto-scroll para centralizar a aba ativa ao carregar a página
+        setTimeout(function () {
+          var activeTab = tabsList.querySelector('.md-tabs__item--active');
+          if (activeTab) {
+            activeTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+          }
+          updateArrows();
+        }, 150);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initTabsNavigation);
+      } else {
+        initTabsNavigation();
+      }
+    })();
+  </script>
+{% endblock %}

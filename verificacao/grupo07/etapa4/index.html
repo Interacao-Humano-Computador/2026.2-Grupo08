@@ -1,0 +1,4570 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto de Interação Humano-Computador do Grupo 08, FCTE/UnB, 2026.2.">
+      
+      
+        <meta name="author" content="Grupo 08 — IHC 2026.2">
+      
+      
+        <link rel="canonical" href="https://interacao-humano-computador.github.io/2026.2-Grupo08/verificacao/grupo07/etapa4/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../etapa2/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images_prints/LOGO_DIOLINUX.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>Etapa 4 (Planejamento de Nível 1) - IHC 2026.2 - Grupo 08</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"IBM Plex Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#avaliacao-da-etapa-4-do-grupo-1-grupo-07-pci-concursos" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="IHC 2026.2 - Grupo 08" class="md-header__button md-logo" aria-label="IHC 2026.2 - Grupo 08" data-md-component="logo">
+      
+  <img src="../../../assets/images_prints/LOGO_DIOLINUX.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC 2026.2 - Grupo 08
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Etapa 4 (Planejamento de Nível 1)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Mudar para modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Mudar para modo alto contraste"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo alto contraste" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.38 20.9a2 2 0 0 1-1.28-1.27L19.63 3.1a2 2 0 0 1 1.27 1.28zM20 16v2h-7v-2zM3 6h3V3h2v3h3v2H8v3H6V8H3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="contrast" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Mudar para modo escuro"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo08" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo08
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../entregas/entrega1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Entregas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/equipe/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Planejamento do Projeto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../analise-requisitos/metodologia/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Análise de Requisitos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-avaliacao/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Design, Avaliação e Desenvolvimento (Nível 1)
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Design, Avaliação e Desenvolvimento (Nível 2)
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../atas/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Atas de Reunião
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../conteudo-teorico/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Conteúdo Teórico
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="IHC 2026.2 - Grupo 08" class="md-nav__button md-logo" aria-label="IHC 2026.2 - Grupo 08" data-md-component="logo">
+      
+  <img src="../../../assets/images_prints/LOGO_DIOLINUX.png" alt="logo">
+
+    </a>
+    IHC 2026.2 - Grupo 08
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo08" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo08
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entregas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entregas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entregas/entrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entregas/entrega2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entregas/entrega3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entregas/entrega4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entregas/entrega5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Projeto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento do Projeto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/equipe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma-planejado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma Planejado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma-executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma Executado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/quadro-de-atribuicoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quadro de Atribuições
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heat Map
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lista de Sites Avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/site-selecionado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site Selecionado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/metodologia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metodologia de Pesquisa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elicitação de Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Elicitação de Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/brainstorming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/analise-documental/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise Documental
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/entrevistas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrevistas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos Éticos e TCLE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/perfil-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil do Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas e Elenco
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/analise-tarefas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/caracteristicas-da-plataforma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Características da Plataforma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/principios-gerais-de-projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Princípios Gerais de Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/metas-de-usabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metas de Usabilidade e UX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/guia-de-estilo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de Estilo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../analise-requisitos/conteudo-disciplina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conteúdo da Disciplina
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design, Avaliação e Desenvolvimento (Nível 1)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design, Avaliação e Desenvolvimento (Nível 1)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storyboard
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Storyboard
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-1/storyboard/relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/storyboards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storyboards da Equipe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-1/storyboard/storyboard-topico-markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storyboard de Criação de Tópico em Markdown com Integração de IA Semântica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-1/storyboard/storyboard-eventos-presenciais/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storyboard de Eventos Presenciais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/planejamento-relato-tarefas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato Preliminar (Tarefas)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-1/questoes-praticas-cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Questões Práticas e Cronograma da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-1/teste-piloto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teste-Piloto de Nível 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/observacao-avaliador/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instrumentos de Observação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design, Avaliação e Desenvolvimento (Nível 2)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design, Avaliação e Desenvolvimento (Nível 2)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protótipo de Papel
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Protótipo de Papel
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato de Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../atas/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas de Reunião
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas de Reunião
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 04/09/2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 07/09/2026 (Grupo +1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 14/09/2026 (Mudança de Escopo)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 25/09/2026 (Reestruturação da Equipe)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 05/10/2026 (Planejamento Entrega 3)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 14/10/2026 (Avaliação Grupo -1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 25/10/2026 (Apresentação Entrega 5)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lista-verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Listas de Verificação (Checklists)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grupo08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Auto-Avaliação (Grupo 08)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Avaliação do Grupo -1 (Grupo 07)
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8_4" id="__nav_8_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Avaliação do Grupo -1 (Grupo 07)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4 (Planejamento de Nível 1)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4 (Planejamento de Nível 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Contribuição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao-e-contextualizacao-metodologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução e Contextualização Metodológica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identificacao-do-projeto-avaliado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identificação do Projeto Avaliado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-da-gravacao-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vídeo da Gravação da Avaliação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-verificacao-dos-itens-de-desenvolvimento-e-governanca-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Verificação dos Itens de Desenvolvimento e Governança do Projeto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-verificacao-dos-itens-de-conteudo-da-disciplina-etapa-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Verificação dos Itens de Conteúdo da Disciplina — Etapa 4
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-resumo-e-metricas-de-conformidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Resumo e Métricas de Conformidade
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-analise-aprofundada-dos-problemas-criticos-encontrados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Análise Aprofundada dos Problemas Críticos Encontrados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Análise Aprofundada dos Problemas Críticos Encontrados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-duracao-da-apresentacao-gravada-abaixo-do-limite-regulamentar-criterio-d-temp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Duração da Apresentação Gravada Abaixo do Limite Regulamentar (Critério D-TEMP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-ausencia-do-cronograma-executado-da-etapa-4-em-cronogramamd-criterio-d-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Ausência do Cronograma Executado da Etapa 4 em cronograma.md (Critério D-06)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-falta-de-atas-de-reuniao-e-gravacoes-de-encontros-da-etapa-4-criterios-d-07-e-d-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Falta de Atas de Reunião e Gravações de Encontros da Etapa 4 (Critérios D-07 e D-08)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-ausencia-dos-desenhos-dos-storyboards-no-repositorio-criterio-c-09" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Ausência dos Desenhos dos Storyboards no Repositório (Critério C-09)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-omissao-de-recortes-bibliograficos-com-foto-e-identificacao-nominal-de-autor-criterios-c-04-c-11-e-c-imp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 Omissão de Recortes Bibliográficos com Foto e Identificação Nominal de Autor (Critérios C-04, C-11 e C-IMP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-inexistencia-da-secao-de-agradecimentos-sobre-uso-de-ia-generativa-criterio-d-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 Inexistência da Seção de Agradecimentos sobre Uso de IA Generativa (Critério D-11)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-tabelas-de-contribuicao-desprovidas-de-hiperligacoes-ativas-criterio-d-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 Tabelas de Contribuição Desprovidas de Hiperligações Ativas (Critério D-10)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#48-historico-de-versao-com-revisores-nao-assinalados-em-versoes-vigentes-criterios-d-01-e-d-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.8 Histórico de Versão com Revisores Não Assinalados em Versões Vigentes (Critérios D-01 e D-02)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-pontos-fortes-e-destaques-metodologicos-da-entrega" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Pontos Fortes e Destaques Metodológicos da Entrega
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-conclusao-e-plano-de-acao-recomendado-ao-grupo-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Conclusão e Plano de Ação Recomendado ao Grupo 07
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Histórico de Versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-agradecimentos-e-uso-de-inteligencia-artificial-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etapa2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2 (Perfil de Usuário e Tarefas)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../grupo01/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Avaliação do Grupo +1 (Grupo 01)
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8_5" id="__nav_8_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Avaliação do Grupo +1 (Grupo 01)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grupo01/etapa5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 5 (Relatos Nível 1 e Protótipo de Papel)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grupo01/etapa3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3 (Princípios, Metas e Guia de Estilo)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../conteudo-teorico/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conteúdo Teórico
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Conteúdo Teórico
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../conteudo-teorico/item-teorico-storyboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Teórico - Storyboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/item-teorico-metodos-avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Teórico - Métodos de Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Contribuição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao-e-contextualizacao-metodologica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introdução e Contextualização Metodológica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identificacao-do-projeto-avaliado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identificação do Projeto Avaliado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-da-gravacao-da-avaliacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vídeo da Gravação da Avaliação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-verificacao-dos-itens-de-desenvolvimento-e-governanca-do-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Verificação dos Itens de Desenvolvimento e Governança do Projeto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-verificacao-dos-itens-de-conteudo-da-disciplina-etapa-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Verificação dos Itens de Conteúdo da Disciplina — Etapa 4
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-resumo-e-metricas-de-conformidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Resumo e Métricas de Conformidade
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-analise-aprofundada-dos-problemas-criticos-encontrados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Análise Aprofundada dos Problemas Críticos Encontrados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Análise Aprofundada dos Problemas Críticos Encontrados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-duracao-da-apresentacao-gravada-abaixo-do-limite-regulamentar-criterio-d-temp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Duração da Apresentação Gravada Abaixo do Limite Regulamentar (Critério D-TEMP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-ausencia-do-cronograma-executado-da-etapa-4-em-cronogramamd-criterio-d-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Ausência do Cronograma Executado da Etapa 4 em cronograma.md (Critério D-06)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-falta-de-atas-de-reuniao-e-gravacoes-de-encontros-da-etapa-4-criterios-d-07-e-d-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Falta de Atas de Reunião e Gravações de Encontros da Etapa 4 (Critérios D-07 e D-08)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-ausencia-dos-desenhos-dos-storyboards-no-repositorio-criterio-c-09" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Ausência dos Desenhos dos Storyboards no Repositório (Critério C-09)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-omissao-de-recortes-bibliograficos-com-foto-e-identificacao-nominal-de-autor-criterios-c-04-c-11-e-c-imp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 Omissão de Recortes Bibliográficos com Foto e Identificação Nominal de Autor (Critérios C-04, C-11 e C-IMP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-inexistencia-da-secao-de-agradecimentos-sobre-uso-de-ia-generativa-criterio-d-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.6 Inexistência da Seção de Agradecimentos sobre Uso de IA Generativa (Critério D-11)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47-tabelas-de-contribuicao-desprovidas-de-hiperligacoes-ativas-criterio-d-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.7 Tabelas de Contribuição Desprovidas de Hiperligações Ativas (Critério D-10)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#48-historico-de-versao-com-revisores-nao-assinalados-em-versoes-vigentes-criterios-d-01-e-d-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.8 Histórico de Versão com Revisores Não Assinalados em Versões Vigentes (Critérios D-01 e D-02)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-pontos-fortes-e-destaques-metodologicos-da-entrega" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Pontos Fortes e Destaques Metodológicos da Entrega
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-conclusao-e-plano-de-acao-recomendado-ao-grupo-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Conclusão e Plano de Ação Recomendado ao Grupo 07
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Histórico de Versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-agradecimentos-e-uso-de-inteligencia-artificial-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Início
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Verificação
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Avaliação do Grupo -1 (Grupo 07)
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="avaliacao-da-etapa-4-do-grupo-1-grupo-07-pci-concursos">Avaliação da Etapa 4 do Grupo -1 — Grupo 07 (PCI Concursos)</h1>
+<div class="dp-page-nav" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.2rem 0 1.8rem 0; padding: 0.8rem 1rem; background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px;">
+<p><a class="md-button" href="../"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.4 18.2q.6.75.6 1.8c0 1.7-1.3 3-3 3s-3-1.3-3-3 1.3-3 3-3q.6 0 1.2.3l1.4-1.8c-.9-1-1.3-2.4-1.1-3.7l-2-.7c-.5.8-1.4 1.4-2.5 1.4-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3v.2l2 .7c.6-1.2 1.8-2.1 3.2-2.3V5.9C10 5.6 9 4.4 9 3c0-1.7 1.3-3 3-3s3 1.3 3 3c0 1.4-1 2.6-2.2 2.9v2.2c1.4.2 2.6 1.1 3.2 2.3l2-.7v-.2c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3c-1.1 0-2-.6-2.5-1.4l-2 .7c.2 1.3-.2 2.7-1.1 3.7l1.4 1.8q.6-.3 1.2-.3c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3q0-1.05.6-1.8l-1.4-1.8c-1.4.8-3 .8-4.4 0z"/></svg></span> <strong>Hub Central (Visão Geral)</strong></a>
+<a class="md-button md-button--primary" href="./"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m13.13 22.19-1.63-3.83c1.57-.58 3.04-1.36 4.4-2.27zM5.64 12.5l-3.83-1.63 6.1-2.77C7 9.46 6.22 10.93 5.64 12.5M21.61 2.39S16.66.269 11 5.93c-2.19 2.19-3.5 4.6-4.35 6.71-.28.75-.09 1.57.46 2.13l2.13 2.12c.55.56 1.37.74 2.12.46A19.1 19.1 0 0 0 18.07 13c5.66-5.66 3.54-10.61 3.54-10.61m-7.07 7.07c-.78-.78-.78-2.05 0-2.83s2.05-.78 2.83 0c.77.78.78 2.05 0 2.83s-2.05.78-2.83 0m-5.66 7.07-1.41-1.41zM6.24 22l3.64-3.64c-.34-.09-.67-.24-.97-.45L4.83 22zM2 22h1.41l4.77-4.76-1.42-1.41L2 20.59zm0-2.83 4.09-4.08c-.21-.3-.36-.62-.45-.97L2 17.76z"/></svg></span> <strong>Etapa 4 (Planejamento de Nível 1)</strong></a>
+<a class="md-button" href="../etapa2/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m10 17-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9m-6-6a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m7 0h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"/></svg></span> <strong>Etapa 2 (Perfil de Usuário e Tarefas)</strong></a></p>
+</div>
+<h2 id="tabela-de-contribuicao">Tabela de Contribuição</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Integrante</th>
+<th style="text-align: left;">Contribuição no Artefato</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Ferramenta de IA e Contribuição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/PajeMurici-dev">Edvaldo Soares Brasileiro Filho</a></td>
+<td style="text-align: left;">Revisão técnica da matriz de conformidade, auditoria das questões éticas e do teste-piloto</td>
+<td style="text-align: center;">14/10/2026</td>
+<td style="text-align: left;">Suporte na estruturação Markdown e checagem tabular sob curadoria discente</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/gus-ant">Gustavo Antonio Rodrigues e Silva</a></td>
+<td style="text-align: left;"><a href="https://youtu.be/f6q9lgPUmVA">Auditoria técnica de governança, repositório e cronograma; consolidação das métricas e apresentação em vídeo</a></td>
+<td style="text-align: center;">14/10/2026</td>
+<td style="text-align: left;">Suporte na estruturação Markdown e checagem tabular sob curadoria discente</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/ViniciusA05">Vinicius Silva Araruna</a></td>
+<td style="text-align: left;"><a href="https://youtu.be/f6q9lgPUmVA">Coordenação geral da inspeção, auditoria do framework DECIDE, roteiros e modelos de relato; redação do relatório e apresentação em vídeo</a></td>
+<td style="text-align: center;">14/10/2026</td>
+<td style="text-align: left;">Suporte na estruturação Markdown e checagem tabular sob curadoria discente</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="introducao-e-contextualizacao-metodologica">Introdução e Contextualização Metodológica</h2>
+<p>Este documento consolida o <strong>relatório formal de inspeção e avaliação técnica e acadêmica do Grupo -1 (Grupo 07)</strong> referente à <strong>Etapa 4</strong> (Planejamento da Avaliação do Storyboard e da Análise de Tarefas e Planejamento do Relato dos Resultados), conduzido pelos discentes <strong>Vinicius Silva Araruna</strong>, <strong>Gustavo Antonio Rodrigues e Silva</strong> e <strong>Edvaldo Soares Brasileiro Filho</strong>, representando o <strong>Grupo 08</strong> na disciplina de Interação Humano-Computador (FGA0173 — Turma 01), ministrada pelo Prof. Dr. André Barros de Sales na Faculdade de Ciências e Tecnologias em Engenharia (FCTE/FGA) da Universidade de Brasília (UnB).</p>
+<p>No ciclo de vida da Engenharia de Usabilidade de Deborah Mayhew (1999) adotado na disciplina, a Etapa 4 inaugura a fase de <em>Design, Avaliação e Desenvolvimento</em> no Nível 1. Nesta etapa, a equipe tem como missão formular o planejamento rigoroso da avaliação formativa de dois artefatos fundamentais — a Análise de Tarefas (modelada em HTA e CTT) e os Storyboards —, além de antecipar a estrutura do relato de resultados de ambas as avaliações.</p>
+<p>Conforme preceitua a literatura canônica (Barbosa et al., 2021; Preece et al., 2002), o planejamento deve preceder a execução da avaliação e fundamentar-se no framework <strong>DECIDE</strong>, garantindo que questões práticas, éticas, metodológicas e critérios de severidade estejam previamente definidos, prevenindo a acomodação ou viés retrospectivo dos dados. A inspeção adotou o método formal de Inspeção por Lista de Verificação (<em>Checklist</em> Normativo) baseado em Fagan (1976), confrontando as exigências do Plano de Ensino da disciplina (<em>Sales, 2026</em>) com os artefatos publicados pelo Grupo 07.</p>
+<hr />
+<h2 id="identificacao-do-projeto-avaliado">Identificação do Projeto Avaliado</h2>
+<p>A Tabela 1 sintetiza as informações cadastrais, o ambiente de versionamento e os links diretos para os artefatos inspecionados do Grupo 07.</p>
+<p><strong>Tabela 1</strong> — Dados de identificação do Grupo 07 e ambiente de documentação</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Item</th>
+<th style="text-align: left;">Detalhamento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Grupo Avaliado</strong></td>
+<td style="text-align: left;">Grupo 07 (Grupo -1 na escala cíclica da disciplina)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Objeto de Estudo (Sítio)</strong></td>
+<td style="text-align: left;">Portal PCI Concursos (<a href="https://www.pciconcursos.com.br/">pciconcursos.com.br</a>)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Etapa Avaliada</strong></td>
+<td style="text-align: left;">Etapa 4: Planejamento da Avaliação do Storyboard e da Análise de Tarefas e Planejamento do Relato dos Resultados</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Integrantes do Grupo 07</strong></td>
+<td style="text-align: left;">Arthur Sismene Carvalho, Daniel da Silva Batista, Leonardo da Silva Lopes Júnior, Pedro Rocha Ferreira Lima</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Versão / Commit Avaliado</strong></td>
+<td style="text-align: left;">Branch <code>main</code> — Commit <code>11e393c</code> (<em>13/10/2026 22:51:21 -03:00</em>)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Data da Avaliação</strong></td>
+<td style="text-align: left;">14 de Outubro de 2026</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Documento Balizador</strong></td>
+<td style="text-align: left;">Plano de Ensino da disciplina (FIHC 022026 Turma 01 v1.pdf, pp. 8-9 e 12-13)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Repositório no GitHub</strong></td>
+<td style="text-align: left;"><a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo07">github.com/Interacao-Humano-Computador/2026.2-Grupo07</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Documentação no GitPages</strong></td>
+<td style="text-align: left;"><a href="https://interacao-humano-computador.github.io/2026.2-Grupo07/">interacao-humano-computador.github.io/2026.2-Grupo07</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Vídeo da Apresentação da Etapa 4 (Grupo 07)</strong></td>
+<td style="text-align: left;"><a href="https://youtu.be/DLNMnw_i4qg">Assistir no YouTube (DLNMnw_i4qg)</a> <em>(Duração: 15m 29s — Descumpre o tempo mínimo regulamentar de 20 min)</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Vídeo da Inspeção Realizada pelo Grupo 08</strong></td>
+<td style="text-align: left;"><a href="https://youtu.be/f6q9lgPUmVA">Assistir no YouTube (f6q9lgPUmVA)</a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada pelos autores (Grupo 08), 2026.</em></p>
+<div class="admonition info">
+<p class="admonition-title">Relatório em PDF Padronizado para Entrega Acadêmica</p>
+<p>Em consonância com as exigências de documentação formal da disciplina, o relatório consolidado de inspeção com cabeçalho institucional UnB/FGA, paginação dinâmica e quadro analítico completo está disponível para download:<br />
+<a href="../../../assets/relatorios/PlajRelatoStoryBoardInspecaoPCIConcursosGrupo07.pdf"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m-9.5 8.5c0 .8-.7 1.5-1.5 1.5H7v2H5.5V9H8c.8 0 1.5.7 1.5 1.5zm5 2c0 .8-.7 1.5-1.5 1.5h-2.5V9H13c.8 0 1.5.7 1.5 1.5zm4-3H17v1h1.5V13H17v2h-1.5V9h3zm-6.5 0h1v3h-1zm-5 0h1v1H7z"/></svg></span> <strong>PlajRelatoStoryBoardInspecaoPCIConcursosGrupo07.pdf</strong></a></p>
+</div>
+<hr />
+<h2 id="video-da-gravacao-da-avaliacao">Vídeo da Gravação da Avaliação</h2>
+<p>O vídeo a seguir documenta a auditoria e apresentação da avaliação formal da Etapa 4 do Grupo 07, conduzida em conjunto pelos discentes Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho.</p>
+<div style="text-align: center; margin: 1.5em 0;">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="405" src="https://www.youtube.com/embed/f6q9lgPUmVA" title="Avaliação do Grupo -1 (Grupo 07 — PCI Concursos — Etapa 4) | IHC 2026.2" width="720"></iframe>
+<p align="center" style="font-size: 0.85em; color: #64748B;"><b>Vídeo 1</b> — Gravação da avaliação formal do Grupo 07 referente à Etapa 4. (Fonte: Grupo 08, 2026).</p>
+</div>
+<p>Caso não consiga visualizar o player incorporado acima, acesse diretamente através do link: <a href="https://youtu.be/f6q9lgPUmVA">Assistir no YouTube (f6q9lgPUmVA)</a>.</p>
+<hr />
+<h2 id="1-verificacao-dos-itens-de-desenvolvimento-e-governanca-do-projeto">1. Verificação dos Itens de Desenvolvimento e Governança do Projeto</h2>
+<p>A conformidade com os requisitos de padronização, rastreabilidade e governança técnica exigidos no Plano de Ensino da disciplina (pp. 8-9) foi inspecionada minuciosamente. Conforme demonstrado na Tabela 2, foram avaliados os 12 critérios gerais de desenvolvimento de projeto.</p>
+<p><strong>Tabela 2</strong> — Auditoria dos itens de desenvolvimento e governança do Grupo 07 (Etapa 4)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Critério Oficial (Plano de Ensino, pp. 8-9)</th>
+<th style="text-align: center;">Aferição</th>
+<th style="text-align: center;">Versão / Data</th>
+<th style="text-align: left;">Local Auditado</th>
+<th style="text-align: left;">Evidência e Justificativa Técnica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>D-01</strong></td>
+<td style="text-align: left;">O histórico de versão padronizado?</td>
+<td style="text-align: center;">⚠️ Incompleto</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;"><code>docs/avaliacao/planejamento-avaliacao-storyboard.md</code> e <code>docs/apresentacao/apresentacao-4.md</code></td>
+<td style="text-align: left;">Todos os artefatos apresentam tabelas de histórico de versão com número, data, descrição, autor e revisor. Contudo, em <code>planejamento-avaliacao-storyboard.md</code>, as versões 1.2, 1.3 e 1.4 estão sem revisores assinalados (<code>—</code>). Na página <code>apresentacao-4.md</code>, a versão 1.0 também está sem revisor registrado.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-02</strong></td>
+<td style="text-align: left;">O(s) autor(es) e o(s) revisor(es) para cada artefato?</td>
+<td style="text-align: center;">⚠️ Incompleto</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Históricos de Versão e Tabelas de Contribuição</td>
+<td style="text-align: left;">Embora os autores estejam claramente indicados em todos os documentos, há ausência de revisores explicitados nas versões finais do planejamento do storyboard (v1.2, v1.3 e v1.4) e na página de apresentação (v1.0), violando a garantia de revisão por pares para todas as alterações.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-03</strong></td>
+<td style="text-align: left;">Referências bibliográficas e/ou bibliografia em todos os artefatos?</td>
+<td style="text-align: center;">⚠️ Incompleto</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;"><code>docs/apresentacao/apresentacao-4.md</code> vs. Demais artefatos</td>
+<td style="text-align: left;">Os quatro documentos de planejamento possuem seções bibliográficas formais em conformidade com a ABNT (citando Barbosa et al., Preece et al., Resoluções CNS e Paternò). Todavia, o artefato <code>apresentacao-4.md</code> não possui nenhuma seção de referências bibliográficas.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-04</strong></td>
+<td style="text-align: left;">As tabelas e imagens possuem legenda e fonte e elas chamadas dentro do texto?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Todos os 4 documentos de planejamento</td>
+<td style="text-align: left;">Todas as tabelas e figuras possuem títulos padronizados com numeração (<code>Tabela X: ...</code>, <code>Figura X: ...</code>), fontes centralizadas com autor e ano, e são expressamente chamadas e contextualizadas ao longo do texto corrido antes ou após sua inserção.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-05</strong></td>
+<td style="text-align: left;">Um texto fazendo uma introdução dos artefatos?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Seção 1 (Introdução) de todos os artefatos</td>
+<td style="text-align: left;">Cada um dos quatro documentos inicia com uma introdução metodológica robusta, contextualizando o papel do artefato no ciclo de vida de Mayhew e explicando por que o planejamento prévio da avaliação e do relato evita desperdício de esforço na prototipação.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-06</strong></td>
+<td style="text-align: left;">O cronograma executado com quem realizou cada artefato/atividade com as datas de início e fim da construção/realização?</td>
+<td style="text-align: center;">❌ Não Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;"><code>docs/planejamento/cronograma.md</code> (Seção 4)</td>
+<td style="text-align: left;">Na página de Cronograma, a Seção 4 (Etapa 4 - Planejamento da Avaliação) apresenta EXCLUSIVAMENTE a <code>Tabela 7 - Cronograma Planejado</code>. Não existe a tabela do Cronograma Executado da Etapa 4, contendo os responsáveis finais e as datas reais de início e conclusão de cada artefato construído.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-07</strong></td>
+<td style="text-align: left;">Ata(s) da(s) reuniões (com data, horário de início e fim, participantes, objetivo, atividades definidas etc)?</td>
+<td style="text-align: center;">❌ Não Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;"><code>docs/planejamento/ata-reuniao.md</code></td>
+<td style="text-align: left;">O repositório possui uma única página de atas que documenta exclusivamente a 1ª reunião da equipe, ocorrida em 03/09/2026 (Etapa 1). Não há nenhuma ata registrada referente ao planejamento, divisão de trabalho ou deliberações da Etapa 4.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-08</strong></td>
+<td style="text-align: left;">A gravação da reunião do grupo?</td>
+<td style="text-align: center;">❌ Não Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;"><code>docs/planejamento/ata-reuniao.md</code></td>
+<td style="text-align: left;">Não há nenhuma gravação em vídeo das reuniões do grupo disponibilizada para a Etapa 4 (nem em link de YouTube nem incorporada).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-09</strong></td>
+<td style="text-align: left;">Vídeo de apresentação na categoria "não listado" no YouTube?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;"><code>docs/apresentacao/apresentacao-4.md</code></td>
+<td style="text-align: left;">O vídeo da apresentação foi publicado como "não listado" no YouTube (link: <code>https://youtu.be/DLNMnw_i4qg</code>) e devidamente incorporado na página de apresentação por meio de iframe responsivo.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-TEMP</strong></td>
+<td style="text-align: left;">[REGULAMENTO GERAL] O tempo da apresentação deve ser entre 20 até 30 minutos (tempo mínimo e máximo)?</td>
+<td style="text-align: center;">❌ Não Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Vídeo YouTube (ID: <code>DLNMnw_i4qg</code>) — Duração exata: 15m 29s</td>
+<td style="text-align: left;">A gravação da Apresentação 4 dura exatamente 929,5 segundos (15 minutos e 29 segundos). O Plano de Ensino da disciplina (p. 8) estipula expressamente que o tempo de apresentação deve situar-se entre 20 e 30 minutos. A apresentação descumpriu o tempo mínimo regulamentar em quase 5 minutos.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-10</strong></td>
+<td style="text-align: left;">Tabela de contribuição no início do artefato com o nome de todos os integrantes com a contribuição de cada integrante com hiperligação da atividade e da gravação, se houver?</td>
+<td style="text-align: center;">⚠️ Incompleto</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Início de todos os documentos da Etapa 4</td>
+<td style="text-align: left;">Todos os artefatos possuem a Tabela de Contribuição no topo com os 4 integrantes e a indicação textual de suas atribuições. Porém, os textos são completamente estáticos: NÃO HÁ HIPERLIGAÇÕES para as respectivas seções ou commits, nem links para gravações individuais.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>D-11</strong></td>
+<td style="text-align: left;">A seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa no artefato?</td>
+<td style="text-align: center;">❌ Não Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;"><code>docs/avaliacao/</code> e <code>docs/design-avaliacao-desenvolvimento/</code></td>
+<td style="text-align: left;">Nenhum dos artefatos da Etapa 4 possui a seção formal de 'Agradecimentos' exigida pelo plano de ensino. O grupo limitou-se a inserir uma linha na tabela de contribuição informando o uso de Claude ou Gemini, sem redigir a seção de agradecimentos dedicada ao escopo do uso da IA.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada pelos autores (Grupo 08), 2026.</em></p>
+<hr />
+<h2 id="2-verificacao-dos-itens-de-conteudo-da-disciplina-etapa-4">2. Verificação dos Itens de Conteúdo da Disciplina — Etapa 4</h2>
+<p>A conformidade técnica dos artefatos da Etapa 4 foi examinada frente aos 13 critérios de conteúdo curricular extraídos das páginas 12 e 13 do Plano de Ensino da disciplina. A Tabela 3 apresenta o detalhamento de cada item.</p>
+<p><strong>Tabela 3</strong> — Auditoria dos itens de conteúdo teórico da disciplina (Etapa 4)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Critério Oficial (Plano de Ensino, pp. 12-13)</th>
+<th style="text-align: center;">Aferição</th>
+<th style="text-align: center;">Versão / Data</th>
+<th style="text-align: left;">Local Auditado</th>
+<th style="text-align: left;">Evidência e Justificativa Técnica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>C-02</strong></td>
+<td style="text-align: left;">O planejamento da avaliação segue o Framework DECIDE?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;"><code>planejamento-avaliacao-storyboard.md</code> e <code>planejamento-avaliacao-analise-de-tarefas.md</code></td>
+<td style="text-align: left;">Ambos os planejamentos seguem à risca as seis etapas do framework DECIDE de Preece et al. (2002) e Barbosa et al. (2021): Determinar objetivos (D), Explorar perguntas (E), Escolher métodos (C), Identificar questões práticas (I), Decidir questões éticas (D) e Avaliar/interpretar dados (E).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-03</strong></td>
+<td style="text-align: left;">Descreve o(s) objetivo(s) da avaliação? (apropriação de tecnologia; ideias e alternativas de design; conformidade com padrão; problemas na interação/interface)?</td>
+<td style="text-align: center;">⚠️ Incompleto</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Seção 3 dos documentos de planejamento da avaliação</td>
+<td style="text-align: left;">Os documentos apresentam objetivos gerais e específicos claros (conformidade com padrões de notação e identificação de atritos com usuários). No entanto, não realizam a categorização formal explícita nas 4 metas clássicas de avaliação de IHC estabelecidas por Barbosa et al. (2021, pp. 261-262).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-04</strong></td>
+<td style="text-align: left;">Os métodos de avaliação a serem utilizados? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando os métodos de avaliação. Autor:</td>
+<td style="text-align: center;">⚠️ Incompleto</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Seção 5 de ambos os planejamentos de avaliação</td>
+<td style="text-align: left;">Os métodos foram definidos adequadamente em duas fases encadeadas (Inspeção cruzada por lista de verificação + Investigação empírica por entrevista). Contudo, FALTA A FOTO DO TEXTO DA REFERÊNCIA explicando os métodos de avaliação e não há a declaração explícita de 'Autor:' para esse item teórico, como exige o plano de ensino.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-05</strong></td>
+<td style="text-align: left;">As questões práticas da avaliação (recrutamento de usuários, onde e perfil, quantos usuários e razão, presencial/remoto, equipamentos, prazos, orçamento, mão-de-obra)?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Seção 6 de ambos os planejamentos de avaliação</td>
+<td style="text-align: left;">Item muito detalhado. O grupo definiu o perfil de usuário (Perfil 1 - Concurseiro), critérios de recrutamento alinhados às personas, amostragem fundamentada em Nielsen (n=4 usuários externos, 1 por storyboard e 2 tarefas por sessão na análise de tarefas), sessões remotas via videoconferência, custos nulos (orçamento zero) e cronograma minucioso com papéis de entrevistador e observador.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-06</strong></td>
+<td style="text-align: left;">As questões éticas (participantes respeitados, não prejudicados direta/indiretamente, durante ou após os experimentos)?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Seção 7 de ambos os planejamentos de avaliação</td>
+<td style="text-align: left;">Amparado nas Resoluções CNS 466/2012 e 510/2016 e na LGPD. Prevê TCLE lido em voz alta com consentimento verbal gravado, garantia de anonimização (códigos USR-06 a USR-13), voluntariedade, privacidade das gravações e esclarecimento enfático de que o avaliado é o artefato, e nunca o usuário.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-07</strong></td>
+<td style="text-align: left;">A estrutura do relatório do resultado da avaliação (objetivos, descrição do método, número e perfil dos participantes/avaliadores, tarefas executadas, lista de problemas)?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;"><code>planejamento-relato-resultados-storyboard.md</code> e <code>resultado-analise-de-tarefas.md</code></td>
+<td style="text-align: left;">Estrutura do relatório modelada com rigor a partir de Barbosa et al. (2021, p. 303). Contém modelos prontos de tabelas para perfil de participantes, síntese de inspeção, catálogo de problemas (com IDs PSB-nn e PAT-nn), sugestões de melhoria, escala de severidade (1 a 3), consolidação interparticipante e cronograma de reprojeto.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-08</strong></td>
+<td style="text-align: left;">Um cronograma (data e horário) e local para realização da avaliação do Storyboard e da Análise das Tarefas?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Tabela 6 (Storyboard) e Tabela 7 (Tarefas)</td>
+<td style="text-align: left;">As tabelas de cronograma interno apresentam datas específicas (entre 15/10 e 21/10), faixas de horário determinadas (30 a 40 minutos por sessão), responsáveis nominados e local definido (sessões síncronas remotas por videoconferência com gravação).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-09</strong></td>
+<td style="text-align: left;">Cada desenho do StoryBoard está relacionado a uma especificação do artefato da Análise de Tarefas?</td>
+<td style="text-align: center;">❌ Não Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;"><code>docs/avaliacao/planejamento-avaliacao-storyboard.md</code></td>
+<td style="text-align: left;">Ainda não tem os desenhos dos Storyboards. O grupo apenas incluiu uma tabela teórica mapeando SB-01 a SB-04 para TAR-01, TAR-04, TAR-05 e TAR-08. No próprio cronograma do grupo (Tabela 6, linha 213), consta que a 'Conclusão dos quatro storyboards' ocorrerá no dia 16/10/2026.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-10</strong></td>
+<td style="text-align: left;">Quantidade de storyboards é igual à quantidade de integrantes do grupo?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Repositório do Grupo 07 (Ausência de artefatos visuais)</td>
+<td style="text-align: left;">A equipe é composta por 4 integrantes e planejou 4 storyboards textualmente.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-11</strong></td>
+<td style="text-align: left;">A definição do teste piloto e data para realização do teste piloto antes da avaliação? Adicionar referência bibliográfica da fonte e foto do texto da referência explicando o teste piloto. Autor:</td>
+<td style="text-align: center;">⚠️ Incompleto</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Seção 9 de ambos os planejamentos de avaliação</td>
+<td style="text-align: left;">A definição do teste-piloto é impecável no plano metodológico (verificação do roteiro, tempo e tecnologia; datas marcadas para 15/10 e 19/10, antes das entrevistas; papéis de entrevistador e participante entre membros). Porém, FALTA A FOTO DO TEXTO DA REFERÊNCIA EXPLICANDO O TESTE PILOTO e a indicação expressa de 'Autor:' do item teórico.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-12</strong></td>
+<td style="text-align: left;">O resultado do teste piloto não será apresentado no resultado da avaliação?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Seção 9 de ambos os planejamentos (linha 350 SB e linha 373 AT)</td>
+<td style="text-align: left;">Ambos os documentos declaram explicitamente em texto destacado que 'os dados do piloto são descartados', visando não contaminar a amostra final de resultados da avaliação.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-13</strong></td>
+<td style="text-align: left;">Os itens que o avaliador deve realizar/anotar durante a avaliação (listar os problemas encontrados, priorizar a correção dos problemas não resolvidos)?</td>
+<td style="text-align: center;">✅ Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Seção 6.9 dos planejamentos e Seções 3.5 e 4 dos relatos</td>
+<td style="text-align: left;">Instruções explícitas de postura do entrevistador (não induzir respostas, registrar hesitações e termos originais). No planejamento do relato, prevê categorização sistemática de problemas por severidade (alta, média, baixa) e priorização objetiva (severidade alta é bloqueante para a prototipação).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>C-IMP</strong></td>
+<td style="text-align: left;">[REQUISITO OBRIGATÓRIO] Cada integrante da equipe deve elaborar ao menos 1 item de conteúdo da disciplina com referência bibliográfica da fonte e foto do texto da referência?</td>
+<td style="text-align: center;">❌ Não Conforme</td>
+<td style="text-align: center;">v1.4 — 14/10/2026</td>
+<td style="text-align: left;">Repositório do Grupo 07</td>
+<td style="text-align: left;">O grupo não estruturou os itens teóricos com a sistemática exigida pelo professor (recorte fotográfico da página do livro com cabeçalho 'Autor: [Nome do Integrante]'). Foram inseridos apenas 3 prints de Barbosa et al., com legenda creditada aos autores do livro, sem a autoria individual de cada estudante da equipe.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada pelos autores (Grupo 08), 2026.</em></p>
+<hr />
+<h2 id="3-resumo-e-metricas-de-conformidade">3. Resumo e Métricas de Conformidade</h2>
+<p>A Tabela 4 consolida o panorama quantitativo dos 25 critérios auditados na Etapa 4 do Grupo 07.</p>
+<p><strong>Tabela 4</strong> — Resumo dos resultados da avaliação da Etapa 4 (Grupo 07)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Status de Aferição</th>
+<th style="text-align: center;">Quantidade de Itens</th>
+<th style="text-align: center;">Porcentagem</th>
+<th style="text-align: left;">Itens Correspondentes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">✅ <strong>Conforme (Atendido Plenamente)</strong></td>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">44,0%</td>
+<td style="text-align: left;">D-04, D-05, D-09, C-02, C-05, C-06, C-07, C-08, C-10, C-12, C-13</td>
+</tr>
+<tr>
+<td style="text-align: left;">⚠️ <strong>Incompleto (Atendido Parcialmente)</strong></td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">28,0%</td>
+<td style="text-align: left;">D-01, D-02, D-03, D-10, C-03, C-04, C-11</td>
+</tr>
+<tr>
+<td style="text-align: left;">❌ <strong>Não Conforme (Omissão / Descumprimento)</strong></td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">28,0%</td>
+<td style="text-align: left;">D-06, D-07, D-08, D-TEMP, D-11, C-09, C-IMP</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>TOTAL GERAL</strong></td>
+<td style="text-align: center;"><strong>25</strong></td>
+<td style="text-align: center;"><strong>100,0%</strong></td>
+<td style="text-align: left;">*<em>Taxa Ponderada de Conformidade<em>: 58,0%</em></em></td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada pelos autores (Grupo 08), 2026.</em><br />
+<em>*Critério Ponderado: Conforme = 1,0 ponto; Incompleto = 0,5 ponto; Não Conforme = 0,0 ponto.</em></p>
+<hr />
+<h2 id="4-analise-aprofundada-dos-problemas-criticos-encontrados">4. Análise Aprofundada dos Problemas Críticos Encontrados</h2>
+<p>Conforme preconizado por Fagan (1976), a identificação precoce de defeitos permite orientar a equipe inspecionada antes das coletas de campo. Abaixo são detalhadas as principais fragilidades detectadas:</p>
+<h3 id="41-duracao-da-apresentacao-gravada-abaixo-do-limite-regulamentar-criterio-d-temp">4.1 Duração da Apresentação Gravada Abaixo do Limite Regulamentar (Critério D-TEMP)</h3>
+<p>O Plano de Ensino da disciplina estabelece normativamente na página 8: <em>"O tempo da apresentação deve ser entre 20 até 30 minutos (tempo mínimo e máximo)"</em>. A inspeção cronometrada do vídeo publicado no YouTube (ID <code>DLNMnw_i4qg</code>) revelou que a gravação do Grupo 07 possui exatos 929,5 segundos (15 minutos e 29 segundos). O grupo incorre em descumprimento formal do tempo mínimo estipulado em edital didático por quase 5 minutos.</p>
+<h3 id="42-ausencia-do-cronograma-executado-da-etapa-4-em-cronogramamd-criterio-d-06">4.2 Ausência do Cronograma Executado da Etapa 4 em <code>cronograma.md</code> (Critério D-06)</h3>
+<p>Na página geral de cronograma do projeto, o grupo registrou o cronograma executado das Etapas 1 e 3. Todavia, para a Etapa 4, existe apenas a <code>Tabela 7 - Cronograma Planejado</code>. Não foi disponibilizada a tabela com as datas reais de início e término e os executores de cada artefato construído, prejudicando a transparência da gestão do projeto.</p>
+<h3 id="43-falta-de-atas-de-reuniao-e-gravacoes-de-encontros-da-etapa-4-criterios-d-07-e-d-08">4.3 Falta de Atas de Reunião e Gravações de Encontros da Etapa 4 (Critérios D-07 e D-08)</h3>
+<p>A página <code>ata-reuniao.md</code> contém apenas o registro da 1ª reunião do semestre (03/09/2026). Não foram formalizadas atas de alinhamento, distribuição de tarefas ou deliberações sobre os planejamentos da Etapa 4, nem foram disponibilizados links para as gravações das reuniões síncronas do grupo.</p>
+<h3 id="44-ausencia-dos-desenhos-dos-storyboards-no-repositorio-criterio-c-09">4.4 Ausência dos Desenhos dos Storyboards no Repositório (Critério C-09)</h3>
+<p>O Grupo 07 planejou a avaliação do Storyboard, porém nenhum desenho ou quadrinho visual foi publicado no GitPages ou repositório. O grupo apresentou unicamente uma tabela de mapeamento teórico (SB-01 a SB-04), registrando no cronograma interno que a confecção dos desenhos ocorreria apenas em 16/10/2026. A ausência dos storyboards impede a validação visual do fluxo de tarefas frente às personas.</p>
+<h3 id="45-omissao-de-recortes-bibliograficos-com-foto-e-identificacao-nominal-de-autor-criterios-c-04-c-11-e-c-imp">4.5 Omissão de Recortes Bibliográficos com Foto e Identificação Nominal de Autor (Critérios C-04, C-11 e C-IMP)</h3>
+<p>O plano de ensino determina que cada integrante elabore itens teóricos contendo referência, foto do texto original e o nome do autor do item. Para a Etapa 4, eram exigidas fotos conceituais explicando: (1) os Métodos de Avaliação e (2) o Teste-Piloto. O Grupo 07 incluiu apenas 3 imagens gerais de Barbosa et al., sem recortes para esses dois tópicos e sem a declaração <code>_Autor do Item Teórico: [Nome]_</code> no corpo dos documentos.</p>
+<h3 id="46-inexistencia-da-secao-de-agradecimentos-sobre-uso-de-ia-generativa-criterio-d-11">4.6 Inexistência da Seção de Agradecimentos sobre Uso de IA Generativa (Critério D-11)</h3>
+<p>O grupo citou o uso de Claude e Gemini apenas em uma linha da tabela de contribuição. Não foi redigida a seção formal de <em>Agradecimentos e Declaração de Uso de IA Generativa</em> exigida pelo regulamento, detalhando a finalidade e o escopo da assistência por inteligência artificial em cada artefato.</p>
+<h3 id="47-tabelas-de-contribuicao-desprovidas-de-hiperligacoes-ativas-criterio-d-10">4.7 Tabelas de Contribuição Desprovidas de Hiperligações Ativas (Critério D-10)</h3>
+<p>Todas as tabelas de contribuição nos artefatos da Etapa 4 contêm textos estáticos, sem links âncora navegáveis para os tópicos desenvolvidos ou para commits de autoria no GitHub.</p>
+<h3 id="48-historico-de-versao-com-revisores-nao-assinalados-em-versoes-vigentes-criterios-d-01-e-d-02">4.8 Histórico de Versão com Revisores Não Assinalados em Versões Vigentes (Critérios D-01 e D-02)</h3>
+<p>No planejamento da avaliação do storyboard, as versões 1.2, 1.3 e 1.4 constam com <code>—</code> na coluna de revisor. Na página de apresentação 4, a versão 1.0 também não possui revisor designado, fragilizando a evidência de revisão cruzada por pares.</p>
+<hr />
+<h2 id="5-pontos-fortes-e-destaques-metodologicos-da-entrega">5. Pontos Fortes e Destaques Metodológicos da Entrega</h2>
+<p>Apesar das inconformidades formais de governança e cronograma, a entrega do Grupo 07 demonstra solidez técnica em seus planejamentos:</p>
+<ol>
+<li><strong>Adesão Estrutural Rigorosa ao Framework DECIDE:</strong> As seis etapas metodológicas foram planejadas com clareza exemplar em ambos os artefatos de avaliação.</li>
+<li><strong>Roteiros de Entrevista de Alta Qualidade:</strong> Preocupação metodológica lúcida em pedir primeiro que o usuário relate como realiza o objetivo hoje, antes de exibir a proposta de reprojeto, prevenindo a concordância induzida.</li>
+<li><strong>Planejamento Ético Exemplar:</strong> Cumprimento estrito das Resoluções CNS 466/2012 e 510/2016 e da LGPD, com roteiro prévio de TCLE verbal gravado e anonimização consistente (USR-06 a USR-13).</li>
+<li><strong>Modelos de Relato Prontos para Consolidação:</strong> As páginas de planejamento do relato trazem tabelas estruturadas com escala de severidade (1 a 3), distinção de origens (inspeção vs. entrevista) e cronograma de reprojeto amarrado ao avanço de fase.</li>
+<li><strong>Padronização Visual e Tipográfica:</strong> Excelente diagramação no MkDocs com legendas e fontes centralizadas e chamadas adequadas no corpo do texto.</li>
+</ol>
+<hr />
+<h2 id="6-conclusao-e-plano-de-acao-recomendado-ao-grupo-07">6. Conclusão e Plano de Ação Recomendado ao Grupo 07</h2>
+<p>Para sanar os apontamentos e elevar a qualidade acadêmica antes da próxima entrega, recomenda-se ao Grupo 07 executar os seguintes ajustes prioritários:</p>
+<ol>
+<li><strong>Desenhar e publicar os 4 Storyboards</strong> no repositório, garantindo um artefato por integrante associado às tarefas TAR-01, TAR-04, TAR-05 e TAR-08 e às personas PER-01 a PER-04;</li>
+<li><strong>Adicionar a tabela de Cronograma Executado da Etapa 4</strong> na página <code>cronograma.md</code> com executores, revisores e datas reais de conclusão;</li>
+<li><strong>Registrar a ata de reunião da Etapa 4</strong> em <code>ata-reuniao.md</code> contendo participantes, pauta, deliberações e gravação em vídeo;</li>
+<li><strong>Inserir os recortes conceituais obrigatórios</strong> (foto do livro-texto com identificação formal de <code>Autor:</code>) para Métodos de Avaliação e Teste-Piloto;</li>
+<li><strong>Criar a Seção de Agradecimentos</strong> dedicada ao uso de IA Generativa em todos os artefatos da etapa;</li>
+<li><strong>Adicionar links navegáveis em Markdown</strong> nas Tabelas de Contribuição do início de cada página;</li>
+<li><strong>Planejar as próximas gravações de apresentação</strong> para cumprir integralmente a janela de 20 a 30 minutos regulamentares.</li>
+</ol>
+<hr />
+<h2 id="7-historico-de-versao">7. Histórico de Versão</h2>
+<p>A Tabela 5 documenta o histórico de versões e modificações deste relatório de inspeção da Etapa 4.</p>
+<p><strong>Tabela 5</strong> — Histórico de versão do documento</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: center;">Autor(es)</th>
+<th style="text-align: center;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">14/10/2026</td>
+<td style="text-align: left;">Elaboração do relatório formal de inspeção da Etapa 4 do Grupo 07 com base no checklist normativo, consolidação analítica e incorporação do vídeo gravado</td>
+<td style="text-align: center;"><a href="https://github.com/ViniciusA05">Vinicius Silva Araruna</a>, <a href="https://github.com/gus-ant">Gustavo Antonio</a></td>
+<td style="text-align: center;"><a href="https://github.com/PajeMurici-dev">Edvaldo Soares</a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada pelos autores (Grupo 08), 2026.</em></p>
+<hr />
+<h2 id="8-referencias-bibliograficas">8. Referências Bibliográficas</h2>
+<p>[1] BARBOSA, Simone D. J. et al. <em>Interação Humano-Computador e Experiência do Usuário</em>. 1. ed. Autopublicação, 2021.<br />
+[2] BRASIL. Conselho Nacional de Saúde. <em>Resolução nº 466, de 12 de dezembro de 2012</em>. Diário Oficial da União: seção 1, Brasília, DF, 2013.<br />
+[3] BRASIL. Conselho Nacional de Saúde. <em>Resolução nº 510, de 07 de abril de 2016</em>. Diário Oficial da União: seção 1, Brasília, DF, 2016.<br />
+[4] BRASIL. <em>Lei nº 13.709, de 14 de agosto de 2018</em>. Lei Geral de Proteção de Dados Pessoais (LGPD). Brasília, DF, 2018.<br />
+[5] FAGAN, Michael E. <em>Design and Code Inspections to Reduce Errors in Program Development</em>. IBM Systems Journal, v. 15, n. 3, p. 182-211, 1976.<br />
+[6] MAYHEW, Deborah J. <em>The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design</em>. San Francisco: Morgan Kaufmann, 1999.<br />
+[7] NIELSEN, Jakob. <em>Why You Only Need to Test with 5 Users</em>. Nielsen Norman Group, 2000.<br />
+[8] PATERNÒ, Fabio. <em>Model-Based Design and Evaluation of Interactive Applications</em>. London: Springer-Verlag, 1999.<br />
+[9] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. <em>Interaction Design: Beyond Human-Computer Interaction</em>. New York: John Wiley &amp; Sons, 2002.<br />
+[10] SALES, André Barros de. <em>Plano de Ensino FIHC 022026 — Turma 01</em>. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.</p>
+<hr />
+<h2 id="9-agradecimentos-e-uso-de-inteligencia-artificial-ia-generativa">9. Agradecimentos e Uso de Inteligência Artificial (IA) Generativa</h2>
+<p>Em conformidade com os princípios éticos da Sociedade Brasileira de Computação (SBC) e as diretrizes de governança da disciplina, registra-se que foi utilizado suporte de Inteligência Artificial Generativa (LLM) estritamente para assistência na estruturação sintática das tabelas em Markdown e conferência dos cruzamentos percentuais. Toda a inspeção analítica dos artefatos, confronto com as evidências do repositório do Grupo 07, verificação da gravação audiovisual e julgamento técnico de conformidade foram conduzidos direta, crítica e integralmente pelos discentes avaliadores.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Avaliação do Grupo -1 — Grupo 07 (PCI Concursos)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Avaliação do Grupo -1 — Grupo 07 (PCI Concursos)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../etapa2/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Etapa 2 (Perfil de Usuário e Tarefas)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Etapa 2 (Perfil de Usuário e Tarefas)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Grupo 08 · Interação Humano-Computador · FCTE/UnB · 2026.2
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.path", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy", "toc.follow"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+  
+      <script src="../../../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  <script>
+    /* ======================================================
+       Widget de Acessibilidade — Tamanho de Fonte
+       Grupo 08 · IHC 2026.2
+    ====================================================== */
+    (function () {
+      var SIZES = { small: '90%', normal: '100%', large: '130%' };
+      var KEY = 'dp-font-size';
+
+      function applySize(size) {
+        document.documentElement.style.fontSize = SIZES[size] || SIZES.normal;
+        try { localStorage.setItem(KEY, size); } catch (e) {}
+      }
+
+      /* Restaura preferência salva */
+      try {
+        var saved = localStorage.getItem(KEY);
+        if (saved) applySize(saved);
+      } catch (e) {}
+
+      /* Cria widget após o DOM estar pronto */
+      document.addEventListener('DOMContentLoaded', function () {
+        var widget = document.createElement('div');
+        widget.className = 'dp-a11y-widget';
+        widget.setAttribute('aria-label', 'Controle de acessibilidade de fonte');
+        widget.innerHTML =
+          '<button class="dp-a11y-btn" title="Diminuir fonte" aria-label="Diminuir tamanho da fonte" onclick="(function(){document.documentElement.style.fontSize=\'90%\';try{localStorage.setItem(\'dp-font-size\',\'small\')}catch(e){}})()">A<span style="font-size:0.6em;vertical-align:sub">−</span></button>' +
+          '<button class="dp-a11y-btn" title="Fonte padrão" aria-label="Restaurar tamanho padrão da fonte" onclick="(function(){document.documentElement.style.fontSize=\'100%\';try{localStorage.setItem(\'dp-font-size\',\'normal\')}catch(e){}})()">A</button>' +
+          '<button class="dp-a11y-btn" title="Aumentar fonte" aria-label="Aumentar tamanho da fonte" onclick="(function(){document.documentElement.style.fontSize=\'130%\';try{localStorage.setItem(\'dp-font-size\',\'large\')}catch(e){}})()">A<span style="font-size:0.75em;vertical-align:super">+</span></button>';
+        document.body.appendChild(widget);
+      });
+    })();
+
+    /* ======================================================
+       Navegação das Abas Superiores (Setas, Scroll e Wheel)
+       Grupo 08 · IHC 2026.2
+    ====================================================== */
+    (function () {
+      function initTabsNavigation() {
+        var tabsNav = document.querySelector('.md-tabs');
+        if (!tabsNav) return;
+
+        var grid = tabsNav.querySelector('.md-grid');
+        var tabsList = tabsNav.querySelector('.md-tabs__list');
+        if (!grid || !tabsList) return;
+
+        // Evita inicialização duplicada
+        if (grid.querySelector('.dp-tabs-arrow--prev')) return;
+
+        // Cria as setinhas de navegação
+        var prevBtn = document.createElement('button');
+        prevBtn.className = 'dp-tabs-arrow dp-tabs-arrow--prev';
+        prevBtn.setAttribute('type', 'button');
+        prevBtn.setAttribute('aria-label', 'Rolar abas para a esquerda');
+        prevBtn.setAttribute('title', 'Rolar abas para a esquerda');
+        prevBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>';
+
+        var nextBtn = document.createElement('button');
+        nextBtn.className = 'dp-tabs-arrow dp-tabs-arrow--next';
+        nextBtn.setAttribute('type', 'button');
+        nextBtn.setAttribute('aria-label', 'Rolar abas para a direita');
+        nextBtn.setAttribute('title', 'Rolar abas para a direita');
+        nextBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>';
+
+        // Insere as setinhas antes e depois da lista dentro do grid
+        grid.insertBefore(prevBtn, tabsList);
+        grid.appendChild(nextBtn);
+
+        // Atualiza visibilidade e estado das setas
+        function updateArrows() {
+          var scrollLeft = tabsList.scrollLeft;
+          var maxScroll = tabsList.scrollWidth - tabsList.clientWidth;
+          var hasOverflow = maxScroll > 4;
+
+          if (!hasOverflow) {
+            prevBtn.style.display = 'none';
+            nextBtn.style.display = 'none';
+            return;
+          }
+
+          prevBtn.style.display = 'inline-flex';
+          nextBtn.style.display = 'inline-flex';
+
+          prevBtn.disabled = scrollLeft <= 4;
+          nextBtn.disabled = scrollLeft >= (maxScroll - 4);
+        }
+
+        // Scroll suave com as setas
+        var SCROLL_STEP = 260;
+        prevBtn.addEventListener('click', function () {
+          tabsList.scrollBy({ left: -SCROLL_STEP, behavior: 'smooth' });
+          setTimeout(updateArrows, 300);
+        });
+
+        nextBtn.addEventListener('click', function () {
+          tabsList.scrollBy({ left: SCROLL_STEP, behavior: 'smooth' });
+          setTimeout(updateArrows, 300);
+        });
+
+        // Conversão da roda do mouse (scroll vertical) em scroll horizontal nas abas
+        tabsNav.addEventListener('wheel', function (e) {
+          if (tabsList.scrollWidth > tabsList.clientWidth) {
+            if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+              e.preventDefault();
+              tabsList.scrollLeft += (e.deltaY * 1.2);
+              updateArrows();
+            }
+          }
+        }, { passive: false });
+
+        // Atualização em eventos de rolagem
+        tabsList.addEventListener('scroll', updateArrows, { passive: true });
+
+        // Monitoramento de redimensionamento da janela e contêiner
+        if (window.ResizeObserver) {
+          var ro = new ResizeObserver(updateArrows);
+          ro.observe(tabsNav);
+          ro.observe(tabsList);
+        } else {
+          window.addEventListener('resize', updateArrows);
+        }
+
+        // Auto-scroll para centralizar a aba ativa ao carregar a página
+        setTimeout(function () {
+          var activeTab = tabsList.querySelector('.md-tabs__item--active');
+          if (activeTab) {
+            activeTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+          }
+          updateArrows();
+        }, 150);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initTabsNavigation);
+      } else {
+        initTabsNavigation();
+      }
+    })();
+  </script>
+
+  </body>
+</html>
