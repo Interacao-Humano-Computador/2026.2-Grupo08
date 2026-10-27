@@ -51,7 +51,7 @@ A Tabela 2 sintetiza as informações cadastrais, o ambiente de versionamento e 
 | **Artefatos Inspecionados** | • [Relato do Storyboard (Lucas/João)](https://interacao-humano-computador.github.io/2026.2-Grupo01/design_avaliacao_desenvolvimento/nivel_1/storyboard/relato_resultados_storyboard/)<br/>• [Relato do Storyboard (Evellyn)](https://interacao-humano-computador.github.io/2026.2-Grupo01/design_avaliacao_desenvolvimento/nivel_1/storyboard/relato_resultado_storyboard_evellyn/)<br/>• [Relato da Análise de Tarefas (Lucas/João)](https://interacao-humano-computador.github.io/2026.2-Grupo01/design_avaliacao_desenvolvimento/nivel_1/analise_tarefas/relato_resultados_analise_tarefas/)<br/>• [Relato da Análise de Tarefas (Evellyn)](https://interacao-humano-computador.github.io/2026.2-Grupo01/design_avaliacao_desenvolvimento/nivel_1/analise_tarefas/relato-resultado-evellyn/)<br/>• [Planejamento do Protótipo de Papel](https://interacao-humano-computador.github.io/2026.2-Grupo01/design_avaliacao_desenvolvimento/nivel_2/prototipo_papel/planejamento_prototipo_papel/)<br/>• [Planejamento do Relato do Protótipo de Papel](https://interacao-humano-computador.github.io/2026.2-Grupo01/design_avaliacao_desenvolvimento/nivel_2/prototipo_papel/planejamento_relato_prototipo_papel/)<br/>• [Resultados do Protótipo de Papel (Placeholder)](https://interacao-humano-computador.github.io/2026.2-Grupo01/design_avaliacao_desenvolvimento/nivel_2/prototipo_papel/resultados_prototipo_papel/) |
 | **Vídeo da Apresentação Oficial (Grupo 01)** | ❌ **Não Disponibilizado (Falha Crítica)**: Inexistência de gravação audiovisual da equipe apresentando a Etapa 5. A página `atas/reunioes.md` contém apenas a gravação da Entrega 1 e duas reuniões de setembro de 2026. |
 | **Relatório Oficial em PDF (Grupo 01)** | ❌ **Não Disponibilizado (Falha Crítica)**: Nenhum arquivo em PDF denominado `PlajRelatoStoryBoarProtPapeldTeams.pdf` ou similar foi localizado no repositório público. |
-| **Vídeo da Avaliação Realizada pelo Grupo 08** | [Assistir Avaliação do Grupo 08 no YouTube (Gravação da Inspeção)](https://youtu.be/pending-video-grupo01-etapa5) |
+| **Vídeo da Avaliação Realizada pelo Grupo 08** | [Assistir Avaliação do Grupo 08 no YouTube (Gravação da Inspeção)](https://youtu.be/QjAnF0_ooT8) |
 
 _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
@@ -67,9 +67,9 @@ _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 O Vídeo 1 a seguir documenta a auditoria técnica da Etapa 5 do Grupo 01, conduzida pelos discentes do Grupo 08:
 
 <div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/pending-video-grupo01-etapa5" title="Avaliação da Etapa 5 do Grupo +1 (Grupo 01 — Microsoft Teams) | Grupo 08 — IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+  <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/QjAnF0_ooT8" title="Avaliação da Etapa 5 do Grupo +1 (Grupo 01 — Microsoft Teams) | Grupo 08 — IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
   <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da auditoria formal da Etapa 5 do Grupo 01 (Microsoft Teams). <em>Fonte: Autores (Grupo 08), 2026.</em></p>
-  <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/pending-video-grupo01-etapa5" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube (Não Listado): https://youtu.be/pending-video-grupo01-etapa5</a></p>
+  <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/QjAnF0_ooT8" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube (Não Listado): https://youtu.be/QjAnF0_ooT8</a></p>
 </div>
 
 ---

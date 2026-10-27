@@ -38,7 +38,7 @@ A Tabela 2 apresenta o panorama cronológico e consolidado de todas as etapas do
 | Etapa Avaliada | Data da Avaliação | Versão / Commit Avaliado | Conformidade Geral | Relatório Completo | Apresentação em Vídeo | Relatório Oficial em PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Etapa 3**<br>*(Princípios, Metas, Guia de Estilo e Características)* | 10/10/2026 | Commit `f0c8a2f`<br>*(06/10/2026)* | **16,7% Pleno**<br>44,4% Parcial<br>38,9% Não Conforme<br>*(Taxa Ponderada: 38,9%)* | [Acessar Relatório da Etapa 3](grupo01-etapa3.md) | [:material-youtube: Assistir (lttsLbInYaM)](https://youtu.be/lttsLbInYaM) | [:material-file-pdf-box: Baixar PDF](../assets/relatorios/InspecçãoGrupomais1Projeto PrincGeraisMetasUsabGuiaEstiloSite.pdf) |
-| **Etapa 5**<br>*(Relatos de Nível 1 e Planejamento do Protótipo de Papel)* | 26/10/2026 | Commit `10a7c3d`<br>*(25/10/2026)* | **6,7% Pleno**<br>46,7% Parcial<br>46,7% Não Conforme<br>*(Taxa Ponderada: 30,0%)* | [Acessar Relatório da Etapa 5](grupo01-etapa5.md) | [:material-youtube: Assistir Avaliação](https://youtu.be/pending-video-grupo01-etapa5) | [:material-file-pdf-box: Baixar PDF](../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf) |
+| **Etapa 5**<br>*(Relatos de Nível 1 e Planejamento do Protótipo de Papel)* | 26/10/2026 | Commit `10a7c3d`<br>*(25/10/2026)* | **6,7% Pleno**<br>46,7% Parcial<br>46,7% Não Conforme<br>*(Taxa Ponderada: 30,0%)* | [Acessar Relatório da Etapa 5](grupo01-etapa5.md) | [:material-youtube: Assistir (QjAnF0_ooT8)](https://youtu.be/QjAnF0_ooT8) | [:material-file-pdf-box: Baixar PDF](../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf) |
 
 _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
