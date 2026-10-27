@@ -1,5 +1,13 @@
 # Avaliação do Grupo +1 — Grupo 01 (Microsoft Teams)
 
+<div class="dp-page-nav" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.2rem 0 1.8rem 0; padding: 0.8rem 1rem; background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px;" markdown="1">
+
+[:material-hub: **Hub Central (Visão Geral)**](index.md){ .md-button .md-button--primary }
+[:material-rocket-launch: **Etapa 5 (Relatos Nível 1 e Protótipo de Papel)**](etapa5.md){ .md-button }
+[:material-clipboard-check: **Etapa 3 (Princípios, Metas e Guia de Estilo)**](etapa3.md){ .md-button }
+
+</div>
+
 ## Tabela de Contribuição e Transparência de IA Generativa
 
 A Tabela 1 apresenta a distribuição de responsabilidades e as ferramentas utilizadas pelos discentes do Grupo 08 na concepção e manutenção deste Hub Central de Verificação do Grupo 01.
@@ -37,8 +45,8 @@ A Tabela 2 apresenta o panorama cronológico e consolidado de todas as etapas do
 
 | Etapa Avaliada | Data da Avaliação | Versão / Commit Avaliado | Conformidade Geral | Relatório Completo | Apresentação em Vídeo | Relatório Oficial em PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Etapa 3**<br>*(Princípios, Metas, Guia de Estilo e Características)* | 10/10/2026 | Commit `f0c8a2f`<br>*(06/10/2026)* | **16,7% Pleno**<br>44,4% Parcial<br>38,9% Não Conforme<br>*(Taxa Ponderada: 38,9%)* | [Acessar Relatório da Etapa 3](grupo01-etapa3.md) | [:material-youtube: Assistir (lttsLbInYaM)](https://youtu.be/lttsLbInYaM) | [:material-file-pdf-box: Baixar PDF](../assets/relatorios/InspecçãoGrupomais1Projeto PrincGeraisMetasUsabGuiaEstiloSite.pdf) |
-| **Etapa 5**<br>*(Relatos de Nível 1 e Planejamento do Protótipo de Papel)* | 26/10/2026 | Commit `10a7c3d`<br>*(25/10/2026)* | **6,7% Pleno**<br>46,7% Parcial<br>46,7% Não Conforme<br>*(Taxa Ponderada: 30,0%)* | [Acessar Relatório da Etapa 5](grupo01-etapa5.md) | [:material-youtube: Assistir (QjAnF0_ooT8)](https://youtu.be/QjAnF0_ooT8) | [:material-file-pdf-box: Baixar PDF](../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf) |
+| **Etapa 3**<br>*(Princípios, Metas, Guia de Estilo e Características)* | 10/10/2026 | Commit `f0c8a2f`<br>*(06/10/2026)* | **16,7% Pleno**<br>44,4% Parcial<br>38,9% Não Conforme<br>*(Taxa Ponderada: 38,9%)* | [Acessar Relatório da Etapa 3](etapa3.md) | [:material-youtube: Assistir (lttsLbInYaM)](https://youtu.be/lttsLbInYaM) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf) |
+| **Etapa 5**<br>*(Relatos de Nível 1 e Planejamento do Protótipo de Papel)* | 26/10/2026 | Commit `10a7c3d`<br>*(25/10/2026)* | **6,7% Pleno**<br>46,7% Parcial<br>46,7% Não Conforme<br>*(Taxa Ponderada: 30,0%)* | [Acessar Relatório da Etapa 5](etapa5.md) | [:material-youtube: Assistir (QjAnF0_ooT8)](https://youtu.be/QjAnF0_ooT8) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf) |
 
 _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
@@ -48,25 +56,7 @@ _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
 Para facilitar a consulta dos avaliadores, do professor e dos próprios integrantes do Grupo 01, os relatórios de cada etapa estão estruturados em páginas dedicadas com riqueza analítica, gráficos e planos de ação.
 
-### 3.1 Etapa 3 — Análise de Requisitos (Princípios, Metas de Usabilidade e Guia de Estilo)
-
-A auditoria da Etapa 3 examinou 18 critérios do Plano de Ensino da disciplina, abrangendo os artefatos de características da plataforma, princípios gerais de projeto, metas de usabilidade e guia de estilo de Mayhew (1999).
-
-- **Status Geral**: 3 itens Conformes (16,7%), 8 Incompletos (44,4%) e 7 Não Conformes (38,9%), atingindo **Taxa Ponderada de 38,9%**.
-- **Principais Destaques Positivos**:
-    - Guia de Estilo de altíssima qualidade técnica, com paleta testada na WCAG 2.2 e grid modular de 4 px;
-    - Matriz de metas de usabilidade com faixas numéricas de aceitação bem fundamentadas e ancoradas no SUS.
-- **Problemas Críticos Identificados**:
-    - Ausência do vídeo oficial da apresentação da Etapa 3 e inexistência de atas de reunião da etapa;
-    - Cronograma executado abandonado mantendo pendências e resíduos do projeto Oppia;
-    - Omissão completa das Metas de Experiência do Usuário (UX) de Rogers, Sharp & Preece (2013);
-    - Ausência de revisão por pares registrada em 100% dos artefatos.
-
-[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 3**](grupo01-etapa3.md){ .md-button .md-button--primary }
-
----
-
-### 3.2 Etapa 5 — Relatos de Resultados de Nível 1 e Planejamento do Protótipo de Papel (Nível 2)
+### 3.1 Etapa 5 (Entrega Mais Recente) — Relatos de Resultados de Nível 1 e Planejamento do Protótipo de Papel (Nível 2)
 
 A auditoria da Etapa 5 examinou 15 critérios pedagógicos e metodológicos, abrangendo a conclusão formativa de baixa fidelidade (Storyboards e HTA) e a esteira de prototipação em papel.
 
@@ -82,7 +72,25 @@ A auditoria da Etapa 5 examinou 15 critérios pedagógicos e metodológicos, abr
     - **Página de Rascunho no Menu Público**: `resultados_prototipo_papel.md` publicada com `# Nada a ver aqui, por enquanto.`;
     - **Ausência Total de Revisão por Pares**: Coluna de revisor vazia em todos os documentos da etapa.
 
-[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 5**](grupo01-etapa5.md){ .md-button .md-button--primary }
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 5**](etapa5.md){ .md-button .md-button--primary }
+
+---
+
+### 3.2 Etapa 3 (Análise de Requisitos) — Análise de Requisitos (Princípios, Metas de Usabilidade e Guia de Estilo)
+
+A auditoria da Etapa 3 examinou 18 critérios do Plano de Ensino da disciplina, abrangendo os artefatos de características da plataforma, princípios gerais de projeto, metas de usabilidade e guia de estilo de Mayhew (1999).
+
+- **Status Geral**: 3 itens Conformes (16,7%), 8 Incompletos (44,4%) e 7 Não Conformes (38,9%), atingindo **Taxa Ponderada de 38,9%**.
+- **Principais Destaques Positivos**:
+    - Guia de Estilo de altíssima qualidade técnica, com paleta testada na WCAG 2.2 e grid modular de 4 px;
+    - Matriz de metas de usabilidade com faixas numéricas de aceitação bem fundamentadas e ancoradas no SUS.
+- **Problemas Críticos Identificados**:
+    - Ausência do vídeo oficial da apresentação da Etapa 3 e inexistência de atas de reunião da etapa;
+    - Cronograma executado abandonado mantendo pendências e resíduos do projeto Oppia;
+    - Omissão completa das Metas de Experiência do Usuário (UX) de Rogers, Sharp & Preece (2013);
+    - Ausência de revisão por pares registrada em 100% dos artefatos.
+
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 3**](etapa3.md){ .md-button .md-button--primary }
 
 ---
 

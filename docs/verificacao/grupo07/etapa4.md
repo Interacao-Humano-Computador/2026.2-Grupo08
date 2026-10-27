@@ -1,5 +1,13 @@
 # Avaliação da Etapa 4 do Grupo -1 — Grupo 07 (PCI Concursos)
 
+<div class="dp-page-nav" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.2rem 0 1.8rem 0; padding: 0.8rem 1rem; background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px;" markdown="1">
+
+[:material-hub: **Hub Central (Visão Geral)**](index.md){ .md-button  }
+[:material-rocket-launch: **Etapa 4 (Planejamento de Nível 1)**](etapa4.md){ .md-button .md-button--primary }
+[:material-clipboard-check: **Etapa 2 (Perfil de Usuário e Tarefas)**](etapa2.md){ .md-button  }
+
+</div>
+
 ## Tabela de Contribuição
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
@@ -44,7 +52,7 @@ _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
 !!! info "Relatório em PDF Padronizado para Entrega Acadêmica"
     Em consonância com as exigências de documentação formal da disciplina, o relatório consolidado de inspeção com cabeçalho institucional UnB/FGA, paginação dinâmica e quadro analítico completo está disponível para download:  
-    [:material-file-pdf-box: **PlajRelatoStoryBoardInspecaoPCIConcursosGrupo07.pdf**](../assets/relatorios/PlajRelatoStoryBoardInspecaoPCIConcursosGrupo07.pdf)
+    [:material-file-pdf-box: **PlajRelatoStoryBoardInspecaoPCIConcursosGrupo07.pdf**](../../assets/relatorios/PlajRelatoStoryBoardInspecaoPCIConcursosGrupo07.pdf)
 
 ---
 
