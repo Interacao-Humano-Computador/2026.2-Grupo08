@@ -24,6 +24,9 @@ A sistemática pedagógica da disciplina estabelece uma avaliação cíclica ent
 
 As inspeções são norteadas pelo método formal de inspeção por listas de verificação (*Checklists* Normativos) fundamentado na técnica clássica de **Michael E. Fagan (1976)**, combinando critérios estritos de governança e padronização acadêmica extraídos do Plano de Ensino da disciplina (*Sales, 2026*) com o rigor conceitual da literatura canônica de IHC (*Barbosa et al., 2021; Mayhew, 1999; Nielsen, 1994; Snyder, 2003*). O objetivo central desta iniciativa é fornecer um diagnóstico técnico rigoroso, transparente e construtivo que subsidie as correções e o aprimoramento contínuo do projeto do Grupo 01 ao longo de todo o semestre letivo.
 
+_Autor do Item Teórico: [Vinicius Silva Araruna](https://github.com/ViniciusA05)_  
+*(Fundamentação teórica de inspeção formal em Fagan, 1976 e Barbosa & Silva, 2021).*
+
 ---
 
 ## 2. Síntese das Auditorias Realizadas

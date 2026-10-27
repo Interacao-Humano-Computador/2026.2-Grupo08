@@ -28,6 +28,9 @@ A inspeção é fundamentada no consagrado **Método de Inspeção Formal de Sof
 
 O objetivo desta auditoria é apontar vulnerabilidades e inconsistências de forma construtiva e fundamentada, fornecendo subsídios práticos para orientar o ciclo de retrabalho e refatoração do Grupo 01 antes do avanço para a alta fidelidade (Nível 3).
 
+_Autor do Item Teórico: [Vinicius Silva Araruna](https://github.com/ViniciusA05)_  
+*(Fundamentação teórica de inspeção formal em Fagan, 1976, Barbosa & Silva, 2021 e Mayhew, 1999).*
+
 ---
 
 ## 2. Identificação do Projeto Avaliado
@@ -61,7 +64,7 @@ _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
 ## 3. Registro Audiovisual da Avaliação (Grupo 08)
 
-O vídeo a seguir documenta a auditoria técnica da Etapa 5 do Grupo 01, conduzida pelos discentes do Grupo 08:
+O Vídeo 1 a seguir documenta a auditoria técnica da Etapa 5 do Grupo 01, conduzida pelos discentes do Grupo 08:
 
 <div style="text-align: center; margin: 1.5rem 0;" markdown="1">
   <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/pending-video-grupo01-etapa5" title="Avaliação da Etapa 5 do Grupo +1 (Grupo 01 — Microsoft Teams) | Grupo 08 — IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>

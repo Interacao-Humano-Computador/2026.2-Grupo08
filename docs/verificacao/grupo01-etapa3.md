@@ -22,6 +22,9 @@ Este documento consolida o **relatório formal de avaliação técnica e acadêm
 
 A dinâmica de avaliação entre grupos da disciplina estabelece que a equipe audite os artefatos produzidos pelo grupo sucessor na escala cíclica (Grupo N + 1, onde o Grupo 08 inspeciona o Grupo 01), aplicando rigorosamente os critérios oficiais contidos no Plano de Ensino da disciplina (*Sales, 2026*) e os fundamentos consolidados na literatura canônica de IHC (*Barbosa et al., 2021; Mayhew, 1999; Nielsen, 1994; ISO 9241-11, 2019; Rogers, Sharp & Preece, 2013; W3C/WCAG 2.2, 2023*). O objetivo desta auditoria é assegurar a excelência científica, apontar fragilidades de forma construtiva e fornecer recomendações práticas para subsidiar os ajustes pós-feedback da equipe auditada.
 
+_Autor do Item Teórico: [Vinicius Silva Araruna](https://github.com/ViniciusA05)_
+*(Fundamentação teórica de inspeção formal em Fagan, 1976 e Barbosa et al., 2021).*
+
 ---
 
 ## Identificação do Projeto Avaliado
