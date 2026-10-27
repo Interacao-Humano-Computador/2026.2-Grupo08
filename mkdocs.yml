@@ -24,6 +24,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
+    - navigation.path
     - navigation.top
     - navigation.footer
     - search.suggest
@@ -133,16 +134,17 @@ nav:
     - Reunião 14/10/2026 (Avaliação Grupo -1): atas/ata6.md
     - Reunião 25/10/2026 (Apresentação Entrega 5): atas/ata7.md
   - Verificação:
+    - Visão Geral: verificacao/index.md
     - Listas de Verificação (Checklists): verificacao/lista-verificacao.md
     - Auto-Avaliação (Grupo 08): verificacao/grupo08.md
     - Avaliação do Grupo -1 (Grupo 07):
-      - Visão Geral: verificacao/grupo07.md
-      - Etapa 4 (Planejamento de Nível 1): verificacao/grupo07-etapa4.md
-      - Etapa 2 (Perfil de Usuário e Tarefas): verificacao/grupo07-etapa2.md
+      - verificacao/grupo07/index.md
+      - Etapa 4 (Planejamento de Nível 1): verificacao/grupo07/etapa4.md
+      - Etapa 2 (Perfil de Usuário e Tarefas): verificacao/grupo07/etapa2.md
     - Avaliação do Grupo +1 (Grupo 01):
-      - Visão Geral: verificacao/grupo01.md
-      - Etapa 5 (Relatos Nível 1 e Protótipo de Papel): verificacao/grupo01-etapa5.md
-      - Etapa 3 (Princípios, Metas e Guia de Estilo): verificacao/grupo01-etapa3.md
+      - verificacao/grupo01/index.md
+      - Etapa 5 (Relatos Nível 1 e Protótipo de Papel): verificacao/grupo01/etapa5.md
+      - Etapa 3 (Princípios, Metas e Guia de Estilo): verificacao/grupo01/etapa3.md
   - Conteúdo Teórico:
     - Itens Avaliados: conteudo-teorico/index.md
     - Item Teórico - Storyboard: conteudo-teorico/item-teorico-storyboard.md

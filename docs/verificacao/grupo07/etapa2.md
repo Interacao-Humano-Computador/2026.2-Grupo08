@@ -1,5 +1,13 @@
 # Avaliação da Etapa 2 do Grupo -1 — Grupo 07 (PCI Concursos)
 
+<div class="dp-page-nav" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.2rem 0 1.8rem 0; padding: 0.8rem 1rem; background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px;" markdown="1">
+
+[:material-hub: **Hub Central (Visão Geral)**](index.md){ .md-button  }
+[:material-rocket-launch: **Etapa 4 (Planejamento de Nível 1)**](etapa4.md){ .md-button  }
+[:material-clipboard-check: **Etapa 2 (Perfil de Usuário e Tarefas)**](etapa2.md){ .md-button .md-button--primary }
+
+</div>
+
 ## Tabela de Contribuição
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
@@ -40,7 +48,7 @@ _Fonte: Grupo 08, 2026._
 
 !!! info "Relatório em PDF Padronizado para Entrega Acadêmica"
     O documento formal consolidado com os resultados da avaliação do Grupo 07, formatado segundo a identidade visual e exigências da disciplina, está disponível para consulta e download:
-    [:material-file-pdf-box: **ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf**](../assets/relatorios/ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf)
+    [:material-file-pdf-box: **ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf**](../../assets/relatorios/ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf)
 
 ---
 

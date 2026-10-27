@@ -1,5 +1,13 @@
 # Avaliação do Grupo +1 — Grupo 01 (Microsoft Teams) — Etapa 3
 
+<div class="dp-page-nav" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.2rem 0 1.8rem 0; padding: 0.8rem 1rem; background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px;" markdown="1">
+
+[:material-hub: **Hub Central (Visão Geral)**](index.md){ .md-button }
+[:material-rocket-launch: **Etapa 5 (Relatos Nível 1 e Protótipo de Papel)**](etapa5.md){ .md-button }
+[:material-clipboard-check: **Etapa 3 (Princípios, Metas e Guia de Estilo)**](etapa3.md){ .md-button .md-button--primary }
+
+</div>
+
 ## Tabela de Contribuição
 
 A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas utilizadas na realização desta avaliação.
@@ -50,8 +58,8 @@ A Tabela 1 sintetiza as informações cadastrais, o ambiente de versionamento e 
 _Fonte: Grupo 08, 2026._
 
 !!! info "Relatório em PDF Padronizado para Entrega Acadêmica"
-    Em conformidade com a exigência formal do enunciado do Aprender 3 (*"InspecçãoGrupomais1Projeto PrincGeraisMetasUsabGuiaEstiloSite.pdf"*), o documento consolidado da inspeção com cabeçalho institucional UnB/FGA, paginação dinâmica e quadro analítico completo está disponível para download:
-    [:material-file-pdf-box: **InspecçãoGrupomais1Projeto PrincGeraisMetasUsabGuiaEstiloSite.pdf**](../assets/relatorios/InspecçãoGrupomais1Projeto PrincGeraisMetasUsabGuiaEstiloSite.pdf)
+    Em conformidade com a exigência formal do enunciado do Aprender 3 (*"InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf"*), o documento consolidado da inspeção com cabeçalho institucional UnB/FGA, paginação dinâmica e quadro analítico completo está disponível para download:
+    [:material-file-pdf-box: **InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf**](../../assets/relatorios/InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf)
 
 ---
 
