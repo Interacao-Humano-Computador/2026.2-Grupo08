@@ -323,11 +323,32 @@ Os storyboards documentados nesta página constituem o objeto central de investi
 
 ---
 
-## 6. Histórico de Versão
+## 6. Lista de Verificação da Técnica (Storyboards de Baixa Fidelidade)
 
-A Tabela 8 documenta o histórico evolutivo deste artefato.
+Em atendimento às diretrizes pedagógicas da disciplina e aos instrumentos normativos de inspeção da equipe, a Tabela 8 apresenta a Lista de Verificação da Técnica aplicada sobre os 3 Storyboards desenvolvidos pelo Grupo 08 (Storyboard 1: Vinicius Silva Araruna; Storyboard 2: Gustavo Antonio; Storyboard 3: Edvaldo Soares).
 
-**Tabela 8** — Histórico de versão do documento
+**Tabela 8** — Lista de Verificação da Técnica de Storyboard (Nível 1 de Mayhew)
+
+| ID | Critério e Questão Avaliada | Origem / Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Artefato |
+| :---: | :--- | :--- | :---: | :--- |
+| **SB-01** | **Cobertura Individual por Integrante Ativo:** A quantidade de storyboards confeccionados corresponde exatamente ao número de integrantes ativos da equipe (1 por funcionalidade)? | Plano de Ensino da Disciplina (*Sales, 2026*) | ✅ Sim | Foram elaborados 3 storyboards distintos de 8 quadros: Storyboard 1 (Vinicius — CF01), Storyboard 2 (Gustavo — CF02) e Storyboard 3 (Edvaldo — CF03). |
+| **SB-02** | **Articulação do Cenário Físico e Gatilho (*Setting*):** Os quadros iniciais retratam o ambiente humano, o contexto de uso e o problema disparador antes da interação com a interface? | Klemmer (2012); Buxton (2007, p. 112); Barbosa & Silva (2021, p. 238) | ✅ Sim | As Seções 2, 3 e 4 contextualizam a dor inicial do estudante no laboratório/transporte antes do acesso ao Fórum Diolinux Plus. |
+| **SB-03** | **Progressão Causal da Jornada (*Sequence*):** Os quadros demonstram passo a passo as ações do interagente e as respostas visuais do sistema sem saltos lógicos? | Klemmer (2012); Carroll (2000); Barbosa & Silva (2021, p. 239) | ✅ Sim | As Tabelas 2, 4 e 6 decompõem sequencialmente os 8 quadros de cada narrativa, discriminando a ação do usuário e o estado da interface Discourse. |
+| **SB-04** | **Desfecho e Fechamento de Valor (*Satisfaction*):** O encerramento da narrativa evidencia a resolução da dor inicial e o benefício alcançado pelo estudante? | Klemmer (2012); Mayhew (1999) | ✅ Sim | O Quadro 8 de cada prancha ilustra a conclusão bem-sucedida da tarefa (tópico publicado após revisão da IA, workshop divulgado e mentoria realizada). |
+| **SB-05** | **Rastreabilidade Estrita com Personas e Papel Funcional:** Os protagonistas são ancorados no elenco de personas e no papel de Estudante / Usuário Aprendiz? | Cooper (1999); Barbosa & Silva (2021, p. 167) | ✅ Sim | Os storyboards materializam a jornada da Persona Primária Lucas Mendonça e dos perfis discentes modelados em `personas.md`. |
+| **SB-06** | **Alinhamento Bidirecional com a Análise de Tarefas (HTA):** As cenas retratadas nos quadros correspondem diretamente aos subobjetivos modelados na HTA? | Barbosa & Silva (2021, p. 180 e 238) | ✅ Sim | Os 8 quadros de cada storyboard espelham os subobjetivos das Tarefas 1, 2 e 3 documentadas em `analise-tarefas.md`. |
+| **SB-07** | **Fidelidade Visual e Legibilidade das Pranchas (300 DPI):** As pranchas foram desenhadas e digitalizadas em alta resolução com contraste nítido para leitura pelos voluntários? | Buxton (2007); Plano de Ensino (*Sales, 2026*) | ✅ Sim | As Figuras 1, 2 e 3 apresentam as pranchas completas digitalizadas em alta definição e chamadas formalmente no texto. |
+| **SB-08** | **Comprovação Audiovisual de Teste-Piloto e Avaliação Oficial:** Cada storyboard possui registro em vídeo do ensaio piloto e da entrevista formativa com usuário real em modo Não Listado? | Barbosa & Silva (2021, p. 276); Sales (2026) | ✅ Sim | As Tabelas 3, 5 e 7 e os Vídeos 1 a 6 disponibilizam as gravações integrais no YouTube com leitura prévia do TCLE oral (< 60s). |
+
+_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05) com base em Barbosa e Silva (2021), Klemmer (2012) e Buxton (2007), 2026._
+
+---
+
+## 7. Histórico de Versão
+
+A Tabela 9 documenta o histórico evolutivo deste artefato.
+
+**Tabela 9** — Histórico de versão do documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
@@ -344,7 +365,7 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ---
 
-## 7. Referências Bibliográficas
+## 8. Referências Bibliográficas
 
 [1] AZIZ, Amal Dar. *Guide to Storyboarding*. HCI Institute, Stanford / Berkeley. Disponível em: <http://hci.st/story>. Acesso em: 13 out. 2026.
 
