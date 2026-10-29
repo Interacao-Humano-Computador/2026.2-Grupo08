@@ -43,6 +43,7 @@ Em estrito atendimento aos critérios de avaliação do Plano de Ensino da disci
 - **Persona Representada**: Lucas Mendonça (Estudante de Engenharia de Software e Estagiário DevOps)
 - **Metodologia de Referência**: Buxton (2007), Scott Klemmer (2012) e Barbosa & Silva (2021)
 - **Formato**: Opção B (Ilustração manual em papel A4 a 300 DPI e digitalização fotográfica tratada)
+- **Documentação Aprofundada**: [Artefato Completo do Storyboard da Tarefa 1](nivel-1/storyboard/storyboard-topico-markdown.md)
 
 ### 2.1 Contexto e Motivação
 
