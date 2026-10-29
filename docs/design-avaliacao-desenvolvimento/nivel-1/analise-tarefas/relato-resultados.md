@@ -83,23 +83,24 @@ As sessões concentraram-se na validação dos modelos formais de tarefas elabor
 A inquirição procedural revelou apontamentos ricos sobre a engenharia cognitiva das tarefas:
 
 ### PT01 — Ordem Sequencial dos Subobjetivos (Plano 0 da HTA: G1 > G2 > G3 > G4 > G5)
-- **Constatação:** O participante P1 confirmou que preencher o título primeiro é natural para resumir a falha, mas apontou que frequentemente alterna a ordem entre escrever o corpo da dúvida e selecionar as tags.
+- **Constatação Tarefa 1 (P1):** O participante confirmou que preencher o título primeiro é natural para resumir a falha, mas apontou que frequentemente alterna a ordem entre escrever o corpo da dúvida e selecionar as tags.
 - **Relato Chave de P1:** *"Geralmente eu coloco o título para resumir o erro, mas pulo logo para o corpo do texto para colar o log do terminal antes que eu me esqueça. Costumo escolher as tags e confirmar a categoria só no final, quando o texto já tá revisado."*
-- **Discrepância Identificada:** O modelo prescritivo rígido `G1 > G2 > G3 > G4 > G5` deve permitir flexibilidade operacional (operador `+` ou alternância) entre G3 (Tags) e G4 (Redação do Corpo), mantendo a interface não-modal.
+- **Constatação Tarefa 2 (P2 - Gustavo Antonio):** Ao analisar o Plano 0 da Tarefa 2 (`1 > 2 > 3 > 4 > 5`), P2 atestou a completude e lógica estrita do fluxo: *"Olhando para todo esse caminho, você acha que alguma etapa está fora de ordem ou faltou algum passo obrigatório antes de publicar? Não, não acho. Acho que tá razoável"*.
 
-### PT02 — Métodos de Formatação Markdown (CMN-GOMS: Atalho de Teclado vs. Botão da Barra)
-- **Constatação:** Validação empírica imediata da Regra de Seleção 1 (*Selection Rule 1*) do CMN-GOMS.
+### PT02 — Métodos de Formatação e Entrada de Dados (Teclado vs. Componentes Visuais)
+- **Constatação Tarefa 1:** Validação empírica imediata da Regra de Seleção 1 (*Selection Rule 1*) do CMN-GOMS por P1 (preferência de digitação de crases por atalho vs botão da barra).
 - **Relato Chave de P1:** *"Como curso computação e uso Markdown no GitHub, eu quase sempre digito as três crases direto no teclado (` ```bash `) porque é muito mais rápido e não tiro a mão do teclado. Mas vejo colegas iniciantes que preferem selecionar o texto com o mouse e clicar no botão `&lt;/&gt;` da barra do editor. É fundamental o sistema manter os dois caminhos."*
-- **Conclusão de Usabilidade:** Confirma-se a adequação da modelagem dual de métodos (Método Rápido por Teclado vs. Método Visual por Barra de Ferramentas).
+- **Constatação Tarefa 2 (P2):** Ao ser inquirido sobre preenchimento de horários e datas na etapa de dados gerais (Subobjetivo 2.4), o participante verbalizou enfaticamente: *"Acho que prefiro com relógio"*, rejeitando texto corrido e solicitando seletor visual dedicado (*timepicker*).
 
-### PT03 — Sugestões em Tempo Real e Modal da IA Pré-Envio
-- **Constatação:** O painel lateral de tópicos semelhantes ativado durante a digitação do título foi considerado um acelerador essencial de resolução.
+### PT03 — Sugestões em Tempo Real e Interação com Mapas e Ingressos
+- **Constatação Tarefa 1:** Painel de sugestões semânticas da IA aprovado por P1 como mecanismo acelerador e preventivo.
 - **Relato Chave de P1:** *"A sugestão na lateral enquanto digito o título é ótima. Se eu vejo que o erro já tem solução aceita, nem preciso postar. E o modal da IA antes de enviar é muito bem-vindo para sugerir tags, desde que seja um assistente consultivo e nunca um bloqueador autoritário que me impeça de enviar."*
-- **Conclusão:** A intervenção da IA deve permanecer consultiva, com botão neutro de envio direto caso o usuário opte por ignorar as sugestões.
+- **Constatação Tarefa 2 (P2 - Mapa e Local Físico):** Na etapa de definição de local (Subobjetivo 3.2), o participante questionou: *"Eu coloco o pin no mapa... mas aí ele vai, o sistema vai procurar um lugar próximo daquele pin que ele marcou para...?"*. Ao ser esclarecido de que o organizador deve marcar o ponto exato da sala/espaço já acertado, P2 validou: *"Entendi. Eu acho que é bom... tá bom, uma boa opção"*.
+- **Constatação Tarefa 2 (P2 - Ingressos Gratuitos e Pagos):** Ao avaliar a separação na etapa de ingressos (Subobjetivo 4.1 a 4.3), o participante validou a fluidez para eventos acadêmicos: *"Sim, de boa"*.
 
 ### PT08 — Completude, Gargalos e Operações Faltantes na HTA
 - **Constatação Geral:** Os participantes consideraram os modelos hierárquicos completos e coerentes com a realidade do Discourse.
-- **Destaque Positivo:** Elogio explícito à inclusão formal da operação elementar de feedback observável (fechamento automático do composer e carregamento da URL definitiva do tópico publicado).
+- **Destaque Positivo:** Elogio explícito à inclusão formal da operação elementar de feedback observável (fechamento automático do composer e carregamento da URL definitiva do tópico publicado) e à separação entre rascunho e publicação final.
 
 ---
 
@@ -109,12 +110,14 @@ As inconsistências e oportunidades levantadas foram tabuladas na Tabela 3 com b
 
 **Tabela 3** — Matriz de Problemas e Discrepâncias de Tarefas (HTA e GOMS)
 
-| ID | Tarefa / Nó HTA Afetado | Descrição da Discrepância / Erro de Modelo Mental | Tipo de Inconsistência | Severidade (Nielsen) | Recomendação de Refatoração no HTA e Prototipação |
-| :---: | :--- | :--- | :---: | :---: | :--- |
+| ID | Tarefa / Passo HTA | Discrepância / Dificuldade Observada | Classificação do Problema | Severidade (Nielsen) | Ação de Refinamento no HTA / Reprojeto no Papel |
+| :---: | :--- | :--- | :--- | :---: | :--- |
 | **PROB-AT-01** | Tarefa 1 / Subobjetivos G3 e G4 | Usuário prefere redigir o corpo e colar comandos antes de associar as tags definitivas. | Precedência Rígida no Plano 0 | **1 (Cosmético)** | Ajustar o Plano 0 para formalizar a flexibilidade sequencial entre G3 e G4 (`G1 > G2 > (G3 + G4) > G5`). |
 | **PROB-AT-02** | Tarefa 1 / Subobjetivo 4.2 | Risco de usuários novatos não saberem fechar as três crases do bloco de código. | Inconsistência de Método | **1 (Cosmético)** | Incluir na interface de protótipo de papel dica de sintaxe sutil no placeholder: *"Exemplo: ```bash"*. |
 | **PROB-AT-03** | Tarefa 1 / Operação 5.2 | Ausência de operação atômica de adição em lote das tags técnicas recomendadas pela IA. | Operação Faltante no HTA | **2 (Menor)** | Modelar novo operador no GOMS: *"Método: Clicar em 'Adicionar todas as tags sugeridas'"*. |
-| **PROB-AT-04** | Tarefa 2 / Subobjetivo 3.2 | Falta de feedback imediato ao ajustar manualmente o marcador de local do workshop no mapa. | Feedback Insuficiente | **2 (Menor)** | Inserir nó elementar de feedback com atualização dinâmica das coordenadas e raio visual. |
+| **PROB-AT-04** | Tarefa 2 / Subobjetivo 2.4 (Datas e Horários) | O participante verbalizou explicitamente preferência por selecionar o horário por meio de componente visual de relógio (*"Acho que prefiro com relógio"*) em detrimento de campo de texto corrido. | Inconsistência de Operação / Prevenção de Erros | **2 (Menor)** | Refinar a Operação 2.4 no HTA para explicitar *"2.4 Selecionar horário via componente timepicker de relógio"*, adotando o respectivo widget no protótipo de papel de Nível 2. |
+| **PROB-AT-05** | Tarefa 2 / Subobjetivo 3.2 (Ponto no Mapa) | O participante questionou o fluxo de busca de locais (*"ele vai procurar um lugar próximo daquele pin que marcou?"*), sendo esclarecido que a plataforma demarca o ponto exato da reserva. | Falha de Expectativa / Feedback | **2 (Menor)** | Adicionar na Operação 3.2 feedback visual com endereço formalizado imediatamente após soltar o marcador (*pin*) e link de auxílio *"Como reservar salas no campus"*. |
+| **PROB-AT-06** | Tarefa 2 / Plano 0 (Sequência Geral) | Ao ser inquirido sobre a ordem global das etapas (`1 > 2 > 3 > 4 > 5`), o participante considerou que nenhuma etapa está fora de ordem ou faltando antes de publicar (*"Não, não acho. Acho que tá razoável"*). | Validação Normativa do Plano | **0 (Sem Problema)** | Manter a ordem causal do Plano 0 da Tarefa 2 estritamente sequencial conforme validada empiricamente. |
 
 _Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Nielsen (1994), 2026._
 
@@ -159,6 +162,14 @@ _Fonte: Elaborada pelos autores, 2026._
     <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/_4nQ50nN7b8" title="Avaliação da Análise de Tarefas 1 - Sessão T01 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
     <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da avaliação da Análise de Tarefas da Tarefa 1 na residência do participante. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/_4nQ50nN7b8" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/_4nQ50nN7b8</a></p>
+</div>
+
+#### Reprodução Audiovisual da Sessão T02 (Tarefa 2: Eventos Presenciais — Gustavo Antonio)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/VhGgpfX9Rqk" title="Avaliação da Análise de Tarefas 2 - Sessão T02 - Gustavo Antonio - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 2</strong> — Registro audiovisual da avaliação da Análise de Tarefas da Tarefa 2 (Criação de Eventos Presenciais). <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/VhGgpfX9Rqk" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/VhGgpfX9Rqk</a></p>
 </div>
 
 ---

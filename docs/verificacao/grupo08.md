@@ -204,11 +204,33 @@ A Tabela 8 apresenta a autoavaliação detalhada dos 18 itens da **Entrega 3** (
 | **17** | **Vídeo de Apresentação da Entrega 3** | ✅ Sim | Vídeo oficial gravado com os integrantes ativos e publicado no YouTube como "Não Listado" ([Assistir no YouTube](https://youtu.be/MIRdtPGGHmM)), incorporado na página `entrega3.md`. | Plenamente atendido, sem pendências. |
 | **18** | **Agradecimentos e Uso de IA Generativa** | ⚠️ Incompleto | Presente em `entrega3.md`, `metas-de-usabilidade.md`, `guia-de-estilo.md` e `ata5.md`. | Ausente nos artefatos `caracteristicas-da-plataforma.md` e `principios-gerais-de-projeto.md`. |
 
-_Fonte: Grupo 08, 2026._
+## 4. Verificação da Entrega 4 — Planejamento da Avaliação e Relato (Nível 1)
+
+A Tabela 9 apresenta a autoavaliação detalhada dos 13 critérios centrais da **Entrega 4** (Planejamento da Avaliação do Storyboard e da Análise de Tarefas e Planejamento dos respectivos Relatos de Resultados) frente às exigências do Plano de Ensino da disciplina (*Sales, 2026, pp. 12-13*) e ao referencial canônico de IHC (*Barbosa et al., 2021; Mayhew, 1999*).
+
+**Tabela 9** — Verificação dos Itens da Entrega 4 (Grupo 08)
+
+| ID | Item de Verificação / Rubrica Oficial | Origem / Fonte Normativa | Aferição | Evidência / Observação no Repositório |
+| :---: | :--- | :--- | :---: | :--- |
+| **E4-01** | O planejamento da avaliação segue integralmente o Framework DECIDE? | Preece et al. (2002); Barbosa et al. (2021) | ✅ Sim (Conforme) | Tanto o [Planejamento do Storyboard](../design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-avaliacao.md) quanto o de [Análise de Tarefas](../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-avaliacao.md) estruturam-se estritamente nas 6 etapas do acrônimo DECIDE. |
+| **E4-02** | São descritos os objetivos da avaliação fundamentados no Ciclo de Mayhew e nas metas formativas? | Mayhew (1999); Barbosa et al. (2021) | ✅ Sim (Conforme) | Seção 1 de ambos os planejamentos contextualiza a avaliação formativa de Nível 1 com foco em alternativas de design, apropriação e mitigação de inconsistências pré-código. |
+| **E4-03** | Os métodos de avaliação são definidos com citação, referência ABNT, autor do item e foto do livro? | Barbosa & Silva (2021); Sales (2026) | ✅ Sim (Conforme) | Item Teórico de Métodos de Avaliação publicado por [Edvaldo Soares](../design-avaliacao-desenvolvimento/item-teorico-metodos-avaliacao.md) com citação direta de Barbosa e Silva (2010, p. 301) e evidência visual. |
+| **E4-04** | As questões práticas detalham recrutamento, perfil, ambiente, ferramentas e orçamento zero? | Barbosa & Silva (2021, p. 273) | ✅ Sim (Conforme) | Documento dedicado em [Questões Práticas](../design-avaliacao-desenvolvimento/nivel-1/questoes-praticas-cronograma.md) com tabela 12.9 adaptada, amostragem de 3 voluntários e orçamento de R$ 0,00. |
+| **E4-05** | As questões éticas prescrevem script oral do TCLE com consentimento gravado, voluntariedade e LGPD? | Resolução CNS 510/2016; Lei 13.709/2018 | ✅ Sim (Conforme) | Seção 7 dos planejamentos prescreve o Script Oral Literal lido nos primeiros 60 segundos gravados, com consentimento verbal arquivado no YouTube. |
+| **E4-06** | O planejamento do relato estrutura objetivos, métodos, participantes, catálogo de problemas (Nielsen 0 a 4) e reprojeto? | Barbosa et al. (2021, p. 303); Nielsen (1994) | ✅ Sim (Conforme) | Modelos analíticos padronizados em [Planejamento do Relato (Storyboard)](../design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-relato-resultados.md) e [Planejamento do Relato (Tarefas)](../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-relato-resultados.md). |
+| **E4-07** | O cronograma prevê datas, horários e locais para o teste-piloto e para as entrevistas com usuários? | Barbosa & Silva (2021); Sales (2026) | ✅ Sim (Conforme) | Tabela 4 da página de síntese [Entrega 4](../entregas/entrega4.md) e tabelas de cronograma prático cobrindo ensaios de 17/10 a 27/10/2026. |
+| **E4-08** | Cada Storyboard está vinculado formalmente a um fluxo de tarefa modelado no HTA/CTT? | Klemmer (2012); Barbosa & Silva (2021) | ✅ Sim (Conforme) | Mapeamento biunívoco explícito na Tabela 3 de [Entrega 4](../entregas/entrega4.md) conectando Storyboards 1, 2 e 3 às Tarefas 1, 2 e 3 do HTA/CTT. |
+| **E4-09** | A quantidade de Storyboards e tarefas avaliadas é igual à quantidade de integrantes ativos da equipe? | Plano de Ensino da Disciplina (*Sales, 2026*) | ✅ Sim (Conforme) | 3 Storyboards físicos desenhados à mão (Vinicius, Gustavo e Edvaldo) para os 3 discentes ativos da equipe. |
+| **E4-10** | O teste-piloto está definido com protocolo prévio, data e fotos/evidências teóricas com autoria individual? | Barbosa & Silva (2021, p. 276); Sales (2026) | ✅ Sim (Conforme) | Protocolo completo em [teste-piloto.md](../design-avaliacao-desenvolvimento/nivel-1/teste-piloto.md) com players dos ensaios em vídeo de Vinicius, Gustavo e Edvaldo no YouTube. |
+| **E4-11** | Consta expressamente a Cláusula Metodológica Obrigatória de que os dados do piloto NÃO são computados no relato final? | Barbosa & Silva (2021, p. 276) | ✅ Sim (Conforme) | Cláusula formal destacada em caixa de aviso na Seção 2 de [teste-piloto.md](../design-avaliacao-desenvolvimento/nivel-1/teste-piloto.md) e nos relatos finais. |
+| **E4-12** | O roteiro do avaliador prescreve postura neutra, registro de hesitações e catálogo sistemático de falhas? | Barbosa & Silva (2021); Nielsen (1994) | ✅ Sim (Conforme) | Ficha comportamental e planilha de observação em formato CSV disponibilizadas em [observacao-avaliador.md](../design-avaliacao-desenvolvimento/observacao-avaliador.md). |
+| **E4-13** | A gravação em vídeo da apresentação da Entrega 4 está publicada no YouTube em "Não Listado" e tem entre 20 e 30 minutos? | Diretrizes da Disciplina (*Sales, 2026*) | ✅ Sim (Conforme) | Vídeo oficial da Entrega 4 gravado pela equipe ([Assistir no YouTube](https://youtu.be/0kXHOEfO6cc)), incorporado em [entrega4.md](../entregas/entrega4.md). |
+
+_Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
 ---
 
-## 4. Resumo Gráfico de Conformidade
+## 5. Resumo Gráfico de Conformidade
 
 ### Resumo da Entrega 1 (22 itens)
 
@@ -273,24 +295,45 @@ _Fonte: Grupo 08, 2026._
 
 ---
 
-### Resumo Geral Consolidado (70 itens)
+### Resumo da Entrega 4 (13 itens)
+
+<div class="dp-checklist-summary">
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">✅ Atendido</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:100%">13 / 13</div></div>
+  </div>
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">⚠️ Pendente</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:0%">0 / 13</div></div>
+  </div>
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">❌ Não Atendido</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:0%">0 / 13</div></div>
+  </div>
+</div>
+
+**Conformidade da Entrega 4: 100%** (13 de 13 critérios atendidos).
+
+---
+
+### Resumo Geral Consolidado (83 itens)
 
 <div class="dp-checklist-summary">
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">✅ Total Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:81%">57 / 70</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:84%">70 / 83</div></div>
   </div>
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">⚠️ Total Pendente</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:13%">9 / 70</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:11%">9 / 83</div></div>
   </div>
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">❌ Total Não Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:6%">4 / 70</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:5%">4 / 83</div></div>
   </div>
 </div>
 
-**Taxa Ponderada Geral Consolidada: 87,9%** (57 critérios plenamente atendidos, 9 pendentes e 4 não atendidos em todas as etapas).
+**Taxa Ponderada Geral Consolidada: 89,8%** (70 critérios plenamente atendidos, 9 pendentes e 4 não atendidos em todas as etapas).
 
 ---
 
@@ -306,6 +349,7 @@ A Tabela 9 documenta o histórico de versões deste artefato.
 | `2.0` | 27/09/2026 | Atualização completa integrando os 30 critérios formais de auto-avaliação da Entrega 2 (Perfil de Usuário, Aspectos Éticos, Personas, Cenários, HTA/GOMS e Gravação) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `3.0` | 06/10/2026 | Inclusão da auto-avaliação e lista de verificação da Entrega 3 (Análise de Requisitos) com 18 itens e incorporação do vídeo oficial de apresentação | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `3.1` | 12/10/2026 | Desacoplamento arquitetural formal entre a Lista de Verificação (templates normativos em lista-verificacao.md) e o Relatório de Inspeção preenchido da equipe (Issue #30), com introdução contextualizada no método de Fagan (1976) e saneamento UTF-8 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
+| `4.0` | 26/10/2026 | Inclusão da autoavaliação formal da Entrega 4 (Planejamento da Avaliação de Nível 1 - Storyboard e Tarefas) com 13 itens normativos, referências e ampliação do consolidado para 83 critérios | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Grupo 08, 2026._  
 _\*Nota histórica: O discente Pedro Paulo constava como integrante ativo na versão 1.0 de setembro/2026, sendo preservado seu registro fático documental da época em estrita conformidade com o princípio de não apagamento histórico e integridade acadêmica._

@@ -156,6 +156,14 @@ As gravações integrais dos ensaios de teste-piloto de Nível 1 estão disponib
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/1F409M-E850" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/1F409M-E850</a></p>
 </div>
 
+#### Vídeo 3 — Ensaio do Teste-Piloto da Tarefa 2: Criação de Eventos Presenciais (Gustavo Antonio)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/K5jVAyq4hAY" title="Gravação do Teste-Piloto da Tarefa 2 - Gustavo Antonio - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 3</strong> — Registro audiovisual do Teste-Piloto da Tarefa 2 (Criação de Eventos Presenciais). <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/K5jVAyq4hAY" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/K5jVAyq4hAY</a></p>
+</div>
+
 ---
 
 ## 8. Relatório de Ajustes e Lições Aprendidas Pós-Teste
