@@ -73,7 +73,7 @@ _Fonte: Elaborada pelos autores, 2026._
 Durante a avaliação, foram apresentadas as pranchas físicas em papel A4 correspondentes às três funcionalidades da equipe:
 
 1. **Storyboard 1 — Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown com Integração de IA Semântica (Vinicius Silva Araruna):**  
-   Prancha manuscrita de 8 quadros narrando a saga de Alex, estudante travado em um erro de terminal no Linux que recorre ao Fórum Diolinux Plus, formata seu código com blocos de Markdown e tags adequadas, passa pela validação preventiva da IA de pré-envio e soluciona sua dúvida;
+   Prancha manuscrita de 8 quadros narrando a jornada da Persona Primária **Lucas Mendonça**, estudante diante de um erro de permissão no terminal Linux que recorre ao Fórum Diolinux Plus, preenche título e tags contextuais, formata seu log com blocos de Markdown e preview lado a lado, avalia as sugestões da IA semântica de pré-envio e conclui a publicação do tópico;
 2. **Storyboard 2 — Criação e Divulgação de Workshop Presencial da Comunidade (Gustavo Antonio):**  
    Prancha manuscrita de 8 quadros narrando a jornada de Lucas, estudante que organiza uma oficina comunitária de Linux na faculdade, define local com mapa interativo, lote de 40 vagas e compartilha o link;
 3. **Storyboard 3 — Busca Avançada e Filtros Especializados de Categoria (Edvaldo Soares):**  
@@ -83,40 +83,40 @@ Durante a avaliação, foram apresentadas as pranchas físicas em papel A4 corre
 
 ## 5. Síntese dos Dados Coletados e Análise Qualitativa de Conteúdo
 
-A análise das gravações e das planilhas de observação permitiu consolidar os dados qualitativos estruturados nas perguntas investigativas do Framework DECIDE:
+A análise das gravações e das planilhas de observação permitiu consolidar os dados qualitativos estruturados nas perguntas investigativas do Framework DECIDE.
+
+> *Nota Metodológica sobre as Verbalizações:* Em conformidade com a técnica de Análise de Conteúdo (*Bardin, 2011*), as falas e percepções dos participantes registradas a seguir **não estão transcritas literalmente (*ipsis litteris*) palavra por palavra**, constituindo paráfrases e sínteses analíticas fiéis ao sentido expresso pelos voluntários durante as sessões gravadas.
 
 ### P01 — Verossimilhança e Apropriação do Cenário Inicial
 - **Constatação Geral:** 100% dos participantes (P1, P2 e P3) validaram a autenticidade e a plausibilidade do problema disparador retratado.
-- **Relato de P1 (Tarefa 1):** *"Me identifiquei bastante com o Alex. Sempre que vou instalar um pacote ou compilar código no Linux e aparece um erro estranho no terminal, tento ler o log e caio direto em tópicos do Diolinux Plus ou Reddit para entender a falha. A dor é muito real."*
+- **Relato de P1 (Tarefa 1 — síntese não literal):** Relatou que se identificou com a situação vivenciada por Lucas Mendonça, explicando que sempre que cai em um problema técnico e vai pesquisar, acaba encontrando sites de fórum da comunidade e que, hoje em dia, com a ajuda de ferramentas de IA, esse processo de investigação e resolução fica muito mais fácil.
 - **Relato de P2 (Tarefa 2):** Destacou a verossimilhança do isolamento inicial de quem estuda Linux sozinho e a iniciativa espontânea de criar oficinas presenciais na universidade.
 
 ### P02 — Naturalidade da Persona e Balões de Fala
-- **Constatação Geral:** As falas, gírias técnicas e frustrações das personas soaram condizentes com a realidade discente de cursos de tecnologia.
-- **Relato de P1:** Considerou as falas de Alex objetivas e expressivas, sem jargões burocráticos ou tom de material publicitário.
+- **Constatação Geral:** As falas, dúvidas técnicas e reações das personas soaram condizentes com a realidade discente de cursos de tecnologia.
+- **Relato de P1:** Considerou os pensamentos e falas de Lucas Mendonça objetivos e expressivos, retratando com autenticidade a hesitação inicial (*"Como posto no fórum sem bagunçar logs?"*) e a satisfação ao concluir a publicação do tópico, sem jargões burocráticos ou tom publicitário.
 - **Sugestão de Polimento:** P2 sugeriu que no Storyboard 2 houvesse maior ênfase visual no botão de compartilhamento rápido em aplicativos de mensagens.
 
 ### P03 — Clareza da Estrutura Narrativa dos 8 Quadros
-- **Constatação Geral:** Os participantes acompanharam a progressão cronológica sem necessidade de explicações intermediárias do avaliador. A linearidade (Início do Problema → Entrada no Fórum → Configuração → Assistência de IA / Feedback → Conclusão) foi considerada fluida e intuitiva.
+- **Constatação Geral:** Os participantes acompanharam a progressão cronológica sem necessidade de explicações intermediárias do avaliador. A linearidade (Erro no Laboratório → Hesitação → Acesso ao Diolinux → Informação Contextual → Destaque com Markdown → IA Integrada → Avaliação de Alternativas → Sucesso na Publicação) foi considerada fluida e intuitiva.
 
 ### P04 — Legibilidade dos Desenhos Manuscritos
-- **Constatação Geral:** O traço à mão em papel A4 e o contraste das digitalizações em 300 DPI permitiram rápida identificação das janelas do navegador, campos de texto e blocos de código.
-- **Apontamento de P1:** Observou que o texto interno desenhado na simulação da tela do computador no Quadro 4 estava ligeiramente compacto devido à dimensão física do papel, recomendando que nos protótipos em papel de Nível 2 as telas sejam confeccionadas em formato modular expandido.
+- **Constatação Geral:** O traço à mão em papel A4 e o contraste das digitalizações em 300 DPI permitiram rápida identificação das janelas do monitor, campos de texto e divisão de colunas nos 8 quadros, sem que os participantes relatassem dificuldades de leitura ou legibilidade.
 
 ### P05 — Correspondência com o Sistema Real (Discourse)
 - **Constatação Geral:** A representação do editor de postagens com formatação Markdown e inserção de tags técnicas foi prontamente reconhecida como a convenção padrão de fóruns baseados no Discourse.
-- **Relato de P1:** *"Em fórum técnico, código sem formatação Markdown quebra a indentação e é ignorado. O Alex formatar o bloco com crases e tags como 'ubuntu' e 'terminal' é a melhor prática indispensável."*
+- **Relato de P1 (síntese não literal):** Apontou que estruturar e destacar o log com Markdown deixa o tópico muito mais fácil de ler e facilita tanto a maneira de postar quanto o entendimento do problema por quem acompanha o fórum.
 
 ### P06 — Etapas Forçadas ou Omissões no Fluxo
 - **Constatação Geral:** Nenhuma etapa foi considerada desnecessária. Os participantes destacaram que todas as ações mostradas compõem o ciclo virtuoso de postagem técnica.
 
 ### P07 — Desfecho e Receptividade da IA Semântica de Pré-Envio
-- **Constatação Geral:** A intervenção preventiva da inteligência artificial no momento que antecede a publicação (Quadro 6 do Storyboard 1) foi amplamente elogiada por P1.
-- **Relato Chave de P1:** *"Ter um assistente de IA pré-envio que verifica tópicos idênticos já resolvidos e sugere tags precisas poupa tempo do estudante e evita tópicos duplicados inúteis no fórum. O importante é que a IA oriente sem travar o envio caso o usuário queira postar mesmo assim."*
+- **Constatação Geral:** A intervenção preventiva da inteligência artificial no momento que antecede a publicação (Quadros 6 e 7 do Storyboard 1) foi amplamente aprovada por P1.
+- **Relato Chave de P1 (síntese não literal):** Destacou que contar com um assistente de IA pré-envio que verifica tópicos semelhantes já resolvidos e sugere tags precisas poupa tempo do estudante e evita tópicos duplicados no fórum, ressaltando que a IA deve orientar sem travar o envio caso o usuário queira postar mesmo assim.
 
 ### P08 — Oportunidades de Design e Recomendações dos Participantes
-- **Sugestão 1 (P1):** Inclusão de um botão de *"Aplicar todas as tags sugeridas pela IA com 1 clique"*, evitando a digitação manual de cada metadado.
-- **Sugestão 2 (P1):** Destaque explícito para a área de pré-visualização lado a lado (*split-view*) do Markdown no formulário.
-- **Sugestão 3 (P2):** Exibição imediata da confirmação de geolocalização no mapa interativo com raio visual de proximidade.
+- **Sugestão de P1 (Tarefa 1 — sugestão única):** Inclusão de um botão para preencher automaticamente as tags sugeridas pela IA com 1 clique, evitando a digitação manual de cada metadado.
+- **Sugestão de P2 (Tarefa 2):** Exibição imediata da confirmação de geolocalização no mapa interativo com raio visual de proximidade.
 
 ---
 
@@ -128,10 +128,9 @@ Os apontamentos de atrito e oportunidades colhidos nas sessões foram catalogado
 
 | ID | Storyboard / Tarefa | Quadro Afetado | Descrição do Problema / Dificuldade | Severidade (Nielsen) | Categoria do Problema | Ação Recomendada de Reprojeto para Nível 2 |
 | :---: | :--- | :---: | :--- | :---: | :--- | :--- |
-| **PROB-ST-01** | Tarefa 1 (Markdown e IA) | Quadro 4 | Letra compacta na representação do bloco de código desenhado na tela de computador. | **1 (Cosmético)** | Legibilidade Visual | Confeccionar as telas dos protótipos de papel em pranchas A4 individuais de alta escala. |
-| **PROB-ST-02** | Tarefa 1 (Markdown e IA) | Quadro 6 | Receio de que o modal de IA pré-envio bloqueie o botão 'Publicar' caso o usuário discorde das tags sugeridas. | **2 (Menor)** | Modelo Mental / Controle | Incluir no protótipo de papel botão visível e neutro: *"Publicar como está (ignorar sugestões)"*. |
-| **PROB-ST-03** | Tarefa 1 (Markdown e IA) | Quadro 6 | Ausência de atalho de aceitação em lote das tags técnicas recomendadas pela IA. | **2 (Menor)** | Eficiência de Interação | Inserir componente interativo: *"Adicionar tags sugeridas (+3 tags) com 1 clique"*. |
-| **PROB-ST-04** | Tarefa 2 (Eventos Presenciais) | Quadro 5 | Dúvida passageira sobre o comportamento do pin no mapa ao digitar o endereço da faculdade. | **2 (Menor)** | Feedback do Sistema | Adicionar estado de feedback de geolocalização com campo de autocompletar e confirmação visual. |
+| **PROB-ST-01** | Tarefa 1 (Markdown e IA) | Quadros 6 e 7 | Receio de que o modal de IA pré-envio bloqueie o botão 'Publicar' caso o usuário prefira manter sua postagem original. | **2 (Menor)** | Modelo Mental / Controle | Incluir no protótipo de papel botão visível e neutro: *"Publicar como está (ignorar sugestões)"*. |
+| **PROB-ST-02** | Tarefa 1 (Markdown e IA) | Quadro 6 | Ausência de botão para preencher automaticamente as tags técnicas recomendadas pela IA. | **2 (Menor)** | Eficiência de Interação | Inserir componente interativo: *"Preencher tags sugeridas automaticamente (1 clique)"*. |
+| **PROB-ST-03** | Tarefa 2 (Eventos Presenciais) | Quadro 5 | Dúvida passageira sobre o comportamento do pin no mapa ao digitar o endereço da faculdade. | **2 (Menor)** | Feedback do Sistema | Adicionar estado de feedback de geolocalização com campo de autocompletar e confirmação visual. |
 
 _Fonte: Elaborada pelos autores com base em Nielsen (1994), 2026._
 
@@ -161,7 +160,7 @@ A Tabela 4 sintetiza as gravações audiovisuais das avaliações do Storyboard.
 
 | Sessão | Funcionalidade / Storyboard | Participante | Avaliador Responsável | Duração | Link de Acesso no YouTube |
 | :---: | :--- | :---: | :--- | :---: | :--- |
-| **S01** | Tarefa 1: Markdown, Tags e IA Semântica | P1 (J. V. S. — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ~14 min | [Assistir Sessão S01 no YouTube (Não Listado)](https://youtu.be/_4nQ50nN7b8) |
+| **S01** | Tarefa 1: Markdown, Tags e IA Semântica | P1 (J. V. S. — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ~15 min | [Assistir Sessão S01 no YouTube (Não Listado)](https://youtu.be/_4nQ50nN7b8) |
 | **S02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão S02 no YouTube (Não Listado)](https://youtu.be/VhGgpfX9Rqk) |
 | **S03** | Tarefa 3: Grade de Disponibilidade e Agendamento | P3 (G. H. R.) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~15 min | [Assistir Sessão S03 no YouTube (Não Listado)](https://youtu.be/gqZ3yJ3ZYUc) |
 
@@ -196,8 +195,8 @@ A Tabela 5 apresenta a autoavaliação da conformidade do relato dos resultados 
 | **1** | O documento define os objetivos da avaliação e contextualiza o Nível 1 de Mayhew? | Mayhew (1999); Barbosa & Silva (2021) | ✅ Sim | A Seção 1 fundamenta os 4 objetivos formativos no Ciclo de Vida de Mayhew. |
 | **2** | A metodologia de investigação empírica com usuários é claramente explicitada e justificada? | Barbosa & Silva (2021, p. 144) | ✅ Sim | A Seção 2 detalha o uso de entrevistas semiestruturadas com pranchas em papel e reforça a proibição de confusão com inspeção. |
 | **3** | Há caracterização demográfica completa dos participantes alinhada ao perfil discente? | Barbosa & Silva (2021, p. 170) | ✅ Sim | A Tabela 2 sintetiza idade, curso, nível de Linux e distribuição dos participantes P1, P2 e P3. |
-| **4** | O documento apresenta análise qualitativa de conteúdo cobrindo as perguntas investigativas? | Bardin (2011); Rogers et al. (2013) | ✅ Sim | A Seção 5 analisa detalhadamente os achados de P01 a P08 com citações literais dos voluntários. |
-| **5** | Os problemas identificados estão catalogados e classificados na escala de severidade de Nielsen? | Nielsen (1994); Barbosa & Silva (2021) | ✅ Sim | A Tabela 3 consolida os problemas mapeados com severidade variando de 1 a 2. |
+| **4** | O documento apresenta análise qualitativa de conteúdo cobrindo as perguntas investigativas? | Bardin (2011); Rogers et al. (2013) | ✅ Sim | A Seção 5 analisa detalhadamente os achados de P01 a P08 com sínteses analíticas fiéis das verbalizações dos voluntários. |
+| **5** | Os problemas identificados estão catalogados e classificados na escala de severidade de Nielsen? | Nielsen (1994); Barbosa & Silva (2021) | ✅ Sim | A Tabela 3 consolida os problemas mapeados com severidade 2 na escala de Nielsen. |
 | **6** | O documento formula propostas concretas de reprojeto para subsidiar o Nível 2? | Mayhew (1999) | ✅ Sim | A Seção 7 lista diretrizes práticas de interface e componentes para a prototipação em papel. |
 | **7** | Há disponibilização dos vídeos das sessões gravadas no YouTube e comprovação de TCLE oral? | Diretrizes Pedagógicas FGA/UnB | ✅ Sim | A Seção 8 contém tabela com links do YouTube, container responsivo e registro de consentimento verbal. |
 | **8** | O documento contém a Cláusula Metodológica Obrigatória de isolamento dos dados do piloto? | Barbosa & Silva (2021, p. 276) | ✅ Sim | A Seção 9 apresenta o destaque visual formal atestando a não-computação dos dados do piloto. |
@@ -216,6 +215,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 24/10/2026 | Elaboração inicial do Relato dos Resultados da Avaliação do Storyboard (Nível 1), consolidando os resultados empíricos das entrevistas presenciais, caracterização dos participantes P1 a P3, análise qualitativa de P01 a P08, classificação de problemas na severidade de Nielsen (0 a 4), recomendações de reprojeto para protótipos de papel, container de vídeo, cláusula de isolamento do piloto e checklist de conformidade. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 25/10/2026 | Incorporação do link oficial e player do registro audiovisual da avaliação da Sessão S01 (Vinicius Silva Araruna com participante J.V.S no YouTube). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.2` | 29/10/2026 | Unificação nominal da Persona Primária (Lucas Mendonça), explicitação metodológica de síntese analítica não literal (Bardin, 2011) e refinamento empírico dos achados de P1 em aderência estrita ao vídeo gravado (#132). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
