@@ -4,7 +4,7 @@
 
 | Integrante | Contribuição | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :--- | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) e [Gustavo Antonio](https://github.com/gus-ant) | Elaboração da fundamentação teórica, captura de evidências via agente web, avaliação heurística e classificação (Atende / Viola / Atende Parcialmente) | [Gustavo Antonio](https://github.com/gus-ant) | Gemini & Browser Subagent | Extração de páginas do livro-texto com destaques digitais e navegação automatizada para capturas de tela. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) e [Gustavo Antonio](https://github.com/gus-ant) | Elaboração da fundamentação teórica, captura de evidências via agente web, avaliação heurística e classificação (Atende / Viola / Atende Parcialmente) | [Gustavo Antonio](https://github.com/gus-ant) | Google Gemini (Navegação Assistida) | Extração de páginas do livro-texto com destaques digitais e navegação assistida para capturas de tela. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão do escopo, das inferências e da correspondência entre classificação e evidência disponível | Pendente | Codex (OpenAI) | Apoio à revisão factual e à redação, com base nas capturas registradas neste artefato. |
 
 ---

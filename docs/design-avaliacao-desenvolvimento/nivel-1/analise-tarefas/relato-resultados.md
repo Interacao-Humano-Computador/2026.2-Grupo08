@@ -8,8 +8,8 @@ A Tabela 1 apresenta a matriz de responsabilidades e atribuições na consolida�
 
 | Integrante | Atribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Condução da Sessão T01 (Tarefa 1), análise de discrepâncias cognitivas do HTA e CMN-GOMS (PT01 a PT08), tabulação na escala de Nielsen e formulação das diretrizes de refatoração para protótipos de papel. | 24/10/2026 | Antigravity (LLM) | Apoio na estruturação das tabelas Markdown e checagem de rigor normativo de IHC. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Condução da Sessão T02 (Tarefa 2 - Eventos Presenciais), consolidação dos apontamentos da HTA 2 e revisão de severidade. | 24/10/2026 | Antigravity (LLM) | Suporte na estruturação Markdown e checagem de referências. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Condução da Sessão T01 (Tarefa 1), análise de discrepâncias cognitivas do HTA e CMN-GOMS (PT01 a PT08), tabulação na escala de Nielsen e formulação das diretrizes de refatoração para protótipos de papel. | 24/10/2026 | Google Gemini (LLM) | Apoio na estruturação das tabelas Markdown e checagem de rigor normativo de IHC. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Condução da Sessão T02 (Tarefa 2 - Eventos Presenciais), consolidação dos apontamentos da HTA 2 e revisão de severidade. | 24/10/2026 | Google Gemini (LLM) | Suporte na estruturação Markdown e checagem de referências. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Condução da Sessão T03 (Tarefa 3 - Busca Avançada), consolidação dos apontamentos de tarefas e validação metodológica. | 24/10/2026 | — | Condução de sessão e revisão por pares. |
 
 _Fonte: Elaborada pelos autores, 2026._

@@ -8,7 +8,7 @@ A Tabela 1 documenta a participação dos integrantes da equipe na elaboração 
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Concepção dos roteiros narrativos, confecção manual dos quadros em papel (Opção B), digitalização e elaboração integral da documentação e matriz de rastreabilidade | 24/10/2026 | Antigravity (LLM) | Apoio na estruturação sintática de tabelas Markdown e alinhamento da matriz de rastreabilidade HTA. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Concepção dos roteiros narrativos, confecção manual dos quadros em papel (Opção B), digitalização e elaboração integral da documentação e matriz de rastreabilidade | 24/10/2026 | Google Gemini (LLM) | Apoio na estruturação sintática de tabelas Markdown e alinhamento da matriz de rastreabilidade HTA. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão técnica por pares, conferência de rastreabilidade com a persona Lucas Mendonça e verificação de critérios de legibilidade | 24/10/2026 | — | Revisão e validação crítica conjunta. |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -63,7 +63,7 @@ A narrativa do storyboard materializa diretamente as características e motivaç
 
 A Figura 1 apresenta a prancha completa do Storyboard da Tarefa 1 confeccionada à mão em papel por Vinicius Silva Araruna, contendo a sequência cronológica dos 8 quadros da jornada de interação.
 
-![Figura 1 – Prancha completa desenhada à mão do Storyboard da Tarefa 1 por Vinicius Silva Araruna](../../assets/storyboards/storyboard_Vinicius_Araruna.jpeg)
+![Figura 1 – Prancha completa desenhada à mão do Storyboard da Tarefa 1 por Vinicius Silva Araruna](../../../assets/storyboards/storyboard_Vinicius_Araruna.jpeg)
 
 <p align="center" style="font-size: 0.85em; color: #64748B;">
 <b>Figura 1</b> — Prancha original manuscrita do Storyboard da Tarefa 1 (Opção B).<br>

@@ -8,7 +8,7 @@ A Tabela 1 apresenta a matriz de responsabilidades e atribuições na elaboraç�
 
 | Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA | Propósito do Uso de IA | Hiperligação / Gravação |
 | :--- | :--- | :---: | :---: | :--- | :--- | :---: |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Condução da sessão síncrona de apresentação da Entrega 5, apresentação dos artefatos da Tarefa 2 (Storyboard 2 e HTA), redação da ata e incorporação do vídeo oficial | 25/10/2026 | 22:30 - 22:44 | Antigravity (LLM) | Apoio na estruturação Markdown e alinhamento de referências ABNT | [Gravação no YouTube](https://youtu.be/KO4E0UjvhOw) |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Condução da sessão síncrona de apresentação da Entrega 5, apresentação dos artefatos da Tarefa 2 (Storyboard 2 e HTA), redação da ata e incorporação do vídeo oficial | 25/10/2026 | 22:30 - 22:44 | Google Gemini (LLM) | Apoio na estruturação Markdown e alinhamento de referências ABNT | [Gravação no YouTube](https://youtu.be/KO4E0UjvhOw) |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Condução da sessão síncrona de apresentação da Entrega 5, apresentação dos artefatos da Tarefa 3 (Storyboard 3 e HTA/CTT) e revisão por pares desta ata | 25/10/2026 | 22:30 - 22:44 | — | Participação síncrona na gravação e revisão do registro | [Gravação no YouTube](https://youtu.be/KO4E0UjvhOw) |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Autor dos artefatos de Nível 1 e Nível 2 referenciados nesta sessão (ausência síncrona justificada na gravação) | 25/10/2026 | — | — | Contribuição prévia na confecção dos artefatos | — |
 
