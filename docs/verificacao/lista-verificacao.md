@@ -220,25 +220,25 @@ _Fonte: Elaborada pelos autores com base em Mayhew (1999) e Barbosa & Silva (202
 
 ---
 
-## 7. Checklists da Entrega 4 — Planejamento da Avaliação de Nível 1
+## 7. Checklists da Entrega 4 — Planejamento de Nível 1 (Storyboards e Tarefas)
 
-Os instrumentos de inspeção da Entrega 4 (Planejamento da Avaliação do Storyboard e da Análise de Tarefas e Planejamento dos respectivos Relatos de Resultados) estão consolidados na Tabela 9.
+A Entrega 4 estabelece a esteira preliminar de avaliação formativa no Nível 1 de Mayhew (1999). A Tabela 9 apresenta o checklist normativo para os planejamentos de avaliação e relato de Storyboard e Análise de Tarefas.
 
-**Tabela 9** — Checklist normativo de planejamento de avaliação e relato de Nível 1 (Entrega 4)
+**Tabela 9** — Checklist normativo de planejamento da avaliação de Nível 1 (Entrega 4)
 
 | ID | Item de Verificação / Rubrica Oficial | Origem / Fonte Normativa | Avaliação | Justificativa e Local da Evidência |
 | :---: | :--- | :--- | :---: | :--- |
 | **E4-01** | O planejamento da avaliação segue integralmente as 6 etapas do Framework DECIDE? | Preece et al. (2002); Barbosa et al. (2021) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
-| **E4-02** | São descritos os objetivos da avaliação fundamentados no Ciclo de Mayhew e nas metas formativas de IHC? | Mayhew (1999); Barbosa et al. (2021, pp. 261-262) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
-| **E4-03** | Os métodos de avaliação são definidos com citação, referência ABNT, autor do item e foto do livro? | Barbosa & Silva (2021); Sales (2026) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
-| **E4-04** | As questões práticas detalham recrutamento, quantidade de participantes, perfil, ambiente, ferramentas e orçamento zero? | Barbosa & Silva (2021, p. 273) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
-| **E4-05** | As questões éticas prescrevem script oral do TCLE com consentimento gravado, voluntariedade e anonimização LGPD? | Resolução CNS 510/2016; Lei 13.709/2018 | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
-| **E4-06** | O planejamento do relato estrutura objetivos, métodos, participantes, catálogo de problemas (Nielsen 0 a 4) e reprojeto? | Barbosa et al. (2021, p. 303); Nielsen (1994) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
-| **E4-07** | O cronograma prevê datas, horários e locais para o teste-piloto e para as entrevistas com usuários? | Barbosa & Silva (2021); Sales (2026) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
-| **E4-08** | Cada Storyboard está vinculado formalmente a um fluxo de tarefa modelado no HTA/CTT? | Klemmer (2012); Barbosa & Silva (2021) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
-| **E4-09** | A quantidade de Storyboards e tarefas avaliadas é igual à quantidade de integrantes ativos da equipe? | Plano de Ensino da Disciplina (*Sales, 2026*) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
-| **E4-10** | O teste-piloto está definido com protocolo prévio, data e fotos/evidências teóricas com autoria individual? | Barbosa & Silva (2021, p. 276); Sales (2026) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
-| **E4-11** | Consta expressamente a Cláusula Metodológica Obrigatória de que os dados do piloto NÃO são computados no relato final? | Barbosa & Silva (2021, p. 276) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E4-02** | Os objetivos da avaliação estão explicitados e fundamentados no Ciclo de Mayhew e nas metas formativas de IHC? | Barbosa & Silva (2021, pp. 261-262); Mayhew (1999) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E4-03** | Os métodos de avaliação a serem utilizados estão fundamentados com citação canônica, autor do item e foto do livro? | Barbosa & Silva (2021); Sales (2026) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E4-04** | São detalhadas as questões práticas (recrutamento, perfil de usuário, prazos e custos zero)? | Plano de Ensino (*Sales, 2026*); Barbosa & Silva (2021) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E4-05** | As questões éticas contemplam o TCLE com Script Oral Literal nos primeiros 60 segundos gravados? | Resolução CNS nº 510/2016; Beauchamp & Childress | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E4-06** | Cada desenho do Storyboard está diretamente mapeado a um objetivo da Análise de Tarefas? | Klemmer (2012); Barbosa & Silva (2021) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E4-07** | A quantidade de storyboards é igual à quantidade de integrantes ativos da equipe? | Diretrizes da Disciplina (*Sales, 2026*) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E4-08** | Há definição e protocolo do teste-piloto a ser executado antes da avaliação com usuários? | Barbosa & Silva (2021, p. 276) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E4-09** | Há declaração explícita de que os dados do teste-piloto jamais serão computados nos resultados? | Rigor Metodológico de IHC (*Sales, 2026*) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E4-10** | O planejamento do relato prevê catálogo de problemas com escala de severidade de Nielsen (0 a 4)? | Nielsen (1994); Barbosa et al. (2021) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E4-11** | O cronograma executado da Etapa 4 registra as datas reais e os integrantes responsáveis? | Diretrizes de Governança | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
 | **E4-12** | O roteiro do avaliador prescreve postura neutra, registro de hesitações e catálogo sistemático de falhas? | Barbosa & Silva (2021); Nielsen (1994) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
 | **E4-13** | A gravação em vídeo da apresentação da Entrega 4 está publicada no YouTube em "Não Listado" e tem entre 20 e 30 minutos? | Diretrizes da Disciplina (*Sales, 2026*) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
 
@@ -246,7 +246,35 @@ _Fonte: Elaborada pelos autores com base em Preece et al. (2002), Barbosa et al.
 
 ---
 
-## 8. Template para Heteroavaliação de Grupos Pares
+## 8. Checklists da Entrega 5 — Relatos de Nível 1 e Planejamento de Nível 2 (Protótipo de Papel)
+
+A Entrega 5 cumpre o papel de encerramento formativo da modelagem conceitual e projeção dos testes em papel. A Tabela 10 reúne os 15 critérios objetivos exigidos na inspeção normativa da etapa.
+
+**Tabela 10** — Checklist normativo da Entrega 5 (Relatos de Nível 1 e Protótipo de Papel de Nível 2)
+
+| ID | Item de Verificação / Rubrica Oficial | Origem / Fonte Normativa | Avaliação | Justificativa e Local da Evidência |
+| :---: | :--- | :--- | :---: | :--- |
+| **E5-01** | O arquivo PDF padronizado da entrega foi gerado no formato estipulado (*PlajRelatoStoryBoarProtPapeldNomedoSite.pdf*)? | Instruções da Tarefa no Teams (*Sales, 2026*) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-02** | O PDF e a página da entrega contêm a URL funcional do vídeo de apresentação e link do GitPages? | Diretrizes de Entrega no Aprender 3 | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-03** | O relato do Storyboard documenta a avaliação empírica com discentes voluntários sem condução viciada? | Klemmer (2012); Barbosa & Silva (2021, p. 275) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-04** | O consentimento livre e esclarecido (TCLE) foi gravado em áudio e vídeo com script oral lido nos primeiros 60s? | Resolução CNS nº 510/2016; Bioética | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-05** | O relato da Análise de Tarefas valida objetivos, planos lógicos HTA e regras CMN-GOMS com usuários? | Annett (2003); Barbosa & Silva (2021) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-06** | Os problemas identificados são classificados pela escala de severidade de Nielsen (0 a 4) com plano de reprojeto? | Nielsen (1994); Barbosa & Silva (2021) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-07** | O planejamento da avaliação do Protótipo de Papel segue integralmente o framework DECIDE? | Preece et al. (2002); Mayhew (1999) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-08** | Há delimitação operacional estrita dos papéis de Facilitador e 'Computador Humano' nos testes em papel? | Snyder (2003); Rettig (1994) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-09** | O teste-piloto do protótipo de papel foi gravado integralmente simulando a troca de cartões e tempo de resposta? | Snyder (2003); Barbosa & Silva (2021) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-10** | Há declaração explícita de isolamento total dos dados do teste-piloto de Nível 2? | Metodologia Canônica de IHC | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-11** | O planejamento do relato do protótipo de papel define métricas, taxonomia de erros e estrutura coesa de síntese? | Barbosa & Silva (2021, Cap. 11) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-12** | O menu de navegação está livre de páginas placeholder ('Nada a ver aqui por enquanto' ou rascunhos)? | Padrão Editorial e Docs as Code | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-13** | Todas as tabelas e figuras possuem títulos, legendas, fontes ABNT e chamadas explícitas no texto? | Padrão Editorial FGA/UnB | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-14** | As tabelas de contribuição e históricos de versão possuem indicação de autores e revisores com links funcionais? | Fagan (1976); Governança da Disciplina | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+| **E5-15** | Há seção de agradecimentos declarando com transparência e supervisão humana o escopo do uso de IA Generativa? | Diretrizes da SBC (2023); Sales (2026) | [ ] Sim (Conforme)<br>[ ] Não (Não Conforme)<br>[ ] Incompleto<br>[ ] Não se Aplica (N/A) | |
+
+_Fonte: Elaborada pelos autores com base em Snyder (2003), Nielsen (1994) e Sales (2026), 2026._
+
+---
+
+## 9. Template para Heteroavaliação de Grupos Pares
 
 A Tabela 10 fornece o modelo padronizado neutro utilizado pela equipe nas sessões de heteroavaliação dos grupos pares (Grupo -1 e Grupo +1).
 
@@ -265,30 +293,32 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ---
 
-## 8. Lista de Verificação da Técnica (Elaboração de Checklists)
+## 10. Lista de Verificação da Técnica (Elaboração de Checklists)
 
-A Tabela 10 apresenta a autoavaliação da conformidade metodológica do artefato de listas de verificação frente aos critérios científicos de inspeção de software (*Fagan, 1976; Gilb & Graham, 1993; Barbosa & Silva, 2021*).
+A Tabela 11 apresenta a autoavaliação da conformidade metodológica do artefato de listas de verificação frente aos critérios científicos de inspeção de software (*Fagan, 1976; Gilb & Graham, 1993; Barbosa & Silva, 2021*).
 
-**Tabela 10** — Lista de verificação da técnica de elaboração de checklists
+**Tabela 11** — Lista de verificação da técnica de elaboração de checklists
 
 | ID | Questão Avaliada | Origem / Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Artefato |
 | :---: | :--- | :--- | :---: | :--- |
 | **CHK-01** | O artefato está estruturado estritamente como template normativo em branco (desacoplado de inspeções)? | Fagan (1976); Gilb & Graham (1993) | ✅ Sim | O documento disponibiliza os instrumentos neutros em branco; as avaliações empíricas residem em [grupo08.md](grupo08.md). |
 | **CHK-02** | Há fundamentação teórica formal sobre o método de inspeção de software e suas 6 fases canônicas? | Fagan (1976); Barbosa & Silva (2021, p. 286) | ✅ Sim | A Seção 2 detalha as etapas de Fagan (Planejamento a Acompanhamento) com linha formal de autoria de Vinicius Silva Araruna. |
-| **CHK-03** | Os checklists abrangem todas as etapas desenvolvidas até o momento (Entregas 1, 2 e 3)? | Plano de Ensino da Disciplina (*Sales, 2026*) | ✅ Sim | As Seções 4, 5 e 6 cobrem exaustivamente as rubricas das Entregas 1, 2 e 3 da disciplina de IHC. |
+| **CHK-03** | Os checklists abrangem todas as etapas desenvolvidas até o momento (Entregas 1 a 5)? | Plano de Ensino da Disciplina (*Sales, 2026*) | ✅ Sim | As Seções 4, 5 e 6 cobrem exaustivamente as rubricas das Entregas 1, 2 e 3 da disciplina de IHC. |
 | **CHK-04** | Cada critério de verificação possui identificador único (ID) e referência explícita à fonte normativa canônica? | Gilb & Graham (1993) | ✅ Sim | Todas as tabelas contêm as colunas 'ID' e 'Origem / Fonte Normativa' indicando a literatura ou rubrica. |
 | **CHK-05** | Todas as tabelas possuem chamadas formais explícitas antes ou junto de sua apresentação no texto? | Padrão Editorial FGA/UnB | ✅ Sim | 100% das 11 tabelas do documento possuem chamadas textuais prévias (zero tabelas órfãs). |
 | **CHK-06** | A documentação está 100% livre de delimitadores matemáticos LaTeX crus, utilizando tipografia UTF-8 nativa? | Diretrizes de Renderização MkDocs Material | ✅ Sim | Todos os operadores e símbolos utilizam caracteres UTF-8 nativos (`×`, `+`, `−`, `—`, `≥`, `≤`). |
+
+| `2.0` | 27/10/2026 | Expansão dos instrumentos normativos de inspeção: incorporação dos checklists em branco da Entrega 4 (Tabela 8 - 12 critérios) e da Entrega 5 (Tabela 9 - 15 critérios), renumerando matrizes e alinhando com a heteroavaliação. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores com base em Fagan (1976) e Sales (2026), 2026._
 
 ---
 
-## 9. Histórico de Versão
+## 11. Histórico de Versão
 
-A Tabela 11 documenta o histórico evolutivo deste artefato normativo.
+A Tabela 12 documenta o histórico evolutivo deste artefato normativo.
 
-**Tabela 11** — Histórico de versão do documento
+**Tabela 12** — Histórico de versão do documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
@@ -298,7 +328,7 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ---
 
-## 10. Referências Bibliográficas
+## 12. Referências Bibliográficas
 
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier / Campus, 2010.
 

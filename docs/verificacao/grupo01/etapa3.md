@@ -1,4 +1,12 @@
-# Avaliação do Grupo +1 — Grupo 01 (Microsoft Teams)
+# Avaliação do Grupo +1 — Grupo 01 (Microsoft Teams) — Etapa 3
+
+<div class="dp-page-nav" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.2rem 0 1.8rem 0; padding: 0.8rem 1rem; background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px;" markdown="1">
+
+[:material-hub: **Hub Central (Visão Geral)**](index.md){ .md-button }
+[:material-rocket-launch: **Etapa 5 (Relatos Nível 1 e Protótipo de Papel)**](etapa5.md){ .md-button }
+[:material-clipboard-check: **Etapa 3 (Princípios, Metas e Guia de Estilo)**](etapa3.md){ .md-button .md-button--primary }
+
+</div>
 
 ## Tabela de Contribuição
 
@@ -21,6 +29,9 @@ _Fonte: Elaborada pelos autores, 2026._
 Este documento consolida o **relatório formal de avaliação técnica e acadêmica do Grupo +1 (Grupo 01)** referente à **Etapa 3** (Análise de Requisitos: Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo), conduzido pelos discentes **Vinicius Silva Araruna**, **Gustavo Antonio Rodrigues e Silva** e **Edvaldo Soares Brasileiro Filho**, representando o **Grupo 08** na disciplina de Interação Humano-Computador (FGA0173 — Turma 01), ministrada pelo Prof. Dr. André Barros de Sales na Faculdade UnB Gama da Universidade de Brasília (FGA/UnB).
 
 A dinâmica de avaliação entre grupos da disciplina estabelece que a equipe audite os artefatos produzidos pelo grupo sucessor na escala cíclica (Grupo N + 1, onde o Grupo 08 inspeciona o Grupo 01), aplicando rigorosamente os critérios oficiais contidos no Plano de Ensino da disciplina (*Sales, 2026*) e os fundamentos consolidados na literatura canônica de IHC (*Barbosa et al., 2021; Mayhew, 1999; Nielsen, 1994; ISO 9241-11, 2019; Rogers, Sharp & Preece, 2013; W3C/WCAG 2.2, 2023*). O objetivo desta auditoria é assegurar a excelência científica, apontar fragilidades de forma construtiva e fornecer recomendações práticas para subsidiar os ajustes pós-feedback da equipe auditada.
+
+_Autor do Item Teórico: [Vinicius Silva Araruna](https://github.com/ViniciusA05)_
+*(Fundamentação teórica de inspeção formal em Fagan, 1976 e Barbosa et al., 2021).*
 
 ---
 
@@ -47,8 +58,8 @@ A Tabela 1 sintetiza as informações cadastrais, o ambiente de versionamento e 
 _Fonte: Grupo 08, 2026._
 
 !!! info "Relatório em PDF Padronizado para Entrega Acadêmica"
-    Em conformidade com a exigência formal do enunciado do Aprender 3 (*"InspecçãoGrupomais1Projeto PrincGeraisMetasUsabGuiaEstiloSite.pdf"*), o documento consolidado da inspeção com cabeçalho institucional UnB/FGA, paginação dinâmica e quadro analítico completo está disponível para download:
-    [:material-file-pdf-box: **InspecçãoGrupomais1Projeto PrincGeraisMetasUsabGuiaEstiloSite.pdf**](../assets/relatorios/InspecçãoGrupomais1Projeto PrincGeraisMetasUsabGuiaEstiloSite.pdf)
+    Em conformidade com a exigência formal do enunciado do Aprender 3 (*"InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf"*), o documento consolidado da inspeção com cabeçalho institucional UnB/FGA, paginação dinâmica e quadro analítico completo está disponível para download:
+    [:material-file-pdf-box: **InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf**](../../assets/relatorios/InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf)
 
 ---
 

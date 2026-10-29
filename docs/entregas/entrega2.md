@@ -10,7 +10,7 @@ Abaixo estão listados todos os artefatos produzidos para esta etapa, conforme o
 * ⚖️ **[Aspectos Éticos e TCLE](../analise-requisitos/aspectos-eticos.md)**: Definição dos princípios bioéticos, garantia de não-maleficência e o Termo de Consentimento Livre e Esclarecido.
 * 🎭 **[Cenários](../analise-requisitos/cenarios.md)**: Narrativas contextuais das interações dos usuários com o sistema.
 * ⚙️ **[Análise de Tarefas](../analise-requisitos/analise-tarefas.md)**: Decomposição e modelagem das tarefas utilizando as técnicas de **HTA (Análise Hierárquica de Tarefas)** e **GOMS/KLM**.
-* 🔍 **[Avaliação do Grupo -1 (Grupo 07)](../verificacao/grupo07.md)**: Auditoria técnica e de conformidade acadêmica dos artefatos da Etapa 2 do portal PCI Concursos (realizada por Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva).
+* 🔍 **[Avaliação do Grupo -1 (Grupo 07)](../verificacao/grupo07/index.md)**: Auditoria técnica e de conformidade acadêmica dos artefatos da Etapa 2 do portal PCI Concursos (realizada por Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva).
 
 ---
 
