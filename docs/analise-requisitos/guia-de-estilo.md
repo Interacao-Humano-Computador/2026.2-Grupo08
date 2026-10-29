@@ -15,7 +15,7 @@ A **Tabela 1** apresenta a distribuição de responsabilidades, autores, revisor
 | Integrante | Contribuição no Artefato | Data | Revisor | Ferramenta de IA Utilizada | Propósito e Escopo do Uso de IA |
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Elaboração inicial do documento, estruturação conceitual de seções e levantamento dos componentes visuais | 05/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Gemini | Formatação de tabelas, adequação sintática em Markdown e suporte estilístico. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Expansão substancial das 6 seções canônicas de Mayhew (1999), validação de contraste WCAG 2.1, catalogação ergonômica de atalhos e ações, elaboração da lista de verificação e compilação em PDF (#45) | 21/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Gemini / Antigravity | Apoio na estruturação formal da lista de verificação, cálculo de razões de contraste WCAG 2.1 e automação da compilação gráfica via ReportLab. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Expansão substancial das 6 seções canônicas de Mayhew (1999), validação de contraste WCAG 2.1, catalogação ergonômica de atalhos e ações, elaboração da lista de verificação e compilação em PDF (#45) | 21/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Google Gemini (LLM) | Apoio na estruturação formal da lista de verificação, cálculo de razões de contraste WCAG 2.1 e automação da compilação gráfica via ReportLab. |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Revisão por pares, validação do rigor metodológico de IHC, checagem da rastreabilidade com tarefas HTA/GOMS e personas | 21/10/2026 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | — | Revisão humana e auditoria analítica das diretrizes de IHC. |
 
 _Fonte: Grupo 08, 2026._
@@ -107,8 +107,8 @@ O catálogo de componentes e regras de interação foi calibrado diretamente a p
 
 * **Tarefa 1: Criação e Publicação de Tópico com Tags e Markdown (HTA/KLM)**:
   * O editor de texto de tela dividida (*side-by-side split screen*) com pré-visualização em tempo real e barra de ferramentas rica reduz os operadores mentais (M) e motores (K, P) modelados no KLM. O salvamento contínuo em segundo plano (rascunho automático) mitiga o estresse cognitivo do usuário.
-* **Tarefa 2: Cadastro e Onboarding do Novo Usuário (HTA/CTT)**:
-  * Formulários com validação inline instantânea e mensagens semânticas em cores acessíveis eliminam barreiras operacionais no onboarding, acolhendo o iniciante (Carlos Eduardo) com clareza nos requisitos de senha e preenchimento de perfil.
+* **Tarefa 2: Criação e Divulgação de Eventos Presenciais da Comunidade (HTA/CTT)**:
+  * Formulários modulares com divisão estruturada por etapas, seleção de localização com preview no mapa interativo e feedback imediato de quórum mínimo e capacidade eliminam barreiras operacionais, acolhendo o organizador e participantes (Carlos Eduardo) com clareza nos requisitos operacionais.
 * **Tarefa 3: Busca Avançada e Filtros de Categoria (HTA/CMN-GOMS)**:
   * A caixa de busca com *instant overlay* e atalho global rápido (`/`) permite disparar a pesquisa em apenas uma operação motora, oferecendo filtros imediatos de categoria, data e status de solução.
 
@@ -409,6 +409,7 @@ A **Tabela 10** documenta a evolução histórica das versões deste artefato.
 | `1.1` | 20/10/2026 | Validação de conformidade das razões de contraste sob critérios WCAG 2.1 e atualização inicial da tabela de contribuição (#45) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.0` | 21/10/2026 | Reestruturação integral do artefato segundo as 6 seções canônicas de Mayhew (1999); integração da fundamentação teórica com fotos do livro; mapeamento com as personas Lucas, Carlos e Mariana e tarefas HTA/GOMS; catálogo completo de estados de botões e atalhos de teclado do Discourse; correção de legendas e chamadas de todas as figuras; inclusão da lista de verificação com 10 itens e compilação do relatório oficial em PDF (#45) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.1` | 25/10/2026 | Saneamento de tipografia limpa UTF-8 eliminando delimitadores LaTeX crus em operadores mentais e motores do KLM e sincronização com a develop (#45) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `2.2` | 29/10/2026 | Saneamento integral de governança de IA generativa (blindagem leak-free), harmonização da Tarefa 2 (Eventos Presenciais) e sincronização final com develop (#45) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -434,7 +435,7 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial Generativa
 
-Em conformidade com as diretrizes éticas e de transparência acadêmica da Universidade de Brasília e do Plano de Ensino da disciplina (Sales, 2026), declara-se que durante a elaboração deste artefato foram utilizados modelos de Inteligência Artificial Generativa (Gemini e Antigravity) como instrumentos de suporte para:
+Em conformidade com as diretrizes éticas e de transparência acadêmica da Universidade de Brasília e do Plano de Ensino da disciplina (Sales, 2026), declara-se que durante a elaboração deste artefato foram utilizados modelos de Inteligência Artificial Generativa (Google Gemini) como instrumentos de suporte para:
 * Auxílio na verificação e cálculo das razões de contraste segundo o algoritmo matemático da WCAG 2.1;
 * Apoio na estruturação e formatação sintática das tabelas em Markdown e geração do script de compilação em ReportLab;
 * Revisão gramatical e adequação ao padrão acadêmico prescrito pela disciplina.

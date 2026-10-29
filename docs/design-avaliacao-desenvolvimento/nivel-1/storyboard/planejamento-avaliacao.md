@@ -152,7 +152,7 @@ A Tabela 3 apresenta a distribuição das sessões de avaliação do storyboard,
 
 | Sessão | Data | Horário | Storyboard Avaliado | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
-| **S01** | 22/10/2026 | 14:00 - 14:40 | Storyboard 1 (Markdown e Tags com IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
+| **S01** | 22/10/2026 | 14:00 - 14:40 | [Storyboard 1 (Markdown e Tags com IA)](../../storyboards.md#storyboard-1-topico-markdown) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando CIC/UnB) | Presencial — Residência do Participante P1 (Ambiente Domiciliar) |
 | **S02** | 22/10/2026 | 15:00 - 15:40 | [Storyboard 2 (Criação de Eventos Presenciais)](../../storyboards.md#2-storyboard-2-criacao-e-divulgacao-de-workshop-presencial-de-linux-gustavo-antonio) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 | **S03** | 22/10/2026 | 16:00 - 16:40 | Storyboard 3 (Busca Avançada) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas de Estudo UAC) |
 
@@ -206,7 +206,7 @@ A Tabela 4 apresenta o modelo formal que será utilizado no documento de consoli
 
 | ID do Problema | Storyboard / Tarefa | Quadro Afetado | Descrição do Problema de Usabilidade | Gravidade Heurística (Leve / Média / Grave) | Recomendação de Reprojeto para a Equipe |
 | :---: | :--- | :---: | :--- | :---: | :--- |
-| **PROB-ST-01** | Tarefa 1 (Markdown e Tags) | Quadro 3 | Exemplo: Usuário não entendeu por que o código de terminal quebrou ao ser colado. | Média | Adicionar no balão de fala menção explícita à ausência de delimitadores de código. |
+| **PROB-ST-01** | Tarefa 1 (Markdown e Tags com Integração de IA Semântica) | Quadro 3 | Exemplo: Usuário não entendeu por que o código de terminal quebrou ao ser colado. | Média | Adicionar no balão de fala menção explícita à ausência de delimitadores de código. |
 | **PROB-ST-02** | Tarefa 2 (Criação de Eventos Presenciais) | Quadro 6 | Exemplo: Participante considerou confusa a transição entre o endereço digitado e o pin do mapa. | Média | Inserir campo de autocompletar e botão explícito 'Recentralizar mapa'. |
 | **PROB-ST-03** | Tarefa 3 (Busca Avançada) | Quadro 2 | Exemplo: Participante esperava filtros automáticos por versão da distro Linux. | Leve | Exibir filtro de versão destacado na interface de busca do storyboard. |
 

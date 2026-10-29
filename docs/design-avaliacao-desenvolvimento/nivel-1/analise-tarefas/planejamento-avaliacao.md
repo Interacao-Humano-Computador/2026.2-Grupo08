@@ -24,7 +24,7 @@ A **Análise de Tarefas** (representada pela Análise Hierárquica de Tarefas �
 
 O presente documento estabelece o planejamento detalhado para a avaliação das três tarefas centrais do **Fórum Diolinux Plus** modeladas na Etapa 2, orientando-se estritamente para o papel de **Estudante / Usuário Aprendiz** (iniciante ou intermediário em Linux):
 
-- **Tarefa 1:** Criação e Publicação de Tópico de Dúvida Técnica com Tags e Markdown (autor: Vinicius Silva Araruna);
+- **Tarefa 1:** Criação e Publicação de Tópico de Dúvida Técnica com Tags e Markdown com Integração de IA Semântica (autor: Vinicius Silva Araruna);
 - **Tarefa 2:** Criação de Eventos Presenciais da Comunidade — CF02 (autor: Gustavo Antonio);
 - **Tarefa 3:** Busca Avançada e Filtros Facetados de Categoria e Distribuição Linux (autor: Edvaldo Soares).
 
@@ -99,9 +99,9 @@ A Tabela 2 apresenta o desdobramento dos objetivos em perguntas investigativas e
 
 | Tarefa / Escopo | Nº | Pergunta Investigativa Específica | Foco de Observação e Critério de Sucesso |
 | :--- | :---: | :--- | :--- |
-| **Tarefa 1: Publicação com Tags e Markdown** | **PT01** | Ao precisar tirar uma dúvida técnica sobre Linux, você costuma redigir o corpo da dúvida antes ou depois de escolher a categoria e as tags? | Avaliar se a ordem sequencial do Plano 0 da HTA (título → categoria → tags → redação) reflete o fluxo espontâneo do usuário. |
-| **Tarefa 1: Publicação com Tags e Markdown** | **PT02** | Quando você cola um comando ou log extenso do terminal, você utiliza a barra de ferramentas do editor ou atalhos de Markdown (como crases triplas)? | Confrontar os métodos alternativos modelados no CMN-GOMS e verificar o grau de conhecimento sobre blocos de código cercados. |
-| **Tarefa 1: Publicação com Tags e Markdown** | **PT03** | O painel lateral de sugestão de tópicos semelhantes durante a digitação do título é útil ou interfere na sua concentração? | Avaliar a operação 2.2 da HTA e a receptividade do estudante frente aos mecanismos de desduplicação do Discourse. |
+| **Tarefa 1: Publicação com Tags, Markdown e Integração de IA Semântica** | **PT01** | Ao precisar tirar uma dúvida técnica sobre Linux, você costuma redigir o corpo da dúvida antes ou depois de escolher a categoria e as tags? | Avaliar se a ordem sequencial do Plano 0 da HTA (título → categoria → tags → redação) reflete o fluxo espontâneo do usuário. |
+| **Tarefa 1: Publicação com Tags, Markdown e Integração de IA Semântica** | **PT02** | Quando você cola um comando ou log extenso do terminal, você utiliza a barra de ferramentas do editor ou atalhos de Markdown (como crases triplas)? | Confrontar os métodos alternativos modelados no CMN-GOMS e verificar o grau de conhecimento sobre blocos de código cercados. |
+| **Tarefa 1: Publicação com Tags, Markdown e Integração de IA Semântica** | **PT03** | O painel lateral de sugestão de tópicos semelhantes durante a digitação do título é útil ou interfere na sua concentração? | Avaliar a operação 2.2 da HTA e a receptividade do estudante frente aos mecanismos de desduplicação do Discourse. |
 | **Tarefa 2: Criação de Eventos Presenciais** | **PT04** | Ao cadastrar o local de um evento presencial, você prefere digitar o endereço completo ou utilizar o mapa interativo para ajustar o marcador? | Validar a flexibilidade do Plano 3 da HTA (Operação 3.1 vs. 3.2) e a usabilidade da integração de mapas. |
 | **Tarefa 2: Criação de Eventos Presenciais** | **PT05** | Em relação aos ingressos e vagas, as opções de modalidade (gratuito vs. pago com rateio) e a definição de lotação máxima ficaram claras? | Avaliar a percepção do usuário sobre o controle de capacidade física e a configuração de taxas na etapa 4 da HTA. |
 | **Tarefa 3: Busca Avançada e Filtros** | **PT06** | Ao buscar solução para uma falha no Linux (ex.: problema de Wi-Fi), quais informações você busca primeiro na listagem de resultados? | Verificar a relevância atribuída a títulos, tags, data de postagem e ao badge de 'Solução Aceita' na HTA. |
@@ -156,7 +156,7 @@ A Tabela 3 apresenta a distribuição das sessões de avaliação da análise de
 | Sessão / Etapa | Data | Horário | Tarefa Investigada | Avaliador Responsável | Participante Convidado | Local Físico (Ambiente Silencioso) |
 | :---: | :---: | :---: | :--- | :--- | :--- | :--- |
 | **Teste-Piloto** | 21/10/2026 | 14:00 - 14:45 | Autoensaio / Calibração | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Avaliador Solo | Presencial — FGA/UnB (Salas UAC) |
-| **ST01 (T01)** | 22/10/2026 | 14:20 - 14:40 | Tarefa 1 (Markdown e Tags com IA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
+| **ST01 (T01)** | 22/10/2026 | 14:20 - 14:40 | Tarefa 1 (Markdown e Tags com Integração de IA Semântica) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando CIC/UnB) | Presencial — Residência do Participante P1 (Ambiente Domiciliar) |
 | **ST02 (T02)** | 22/10/2026 | 15:20 - 15:40 | Tarefa 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
 | **ST03 (T03)** | 22/10/2026 | 16:20 - 16:40 | Tarefa 3 (Busca Avançada e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | Participante 3 (P3 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
 | **ST04 (Reserva)** | 23/10/2026 | 10:00 - 10:40 | Tarefa Reserva / Validação Cruzada | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 4 (P4 — Graduando UnB) | Presencial — FGA/UnB (Salas UAC) |
@@ -205,7 +205,7 @@ A Tabela 4 apresenta o modelo formal que será utilizado no documento de consoli
 
 | ID da Discrepância | Tarefa Avaliada | Elemento da HTA (Objetivo / Operação / Plano) | Descrição da Divergência com o Modelo Mental | Impacto na Eficiência do Usuário | Proposta de Reestruturação do Modelo de Tarefas |
 | :---: | :--- | :--- | :--- | :---: | :--- |
-| **DISC-HTA-01** | Tarefa 1 (Markdown e Tags) | Plano 0 (Sequência 1 a 5) | Exemplo: Usuário redige texto antes de preencher categoria/tags. | Médio | Flexibilizar Plano 0 para permitir ordem livre entre os passos 2, 3 e 4. |
+| **DISC-HTA-01** | Tarefa 1 (Markdown e Tags com Integração de IA Semântica) | Plano 0 (Sequência 1 a 5) | Exemplo: Usuário redige texto antes de preencher categoria/tags. | Médio | Flexibilizar Plano 0 para permitir ordem livre entre os passos 2, 3 e 4. |
 | **DISC-HTA-02** | Tarefa 2 (Criação de Eventos Presenciais) | Operação 3.2 (Ajuste no Mapa) | Exemplo: Participante teve dificuldade em posicionar o pin sem o campo de busca. | Médio | Tornar obrigatório o preenchimento prévio do endereço para centralizar o mapa. |
 | **DISC-HTA-03** | Tarefa 3 (Busca e Filtros) | Operação 2.2 (Filtros Avançados) | Exemplo: Usuário tenta digitar filtro de distro direto no campo simples. | Médio | Modelar suporte a operadores inline de busca (ex.: `distro:mint`). |
 

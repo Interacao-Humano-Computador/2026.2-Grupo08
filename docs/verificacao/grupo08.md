@@ -208,7 +208,60 @@ _Fonte: Grupo 08, 2026._
 
 ---
 
-## 4. Resumo Gráfico de Conformidade
+## 4. Verificação da Entrega 4 — Planejamento de Nível 1 (Storyboards e Tarefas)
+
+A conformidade dos artefatos de planejamento da avaliação de Storyboards e Análise de Tarefas produzidos pelo Grupo 08 foi auditada frente aos 12 critérios canônicos de Nível 1. A Tabela 7 documenta os resultados da autoavaliação.
+
+**Tabela 7** — Autoavaliação da Entrega 4 do Grupo 08 (Planejamento de Nível 1)
+
+| ID | Questão / Critério da Rubrica Oficial | Resposta | Evidência e Observação Factual no Repositório |
+| :---: | :--- | :---: | :--- |
+| **1** | O planejamento da avaliação segue o framework DECIDE? | ✅ Sim | Estruturado integralmente nas 6 etapas (D-E-C-I-D-E) em `planejamento-avaliacao.md` de Storyboard e Tarefas. |
+| **2** | Os objetivos da avaliação estão explicitados e categorizados? | ✅ Sim | Categorizados formalmente nas metas de apropriação, alternativas de design e problemas de interface (Barbosa et al., 2021). |
+| **3** | Os métodos de avaliação estão fundamentados com citação canônica e autoria? | ✅ Sim | Inspeção cruzada por checklist e investigação empírica fundamentadas em Barbosa et al. e Mayhew, com autoria de Vinicius Araruna. |
+| **4** | São detalhadas as questões práticas (recrutamento, perfil, cronograma e custo zero)? | ✅ Sim | Documentadas em `questoes-praticas-cronograma.md` com perfil de estudante, recrutamento de discentes e orçamento nulo. |
+| **5** | As questões éticas contemplam o TCLE com Script Oral Literal nos primeiros 60 segundos? | ✅ Sim | Transcrição literal do script oral do pesquisador em destaque em `aspectos-eticos.md` e nos roteiros de avaliação. |
+| **6** | Cada desenho do Storyboard está diretamente mapeado a um objetivo da Análise de Tarefas? | ✅ Sim | Storyboard 1 (Tópico com IA), Storyboard 2 (Workshop Presencial) e Storyboard 3 (Grade de Agendamento) mapeados a CF01, CF02 e CF03. |
+| **7** | A quantidade de storyboards é igual à quantidade de integrantes ativos da equipe? | ✅ Sim | 3 storyboards de 8 quadros em papel A4 (300 DPI) para os 3 membros ativos (Vinicius, Gustavo e Edvaldo). |
+| **8** | Há definição e protocolo do teste-piloto a ser executado antes da avaliação com usuários? | ✅ Sim | Documentado em `teste-piloto.md` com papéis de avaliador/observador, checklist de equipamentos e gravação prévia. |
+| **9** | Há declaração explícita de que os dados do teste-piloto jamais serão computados nos resultados? | ✅ Sim | Cláusula mandatória explícita em `teste-piloto.md` assegurando que os dados do piloto são isolados da amostra de resultados. |
+| **10** | O planejamento do relato prevê catálogo de problemas com escala de severidade de Nielsen? | ✅ Sim | Previsto em `planejamento-relato-resultados.md` de Storyboard e Tarefas com taxonomia de erros e escala de 0 a 4. |
+| **11** | O cronograma executado da Etapa 4 registra as datas reais e os integrantes responsáveis? | ✅ Sim | Registrado formalmente na Seção 4 de `cronograma-executado.md` com datas e responsáveis ativos. |
+| **12** | O vídeo de apresentação oficial da equipe foi publicado como 'Não Listado' no YouTube? | ✅ Sim | Vídeo da Entrega 4 incorporado na página de síntese `entrega4.md` sob regime Não Listado. |
+
+_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+
+---
+
+## 5. Verificação da Entrega 5 — Relatos de Resultados de Nível 1 e Protótipo de Papel (Nível 2)
+
+A Entrega 5 consolida os achados empíricos das coletas presenciais de Nível 1 e inaugura a esteira de prototipação em papel. A Tabela 8 documenta a autoavaliação dos 15 critérios objetivos da etapa.
+
+**Tabela 8** — Autoavaliação da Entrega 5 do Grupo 08 (Relatos de Nível 1 e Protótipo de Papel de Nível 2)
+
+| ID | Questão / Critério da Rubrica Oficial | Resposta | Evidência e Observação Factual no Repositório |
+| :---: | :--- | :---: | :--- |
+| **1** | O arquivo PDF padronizado da entrega foi gerado no formato estipulado? | ✅ Sim | Arquivo `PlajRelatoStoryBoarProtPapeldDiolinuxPlus.pdf` gerado na pasta `docs/assets/relatorios/`. |
+| **2** | O PDF e a página da entrega contêm a URL funcional do vídeo de apresentação e link do GitPages? | ✅ Sim | Vídeo oficial (`KO4E0UjvhOw`), vídeo individual (`cRSrm-Zc2no`) e links diretos para o GitPages integrados em `entrega5.md`. |
+| **3** | O relato do Storyboard documenta a avaliação empírica com discentes voluntários? | ✅ Sim | Relato consolidado em `relato-resultados.md` de Storyboard com sessões empíricas presenciais com discentes voluntários da UnB. |
+| **4** | O consentimento livre e esclarecido (TCLE) foi gravado com script oral lido nos primeiros 60s? | ✅ Sim | Todas as gravações iniciam com a leitura síncrona do script oral literal do TCLE e consentimento registrado em vídeo. |
+| **5** | O relato da Análise de Tarefas valida objetivos, planos lógicos HTA e regras CMN-GOMS com usuários? | ✅ Sim | Documentado em `relato-resultados.md` de Tarefas com matriz de discrepâncias de planos e percursos cognitivos guiados. |
+| **6** | Os problemas identificados são classificados pela escala de severidade de Nielsen (0 a 4) com reprojeto? | ✅ Sim | Matrizes de problemas (PROB-ST e PROB-AT) categorizadas na escala de 0 a 4 com recomendações de reprojeto para Nível 2. |
+| **7** | O planejamento da avaliação do Protótipo de Papel segue integralmente o framework DECIDE? | ✅ Sim | Artefato `planejamento-avaliacao.md` de Nível 2 estruturado nas 6 dimensões clássicas do DECIDE para prototipação em papel. |
+| **8** | Há delimitação operacional estrita dos papéis de Facilitador e 'Computador Humano' nos testes em papel? | ✅ Sim | Detalhado em conformidade com Carolyn Snyder (2003) e Marc Rettig (1994), proibindo dicas verbais e definindo troca ágil de papéis. |
+| **9** | O teste-piloto do protótipo de papel foi planejado e gravado simulando a troca de cartões e tempo de resposta? | ✅ Sim | Protocolo do teste-piloto de Nível 2 com roteiro de tarefas táteis e checklist de componentes de interface em papel. |
+| **10** | Há declaração explícita de isolamento total dos dados do teste-piloto de Nível 2? | ✅ Sim | Declaração mandatória de que os dados coletados no teste-piloto jamais serão computados nos resultados finais. |
+| **11** | O planejamento do relato do protótipo de papel define métricas, taxonomia de erros e estrutura de síntese? | ✅ Sim | Artefato `planejamento-relato-resultados.md` de Nível 2 padroniza a consolidação integrada do grupo. |
+| **12** | O menu de navegação está livre de páginas placeholder ('Nada a ver aqui por enquanto' ou rascunhos)? | ✅ Sim | Navegação do GitPages 100% limpa e funcional, sem placeholders ou avisos de em construção. |
+| **13** | Todas as tabelas e figuras possuem títulos, legendas, fontes ABNT e chamadas explícitas no texto? | ✅ Sim | Rigorosamente inspecionado com 100% dos elementos visuais chamados e numerados no texto (zero órfãos). |
+| **14** | As tabelas de contribuição e históricos de versão possuem indicação de autores e revisores com links funcionais? | ✅ Sim | Todas as páginas da Entrega 5 possuem tabela de contribuição e histórico com links GitHub ativos para autores e revisores. |
+| **15** | Há seção de agradecimentos declarando com transparência e supervisão humana o escopo do uso de IA Generativa? | ✅ Sim | Seções formais de agradecimentos presentes em todos os artefatos de Nível 1 e Nível 2, atestando supervisão humana. |
+
+_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+
+---
+
+## 6. Resumo Gráfico e Consolidado de Conformidade
 
 ### Resumo da Entrega 1 (22 itens)
 
@@ -257,48 +310,90 @@ _Fonte: Grupo 08, 2026._
 <div class="dp-checklist-summary">
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">✅ Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:28%">5 / 18</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:83%">15 / 18</div></div>
   </div>
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">⚠️ Pendente</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:50%">9 / 18</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:17%">3 / 18</div></div>
   </div>
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">❌ Não Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:22%">4 / 18</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:0%">0 / 18</div></div>
   </div>
 </div>
 
-**Taxa Ponderada da Entrega 3: 52,8%** (5 de 18 critérios atendidos plenamente, 9 incompletos e 4 não conformes).
+**Taxa Ponderada da Entrega 3: 91,7%** (15 critérios plenamente atendidos e 3 pendentes sanados nos PRs #96 e #97).
 
 ---
 
-### Resumo Geral Consolidado (70 itens)
+### Resumo da Entrega 4 (12 itens)
+
+<div class="dp-checklist-summary">
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">✅ Atendido</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:100%">12 / 12</div></div>
+  </div>
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">⚠️ Pendente</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:0%">0 / 12</div></div>
+  </div>
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">❌ Não Atendido</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:0%">0 / 12</div></div>
+  </div>
+</div>
+
+**Conformidade da Entrega 4: 100%** (12 de 12 critérios atendidos plenamente).
+
+---
+
+### Resumo da Entrega 5 (15 itens)
+
+<div class="dp-checklist-summary">
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">✅ Atendido</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:100%">15 / 15</div></div>
+  </div>
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">⚠️ Pendente</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:0%">0 / 15</div></div>
+  </div>
+  <div class="dp-bar-wrap">
+    <div class="dp-bar-label">❌ Não Atendido</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:0%">0 / 15</div></div>
+  </div>
+</div>
+
+**Conformidade da Entrega 5: 100%** (15 de 15 critérios atendidos plenamente).
+
+---
+
+### Resumo Geral Consolidado (97 itens auditados)
 
 <div class="dp-checklist-summary">
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">✅ Total Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:81%">57 / 70</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:97%">94 / 97</div></div>
   </div>
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">⚠️ Total Pendente</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:13%">9 / 70</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:3%">3 / 97</div></div>
   </div>
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">❌ Total Não Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:6%">4 / 70</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:0%">0 / 97</div></div>
   </div>
 </div>
 
-**Taxa Ponderada Geral Consolidada: 87,9%** (57 critérios plenamente atendidos, 9 pendentes e 4 não atendidos em todas as etapas).
+**Taxa Ponderada Geral Consolidada do Grupo 08: 98,5%** (94 critérios plenamente atendidos e 3 pendentes parciais ao longo de todas as 5 entregas).
 
 ---
 
 ## Histórico de Versão
 
-A Tabela 9 documenta o histórico de versões deste artefato.
+A Tabela 10 documenta o histórico de versões deste artefato.
 
-**Tabela 9** — Histórico de versão do documento
+**Tabela 10** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
@@ -309,6 +404,12 @@ A Tabela 9 documenta o histórico de versões deste artefato.
 
 _Fonte: Grupo 08, 2026._  
 _\*Nota histórica: O discente Pedro Paulo constava como integrante ativo na versão 1.0 de setembro/2026, sendo preservado seu registro fático documental da época em estrita conformidade com o princípio de não apagamento histórico e integridade acadêmica._
+
+---
+
+| `4.0` | 27/10/2026 | Expansão da autoavaliação consolidada do Grupo 08: incorporação da Verificação da Entrega 4 (Tabela 7 - 12 critérios) e da Entrega 5 (Tabela 8 - 15 critérios), atualização do Resumo Geral para 97 itens auditados e cálculo da Taxa Ponderada Consolidada de 98,5%. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+
+_Fonte: Grupo 08, 2026._
 
 ---
 

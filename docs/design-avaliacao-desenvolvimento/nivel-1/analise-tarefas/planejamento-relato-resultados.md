@@ -32,7 +32,7 @@ Conforme preconizado pela literatura clássica de IHC (Barbosa & Silva, 2021, p.
 2. **Metodologia de Avaliação Empregada:** Descrição da abordagem de investigação empírica qualitativa por meio de entrevistas semiestruturadas com inspeção mediada dos diagramas HTA e tabelas de objetivos/planos;
 3. **Número e Perfil de Avaliadores e Participantes:** Dados demográficos consolidados dos voluntários recrutados (alinhados ao Perfil 1: Estudante Aprendiz de Linux) e identificação da dupla de avaliadores (entrevistador e observador);
 4. **Tarefas Investigadas e Cenários de Uso:** Contextualização das três tarefas canônicas analisadas com os participantes:
-   - **Tarefa 1:** Criação e publicação de tópico de dúvida técnica com formatação Markdown e seleção de tags (Vinicius Silva Araruna);
+   - **Tarefa 1:** Criação e publicação de tópico de dúvida técnica com formatação Markdown, seleção de tags e integração de IA semântica (Vinicius Silva Araruna);
    - **Tarefa 2:** Criação de Eventos Presenciais da Comunidade — CF02 (Gustavo Antonio);
    - **Tarefa 3:** Busca avançada com filtros facetados e identificação de solução aceita (Edvaldo Soares).
 5. **Síntese dos Dados Coletados e Análise de Discrepâncias:** Consolidação qualitativa das respostas às perguntas investigativas do framework DECIDE;
@@ -118,10 +118,9 @@ A Tabela 4 apresenta o modelo para documentar as gravações oficiais das sessõ
 
 | Sessão | Participante | Entrevistador | Data e Horário | Duração da Gravação | Link do Vídeo (YouTube — Não Listado) |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| **ST01** | P1 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 22/10/2026 14:20 | *[Minutos]* | [Acessar Gravação da Sessão ST01](https://youtu.be/placeholder-st01) |
-| **ST02** | P2 | [Gustavo Antonio](https://github.com/gus-ant) | 22/10/2026 15:20 | *[Minutos]* | [Acessar Gravação da Sessão ST02](https://youtu.be/placeholder-st02) |
-| **ST03** | P3 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 22/10/2026 16:20 | 15 min | [Acessar Gravação da Sessão ST03 (YouTube)](https://youtu.be/gqZ3yJ3ZYUc) |
-| **ST04** | P4 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 23/10/2026 10:00 | *[Minutos]* | [Acessar Gravação da Sessão ST04](https://youtu.be/placeholder-st04) |
+| **ST01** | P1 (J.V.S — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | 22/10/2026 14:20 | ~16 min | [Acessar Gravação da Sessão ST01 (YouTube)](https://youtu.be/_4nQ50nN7b8) |
+| **ST02** | P2 (L.C.F) | [Gustavo Antonio](https://github.com/gus-ant) | 23/10/2026 15:20 | ~15 min | [Acessar Gravação da Sessão ST02 (YouTube)](https://youtu.be/VhGgpfX9Rqk) |
+| **ST03** | P3 (G.H.R) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | 24/10/2026 16:20 | ~15 min | [Acessar Gravação da Sessão ST03 (YouTube)](https://youtu.be/gqZ3yJ3ZYUc) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 
@@ -162,6 +161,7 @@ A Tabela 6 documenta o histórico evolutivo deste artefato.
 | `1.1` | 20/10/2026 | Harmonização para sessões presenciais no campus da FGA/UnB (Issue #100): percurso procedural assistido em tela de notebook, sincronização de datas de campo em 22/10 e 23/10, teste-piloto presencial em 21/10 e ajuste do prazo final da Entrega 5 para 25/10/2026. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 22/10/2026 | Atualização das seções 2, 3.3 e 3.4 alinhando a Tarefa 2 à Criação de Eventos Presenciais (CF02) (#104). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.3` | 24/10/2026 | Atualização do link e dados da gravação da Sessão ST03 conduzida por Edvaldo Soares no YouTube. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.4` | 25/10/2026 | Atualização dos links e dados das gravações das sessões ST01 (Vinicius Silva Araruna com participante J.V.S) e ST02 (Gustavo Antonio) no YouTube. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Vinicius Silva Araruna, 2026._
 

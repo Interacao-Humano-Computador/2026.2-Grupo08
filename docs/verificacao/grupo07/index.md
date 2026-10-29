@@ -1,5 +1,13 @@
 # Avaliação do Grupo -1 — Grupo 07 (PCI Concursos)
 
+<div class="dp-page-nav" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.2rem 0 1.8rem 0; padding: 0.8rem 1rem; background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px;" markdown="1">
+
+[:material-hub: **Hub Central (Visão Geral)**](index.md){ .md-button .md-button--primary }
+[:material-rocket-launch: **Etapa 4 (Planejamento de Nível 1)**](etapa4.md){ .md-button  }
+[:material-clipboard-check: **Etapa 2 (Perfil de Usuário e Tarefas)**](etapa2.md){ .md-button  }
+
+</div>
+
 ## Tabela de Contribuição
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
@@ -28,8 +36,8 @@ A Tabela 1 apresenta o panorama cronológico e consolidado de todas as etapas do
 
 | Etapa Avaliada | Data da Avaliação | Versão / Commit Avaliado | Conformidade Geral | Relatório Completo | Apresentação em Vídeo | Relatório Oficial em PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Etapa 2**<br>*(Perfil de Usuário, Aspectos Éticos e Tarefas)* | 28/09/2026 | Commit `2a5ac45`<br>*(28/09/2026)* | **17,4% Pleno**<br>60,9% Parcial<br>21,7% Não Conforme | [Acessar Relatório da Etapa 2](grupo07-etapa2.md) | [:material-youtube: Assistir (1Aobj09jrYo)](https://youtu.be/1Aobj09jrYo) | [:material-file-pdf-box: Baixar PDF](../assets/relatorios/ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf) |
-| **Etapa 4**<br>*(Planejamento de Nível 1: Storyboard e Tarefas)* | 14/10/2026 | Commit `11e393c`<br>*(13/10/2026)* | **44,0% Pleno**<br>28,0% Parcial<br>28,0% Não Conforme<br>*(Taxa Ponderada: 58,0%)* | [Acessar Relatório da Etapa 4](grupo07-etapa4.md) | [:material-youtube: Assistir (f6q9lgPUmVA)](https://youtu.be/f6q9lgPUmVA) | [:material-file-pdf-box: Baixar PDF](../assets/relatorios/PlajRelatoStoryBoardInspecaoPCIConcursosGrupo07.pdf) |
+| **Etapa 2**<br>*(Perfil de Usuário, Aspectos Éticos e Tarefas)* | 28/09/2026 | Commit `2a5ac45`<br>*(28/09/2026)* | **17,4% Pleno**<br>60,9% Parcial<br>21,7% Não Conforme | [Acessar Relatório da Etapa 2](etapa2.md) | [:material-youtube: Assistir (1Aobj09jrYo)](https://youtu.be/1Aobj09jrYo) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf) |
+| **Etapa 4**<br>*(Planejamento de Nível 1: Storyboard e Tarefas)* | 14/10/2026 | Commit `11e393c`<br>*(13/10/2026)* | **44,0% Pleno**<br>28,0% Parcial<br>28,0% Não Conforme<br>*(Taxa Ponderada: 58,0%)* | [Acessar Relatório da Etapa 4](etapa4.md) | [:material-youtube: Assistir (f6q9lgPUmVA)](https://youtu.be/f6q9lgPUmVA) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/PlajRelatoStoryBoardInspecaoPCIConcursosGrupo07.pdf) |
 
 _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
@@ -56,7 +64,7 @@ A auditoria da Etapa 4 examinou 25 critérios do Plano de Ensino da disciplina, 
     - **Falta de atas de reunião e gravações de alinhamento** referentes à Etapa 4;
     - **Omissão dos recortes teóricos fotográficos** com indicação formal de autor do item para Métodos de Avaliação e Teste-Piloto.
 
-[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 4**](grupo07-etapa4.md){ .md-button .md-button--primary }
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 4**](etapa4.md){ .md-button .md-button--primary }
 
 ---
 
@@ -76,7 +84,7 @@ A auditoria da Etapa 2 inspecionou 23 critérios oficiais de governança e conte
     - **Inconsistência teórica nas personas**: classificação inadequada de três Personas Primárias para a mesma interface;
     - **Exposição indevida de dados de matrícula acadêmica** em `membros.md`.
 
-[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 2**](grupo07-etapa2.md){ .md-button }
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 2**](etapa2.md){ .md-button }
 
 ---
 
