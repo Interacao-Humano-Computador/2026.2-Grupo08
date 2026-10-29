@@ -162,7 +162,7 @@ Conforme exigido pelo Plano de Ensino da disciplina (Itens 11 e 12), o teste-pil
 
 | Tipo de Avaliação | Data | Horário | Entrevistador | Observador | Participante (Piloto) | Local / Espaço Físico |
 | :--- | :---: | :---: | :--- | :--- | :--- | :--- |
-| **Ensaio Presencial do Teste-Piloto** | 21/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Discente voluntário de TI (UnB) | [Gravação no YouTube](https://youtu.be/e4annKBJd3I) / FGA |
+| **Autoensaio Presencial do Teste-Piloto (Tarefa 1)** | 21/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Autoavaliação Instrumental | Autoensaio Solo do Avaliador | [Gravação no YouTube](https://youtu.be/e4annKBJd3I) / FGA |
 | **Teste-Piloto da Tarefa 3 (Edvaldo)** | 17/10/2026 | 14:00 - 15:00 | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) | Discente voluntário de TI (UnB) | [Gravação no YouTube](https://youtu.be/1F409M-E850) |
 
 _Fonte: Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
@@ -262,6 +262,7 @@ A Tabela 9 documenta as versões deste artefato.
 | `1.5` | 24/10/2026 | Atualização dos links de gravação da avaliação oficial e do teste-piloto da Tarefa 3 (Grade de Disponibilidade e Agendamento) no YouTube, sob condução de Edvaldo Soares. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 | `1.6` | 25/10/2026 | Atualização dos links definitivos das gravações no YouTube do Teste-Piloto e da Avaliação Presencial (S01/T01) de Vinicius Silva Araruna. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.7` | 29/10/2026 | Padronização da Tabela 4 explicitando a modalidade de Autoensaio Solo do Avaliador no Teste-Piloto da Tarefa 1 (e4annKBJd3I) (#132). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 _Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 
 ---
