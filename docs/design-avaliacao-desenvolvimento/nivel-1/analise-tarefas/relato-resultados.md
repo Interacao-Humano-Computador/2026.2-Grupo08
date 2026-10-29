@@ -70,7 +70,7 @@ _Fonte: Elaborada pelos autores, 2026._
 As sessões concentraram-se na validação dos modelos formais de tarefas elaborados pela equipe:
 
 1. **Tarefa 1 — Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown com Integração de IA Semântica (Vinicius Silva Araruna):**  
-   Objetivo raiz G0 decomposto em 5 subobjetivos (G1: Abrir Editor, G2: Definir Título e Categoria, G3: Associar Tags, G4: Redigir e Formatar em Markdown, G5: Submeter e Resolver IA Pré-Envio), estruturado com planos normativos e regras de seleção do CMN-GOMS;
+   Objetivo raiz G0 decomposto na árvore HTA em 5 subobjetivos (`1`: Acionar criação de tópico; `2`: Definir título [`2.1`] e selecionar categoria/tags [`2.2`]; `3`: Redigir conteúdo Markdown [`3.1`] e inserir logs com cercas de código [`3.2`]; `4`: Avaliar similaridade por IA [`4.1` a `4.3`]; `5`: Confirmar e publicar [`5.1` e `5.2`]), estruturado com planos normativos e regras de seleção do CMN-GOMS;
 2. **Tarefa 2 — Criação de Eventos Presenciais da Comunidade — CF02 (Gustavo Antonio):**  
    Decomposição hierárquica das etapas de sondagem, geolocalização no mapa, dimensionamento de vagas e publicação de workshops;
 3. **Tarefa 3 — Busca Avançada e Filtros Especializados de Categoria (Edvaldo Soares):**  
@@ -80,22 +80,24 @@ As sessões concentraram-se na validação dos modelos formais de tarefas elabor
 
 ## 5. Síntese dos Dados Coletados e Análise de Discrepâncias de Modelo Mental
 
-A inquirição procedural revelou apontamentos ricos sobre a engenharia cognitiva das tarefas:
+A inquirição procedural revelou apontamentos ricos sobre a engenharia cognitiva das tarefas.
 
-### PT01 — Ordem Sequencial dos Subobjetivos (Plano 0 da HTA: G1 > G2 > G3 > G4 > G5)
-- **Constatação:** O participante P1 confirmou que preencher o título primeiro é natural para resumir a falha, mas apontou que frequentemente alterna a ordem entre escrever o corpo da dúvida e selecionar as tags.
-- **Relato Chave de P1:** *"Geralmente eu coloco o título para resumir o erro, mas pulo logo para o corpo do texto para colar o log do terminal antes que eu me esqueça. Costumo escolher as tags e confirmar a categoria só no final, quando o texto já tá revisado."*
-- **Discrepância Identificada:** O modelo prescritivo rígido `G1 > G2 > G3 > G4 > G5` deve permitir flexibilidade operacional (operador `+` ou alternância) entre G3 (Tags) e G4 (Redação do Corpo), mantendo a interface não-modal.
+> *Nota Metodológica sobre as Verbalizações:* Em conformidade com a técnica de Análise de Conteúdo (*Bardin, 2011*), os relatos dos participantes apresentados a seguir **não estão transcritos literalmente (*ipsis litteris*) palavra por palavra**, constituindo paráfrases e sínteses analíticas fiéis ao sentido expresso pelos voluntários durante as sessões gravadas.
 
-### PT02 — Métodos de Formatação Markdown (CMN-GOMS: Atalho de Teclado vs. Botão da Barra)
-- **Constatação:** Validação empírica imediata da Regra de Seleção 1 (*Selection Rule 1*) do CMN-GOMS.
-- **Relato Chave de P1:** *"Como curso computação e uso Markdown no GitHub, eu quase sempre digito as três crases direto no teclado (` ```bash `) porque é muito mais rápido e não tiro a mão do teclado. Mas vejo colegas iniciantes que preferem selecionar o texto com o mouse e clicar no botão `&lt;/&gt;` da barra do editor. É fundamental o sistema manter os dois caminhos."*
-- **Conclusão de Usabilidade:** Confirma-se a adequação da modelagem dual de métodos (Método Rápido por Teclado vs. Método Visual por Barra de Ferramentas).
+### PT01 — Ordem Sequencial dos Subobjetivos (Plano 0 da HTA: 1 > 2 > 3 > 4 > 5)
+- **Constatação:** Ao avaliar a sequência entre o Subobjetivo `2` (*Definir título e tags*) e o Subobjetivo `3` (*Redigir conteúdo Markdown*), o participante P1 revelou uma inversão natural em seu fluxo de trabalho real.
+- **Relato Chave de P1 (síntese não literal):** Explicou que normalmente aplica e descreve primeiro o problema no corpo do tópico (colando o erro enfrentado) e só depois vai preencher o título e associar as tags.
+- **Discrepância Identificada:** O modelo prescritivo estritamente linear (`1 > 2 > 3 > 4 > 5`) deve permitir flexibilidade operacional (operador `+` de ordem livre) entre o Subobjetivo `2` (*Definir título e tags*) e o Subobjetivo `3` (*Redigir conteúdo Markdown*), formalizando o plano `1 > (2 + 3) > 4 > 5` em interface não-modal.
+
+### PT02 — Métodos de Inserção e Formatação no Editor (CMN-GOMS: Mouse / Colagem vs. Teclado)
+- **Constatação:** Validação empírica da importância dos mecanismos de colagem direta e apoio visual por mouse modelados no CMN-GOMS para o perfil *Estudante / Usuário Aprendiz*.
+- **Relato Chave de P1 (síntese não literal):** Afirmou que normalmente utiliza o mouse para acionar os recursos visuais da interface ou recorre diretamente aos atalhos `Ctrl+C` e `Ctrl+V` para copiar e colar o problema no editor.
+- **Conclusão de Usabilidade:** Confirma-se a relevância crítica do Método B (`Method_Format_Toolbar_Button` via mouse na barra de ferramentas) aliado ao fluxo direto de colagem (`Ctrl+C` / `Ctrl+V`), evitando exigir que o usuário aprendiz digite sintaxes Markdown manualmente.
 
 ### PT03 — Sugestões em Tempo Real e Modal da IA Pré-Envio
-- **Constatação:** O painel lateral de tópicos semelhantes ativado durante a digitação do título foi considerado um acelerador essencial de resolução.
-- **Relato Chave de P1:** *"A sugestão na lateral enquanto digito o título é ótima. Se eu vejo que o erro já tem solução aceita, nem preciso postar. E o modal da IA antes de enviar é muito bem-vindo para sugerir tags, desde que seja um assistente consultivo e nunca um bloqueador autoritário que me impeça de enviar."*
-- **Conclusão:** A intervenção da IA deve permanecer consultiva, com botão neutro de envio direto caso o usuário opte por ignorar as sugestões.
+- **Constatação:** A verificação de tópicos semelhantes e a recomendação automática de tags antes do envio foram consideradas aceleradores importantes de resolução.
+- **Relato Chave de P1 (síntese não literal):** Avaliou positivamente a listagem de tópicos similares e destacou que o auxílio da IA antes de enviar (incluindo a sugestão de um botão para preencher as tags automaticamente) facilita a postagem, desde que atue como assistente consultivo sem bloquear o envio.
+- **Conclusão:** A intervenção da IA deve permanecer consultiva, com opção de preenchimento automático de tags em 1 clique e botão neutro de envio direto caso o usuário opte por ignorar as sugestões.
 
 ### PT08 — Completude, Gargalos e Operações Faltantes na HTA
 - **Constatação Geral:** Os participantes consideraram os modelos hierárquicos completos e coerentes com a realidade do Discourse.
@@ -111,9 +113,9 @@ As inconsistências e oportunidades levantadas foram tabuladas na Tabela 3 com b
 
 | ID | Tarefa / Nó HTA Afetado | Descrição da Discrepância / Erro de Modelo Mental | Tipo de Inconsistência | Severidade (Nielsen) | Recomendação de Refatoração no HTA e Prototipação |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| **PROB-AT-01** | Tarefa 1 / Subobjetivos G3 e G4 | Usuário prefere redigir o corpo e colar comandos antes de associar as tags definitivas. | Precedência Rígida no Plano 0 | **1 (Cosmético)** | Ajustar o Plano 0 para formalizar a flexibilidade sequencial entre G3 e G4 (`G1 > G2 > (G3 + G4) > G5`). |
-| **PROB-AT-02** | Tarefa 1 / Subobjetivo 4.2 | Risco de usuários novatos não saberem fechar as três crases do bloco de código. | Inconsistência de Método | **1 (Cosmético)** | Incluir na interface de protótipo de papel dica de sintaxe sutil no placeholder: *"Exemplo: ```bash"*. |
-| **PROB-AT-03** | Tarefa 1 / Operação 5.2 | Ausência de operação atômica de adição em lote das tags técnicas recomendadas pela IA. | Operação Faltante no HTA | **2 (Menor)** | Modelar novo operador no GOMS: *"Método: Clicar em 'Adicionar todas as tags sugeridas'"*. |
+| **PROB-AT-01** | Tarefa 1 / Subobjetivos 2 e 3 | Usuário normalmente aplica primeiro a descrição do problema no corpo do tópico e só depois vai preencher o título e as tags. | Precedência Rígida no Plano 0 | **1 (Cosmético)** | Ajustar o Plano 0 para formalizar a ordem livre entre os Subobjetivos 2 e 3 (`1 > (2 + 3) > 4 > 5`). |
+| **PROB-AT-02** | Tarefa 1 / Operação 3.2 | Preferência do usuário por uso do mouse e colagem direta (`Ctrl+C` / `Ctrl+V`) em vez de digitar sintaxe Markdown manualmente. | Esforço Operacional de Método | **1 (Cosmético)** | Destacar no protótipo de papel o botão visual de bloco de código (`</>`) na barra superior integrado à área de colagem. |
+| **PROB-AT-03** | Tarefa 1 / Subobjetivo 4 | Ausência de operação atômica para preencher automaticamente as tags técnicas recomendadas pela IA. | Operação Faltante no HTA | **2 (Menor)** | Modelar novo operador no GOMS: *"Método: Clicar em 'Preencher tags sugeridas automaticamente'"*. |
 | **PROB-AT-04** | Tarefa 2 / Subobjetivo 3.2 | Falta de feedback imediato ao ajustar manualmente o marcador de local do workshop no mapa. | Feedback Insuficiente | **2 (Menor)** | Inserir nó elementar de feedback com atualização dinâmica das coordenadas e raio visual. |
 
 _Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Nielsen (1994), 2026._
@@ -125,11 +127,11 @@ _Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Nielsen (19
 Com base nas evidências empíricas colhidas em campo:
 
 1. **Refatoração Normativa do Plano 0 da HTA (Tarefa 1):**  
-   O plano causal no nó pai G0 deve expressar formalmente a flexibilidade entre tags e redação:  
-   `Plano 0: Fazer 1 > 2 > (3 + 4) > 5. Em 5, se IA detectar sugestões, executar Plano 5.2, senão concluir.`
-2. **Enriquecimento do Módulo CMN-GOMS com Operação em Lote:**  
-   Adicionar ao CMN-GOMS da Tarefa 1 a Regra de Seleção 3 (*Selection Rule 3*):  
-   *Se o usuário concordar com todas as tags sugeridas pela IA, aplicar Método de Clique Único (1 clique); se desejar selecionar parcialmente, clicar individualmente nas tags desejadas.*
+   O plano causal no nó pai `0` deve expressar formalmente a ordem livre entre a descrição do problema no corpo em Markdown (`Subobjetivo 3`) e o preenchimento do título e tags (`Subobjetivo 2`):  
+   `Plano 0: Executar 1 > (2 + 3) > 4 > 5. Em 4, se o usuário encontrar solução nos tópicos similares da IA (4.2), encerrar; se não houver tópico idêntico (4.3), avançar para 5.`
+2. **Enriquecimento do Módulo CMN-GOMS com Preenchimento Automático de Tags e Uso de Mouse/Colagem:**  
+   Consolidar no CMN-GOMS da Tarefa 1 o suporte prioritário ao uso de mouse e colagem (`Ctrl+C` / `Ctrl+V`) e a regra de seleção para o botão de preenchimento automático de tags:  
+   *Se o usuário concordar com as tags sugeridas pela IA, acionar o botão de preenchimento automático com 1 clique; caso contrário, manter ou editar as tags manualmente.*
 3. **Insumos para o Protótipo de Papel (Nível 2):**  
    Os componentes de papel deverão reproduzir visualmente a flexibilidade não-modal dos campos, garantindo que o estudante possa transitar livremente entre a caixa de texto e a seleção de tags sem bloqueios de interface.
 
@@ -147,7 +149,7 @@ A Tabela 4 sintetiza os registros audiovisuais das avaliações da Análise de T
 
 | Sessão | Funcionalidade / Tarefa Investigada | Participante | Avaliador Responsável | Duração | Link de Acesso no YouTube |
 | :---: | :--- | :---: | :--- | :---: | :--- |
-| **T01** | Tarefa 1: Markdown, Tags e IA Semântica | P1 (J. V. S. — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ~16 min | [Assistir Sessão T01 no YouTube (Não Listado)](https://youtu.be/_4nQ50nN7b8) |
+| **T01** | Tarefa 1: Markdown, Tags e IA Semântica | P1 (J. V. S. — CIC/UnB) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ~15 min | [Assistir Sessão T01 no YouTube (Não Listado)](https://youtu.be/_4nQ50nN7b8) |
 | **T02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão T02 no YouTube (Não Listado)](https://youtu.be/VhGgpfX9Rqk) |
 | **T03** | Tarefa 3: Grade de Disponibilidade e Agendamento | P3 (G. H. R.) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~15 min | [Assistir Sessão T03 no YouTube (Não Listado)](https://youtu.be/gqZ3yJ3ZYUc) |
 
@@ -202,6 +204,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 24/10/2026 | Elaboração inicial do Relato dos Resultados da Avaliação da Análise de Tarefas (Nível 1), consolidando os dados empíricos de campo com percurso cognitivo guiado, caracterização dos voluntários P1 a P3, análise de discrepâncias de planos lógicos (PT01 a PT08), validação de regras de seleção do CMN-GOMS, classificação de severidade de Nielsen (0 a 4), recomendações de refatoração no HTA, container de vídeo, cláusula de isolamento do piloto e checklist de conformidade. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 25/10/2026 | Incorporação do link oficial e player do registro audiovisual da avaliação da Sessão T01 (Vinicius Silva Araruna com participante J.V.S no YouTube) e consolidação da gravação da Sessão T02 (Gustavo Antonio). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.2` | 29/10/2026 | Harmonização da notação HTA (Subobjetivos 1 a 5), explicitação de síntese analítica não literal (Bardin, 2011) e alinhamento empírico dos achados PT01 e PT02 com a entrevista gravada (#132). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
