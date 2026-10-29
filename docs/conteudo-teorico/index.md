@@ -2,13 +2,17 @@
 
 ## Tabela de Contribuição
 
-| Integrante | Contribuição | Data | Horário |
-| :--- | :--- | :---: | :---: |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão e conferência dos conceitos de IHC](#topicos-individuais-dos-demais-integrantes) | 06/09/2026 | 18:00 - 18:30 |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Estruturação inicial da página e elaboração do Item Teórico: Storyboarding em IHC (Issue #63) | 13/10/2026 | 19:30 - 21:00 |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT](#introducao) | 05/09/2026 | 20:00 - 20:30 |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Revisão e validação metodológica dos itens teóricos](#historico-de-versao) | 06/09/2026 | 18:30 - 19:00 |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa dos itens teóricos: Framework DECIDE e Avaliação Heurística (com citações, tabelas e evidências visuais)](#1-o-framework-decide-no-planejamento-da-avaliacao-de-ihc) | 06/09/2026 | 17:00 - 18:30 |
+A Tabela 0 apresenta a distribuição das contribuições dos integrantes ativos na elaboração dos referenciais teóricos e listas de verificação deste módulo.
+
+**Tabela 0** — Matriz de Contribuição do Módulo de Conteúdo Teórico
+
+| Integrante | Contribuição | Data | Ferramenta de IA | Propósito do Uso de IA |
+| :--- | :--- | :---: | :--- | :--- |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Elaboração dos itens teóricos do Framework DECIDE, Avaliação Heurística, Prototipação em Papel (Nível 2) e consolidação das 5 Listas de Verificação Canônicas (`LV-01` a `LV-05`) | 29/10/2026 | Google Gemini (LLM) | Apoio na padronização sintática de tabelas Markdown e referências ABNT. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Elaboração completa do Item Teórico: Storyboarding em IHC e Lista de Verificação de 10 itens de Klemmer (Issue #63) | 13/10/2026 | Google Gemini (LLM) | Apoio na formatação Markdown. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Elaboração do Item Teórico: Métodos de Avaliação em IHC (Investigação vs. Inspeção em Análise de Tarefas) | 22/10/2026 | — | Elaboração e revisão humana por pares. |
+
+_Fonte: Elaborada pelos autores, 2026._
 
 ---
 
@@ -20,14 +24,14 @@ Cada integrante é responsável por desenvolver itens conceituais fundamentais p
 1. Conceituação teórica aprofundada baseada na literatura de referência (BARBOSA; SILVA, 2010; BARBOSA et al., 2021; NIELSEN, 1994);
 2. Citação textual direta com indicação exata de autoria e numeração de página;
 3. Fotografia / captura comprobatória em alta resolução da página correspondente na obra de referência;
-4. Articulação prática explicando como o conceito teórico é operacionalizado nas atividades práticas do projeto do **Portal Domínio Público (MEC)**.
+4. Articulação prática explicando como o conceito teórico é operacionalizado nas atividades práticas do projeto do **Fórum Diolinux Plus (Discourse)**.
 
 ---
 
 ## 1. O Framework DECIDE no Planejamento da Avaliação de IHC
 
 - **Autor do Item:** [Vinicius Silva Araruna](https://github.com/ViniciusA05)
-- **Revisor Designado:** [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06)
+- **Revisor Designado:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
 - **Referência Bibliográfica da Fonte:** BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. Capítulo 11: Planejamento da Avaliação de IHC, Seção 11.8: O Framework DECIDE, pp. 279–281.
 
 ### Fundamentação Teórica
@@ -46,14 +50,14 @@ A Tabela 1 detalha os seis passos do framework DECIDE e o mapeamento de sua apli
 
 **Tabela 1** — Estrutura operacional do Framework DECIDE e aplicação no projeto
 
-| Letra | Etapa do Framework | Definição Metodológica (Barbosa et al., 2021, p. 280) | Aplicação no Projeto do Grupo 08 (Portal Domínio Público) |
+| Letra | Etapa do Framework | Definição Metodológica (Barbosa et al., 2021, p. 280) | Aplicação no Projeto do Grupo 08 (Fórum Diolinux Plus) |
 | :---: | :--- | :--- | :--- |
-| **D** | **Determinar os objetivos da avaliação de IHC** | Identificar os objetivos gerais da avaliação e justificar por que e para quem tais metas são relevantes. | Diagnosticar falhas de usabilidade, navegabilidade e arquitetura da informação na busca de acervo do Portal Domínio Público. |
-| **E** | **Explorar perguntas a serem respondidas** | Desdobrar os objetivos gerais em perguntas específicas de avaliação que orientem a coleta empírica ou analítica. | Formulamos questões como: "O usuário consegue filtrar obras por autor sem ambiguidade?" e "A ausência de preview força downloads desnecessários?". |
-| **C** | **Escolher os métodos de avaliação** | Selecionar os métodos mais adequados considerando prazos, custo, perfil de usuário e fidelidade do artefato. | Combinação equilibrada de métodos de inspeção (Avaliação Heurística) nas etapas iniciais e testes empíricos com usuários na etapa de alta fidelidade. |
-| **I** | **Identificar e administrar as questões práticas** | Dimensionar recursos humanos, prazos, infraestrutura técnica, ferramentas e seleção de participantes. | Uso do Google Forms para perfil, Figma para prototipação interativa, gravação de telas e cronograma de sessões síncronas. |
-| **D** | **Decidir como lidar com as questões éticas** | Garantir a integridade, privacidade, consentimento livre e esclarecido (TCLE) e respeito aos voluntários. | Elaboração formal do Termo de Consentimento Livre e Esclarecido (TCLE) na Etapa 2 e garantia de anonimato nas transcrições de testes. |
-| **E** | **Avaliar (*Evaluate*), interpretar e apresentar os dados** | Tratar os dados brutos coletados, identificar padrões, avaliar confiabilidade e gerar o relatório final de reprojeto. | Consolidação dos problemas identificados por grau de severidade (0 a 4) e elaboração de recomendações formais de redesign. |
+| **D** | **Determinar os objetivos da avaliação de IHC** | Identificar os objetivos gerais da avaliação e justificar por que e para quem tais metas são relevantes. | Avaliar a apropriação conceitual (Nível 1), a ergonomia tátil em papel (Nível 2) e a eficiência nos fluxos de Markdown/IA (CF01), Eventos Presenciais (CF02) e Grade de Mentorias (CF03) no Fórum Diolinux Plus. |
+| **E** | **Explorar perguntas a serem respondidas** | Desdobrar os objetivos gerais em perguntas específicas de avaliação que orientem a coleta empírica ou analítica. | Formulação das matrizes investigativas `P01–P08` (Storyboards), `PT01–PT08` (Análise de Tarefas) e `PP01–PP08` (Protótipo de Papel). |
+| **C** | **Escolher os métodos de avaliação** | Selecionar os métodos mais adequados considerando prazos, custo, perfil de usuário e fidelidade do artefato. | Entrevistas semiestruturadas com percurso guiado no Nível 1 e ensaios de interação com Protótipo de Papel (Facilitador e Computador Humano) no Nível 2. |
+| **I** | **Identificar e administrar as questões práticas** | Dimensionar recursos humanos, prazos, infraestrutura técnica, ferramentas e seleção de participantes. | Condução presencial individual com discentes da UnB (Perfil 1 — Usuário Aprendiz em Linux), orçamento de custo zero e execução prévia de Teste-Piloto com dados isolados. |
+| **D** | **Decidir como lidar com as questões éticas** | Garantir a integridade, privacidade, consentimento livre e esclarecido (TCLE) e respeito aos voluntários. | Aplicação dos 4 princípios bioéticos de Beauchamp & Childress, leitura literal do Script Oral do TCLE nos primeiros 60 segundos gravados e anonimização LGPD. |
+| **E** | **Avaliar (*Evaluate*), interpretar e apresentar os dados** | Tratar os dados brutos coletados, identificar padrões, avaliar confiabilidade e gerar o relatório final de reprojeto. | Síntese analítica de conteúdo (*Bardin, 2011*), classificação de problemas na escala de severidade de Nielsen (0 a 4) e diretrizes de reprojeto entre os níveis de Mayhew. |
 
 _Fonte: Vinicius Silva Araruna com base em Barbosa et al. (2021), 2026._
 
@@ -130,11 +134,20 @@ A Figura 2 comprova a fundamentação da Avaliação Heurística no livro-texto 
 
 Conforme as diretrizes pedagógicas da disciplina, os demais integrantes do Grupo 08 documentam abaixo seus respectivos tópicos conceituais com base na literatura acadêmica:
 
-### Item Teórico: Edvaldo Soares Brasileiro Filho (Ação 22)
+### 3.1 Item Teórico e Listas de Verificação Avaliativas: Vinicius Silva Araruna
 
-> *(Espaço reservado para inclusão do tópico teórico individual com fundamentação, citação textual com página e fotografia da página do livro/artigo pelo integrante Edvaldo Soares Brasileiro Filho).*
+- **Autor do Item:** [Vinicius Silva Araruna](https://github.com/ViniciusA05)
+- **Revisor Designado:** [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)
+- **Documentos Detalhados Vinculados:**
+  - [Conteúdo da Disciplina e 5 Listas de Verificação Canônicas (`LV-01` a `LV-05`)](../analise-requisitos/conteudo-disciplina.md)
+  - [Fundamentação de Prototipação em Papel (Snyder, 2003; Rettig, 1994; Barbosa & Silva, 2021)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md#2-fundamentacao-teorica-canonica)
+  - [Fundamentação do Método de Inspeção Formal de Fagan (1976) e Checklists de Entregas](../verificacao/lista-verificacao.md#2-fundamentacao-teorica-o-processo-de-inspecao-formal-de-software)
 
-### Item Teórico: Gustavo Antonio Rodrigues e Silva (Ação 22 / Entrega 4)
+Além dos itens teóricos do **Framework DECIDE** (Seção 1) e da **Avaliação Heurística e Severidade de Nielsen** (Seção 2), Vinicius Silva Araruna estruturou o conjunto completo de **5 Listas de Verificação Canônicas** (`LV-01`: HTA com 9 itens; `LV-02`: Elenco de Personas com 6 itens; `LV-03`: Personas com 14 itens; `LV-04`: CTT com 9 itens; e `LV-05`: Storyboards e Protótipo de Papel com 9 itens), bem como a fundamentação teórica da **Prototipação de Baixa Fidelidade em Papel** (*Snyder, 2003; Rettig, 1994; Barbosa & Silva, 2021, p. 248–252*) aplicada à Tarefa 1 (`CF01`: Criação de Tópico com Markdown, Tags e IA Semântica Pré-Envio).
+
+---
+
+### 3.2 Item Teórico: Gustavo Antonio Rodrigues e Silva (Storyboarding em IHC)
 
 #### Storyboarding em IHC: Prototipação Conceitual e Design Contextual
 
@@ -169,13 +182,18 @@ Em conformidade estrita com o critério 14 do Plano de Ensino, este item teóric
 3. **Satisfaction (Satisfação):** Motivação de uso, conquistas alcançadas e atendimento à dor do usuário;
 4. **Prototipação Rápida:** Duração ágil de confecção de aproximadamente **10 minutos** por fluxo narrativo.
 
-### Item Teórico: Jonathan Lourenço Carpaneda (Ação 22)
+---
 
-> *(Espaço reservado para inclusão do tópico teórico individual com fundamentação, citação textual com página e fotografia da página do livro/artigo pelo integrante Jonathan Lourenço Carpaneda).*
+### 3.3 Item Teórico: Edvaldo Soares Brasileiro Filho (Métodos de Investigação vs. Inspeção em Análise de Tarefas)
 
-### Item Teórico: Pedro Paulo Almeida Araujo (Ação 22)
+- **Autor do Item:** [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev)
+- **Revisor Designado:** [Vinicius Silva Araruna](https://github.com/ViniciusA05)
+- **Documento Detalhado Individual:** [Item Teórico Completo: Métodos de Avaliação em IHC — Investigação e Inspeção](../design-avaliacao-desenvolvimento/item-teorico-metodos-avaliacao.md)
+- **Referência Bibliográfica da Fonte:** BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010. Capítulo 9: Planejamento da Avaliação de IHC, Seção 9.6: Qual Tipo de Método de Avaliação Escolher?, pp. 301–302.
 
-> *(Espaço reservado para inclusão do tópico teórico individual com fundamentação, citação textual com página e fotografia da página do livro/artigo pelo integrante Pedro Paulo Almeida Araujo).*
+##### Síntese Conceitual e Operacionalização no Fórum Diolinux Plus
+
+O item teórico elaborado por Edvaldo Soares contrapõe os **Métodos de Investigação (*Inquiry*)** — que envolvem diretamente usuários reais por meio de entrevistas, questionários e estudos de campo para compreender concepções, expectativas e apropriação tecnológica — aos **Métodos de Inspeção (*Inspection*)** — nos quais especialistas examinam a solução de IHC sem a presença do usuário para antever falhas potenciais (como Percurso Cognitivo e Avaliação Heurística). A fundamentação inclui citação direta e reprodução fotográfica da página 301 de Barbosa e Silva (2010), articulando sua aplicação direta na modelagem e avaliação da Tarefa 3 (*Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias* no Fórum Diolinux Plus).
 
 ---
 
@@ -188,6 +206,7 @@ Em conformidade estrita com o critério 14 do Plano de Ensino, este item teóric
 | `1.2` | 06/09/2026 | Desenvolvimento completo dos itens teóricos de Framework DECIDE e Avaliação Heurística com citações diretas, tabelas analíticas e fotos comprobatórias do livro | [Vinicius Araruna](https://github.com/ViniciusA05) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.3` | 13/10/2026 | Desenvolvimento completo do item teórico individual sobre Storyboarding em IHC com citação direta de Barbosa e Silva (2021) e evidência visual (Issue #63) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Araruna](https://github.com/ViniciusA05) |
 | `1.4` | 13/10/2026 | Incorporação da Lista de Verificação Canônica de Storyboard baseada em Scott Klemmer (UC Berkeley / Coursera) com 10 itens normativos e saneamento nominal de fontes. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Araruna](https://github.com/ViniciusA05) |
+| `1.5` | 29/10/2026 | Consolidação dos itens teóricos dos 3 membros ativos (Vinicius, Gustavo e Edvaldo), vinculação direta com as 5 Listas de Verificação (`LV-01` a `LV-05`) e Protótipo de Papel, atualização da Tabela 1 para o Fórum Diolinux Plus e remoção de seções placeholders de membros inativos (#118). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 ---
 
