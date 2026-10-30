@@ -8,7 +8,7 @@ A Tabela 1 apresenta a atribuição de responsabilidades na elaboração e revis
 
 | Integrante | Atribuição | Data | Horário | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :---: | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Estruturação formal do relatório de resultados de tarefas, definição dos tópicos normativos, matriz de registro de discrepâncias de modelo mental com gravidade de Nielsen e diretrizes de refatoração do HTA (Issue #61). | 13/10/2026 | 21:30 - 22:45 | LLM (Antigravity): apoio na estruturação das matrizes Markdown e checagem de rigor normativo. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Estruturação formal do relatório de resultados de tarefas, definição dos tópicos normativos, matriz de registro de discrepâncias de modelo mental com gravidade de Nielsen e diretrizes de refatoração do HTA (Issue #61). | 13/10/2026 | 21:30 - 22:45 | Google Gemini (LLM): apoio na estruturação das matrizes Markdown e checagem de rigor normativo. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor Metodológico e Autor de Tarefa**: Alinhamento da Tarefa 2 (Criação de Eventos Presenciais — CF02) e conformidade DECIDE (#104). | 22/10/2026 | 22:45 - 23:15 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Designado**: Auditoria de compatibilidade com os nós folha da árvore de HTA e critérios do Plano de Ensino. | 13/10/2026 | 23:15 - 23:45 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 

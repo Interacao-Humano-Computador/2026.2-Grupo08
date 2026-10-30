@@ -22,7 +22,7 @@ Na Engenharia de Usabilidade e na Garantia da Qualidade de Software, as atividad
 
 Este artefato formaliza as **Listas de Verificação (Checklists Normativos)** adotadas pelo Grupo 08 para a inspeção analítica dos produtos de trabalho desenvolvidos na disciplina de Interação Humano-Computador (FGA0173), sob docência do Prof. Dr. André Barros de Sales (Faculdade UnB Gama — FGA/UnB).
 
-Em atendimento ao princípio de separação de responsabilidades e sanando o apontamento metodológico pós-Entrega 2 (apontamento M0-01), este documento atua como **instrumento neutro, normativo e reutilizável** de auditoria, disponibilizando os templates em branco com seus respectivos critérios objetivos e origens normativas. A aplicação empírica desses instrumentos, com o registro de achados, evidências e estatísticas de conformidade do grupo, é documentada separadamente no [Relatório de Inspeção e Autoavaliação do Grupo 08](grupo08.md).
+Em atendimento ao princípio de separação de responsabilidades e sanando o apontamento metodológico pós-Entrega 2, este documento atua como **instrumento neutro, normativo e reutilizável** de auditoria, disponibilizando os templates em branco com seus respectivos critérios objetivos e origens normativas. A aplicação empírica desses instrumentos, com o registro de achados, evidências e estatísticas de conformidade do grupo, é documentada separadamente no [Relatório de Inspeção e Autoavaliação do Grupo 08](grupo08.md).
 
 ---
 
