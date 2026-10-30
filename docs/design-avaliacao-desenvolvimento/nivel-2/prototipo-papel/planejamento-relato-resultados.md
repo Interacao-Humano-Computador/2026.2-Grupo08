@@ -8,7 +8,7 @@ A Tabela 1 apresenta a matriz de responsabilidade na elaboração da estrutura d
 
 | Integrante | Atribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal / Tech Lead**: Estruturação formal do modelo de relatório de resultados de prototipação em papel, taxonomia de problemas de interface física da Tarefa 1, matriz de severidade de Nielsen, critérios de priorização para Nível 3 e alinhamento com a gravação em grupo em 02/11/2026. | 24/10/2026 | Antigravity (LLM) | Apoio na estruturação das matrizes Markdown e checagem de rigor normativo de IHC. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal / Tech Lead**: Estruturação formal do modelo de relatório de resultados de prototipação em papel, taxonomia de problemas de interface física da Tarefa 1, matriz de severidade de Nielsen, critérios de priorização para Nível 3 e alinhamento com a gravação em grupo em 02/11/2026. | 24/10/2026 | Google Gemini (LLM) | Apoio na estruturação das matrizes Markdown e checagem de rigor normativo de IHC. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor Metodológico**: Verificação de consistência entre os relatos de Nível 1 e o planejamento de relato de Nível 2. | 24/10/2026 | — | Revisão humana por pares. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Designado**: Auditoria de compatibilidade com os critérios do Plano de Ensino da disciplina. | 24/10/2026 | — | Revisão humana por pares. |
 

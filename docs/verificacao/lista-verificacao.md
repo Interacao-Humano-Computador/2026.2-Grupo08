@@ -12,7 +12,7 @@ A distribuição de responsabilidades na elaboração, estruturação e curadori
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão técnica dos critérios de Elicitação, Busca e Análise de Tarefas frente às rubricas | 12/10/2026 | 02:00 - 02:30 | Nenhuma | Auditoria humana cruzada dos itens e consistência de links normativos. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão dos critérios de Planejamento, Onboarding e Governança do repositório | 12/10/2026 | 02:30 - 03:00 | Nenhuma | Verificação da completude dos critérios de Entrega 1 e Entrega 2. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -22,7 +22,7 @@ Na Engenharia de Usabilidade e na Garantia da Qualidade de Software, as atividad
 
 Este artefato formaliza as **Listas de Verificação (Checklists Normativos)** adotadas pelo Grupo 08 para a inspeção analítica dos produtos de trabalho desenvolvidos na disciplina de Interação Humano-Computador (FGA0173), sob docência do Prof. Dr. André Barros de Sales (Faculdade UnB Gama — FGA/UnB).
 
-Em atendimento ao princípio de separação de responsabilidades e sanando o apontamento metodológico pós-Entrega 2 (apontamento M0-01), este documento atua como **instrumento neutro, normativo e reutilizável** de auditoria, disponibilizando os templates em branco com seus respectivos critérios objetivos e origens normativas. A aplicação empírica desses instrumentos, com o registro de achados, evidências e estatísticas de conformidade do grupo, é documentada separadamente no [Relatório de Inspeção e Autoavaliação do Grupo 08](grupo08.md).
+Em atendimento ao princípio de separação de responsabilidades e sanando o apontamento metodológico pós-Entrega 2, este documento atua como **instrumento neutro, normativo e reutilizável** de auditoria, disponibilizando os templates em branco com seus respectivos critérios objetivos e origens normativas. A aplicação empírica desses instrumentos, com o registro de achados, evidências e estatísticas de conformidade do grupo, é documentada separadamente no [Relatório de Inspeção e Autoavaliação do Grupo 08](grupo08.md).
 
 ---
 
@@ -83,7 +83,7 @@ A Tabela 2 apresenta o checklist normativo para os aspectos de planejamento e se
 | **E1-08** | Todos os artefatos previstos (Planejamento, Equipe, Sites, Ferramentas, Processo de Design) estão publicados? | Plano de Ensino da Disciplina (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E1-09** | Há página com registro das atas de reuniões da equipe com links funcionais para as gravações em vídeo? | Diretrizes de Governança (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Sales (2026), 2026._
 
 ---
 
@@ -106,7 +106,7 @@ A Tabela 3 estabelece o checklist de governança técnica e conformidade editori
 | **E1-18** | Há Tabela de Contribuição no topo do documento com a participação de todos os membros ativos? | Diretrizes de Avaliação Contínua | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E1-19** | Há seção de agradecimentos e transparência declarando o uso ético e supervisionado de IA Generativa? | Diretrizes Éticas FGA/UnB | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Sales (2026), 2026._
 
 ---
 
@@ -121,7 +121,7 @@ A Tabela 4 sintetiza o checklist normativo para o Processo de Design e conteúdo
 | **E1-20** | A escolha do Processo de Design está fundamentada com citação, referência ABNT, justificativa e foto do livro? | Barbosa & Silva (2021); Sales (2026) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E1-21** | Todos os discentes ativos elaboraram itens de conteúdo teórico individual com referência, autor e print do livro? | Diretrizes Pedagógicas FGA/UnB | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
 ---
 
@@ -146,7 +146,7 @@ A Tabela 5 detalha os critérios normativos para o Perfil do Usuário e Aspectos
 | **E2-07** | O artefato prescreve o procedimento mandatório de leitura prévia e consentimento gravado do TCLE? | Diretrizes Éticas em IHC (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E2-08** | São garantidos formalmente o anonimato dos participantes, sigilo de dados e voluntariedade da pesquisa? | Lei nº 13.709/2018 (LGPD) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e CNS 510/2016, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e CNS 510/2016, 2026._
 
 ---
 
@@ -168,7 +168,7 @@ A Tabela 6 estabelece os critérios para construção do elenco de personas e re
 | **E2-16** | Cada cenário explicita contexto inicial, objetivo, episódios de ação, restrições e resultado final alcançado? | Carroll (2000) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E2-17** | Há rastreabilidade formal conectando Cenários, Personas e as Tarefas modeladas em HTA/GOMS? | Barbosa & Silva (2021) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Cooper (1999) e Carroll (2000), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Cooper (1999) e Carroll (2000), 2026._
 
 ---
 
@@ -189,7 +189,7 @@ A Tabela 7 sistematiza os requisitos formais de engenharia de tarefas da Entrega
 | **E2-24** | Cada integrante ativo é autor principal de ao menos uma modelagem de tarefa completa e distinta? | Plano de Ensino da Disciplina (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E2-25** | A gravação oficial da apresentação da Entrega 2 está hospedada no YouTube na modalidade 'Não Listado'? | Diretrizes da Disciplina (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Annett & Duncan (1967) e Card et al. (1983), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Annett & Duncan (1967) e Card et al. (1983), 2026._
 
 ---
 
@@ -216,7 +216,7 @@ A Tabela 8 apresenta o checklist normativo de Análise de Requisitos, englobando
 | **E3-13** | A Ata da Reunião de planejamento da etapa foi publicada com pauta, deliberações e membros ativos? | Diretrizes de Governança | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E3-14** | A gravação da reunião e o vídeo da apresentação oficial da Entrega 3 estão disponíveis no YouTube em "Não Listado"? | Diretrizes da Disciplina (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Mayhew (1999) e Barbosa & Silva (2021), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Mayhew (1999) e Barbosa & Silva (2021), 2026._
 
 ---
 
@@ -241,7 +241,7 @@ A Entrega 4 estabelece a esteira preliminar de avaliação formativa no Nível 1
 | **E4-11** | O cronograma executado da Etapa 4 registra as datas reais e os integrantes responsáveis? | Diretrizes de Governança | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E4-12** | O vídeo de apresentação oficial da equipe foi publicado como "Não Listado" no YouTube? | Plano de Ensino da Disciplina | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Preece et al. (2002) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Preece et al. (2002) e Sales (2026), 2026._
 
 ---
 
@@ -269,7 +269,7 @@ A Entrega 5 cumpre o papel de encerramento formativo da modelagem conceitual e p
 | **E5-14** | As tabelas de contribuição e históricos de versão possuem indicação de autores e revisores com links funcionais? | Fagan (1976); Governança da Disciplina | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E5-15** | Há seção de agradecimentos declarando com transparência e supervisão humana o escopo do uso de IA Generativa? | Diretrizes da SBC (2023); Sales (2026) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Snyder (2003), Nielsen (1994) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Snyder (2003), Nielsen (1994) e Sales (2026), 2026._
 
 ---
 
@@ -313,7 +313,7 @@ A Tabela 12 fornece o modelo padronizado neutro utilizado pela equipe nas sessõ
 | **HET-05** | As tarefas e modelagens refletem o uso real do público-alvo frente ao sistema analisado? | Mayhew (1999) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | | |
 | **HET-06** | O documento respeita acessibilidade visual de contraste e tipografia limpa em UTF-8? | WCAG 2.1 AA | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | | |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -332,7 +332,7 @@ A Tabela 13 apresenta a autoavaliação da conformidade metodológica do artefat
 | **CHK-05** | Todas as tabelas possuem chamadas formais explícitas antes ou junto de sua apresentação no texto? | Padrão Editorial FGA/UnB | ✅ Sim | 100% das 14 tabelas do documento possuem chamadas textuais prévias (zero tabelas órfãs). |
 | **CHK-06** | A documentação está 100% livre de delimitadores matemáticos LaTeX crus, utilizando tipografia UTF-8 nativa? | Diretrizes de Renderização MkDocs Material | ✅ Sim | Todos os operadores e símbolos utilizam caracteres UTF-8 nativos (`×`, `+`, `−`, `—`, `≥`, `≤`). |
 
-_Fonte: Elaborada pelos autores com base em Fagan (1976) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Fagan (1976) e Sales (2026), 2026._
 
 ---
 
@@ -347,8 +347,9 @@ A Tabela 14 documenta o histórico evolutivo deste artefato normativo.
 | `1.0` | 12/10/2026 | Elaboração inicial das Listas de Verificação em branco (checklists normativos), estabelecendo o desacoplamento formal em relação ao relatório de autoavaliação (Issue #30), com fundamentação do método de Fagan (1976), templates das Entregas 1 a 3, modelo de heteroavaliação e checklist da técnica. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 | `2.0` | 27/10/2026 | Expansão dos instrumentos normativos de inspeção: incorporação dos checklists em branco da Entrega 4 (Tabela 9 - 12 critérios) e da Entrega 5 (Tabela 10 - 15 critérios), renumerando matrizes e alinhando com a heteroavaliação. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `2.1` | 29/10/2026 | Inclusão da Seção 9 com o Checklist Normativo da Entrega 6 (Tabela 11 — 12 critérios para Relato do Protótipo de Papel e Planejamento de Alta Fidelidade) e correção da numeração sequencial das Tabelas 9 a 14 (#118). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `2.2` | 30/10/2026 | Resolução de integração com develop e padronização estrita das fontes nominais dos integrantes (#118). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

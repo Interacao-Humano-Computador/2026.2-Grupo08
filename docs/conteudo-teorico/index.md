@@ -12,7 +12,7 @@ A Tabela 0 apresenta a distribuição das contribuições dos integrantes ativos
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Elaboração completa do Item Teórico: Storyboarding em IHC e Lista de Verificação de 10 itens de Klemmer (Issue #63) | 13/10/2026 | Google Gemini (LLM) | Apoio na formatação Markdown. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Elaboração do Item Teórico: Métodos de Avaliação em IHC (Investigação vs. Inspeção em Análise de Tarefas) | 22/10/2026 | — | Elaboração e revisão humana por pares. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -199,7 +199,11 @@ O item teórico elaborado por Edvaldo Soares contrapõe os **Métodos de Investi
 
 ## Histórico de Versão
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+A Tabela 4 documenta o histórico de modificações e revisões deste artefato.
+
+**Tabela 4** — Histórico de Versão do Documento
+
+| Versão | Data | Descrição Detalhada da Alteração | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 04/09/2026 | Criação inicial da página de conteúdo teórico | [Gustavo Antonio](https://github.com/gus-ant) | [Pedro Paulo](https://github.com/Pedrop06) |
 | `1.1` | 05/09/2026 | Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Gustavo Antonio](https://github.com/gus-ant) |
@@ -207,6 +211,9 @@ O item teórico elaborado por Edvaldo Soares contrapõe os **Métodos de Investi
 | `1.3` | 13/10/2026 | Desenvolvimento completo do item teórico individual sobre Storyboarding em IHC com citação direta de Barbosa e Silva (2021) e evidência visual (Issue #63) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Araruna](https://github.com/ViniciusA05) |
 | `1.4` | 13/10/2026 | Incorporação da Lista de Verificação Canônica de Storyboard baseada em Scott Klemmer (UC Berkeley / Coursera) com 10 itens normativos e saneamento nominal de fontes. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Araruna](https://github.com/ViniciusA05) |
 | `1.5` | 29/10/2026 | Consolidação dos itens teóricos dos 3 membros ativos (Vinicius, Gustavo e Edvaldo), vinculação direta com as 5 Listas de Verificação (`LV-01` a `LV-05`) e Protótipo de Papel, atualização da Tabela 1 para o Fórum Diolinux Plus e remoção de seções placeholders de membros inativos (#118). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.6` | 30/10/2026 | Resolução de conflito de integração com a branch develop e conformidade com fontes nominais da equipe (#118). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

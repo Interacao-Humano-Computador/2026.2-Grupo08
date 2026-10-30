@@ -8,7 +8,7 @@ A Tabela 1 apresenta a atribuição de responsabilidades na elaboração e revis
 
 | Integrante | Atribuição | Data | Horário | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :---: | :--- |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor Principal**: Estruturação formal do relatório de resultados, matriz de problemas de Nielsen e alinhamento do Storyboard 2 à Criação de Eventos Presenciais — CF02 (Issues #61, #104). | 22/10/2026 | 19:30 - 21:00 | LLM (Antigravity): apoio na estruturação das tabelas Markdown e checagem de itens normativos. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor Principal**: Estruturação formal do relatório de resultados, matriz de problemas de Nielsen e alinhamento do Storyboard 2 à Criação de Eventos Presenciais — CF02 (Issues #61, #104). | 22/10/2026 | 19:30 - 21:00 | Google Gemini (LLM): apoio na estruturação das tabelas Markdown e checagem de itens normativos. |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Designado**: Auditoria de compatibilidade com o Framework DECIDE e verificação dos critérios de aceite do Plano de Ensino. | 13/10/2026 | 21:00 - 21:30 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Verificação de consistência entre o relato de Storyboards e o relato de Análise de Tarefas. | 13/10/2026 | 21:30 - 22:00 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 
@@ -199,4 +199,4 @@ _Fonte: Gustavo Antonio Rodrigues e Silva, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a confecção deste documento, foram utilizados recursos de Inteligência Artificial Generativa (Antigravity LLM / Gemini) exclusivamente para a formatação de tabelas Markdown e checagem de consistência contra a escala de severidade de Nielsen. A estruturação do relatório, a definição dos itens normativos de avaliação, o desenho das matrizes de problemas e o checklist da técnica foram concebidos e validados pelos integrantes da equipe.
+Durante a confecção deste documento, foram utilizados recursos de Inteligência Artificial Generativa (Google Gemini) exclusivamente para a formatação de tabelas Markdown e checagem de consistência contra a escala de severidade de Nielsen. A estruturação do relatório, a definição dos itens normativos de avaliação, o desenho das matrizes de problemas e o checklist da técnica foram concebidos e validados pelos integrantes da equipe.

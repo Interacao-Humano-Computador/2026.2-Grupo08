@@ -2,11 +2,17 @@
 
 ## Tabela de Contribuição
 
+A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas utilizadas na elaboração deste artefato.
+
+**Tabela 0** — Matriz de Contribuição e Transparência de IA Generativa
+
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão das listas de verificação e aplicação nos artefatos da Entrega 2](#aplicacao-e-inspecao-cruzada-dos-artefatos-desenvolvidos-pelo-time) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Revisão das listas de verificação e alinhamento da Tarefa 2 à Criação de Eventos Presenciais — CF02 (#104)](#aplicacao-e-inspecao-cruzada-dos-artefatos-desenvolvidos-pelo-time) | 22/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa das 4 listas de verificação (HTA, Elenco de Personas, Personas e CTT) com fundamentação canônica textual e referências ABNT](#listas-de-verificacao-avaliativas-individuais) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -41,7 +47,7 @@ A Tabela 1 apresenta a síntese quantitativa das listas de verificação concebi
 | **LV-04** | Árvores de Tarefas Concorrentes (CTT) | 8 itens | **9 itens** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Barbosa & Silva (2021, Cap. 8, p. 185); Paternò (2000) |
 | **LV-05** | Prototipação de Baixa Fidelidade (Storyboards e Protótipo de Papel — Níveis 1 e 2) | 8 itens | **9 itens** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Barbosa & Silva (2021, Cap. 10, p. 237–252); Snyder (2003); Rettig (1994); Klemmer (2012) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 Conforme evidenciado na Tabela 1, todas as cinco listas de verificação superam o quantitativo mínimo estipulado no plano de ensino, assegurando cobertura abrangente para auditorias cruzadas da equipe desde a Análise de Requisitos até os Níveis 1 e 2 de prototipação.
 
@@ -183,7 +189,7 @@ A Tabela 7 sintetiza a distribuição da aplicação das listas de verificação
 | **[Relatos Empíricos de Nível 1 (Storyboard e Análise de Tarefas)](../design-avaliacao-desenvolvimento/nivel-1/storyboard/relato-resultados.md)** | `LV-01` e `LV-05` | [Vinicius](https://github.com/ViniciusA05), [Gustavo](https://github.com/gus-ant), [Edvaldo](https://github.com/PajeMurici-dev) | Revisão Circular 360º | ✅ 100% Conforme |
 | **[Planejamento da Avaliação e Relato do Protótipo de Papel — Tarefa 1 (Nível 2)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md)** | `LV-05` (Protótipo de Papel) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | ✅ 100% Conforme |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -199,7 +205,7 @@ A Tabela 8 documenta o histórico de versões deste artefato.
 | `1.1` | 22/10/2026 | Atualização da Tabela 6 alinhando formalmente a Tarefa 2 de Gustavo Antonio à Criação de Eventos Presenciais (CF02) (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.2` | 29/10/2026 | Adição da Lista de Verificação 5 (`LV-05`: Storyboards e Protótipo de Papel com 9 itens canônicos) e expansão da Matriz de Aplicação e Inspeção Cruzada dos Artefatos Desenvolvidos pelo Time (Tabela 7) cobrindo Nível 1 e Nível 2 (#118). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
