@@ -12,7 +12,7 @@ A distribuição de responsabilidades na elaboração, estruturação e curadori
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão técnica dos critérios de Elicitação, Busca e Análise de Tarefas frente às rubricas | 12/10/2026 | 02:00 - 02:30 | Nenhuma | Auditoria humana cruzada dos itens e consistência de links normativos. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão dos critérios de Planejamento, Onboarding e Governança do repositório | 12/10/2026 | 02:30 - 03:00 | Nenhuma | Verificação da completude dos critérios de Entrega 1 e Entrega 2. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -83,7 +83,7 @@ A Tabela 2 apresenta o checklist normativo para os aspectos de planejamento e se
 | **E1-08** | Todos os artefatos previstos (Planejamento, Equipe, Sites, Ferramentas, Processo de Design) estão publicados? | Plano de Ensino da Disciplina (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E1-09** | Há página com registro das atas de reuniões da equipe com links funcionais para as gravações em vídeo? | Diretrizes de Governança (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Sales (2026), 2026._
 
 ---
 
@@ -106,7 +106,7 @@ A Tabela 3 estabelece o checklist de governança técnica e conformidade editori
 | **E1-18** | Há Tabela de Contribuição no topo do documento com a participação de todos os membros ativos? | Diretrizes de Avaliação Contínua | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E1-19** | Há seção de agradecimentos e transparência declarando o uso ético e supervisionado de IA Generativa? | Diretrizes Éticas FGA/UnB | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Sales (2026), 2026._
 
 ---
 
@@ -121,7 +121,7 @@ A Tabela 4 sintetiza o checklist normativo para o Processo de Design e conteúdo
 | **E1-20** | A escolha do Processo de Design está fundamentada com citação, referência ABNT, justificativa e foto do livro? | Barbosa & Silva (2021); Sales (2026) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E1-21** | Todos os discentes ativos elaboraram itens de conteúdo teórico individual com referência, autor e print do livro? | Diretrizes Pedagógicas FGA/UnB | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
 ---
 
@@ -146,7 +146,7 @@ A Tabela 5 detalha os critérios normativos para o Perfil do Usuário e Aspectos
 | **E2-07** | O artefato prescreve o procedimento mandatório de leitura prévia e consentimento gravado do TCLE? | Diretrizes Éticas em IHC (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E2-08** | São garantidos formalmente o anonimato dos participantes, sigilo de dados e voluntariedade da pesquisa? | Lei nº 13.709/2018 (LGPD) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e CNS 510/2016, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e CNS 510/2016, 2026._
 
 ---
 
@@ -168,7 +168,7 @@ A Tabela 6 estabelece os critérios para construção do elenco de personas e re
 | **E2-16** | Cada cenário explicita contexto inicial, objetivo, episódios de ação, restrições e resultado final alcançado? | Carroll (2000) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E2-17** | Há rastreabilidade formal conectando Cenários, Personas e as Tarefas modeladas em HTA/GOMS? | Barbosa & Silva (2021) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Cooper (1999) e Carroll (2000), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Cooper (1999) e Carroll (2000), 2026._
 
 ---
 
@@ -189,7 +189,7 @@ A Tabela 7 sistematiza os requisitos formais de engenharia de tarefas da Entrega
 | **E2-24** | Cada integrante ativo é autor principal de ao menos uma modelagem de tarefa completa e distinta? | Plano de Ensino da Disciplina (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E2-25** | A gravação oficial da apresentação da Entrega 2 está hospedada no YouTube na modalidade 'Não Listado'? | Diretrizes da Disciplina (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Annett & Duncan (1967) e Card et al. (1983), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Annett & Duncan (1967) e Card et al. (1983), 2026._
 
 ---
 
@@ -216,15 +216,15 @@ A Tabela 8 apresenta o checklist normativo de Análise de Requisitos, englobando
 | **E3-13** | A Ata da Reunião de planejamento da etapa foi publicada com pauta, deliberações e membros ativos? | Diretrizes de Governança | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E3-14** | A gravação da reunião e o vídeo da apresentação oficial da Entrega 3 estão disponíveis no YouTube em "Não Listado"? | Diretrizes da Disciplina (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Mayhew (1999) e Barbosa & Silva (2021), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Mayhew (1999) e Barbosa & Silva (2021), 2026._
 
 ---
 
 ## 7. Checklists da Entrega 4 — Planejamento de Nível 1 (Storyboards e Tarefas)
 
-A Entrega 4 estabelece a esteira preliminar de avaliação formativa no Nível 1 de Mayhew (1999). A Tabela 8 apresenta o checklist normativo para os planejamentos de avaliação e relato de Storyboard e Análise de Tarefas.
+A Entrega 4 estabelece a esteira preliminar de avaliação formativa no Nível 1 de Mayhew (1999). A Tabela 9 apresenta o checklist normativo para os planejamentos de avaliação e relato de Storyboard e Análise de Tarefas.
 
-**Tabela 8** — Checklist normativo de planejamento da avaliação de Nível 1 (Entrega 4)
+**Tabela 9** — Checklist normativo de planejamento da avaliação de Nível 1 (Entrega 4)
 
 | ID | Questão / Critério da Rubrica Oficial | Origem / Fonte Normativa | Avaliação | Justificativa e Local da Evidência |
 | :---: | :--- | :--- | :---: | :--- |
@@ -241,15 +241,15 @@ A Entrega 4 estabelece a esteira preliminar de avaliação formativa no Nível 1
 | **E4-11** | O cronograma executado da Etapa 4 registra as datas reais e os integrantes responsáveis? | Diretrizes de Governança | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E4-12** | O vídeo de apresentação oficial da equipe foi publicado como "Não Listado" no YouTube? | Plano de Ensino da Disciplina | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Preece et al. (2002) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Preece et al. (2002) e Sales (2026), 2026._
 
 ---
 
 ## 8. Checklists da Entrega 5 — Relatos de Nível 1 e Planejamento de Nível 2 (Protótipo de Papel)
 
-A Entrega 5 cumpre o papel de encerramento formativo da modelagem conceitual e projeção dos testes em papel. A Tabela 9 reúne os 15 critérios objetivos exigidos na inspeção normativa da etapa.
+A Entrega 5 cumpre o papel de encerramento formativo da modelagem conceitual e projeção dos testes em papel. A Tabela 10 reúne os 15 critérios objetivos exigidos na inspeção normativa da etapa.
 
-**Tabela 9** — Checklist normativo da Entrega 5 (Relatos de Nível 1 e Protótipo de Papel de Nível 2)
+**Tabela 10** — Checklist normativo da Entrega 5 (Relatos de Nível 1 e Protótipo de Papel de Nível 2)
 
 | ID | Questão / Critério da Rubrica Oficial | Origem / Fonte Normativa | Avaliação | Justificativa e Local da Evidência |
 | :---: | :--- | :--- | :---: | :--- |
@@ -269,15 +269,40 @@ A Entrega 5 cumpre o papel de encerramento formativo da modelagem conceitual e p
 | **E5-14** | As tabelas de contribuição e históricos de versão possuem indicação de autores e revisores com links funcionais? | Fagan (1976); Governança da Disciplina | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 | **E5-15** | Há seção de agradecimentos declarando com transparência e supervisão humana o escopo do uso de IA Generativa? | Diretrizes da SBC (2023); Sales (2026) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
 
-_Fonte: Elaborada pelos autores com base em Snyder (2003), Nielsen (1994) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Snyder (2003), Nielsen (1994) e Sales (2026), 2026._
 
 ---
 
-## 9. Template para Heteroavaliação de Grupos Pares
+## 9. Checklists da Entrega 6 — Relato do Protótipo de Papel (Nível 2) e Planejamento de Alta Fidelidade (Nível 3)
 
-A Tabela 10 fornece o modelo padronizado neutro utilizado pela equipe nas sessões de heteroavaliação dos grupos pares (Grupo -1 e Grupo +1).
+A Entrega 6 consolida a avaliação empírica dos Protótipos de Papel (Nível 2 de Mayhew) e estrutura o Planejamento da Avaliação e do Relato dos Protótipos de Alta Fidelidade (Nível 3). A Tabela 11 reúne os 12 critérios normativos em branco para inspeção da etapa.
 
-**Tabela 10** — Template normativo de heteroavaliação para grupos pares
+**Tabela 11** — Checklist normativo da Entrega 6 (Relato do Protótipo de Papel e Planejamento de Alta Fidelidade)
+
+| ID | Questão / Critério da Rubrica Oficial | Origem / Fonte Normativa | Avaliação | Justificativa e Local da Evidência |
+| :---: | :--- | :--- | :---: | :--- |
+| **E6-01** | O relato do Protótipo de Papel documenta as pranchas físicas base e os componentes móveis recortados (modais, menus e alertas)? | Snyder (2003); Rettig (1994); Barbosa & Silva (2021, p. 248) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-02** | Foi executado e gravado o Teste-Piloto do Protótipo de Papel antes da sessão oficial, com cláusula explícita de isolamento de seus dados? | Barbosa & Silva (2021, p. 276); Mayhew (1999) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-03** | A sessão de avaliação do Protótipo de Papel respeitou a separação de papéis entre Facilitador e 'Computador Humano'? | Snyder (2003); Rettig (1994) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-04** | O consentimento livre e esclarecido (TCLE) foi gravado com leitura literal do Script Oral nos primeiros 60 segundos do vídeo? | Resolução CNS nº 510/2016; Beauchamp & Childress (2013) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-05** | O relato do Protótipo de Papel analisa as perguntas investigativas (PP01 a PP08) e classifica os problemas na escala de severidade de Nielsen (0 a 4)? | Nielsen (1994); Barbosa & Silva (2021, p. 280) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-06** | O relato especifica diretrizes concretas de reprojeto para a construção do Protótipo de Alta Fidelidade (Nível 3)? | Mayhew (1999); Snyder (2003) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-07** | O Planejamento da Avaliação do Protótipo de Alta Fidelidade (Nível 3) aplica integralmente as 6 etapas do Framework DECIDE? | Preece et al. (2002); Barbosa & Silva (2021, p. 280) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-08** | O Planejamento de Alta Fidelidade define métricas quantitativas e qualitativas vinculadas às Metas de Usabilidade e ao Guia de Estilo? | Mayhew (1999); Nielsen (1994) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-09** | O Planejamento de Alta Fidelidade prevê protocolo de Teste-Piloto (com isolamento de dados), orçamento de custo zero e Script Oral do TCLE? | Barbosa & Silva (2021, p. 276); Sales (2026) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-10** | O Planejamento do Relato dos Resultados de Alta Fidelidade define a estrutura canônica do futuro relatório e matriz de severidade? | Barbosa & Silva (2021, p. 280–282) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-11** | Todos os artefatos de Storyboard, HTA, Protótipo de Papel e Alta Fidelidade possuem Lista de Verificação da Técnica (mínimo de 6 a 8 itens)? | Diretrizes Pedagógicas FGA/UnB (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E6-12** | As gravações de Teste-Piloto, Avaliação em Papel e Apresentação da Entrega 6 estão hospedadas no YouTube como 'Não Listado'? | Plano de Ensino da Disciplina (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+
+_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05) com base em Snyder (2003), Mayhew (1999), Barbosa e Silva (2021) e Sales (2026), 2026._
+
+---
+
+## 10. Template para Heteroavaliação de Grupos Pares
+
+A Tabela 12 fornece o modelo padronizado neutro utilizado pela equipe nas sessões de heteroavaliação dos grupos pares (Grupo -1 e Grupo +1).
+
+**Tabela 12** — Template normativo de heteroavaliação para grupos pares
 
 | ID | Critério Avaliado | Fonte Normativa | Conforme? | Evidências / Problemas Identificados | Sugestão de Correção para a Equipe |
 | :---: | :--- | :--- | :---: | :--- | :--- |
@@ -288,46 +313,47 @@ A Tabela 10 fornece o modelo padronizado neutro utilizado pela equipe nas sessõ
 | **HET-05** | As tarefas e modelagens refletem o uso real do público-alvo frente ao sistema analisado? | Mayhew (1999) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | | |
 | **HET-06** | O documento respeita acessibilidade visual de contraste e tipografia limpa em UTF-8? | WCAG 2.1 AA | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | | |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
-## 10. Lista de Verificação da Técnica (Elaboração de Checklists)
+## 11. Lista de Verificação da Técnica (Elaboração de Checklists)
 
-A Tabela 11 apresenta a autoavaliação da conformidade metodológica do artefato de listas de verificação frente aos critérios científicos de inspeção de software (*Fagan, 1976; Gilb & Graham, 1993; Barbosa & Silva, 2021*).
+A Tabela 13 apresenta a autoavaliação da conformidade metodológica do artefato de listas de verificação frente aos critérios científicos de inspeção de software (*Fagan, 1976; Gilb & Graham, 1993; Barbosa & Silva, 2021*).
 
-**Tabela 11** — Lista de verificação da técnica de elaboração de checklists
+**Tabela 13** — Lista de verificação da técnica de elaboração de checklists
 
 | ID | Questão Avaliada | Origem / Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Artefato |
 | :---: | :--- | :--- | :---: | :--- |
 | **CHK-01** | O artefato está estruturado estritamente como template normativo em branco (desacoplado de inspeções)? | Fagan (1976); Gilb & Graham (1993) | ✅ Sim | O documento disponibiliza os instrumentos neutros em branco; as avaliações empíricas residem em [grupo08.md](grupo08.md). |
 | **CHK-02** | Há fundamentação teórica formal sobre o método de inspeção de software e suas 6 fases canônicas? | Fagan (1976); Barbosa & Silva (2021, p. 286) | ✅ Sim | A Seção 2 detalha as etapas de Fagan (Planejamento a Acompanhamento) com linha formal de autoria de Vinicius Silva Araruna. |
-| **CHK-03** | Os checklists abrangem todas as etapas desenvolvidas até o momento (Entregas 1 a 5)? | Plano de Ensino da Disciplina (*Sales, 2026*) | ✅ Sim | As Seções 4, 5 e 6 cobrem exaustivamente as rubricas das Entregas 1, 2 e 3 da disciplina de IHC. |
+| **CHK-03** | Os checklists abrangem todas as etapas desenvolvidas até o momento (Entregas 1 a 6)? | Plano de Ensino da Disciplina (*Sales, 2026*) | ✅ Sim | As Seções 4 a 9 cobrem exaustivamente as rubricas das Entregas 1 a 6 da disciplina de IHC. |
 | **CHK-04** | Cada critério de verificação possui identificador único (ID) e referência explícita à fonte normativa canônica? | Gilb & Graham (1993) | ✅ Sim | Todas as tabelas contêm as colunas 'ID' e 'Origem / Fonte Normativa' indicando a literatura ou rubrica. |
-| **CHK-05** | Todas as tabelas possuem chamadas formais explícitas antes ou junto de sua apresentação no texto? | Padrão Editorial FGA/UnB | ✅ Sim | 100% das 11 tabelas do documento possuem chamadas textuais prévias (zero tabelas órfãs). |
+| **CHK-05** | Todas as tabelas possuem chamadas formais explícitas antes ou junto de sua apresentação no texto? | Padrão Editorial FGA/UnB | ✅ Sim | 100% das 14 tabelas do documento possuem chamadas textuais prévias (zero tabelas órfãs). |
 | **CHK-06** | A documentação está 100% livre de delimitadores matemáticos LaTeX crus, utilizando tipografia UTF-8 nativa? | Diretrizes de Renderização MkDocs Material | ✅ Sim | Todos os operadores e símbolos utilizam caracteres UTF-8 nativos (`×`, `+`, `−`, `—`, `≥`, `≤`). |
 
-| `2.0` | 27/10/2026 | Expansão dos instrumentos normativos de inspeção: incorporação dos checklists em branco da Entrega 4 (Tabela 8 - 12 critérios) e da Entrega 5 (Tabela 9 - 15 critérios), renumerando matrizes e alinhando com a heteroavaliação. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-
-_Fonte: Elaborada pelos autores com base em Fagan (1976) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Fagan (1976) e Sales (2026), 2026._
 
 ---
 
-## 11. Histórico de Versão
+## 12. Histórico de Versão
 
-A Tabela 12 documenta o histórico evolutivo deste artefato normativo.
+A Tabela 14 documenta o histórico evolutivo deste artefato normativo.
 
-**Tabela 12** — Histórico de versão do documento
+**Tabela 14** — Histórico de versão do documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 12/10/2026 | Elaboração inicial das Listas de Verificação em branco (checklists normativos), estabelecendo o desacoplamento formal em relação ao relatório de autoavaliação (Issue #30), com fundamentação do método de Fagan (1976), templates das Entregas 1 a 3, modelo de heteroavaliação e checklist da técnica. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
+| `2.0` | 27/10/2026 | Expansão dos instrumentos normativos de inspeção: incorporação dos checklists em branco da Entrega 4 (Tabela 9 - 12 critérios) e da Entrega 5 (Tabela 10 - 15 critérios), renumerando matrizes e alinhando com a heteroavaliação. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `2.1` | 29/10/2026 | Inclusão da Seção 9 com o Checklist Normativo da Entrega 6 (Tabela 11 — 12 critérios para Relato do Protótipo de Papel e Planejamento de Alta Fidelidade) e correção da numeração sequencial das Tabelas 9 a 14 (#118). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `2.2` | 30/10/2026 | Resolução de integração com develop e padronização estrita das fontes nominais dos integrantes (#118). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
-## 12. Referências Bibliográficas
+## 13. Referências Bibliográficas
 
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier / Campus, 2010.
 
