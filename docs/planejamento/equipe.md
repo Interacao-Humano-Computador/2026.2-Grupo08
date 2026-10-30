@@ -30,9 +30,9 @@ A Tabela 1 apresenta a composição oficial dos estudantes atualmente responsáv
 
 | Foto | Nome | GitHub |
 | :---: | :--- | :---: |
-| <img src="../../assets/equipe/edvaldo.jpg" alt="Foto de Edvaldo Soares Brasileiro Filho" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Edvaldo Soares Brasileiro Filho | [@PajeMurici-dev](https://github.com/PajeMurici-dev) |
-| <img src="../../assets/equipe/gustavo.jpg" alt="Foto de Gustavo Antonio Rodrigues e Silva" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
-| <img src="../../assets/equipe/vinicius.png" alt="Foto de Vinicius Silva Araruna" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Vinicius Silva Araruna | [@ViniciusA05](https://github.com/ViniciusA05) |
+| <img src="../assets/equipe/edvaldo.jpg" alt="Foto de Edvaldo Soares Brasileiro Filho" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Edvaldo Soares Brasileiro Filho | [@PajeMurici-dev](https://github.com/PajeMurici-dev) |
+| <img src="../assets/equipe/gustavo.jpg" alt="Foto de Gustavo Antonio Rodrigues e Silva" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Gustavo Antonio Rodrigues e Silva | [@gus-ant](https://github.com/gus-ant) |
+| <img src="../assets/equipe/vinicius.png" alt="Foto de Vinicius Silva Araruna" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Vinicius Silva Araruna | [@ViniciusA05](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -50,8 +50,8 @@ A Tabela 2 apresenta os membros que contribuíram ativamente na Etapa 1 e que po
 
 | Foto | Nome | GitHub | Contribuições Desenvolvidas na Etapa 1 |
 | :---: | :--- | :---: | :--- |
-| <img src="../../assets/equipe/jonathan.jpg" alt="Foto de Jonathan Lourenço Carpaneda" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) | Atuação ativa na Etapa 1: elaboração do artefato de Ferramentas, padronização da documentação, estruturação das Referências Bibliográficas em padrão ABNT e participação nas Atas 1 a 3. |
-| <img src="../../assets/equipe/pedro.jpg" alt="Foto de Pedro Paulo Almeida Araujo" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) | Atuação ativa na Etapa 1: criação inicial da página da equipe com suporte à alternância de contraste de cores, elaboração do Heatmap de disponibilidade, consolidação de datas no cronograma e atuação nas Atas 1 a 3. |
+| <img src="../assets/equipe/jonathan.jpg" alt="Foto de Jonathan Lourenço Carpaneda" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Jonathan Lourenço Carpaneda | [@Jonathan-Carpaneda](https://github.com/Jonathan-Carpaneda) | Atuação ativa na Etapa 1: elaboração do artefato de Ferramentas, padronização da documentação, estruturação das Referências Bibliográficas em padrão ABNT e participação nas Atas 1 a 3. |
+| <img src="../assets/equipe/pedro.jpg" alt="Foto de Pedro Paulo Almeida Araujo" width="120" height="120" style="border-radius: 50%; object-fit: cover; aspect-ratio: 1/1;"> | Pedro Paulo Almeida Araujo | [@Pedrop06](https://github.com/Pedrop06) | Atuação ativa na Etapa 1: criação inicial da página da equipe com suporte à alternância de contraste de cores, elaboração do Heatmap de disponibilidade, consolidação de datas no cronograma e atuação nas Atas 1 a 3. |
 
 _Fonte: Elaborada pelos autores, 2026._
 

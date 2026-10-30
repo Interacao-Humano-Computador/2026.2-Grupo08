@@ -8,9 +8,9 @@ A Tabela 1 apresenta a autoria e responsabilidade individual na elaboração dos
 
 | Integrante | Atribuição no Artefato | Data | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor do Storyboard 1**: Concepção narrativa, elaboração da prancha física em papel (8 quadros, 300 DPI), roteiro de cenas com integração de IA semântica e documentação detalhada. | 24/10/2026 | [Gustavo Antonio](https://github.com/gus-ant) | Antigravity (LLM) | Apoio na estruturação sintática de tabelas e alinhamento de rastreabilidade HTA. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor do Storyboard 1**: Concepção narrativa, elaboração da prancha física em papel (8 quadros, 300 DPI), roteiro de cenas com integração de IA semântica e documentação detalhada. | 24/10/2026 | [Gustavo Antonio](https://github.com/gus-ant) | Google Gemini (LLM) | Apoio na estruturação sintática de tabelas e alinhamento de rastreabilidade HTA. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor do Storyboard 2**: Concepção narrativa, desenho manual em prancha física (8 quadros), digitalização em 300 DPI, redação das histórias e decomposição das cenas. | 22/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | — | Desenho manual autoral em papel e digitalização via scanner óptico. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Autor do Storyboard 3**: Concepção e estruturação da narrativa da Grade de Disponibilidade e Agendamento de Reuniões/Mentorias no fórum. | 24/10/2026 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | LLM (Antigravity) | Apoio na estruturação dos cenários e tabela de quadros. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Autor do Storyboard 3**: Concepção e estruturação da narrativa da Grade de Disponibilidade e Agendamento de Reuniões/Mentorias no fórum. | 24/10/2026 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Google Gemini (LLM) | Apoio na estruturação dos cenários e tabela de quadros. |
 
 _Fonte: Elaborada pelos autores, 2026._
 
@@ -64,7 +64,7 @@ Em estrito atendimento aos critérios de avaliação do Plano de Ensino da disci
 
 A Figura 1 apresenta a prancha desenhada à mão em folha de papel sulfite A4 por Vinicius Silva Araruna, contendo a sequência cronológica completa dos 8 quadros da Tarefa 1.
 
-![Figura 1 – Prancha completa do Storyboard 1: Criação de Tópico com Tags, Markdown e Verificação Semântica de IA](assets/storyboards/storyboard_Vinicius_Araruna.jpeg)
+![Figura 1 – Prancha completa do Storyboard 1: Criação de Tópico com Tags, Markdown e Verificação Semântica de IA](../assets/storyboards/storyboard_Vinicius_Araruna.jpeg)
 
 <p align="center" style="font-size: 0.85em; color: #64748B;">
 <b>Figura 1</b> — Prancha original manuscrita do Storyboard 1 (Opção B, 300 DPI) com verificação semântica de IA.<br>
@@ -190,7 +190,7 @@ Conforme preconizado por Klemmer (2012) e demonstrado na lista de verificação 
 
 A Figura 2 reproduz a prancha física do Storyboard 2 elaborada por Gustavo Antonio Rodrigues e Silva, digitalizada em alta resolução gráfica (300 DPI) para inspeção e avaliação com os participantes convidados.
 
-![Figura 2 – Prancha completa do Storyboard 2: Criação e Divulgação de Workshop Presencial de Linux no Fórum Diolinux Plus](assets/storyboards/storyboard_Gustavo_Antonio.png)
+![Figura 2 – Prancha completa do Storyboard 2: Criação e Divulgação de Workshop Presencial de Linux no Fórum Diolinux Plus](../assets/storyboards/storyboard_Gustavo_Antonio.png)
 
 <p align="center" style="font-size: 0.85em; color: #64748B;">
 <b>Figura 2</b> — Prancha original do Storyboard 2 desenhada manualmente por Gustavo Antonio Rodrigues e Silva (8 quadros, 300 DPI).<br>
@@ -277,7 +277,7 @@ _Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeM
 
 A Figura 3 apresenta a representação gráfica do Storyboard 3 (Grade de Disponibilidade e Agendamento).
 
-![Figura 3 – Storyboard 3: Grade de Disponibilidade e Agendamento de Reuniões no Fórum Diolinux](assets/storyboards/storyboard_busca_avancada.png)
+![Figura 3 – Storyboard 3: Grade de Disponibilidade e Agendamento de Reuniões no Fórum Diolinux](../assets/storyboards/storyboard_busca_avancada.png)
 
 <p align="center" style="font-size: 0.85em; color: #64748B;">
 <b>Figura 3</b> — Sequência de quadros da funcionalidade de Grade de Disponibilidade e Agendamento de Reuniões vinculada aos tópicos do fórum Diolinux (Issue #64).<br>

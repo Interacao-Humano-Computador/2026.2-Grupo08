@@ -8,8 +8,8 @@ A Tabela 1 apresenta a matriz de responsabilidades e atribuições na consolida�
 
 | Integrante | Atribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Condução da Sessão 01 (Tarefa 1), transcrição e análise qualitativa de conteúdo (P01 a P08), tabulação na escala de Nielsen e elaboração das recomendações de reprojeto para Nível 2. | 24/10/2026 | Antigravity (LLM) | Apoio na estruturação das tabelas Markdown e checagem de rigor normativo de IHC. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Condução da Sessão 02 (Tarefa 2 - Eventos Presenciais), consolidação dos apontamentos do Storyboard 2 e revisão cruzada de severidade. | 24/10/2026 | Antigravity (LLM) | Suporte na estruturação Markdown e checagem de hiperligações. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Condução da Sessão 01 (Tarefa 1), transcrição e análise qualitativa de conteúdo (P01 a P08), tabulação na escala de Nielsen e elaboração das recomendações de reprojeto para Nível 2. | 24/10/2026 | Google Gemini (LLM) | Apoio na estruturação das tabelas Markdown e checagem de rigor normativo de IHC. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Condução da Sessão 02 (Tarefa 2 - Eventos Presenciais), consolidação dos apontamentos do Storyboard 2 e revisão cruzada de severidade. | 24/10/2026 | Google Gemini (LLM) | Suporte na estruturação Markdown e checagem de hiperligações. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Condução da Sessão 03 (Tarefa 3 - Busca Avançada), consolidação dos apontamentos do Storyboard 3 e validação metodológica. | 24/10/2026 | — | Condução de sessão e revisão por pares. |
 
 _Fonte: Elaborada pelos autores, 2026._

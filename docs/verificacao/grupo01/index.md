@@ -16,8 +16,8 @@ A Tabela 1 apresenta a distribuição de responsabilidades e as ferramentas util
 
 | Integrante | Atribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Tech Lead / Auditor Principal**: Concepção metodológica, estruturação da arquitetura modularizada (ADR-07), consolidação comparativa das Etapas 3 e 5 e redação técnica | 26/10/2026 | Antigravity (LLM) | Apoio na estruturação Markdown e alinhamento de referências ABNT |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Auditor Técnico**: Auditoria de governança, repositório, cronograma e Nível 1; co-apresentador das inspeções em vídeo | 26/10/2026 | Antigravity (LLM) | Apoio na checagem tabular e links funcionais |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Tech Lead / Auditor Principal**: Concepção metodológica, estruturação da arquitetura modularizada (ADR-07), consolidação comparativa das Etapas 3 e 5 e redação técnica | 26/10/2026 | Google Gemini (LLM) | Apoio na estruturação Markdown e alinhamento de referências ABNT |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Auditor Técnico**: Auditoria de governança, repositório, cronograma e Nível 1; co-apresentador das inspeções em vídeo | 26/10/2026 | Google Gemini (LLM) | Apoio na checagem tabular e links funcionais |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Auditor Técnico**: Revisão técnica consolidada das auditorias, verificação dos artefatos de Nível 2 e cálculo das métricas ponderadas | 26/10/2026 | — | Auditoria humana cruzada e validação de consistência |
 
 _Fonte: Elaborada pelos autores (Grupo 08), 2026._
@@ -45,7 +45,7 @@ A Tabela 2 apresenta o panorama cronológico e consolidado de todas as etapas do
 
 | Etapa Avaliada | Data da Avaliação | Versão / Commit Avaliado | Conformidade Geral | Relatório Completo | Apresentação em Vídeo | Relatório Oficial em PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Etapa 3**<br>*(Princípios, Metas, Guia de Estilo e Características)* | 10/10/2026 | Commit `f0c8a2f`<br>*(06/10/2026)* | **16,7% Pleno**<br>44,4% Parcial<br>38,9% Não Conforme<br>*(Taxa Ponderada: 38,9%)* | [Acessar Relatório da Etapa 3](etapa3.md) | [:material-youtube: Assistir (lttsLbInYaM)](https://youtu.be/lttsLbInYaM) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf) |
+| **Etapa 3**<br>*(Princípios, Metas, Guia de Estilo e Características)* | 10/10/2026 | Commit `f0c8a2f`<br>*(06/10/2026)* | **16,7% Pleno**<br>44,4% Parcial<br>38,9% Não Conforme<br>*(Taxa Ponderada: 38,9%)* | [Acessar Relatório da Etapa 3](etapa3.md) | [:material-youtube: Assistir (lttsLbInYaM)](https://youtu.be/lttsLbInYaM) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Inspecao_Grupo01_Etapa3_Principios_Metas_GuiaEstilo.pdf) |
 | **Etapa 5**<br>*(Relatos de Nível 1 e Planejamento do Protótipo de Papel)* | 26/10/2026 | Commit `10a7c3d`<br>*(25/10/2026)* | **6,7% Pleno**<br>46,7% Parcial<br>46,7% Não Conforme<br>*(Taxa Ponderada: 30,0%)* | [Acessar Relatório da Etapa 5](etapa5.md) | [:material-youtube: Assistir (QjAnF0_ooT8)](https://youtu.be/QjAnF0_ooT8) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf) |
 
 _Fonte: Elaborada pelos autores (Grupo 08), 2026._

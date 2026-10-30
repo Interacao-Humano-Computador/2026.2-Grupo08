@@ -8,7 +8,7 @@ A Tabela 1 documenta as responsabilidades dos autores e revisores na elaboraçã
 
 | Integrante | Atribuição | Data | Horário | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :---: | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Fundamentação teórica do teste-piloto, redação da cláusula metodológica obrigatória, modelagem do roteiro por fases e elaboração do checklist de verificação (Issue #58). | 13/10/2026 | 21:30 - 23:00 | LLM (Antigravity): formatação sintática e diagramação de tabelas Markdown. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Fundamentação teórica do teste-piloto, redação da cláusula metodológica obrigatória, modelagem do roteiro por fases e elaboração do checklist de verificação (Issue #58). | 13/10/2026 | 21:30 - 23:00 | Google Gemini (LLM): formatação sintática e diagramação de tabelas Markdown. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor Metodológico**: Verificação dos tempos estimados das perguntas de Storyboard e checagem de parâmetros de gravação. | 13/10/2026 | 23:00 - 23:30 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Técnico**: Conferência da rastreabilidade com a Análise de Tarefas e revisão de guardrails tipográficos. | 13/10/2026 | 23:30 - 23:55 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 

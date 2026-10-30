@@ -8,7 +8,7 @@ A Tabela 1 apresenta as responsabilidades de autoria e revisão deste planejamen
 
 | Integrante | Atribuição | Data | Horário | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :---: | :--- |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor Principal**: Detalhamento do recrutamento, dimensionamento e consolidação das tabelas de cronograma, atualizado com alinhamento da Tarefa/Storyboard 2 à Criação de Eventos Presenciais — CF02 (Issue #104). | 22/10/2026 | 19:30 - 21:00 | LLM (Antigravity): apoio na estruturação das matrizes Markdown e checagem de referências. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor Principal**: Detalhamento do recrutamento, dimensionamento e consolidação das tabelas de cronograma, atualizado com alinhamento da Tarefa/Storyboard 2 à Criação de Eventos Presenciais — CF02 (Issue #104). | 22/10/2026 | 19:30 - 21:00 | Google Gemini (LLM): apoio na estruturação das matrizes Markdown e checagem de referências. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Designado**: Conferência da compatibilidade com o cronograma de Análise de Tarefas e revisão cruzada por pares. | 13/10/2026 | 21:00 - 21:30 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Metodológico**: Validação do alinhamento com a etapa "I" do Framework DECIDE e verificação da rubrica do Plano de Ensino. | 13/10/2026 | 21:30 - 22:00 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 
@@ -288,4 +288,4 @@ _Fonte: Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a formatação deste documento, foram utilizados recursos de Inteligência Artificial Generativa (Antigravity LLM / Gemini) exclusivamente para o apoio sintático na diagramação das matrizes tabulares em Markdown. A concepção dos critérios de recrutamento, o cálculo da justificativa amostral, a definição das datas das sessões e as diretrizes operacionais foram idealizadas, estruturadas e auditadas pelos membros da equipe.
+Durante a formatação deste documento, foram utilizados recursos de Inteligência Artificial Generativa (Google Gemini) exclusivamente para o apoio sintático na diagramação das matrizes tabulares em Markdown. A concepção dos critérios de recrutamento, o cálculo da justificativa amostral, a definição das datas das sessões e as diretrizes operacionais foram idealizadas, estruturadas e auditadas pelos membros da equipe.

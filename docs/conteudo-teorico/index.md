@@ -20,7 +20,7 @@ Cada integrante é responsável por desenvolver itens conceituais fundamentais p
 1. Conceituação teórica aprofundada baseada na literatura de referência (BARBOSA; SILVA, 2010; BARBOSA et al., 2021; NIELSEN, 1994);
 2. Citação textual direta com indicação exata de autoria e numeração de página;
 3. Fotografia / captura comprobatória em alta resolução da página correspondente na obra de referência;
-4. Articulação prática explicando como o conceito teórico é operacionalizado nas atividades práticas do projeto do **Portal Domínio Público (MEC)**.
+4. Articulação prática explicando como o conceito teórico é operacionalizado nas atividades práticas do projeto do **Fórum Diolinux Plus**.
 
 ---
 
@@ -46,9 +46,9 @@ A Tabela 1 detalha os seis passos do framework DECIDE e o mapeamento de sua apli
 
 **Tabela 1** — Estrutura operacional do Framework DECIDE e aplicação no projeto
 
-| Letra | Etapa do Framework | Definição Metodológica (Barbosa et al., 2021, p. 280) | Aplicação no Projeto do Grupo 08 (Portal Domínio Público) |
+| Letra | Etapa do Framework | Definição Metodológica (Barbosa et al., 2021, p. 280) | Aplicação no Projeto do Grupo 08 (Fórum Diolinux Plus) |
 | :---: | :--- | :--- | :--- |
-| **D** | **Determinar os objetivos da avaliação de IHC** | Identificar os objetivos gerais da avaliação e justificar por que e para quem tais metas são relevantes. | Diagnosticar falhas de usabilidade, navegabilidade e arquitetura da informação na busca de acervo do Portal Domínio Público. |
+| **D** | **Determinar os objetivos da avaliação de IHC** | Identificar os objetivos gerais da avaliação e justificar por que e para quem tais metas são relevantes. | Diagnosticar falhas de usabilidade, navegabilidade e arquitetura da informação na publicação de tópicos técnicos, eventos presenciais e agendamentos no Fórum Diolinux Plus. |
 | **E** | **Explorar perguntas a serem respondidas** | Desdobrar os objetivos gerais em perguntas específicas de avaliação que orientem a coleta empírica ou analítica. | Formulamos questões como: "O usuário consegue filtrar obras por autor sem ambiguidade?" e "A ausência de preview força downloads desnecessários?". |
 | **C** | **Escolher os métodos de avaliação** | Selecionar os métodos mais adequados considerando prazos, custo, perfil de usuário e fidelidade do artefato. | Combinação equilibrada de métodos de inspeção (Avaliação Heurística) nas etapas iniciais e testes empíricos com usuários na etapa de alta fidelidade. |
 | **I** | **Identificar e administrar as questões práticas** | Dimensionar recursos humanos, prazos, infraestrutura técnica, ferramentas e seleção de participantes. | Uso do Google Forms para perfil, Figma para prototipação interativa, gravação de telas e cronograma de sessões síncronas. |

@@ -113,7 +113,7 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## 7. Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a elaboração deste artefato, foi utilizado apoio de Inteligência Artificial Generativa (Antigravity LLM) exclusivamente como suporte instrumental para auxílio na estruturação de tabelas Markdown e checagem de consistência contra a rubrica acadêmica. O planejamento da dinâmica, a mediação presencial em sala de aula, o levantamento das ideias empíricas e a validação do conteúdo foram realizados integralmente pelos discentes do Grupo 08.
+Durante a elaboração deste artefato, foi utilizado apoio de Inteligência Artificial Generativa (Google Gemini) exclusivamente como suporte instrumental para auxílio na estruturação de tabelas Markdown e checagem de consistência contra a rubrica acadêmica. O planejamento da dinâmica, a mediação presencial em sala de aula, o levantamento das ideias empíricas e a validação do conteúdo foram realizados integralmente pelos discentes do Grupo 08.
 
 ---
 

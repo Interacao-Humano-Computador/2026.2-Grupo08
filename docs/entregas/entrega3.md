@@ -4,7 +4,7 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação da página de síntese, consolidação dos links de artefatos, planejamento do roteiro de apresentação e Metas de Usabilidade | 05/10/2026 | Antigravity (LLM) | Apoio na formatação Markdown e cronometragem de roteiro. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação da página de síntese, consolidação dos links de artefatos, planejamento do roteiro de apresentação e Metas de Usabilidade | 05/10/2026 | Google Gemini (LLM) | Apoio na formatação Markdown e cronometragem de roteiro. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Coautoria da síntese e alinhamento dos artefatos de características da plataforma e princípios gerais de projeto | 05/10/2026 | — | Revisão e validação conjunta. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Coautoria da síntese e alinhamento dos artefatos de guia de estilo e ata de reunião nº 5 | 05/10/2026 | — | Revisão e validação conjunta. |
 
@@ -118,7 +118,7 @@ Durante a Etapa 3, as seguintes ferramentas computacionais foram empregadas:
 
 ## Declaração sobre o Uso de Inteligência Artificial Generativa
 
-Declara-se que ferramentas de IA generativa (Antigravity LLM) foram utilizadas exclusivamente como suporte instrumental de formatação Markdown e auxílio no dimensionamento temporal do roteiro cronometrado da apresentação. O planejamento de conteúdo, a divisão de responsabilidades e as avaliações práticas reportadas foram elaborados e validados pelos integrantes do Grupo 08.
+Declara-se que ferramentas de IA generativa (Google Gemini) foram utilizadas exclusivamente como suporte instrumental de formatação Markdown e auxílio no dimensionamento temporal do roteiro cronometrado da apresentação. O planejamento de conteúdo, a divisão de responsabilidades e as avaliações práticas reportadas foram elaborados e validados pelos integrantes do Grupo 08.
 
 ---
 
