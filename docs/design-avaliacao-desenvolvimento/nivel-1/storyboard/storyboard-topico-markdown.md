@@ -55,7 +55,7 @@ A narrativa do storyboard materializa diretamente as características e motivaç
 
 - **Identidade e Papel:** Lucas Mendonça tem 23 anos, é graduando de Engenharia de Software e estagiário DevOps, atuando como usuário aprendiz e intermediário em distribuições Linux (Fedora);
 - **Ponto de Dor Principal:** Dificuldade com ferramentas que quebram a formatação de comandos de terminal e logs de depuração, gerando tópicos truncados e poluição visual na comunidade;
-- **Meta Operacional:** Publicar uma dúvida técnica sobre falha de permissão ao montar volumes em contêineres Podman no Fedora 40, inserindo logs encapsulados em blocos Markdown com syntax highlight, tags taxonômicas precisas e verificação inteligente de tópicos semelhantes via integração de IA semântica pré-envio para não gerar duplicatas, obtendo uma resposta resolutiva de membros experientes.
+- **Meta Operacional:** Publicar uma dúvida técnica sobre falha de permissão no terminal Linux, estruturando título, tags e descrição contextual, destacando logs em blocos Markdown com pré-visualização lado a lado (`.md | PREVIEW`), avaliando as alternativas de tópicos similares apresentadas pela IA semântica integrada antes do envio e concluindo com sucesso a publicação do tópico.
 
 ---
 
@@ -70,7 +70,7 @@ A Figura 1 apresenta a prancha completa do Storyboard da Tarefa 1 confeccionada 
 <i>Fonte: Vinicius Silva Araruna, 2026.</i>
 </p>
 
-Conforme ilustrado na Figura 1, a narrativa percorre desde o gatilho emocional no terminal até o encerramento com validação colaborativa na comunidade.
+Conforme ilustrado na Figura 1, a narrativa percorre desde o gatilho de erro de permissão no laboratório de aula (`"Permissão Negada"`) e a hesitação inicial sobre como organizar os logs, até o destaque com Markdown (`.md | PREVIEW`), a avaliação de alternativas sugeridas pela IA semântica integrada e a comemoração pela publicação concluída (`"Tópico Publicado / UHUUL!"`).
 
 ---
 
@@ -80,16 +80,16 @@ A Tabela 2 apresenta a decomposição técnica e ergonômica de cada um dos 8 qu
 
 **Tabela 2** — Roteiro Cênico e Análise Ergonômica dos 8 Quadros do Storyboard da Tarefa 1 com Integração de IA Semântica
 
-| Quadro | Título da Cena | Enquadramento & Ambientação (*Setting*) | Ação do Usuário e Pensamento de Lucas | Resposta da Interface Discourse (*Sequence*) | Subobjetivo HTA Correlato |
+| Quadro | Título na Prancha Física | Enquadramento & Ambientação (*Setting*) | Ação do Usuário e Pensamento de Lucas | Resposta da Interface Discourse (*Sequence*) | Subobjetivo HTA Correlato |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| **1** | **O Dilema Técnico no Terminal** | Plano Médio: Lucas sentado à mesa de estudos em seu quarto, tarde da noite. A tela do notebook exibe terminal escuro com traceback de erro do Podman. | **Pensamento de Lucas:** *"O Podman rootless está falhando ao montar volume no Fedora 40... Já revisei o Containerfile e o erro persiste."* | Terminal com mensagem: `Error: failed to mount rootfs: operation not permitted`. | — (Gatilho da Dor no Mundo Real) |
-| **2** | **A Decisão de Buscar a Comunidade** | Plano Médio: Lucas abre o navegador Firefox e acessa o endereço do fórum. | **Fala de Lucas:** *"Vou abrir um tópico no Diolinux Plus. A comunidade técnica lá é muito experiente e rápida pra responder."* | Página inicial do Fórum Diolinux Plus renderizada com lista de tópicos em alta e botão de criação acessível. | — (Contexto de Uso e Motivação) |
-| **3** | **Acionamento e Desduplicação por IA Semântica** | Primeiro Plano: Lucas clica no botão `+ Novo Tópico` e digita o título da dúvida técnica. | **Ação:** Clica em `+ Novo Tópico` e digita: *"Podman rootless: falha ao montar volume no Fedora 40"*.<br>**Pensamento:** *"Deixa eu ver se a IA do fórum já acha tópico resolvido..."* | Painel inferior do composer se expande. Motor com integração de IA semântica pré-envio projeta tópicos similares no painel lateral direito para análise. | Subobjetivos 1.1, 2.1 e 4.1 |
-| **4** | **Categorização Taxonômica e Tags** | Close-up no Editor: Lucas ajusta o dropdown taxonômico e adiciona etiquetas temáticas. | **Ação:** Seleciona a categoria `Desenvolvimento` e digita as tags `fedora`, `podman`, `containers`.<br>**Pensamento:** *"Classificar certinho faz a notificação chegar a quem entende do assunto."* | Dropdown consolida o badge da categoria e adiciona os chips coloridos de tags fixados no rascunho do tópico. | Subobjetivo 2.2 |
-| **5** | **Composição em Markdown e Live Preview** | Visão Dividida (Split-Screen): Editor de texto à esquerda e pré-visualização à direita. | **Ação:** Cola o log de erro delimitado por cercas triplas ```` ```bash ````.<br>**Pensamento:** *"Perfeito! O preview mostra a formatação e as quebras de linha perfeitamente preservadas."* | Live preview à direita renderiza o bloco com fonte monoespaçada, fundo escurecido e realce sintático imediato. | Subobjetivos 3.1 e 3.2 |
-| **6** | **Revisão Final e Confirmação de Envio** | Plano Médio: Lucas confere o texto completo e clica no botão primário de submissão. | **Fala de Lucas:** *"Tudo organizado, logs legíveis e tags configuradas. Vou publicar!"*<br>**Ação:** Clica em `Criar Tópico` (ou aciona `Ctrl+Enter`). | Botão `Criar Tópico` entra em processamento breve e redireciona suavemente para a thread oficial recém-criada. | Subobjetivos 5.1 e 5.2 |
-| **7** | **Notificação e Apoio Comunitário** | Plano Médio: Notificação com badge verde no ícone do sino superior. | **Pensamento de Lucas:** *"Notificação nova! Um usuário sênior respondeu sugerindo ajustar a flag :z do SELinux e rodar setsebool."* | Caixa de notificação do fórum exibe o fragmento da resposta com o comando recomendado devidamente formatado. | — (Interação Comunitária) |
-| **8** | **Desfecho Exitoso e Reconhecimento** | Plano Aberto: Lucas sorri com o comando funcionando no terminal e marca a resposta como solução no fórum. | **Fala de Lucas:** *"Funcionou de primeira! Marquei como solução aceita pra ajudar outros estudantes."* | Resposta no tópico recebe a tarja verde `✔ Solução Aceita`, fechando o ciclo de valor da comunidade. | — (Satisfação e Fechamento de Valor) |
+| **1** | **Laboratório de Aula** | Plano Médio: Lucas sentado diante do computador no laboratório de aula. | Lucas executa comando no terminal Linux e depara-se com bloqueio de permissão. | O monitor exibe em destaque o alerta de terminal: `"Permissão Negada"`. | — (Gatilho da Dor no Mundo Real) |
+| **2** | **Como posto no fórum sem bagunçar logs?** | Close-up / Plano Médio: Expressão de dúvida e hesitação (`"Hesitação"` indicada por seta na prancha). | **Pensamento de Lucas:** *"Como posto no fórum sem bagunçar logs?"* — receio de colar saídas extensas de terminal sem formatação legível. | Estado cognitivo de hesitação que motiva o uso de recursos estruturados do editor da comunidade. | — (Contexto de Uso e Motivação) |
+| **3** | **Acessando diolinux** | Plano Médio: Lucas acessa o Fórum Diolinux Plus pelo navegador web. | **Ação:** Visualiza a página inicial do fórum e aciona o botão primário de nova postagem. | Interface do Fórum Diolinux Plus destaca o botão de ação `"Criar tópico"`. | Subobjetivo 1 (`1.1` / `1.2`) |
+| **4** | **Informação Contextual** | Close-up na tela do monitor com o formulário do editor aberto. | **Ação:** Estrutura os dados essenciais do tópico informando o erro, as tags e a descrição inicial. | Tela exibe os campos estruturados: `"Título [ ERRO DE PERMISSÃO ]"`, `"Tags [ ]"` e `"Descrição [ ]"`. | Subobjetivos 2 (`2.1`, `2.2`) e `3.1` |
+| **5** | **Destaque com Markdown** | Visão Dividida (*Split-View*): Editor de texto à esquerda e pré-visualização à direita. | **Ação:** Isola o log técnico utilizando cercas de código Markdown (` ``` `) na coluna esquerda. | Monitor dividido em duas colunas (`".md | PREVIEW"`), exibindo a sintaxe bruta à esquerda e o resultado formatado à direita. | Subobjetivo 3 (`3.1` e `3.2`) |
+| **6** | **IA integrada** | Close-up no monitor no momento pré-envio da postagem. | **Ação:** Antes da submissão final, o assistente semântico analisa o conteúdo preenchido no rascunho. | Interface apresenta o painel `"IA SEMÂNTICA: 2 tópicos similares"`, prevenindo duplicidade e sugerindo metadados. | Subobjetivo 4 (`4.1`) |
+| **7** | **Alternativas** | Plano Médio: Lucas avalia atentamente as recomendações apresentadas pela IA. | **Pensamento de Lucas:** *"Ótimas sugestões, vou avaliar!"* — inspeciona as alternativas mantendo controle sobre sua postagem. | O sistema preserva a autonomia do estudante para consultar os tópicos sugeridos ou prosseguir com a publicação. | Subobjetivo 4 (`4.2` / `4.3`) |
+| **8** | **Sucesso!** | Plano Médio: Lucas comemora diante do monitor após confirmar a publicação. | **Pensamento/Fala de Lucas:** *"UHUUL!"* — satisfação imediata ao ver seu tópico publicado de forma organizada. | O monitor exibe a confirmação `"Tópico Publicado"`, concluindo o fluxo com sucesso (*Satisfaction*). | Subobjetivo 5 (`5.1` e `5.2`) |
 
 _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
 
@@ -110,16 +110,15 @@ A Tabela 3 consolida o alinhamento metodológico bidirecional entre as operaçõ
 
 | Nó HTA | Descrição da Meta / Operação da Tarefa 1 | Quadro do Storyboard | Elemento Visual e Comportamento Representado |
 | :---: | :--- | :---: | :--- |
-| **G0** | Publicar Tópico de Dúvida Técnica no Fórum Diolinux Plus com Integração de IA Semântica | Quadros 1 a 8 | Jornada completa da experiência, da motivação inicial ao desfecho colaborativo. |
-| **G1 / O1.1** | Acionar Mecanismo de Criação de Tópico (clique no botão `+ Novo Tópico`) | Quadro 3 | Botão azul em destaque superior direito e abertura da gaveta inferior do composer. |
-| **G2 / O2.1** | Digitar título com sintaxe da dúvida | Quadro 3 | Campo de título preenchido com termos técnicos precisos sobre Podman e Fedora 40. |
-| **G2 / O2.2** | Selecionar categoria e inserir tags | Quadro 4 | Dropdown com categoria `Desenvolvimento` e chips taxonômicos `fedora`, `podman`, `containers`. |
-| **G3 / O3.1** | Redigir descrição do problema no editor | Quadro 5 | Composição explicativa do cenário no painel esquerdo do editor de texto. |
-| **G3 / O3.2** | Inserir blocos de logs com cercas Markdown | Quadro 5 | Utilização de crases triplas ```` ```bash ```` e validação imediata no *Live Preview* renderizado. |
-| **G4 / O4.1** | Inspecionar sugestões de similaridade por IA semântica pré-envio | Quadro 3 | Exibição de tópicos correlatos no painel lateral gerado pelo motor de IA semântica pré-envio. |
-| **G4 / O4.3** | Confirmar ausência de solução prévia e prosseguir | Quadro 4 | Constatação de que os tópicos sugeridos não abordam o caso e prosseguimento do fluxo. |
-| **G5 / O5.1** | Acionar botão `Criar Tópico` (ou `Ctrl+Enter`) | Quadro 6 | Clique de confirmação no botão primário inferior esquerdo do composer. |
-| **G5 / O5.2** | Validar redirecionamento para o tópico criado | Quadro 6 | Carregamento da thread publicada com URL definitiva e metadados renderizados. |
+| **0** | Publicar Tópico de Dúvida Técnica no Fórum Diolinux Plus com Integração de IA Semântica | Quadros 1 a 8 | Jornada completa da experiência, do erro `"Permissão Negada"` no laboratório à confirmação `"Tópico Publicado"`. |
+| **1 / 1.1** | Acionar Criação de Tópico (clicar no botão `'Criar tópico'`) | Quadro 3 | Acesso ao Fórum Diolinux Plus com foco no botão `"Criar tópico"`. |
+| **2 / 2.1** | Digitar título da dúvida com o erro | Quadro 4 | Campo `"Título [ ERRO DE PERMISSÃO ]"` preenchido na tela de Informação Contextual. |
+| **2 / 2.2** | Selecionar categoria e inserir tags | Quadro 4 | Campo `"Tags [ ]"` estruturado na tela de Informação Contextual. |
+| **3 / 3.1** | Redigir descrição do problema no editor | Quadros 4 e 5 | Campo `"Descrição [ ]"` e área de edição textual à esquerda. |
+| **3 / 3.2** | Inserir logs com cerca de código (` ``` `) | Quadro 5 | Painel dividido `".md | PREVIEW"` com bloco ` ``` ` e pré-visualização lado a lado. |
+| **4 / 4.1** | Inspecionar sugestões de similaridade por IA | Quadro 6 | Exibição em tela de `"IA SEMÂNTICA: 2 tópicos similares"`. |
+| **4 / 4.2 e 4.3** | Avaliar alternativas sugeridas pela IA e decidir prosseguimento | Quadro 7 | Lucas analisando as recomendações (*"Ótimas sugestões, vou avaliar!"*). |
+| **5 / 5.1 e 5.2** | Confirmar publicação e validar tela do tópico publicado | Quadro 8 | Tela final exibindo `"Tópico Publicado"` e reação de satisfação (*"UHUUL!"*). |
 
 _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
 
@@ -134,12 +133,12 @@ A Tabela 4 apresenta a lista de verificação com 8 critérios normativos aplica
 | Item | Critério Avaliado | Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Documento |
 | :---: | :--- | :--- | :---: | :--- |
 | **1** | O storyboard apresenta uma sequência cronológica clara e progressiva da jornada do usuário? | Barbosa & Silva (2021, p. 238) | ✅ Sim | Estruturado linearmente em 8 quadros sequenciais (Quadro 1 ao 8), da situação-problema ao desfecho. |
-| **2** | O contexto ambiental e a motivação inicial são retratados antes do uso do computador? | Buxton (2007, p. 112); Klemmer (2012) | ✅ Sim | O Quadro 1 situa Lucas em sua mesa de estudos à noite, enfrentando a mensagem de erro do Podman no terminal. |
-| **3** | O protagonista é explicitamente alinhado à persona primária do projeto? | Cooper (1999); Barbosa & Silva (2021) | ✅ Sim | O protagonista é Lucas Mendonça (Persona Primária de `personas.md`), mantendo suas dores e perfil de estudante DevOps. |
-| **4** | Há rastreabilidade direta com os subobjetivos da Tarefa 1 modelada na Análise de Tarefas (HTA)? | Barbosa & Silva (2021, p. 180) | ✅ Sim | A Tabela 3 estabelece o mapeamento unívoco entre os nós HTA (G0 a G5) e os quadros do storyboard com integração de IA semântica. |
+| **2** | O contexto ambiental e a motivação inicial são retratados antes do uso do computador? | Buxton (2007, p. 112); Klemmer (2012) | ✅ Sim | O Quadro 1 situa Lucas no laboratório de aula diante do erro `"Permissão Negada"`, seguido da hesitação no Quadro 2 (*"Como posto no fórum sem bagunçar logs?"*). |
+| **3** | O protagonista é explicitamente alinhado à persona primária do projeto? | Cooper (1999); Barbosa & Silva (2021) | ✅ Sim | O protagonista é Lucas Mendonça (Persona Primária de `personas.md`), mantendo suas dores e perfil de estudante aprendiz em Linux. |
+| **4** | Há rastreabilidade direta com os subobjetivos da Tarefa 1 modelada na Análise de Tarefas (HTA)? | Barbosa & Silva (2021, p. 180) | ✅ Sim | A Tabela 3 estabelece o mapeamento unívoco entre os nós HTA (`0` a `5`) e os 8 quadros do storyboard com integração de IA semântica. |
 | **5** | As ações do usuário e as respostas do sistema Discourse são claramente distinguíveis? | Nielsen (1994) | ✅ Sim | A Tabela 2 segrega a coluna de Ação do Usuário/Pensamento da coluna de Resposta da Interface Discourse. |
-| **6** | As três dimensões centrais de Storyboard (*Setting, Sequence, Satisfaction*) estão contempladas? | Scott Klemmer (2012) | ✅ Sim | O artefato articula o cenário no Quadro 1, a sequência nos Quadros 2 a 6 e a satisfação nos Quadros 7 e 8. |
-| **7** | O desfecho da narrativa demonstra o fechamento do ciclo de valor e a resolução da dor? | Mayhew (1999) | ✅ Sim | O Quadro 8 retrata o sucesso da execução no terminal e a marcação comunitária do selo `✔ Solução Aceita`. |
+| **6** | As três dimensões centrais de Storyboard (*Setting, Sequence, Satisfaction*) estão contempladas? | Scott Klemmer (2012) | ✅ Sim | O artefato articula o cenário nos Quadros 1 e 2, a sequência nos Quadros 3 a 7 e a satisfação no Quadro 8. |
+| **7** | O desfecho da narrativa demonstra o fechamento do ciclo de valor e a resolução da dor? | Mayhew (1999) | ✅ Sim | O Quadro 8 retrata a confirmação `"Tópico Publicado"` no monitor e a comemoração do estudante (*"UHUUL!"*). |
 | **8** | A técnica de confecção atende às diretrizes pedagógicas da disciplina (Opção B - Desenho manual a 300 DPI)? | Plano de Ensino da Disciplina | ✅ Sim | Os quadros foram desenhados manualmente em papel sulfite A4, fotografados em alta resolução e tratados digitalmente. |
 
 _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
@@ -187,6 +186,7 @@ A Tabela 6 documenta o ciclo evolutivo deste artefato.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 24/10/2026 | Elaboração inicial do Storyboard da Tarefa 1: Criação e Publicação de Tópico de Dúvida com Tags e Formatação Markdown com Integração de IA Semântica (Opção B - Desenho Manual em Papel A4), contendo prancha fotográfica tratada, roteiro detalhado dos 8 quadros, matriz de rastreabilidade HTA, lista de verificação de 8 itens e fundamentação teórica. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.1` | 25/10/2026 | Incorporação dos registros em vídeo do Teste-Piloto (e4annKBJd3I) e da Avaliação Oficial (_4nQ50nN7b8) com o participante J.V.S (estudante de Ciência da Computação / CIC), com inserção de tabela de metadados e players audiovisuais. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.2` | 29/10/2026 | Sincronização cênica 1:1 das Tabelas 2, 3 e 4 com os 8 quadros desenhados na prancha física manuscrita (`storyboard_Vinicius_Araruna.jpeg`) e com os nós da árvore HTA canônica (#132). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 

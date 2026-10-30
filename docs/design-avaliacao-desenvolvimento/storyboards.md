@@ -81,14 +81,14 @@ A Tabela 2 apresenta o detalhamento de cada cena, explicitando a ação do inter
 
 | # | Cena / Ambiente (*Setting*) | Ação do Interagente e Comportamento do Sistema | Princípio Ergonômico e Usabilidade |
 | :-: | :--- | :--- | :--- |
-| **1** | **Ambiente de Trabalho / Terminal:** Lucas no terminal do Fedora 40 recebe erro de permissão ao subir container Podman rootless. | Lucas tenta resolver com comandos locais, mas sem sucesso. Decide pedir ajuda no fórum. | Evidencia a necessidade real (*Trigger* motivacional) e o contexto técnico de uso. |
-| **2** | **Acesso ao Fórum Diolinux:** Tela inicial do fórum com foco no botão primário de nova postagem. | Lucas clica no botão "+ Novo Tópico". | Visibilidade do estado do sistema e consistência com padrões de fóruns modernos. |
-| **3** | **Seleção Taxonômica:** Modal de criação com seleção de categoria e tags técnicas. | Lucas seleciona a categoria `#suporte-tecnico` e digita as tags `podman`, `fedora` e `permissoes`. | Prevenção de ambiguidades e organização semântica facilitando a busca futura. |
-| **4** | **Composição Estruturada com Markdown:** Editor de texto com visualização em duas colunas (*split-view*). | Lucas insere o título objetivo, redige a descrição e cola os blocos de comando formatados com crases triplas. A pré-visualização em tempo real mostra a formatação rica renderizada. | Correspondência com as expectativas do usuário e redução da carga cognitiva (*WYSIWYG preview*). |
-| **5** | **Assistente Semântico de IA Pré-Envio:** Caixa flutuante inteligente exibindo tópicos correlatos antes da submissão final. | Ao terminar de digitar o título e descrição, a IA analisa semanticamente o texto e apresenta uma lista: *"Identificamos 2 tópicos semelhantes com solução aceita. Deseja consultá-los antes de postar?"*. | Antecipação das necessidades do usuário e economia de esforço cognitivo comunitário (desduplicação). |
-| **6** | **Publicação Concluída:** Lucas clica em "Criar Tópico" após confirmar que seu caso tem particularidades não resolvidas nos tópicos sugeridos. | O sistema publica o tópico instantaneamente, atribui as tags e exibe confirmação visual não obstrutiva. | Fechamento de ciclo de ação e sensação de controle do usuário. |
-| **7** | **Notificação e Colaboração:** Lucas recebe notificação de resposta de um colega da comunidade com o ajuste de permissão do SELinux. | Lucas aplica a instrução no terminal e verifica que o container subiu com sucesso. | Valor prático da comunidade e satisfação imediata no uso do sistema. |
-| **8** | **Marcação de Solução Aceita e Desfecho Positivo:** Lucas retorna ao fórum, clica no botão "Marcar como Solução" e expressa gratidão na thread. | A resposta ganha destaque visual verde de solução e o tópico é marcado como resolvido na listagem geral. | Satisfação final (*Satisfaction* de Scott Klemmer) e ciclo virtuoso de compartilhamento de conhecimento. |
+| **1** | **Laboratório de Aula:** Lucas diante do computador recebe o alerta `"Permissão Negada"` no terminal Linux. | O estudante depara-se com o bloqueio de permissão durante suas atividades práticas no laboratório. | Evidencia a necessidade real (*Trigger* motivacional) e o contexto autêntico de uso. |
+| **2** | **Hesitação e Dúvida de Formatação:** Lucas leva as mãos à cabeça pensando: *"Como posto no fórum sem bagunçar logs?"*. | Receio de colar saídas brutas de terminal que quebrem a legibilidade do tópico na comunidade. | Identificação da barreira cognitiva que justifica o suporte estruturado a Markdown. |
+| **3** | **Acessando Diolinux:** Tela inicial do Fórum Diolinux Plus aberta no navegador. | Lucas localiza rapidamente e aciona o botão primário `"Criar tópico"`. | Visibilidade do estado do sistema e *affordance* clara para início da tarefa (Subobjetivo `1`). |
+| **4** | **Informação Contextual:** Formulário de composição aberto exibindo campos de metadados. | Lucas estrutura `"Título [ ERRO DE PERMISSÃO ]"`, `"Tags [ ]"` e `"Descrição [ ]"`. | Organização semântica e estruturação da postagem (Subobjetivo `2` e `3.1`). |
+| **5** | **Destaque com Markdown:** Editor dividido em duas colunas lado a lado (`".md | PREVIEW"`). | Lucas insere o bloco de código com três crases (` ``` `) à esquerda e confere a pré-visualização imediata à direita. | Redução da carga cognitiva e prevenção de erros de formatação (Subobjetivo `3.2`). |
+| **6** | **IA Integrada:** Intervenção preventiva do assistente semântico antes da publicação final. | O sistema exibe o painel `"IA SEMÂNTICA: 2 tópicos similares"`, auxiliando na desduplicação e recomendação de tags. | Antecipação das necessidades do usuário e economia de esforço comunitário (Subobjetivo `4.1`). |
+| **7** | **Alternativas:** Lucas inspeciona as sugestões apresentadas pela IA semântica. | Lucas reflete: *"Ótimas sugestões, vou avaliar!"*, mantendo autonomia para consultar soluções prévias ou prosseguir com o envio. | Controle do usuário e apoio consultivo não-obstrutivo (Subobjetivos `4.2` e `4.3`). |
+| **8** | **Sucesso!:** Confirmação de envio concluído na interface do Fórum Diolinux Plus. | O monitor exibe `"Tópico Publicado"` e Lucas comemora (*"UHUUL!"*) ao ver sua dúvida publicada com clareza. | Satisfação final (*Satisfaction* de Scott Klemmer) e fechamento do ciclo da tarefa (Subobjetivo `5`). |
 
 _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
 
@@ -96,9 +96,9 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 
 
 ### 2.5 Alinhamento com as Dimensões de Scott Klemmer (2012)
 
-- **Cenário (*Setting*):** O storyboard inicia no ambiente de desenvolvimento do estudante universitário (terminal de sistema operacional Linux), avança pela interface web da comunidade e encerra com o teste real executado no terminal.
-- **Sequência (*Sequence*):** Ordem causal estrita em 8 passos lógicos: Erro no terminal → Decisão de recorrer à comunidade → Categorização → Composição em Markdown → Verificação de IA pré-envio → Publicação → Notificação de resposta → Validação e marcação de solução aceita.
-- **Satisfação (*Satisfaction*):** O desfecho cumpre o propósito de IHC: resolver a frustração do usuário com agilidade, empoderando-o a retribuir à comunidade através da marcação oficial de solução.
+- **Cenário (*Setting*):** O storyboard inicia no laboratório de aula com o estudante universitário (Lucas Mendonça) diante do erro `"Permissão Negada"` no terminal Linux (Quadro 1) e sua hesitação sobre como postar sem bagunçar os logs (Quadro 2).
+- **Sequência (*Sequence*):** Ordem causal estrita em 8 quadros alinhados à prancha física: Erro no laboratório → Hesitação inicial → Acesso ao Diolinux (`"Criar tópico"`) → Preenchimento de Informação Contextual (`Título`, `Tags`, `Descrição`) → Destaque com Markdown (`".md | PREVIEW"`) → Verificação da IA Integrada (`"2 tópicos similares"`) → Avaliação de Alternativas → Confirmação de publicação.
+- **Satisfação (*Satisfaction*):** O desfecho no Quadro 8 (`"Sucesso! / Tópico Publicado / UHUUL!"`) cumpre o propósito de IHC: eliminar a insegurança de formatação do estudante aprendiz e garantir uma publicação estruturada e revisada semanticamente.
 
 ---
 
@@ -339,6 +339,7 @@ A Tabela 8 documenta o histórico evolutivo deste artefato.
 | 1.5 | 25/10/2026 | Saneamento de delimitadores LaTeX para caracteres UTF-8 nativos e expurgo de arquivos de instrução interna (Leak-Free). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | 1.6 | 25/10/2026 | Incorporação dos registros em vídeo da execução do Teste-Piloto (e4annKBJd3I) e da gravação da Avaliação Oficial do Storyboard 1 com o participante J.V.S (_4nQ50nN7b8), e renumeração harmônica e sequencial de todas as tabelas e vídeos da tríade de storyboards. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | 1.7 | 25/10/2026 | Correção da sintaxe do caminho relativo da imagem da prancha física do Storyboard 1 para correta renderização pelo MkDocs e alinhamento de orientação da imagem (180°). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| 1.8 | 29/10/2026 | Alinhamento cênico 1:1 da Tabela 2 e da Seção 2.5 com os 8 quadros desenhados na prancha física manuscrita do Storyboard 1 (`storyboard_Vinicius_Araruna.jpeg`) (#132). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
