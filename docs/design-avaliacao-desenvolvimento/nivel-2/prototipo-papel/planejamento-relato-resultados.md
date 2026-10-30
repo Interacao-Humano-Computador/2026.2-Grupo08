@@ -12,7 +12,7 @@ A Tabela 1 apresenta a matriz de governança e coautoria na elaboração da estr
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Autor da Tarefa 2**: Estruturação completa do modelo analítico de relato da Tarefa 2 (Criação de Eventos Presenciais da Comunidade — CF02), modelagem da taxonomia de problemas de mapa/pin e ingressos (Tabela 2a), diretrizes de transição para o Figma e adequação metodológica. | 29/10/2026 | Google Gemini (LLM) | Apoio na padronização tabular e verificação cruzada de referências ABNT. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Designado**: Auditoria de compatibilidade com os critérios do Plano de Ensino da disciplina e checagem de conformidade normativa. | 29/10/2026 | — | Revisão humana por pares. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -111,7 +111,7 @@ A Tabela 3 apresenta o checklist de autoavaliação da conformidade do planejame
 | **7** | O planejamento prevê a inclusão da Cláusula de Descarte dos dados dos pilotos? | Barbosa & Silva (2021, p. 276) | ✅ Sim | O Tópico 9 da Seção 2 torna obrigatório o destaque formal de isolamento dos testes-piloto. |
 | **8** | O artefato possui histórico de versões semântico e referências ABNT completas? | Padrão FGA/UnB | ✅ Sim | As Seções 6 e 7 consolidam histórico com revisão por pares e bibliografia normatizada. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
 ---
 
@@ -126,7 +126,7 @@ A Tabela 4 documenta a evolução histórica deste documento.
 | `1.0` | 24/10/2026 | Elaboração inicial do Planejamento do Relato dos Resultados do Protótipo de Papel (Nível 2), focado na Tarefa 1 (Markdown e IA Semântica de Vinicius Silva Araruna), definindo a estrutura canônica em 9 tópicos, modelo tabular com severidade de Nielsen (0 a 4), critérios de priorização para o Figma e alinhamento com a gravação em grupo em 02/11/2026. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `2.0` | 29/10/2026 | Expansão integral para Nível 2 com incorporação da Tarefa 2 (Criação de Eventos Presenciais da Comunidade — CF02): modelo de registro tabular de problemas de mapa e ingressos (Tabela 2a), ampliação dos critérios de priorização para o Figma e checklist normativo abrangendo as duas tarefas da equipe. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

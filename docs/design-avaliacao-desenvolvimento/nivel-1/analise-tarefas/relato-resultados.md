@@ -12,7 +12,7 @@ A Tabela 1 apresenta a matriz de responsabilidades e atribuições na consolida�
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Condução da Sessão T02 (Tarefa 2 - Eventos Presenciais), consolidação dos apontamentos da HTA 2 e revisão de severidade. | 24/10/2026 | Google Gemini (LLM) | Suporte na estruturação Markdown e checagem de referências. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Condução da Sessão T03 (Tarefa 3 - Busca Avançada), consolidação dos apontamentos de tarefas e validação metodológica. | 24/10/2026 | — | Condução de sessão e revisão por pares. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -61,7 +61,7 @@ A Tabela 2 consolida os dados demográficos e as atribuições de tarefas.
 | **P2** | L. C. F. | 22 | Ciência da Computação (CIC/UnB) | Intermediário | Tarefa 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) |
 | **P3** | G. H. R. | 20 | Engenharia de Redes (FGA/UnB) | Iniciante | Tarefa 3 (Busca Avançada e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -119,7 +119,7 @@ As inconsistências e oportunidades levantadas foram tabuladas na Tabela 3 com b
 | **PROB-AT-05** | Tarefa 2 / Subobjetivo 3.2 (Ponto no Mapa) | O participante questionou o fluxo de busca de locais (*"ele vai procurar um lugar próximo daquele pin que marcou?"*), sendo esclarecido que a plataforma demarca o ponto exato da reserva. | Falha de Expectativa / Feedback | **2 (Menor)** | Adicionar na Operação 3.2 feedback visual com endereço formalizado imediatamente após soltar o marcador (*pin*) e link de auxílio *"Como reservar salas no campus"*. |
 | **PROB-AT-06** | Tarefa 2 / Plano 0 (Sequência Geral) | Ao ser inquirido sobre a ordem global das etapas (`1 > 2 > 3 > 4 > 5`), o participante considerou que nenhuma etapa está fora de ordem ou faltando antes de publicar (*"Não, não acho. Acho que tá razoável"*). | Validação Normativa do Plano | **0 (Sem Problema)** | Manter a ordem causal do Plano 0 da Tarefa 2 estritamente sequencial conforme validada empiricamente. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Nielsen (1994), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Nielsen (1994), 2026._
 
 ---
 
@@ -154,7 +154,7 @@ A Tabela 4 sintetiza os registros audiovisuais das avaliações da Análise de T
 | **T02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão T02 no YouTube (Não Listado)](https://youtu.be/VhGgpfX9Rqk) |
 | **T03** | Tarefa 3: Grade de Disponibilidade e Agendamento | P3 (G. H. R.) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~15 min | [Assistir Sessão T03 no YouTube (Não Listado)](https://youtu.be/gqZ3yJ3ZYUc) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 #### Reprodução Audiovisual da Sessão T01 (Tarefa 1 — Vinicius Silva Araruna)
 
@@ -199,7 +199,7 @@ A Tabela 5 apresenta o checklist de autoavaliação da conformidade do relato de
 | **7** | Há disponibilização dos vídeos das sessões no YouTube com consentimento verbal gravado? | Diretrizes Pedagógicas FGA/UnB | ✅ Sim | A Seção 8 contém tabela com links do YouTube, player incorporado e garantia de anonimização. |
 | **8** | O documento contém a Cláusula Metodológica Obrigatória de isolamento dos dados do piloto? | Barbosa & Silva (2021, p. 276) | ✅ Sim | A Seção 9 apresenta o destaque visual formal atestando a não-computação dos dados do piloto. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
 ---
 
@@ -215,7 +215,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | `1.1` | 25/10/2026 | Incorporação do link oficial e player do registro audiovisual da avaliação da Sessão T01 (Vinicius Silva Araruna com participante J.V.S no YouTube) e consolidação da gravação da Sessão T02 (Gustavo Antonio). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 29/10/2026 | Harmonização da notação HTA (Subobjetivos 1 a 5), explicitação de síntese analítica não literal (Bardin, 2011) e alinhamento empírico dos achados PT01 e PT02 com a entrevista gravada (#132). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

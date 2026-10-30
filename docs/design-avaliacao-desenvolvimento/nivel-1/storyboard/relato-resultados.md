@@ -12,7 +12,7 @@ A Tabela 1 apresenta a matriz de responsabilidades e atribuições na consolida�
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Condução da Sessão 02 (Tarefa 2 - Eventos Presenciais), consolidação dos apontamentos do Storyboard 2 e revisão cruzada de severidade. | 24/10/2026 | Google Gemini (LLM) | Suporte na estruturação Markdown e checagem de hiperligações. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Condução da Sessão 03 (Tarefa 3 - Busca Avançada), consolidação dos apontamentos do Storyboard 3 e validação metodológica. | 24/10/2026 | — | Condução de sessão e revisão por pares. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -64,7 +64,7 @@ A Tabela 2 apresenta os dados demográficos consolidados e a atribuição das se
 | **P2** | Participante Convidado | L. C. F. (Anonimizado) | 22 | Ciência da Computação (CIC/UnB) | Intermediário | Fedora Workstation | Storyboard 2 (Sessão S02) |
 | **P3** | Participante Convidado | G. H. R. (Anonimizado) | 20 | Engenharia de Redes (FGA/UnB) | Iniciante | Debian 12 | Storyboard 3 (Sessão S03) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -142,7 +142,7 @@ Os apontamentos de atrito e oportunidades colhidos nas sessões foram catalogado
 | **PROB-ST-04** | Tarefa 2 (Eventos Presenciais) | Quadro 6 | Dúvida sobre o comportamento do pin no mapa: participante questionou se o sistema buscaria automaticamente locais vagos próximos ou se deve marcar a sala reservada. | **2 (Menor)** | Modelo Mental / Feedback | Incluir instrução clara no formulário (*"Indique no mapa o local físico previamente agendado para o evento"*) e confirmação visual de geolocalização. |
 | **PROB-ST-05** | Tarefa 2 (Eventos Presenciais) | Quadro 5 / Ingressos | O participante considerou que a modalidade gratuita com emissão imediata atende sem atritos eventos comunitários (*"Sim, de boa"*). | **0 (Sem Problema / Ponto Positivo)** | Adequação à Tarefa | Preservar a opção de emissão simplificada de ingressos gratuitos sem exigência de dados de faturamento. |
 
-_Fonte: Elaborada pelos autores com base em Nielsen (1994) e evidências empíricas de campo, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Nielsen (1994) e evidências empíricas de campo, 2026._
 
 ---
 
@@ -174,7 +174,7 @@ A Tabela 4 sintetiza as gravações audiovisuais das avaliações do Storyboard.
 | **S02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão S02 no YouTube (Não Listado)](https://youtu.be/VhGgpfX9Rqk) |
 | **S03** | Tarefa 3: Grade de Disponibilidade e Agendamento | P3 (G. H. R.) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~15 min | [Assistir Sessão S03 no YouTube (Não Listado)](https://youtu.be/gqZ3yJ3ZYUc) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 #### Reprodução Audiovisual da Sessão 01 (Storyboard 1 — Vinicius Silva Araruna)
 
@@ -219,7 +219,7 @@ A Tabela 5 apresenta a autoavaliação da conformidade do relato dos resultados 
 | **7** | Há disponibilização dos vídeos das sessões gravadas no YouTube e comprovação de TCLE oral? | Diretrizes Pedagógicas FGA/UnB | ✅ Sim | A Seção 8 contém tabela com links do YouTube, container responsivo e registro de consentimento verbal. |
 | **8** | O documento contém a Cláusula Metodológica Obrigatória de isolamento dos dados do piloto? | Barbosa & Silva (2021, p. 276) | ✅ Sim | A Seção 9 apresenta o destaque visual formal atestando a não-computação dos dados do piloto. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
 ---
 
@@ -235,7 +235,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | `1.1` | 25/10/2026 | Incorporação do link oficial e player do registro audiovisual da avaliação da Sessão S01 (Vinicius Silva Araruna com participante J.V.S no YouTube). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 29/10/2026 | Unificação nominal da Persona Primária (Lucas Mendonça), explicitação metodológica de síntese analítica não literal (Bardin, 2011) e refinamento empírico dos achados de P1 em aderência estrita ao vídeo gravado (#132). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

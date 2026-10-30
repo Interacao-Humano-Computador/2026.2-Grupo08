@@ -12,7 +12,7 @@ A Tabela 1 apresenta a matriz de responsabilidade e governança na elaboração 
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Autor da Tarefa 2**: Elaboração completa do planejamento DECIDE da Tarefa 2 (Criação de Eventos Presenciais da Comunidade — CF02), especificação dos objetivos, perguntas investigativas (PP-T2-01 a 08), bancada física de peças móveis (mapa, pin e ingressos), cronogramas e roteiro de simulação tátil. | 29/10/2026 | Google Gemini (LLM) | Apoio na formatação tabular de perguntas investigativas e fluxos de interação em papel. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Checagem de aderência aos 15 critérios normativos da checklist de Barbosa & Silva e Snyder e auditoria cruzada por pares. | 29/10/2026 | — | Revisão humana por pares. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -187,7 +187,7 @@ A Tabela 3 apresenta o demonstrativo orçamentário formal do planejamento de N�
 | **Mão de Obra e Voluntários** | Recurso Humano | R$ 0,00 | R$ 0,00 | Trabalho acadêmico voluntário sem remuneração financeira (Resolução CNS nº 510/2016). |
 | **TOTAL GERAL DO PROTÓTIPO DE PAPEL** | — | — | **R$ 0,00** | **Execução acadêmica autossustentada com custo zero.** |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -207,10 +207,10 @@ A Tabela 4 detalha o cronograma planejado para a execução empírica do Protót
 | **Ensaio Solo do Teste-Piloto de Nível 2** | 30/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Avaliador Solo / Computador Humano | Presencial — Residência do Avaliador / Ambiente Silencioso |
 | **Sessão Presencial Oficial (PP01 — Tarefa 1)** | 31/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Participante 1 (P1 — Graduando CIC/UnB) | Presencial — Residência do Participante P1 (Ambiente Domiciliar) |
 | **Tabulação e Classificação de Severidade** | 01/11/2026 | 09:00 - 13:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Analista de Usabilidade | Ambiente Remoto / FGA |
-| **Gravação Audiovisual Oficial da Equipe** | **02/11/2026** | **09:00 - 11:30** | **Toda a Equipe do Grupo 08** | **Apresentação Conjunta da Entrega** | **Sessão Síncrona Oficial da Equipe** |
+| **Gravação Audiovisual Oficial da Equipe** | **02/11/2026** | **09:00 - 11:30** | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna | **Apresentação Conjunta da Entrega** | **Sessão Síncrona Oficial da Equipe** |
 | **Finalização Documental e Submissão** | 03/11/2026 | Até 23:59 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (PO) | Tech Lead / PO | Plataforma Aprender 3 |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
 
 #### 7.1.2 Cronograma Planejado da Tarefa 2 — Eventos Presenciais (Gustavo Antonio)
 
@@ -224,7 +224,7 @@ A Tabela 4a detalha o planejamento operacional das sessões com o Protótipo de 
 | **Ensaio Instrumental do Teste-Piloto de Nível 2** | 30/10/2026 | 16:00 - 16:45 | [Gustavo Antonio](https://github.com/gus-ant) | Avaliador / Colega Computador Humano | FGA/UnB — Sala de Estudos UAC |
 | **Sessão Presencial Oficial (PP02 — Tarefa 2)** | 31/10/2026 | 15:30 - 16:15 | [Gustavo Antonio](https://github.com/gus-ant) | Participante 2 (P2 — Graduando FGA/UnB) | FGA/UnB — Laboratório I-04 / Sala Reservada |
 | **Tabulação Heurística e Severidade de Nielsen** | 01/11/2026 | 14:00 - 17:30 | [Gustavo Antonio](https://github.com/gus-ant) | Analista de IHC | Ambiente Remoto / FGA |
-| **Gravação Audiovisual Oficial da Equipe** | **02/11/2026** | **09:00 - 11:30** | **Toda a Equipe do Grupo 08** | **Apresentação Conjunta da Entrega** | **Sessão Síncrona Oficial da Equipe** |
+| **Gravação Audiovisual Oficial da Equipe** | **02/11/2026** | **09:00 - 11:30** | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna | **Apresentação Conjunta da Entrega** | **Sessão Síncrona Oficial da Equipe** |
 | **Homologação Documental da Entrega 6** | 03/11/2026 | Até 23:59 | [Gustavo Antonio](https://github.com/gus-ant) | Coautor / Avaliador | Repositório / Aprender 3 |
 
 _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
@@ -246,7 +246,7 @@ A Tabela 5 documenta a esteira integrada de execução da Tarefa 1.
 | **Execução do Teste-Piloto de Nível 2** | 30/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Calibração de movimentação das peças físicas, tempo de resposta e TCLE oral. | ⚪ Planejado |
 | **Sessão Presencial Oficial de Interação** | 31/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Sessão presencial gravada com P1 (CIC/UnB) na residência do participante, think-aloud e simulação com Computador Humano. | ⚪ Planejado |
 | **Tabulação e Severidade de Nielsen (0 a 4)** | 01/11/2026 | 09:00 - 13:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Planilha de dados brutos e catálogo de falhas formativas de Nível 2. | ⚪ Planejado |
-| **Gravação Audiovisual Oficial da Equipe** | **02/11/2026** | **09:00 - 11:30** | **Toda a Equipe** | **Vídeo oficial conjunto da apresentação da entrega gravado e hospedado no YouTube.** | ⚪ Planejado |
+| **Gravação Audiovisual Oficial da Equipe** | **02/11/2026** | **09:00 - 11:30** | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna | **Vídeo oficial conjunto da apresentação da entrega gravado e hospedado no YouTube.** | ⚪ Planejado |
 | **Submissão Oficial no Aprender 3** | 03/11/2026 | Até 23:59 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Submissão dos links definitivos e documentação no ambiente acadêmico. | ⚪ Planejado |
 
 _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
@@ -264,7 +264,7 @@ A Tabela 5a documenta a esteira integrada de execução da Tarefa 2.
 | **Ensaio Instrumental do Teste-Piloto de Nível 2** | 30/10/2026 | 16:00 - 16:45 | [Gustavo Antonio](https://github.com/gus-ant) | Calibração do posicionamento do pin no mapa, leitura do TCLE oral (< 60s) e descarte de dados. | ⚪ Planejado |
 | **Sessão Presencial Oficial de Interação (PP02)** | 31/10/2026 | 15:30 - 16:15 | [Gustavo Antonio](https://github.com/gus-ant) | Ensaio tátil com P2 na FGA/UnB com protocolo think-aloud e manipulação do Computador Humano. | ⚪ Planejado |
 | **Tabulação e Classificação de Severidade (Nielsen)** | 01/11/2026 | 14:00 - 17:30 | [Gustavo Antonio](https://github.com/gus-ant) | Matriz analítica de problemas e recomendações ergonômicas para prototipação no Figma. | ⚪ Planejado |
-| **Gravação Audiovisual Oficial da Equipe** | **02/11/2026** | **09:00 - 11:30** | **Toda a Equipe** | **Gravação unificada da apresentação da Entrega 6 no YouTube em modo Não Listado.** | ⚪ Planejado |
+| **Gravação Audiovisual Oficial da Equipe** | **02/11/2026** | **09:00 - 11:30** | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna | **Gravação unificada da apresentação da Entrega 6 no YouTube em modo Não Listado.** | ⚪ Planejado |
 | **Finalização e Submissão no Aprender 3** | 03/11/2026 | Até 23:59 | [Gustavo Antonio](https://github.com/gus-ant) | Submissão final no Aprender 3 e integração na Wiki oficial. | ⚪ Planejado |
 
 _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
@@ -395,7 +395,7 @@ A Tabela 6 consolida a autoavaliação da conformidade do planejamento da avalia
 | **14** | Há matriz de contribuição com papéis, datas e declaração de uso de IA? | Diretrizes da SBC | ✅ Sim | A Tabela 1 abre o artefato com detalhamento das atribuições e ferramentas de IA utilizadas. |
 | **15** | O documento encerra com histórico de versões auditado por revisão por pares? | Governança da Equipe | ✅ Sim | A Seção 13 formaliza a evolução do documento com aprovação cruzada por membros distintos. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Snyder (2003), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Snyder (2003), 2026._
 
 ---
 
@@ -410,7 +410,7 @@ A Tabela 7 documenta o histórico evolutivo deste artefato.
 | `1.0` | 24/10/2026 | Estruturação inicial do Planejamento da Avaliação do Protótipo de Papel focado na Tarefa 1 (Markdown e IA Semântica) sob o Framework DECIDE, incluindo perguntas investigativas, cronogramas e checklist de 15 critérios. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `2.0` | 29/10/2026 | Expansão integral para Nível 2 com incorporação da Tarefa 2 (Criação de Eventos Presenciais da Comunidade — CF02): objetivos formativos, perguntas investigativas PP-T2-01 a 08, especificação da bancada física com mapa e pin móvel, cronogramas planejado e executado (Tabelas 4a e 5a), roteiro de simulação e script oral do TCLE. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

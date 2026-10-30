@@ -63,7 +63,7 @@ A Tabela 2 define os parâmetros técnicos e logísticos da sessão de ensaio.
 | **Resolução e Enquadramento** | Gravação audiovisual sobre a mesa em ambiente silencioso, capturando participante, pranchas e tela de exibição |
 | **Artefatos Inspecionados** | Storyboards impressos das Tarefas 1, 2 e 3, diagramas HTA canônicos e interface web do Fórum Diolinux Plus |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 A Tabela 3 apresenta a distribuição de responsabilidades e atribuição de papéis entre os participantes do ensaio piloto.
 
@@ -74,7 +74,7 @@ A Tabela 3 apresenta a distribuição de responsabilidades e atribuição de pap
 | **Avaliador Solo (Condução Autônoma)** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Conduzir individualmente a gravação em ambiente silencioso, verificar o microfone, calibrar o enquadramento do smartphone/notebook na mesa, testar a leitura do Script Oral do TCLE (< 60s) e simular a apresentação do Storyboard 1 e tarefas. |
 | **Participante Simulado** | Autoensaio Solo do Avaliador (ou Colega Convidado) | Simulação autônoma pelo próprio avaliador para verificação estritamente instrumental de captação sonora, nitidez visual e ritmo de fala. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -106,7 +106,7 @@ graph TD
 ```
 
 **Figura 1** — Fluxo sequencial de execução do Teste-Piloto de Nível 1.  
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021), 2026._
 
 ---
 

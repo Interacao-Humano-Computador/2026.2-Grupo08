@@ -12,7 +12,7 @@ A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas util
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Consolidação dos dados de verificação da E2 e E3 e atualização dos gráficos | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Desacoplamento arquitetural do relatório de inspeção frente aos templates de checklist (Issue #30), elaboração das matrizes de verificação da E2 e E3 | 12/10/2026 | Suporte na formatação Markdown sob supervisão discente |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -48,7 +48,7 @@ A Tabela 1 apresenta os resultados da verificação empírica dos itens de plane
 | 8 | Os artefatos: Planejamento, equipe, sites avaliados, site selecionado, ferramentas, processo de design e cronograma? | ✅ Sim | Todos os artefatos presentes e publicados no GitPages. |
 | 9 | Uma página com as atas de reunião com o acesso à gravação (vídeo), quando houver? | ✅ Sim | [Ata 1](../atas/ata1.md) com link para o YouTube. [Ata 2](../atas/ata2.md) (reunião presencial de 07/09/2026). |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -72,7 +72,7 @@ A Tabela 2 apresenta a verificação dos aspectos de documentação e conformida
 | 10 | Tabela de contribuição no início do artefato com o nome de todos os integrantes com hiperligação? | ✅ Sim | Tabela de Contribuição no topo de todos os artefatos com links para as seções e perfis GitHub. |
 | 11 | A seção de agradecimentos apresentando o uso de IA Generativa? | ✅ Sim | Seção "Agradecimentos e Uso de IA Generativa" presente em todos os artefatos. |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -87,7 +87,7 @@ A Tabela 3 apresenta a verificação do Processo de Design e conteúdo teórico 
 | Justificativa da escolha do Processo de Design, com referência bibliográfica, foto do texto e autor? | ✅ Sim | [Processo de Design](../planejamento/processo-de-design.md) apresenta o Ciclo de Mayhew com justificativa, referência ABNT e fotografia da referência bibliográfica. |
 | Todos os integrantes elaboram itens de conteúdo da disciplina com referência, foto do texto e nome do autor? | ✅ Sim | [Conteúdo da Disciplina](../analise-requisitos/conteudo-disciplina.md) consolida as 4 listas de verificação com citações diretas canônicas e referências ABNT. |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -112,7 +112,7 @@ A Tabela 4 apresenta a verificação dos artefatos de Perfil do Usuário e Aspec
 | **E2-07** | O artefato estabelece a norma mandatória de solicitação prévia e gravada de permissão para captura de áudio/vídeo/imagem? | ✅ Sim | Seção 4 ("Procedimento Mandatório de Solicitação Prévia de Gravação") em [aspectos-eticos.md](../analise-requisitos/aspectos-eticos.md). |
 | **E2-08** | São garantidos o anonimato, sigilo dos dados, voluntariedade e canais de contato dos pesquisadores? | ✅ Sim | Tabela 2 em [aspectos-eticos.md](../analise-requisitos/aspectos-eticos.md) garantindo revogação a qualquer momento sem penalidades. |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -134,7 +134,7 @@ A Tabela 5 apresenta a verificação dos artefatos de Personas, Elenco e Cenári
 | **E2-16** | Cada Cenário apresenta contexto, objetivo, episódios de ação do usuário, restrições e resultado final? | ✅ Sim | Estrutura narrativa com título, objetivo, contexto e encadeamento em [cenarios.md](../analise-requisitos/cenarios.md). |
 | **E2-17** | Há alinhamento e rastreabilidade direta entre Cenários, Personas e as Tarefas modeladas em HTA/GOMS? | ✅ Sim | Matriz de rastreabilidade na Introdução de [cenarios.md](../analise-requisitos/cenarios.md) conectando persona, cenário e tarefa. |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -154,7 +154,7 @@ A Tabela 6 apresenta a verificação dos artefatos de Análise de Tarefas da Ent
 | **E2-23** | A modelagem GOMS/KLM especifica os operadores (K, P, H, D, M, R) e calcula a estimativa de tempo total de execução? | ✅ Sim | Tabelas KLM detalhando operadores com tempos em segundos e somatórios de tempo por tarefa em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 | **E2-24** | Cada discente ativo é autor principal de ao menos uma modelagem de tarefa completa e distinta? | ✅ Sim | Tabela de atribuição indicando as tarefas individuais desenvolvidas por Vinicius, Gustavo e Edvaldo em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -173,7 +173,7 @@ A Tabela 7 apresenta a verificação de padronização, governança e gravação
 | **E2-29** | O vídeo de gravação da Apresentação Oficial da Entrega 2 está publicado no YouTube sob a modalidade 'Não Listado' e linkado na documentação? | ✅ Sim | Link oficial da gravação ([Assistir no YouTube](https://youtu.be/wyh15MvU-3c)) publicado em [entrega2.md](../entregas/entrega2.md). |
 | **E2-30** | A gravação da Reunião de Alinhamento da etapa (Ata 4) está disponibilizada no YouTube sob a modalidade 'Não Listado'? | ✅ Sim | Link oficial da reunião ([Assistir no YouTube](https://youtu.be/OANTQ0KYoYk)) publicado em [ata4.md](../atas/ata4.md) e [index.md](../atas/index.md). |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -226,13 +226,10 @@ A Tabela 9 apresenta a autoavaliação detalhada dos 13 critérios centrais da *
 | **E4-12** | O roteiro do avaliador prescreve postura neutra, registro de hesitações e catálogo sistemático de falhas? | Barbosa & Silva (2021); Nielsen (1994) | ✅ Sim (Conforme) | Ficha comportamental e planilha de observação em formato CSV disponibilizadas em [observacao-avaliador.md](../design-avaliacao-desenvolvimento/observacao-avaliador.md). |
 | **E4-13** | A gravação em vídeo da apresentação da Entrega 4 está publicada no YouTube em "Não Listado" e tem entre 20 e 30 minutos? | Diretrizes da Disciplina (*Sales, 2026*) | ✅ Sim (Conforme) | Vídeo oficial da Entrega 4 gravado pela equipe ([Assistir no YouTube](https://youtu.be/0kXHOEfO6cc)), incorporado em [entrega4.md](../entregas/entrega4.md). |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
-<<<<<<< HEAD
-## 5. Resumo Gráfico de Conformidade
-=======
 ## 4. Verificação da Entrega 4 — Planejamento de Nível 1 (Storyboards e Tarefas)
 
 A conformidade dos artefatos de planejamento da avaliação de Storyboards e Análise de Tarefas produzidos pelo Grupo 08 foi auditada frente aos 12 critérios canônicos de Nível 1. A Tabela 7 documenta os resultados da autoavaliação.
@@ -254,7 +251,7 @@ A conformidade dos artefatos de planejamento da avaliação de Storyboards e An�
 | **11** | O cronograma executado da Etapa 4 registra as datas reais e os integrantes responsáveis? | ✅ Sim | Registrado formalmente na Seção 4 de `cronograma-executado.md` com datas e responsáveis ativos. |
 | **12** | O vídeo de apresentação oficial da equipe foi publicado como 'Não Listado' no YouTube? | ✅ Sim | Vídeo da Entrega 4 incorporado na página de síntese `entrega4.md` sob regime Não Listado. |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -282,12 +279,11 @@ A Entrega 5 consolida os achados empíricos das coletas presenciais de Nível 1 
 | **14** | As tabelas de contribuição e históricos de versão possuem indicação de autores e revisores com links funcionais? | ✅ Sim | Todas as páginas da Entrega 5 possuem tabela de contribuição e histórico com links GitHub ativos para autores e revisores. |
 | **15** | Há seção de agradecimentos declarando com transparência e supervisão humana o escopo do uso de IA Generativa? | ✅ Sim | Seções formais de agradecimentos presentes em todos os artefatos de Nível 1 e Nível 2, atestando supervisão humana. |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
 ## 6. Resumo Gráfico e Consolidado de Conformidade
->>>>>>> origin/develop
 
 ### Resumo da Entrega 1 (22 itens)
 
@@ -429,7 +425,7 @@ A Tabela 10 documenta o histórico de versões deste artefato.
 | `3.1` | 12/10/2026 | Desacoplamento arquitetural formal entre a Lista de Verificação (templates normativos em lista-verificacao.md) e o Relatório de Inspeção preenchido da equipe (Issue #30), com introdução contextualizada no método de Fagan (1976) e saneamento UTF-8 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 | `4.0` | 27/10/2026 | Expansão da autoavaliação consolidada do Grupo 08: incorporação da Verificação da Entrega 4 (Tabela 7 - 12 critérios) e da Entrega 5 (Tabela 8 - 15 critérios), atualização do Resumo Geral para 97 itens auditados e cálculo da Taxa Ponderada Consolidada de 98,5%. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
-_Fonte: Grupo 08, 2026._  
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._  
 _\*Nota histórica: O discente Pedro Paulo constava como integrante ativo na versão 1.0 de setembro/2026, sendo preservado seu registro fático documental da época em estrita conformidade com o princípio de não apagamento histórico e integridade acadêmica._
 
 ---
