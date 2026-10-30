@@ -591,11 +591,35 @@ _Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeM
 
 ---
 
+## Lista de Verificação da Técnica (Análise de Tarefas — HTA, CMN-GOMS e CTT)
+
+Em conformidade com as diretrizes metodológicas da disciplina e com os instrumentos avaliativos elaborados em [Conteúdo da Disciplina e Listas de Verificação](conteudo-disciplina.md) (`LV-01` e `LV-04`), a Tabela 8 consolida a verificação formal das modelagens de Análise de Tarefas desenvolvidas pela equipe (Tarefa 1: Vinicius Silva Araruna; Tarefa 2: Gustavo Antonio; Tarefa 3: Edvaldo Soares).
+
+**Tabela 8** — Lista de Verificação da Técnica de Análise de Tarefas (HTA, CMN-GOMS e CTT)
+
+| ID | Critério e Questão Avaliada | Origem / Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Artefato |
+| :---: | :--- | :--- | :---: | :--- |
+| **AT-01** | **Definição do Objetivo de Alto Nível (Nível 0):** O objetivo raiz é formulado como um estado final desejado pelo usuário (e não como ação mecânica isolada)? | Annett & Duncan (1967); Barbosa & Silva (2021, p. 178) | ✅ Sim | Nas Tarefas 1, 2 e 3, o Objetivo `0` expressa a meta final do estudante no Fórum Diolinux Plus (ex.: *Publicar Tópico de Dúvida Técnica com Integração de IA Semântica*). |
+| **AT-02** | **Subobjetivos Exaustivos e Mutuamente Exclusivos:** Os subobjetivos cobrem integralmente o objetivo pai sem sobreposições funcionais? | Barbosa & Silva (2021, p. 179) | ✅ Sim | Na Tarefa 1, os Subobjetivos `1` a `5` possuem fronteiras cognitivas e operacionais nítidas, cobrindo da abertura do editor à confirmação do tópico publicado. |
+| **AT-03** | **Notação Gráfica Canônica de Planos HTA:** Os planos são posicionados abaixo da linha horizontal do objetivo pai, sem caixas intermediárias de plano no diagrama? | Barbosa & Silva (2021, Figura 8.1, p. 180) | ✅ Sim | As Figuras 2 e 2.1 (prancha física manuscrita em A4) posicionam os planos diretamente abaixo da linha de decomposição e sublinham apenas as operações terminais. |
+| **AT-04** | **Operadores Lógicos Formais nos Planos HTA:** Os planos empregam a sintaxe canônica de sequência (`>`), seleção (`/`) e ordem livre/concorrência (`+`)? | Annett & Duncan (1967); Barbosa & Silva (2021, p. 177) | ✅ Sim | Explicitação formal na Tabela 2 e nos diagramas HTA (`1 > 2 > 3 > 4 > 5`, bifurcação `1.1 / 1.2` e escolha `4.2 / 4.3`). |
+| **AT-05** | **Critério de Parada da Decomposição (`p × c`):** A interrupção da árvore nos nós-folha é justificada pela heurística de probabilidade de falha multiplicada pelo custo do erro? | Annett & Duncan (1967); Barbosa & Silva (2021, p. 178) | ✅ Sim | As operações elementares (`1.1` a `5.2` na Tarefa 1) encerram a decomposição no nível atômico onde `p × c` é residual e o diagnóstico de reprojeto já é acionável. |
+| **AT-06** | **Tupla Analítica de Operações (Inputs, Ações e Feedbacks):** A tabela HTA documenta as circunstâncias disparadoras (inputs), ações e feedbacks observáveis do sistema? | Barbosa & Silva (2021, Tabela 8.4, p. 179–182) | ✅ Sim | As Tabelas 3, 5 e 7 especificam para cada nó os inputs de ativação, feedbacks visuais imediatos do Discourse, problemas previstos e recomendações ergonômicas. |
+| **AT-07** | **Representação Dupla Canônica (Diagrama e Tabela):** Todas as tarefas apresentam tanto o diagrama hierárquico em árvore quanto a tabela analítica equivalente? | Barbosa & Silva (2021, p. 177) | ✅ Sim | A Tarefa 1 exibe as Figuras 2 e 2.1 + Tabela 3; a Tarefa 2 exibe a Figura 3 + Tabela 5; a Tarefa 3 exibe a Figura 5 + Tabela 7. |
+| **AT-08** | **Estruturação Completa do CMN-GOMS:** A modelagem GOMS explicita *Goals*, *Operators*, *Methods* e *Selection Rules*? | Card, Moran & Newell (1983); Barbosa & Silva (2021, p. 185) | ✅ Sim | A Seção 2 da Tarefa 1 formaliza a árvore de `GOAL 0` a `GOAL 5`, operadores cognitivos/motores, métodos alternativos e 3 regras de seleção explícitas. |
+| **AT-09** | **Modelagem de Múltiplos Métodos no CMN-GOMS:** As regras de seleção contemplam tanto usuários que usam atalhos de teclado quanto usuários que usam mouse e colagem (`Ctrl+C`/`Ctrl+V`)? | Card, Moran & Newell (1983) | ✅ Sim | As Regras de Seleção 1 e 2 contrastam o Método A (atalhos `c` e crases ```` ```bash ````) e o Método B (clique no botão `+ Novo Tópico` e ícone `</>` da barra com colagem). |
+| **AT-10** | **Notação e Operadores Temporais em CTT:** As árvores CTT empregam categorias canônicas de tarefas (usuário, sistema, interação, abstrata) e operadores LOTOS (`>>`, `[]>>`, `[]`, `\|\|\|`, `[>`)? | Paternò (2000); Barbosa & Silva (2021, p. 185) | ✅ Sim | As Figuras 4 e 6 modelam a concorrência, passagem de informação e pontos de cancelamento nas Tarefas 2 e 3. |
+| **AT-11** | **Foco no Papel de Estudante Aprendiz e Abordagem Anti-CRUD:** As 3 tarefas priorizam fluxos colaborativos ricos do Fórum Diolinux Plus para o Perfil 1? | Diretrizes Pedagógicas FGA/UnB (*Sales, 2026*) | ✅ Sim | As modelagens cobrem composição Markdown com IA semântica pré-envio (CF01), criação de workshops presenciais (CF02) e grade de agendamento de mentorias (CF03). |
+
+_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05) com base em Barbosa e Silva (2021), Annett e Duncan (1967), Card et al. (1983) e Paternò (2000), 2026._
+
+---
+
 ## Histórico de Versão
 
-A Tabela 8 documenta o histórico de versões deste artefato.
+A Tabela 9 documenta o histórico de versões deste artefato.
 
-**Tabela 8** — Histórico de versão do documento
+**Tabela 9** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
@@ -605,7 +629,8 @@ A Tabela 8 documenta o histórico de versões deste artefato.
 | `1.3` | 20/10/2026 | Adequação da notação canônica de HTA (expurgo de nós intermediários de plano, adoção de operadores lógicos formais e tabela com tupla analítica de inputs e feedbacks observáveis) e substituição de KLM por CMN-GOMS com Módulo de IA Semântica Pré-Envio e regras de seleção na Tarefa 1 (Issues #98 e #99). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.4` | 22/10/2026 | Modelagem integral da Tarefa 2: Criação de Eventos Presenciais (HTA com diagrama Mermaid, Tabela 8.4 canônica de Barbosa & Silva e CTT) incorporando geolocalização e quórum/lotação (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.5` | 22/10/2026 | Substituição da Tarefa 3 pela Grade de Disponibilidade e Agendamento de Dúvidas/Mentorias (estilo When2meet) com modelagem completa em HTA e CTT | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `1.6` | 29/10/2026 | Padronização integral das Tabelas 6 e 7 no formato normativo de 8 colunas da Tabela 8.4 de Barbosa & Silva (2021) e inclusão de diagramas HTA renderizados em alta resolução (Figuras 4a e 5a) para atendimento aos apontamentos da banca examinadora. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.6` | 29/10/2026 | Incorporação da Lista de Verificação da Técnica de Análise de Tarefas (Tabela 8 — 11 critérios normativos de HTA, CMN-GOMS e CTT) fundamentada em Barbosa e Silva (2021), Annett e Duncan (1967) e Card et al. (1983) (#118). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.7` | 29/10/2026 | Padronização integral das Tabelas 6 e 7 no formato normativo de 8 colunas da Tabela 8.4 de Barbosa & Silva (2021) e inclusão de diagramas HTA renderizados em alta resolução (Figuras 4a e 5a) para atendimento aos apontamentos da banca examinadora (#139). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
