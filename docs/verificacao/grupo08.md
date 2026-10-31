@@ -12,7 +12,7 @@ A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas util
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Consolidação dos dados de verificação da E2 e E3 e atualização dos gráficos | 06/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Desacoplamento arquitetural do relatório de inspeção frente aos templates de checklist (Issue #30), elaboração das matrizes de verificação da E2 e E3 | 12/10/2026 | Suporte na formatação Markdown sob supervisão discente |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -48,7 +48,7 @@ A Tabela 1 apresenta os resultados da verificação empírica dos itens de plane
 | 8 | Os artefatos: Planejamento, equipe, sites avaliados, site selecionado, ferramentas, processo de design e cronograma? | ✅ Sim | Todos os artefatos presentes e publicados no GitPages. |
 | 9 | Uma página com as atas de reunião com o acesso à gravação (vídeo), quando houver? | ✅ Sim | [Ata 1](../atas/ata1.md) com link para o YouTube. [Ata 2](../atas/ata2.md) (reunião presencial de 07/09/2026). |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -72,7 +72,7 @@ A Tabela 2 apresenta a verificação dos aspectos de documentação e conformida
 | 10 | Tabela de contribuição no início do artefato com o nome de todos os integrantes com hiperligação? | ✅ Sim | Tabela de Contribuição no topo de todos os artefatos com links para as seções e perfis GitHub. |
 | 11 | A seção de agradecimentos apresentando o uso de IA Generativa? | ✅ Sim | Seção "Agradecimentos e Uso de IA Generativa" presente em todos os artefatos. |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -87,7 +87,7 @@ A Tabela 3 apresenta a verificação do Processo de Design e conteúdo teórico 
 | Justificativa da escolha do Processo de Design, com referência bibliográfica, foto do texto e autor? | ✅ Sim | [Processo de Design](../planejamento/processo-de-design.md) apresenta o Ciclo de Mayhew com justificativa, referência ABNT e fotografia da referência bibliográfica. |
 | Todos os integrantes elaboram itens de conteúdo da disciplina com referência, foto do texto e nome do autor? | ✅ Sim | [Conteúdo da Disciplina](../analise-requisitos/conteudo-disciplina.md) consolida as 4 listas de verificação com citações diretas canônicas e referências ABNT. |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -112,7 +112,7 @@ A Tabela 4 apresenta a verificação dos artefatos de Perfil do Usuário e Aspec
 | **E2-07** | O artefato estabelece a norma mandatória de solicitação prévia e gravada de permissão para captura de áudio/vídeo/imagem? | ✅ Sim | Seção 4 ("Procedimento Mandatório de Solicitação Prévia de Gravação") em [aspectos-eticos.md](../analise-requisitos/aspectos-eticos.md). |
 | **E2-08** | São garantidos o anonimato, sigilo dos dados, voluntariedade e canais de contato dos pesquisadores? | ✅ Sim | Tabela 2 em [aspectos-eticos.md](../analise-requisitos/aspectos-eticos.md) garantindo revogação a qualquer momento sem penalidades. |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -134,7 +134,7 @@ A Tabela 5 apresenta a verificação dos artefatos de Personas, Elenco e Cenári
 | **E2-16** | Cada Cenário apresenta contexto, objetivo, episódios de ação do usuário, restrições e resultado final? | ✅ Sim | Estrutura narrativa com título, objetivo, contexto e encadeamento em [cenarios.md](../analise-requisitos/cenarios.md). |
 | **E2-17** | Há alinhamento e rastreabilidade direta entre Cenários, Personas e as Tarefas modeladas em HTA/GOMS? | ✅ Sim | Matriz de rastreabilidade na Introdução de [cenarios.md](../analise-requisitos/cenarios.md) conectando persona, cenário e tarefa. |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -154,7 +154,7 @@ A Tabela 6 apresenta a verificação dos artefatos de Análise de Tarefas da Ent
 | **E2-23** | A modelagem GOMS/KLM especifica os operadores (K, P, H, D, M, R) e calcula a estimativa de tempo total de execução? | ✅ Sim | Tabelas KLM detalhando operadores com tempos em segundos e somatórios de tempo por tarefa em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 | **E2-24** | Cada discente ativo é autor principal de ao menos uma modelagem de tarefa completa e distinta? | ✅ Sim | Tabela de atribuição indicando as tarefas individuais desenvolvidas por Vinicius, Gustavo e Edvaldo em [analise-tarefas.md](../analise-requisitos/analise-tarefas.md). |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -173,7 +173,7 @@ A Tabela 7 apresenta a verificação de padronização, governança e gravação
 | **E2-29** | O vídeo de gravação da Apresentação Oficial da Entrega 2 está publicado no YouTube sob a modalidade 'Não Listado' e linkado na documentação? | ✅ Sim | Link oficial da gravação ([Assistir no YouTube](https://youtu.be/wyh15MvU-3c)) publicado em [entrega2.md](../entregas/entrega2.md). |
 | **E2-30** | A gravação da Reunião de Alinhamento da etapa (Ata 4) está disponibilizada no YouTube sob a modalidade 'Não Listado'? | ✅ Sim | Link oficial da reunião ([Assistir no YouTube](https://youtu.be/OANTQ0KYoYk)) publicado em [ata4.md](../atas/ata4.md) e [index.md](../atas/index.md). |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -204,7 +204,29 @@ A Tabela 8 apresenta a autoavaliação detalhada dos 18 itens da **Entrega 3** (
 | **17** | **Vídeo de Apresentação da Entrega 3** | ✅ Sim | Vídeo oficial gravado com os integrantes ativos e publicado no YouTube como "Não Listado" ([Assistir no YouTube](https://youtu.be/MIRdtPGGHmM)), incorporado na página `entrega3.md`. | Plenamente atendido, sem pendências. |
 | **18** | **Agradecimentos e Uso de IA Generativa** | ⚠️ Incompleto | Presente em `entrega3.md`, `metas-de-usabilidade.md`, `guia-de-estilo.md` e `ata5.md`. | Ausente nos artefatos `caracteristicas-da-plataforma.md` e `principios-gerais-de-projeto.md`. |
 
-_Fonte: Grupo 08, 2026._
+## 4. Verificação da Entrega 4 — Planejamento da Avaliação e Relato (Nível 1)
+
+A Tabela 9 apresenta a autoavaliação detalhada dos 13 critérios centrais da **Entrega 4** (Planejamento da Avaliação do Storyboard e da Análise de Tarefas e Planejamento dos respectivos Relatos de Resultados) frente às exigências do Plano de Ensino da disciplina (*Sales, 2026, pp. 12-13*) e ao referencial canônico de IHC (*Barbosa et al., 2021; Mayhew, 1999*).
+
+**Tabela 9** — Verificação dos Itens da Entrega 4 (Grupo 08)
+
+| ID | Item de Verificação / Rubrica Oficial | Origem / Fonte Normativa | Aferição | Evidência / Observação no Repositório |
+| :---: | :--- | :--- | :---: | :--- |
+| **E4-01** | O planejamento da avaliação segue integralmente o Framework DECIDE? | Preece et al. (2002); Barbosa et al. (2021) | ✅ Sim (Conforme) | Tanto o [Planejamento do Storyboard](../design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-avaliacao.md) quanto o de [Análise de Tarefas](../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-avaliacao.md) estruturam-se estritamente nas 6 etapas do acrônimo DECIDE. |
+| **E4-02** | São descritos os objetivos da avaliação fundamentados no Ciclo de Mayhew e nas metas formativas? | Mayhew (1999); Barbosa et al. (2021) | ✅ Sim (Conforme) | Seção 1 de ambos os planejamentos contextualiza a avaliação formativa de Nível 1 com foco em alternativas de design, apropriação e mitigação de inconsistências pré-código. |
+| **E4-03** | Os métodos de avaliação são definidos com citação, referência ABNT, autor do item e foto do livro? | Barbosa & Silva (2021); Sales (2026) | ✅ Sim (Conforme) | Item Teórico de Métodos de Avaliação publicado por [Edvaldo Soares](../design-avaliacao-desenvolvimento/item-teorico-metodos-avaliacao.md) com citação direta de Barbosa e Silva (2010, p. 301) e evidência visual. |
+| **E4-04** | As questões práticas detalham recrutamento, perfil, ambiente, ferramentas e orçamento zero? | Barbosa & Silva (2021, p. 273) | ✅ Sim (Conforme) | Documento dedicado em [Questões Práticas](../design-avaliacao-desenvolvimento/nivel-1/questoes-praticas-cronograma.md) com tabela 12.9 adaptada, amostragem de 3 voluntários e orçamento de R\$ 0,00. |
+| **E4-05** | As questões éticas prescrevem script oral do TCLE com consentimento gravado, voluntariedade e LGPD? | Resolução CNS 510/2016; Lei 13.709/2018 | ✅ Sim (Conforme) | Seção 7 dos planejamentos prescreve o Script Oral Literal lido nos primeiros 60 segundos gravados, com consentimento verbal arquivado no YouTube. |
+| **E4-06** | O planejamento do relato estrutura objetivos, métodos, participantes, catálogo de problemas (Nielsen 0 a 4) e reprojeto? | Barbosa et al. (2021, p. 303); Nielsen (1994) | ✅ Sim (Conforme) | Modelos analíticos padronizados em [Planejamento do Relato (Storyboard)](../design-avaliacao-desenvolvimento/nivel-1/storyboard/planejamento-relato-resultados.md) e [Planejamento do Relato (Tarefas)](../design-avaliacao-desenvolvimento/nivel-1/analise-tarefas/planejamento-relato-resultados.md). |
+| **E4-07** | O cronograma prevê datas, horários e locais para o teste-piloto e para as entrevistas com usuários? | Barbosa & Silva (2021); Sales (2026) | ✅ Sim (Conforme) | Tabela 4 da página de síntese [Entrega 4](../entregas/entrega4.md) e tabelas de cronograma prático cobrindo ensaios de 17/10 a 27/10/2026. |
+| **E4-08** | Cada Storyboard está vinculado formalmente a um fluxo de tarefa modelado no HTA/CTT? | Klemmer (2012); Barbosa & Silva (2021) | ✅ Sim (Conforme) | Mapeamento biunívoco explícito na Tabela 3 de [Entrega 4](../entregas/entrega4.md) conectando Storyboards 1, 2 e 3 às Tarefas 1, 2 e 3 do HTA/CTT. |
+| **E4-09** | A quantidade de Storyboards e tarefas avaliadas é igual à quantidade de integrantes ativos da equipe? | Plano de Ensino da Disciplina (*Sales, 2026*) | ✅ Sim (Conforme) | 3 Storyboards físicos desenhados à mão (Vinicius, Gustavo e Edvaldo) para os 3 discentes ativos da equipe. |
+| **E4-10** | O teste-piloto está definido com protocolo prévio, data e fotos/evidências teóricas com autoria individual? | Barbosa & Silva (2021, p. 276); Sales (2026) | ✅ Sim (Conforme) | Protocolo completo em [teste-piloto.md](../design-avaliacao-desenvolvimento/nivel-1/teste-piloto.md) com players dos ensaios em vídeo de Vinicius, Gustavo e Edvaldo no YouTube. |
+| **E4-11** | Consta expressamente a Cláusula Metodológica Obrigatória de que os dados do piloto NÃO são computados no relato final? | Barbosa & Silva (2021, p. 276) | ✅ Sim (Conforme) | Cláusula formal destacada em caixa de aviso na Seção 2 de [teste-piloto.md](../design-avaliacao-desenvolvimento/nivel-1/teste-piloto.md) e nos relatos finais. |
+| **E4-12** | O roteiro do avaliador prescreve postura neutra, registro de hesitações e catálogo sistemático de falhas? | Barbosa & Silva (2021); Nielsen (1994) | ✅ Sim (Conforme) | Ficha comportamental e planilha de observação em formato CSV disponibilizadas em [observacao-avaliador.md](../design-avaliacao-desenvolvimento/observacao-avaliador.md). |
+| **E4-13** | A gravação em vídeo da apresentação da Entrega 4 está publicada no YouTube em "Não Listado" e tem entre 20 e 30 minutos? | Diretrizes da Disciplina (*Sales, 2026*) | ✅ Sim (Conforme) | Vídeo oficial da Entrega 4 gravado pela equipe ([Assistir no YouTube](https://youtu.be/0kXHOEfO6cc)), incorporado em [entrega4.md](../entregas/entrega4.md). |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -229,7 +251,7 @@ A conformidade dos artefatos de planejamento da avaliação de Storyboards e An�
 | **11** | O cronograma executado da Etapa 4 registra as datas reais e os integrantes responsáveis? | ✅ Sim | Registrado formalmente na Seção 4 de `cronograma-executado.md` com datas e responsáveis ativos. |
 | **12** | O vídeo de apresentação oficial da equipe foi publicado como 'Não Listado' no YouTube? | ✅ Sim | Vídeo da Entrega 4 incorporado na página de síntese `entrega4.md` sob regime Não Listado. |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -257,7 +279,7 @@ A Entrega 5 consolida os achados empíricos das coletas presenciais de Nível 1 
 | **14** | As tabelas de contribuição e históricos de versão possuem indicação de autores e revisores com links funcionais? | ✅ Sim | Todas as páginas da Entrega 5 possuem tabela de contribuição e histórico com links GitHub ativos para autores e revisores. |
 | **15** | Há seção de agradecimentos declarando com transparência e supervisão humana o escopo do uso de IA Generativa? | ✅ Sim | Seções formais de agradecimentos presentes em todos os artefatos de Nível 1 e Nível 2, atestando supervisão humana. |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -401,15 +423,10 @@ A Tabela 10 documenta o histórico de versões deste artefato.
 | `2.0` | 27/09/2026 | Atualização completa integrando os 30 critérios formais de auto-avaliação da Entrega 2 (Perfil de Usuário, Aspectos Éticos, Personas, Cenários, HTA/GOMS e Gravação) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `3.0` | 06/10/2026 | Inclusão da auto-avaliação e lista de verificação da Entrega 3 (Análise de Requisitos) com 18 itens e incorporação do vídeo oficial de apresentação | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `3.1` | 12/10/2026 | Desacoplamento arquitetural formal entre a Lista de Verificação (templates normativos em lista-verificacao.md) e o Relatório de Inspeção preenchido da equipe (Issue #30), com introdução contextualizada no método de Fagan (1976) e saneamento UTF-8 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
-
-_Fonte: Grupo 08, 2026._  
-_\*Nota histórica: O discente Pedro Paulo constava como integrante ativo na versão 1.0 de setembro/2026, sendo preservado seu registro fático documental da época em estrita conformidade com o princípio de não apagamento histórico e integridade acadêmica._
-
----
-
 | `4.0` | 27/10/2026 | Expansão da autoavaliação consolidada do Grupo 08: incorporação da Verificação da Entrega 4 (Tabela 7 - 12 critérios) e da Entrega 5 (Tabela 8 - 15 critérios), atualização do Resumo Geral para 97 itens auditados e cálculo da Taxa Ponderada Consolidada de 98,5%. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
-_Fonte: Grupo 08, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._  
+_\*Nota histórica: O discente Pedro Paulo constava como integrante ativo na versão 1.0 de setembro/2026, sendo preservado seu registro fático documental da época em estrita conformidade com o princípio de não apagamento histórico e integridade acadêmica._
 
 ---
 
