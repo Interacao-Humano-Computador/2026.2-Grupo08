@@ -63,7 +63,7 @@ A Tabela 2 define os parâmetros técnicos e logísticos da sessão de ensaio.
 | **Resolução e Enquadramento** | Gravação audiovisual sobre a mesa em ambiente silencioso, capturando participante, pranchas e tela de exibição |
 | **Artefatos Inspecionados** | Storyboards impressos das Tarefas 1, 2 e 3, diagramas HTA canônicos e interface web do Fórum Diolinux Plus |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 A Tabela 3 apresenta a distribuição de responsabilidades e atribuição de papéis entre os participantes do ensaio piloto.
 
@@ -74,7 +74,7 @@ A Tabela 3 apresenta a distribuição de responsabilidades e atribuição de pap
 | **Avaliador Solo (Condução Autônoma)** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Conduzir individualmente a gravação em ambiente silencioso, verificar o microfone, calibrar o enquadramento do smartphone/notebook na mesa, testar a leitura do Script Oral do TCLE (< 60s) e simular a apresentação do Storyboard 1 e tarefas. |
 | **Participante Simulado** | Autoensaio Solo do Avaliador (ou Colega Convidado) | Simulação autônoma pelo próprio avaliador para verificação estritamente instrumental de captação sonora, nitidez visual e ritmo de fala. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -106,7 +106,7 @@ graph TD
 ```
 
 **Figura 1** — Fluxo sequencial de execução do Teste-Piloto de Nível 1.  
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021), 2026._
 
 ---
 
@@ -154,6 +154,14 @@ As gravações integrais dos ensaios de teste-piloto de Nível 1 estão disponib
     <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/1F409M-E850" title="Gravação do Teste-Piloto de Nível 1 - Edvaldo Soares - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
     <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 2</strong> — Registro audiovisual da execução do Teste-Piloto da Tarefa 3. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/1F409M-E850" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/1F409M-E850</a></p>
+</div>
+
+#### Vídeo 3 — Ensaio do Teste-Piloto da Tarefa 2: Criação de Eventos Presenciais (Gustavo Antonio)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/K5jVAyq4hAY" title="Gravação do Teste-Piloto da Tarefa 2 - Gustavo Antonio - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 3</strong> — Registro audiovisual do Teste-Piloto da Tarefa 2 (Criação de Eventos Presenciais). <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/K5jVAyq4hAY" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/K5jVAyq4hAY</a></p>
 </div>
 
 ---
