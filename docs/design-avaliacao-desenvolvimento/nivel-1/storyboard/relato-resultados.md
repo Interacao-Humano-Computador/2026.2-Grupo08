@@ -12,7 +12,7 @@ A Tabela 1 apresenta a matriz de responsabilidades e atribuições na consolida�
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Condução da Sessão 02 (Tarefa 2 - Eventos Presenciais), consolidação dos apontamentos do Storyboard 2 e revisão cruzada de severidade. | 24/10/2026 | Google Gemini (LLM) | Suporte na estruturação Markdown e checagem de hiperligações. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Condução da Sessão 03 (Tarefa 3 - Busca Avançada), consolidação dos apontamentos do Storyboard 3 e validação metodológica. | 24/10/2026 | — | Condução de sessão e revisão por pares. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -64,7 +64,7 @@ A Tabela 2 apresenta os dados demográficos consolidados e a atribuição das se
 | **P2** | Participante Convidado | L. C. F. (Anonimizado) | 22 | Ciência da Computação (CIC/UnB) | Intermediário | Fedora Workstation | Storyboard 2 (Sessão S02) |
 | **P3** | Participante Convidado | G. H. R. (Anonimizado) | 20 | Engenharia de Redes (FGA/UnB) | Iniciante | Debian 12 | Storyboard 3 (Sessão S03) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -90,33 +90,41 @@ A análise das gravações e das planilhas de observação permitiu consolidar o
 ### P01 — Verossimilhança e Apropriação do Cenário Inicial
 - **Constatação Geral:** 100% dos participantes (P1, P2 e P3) validaram a autenticidade e a plausibilidade do problema disparador retratado.
 - **Relato de P1 (Tarefa 1 — síntese não literal):** Relatou que se identificou com a situação vivenciada por Lucas Mendonça, explicando que sempre que cai em um problema técnico e vai pesquisar, acaba encontrando sites de fórum da comunidade e que, hoje em dia, com a ajuda de ferramentas de IA, esse processo de investigação e resolução fica muito mais fácil.
-- **Relato de P2 (Tarefa 2):** Destacou a verossimilhança do isolamento inicial de quem estuda Linux sozinho e a iniciativa espontânea de criar oficinas presenciais na universidade.
+- **Relato de P2 (Tarefa 2 - Gustavo Antonio):** Ao manusear a prancha, o participante destacou prontamente a intenção do protagonista: *"É um personagem que teve uma ideia e encontrou um caminho para executar... ele conseguiu marcar um encontro presencial por meio do fórum para fazer uma oficina de Linux, que é o que estava pensando, uma maneira prática de fazer isso."* Validou a autenticidade da dor do isolamento e da solução encontrada.
 
 ### P02 — Naturalidade da Persona e Balões de Fala
-- **Constatação Geral:** As falas, dúvidas técnicas e reações das personas soaram condizentes com a realidade discente de cursos de tecnologia.
-- **Relato de P1:** Considerou os pensamentos e falas de Lucas Mendonça objetivos e expressivos, retratando com autenticidade a hesitação inicial (*"Como posto no fórum sem bagunçar logs?"*) e a satisfação ao concluir a publicação do tópico, sem jargões burocráticos ou tom publicitário.
-- **Sugestão de Polimento:** P2 sugeriu que no Storyboard 2 houvesse maior ênfase visual no botão de compartilhamento rápido em aplicativos de mensagens.
+- **Constatação Geral:** As falas, gírias técnicas e frustrações das personas soaram condizentes com a realidade discente de cursos de tecnologia.
+- **Relato de P1:** Considerou as falas e pensamentos de Lucas Mendonça objetivos e expressivos, retratando com autenticidade a hesitação inicial (*"Como posto no fórum sem bagunçar logs?"*) e a satisfação ao concluir a publicação do tópico, sem jargões burocráticos ou tom publicitário.
+- **Relato de P2:** Avaliou positivamente a progressão dos balões de Lucas no Storyboard 2, afirmando que a sequência é fluida (*"Muito bom, é bom"*). Sugeriu polimento com maior ênfase visual no botão de compartilhamento rápido em aplicativos de mensagens.
 
 ### P03 — Clareza da Estrutura Narrativa dos 8 Quadros
-- **Constatação Geral:** Os participantes acompanharam a progressão cronológica sem necessidade de explicações intermediárias do avaliador. A linearidade (Erro no Laboratório → Hesitação → Acesso ao Diolinux → Informação Contextual → Destaque com Markdown → IA Integrada → Avaliação de Alternativas → Sucesso na Publicação) foi considerada fluida e intuitiva.
+- **Constatação Geral:** Os participantes acompanharam a progressão cronológica sem necessidade de explicações intermediárias do avaliador. A linearidade (Erro no Laboratório → Hesitação → Acesso ao Diolinux → Informação Contextual → Destaque com Markdown / Mapa → IA Integrada / Ingressos → Confirmação → Sucesso na Publicação) foi considerada fluida e intuitiva.
+- **Relato de P2:** Conseguiu verbalizar com precisão o encadeamento causal desde a ideação do encontro até a publicação final e a divulgação do link para os colegas.
 
 ### P04 — Legibilidade dos Desenhos Manuscritos
-- **Constatação Geral:** O traço à mão em papel A4 e o contraste das digitalizações em 300 DPI permitiram rápida identificação das janelas do monitor, campos de texto e divisão de colunas nos 8 quadros, sem que os participantes relatassem dificuldades de leitura ou legibilidade.
+- **Constatação Geral:** O traço à mão em papel A4 e o contraste das digitalizações em 300 DPI permitiram rápida identificação das janelas do monitor, campos de texto, mapa e divisão de colunas nos 8 quadros.
+- **Apontamento de P1:** Observou que o texto interno desenhado na simulação da tela do computador no Quadro 4 estava ligeiramente compacto devido à dimensão física do papel, recomendando telas em formato modular expandido no protótipo de papel de Nível 2.
+- **Apontamento de P2:** A leitura dos quadros foi realizada de maneira desimpedida, compreendendo perfeitamente o papel do mapa, formulário e balões narrativos.
 
 ### P05 — Correspondência com o Sistema Real (Discourse)
-- **Constatação Geral:** A representação do editor de postagens com formatação Markdown e inserção de tags técnicas foi prontamente reconhecida como a convenção padrão de fóruns baseados no Discourse.
+- **Constatação Geral:** A representação do editor de postagens com formatação Markdown e a estrutura de tópicos/eventos foi prontamente reconhecida como a convenção padrão de fóruns baseados no Discourse.
 - **Relato de P1 (síntese não literal):** Apontou que estruturar e destacar o log com Markdown deixa o tópico muito mais fácil de ler e facilita tanto a maneira de postar quanto o entendimento do problema por quem acompanha o fórum.
+- **Relato de P2:** Reconheceu o fórum comunitário como meio viável e moderno para agregar pessoas em torno de oficinas práticas de software livre.
 
 ### P06 — Etapas Forçadas ou Omissões no Fluxo
-- **Constatação Geral:** Nenhuma etapa foi considerada desnecessária. Os participantes destacaram que todas as ações mostradas compõem o ciclo virtuoso de postagem técnica.
+- **Constatação Geral:** Nenhuma etapa foi considerada desnecessária.
+- **Relato de P2:** Ao ser inquirido sobre a ordem ou etapas faltantes, atestou: *"Não, não acho. Acho que tá razoável"*.
 
-### P07 — Desfecho e Receptividade da IA Semântica de Pré-Envio
+### P07 — Desfecho e Receptividade da IA Semântica de Pré-Envio / Recursos Específicos
 - **Constatação Geral:** A intervenção preventiva da inteligência artificial no momento que antecede a publicação (Quadros 6 e 7 do Storyboard 1) foi amplamente aprovada por P1.
 - **Relato Chave de P1 (síntese não literal):** Destacou que contar com um assistente de IA pré-envio que verifica tópicos semelhantes já resolvidos e sugere tags precisas poupa tempo do estudante e evita tópicos duplicados no fórum, ressaltando que a IA deve orientar sem travar o envio caso o usuário queira postar mesmo assim.
+- **Constatação de P2 (Ingressos Gratuitos):** Validou a modalidade de ingressos sem burocracia para encontros universitários: *"Para eventos acadêmicos, essa divisão atende bem? Sim, sim, de boa"*.
 
 ### P08 — Oportunidades de Design e Recomendações dos Participantes
-- **Sugestão de P1 (Tarefa 1 — sugestão única):** Inclusão de um botão para preencher automaticamente as tags sugeridas pela IA com 1 clique, evitando a digitação manual de cada metadado.
-- **Sugestão de P2 (Tarefa 2):** Exibição imediata da confirmação de geolocalização no mapa interativo com raio visual de proximidade.
+- **Sugestão 1 (P1 - Tarefa 1):** Inclusão de um botão para preencher automaticamente todas as tags sugeridas pela IA com 1 clique, evitando a digitação manual de cada metadado.
+- **Sugestão 2 (P1 - Tarefa 1):** Destaque explícito para a área de pré-visualização lado a lado (*split-view*) do Markdown no formulário.
+- **Sugestão 3 (P2 - Tarefa 2):** Substituição de campos abertos de digitação de horário por componente visual dedicado de relógio (*timepicker*).
+- **Sugestão 4 (P2 - Tarefa 2):** Exibição de confirmação de geolocalização no mapa interativo com raio visual de proximidade e esclarecimento sobre o pin no local reservado.
 
 ---
 
@@ -130,9 +138,11 @@ Os apontamentos de atrito e oportunidades colhidos nas sessões foram catalogado
 | :---: | :--- | :---: | :--- | :---: | :--- | :--- |
 | **PROB-ST-01** | Tarefa 1 (Markdown e IA) | Quadros 6 e 7 | Receio de que o modal de IA pré-envio bloqueie o botão 'Publicar' caso o usuário prefira manter sua postagem original. | **2 (Menor)** | Modelo Mental / Controle | Incluir no protótipo de papel botão visível e neutro: *"Publicar como está (ignorar sugestões)"*. |
 | **PROB-ST-02** | Tarefa 1 (Markdown e IA) | Quadro 6 | Ausência de botão para preencher automaticamente as tags técnicas recomendadas pela IA. | **2 (Menor)** | Eficiência de Interação | Inserir componente interativo: *"Preencher tags sugeridas automaticamente (1 clique)"*. |
-| **PROB-ST-03** | Tarefa 2 (Eventos Presenciais) | Quadro 5 | Dúvida passageira sobre o comportamento do pin no mapa ao digitar o endereço da faculdade. | **2 (Menor)** | Feedback do Sistema | Adicionar estado de feedback de geolocalização com campo de autocompletar e confirmação visual. |
+| **PROB-ST-03** | Tarefa 2 (Eventos Presenciais) | Quadro 4 / 5 | O participante verbalizou que prefere ter um componente visual específico para horários em vez de digitar em texto corrido (*"Acho que prefiro com relógio"*). | **2 (Menor)** | Eficiência / Prevenção de Erros | Substituir campos abertos de horário por seletores modulares com widget de relógio (*timepicker*). |
+| **PROB-ST-04** | Tarefa 2 (Eventos Presenciais) | Quadro 6 | Dúvida sobre o comportamento do pin no mapa: participante questionou se o sistema buscaria automaticamente locais vagos próximos ou se deve marcar a sala reservada. | **2 (Menor)** | Modelo Mental / Feedback | Incluir instrução clara no formulário (*"Indique no mapa o local físico previamente agendado para o evento"*) e confirmação visual de geolocalização. |
+| **PROB-ST-05** | Tarefa 2 (Eventos Presenciais) | Quadro 5 / Ingressos | O participante considerou que a modalidade gratuita com emissão imediata atende sem atritos eventos comunitários (*"Sim, de boa"*). | **0 (Sem Problema / Ponto Positivo)** | Adequação à Tarefa | Preservar a opção de emissão simplificada de ingressos gratuitos sem exigência de dados de faturamento. |
 
-_Fonte: Elaborada pelos autores com base em Nielsen (1994), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Nielsen (1994) e evidências empíricas de campo, 2026._
 
 ---
 
@@ -164,7 +174,7 @@ A Tabela 4 sintetiza as gravações audiovisuais das avaliações do Storyboard.
 | **S02** | Tarefa 2: Criação de Eventos Presenciais | P2 (L. C. F.) | [Gustavo Antonio](https://github.com/gus-ant) | ~15 min | [Assistir Sessão S02 no YouTube (Não Listado)](https://youtu.be/VhGgpfX9Rqk) |
 | **S03** | Tarefa 3: Grade de Disponibilidade e Agendamento | P3 (G. H. R.) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~15 min | [Assistir Sessão S03 no YouTube (Não Listado)](https://youtu.be/gqZ3yJ3ZYUc) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 #### Reprodução Audiovisual da Sessão 01 (Storyboard 1 — Vinicius Silva Araruna)
 
@@ -172,6 +182,14 @@ _Fonte: Elaborada pelos autores, 2026._
     <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/_4nQ50nN7b8" title="Avaliação do Storyboard 1 - Sessão 01 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
     <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 1</strong> — Registro audiovisual da avaliação do Storyboard 1 na residência do participante. <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/_4nQ50nN7b8" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/_4nQ50nN7b8</a></p>
+</div>
+
+#### Reprodução Audiovisual da Sessão 02 (Storyboard 2 — Gustavo Antonio)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/VhGgpfX9Rqk" title="Avaliação do Storyboard 2 - Sessão 02 - Gustavo Antonio - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 2</strong> — Registro audiovisual da avaliação do Storyboard 2 (Criação de Eventos Presenciais). <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/VhGgpfX9Rqk" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/VhGgpfX9Rqk</a></p>
 </div>
 
 ---
@@ -201,7 +219,7 @@ A Tabela 5 apresenta a autoavaliação da conformidade do relato dos resultados 
 | **7** | Há disponibilização dos vídeos das sessões gravadas no YouTube e comprovação de TCLE oral? | Diretrizes Pedagógicas FGA/UnB | ✅ Sim | A Seção 8 contém tabela com links do YouTube, container responsivo e registro de consentimento verbal. |
 | **8** | O documento contém a Cláusula Metodológica Obrigatória de isolamento dos dados do piloto? | Barbosa & Silva (2021, p. 276) | ✅ Sim | A Seção 9 apresenta o destaque visual formal atestando a não-computação dos dados do piloto. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
 ---
 
@@ -217,7 +235,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | `1.1` | 25/10/2026 | Incorporação do link oficial e player do registro audiovisual da avaliação da Sessão S01 (Vinicius Silva Araruna com participante J.V.S no YouTube). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 29/10/2026 | Unificação nominal da Persona Primária (Lucas Mendonça), explicitação metodológica de síntese analítica não literal (Bardin, 2011) e refinamento empírico dos achados de P1 em aderência estrita ao vídeo gravado (#132). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
