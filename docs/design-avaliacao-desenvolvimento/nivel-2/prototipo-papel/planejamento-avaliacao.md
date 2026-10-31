@@ -113,7 +113,20 @@ _Fonte: Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Snyder (2003
 
 ## 5. C — Escolher os Métodos de Avaliação
 
-Para avaliar o protótipo de papel no Nível 2, a equipe selecionou o método de **Ensaio de Interação com Usuários por meio de Teste de Usabilidade Formativo em Papel (*Paper Usability Testing*)** (*Snyder, 2003; Rettig, 1994; Barbosa & Silva, 2021*), combinado com a técnica de verbalização concomitante (*think-aloud*).
+Para avaliar o protótipo de papel no Nível 2, a equipe selecionou o método de **Ensaio de Interação com Usuários por meio de Teste de Usabilidade Formativo em Papel (*Paper Usability Testing*)** (*Snyder, 2003; Rettig, 1994; Barbosa & Silva, 2021*), combinado com a técnica de verbalização concomitante (*think-aloud*) (*Ericsson & Simon, 1993*).
+
+### 5.1 Justificativa Científica da Escolha do Método e do Procedimento de Pesquisa
+
+A seleção da prototipagem em papel operada com a dinâmica de Facilitador e "Computador Humano" apoia-se em sólidas premissas ergonômicas e econômicas da literatura de IHC:
+
+1. **Investigação Empírica vs. Métodos de Inspeção sem Usuários:**  
+   Métodos puramente analíticos de inspeção (como a Avaliação Heurística de Nielsen ou o Percurso Cognitivo) dependem exclusivamente do julgamento de especialistas em IHC, sendo incapazes de capturar as surpresas conceituais e os atritos de vocabulário vivenciados por estudantes universitários reais. A simulação em papel coloca o usuário no centro do processo investigativo (*Barbosa & Silva, 2021*);
+2. **Plasticidade Formativa e Redução de Inibição (*Rettig, 1994; Snyder, 2003*):**  
+   Quando os usuários interagem com protótipos de alta fidelidade em software ou interfaces prontas, frequentemente sentem constrangimento em criticar elementos visuais, receando desvalorizar o esforço de programação dos autores. O protótipo em papel, por sua natureza artesanal e plástica, encoraja o discente a apontar hesitações, sugerir novos botões e verbalizar dúvidas com total desinibição;
+3. **Externalização de Modelos Mentais via Protocolo *Think-Aloud* (*Ericsson & Simon, 1993*):**  
+   Ao verbalizar seus pensamentos concomitantes à simulação do toque com o dedo, o participante revela a discrepância entre a ordem natural do seu raciocínio (ex.: redigir o corpo da dúvida antes de definir tags) e a disposição dos campos na tela, permitindo mapear falhas de *affordance* em tempo real;
+4. **Validação Eficiente de Modais e Componentes Inteligentes:**  
+   A sobreposição física do cartão móvel destacável da **IA Semântica de Pré-Envio** permite testar de forma tátil se a intervenção inteligente auxilia o estudante ou se causa sensação de bloqueio/intrusão, ajustando o fluxo antes de qualquer linha de código ser implementada.
 
 ### Dinâmica e Atribuição de Papéis na Sessão
 
@@ -148,6 +161,25 @@ flowchart LR
   - **Participante 2 (P2 — Tarefa 2):** Graduando de Engenharia de Software (FGA/UnB — Campus Gama), com interesse prático em participação e organização de meetups e eventos comunitários de software livre;
 - **Critério de Inclusão:** Estar matriculado em curso de tecnologia, já ter utilizado Linux e ter familiaridade com navegação em fóruns na web;
 - **Critério de Exclusão:** Integrantes da equipe do Grupo 08 ou discentes envolvidos diretamente no projeto.
+
+#### 6.1.1 Justificativa Científica e Matemática do Tamanho da Amostra (n Participantes)
+
+A decisão metodológica de recrutar **1 participante discente real dedicado para a sessão oficial da Tarefa 1** (totalizando **3 participantes somados no ciclo global da equipe**, sendo 1 por funcionalidade, além de **1 participante exclusivo no Teste-Piloto**) é estritamente fundamentada no modelo matemático assintótico de **Nielsen & Landauer (1993)**, nas diretrizes de **Jakob Nielsen (2000)** e nos ciclos formativos iterativos de **Steve Krug (2014)**:
+
+1. **Equação Assintótica de Descoberta de Falhas (Nielsen & Landauer, 1993):**  
+   A taxa de descoberta de problemas de usabilidade em testes formativos com usuários segue a equação binomial de Poisson:  
+   `Problemas Encontrados = N × [1 − (1 − L)ⁿ]`  
+   Onde:
+   - `N` representa o número total de problemas de usabilidade existentes na interface;
+   - `L` é a proporção média de problemas identificados por um único participante (estimada empiricamente por Nielsen e Landauer em aproximadamente `31%` para ensaios de usabilidade);
+   - `n` é o número de voluntários recrutados na rodada de teste.
+2. **Eficiência Diagnóstica por Fluxo Funcional (Nielsen, 2000):**  
+   Segundo a curva assintótica de Nielsen (2000), o **primeiro participante isolado em um fluxo específico revela sozinho cerca de 31% dos problemas de usabilidade** daquela tarefa. Ao se analisar o ciclo global de 3 tarefas independentes divididas entre os 3 membros da equipe (`n = 3` participantes), a cobertura combinada alcança **entre 65% e 75% dos problemas críticos de arquitetura da informação e navegação**, apresentando o ponto de máximo custo-benefício (*maximum ROI*);
+3. **Ciclos Iterativos Enxutos de Steve Krug (2014):**  
+   Em *Don't Make Me Think* (*Não me faça pensar*), Steve Krug demonstra que testes formativos rápidos e enxutos realizados no início do design com amostras pequenas (1 a 3 participantes por rodada) são muito mais eficazes do que testes tardios e pesados com dezenas de usuários. O objetivo na prototipagem em papel não é obter significância estatística comparativa, mas **identificar gargalos estruturais imediatos** para corrigi-los antes da prototipação no Figma (Nível 3);
+4. **Isolamento Rígido do Teste-Piloto:**  
+   Adicionalmente, 1 participante exclusivo é alocado para o Teste-Piloto prévio de calibração instrumental. Em estrita conformidade com a literatura (*Mayhew, 1999; Barbosa & Silva, 2021*), os dados do teste-piloto avaliam apenas a logística e o planejamento, **jamais sendo misturados aos resultados da amostra de avaliação oficial**.
+
 
 ### 6.2 Confecção dos Materiais em Papel
 
@@ -409,6 +441,7 @@ A Tabela 7 documenta o histórico evolutivo deste artefato.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 24/10/2026 | Estruturação inicial do Planejamento da Avaliação do Protótipo de Papel focado na Tarefa 1 (Markdown e IA Semântica) sob o Framework DECIDE, incluindo perguntas investigativas, cronogramas e checklist de 15 critérios. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `2.0` | 29/10/2026 | Expansão integral para Nível 2 com incorporação da Tarefa 2 (Criação de Eventos Presenciais da Comunidade — CF02): objetivos formativos, perguntas investigativas PP-T2-01 a 08, especificação da bancada física com mapa e pin móvel, cronogramas planejado e executado (Tabelas 4a e 5a), roteiro de simulação e script oral do TCLE. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `2.1` | 30/10/2026 | Inclusão formal da justificativa científica do método (Snyder, Rettig, Ericsson & Simon) e justificativa matemática do tamanho da amostra baseada na equação assintótica de Nielsen & Landauer (1993), Nielsen (2000) e Krug (2014) (#119). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
@@ -417,8 +450,12 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 ## 14. Referências Bibliográficas (ABNT)
 
 - BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 10: Prototipação, p. 248-255).
+- ERICSSON, K. Anders; SIMON, Herbert A. *Protocol Analysis: Verbal Reports as Data*. Cambridge: MIT Press, 1993.
+- KRUG, Steve. *Não me faça pensar (revisitado): uma abordagem de bom senso à usabilidade na web e no celular*. 3. ed. Rio de Janeiro: Alta Books, 2014.
 - MAYHEW, Deborah J. *The Usability Engineering Lifecycle: a practitioner's handbook for user interface design*. San Francisco: Morgan Kaufmann Publishers, 1999.
 - NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann Publishers, 1994.
+- NIELSEN, Jakob. *Why You Only Need to Test with 5 Users*. Fremont: Nielsen Norman Group, 2000. Disponível em: https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/. Acesso em: 30 out. 2026.
+- NIELSEN, Jakob; LANDAUER, Thomas K. *A mathematical model of the finding of usability problems*. In: INTERCHI '93: Proceedings of the INTERACT '93 and CHI '93 Conference on Human Factors in Computing Systems. Amsterdam: ACM, 1993. p. 206-213.
 - RETTIG, Marc. *Prototyping for tiny fingers*. Communications of the ACM, v. 37, n. 4, p. 21-27, 1994.
 - ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. *Design de Interação: além da interação humano-computador*. 3. ed. Porto Alegre: Bookman, 2013.
 - SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Brasília: Universidade de Brasília, Faculdade UnB Gama (FGA), 2026.

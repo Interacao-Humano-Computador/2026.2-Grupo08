@@ -922,3 +922,193 @@ html {
   stroke: #FFFF00 !important;
 }
 
+
+/* ============================================================
+   Componente: Caixa de Vídeo Responsiva (Video Card)
+   ============================================================ */
+.video-card-container {
+  background: var(--dp-card);
+  border: 1px solid var(--dp-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 1.75rem auto;
+  max-width: 840px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.25s ease;
+}
+
+.video-card-container:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.09);
+  border-color: var(--md-accent-fg-color);
+}
+
+.video-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--dp-border);
+}
+
+.video-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--dp-text);
+}
+
+.video-card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-accent-fg-color);
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.video-card-frame {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Proporção 16:9 Widescreen */
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.video-card-frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--dp-border);
+  font-size: 0.85rem;
+  color: var(--dp-muted);
+}
+
+.video-card-caption {
+  font-size: 0.85rem;
+  color: var(--dp-muted);
+}
+
+.video-card-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-accent-fg-color) !important;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.video-card-btn:hover {
+  background: var(--md-accent-fg-color);
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+}
+
+/* ============================================================
+   Componente: Caixa de Vídeo Dropdown Expansível (Video Card)
+   ============================================================ */
+details.video-card-details {
+  background: var(--dp-card);
+  border: 1px solid var(--dp-border);
+  border-radius: 12px;
+  margin: 1.75rem auto;
+  max-width: 840px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.25s ease;
+}
+
+details.video-card-details:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+}
+
+details.video-card-details summary.video-card-summary {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+  padding: 1.1rem 1.25rem !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  background: var(--dp-card) !important;
+  list-style: none !important;
+  transition: background 0.2s ease !important;
+}
+
+details.video-card-details summary.video-card-summary::-webkit-details-marker {
+  display: none !important;
+}
+
+details.video-card-details summary.video-card-summary::marker {
+  display: none !important;
+}
+
+details.video-card-details[open] summary.video-card-summary {
+  background: var(--md-accent-fg-color--transparent) !important;
+  border-bottom: 1px solid var(--dp-border) !important;
+}
+
+.video-card-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-accent-fg-color);
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  transition: all 0.2s ease;
+}
+
+.video-card-toggle::after {
+  content: ' ▼';
+  font-size: 0.7rem;
+}
+
+details.video-card-details[open] .video-card-toggle {
+  background: var(--md-accent-fg-color);
+  color: #FFFFFF !important;
+}
+
+details.video-card-details[open] .video-card-toggle::after {
+  content: ' ▲';
+}
+
+.video-card-body {
+  padding: 1.25rem;
+  background: var(--dp-card);
+}
