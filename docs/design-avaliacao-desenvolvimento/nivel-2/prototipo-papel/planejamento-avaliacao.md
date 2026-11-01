@@ -105,7 +105,7 @@ A Tabela 2a apresenta as perguntas investigativas formuladas especificamente par
 | **Conclusão e Check-in** | **PP-T2-07** | Ao término do fluxo, a prancha do evento publicado contendo o QR Code de check-in e link de compartilhamento expressa o sucesso da criação? | Verbalização de convicção perante a publicação e clareza sobre o uso do QR Code para entrada no dia. |
 | **Evolução Ergonômica** | **PP-T2-08** | Que ajuste ou componente adicional você recomendaria para aprimorar este fluxo de eventos presenciais na versão digital do Figma? | Insumos diretos para a modelagem de alta fidelidade de Nível 3. |
 
-_Fonte: Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Snyder (2003), 2026._
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Snyder (2003), 2026._
 
 ---
 
