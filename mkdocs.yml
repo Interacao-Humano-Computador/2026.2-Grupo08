@@ -127,6 +127,11 @@ nav:
           - Relato dos Resultados: design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados.md
           - Bancada e Peças Físicas (Tarefa 1): design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/prototipo-papel-tarefa1.md
           - Teste-Piloto de Nível 2: design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/teste-piloto.md
+  - Design, Avaliação e Desenvolvimento (Nível 3):
+      - design-avaliacao-desenvolvimento/nivel-3/index.md
+      - Protótipo de Alta Fidelidade (Figma):
+          - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel-3/planejamento-avaliacao.md
+          - Planejamento do Relato de Resultados: design-avaliacao-desenvolvimento/nivel-3/planejamento-relato-resultados.md
   - Atas de Reunião:
     - Índice de Atas: atas/index.md
     - Reunião 04/09/2026: atas/ata1.md
