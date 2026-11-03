@@ -36,13 +36,11 @@ hide:
 
 ## Tabela de Contribuição
 
-| Integrante | Contribuição | Data |
+| Integrante | Atribuição na Página Inicial | Data |
 | :--- | :--- | :---: |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão geral das diretrizes do projeto e alinhamento](#etapas-do-projeto) | 05/09/2026 |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação da página inicial e detalhamento dos fluxos do projeto](#sobre-o-projeto) | 04/09/2026 |
-| [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início, padronização e bibliografia ABNT](#sobre-o-projeto) | 05/09/2026 |
-| [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Apresentação visual da equipe com fotos e contraste](#integrantes-do-grupo) | 04/09/2026 |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Atualização integral da página inicial para o Fórum Diolinux Plus (pivot de escopo)](#sobre-o-projeto) | 18/09/2026 |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Tech Lead / PO: Atualização integral da página inicial, ativação dos atalhos das etapas e governança de navegação](#etapas-do-projeto) | 03/11/2026 |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Estruturação visual da página inicial, layout responsivo e revisão dos links das etapas](#sobre-o-projeto) | 03/11/2026 |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão geral de acessibilidade, contraste e auditoria de hiperligações da documentação](#integrantes-do-grupo) | 03/11/2026 |
 
 ---
 
@@ -91,14 +89,14 @@ O desenvolvimento do trabalho é orientado pelo [Processo de Design](planejament
 
 ## Etapas do Projeto
 
-1. **Planejamento do Projeto**: Definição do objeto de estudo ([Site Selecionado](planejamento/site-selecionado.md)), [Cronograma Planejado](planejamento/cronograma-planejado.md), [Cronograma Executado](planejamento/cronograma-executado.md), [Quadro de Atribuições](planejamento/quadro-de-atribuicoes.md) e [Ferramentas](planejamento/ferramentas.md).
-2. **Perfil de Usuário, Aspectos Éticos e Análise de Tarefas**: Definição das características do público, termos de consentimento (TCLE) e modelagem de tarefas em HTA e GOMS.
-3. **Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo**: Diretrizes de interface e padrões de interação para a plataforma.
-4. **Planejamento da Avaliação e Storyboard**: Métodos formativos com o Framework DECIDE e teste-piloto.
-5. **Relato dos Resultados do Storyboard e Planejamento do Protótipo de Papel**: Avaliação inicial de baixa fidelidade com usuários.
-6. **Relato do Protótipo de Papel e Planejamento do Protótipo de Alta Fidelidade**: Evolução do design formativo para modelo computacional interativo.
-7. **Relato dos Resultados do Protótipo de Alta Fidelidade**: Testes de usabilidade finais com participantes.
-8. **Verificação dos Artefatos**: Inspeção e auditoria completa de conformidade do projeto.
+1. [**Etapa 1 — Planejamento do Projeto**](entregas/entrega1.md): Definição do objeto de estudo ([Site Selecionado](planejamento/site-selecionado.md)), [Cronograma Planejado](planejamento/cronograma-planejado.md), [Cronograma Executado](planejamento/cronograma-executado.md), [Quadro de Atribuições](planejamento/quadro-de-atribuicoes.md) e [Ferramentas](planejamento/ferramentas.md).
+2. [**Etapa 2 — Perfil de Usuário, Aspectos Éticos e Análise de Tarefas**](entregas/entrega2.md): Definição das características do público, termos de consentimento (TCLE) e modelagem de tarefas em HTA e GOMS.
+3. [**Etapa 3 — Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo**](entregas/entrega3.md): Diretrizes de interface e padrões de interação para a plataforma.
+4. [**Etapa 4 — Planejamento da Avaliação e Storyboard**](entregas/entrega4.md): Métodos formativos com o Framework DECIDE e teste-piloto.
+5. [**Etapa 5 — Relato dos Resultados do Storyboard e Planejamento do Protótipo de Papel**](entregas/entrega5.md): Avaliação inicial de baixa fidelidade com usuários.
+6. [**Etapa 6 — Relato do Protótipo de Papel e Planejamento do Protótipo de Alta Fidelidade**](entregas/entrega6.md): Evolução do design formativo de Nível 2 para modelo computacional interativo de Nível 3 no Figma.
+7. **Etapa 7 — Relato dos Resultados do Protótipo de Alta Fidelidade**: Testes de usabilidade com participantes e protótipo interativo.
+8. [**Etapa 8 — Verificação dos Artefatos de IHC**](verificacao/index.md): Garantia da qualidade de Fagan e autoavaliação contínua.
 
 ---
 
@@ -111,6 +109,7 @@ O desenvolvimento do trabalho é orientado pelo [Processo de Design](planejament
 | `1.2` | 18/09/2026 | Atualização para o Fórum Diolinux Plus, nota de pivot da Etapa 1 e alinhamento do escopo | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.3` | 21/09/2026 | Redesign visual inspirado no Fórum Diolinux Plus e implementação do modo de alto contraste | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.4` | 25/09/2026 | Atualização da seção de integrantes para a nova composição com 3 membros | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.5` | 03/11/2026 | Atualização integral da página inicial, ativação e sincronização dos atalhos das etapas 1 a 8 e governança de navegação | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 ---
 

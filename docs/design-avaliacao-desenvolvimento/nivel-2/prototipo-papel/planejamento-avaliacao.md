@@ -107,8 +107,6 @@ A Tabela 2a apresenta as perguntas investigativas formuladas especificamente par
 
 _Fonte: Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Snyder (2003), 2026._
 
-_Fonte: Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Snyder (2003), 2026._
-
 ---
 
 ## 5. C — Escolher os Métodos de Avaliação
@@ -156,28 +154,29 @@ flowchart LR
 ## 6. I — Identificar e Administrar as Questões Práticas
 
 ### 6.1 Perfil e Recrutamento dos Participantes
-- **Público-Alvo:** 2 discentes voluntários reais (Perfil 1: Estudante / Usuário Aprendiz em Linux) de cursos de tecnologia da UnB (Ciência da Computação — CIC e Engenharia de Software — FGA);
-  - **Participante 1 (P1 — Tarefa 1):** Graduando de Ciência da Computação (CIC/UnB — Campus Darcy Ribeiro), com vivência em dúvidas de terminal e Markdown;
-  - **Participante 2 (P2 — Tarefa 2):** Graduando de Engenharia de Software (FGA/UnB — Campus Gama), com interesse prático em participação e organização de meetups e eventos comunitários de software livre;
-- **Critério de Inclusão:** Estar matriculado em curso de tecnologia, já ter utilizado Linux e ter familiaridade com navegação em fóruns na web;
+- **Público-Alvo:** Discentes voluntários reais (Perfil 1: Estudante / Usuário Aprendiz em Linux) de cursos de graduação da UnB (Engenharia, Engenharia de Software e Engenharia Aeroespacial);
+  - **Amostra da Tarefa 1 (Postagem, Markdown e IA Semântica):** 3 participantes discentes dedicados (P1, P2 e P3) cobrindo diferentes graus de vivência com Linux (ocasional, diário e raro) e familiaridade com Markdown (básica e nenhuma);
+  - **Amostra da Tarefa 2 (Eventos Presenciais):** Discente de Engenharia de Software com interesse prático em participação e organização de meetups comunitários;
+- **Critério de Inclusão:** Estar matriculado em curso de graduação da UnB, ter interesse ou contato prévio com sistemas livres e navegação em fóruns na web;
 - **Critério de Exclusão:** Integrantes da equipe do Grupo 08 ou discentes envolvidos diretamente no projeto.
 
 #### 6.1.1 Justificativa Científica e Matemática do Tamanho da Amostra (n Participantes)
 
-A decisão metodológica de recrutar **1 participante discente real dedicado para a sessão oficial da Tarefa 1** (totalizando **3 participantes somados no ciclo global da equipe**, sendo 1 por funcionalidade, além de **1 participante exclusivo no Teste-Piloto**) é estritamente fundamentada no modelo matemático assintótico de **Nielsen & Landauer (1993)**, nas diretrizes de **Jakob Nielsen (2000)** e nos ciclos formativos iterativos de **Steve Krug (2014)**:
+A decisão metodológica de recrutar **3 participantes discentes reais dedicados para a sessão oficial da Tarefa 1** (além de **1 participante exclusivo no Teste-Piloto**) é estritamente fundamentada no modelo matemático assintótico de **Nielsen & Landauer (1993)**, nas diretrizes de **Jakob Nielsen (2000)** e nos ciclos formativos iterativos de **Steve Krug (2014)**:
 
-1. **Equação Assintótica de Descoberta de Falhas (Nielsen & Landauer, 1993):**  
+1. **A Pragmática Formativa de Steve Krug (2014):**  
+   Em *Não me faça pensar (revisitado)* (Capítulo 9: *"Usabilidade como esporte de contato simples"*) e no guia *Rocket Surgery Made Easy* (2010), Steve Krug demonstra que **testar com 3 ou no máximo 4 participantes é o número perfeito para rodadas de testes formativos**. Krug pontua que os problemas mais críticos e quebras de modelo mental manifestam-se logo nos primeiros voluntários. Aumentar a amostra em uma mesma rodada de baixa fidelidade consome recursos escassos e traz repetições exaustivas. O segredo em IHC ágil é testar com 3 usuários, corrigir o protótipo e testar novamente na etapa de maior fidelidade;
+2. **Equação Assintótica de Descoberta de Falhas (Nielsen & Landauer, 1993):**  
    A taxa de descoberta de problemas de usabilidade em testes formativos com usuários segue a equação binomial de Poisson:  
    `Problemas Encontrados = N × [1 − (1 − L)ⁿ]`  
    Onde:
    - `N` representa o número total de problemas de usabilidade existentes na interface;
    - `L` é a proporção média de problemas identificados por um único participante (estimada empiricamente por Nielsen e Landauer em aproximadamente `31%` para ensaios de usabilidade);
-   - `n` é o número de voluntários recrutados na rodada de teste.
-2. **Eficiência Diagnóstica por Fluxo Funcional (Nielsen, 2000):**  
-   Segundo a curva assintótica de Nielsen (2000), o **primeiro participante isolado em um fluxo específico revela sozinho cerca de 31% dos problemas de usabilidade** daquela tarefa. Ao se analisar o ciclo global de 3 tarefas independentes divididas entre os 3 membros da equipe (`n = 3` participantes), a cobertura combinada alcança **entre 65% e 75% dos problemas críticos de arquitetura da informação e navegação**, apresentando o ponto de máximo custo-benefício (*maximum ROI*);
-3. **Ciclos Iterativos Enxutos de Steve Krug (2014):**  
-   Em *Don't Make Me Think* (*Não me faça pensar*), Steve Krug demonstra que testes formativos rápidos e enxutos realizados no início do design com amostras pequenas (1 a 3 participantes por rodada) são muito mais eficazes do que testes tardios e pesados com dezenas de usuários. O objetivo na prototipagem em papel não é obter significância estatística comparativa, mas **identificar gargalos estruturais imediatos** para corrigi-los antes da prototipação no Figma (Nível 3);
-4. **Isolamento Rígido do Teste-Piloto:**  
+   - `n` é o número de voluntários recrutados na rodada de teste (`n = 3`).  
+   Para `n = 3`:  
+   `1 − (1 − 0,31)³ = 1 − (0,69)³ = 1 − 0,3285 = 67,15%`  
+   Isso comprova que **3 participantes discentes diagnosticam entre 67% e 75% da totalidade dos problemas de usabilidade** do fluxo no papel, atingindo o ponto de máxima eficiência analítica (*maximum ROI*);
+3. **Isolamento Rígido do Teste-Piloto:**  
    Adicionalmente, 1 participante exclusivo é alocado para o Teste-Piloto prévio de calibração instrumental. Em estrita conformidade com a literatura (*Mayhew, 1999; Barbosa & Silva, 2021*), os dados do teste-piloto avaliam apenas a logística e o planejamento, **jamais sendo misturados aos resultados da amostra de avaliação oficial**.
 
 
@@ -274,12 +273,14 @@ A Tabela 5 documenta a esteira integrada de execução da Tarefa 1.
 | Fase / Atividade | Data Executada | Horário | Responsável | Entregável / Registro Formal | Status |
 | :--- | :---: | :---: | :--- | :--- | :---: |
 | **Estruturação do Planejamento DECIDE** | 24/10/2026 | 13:00 - 14:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Elaboração deste documento formal de Nível 2 com checklist de 15 itens. | 🟢 Concluído |
-| **Recorte e Confecção dos Cartões em Papel** | 27/10 a 29/10/2026 | 14:00 - 18:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Conjunto de 3 pranchas A4 e 3 cartões móveis (tags, menu e modal da IA). | 🟡 Agendado |
-| **Execução do Teste-Piloto de Nível 2** | 30/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Calibração de movimentação das peças físicas, tempo de resposta e TCLE oral. | ⚪ Planejado |
-| **Sessão Presencial Oficial de Interação** | 31/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Sessão presencial gravada com P1 (CIC/UnB) na residência do participante, think-aloud e simulação com Computador Humano. | ⚪ Planejado |
-| **Tabulação e Severidade de Nielsen (0 a 4)** | 01/11/2026 | 09:00 - 13:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Planilha de dados brutos e catálogo de falhas formativas de Nível 2. | ⚪ Planejado |
-| **Gravação Audiovisual Oficial da Equipe** | **02/11/2026** | **09:00 - 11:30** | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna | **Vídeo oficial conjunto da apresentação da entrega gravado e hospedado no YouTube.** | ⚪ Planejado |
-| **Submissão Oficial no Aprender 3** | 03/11/2026 | Até 23:59 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Submissão dos links definitivos e documentação no ambiente acadêmico. | ⚪ Planejado |
+| **Recorte e Confecção das Peças em Papel** | 27/10 a 29/10/2026 | 14:00 - 18:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Conjunto de 3 pranchas A4 rígidas e 3 peças móveis sobrepostas (Folhas 1 a 3 e modal IA). | 🟢 Concluído |
+| **Execução do Teste-Piloto de Nível 2** | 30/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Calibração da bancada a 45°, tempo de resposta mecânica (< 1s) e leitura do TCLE (< 60s). | 🟢 Concluído |
+| **Sessão Presencial Oficial — P1 (Engenharia)** | 31/10/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Sessão gravada com P1 (Engenharia, 26 anos), think-aloud e simulação tátil (Vídeo 1). | 🟢 Concluído |
+| **Sessão Presencial Oficial — P2 (Eng. Software)** | 01/11/2026 | 15:00 - 15:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Sessão gravada com P2 (Eng. Software, 20 anos), think-aloud e simulação tátil (Vídeo 2). | 🟢 Concluído |
+| **Sessão Presencial Oficial — P3 (Eng. Aeroespacial)** | 02/11/2026 | 14:00 - 14:45 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Sessão gravada com P3 (Eng. Aeroespacial, 21 anos), think-aloud e simulação tátil (Vídeo 3). | 🟢 Concluído |
+| **Tabulação e Severidade de Nielsen (0 a 4)** | 02/11/2026 | 16:00 - 19:00 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Catálogo de 5 falhas ergonômicas (PROB-PP-01 a 05) com legenda e diretrizes para Figma. | 🟢 Concluído |
+| **Gravação Audiovisual Oficial da Equipe** | **02/11/2026** | **20:00 - 21:30** | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna | **Vídeo oficial da apresentação da Entrega 6 gravado e hospedado no YouTube.** | 🟢 Concluído |
+| **Finalização Documental e Submissão** | 03/11/2026 | Até 23:59 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (PO) | Submissão dos links definitivos e documentação no ambiente acadêmico Aprender 3. | 🟢 Concluído |
 
 _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
 
@@ -442,6 +443,7 @@ A Tabela 7 documenta o histórico evolutivo deste artefato.
 | `1.0` | 24/10/2026 | Estruturação inicial do Planejamento da Avaliação do Protótipo de Papel focado na Tarefa 1 (Markdown e IA Semântica) sob o Framework DECIDE, incluindo perguntas investigativas, cronogramas e checklist de 15 critérios. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `2.0` | 29/10/2026 | Expansão integral para Nível 2 com incorporação da Tarefa 2 (Criação de Eventos Presenciais da Comunidade — CF02): objetivos formativos, perguntas investigativas PP-T2-01 a 08, especificação da bancada física com mapa e pin móvel, cronogramas planejado e executado (Tabelas 4a e 5a), roteiro de simulação e script oral do TCLE. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.1` | 30/10/2026 | Inclusão formal da justificativa científica do método (Snyder, Rettig, Ericsson & Simon) e justificativa matemática do tamanho da amostra baseada na equação assintótica de Nielsen & Landauer (1993), Nielsen (2000) e Krug (2014) (#119). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `2.2` | 03/11/2026 | Sincronização da amostra empírica da Tarefa 1 com a tríade de participantes discentes (P1, P2 e P3), fundamentação formativa de Steve Krug (2014) e consolidação do cronograma executado da Tarefa 1 com as 3 sessões presenciais gravadas. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
