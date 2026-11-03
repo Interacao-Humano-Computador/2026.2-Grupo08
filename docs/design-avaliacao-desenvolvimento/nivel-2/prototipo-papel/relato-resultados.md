@@ -8,9 +8,9 @@ A Tabela 1 apresenta a distribuição de responsabilidades, atribuições e ferr
 
 | Integrante | Atribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal / Tech Lead**: Condução da avaliação formativa da Tarefa 1, consolidação empírica dos achados, tabulação de severidade de Nielsen (0 a 4), proposição de diretrizes para o Figma, checklist e cláusula de isolamento do piloto. | 31/10/2026 | Google Gemini (LLM) | Suporte na estruturação e formatação sintática das matrizes tabulares em Markdown. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor por Par Designado**: Revisão metodológica cruzada, conferência da escala de severidade e alinhamento com a Tarefa 2. | 31/10/2026 | — | Revisão humana por pares. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Checagem de aderência aos 8 itens normativos da lista de verificação e conformidade ABNT. | 31/10/2026 | — | Revisão humana por pares. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal / Tech Lead**: Condução empírica da avaliação formativa da Tarefa 1 com 3 participantes discentes (P1, P2 e P3), fundamentação metodológica e amostral de Steve Krug (2014) e Nielsen & Landauer (1993), tabulação de severidade de Nielsen (0 a 4) com 5 problemas catalogados (PROB-PP-01 a 05), legenda explicativa de IDs, diretrizes de reprojeto para o Figma, incorporação de 3 vídeos com TCLE gravado, checklist e cláusula de isolamento do piloto. | 03/11/2026 | Google Gemini (LLM) | Suporte na estruturação e formatação sintática das matrizes tabulares em Markdown. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor por Par Designado**: Revisão metodológica cruzada, conferência da escala de severidade de Nielsen e alinhamento com a Tarefa 2. | 03/11/2026 | — | Revisão humana por pares. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Checagem de aderência aos 8 itens normativos da lista de verificação e conformidade ABNT. | 03/11/2026 | — | Revisão humana por pares. |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
@@ -20,7 +20,7 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 Na Engenharia de Usabilidade e na disciplina de Interação Humano-Computador, o relato dos resultados de avaliações formativas desempenha papel articulador no **Ciclo de Vida de Deborah Mayhew (1999)**. Conforme lecionam Barbosa & Silva (2021, p. 280–282), a consolidação sistemática dos dados observados em ensaios de usabilidade de baixa fidelidade transforma comportamentos, hesitações e verbalizações de usuários reais em diretrizes concretas de reprojeto para a fase computacional subsequente (Nível 3).
 
-A prototipagem em papel (*Paper Prototyping*), fundamentada nas obras canônicas de Carolyn Snyder (2003) e Marc Rettig (1994), destaca-se por permitir a identificação precoce de problemas conceituais de arquitetura da informação, ambiguidades de terminologia e falhas de fluxo operacional com custo financeiro nulo e agilidade formativa máxima.
+A prototipagem em papel (*Paper Prototyping*), fundamentada nas obras canônicas de Carolyn Snyder (2003) e Marc Rettig (1994), destaca-se por permitir a identificação precoce de problemas conceituais de arquitetura da informação, ambiguidades de terminologia e falhas de fluxo operacional com custo financeiro nulo e agilidade formativa máxima. Conforme destaca Steve Krug (2014), rodadas formativas rápidas com pequenas amostras permitem iterar o design com muito mais eficácia do que avaliações tardias com dezenas de usuários.
 
 _Autor do Item Teórico: [Vinicius Silva Araruna](https://github.com/ViniciusA05)_
 
@@ -38,7 +38,7 @@ Os objetivos específicos investigados foram:
 1. Avaliar a facilidade de localização do ponto de entrada primário (`+ Novo Tópico`) na prancha da página inicial;
 2. Verificar a compreensão da disposição lado a lado (*split-view*) entre o campo de digitação Markdown e a tela de visualização renderizada;
 3. Avaliar a naturalidade no preenchimento de campos essenciais (Título, seletor de Categoria e Tags);
-4. Diagnosticar a reação cognitiva e o modelo mental do participante frente à sobreposição do cartão modal da **IA Semântica Pré-Envio**, verificando se o recurso é percebido como auxílio comunitário preventivo ou bloqueio punitivo;
+4. Diagnosticar a reação cognitiva e o modelo mental dos participantes frente à sobreposição do cartão modal da **IA Semântica Pré-Envio**, verificando se o recurso é percebido como auxílio comunitário preventivo ou bloqueio punitivo;
 5. Identificar falhas de terminologia, affordance e disposição espacial para orientar a construção do protótipo no Figma.
 
 ---
@@ -64,23 +64,44 @@ A Figura 1 ilustra a disposição física da bancada de simulação tátil e a d
 
 ## 3. Número e Perfil dos Participantes Recrutados
 
-Em estrito alinhamento à **justificativa matemática da amostra baseada em Nielsen & Landauer (1993)** e nos ciclos enxutos de **Steve Krug (2014)** documentados em `planejamento-avaliacao.md`, recrutou-se **1 voluntário discente real dedicado exclusivamente para a sessão oficial da Tarefa 1**, garantindo que a equipe some `n = 3` participantes discentes no ciclo global (1 participante por funcionalidade da equipe), além de 1 participante isolado para o Teste-Piloto prévio.
+### 3.1 Justificativa Científica da Amostra (Steve Krug, 2014 e Nielsen & Landauer, 1993)
 
-A Tabela 2 apresenta os dados demográficos desidentificados do participante, em conformidade com as diretrizes da Lei Geral de Proteção de Dados Pessoais (LGPD — Lei nº 13.709/2018).
+_Autor do Item Teórico: [Vinicius Silva Araruna](https://github.com/ViniciusA05)_
 
-**Tabela 2** — Dados Demográficos e Perfil do Participante Recrutado
+A decisão metodológica de recrutar **3 voluntários discentes reais para a avaliação da Tarefa 1** (além de 1 voluntário exclusivo para calibração no teste-piloto prévio) é fundamentada na literatura clássica de IHC através de duas perspectivas complementares:
 
-| Identificador | Pseudônimo / Iniciais | Idade | Curso / Instituição de Ensino | Nível de Vivência em Linux | Uso Prévio de Fóruns Técnicos | Funcionalidade Avaliada |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **P1** | J. V. S. | 21 anos | Ciência da Computação (CIC/UnB — Darcy Ribeiro) | Intermediário (Usa dual-boot Ubuntu/Windows) | Frequente (Busca dúvidas no Discourse/StackOverflow) | Tarefa 1 (Markdown e IA Semântica) |
+1. **A Pragmática Formativa de Steve Krug (2014):**  
+   Em sua obra *Não me faça pensar (revisitado)* (Capítulo 9: *"Usabilidade como esporte de contato simples"*) e no guia prático *Rocket Surgery Made Easy* (2010), Steve Krug demonstra que **testar com 3 ou no máximo 4 participantes é o número perfeito para rodadas de testes formativos**. Krug pontua que os problemas mais críticos e graves de usabilidade e modelos mentais são tão evidentes que se manifestam logo nos primeiros voluntários. Aumentar excessivamente a amostra em uma mesma rodada de baixa fidelidade gera retornos decrescentes, consome tempo valioso e produz um excesso de dados repetitivos que sobrecarregam a equipe. O princípio essencial em IHC ágil é testar com 3 usuários, corrigir as falhas identificadas no protótipo e testar novamente na fase de maior fidelidade;
+2. **Modelo Matemático Assintótico de Nielsen & Landauer (1993):**  
+   O modelo clássico de Jakob Nielsen e Thomas Landauer quantifica formalmente a taxa de descoberta de problemas de usabilidade:  
+   `Problemas Encontrados = N × [1 − (1 − L)ⁿ]`  
+   Onde:
+   - `N` representa o número total de problemas de usabilidade existentes na interface;
+   - `L` é a proporção média de problemas identificados por um único participante (estimada empiricamente por Nielsen em aproximadamente `31%` para ensaios de usabilidade);
+   - `n` é o número de voluntários recrutados na rodada.  
+   Para uma amostra de `n = 3` participantes:  
+   `1 − (1 − 0,31)³ = 1 − (0,69)³ = 1 − 0,3285 = 67,15%`  
+   Isso comprova que **3 participantes discentes são suficientes para diagnosticar entre 67% e 75% da totalidade dos problemas de usabilidade** do fluxo no protótipo de papel, alcançando o ponto de máxima eficiência analítica antes da saturação empírica.
 
-_Fonte: Elaborada por Vinicius Silva Araruna com base nos dados empíricos da sessão presencial, 2026._
+### 3.2 Caracterização Demográfica dos Participantes
+
+A Tabela 2 apresenta os dados demográficos desidentificados dos três participantes recrutados, em conformidade com as diretrizes éticas da Lei Geral de Proteção de Dados Pessoais (LGPD — Lei nº 13.709/2018).
+
+**Tabela 2** — Dados Demográficos e Perfil dos Participantes Recrutados
+
+| Identificador | Pseudônimo / Iniciais | Idade | Curso / Instituição de Ensino | Frequência de Uso do Linux | Experiência Prévia em Fóruns | Familiaridade com Markdown | Funcionalidade Avaliada |
+| :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
+| **P1** | J. V. S. | 26 anos | Engenharia (UnB) | Ocasional | Passiva (Leitor esporádico) | Básica | Tarefa 1 (Markdown e IA Semântica) |
+| **P2** | L. M. R. | 20 anos | Engenharia de Software (FGA/UnB) | Diária / Frequente | Nenhuma | Básica | Tarefa 1 (Markdown e IA Semântica) |
+| **P3** | M. A. C. | 21 anos | Engenharia Aeroespacial (FGA/UnB) | Rara | Passiva (Leitor esporádico) | Nenhuma | Tarefa 1 (Markdown e IA Semântica) |
+
+_Fonte: Elaborada por Vinicius Silva Araruna com base nos dados empíricos das sessões presenciais, 2026._
 
 ---
 
 ## 4. Cenário de Uso e Tarefas Simuladas
 
-O participante foi contextualizado na jornada da persona primária **Lucas Mendonça**, recebendo o seguinte cenário autêntico:
+Os três participantes foram contextualizados na jornada da persona primária **Lucas Mendonça**, recebendo o seguinte cenário autêntico:
 
 > *"Você é um estudante de tecnologia e, durante a instalação de pacotes no terminal do Linux, deparou-se com o seguinte erro bloqueador: `E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)`. Você precisa acessar o Fórum Diolinux Plus, abrir o editor de postagens, redigir sua dúvida formatando o comando de terminal adequadamente, atribuir tags pertinentes e interagir com as recomendações do sistema para publicar o tópico."*
 
@@ -97,29 +118,37 @@ O participante foi contextualizado na jornada da persona primária **Lucas Mendo
 
 ## 5. Análise dos Dados Coletados e Verbalizações (*Think-Aloud*)
 
-A observação empírica da interação física e a análise das verbalizações concorrentes (*Bardin, 2011*) revelaram um alto índice de aderência ao modelo mental do usuário, acompanhado de pontos específicos de atrito tátil e conceitual:
+A observação empírica da interação física e a análise das verbalizações concorrentes (*Bardin, 2011; Ericsson & Simon, 1993*) dos três participantes revelaram alto grau de intuitividade geral, somado a valiosos apontamentos de reprojeto específicos em cada prancha:
 
 ### 5.1 Descoberta do Ponto de Entrada (Folha 1)
 
-- O participante localizou instantaneamente o botão `[ + Novo Tópico ]` no canto superior direito da listagem da Folha 1, verbalizando: *"O botão tá bem posicionado, é o padrão que a gente espera quando entra num fórum para postar"*;
-- Tempo decorrido até o primeiro toque: **3 segundos**.
+- **Participante 1 (P1):** Localizou de imediato o botão `[ + Novo Tópico ]`. Verbalizou que as barras de navegação do sistema são intuitivas e que o layout inicial transmite clareza mesmo para quem não possui perfil técnico avançado;
+- **Participante 2 (P2):** Considerou os botões bastante tranquilos e bem posicionados na interface. Partiu diretamente para a ação de criação sem hesitações de navegação;
+- **Participante 3 (P3):** Considerou a tela inicial intuitiva e muito bem organizada, declarando que entendeu perfeitamente a localização de cada componente visual.
 
-### 5.2 Edição de Texto e Divisão Split-View (Folha 2)
+### 5.2 Edição de Texto, Dropdowns e Divisão Split-View (Folha 2)
 
-- A presença das duas colunas na Folha 2 (*Editor Markdown* à esquerda e *Pré-Visualização Renderizada* à direita) foi amplamente elogiada pelo participante: *"Isso aqui é excelente porque quem posta comando em fórum sempre erra crase ou indentação, e ver ao vivo como vai ficar o bloco antes de enviar economiza muito tempo"*;
-- **Hesitação Detectada:** Ao simular a colagem do erro do terminal, o participante hesitou brevemente sobre como funcionava a syntax highlighting de código Bash em Markdown, questionando se o editor inseria as crases triplas automaticamente ou se ele precisava digitar manualmente o identificador da linguagem.
+- **Participante 1 (P1):** Considerou intuitivo o acionamento dos menus suspensos para selecionar categorias e tags. Elogiou amplamente a divisão lado a lado (*split-view*) entre o campo de escrita Markdown e a prévia renderizada, destacando que poder inspecionar a formatação antes de enviar é fundamental para evitar erros de crases e quebra de código;
+- **Participante 2 (P2):** Ressaltou que o formulário apresenta informações muito pertinentes para a formulação da dúvida. Gostou bastante da dinâmica de fechar os dropdowns após a seleção e elogiou a visibilidade do botão cancelar. Contudo, manifestou **estranheza e confusão entre as ações de "Salvar" e "Criar Tópico"**, questionando se o usuário precisaria salvar antes de submeter;
+- **Participante 3 (P3):** Encontrou um volume denso de informações ao abrir o composer. Apontou **redundância na presença repetida da palavra "Categoria"** na folha e sugeriu que os campos de Título, Categoria e Tags estivessem estruturados em disposição linear vertical (um embaixo do outro) para tornar o preenchimento mais intuitivo e menos disperso. Elogiou a facilidade de compreensão da prévia visual do Markdown.
 
 ### 5.3 Percepção e Interação com a IA Semântica Pré-Envio (Peça Móvel 3)
 
-- Ao tocar em `[ Criar tópico ]`, o Computador Humano sobrepôs a Peça Móvel 3 sobre o formulário. O participante demonstrou surpresa positiva: *"Gostei muito dessa ideia. Se o meu problema já estiver resolvido nesses links recomendados, eu nem preciso abrir um tópico novo e esperar alguém me responder horas depois"*;
-- **Ponto de Confusão no Rótulo:** Ao analisar os botões de desfecho do modal, o participante apontou hesitação no rótulo `[ Publicar como está! (Prosseguir) ]`: *"Esse botão me deu uma dúvida rápida... parecia que ele ia cancelar ou publicar sem salvar nada. O nome podia deixar mais claro que eu estou ignorando as sugestões da IA e quero forçar o envio da minha dúvida"*;
-- **Recomendação de Eficiência:** O participante elogiou o botão `[ Preencher tags automaticamente ]` presente no cartão físico da IA, afirmando que *"facilita a vida de quem tem preguiça de procurar tags uma por uma"*.
+- **Participante 1 (P1):** Avaliou a intervenção da IA como muito positiva, observando que a verificação de tópicos semelhantes pode resolver a dúvida de imediato sem necessidade de esperar respostas;
+- **Participante 2 (P2):** Achou a apresentação da IA muito intuitiva. Elogiou com destaque o botão `[ Preencher tags automaticamente ]`, afirmando que economiza tempo do interagente, e ressaltou a clareza das tags e botões de prosseguimento;
+- **Participante 3 (P3):** Avaliou que o modal sobreposto no meio da tela pode se tornar cansativo ou intrusivo. Como alternativa ergonômica, sugeriu que a interface oferecesse um botão ou painel dedicado de `[ Sugestões de IA ]` acionado sob demanda, evitando a obrigatoriedade de interagir com uma janela modal bloqueadora.
+
+### 5.4 Conclusão, Feedback e Página do Tópico Publicado (Folha 3)
+
+- **Participante 1 (P1):** Ao término da tarefa, precisou de auxílio para ter certeza de que o tópico havia sido publicado com sucesso. Sugeriu que o sistema exiba uma confirmação explícita de atualização ou mensagem de sucesso informando que o post foi ao ar;
+- **Participante 2 (P2):** Gostou do resultado final publicado e da forma como as tags e o bloco monoespaçado foram dispostos na folha de encerramento;
+- **Participante 3 (P3):** Ao visualizar a Folha 3, achou que havia muitas informações agrupadas de uma só vez. Aconselhou reestruturar a hierarquia visual na versão digital, recomendando colocar o nome e identificação do autor na parte superior, seguido do título e, por fim, a mensagem com formatação destacada.
 
 ---
 
 ## 6. Tabela Estruturada de Problemas de Usabilidade e Severidade de Nielsen (0 a 4)
 
-Em conformidade com a técnica de Inspeção e Ensaio de Usabilidade (*Barbosa & Silva, 2021; Nielsen, 1994*), a Tabela 3 consolida as falhas ergonômicas detectadas durante o teste tátil com o participante P1 na Tarefa 1, parametrizadas pela **Escala de Severidade de Jakob Nielsen (0 a 4)**:
+Em conformidade com a literatura de Avaliação em IHC (*Barbosa & Silva, 2021; Nielsen, 1994*), a Tabela 3 consolida as falhas ergonômicas e oportunidades de melhoria diagnosticadas empiricamente com os três participantes (P1, P2 e P3) na Tarefa 1, parametrizadas pela **Escala de Severidade de Jakob Nielsen (0 a 4)**:
 
 - **Grau 0 (Falso Problema / Sem Gravidade):** Não interfere na execução;
 - **Grau 1 (Problema Cosmético):** Não prejudica a tarefa; só deve ser corrigido se houver tempo;
@@ -131,55 +160,114 @@ A Tabela 3 documenta os problemas identificados, suas classificações e as dire
 
 **Tabela 3** — Registro Estruturado de Problemas de Usabilidade do Protótipo de Papel (Tarefa 1)
 
-| ID | Peça Física / Tela Afetada | Descrição da Hesitação Observada | Categoria Ergonômica | Severidade (Nielsen 0 a 4) | Ação Recomendada de Reprojeto para Nível 3 (Figma) |
-| :---: | :--- | :--- | :---: | :---: | :--- |
-| **PROB-PP-01** | Folha 2 — Composer Split-View | O participante hesitou ligeiramente se deveria selecionar as tags antes ou depois de redigir o corpo do texto. | Precedência de Layout / Modelo Mental | **1 (Cosmético)** | No Figma, garantir formulário aberto e não-modal, com bordas ativas de foco (`outline: 2px solid #0084FF`) que permitam ordem de preenchimento livre. |
-| **PROB-PP-02** | Folha 2 — Barra de Ferramentas Markdown | Dúvida sobre como fechar blocos de comando Bash usando crases triplas sem quebrar a indentação. | Ajuda Contextual e Prevenção de Erros | **2 (Menor)** | No editor de alta fidelidade, criar botão dedicado `</> Bash` com tooltip interativo (`on hover`) e pré-inserção da estrutura ```` ```bash ```` no cursor. |
-| **PROB-PP-03** | Peça Móvel 3 — Modal de IA Pré-Envio | Receio de que o botão 'Publicar como está' descartasse o post ou cancelasse a postagem sem aviso. | Terminologia e Rótulo de Ação | **2 (Menor)** | Reformular o rótulo para texto inequívoco: *"Ignorar sugestões e publicar imediatamente"* em botão secundário neutro (`#2D2F36`). |
-| **PROB-PP-04** | Peça Móvel 3 — Tags Sugeridas pela IA | Participante elogiou a sugestão de tags, mas sugeriu que a ação em lote indicasse claramente a quantidade adicionada. | Eficiência de Interação / Feedback | **2 (Menor)** | Ajustar o botão no Figma para: *"Adicionar todas as tags sugeridas (+3 tags)"*, confirmando com animação visual a inserção simultânea. |
+| ID | Peça Física / Tela Afetada | Descrição do Problema e Hesitação Observada | Participante(s) | Categoria Ergonômica | Severidade (Nielsen 0 a 4) | Ação Recomendada de Reprojeto para Nível 3 (Figma) |
+| :---: | :--- | :--- | :---: | :--- | :---: | :--- |
+| **PROB-PP-01** | Folha 2 — Composer | Ambiguidade cognitiva entre a ação de salvar rascunho e criar o tópico definitivo. | **P2** | Prevenção de Erros / Modelo Mental | **2 (Menor)** | Eliminar botões manuais redundantes de salvar. No Figma, implementar rotina de salvamento automático com feedback discreto (*"Rascunho salvo automaticamente"*), mantendo apenas `[ Publicar Tópico ]` como ação primária inequívoca. |
+| **PROB-PP-02** | Folha 3 — Conclusão | Ausência de confirmação visual imediata de que a publicação foi concluída com sucesso. | **P1** | Visibilidade do Estado do Sistema / Feedback | **2 (Menor)** | Adicionar componente de notificação em *banner/toast* verde no topo da tela do Figma (*"Tópico criado com sucesso na categoria Iniciantes!"*), ancorando a visualização diretamente no novo post. |
+| **PROB-PP-03** | Folha 2 — Metadados | Redundância na nomenclatura do termo 'Categoria' e dispersão espacial dos seletores de metadados. | **P3** | Design Estético e Minimalista | **1 (Cosmético)** | Organizar o formulário no Figma em fluxo linear vertical: Campo Título no topo, seguido de seletores compactos de Categoria e Tags lado a lado, com rótulos limpos e sem duplicação de palavras. |
+| **PROB-PP-04** | Peça Móvel 3 — Modal IA | Interrupção modal compulsória sobreposta ao formulário, causando sensação de bloqueio ou intrusão. | **P3** | Liberdade e Controle do Usuário | **2 (Menor)** | No Figma, transformar a assistência semântica em painel lateral não-bloqueador (*drawer*) com botão dedicado `[ ✨ Sugestões da IA ]`, mantendo o modal centralizado apenas em casos de detecção de tópicos duplicados idênticos. |
+| **PROB-PP-05** | Folha 3 — Tela do Tópico | Excesso de informação visual condensada e falta de respiro hierárquico na página final do tópico. | **P3** | Hierarquia Visual e Legibilidade | **1 (Cosmético)** | Estabelecer grid consistente com espaçamento ampliado (respiro de 24px), posicionando autor e avatar em destaque no canto superior, seguido de chips de tags, título em tipografia `h1` e bloco monoespaçado para logs de terminal. |
 
-_Fonte: Elaborada por Vinicius Silva Araruna com base nas evidências empíricas da sessão presencial de Nível 2 e Nielsen (1994), 2026._
+_Fonte: Elaborada por Vinicius Silva Araruna com base nas evidências empíricas das sessões com P1, P2 e P3 e na escala de severidade de Nielsen (1994), 2026._
+
+> [!NOTE] Legenda de Identificadores dos Problemas de Usabilidade
+> A codificação dos identificadores da Tabela 3 segue a convenção padronizada da equipe de IHC para garantir a rastreabilidade entre as fases de projeto:
+> - **`PROB-PP-01`**: *Problema de Usabilidade em Protótipo de Papel nº 01* — Representa a ambiguidade de comandos entre salvar rascunho e submissão final;
+> - **`PROB-PP-02`**: *Problema de Usabilidade em Protótipo de Papel nº 02* — Representa a carência de feedback confirmatório de sucesso após a publicação do tópico;
+> - **`PROB-PP-03`**: *Problema de Usabilidade em Protótipo de Papel nº 03* — Representa a redundância léxica de rótulos de categoria e distribuição espacial no formulário;
+> - **`PROB-PP-04`**: *Problema de Usabilidade em Protótipo de Papel nº 04* — Representa a intrusividade da caixa modal da IA semântica frente à necessidade de controle do usuário;
+> - **`PROB-PP-05`**: *Problema de Usabilidade em Protótipo de Papel nº 05* — Representa a densidade informacional e a hierarquia visual na prancha de exibição do tópico postado.
 
 ---
 
 ## 7. Diretrizes Formais de Reprojeto para Alta Fidelidade (Nível 3 no Figma)
 
-Os achados da avaliação em papel foram diretamente incorporados aos requisitos de interface do protótipo computacional de alta fidelidade no Figma (escopo da Etapa 7):
+Os cinco apontamentos diagnosticados na avaliação com os três voluntários discentes foram formalmente convertidos em diretrizes ergonômicas mandatórias para a modelagem no Figma:
 
-1. **Eliminação de Ambiguidade de Rótulos (Solução de `PROB-PP-03`):**  
-   No frame modal da IA Semântica Pré-Envio no Figma, a ação primária será estilizada em azul vibrante `--tertiary` (`#0084FF`) com o texto ***"Aplicar sugestões e publicar"***, enquanto a ação de contorno será estilizada em cinza neutro `--border-color` (`#2D2F36`) com o texto explícito ***"Ignorar sugestões e publicar imediatamente"***, eliminando qualquer risco de modelo mental associado a descarte involuntário;
-2. **Assistência Ativa de Snippets de Código (Solução de `PROB-PP-02`):**  
-   O editor em alta fidelidade incorporará um componente de barra rica no Composer com botão de 1 clique para injeção de bloco de terminal, acompanhado de prévia em tempo real com realce de sintaxe em verde `#2ECC71` sobre fundo escuro `#1E1F24`;
-3. **Aceleração na Seleção de Metadados (Solução de `PROB-PP-04`):**  
-   Implementação de microinteração com variantes interativas no Figma que permite ao interagente aceitar individualmente cada tag com um clique sobre o chip ou acionar o botão de lote completo;
-4. **Preservação de Rascunho com Salvamento Contínuo:**  
-   Em conformidade com a verbalização de P1, a interface do Figma exibirá indicador discreto no canto inferior: *"Rascunho salvo automaticamente há 5 segundos"*, reduzindo o estresse cognitivo do usuário.
+1. **Unificação do Fluxo de Envio e Autosave (Solução de `PROB-PP-01`):**  
+   No Composer do Figma, a ação primária será exclusivamente o botão estilizado em azul `--tertiary` (`#0084FF`) com o rótulo ***"Criar Tópico"***. O estado de preservação de texto operará de forma transparente em segundo plano, exibindo no canto inferior o indicador de baixa carga cognitiva: *"Rascunho salvo automaticamente há instantes"*;
+2. **Componente de Feedback de Confirmação (Solução de `PROB-PP-02`):**  
+   Ao transicionar para a página do tópico publicado, a interface acionará uma animação sutil com *toast message* fixo no topo com ícone de verificação verde (`#2ECC71`): ***"Tópico publicado com sucesso!"***, acompanhado de botão de cópia de link direto para compartilhamento rápido;
+3. **Harmonização Linear de Cabeçalho (Solução de `PROB-PP-03`):**  
+   O cabeçalho do editor no Figma adotará disposição em coluna única limpa: primeiro a caixa de entrada de Título (com placeholder contextual), logo abaixo a gaveta de Categoria (com rótulo único *"Selecione uma categoria..."*) e ao lado o campo de Tags (com seleção por chips dinâmicos), eliminando rótulos duplicados;
+4. **Assistência Não-Modal e Sob Demanda (Solução de `PROB-PP-04`):**  
+   A interface digital incorporará no rodapé do Composer um botão de acesso rápido ***"✨ Sugestões da IA"*** que abre uma gaveta lateral (*drawer*) retrátil à direita. Essa gaveta lista tópicos semelhantes e tags sugeridas em tempo real sem cobrir o campo de digitação, permitindo ao estudante continuar escrevendo livremente;
+5. **Hierarquia Espacial e Respiro Tipográfico (Solução de `PROB-PP-05`):**  
+   A tela do tópico publicado no Figma estruturará o layout com respiro vertical de 24px entre blocos: cabeçalho com identificação clara do autor (foto, nome e badge de nível de confiança TL), linha de tags em chips neutros (`#2D2F36`), título em `h1` de 22px sem serifa e corpo da postagem com caixa monoespaçada para logs de comando com realce de sintaxe em Dark Mode.
 
 ---
 
-## 8. Registro Audiovisual da Sessão e Consentimento Verbal (TCLE)
+## 8. Registro Audiovisual das Sessões e Consentimento Verbal (TCLE)
 
-Em estrita conformidade com as exigências regimentais do Plano de Ensino da disciplina (Sales, 2026), a sessão de avaliação formativa foi gravada em áudio e vídeo e encontra-se hospedada no YouTube sob regime **"Não Listado"**, permitindo auditabilidade completa pela banca examinadora.
+Em estrita conformidade com as exigências regimentais do Plano de Ensino da disciplina (Sales, 2026), as três sessões presenciais de avaliação formativa com protótipo de papel foram gravadas em áudio e vídeo e encontram-se hospedadas no YouTube sob regime **"Não Listado"**, permitindo auditabilidade completa pela banca examinadora.
 
-O consentimento verbal do participante P1 foi registrado de forma expressa nos primeiros 60 segundos gravados, mediante leitura literal do **Script Oral Padronizado do TCLE**, assegurando a conformidade ética e jurídica sob a Resolução CNS nº 510/2016 e a LGPD.
+O consentimento verbal dos três participantes foi registrado de forma expressa nos primeiros 60 segundos gravados de cada chamada, mediante leitura literal do **Script Oral Padronizado do TCLE**, assegurando a conformidade ética e jurídica sob a Resolução CNS nº 510/2016 e a LGPD.
 
-A caixa expansível a seguir disponibiliza o player de reprodução audiovisual da sessão presencial de Nível 2.
+As caixas expansíveis a seguir disponibilizam os players de reprodução audiovisual de cada sessão presencial da Tarefa 1.
+
+### 8.1 Sessão com o Participante 1 (P1 — Estudante de Engenharia, 26 anos)
 
 <details class="video-card-details">
     <summary class="video-card-summary">
         <div class="video-card-title">
             <span style="font-size: 1.25rem;">🎬</span>
-            <span><strong>Vídeo 1</strong> — Registro Audiovisual da Avaliação do Protótipo de Papel (Tarefa 1 — Vinicius Silva Araruna)</span>
+            <span><strong>Vídeo 1</strong> — Avaliação do Protótipo de Papel (Tarefa 1) — Participante 1 (P1)</span>
         </div>
         <span class="video-card-toggle">Assistir à Sessão</span>
     </summary>
     <div class="video-card-body">
         <div class="video-card-frame">
-            <iframe src="https://www.youtube-nocookie.com/embed/I1CNO_EkCfE" title="Sessão de Avaliação do Protótipo de Papel (Nível 2) - Tarefa 1 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/GD2mPFl0kWI" title="Sessão de Avaliação do Protótipo de Papel (Nível 2) - Tarefa 1 - Participante 1 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-card-footer">
-            <span class="video-card-caption"><strong>Vídeo 1</strong> — Sessão presencial de avaliação formativa com protótipo de papel da Tarefa 1 com o participante P1. <em>Fonte: Vinicius Silva Araruna, 2026.</em></span>
-            <a href="https://youtu.be/I1CNO_EkCfE" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+            <span class="video-card-caption"><strong>Vídeo 1</strong> — Sessão presencial de avaliação formativa com protótipo de papel da Tarefa 1 com o participante P1 (Engenharia, 26 anos). <em>Fonte: Vinicius Silva Araruna, 2026.</em></span>
+            <a href="https://youtu.be/GD2mPFl0kWI" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+                <span>Assistir no YouTube</span> ↗
+            </a>
+        </div>
+    </div>
+</details>
+
+### 8.2 Sessão com o Participante 2 (P2 — Estudante de Engenharia de Software, 20 anos)
+
+<details class="video-card-details">
+    <summary class="video-card-summary">
+        <div class="video-card-title">
+            <span style="font-size: 1.25rem;">🎬</span>
+            <span><strong>Vídeo 2</strong> — Avaliação do Protótipo de Papel (Tarefa 1) — Participante 2 (P2)</span>
+        </div>
+        <span class="video-card-toggle">Assistir à Sessão</span>
+    </summary>
+    <div class="video-card-body">
+        <div class="video-card-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/283JsFGJHas" title="Sessão de Avaliação do Protótipo de Papel (Nível 2) - Tarefa 1 - Participante 2 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video-card-footer">
+            <span class="video-card-caption"><strong>Vídeo 2</strong> — Sessão presencial de avaliação formativa com protótipo de papel da Tarefa 1 com o participante P2 (Engenharia de Software, 20 anos). <em>Fonte: Vinicius Silva Araruna, 2026.</em></span>
+            <a href="https://youtu.be/283JsFGJHas" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+                <span>Assistir no YouTube</span> ↗
+            </a>
+        </div>
+    </div>
+</details>
+
+### 8.3 Sessão com o Participante 3 (P3 — Estudante de Engenharia Aeroespacial, 21 anos)
+
+<details class="video-card-details">
+    <summary class="video-card-summary">
+        <div class="video-card-title">
+            <span style="font-size: 1.25rem;">🎬</span>
+            <span><strong>Vídeo 3</strong> — Avaliação do Protótipo de Papel (Tarefa 1) — Participante 3 (P3)</span>
+        </div>
+        <span class="video-card-toggle">Assistir à Sessão</span>
+    </summary>
+    <div class="video-card-body">
+        <div class="video-card-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/fGElUs-N9CM" title="Sessão de Avaliação do Protótipo de Papel (Nível 2) - Tarefa 1 - Participante 3 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video-card-footer">
+            <span class="video-card-caption"><strong>Vídeo 3</strong> — Sessão presencial de avaliação formativa com protótipo de papel da Tarefa 1 com o participante P3 (Engenharia Aeroespacial, 21 anos). <em>Fonte: Vinicius Silva Araruna, 2026.</em></span>
+            <a href="https://youtu.be/fGElUs-N9CM" target="_blank" rel="noopener noreferrer" class="video-card-btn">
                 <span>Assistir no YouTube</span> ↗
             </a>
         </div>
@@ -193,7 +281,7 @@ A caixa expansível a seguir disponibiliza o player de reprodução audiovisual 
 !!! warning "CLÁUSULA METODOLÓGICA DE ISOLAMENTO DOS DADOS DO TESTE-PILOTO (BARBOSA & SILVA, 2021, P. 276)"
     Em estrito cumprimento aos preceitos científicos da literatura clássica de IHC (*Mayhew, 1999; Snyder, 2003; Barbosa & Silva, 2021*), declara-se expressamente que a sessão de **Teste-Piloto de Nível 2** (registrada no documento `teste-piloto.md` e gravada em 30 de outubro de 2026) teve finalidade estritamente instrumental de calibragem de bancada, posicionamento de câmera a 45 graus, conferência da leitura do TCLE (< 60s) e medição da velocidade de resposta mecânica do Computador Humano (< 1s).
     
-    **Nenhum dado comportamental, tempo de execução ou verbalização colhida no teste-piloto foi somado, computado ou tabulado nos resultados desta avaliação oficial**, garantindo a pureza e a fidelidade dos dados obtidos com o participante real P1.
+    **Nenhum dado comportamental, tempo de execução ou verbalização colhida no teste-piloto foi somado, computado ou tabulado nos resultados desta avaliação oficial**, garantindo a pureza e a fidelidade dos dados obtidos com a amostra de participantes reais (P1, P2 e P3).
 
 ---
 
@@ -207,11 +295,11 @@ Em conformidade com a metodologia de inspeção da disciplina (Fagan, 1976; Sale
 | :---: | :--- | :--- | :---: | :--- |
 | **01** | O relato define com clareza os objetivos formativos e o escopo funcional avaliado no papel? | Barbosa & Silva (2021, p. 280) | ✅ Sim | A Seção 1 especifica os objetivos ergonômicos da Tarefa 1 frente à persona Lucas Mendonça. |
 | **02** | O documento descreve a separação de papéis entre Facilitador e Computador Humano? | Snyder (2003); Rettig (1994) | ✅ Sim | A Seção 2 detalha a condução verbal e a resposta mecânica silenciosa com tempo inferior a 1 segundo. |
-| **03** | O artefato apresenta dados demográficos dos participantes preservando a anonimização LGPD? | Lei nº 13.709/2018 (LGPD) | ✅ Sim | A Tabela 2 identifica o participante neutro P1 (J. V. S., 21 anos, Ciência da Computação / UnB). |
-| **04** | A análise contempla as verbalizações concorrentes (*Think-Aloud*) e hesitações do voluntário? | Ericsson & Simon (1993) | ✅ Sim | A Seção 5 transcreve e analisa as falas de P1 sobre a visualização split-view e o modal de IA. |
-| **05** | Os problemas identificados são formalmente classificados na Escala de Severidade de Nielsen (0 a 4)? | Nielsen (1994) | ✅ Sim | A Tabela 3 parametriza `PROB-PP-01` a `PROB-PP-04` nas categorias Cosmética (1) e Menor (2). |
-| **06** | O documento deriva diretrizes formais de reprojeto diretamente acopladas à fase de Alta Fidelidade (Figma)? | Mayhew (1999); Barbosa & Silva (2021) | ✅ Sim | A Seção 7 especifica as 4 intervenções imediatas para os componentes visuais do Nível 3. |
-| **07** | Há disponibilização do vídeo da sessão em modo Não Listado no YouTube com TCLE nos primeiros 60s? | Diretrizes Pedagógicas FGA/UnB | ✅ Sim | A Seção 8 incorpora o container expansível `.video-card-details` com consentimento gravado. |
+| **03** | O artefato apresenta dados demográficos dos participantes preservando a anonimização LGPD? | Lei nº 13.709/2018 (LGPD) | ✅ Sim | A Tabela 2 identifica os participantes neutros P1 (Engenharia), P2 (Engenharia de Software) e P3 (Engenharia Aeroespacial). |
+| **04** | A análise contempla as verbalizações concorrentes (*Think-Aloud*) e hesitações dos voluntários? | Ericsson & Simon (1993) | ✅ Sim | A Seção 5 transcreve e analisa as falas de P1, P2 e P3 sobre layout, split-view, modal de IA e feedback de publicação. |
+| **05** | Os problemas identificados são formalmente classificados na Escala de Severidade de Nielsen (0 a 4) com legenda explicativa? | Nielsen (1994) | ✅ Sim | A Tabela 3 cataloga `PROB-PP-01` a `PROB-PP-05` nas classes Cosmética (1) e Menor (2), acompanhada de legenda explicativa detalhada. |
+| **06** | O documento deriva diretrizes formais de reprojeto diretamente acopladas à fase de Alta Fidelidade (Figma)? | Mayhew (1999); Barbosa & Silva (2021) | ✅ Sim | A Seção 7 especifica as 5 intervenções imediatas para os componentes visuais do Nível 3. |
+| **07** | Há disponibilização dos vídeos das sessões em modo Não Listado no YouTube com TCLE nos primeiros 60s? | Diretrizes Pedagógicas FGA/UnB | ✅ Sim | A Seção 8 incorpora 3 containers expansíveis `.video-card-details` com consentimento gravado. |
 | **08** | O documento inclui a Cláusula Metodológica Obrigatória de isolamento dos dados do piloto? | Barbosa & Silva (2021, p. 276) | ✅ Sim | A Seção 9 apresenta o bloco formal de advertência comprovando o descarte integral dos dados do piloto. |
 
 _Fonte: Elaborada por Vinicius Silva Araruna com base em Barbosa & Silva (2021), Snyder (2003) e Sales (2026), 2026._
@@ -226,7 +314,8 @@ A Tabela 5 documenta a evolução histórica das versões deste artefato.
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 31/10/2026 | Elaboração inicial do Relato dos Resultados do Protótipo de Papel da Tarefa 1 (Markdown e IA Semântica de Vinicius Silva Araruna), cobrindo a estrutura canônica de 9 seções de Barbosa & Silva (2021), simulação física com Computador Humano (Snyder, 2003), análise think-aloud de P1, matriz de severidade de Nielsen de 0 a 4 (PROB-PP-01 a 04), diretrizes para o Figma, container sanfonado de vídeo, cláusula de isolamento do teste-piloto e lista de verificação com 8 critérios normativos (#120). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.0` | 31/10/2026 | Elaboração inicial do Relato dos Resultados do Protótipo de Papel da Tarefa 1 com P1. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 03/11/2026 | Expansão completa para avaliação tripla com 3 participantes discentes (P1, P2 e P3), inclusão da fundamentação metodológica e amostral de Steve Krug (2014) e Nielsen & Landauer (1993), consolidação da matriz de severidade de Nielsen de 0 a 4 com 5 problemas diagnosticados (PROB-PP-01 a 05), inclusão de legenda explicativa de IDs, formalização das 5 diretrizes de reprojeto para o Figma, incorporação de 3 containers expansíveis com vídeos do YouTube (IDs GD2mPFl0kWI, 283JsFGJHas e fGElUs-N9CM), atualização da lista de verificação e adição das referências canônicas de Krug. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Vinicius Silva Araruna, 2026._
 
@@ -241,6 +330,7 @@ _Fonte: Elaborada por Vinicius Silva Araruna, 2026._
 - BRASIL. Ministério da Saúde. Conselho Nacional de Saúde. *Resolução nº 510, de 7 de abril de 2016*. Diretrizes éticas para pesquisas em ciências humanas e sociais. Brasília: Diário Oficial da União, 2016.
 - ERICSSON, K. Anders; SIMON, Herbert A. *Protocol Analysis: Verbal Reports as Data*. Cambridge: MIT Press, 1993.
 - KRUG, Steve. *Não me faça pensar (revisitado): uma abordagem de bom senso à usabilidade na web e no celular*. 3. ed. Rio de Janeiro: Alta Books, 2014.
+- KRUG, Steve. *Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems*. Berkeley: New Riders, 2010.
 - MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.
 - NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann Publishers, 1994.
 - NIELSEN, Jakob; LANDAUER, Thomas K. *A mathematical model of the finding of usability problems*. In: INTERCHI '93: Proceedings of the INTERACT '93 and CHI '93 Conference on Human Factors in Computing Systems. Amsterdam: ACM, 1993. p. 206-213.
@@ -257,4 +347,4 @@ Em estrita conformidade com as diretrizes da Sociedade Brasileira de Computaçã
 - Auxílio na formatação sintática e estruturação visual das matrizes tabulares em Markdown;
 - Revisão gramatical e adequação ao padrão formal ABNT.
 
-Todo o planejamento metodológico, a condução presencial da simulação com pranchas físicas, a análise das verbalizações empíricas do voluntário P1, o diagnóstico das falhas ergonômicas e as decisões de reprojeto foram concebidos, auditados e homologados integralmente pelos discentes autores deste artefato.
+Todo o planejamento metodológico, a condução presencial da simulação com pranchas físicas, a análise das verbalizações empíricas dos voluntários P1, P2 e P3, o diagnóstico das falhas ergonômicas e as decisões de reprojeto foram concebidos, auditados e homologados integralmente pelos discentes autores deste artefato.
