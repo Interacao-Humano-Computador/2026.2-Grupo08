@@ -41,10 +41,13 @@ A Tabela 2 apresenta a matriz de rastreabilidade completa da Entrega 6, correlac
 | :--- | :--- | :--- | :--- | :--- |
 | **Nível 2 — Relato (T1)** | [Relato dos Resultados do Protótipo de Papel (Tarefa 1)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados.md) | Consolidação empírica da avaliação com 3 participantes (P1, P2 e P3), fundamentação de Steve Krug (2014), severidade de Nielsen de PROB-PP-01 a 05 com legenda de IDs, 3 vídeos incorporados e cláusula de isolamento do piloto. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Nível 2 — Relato (T2)** | [Relato dos Resultados do Protótipo de Papel (Tarefa 2)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados-tarefa2.md) | Consolidação empírica da Tarefa 2 com 2 participantes discentes (P1 e P2), fundamentação matemática e científica da amostra (Nielsen & Landauer, Virzi, Krug, Snyder), catálogo de severidade de PROB-PP-T2-01 a 05, diretrizes no Figma, 2 vídeos incorporados e piloto. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Nível 2 — Relato (T3)** | [Relato dos Resultados do Protótipo de Papel (Tarefa 3)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados-agendamento.md) | Avaliação empírica do agendamento de horários com 3 participantes discentes (G.C, L.P.A e O.M.T.P), vídeos de teste-piloto e avaliação, severidade de Nielsen e recomendações de reprojeto. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) |
 | **Nível 2 — Bancada (T1)** | [Bancada e Artefatos Físicos (Tarefa 1)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/prototipo-papel-tarefa1.md) | Especificação das 3 pranchas rígidas A4 (Folhas 1, 2 e 3) e 3 peças móveis sobrepostas (menu de categorias, tags e modal de IA pré-envio), com registro fotográfico real da bancada. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Nível 2 — Bancada (T2)** | [Bancada e Artefatos Físicos (Tarefa 2)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/prototipo-papel-tarefa2.md) | Especificação das 3 pranchas base A4 (PB-01, PB-02 e PB-03) e 3 peças móveis sobrepostas (relógio analógico timepicker, modal de lotação/quórum e mapa da UnB Gama com pin destacável), com escaneamento e registro visual. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Nível 2 — Bancada (T3)** | [Bancada e Artefatos Físicos (Tarefa 3)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados-agendamento.md#4-o-prototipo-de-papel-da-tarefa-3) | Especificação das 5 telas do fluxo de agendamento (Telas 1 a 5) em pranchas físicas desenhadas à mão e digitalizadas. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) |
 | **Nível 2 — Piloto** | [Protocolo e Roteiro do Teste-Piloto](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/teste-piloto.md) | Ensaio instrumental de bancada, enquadramento a 45°, aferição de tempo de resposta mecânica (< 1s), TCLE oral (< 60s) e cláusula formal de não computação de dados. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-| **Nível 2 — Planejamento** | [Planejamento da Avaliação do Protótipo de Papel](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md) | Framework DECIDE completo, dinâmica de Facilitador vs. Computador Humano, amostra tripla da Tarefa 1 (P1, P2 e P3), orçamento custo zero e cronogramas detalhados. | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Nível 2 — Planejamento (T1 e T2)** | [Planejamento da Avaliação do Protótipo de Papel](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md) | Framework DECIDE completo, dinâmica de Facilitador vs. Computador Humano, amostra tripla da Tarefa 1 (P1, P2 e P3), orçamento custo zero e cronogramas detalhados. | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Nível 2 — Planejamento (T3)** | [Planejamento da Avaliação do Protótipo de Papel (Tarefa 3)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao-agendamento.md) | Framework DECIDE completo para a Tarefa 3, grade de horários, roteiro tátil e checklist normativo de 15 itens. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) |
 | **Nível 2 — Planejamento** | [Planejamento do Relato do Protótipo de Papel](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-relato-resultados.md) | Estrutura canônica preliminar de 9 seções de Barbosa & Silva (2021) e modelos estruturados de severidade para as Tarefas 1 e 2. | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Nível 3 — Hub** | [Hub de Nível 3 (Alta Fidelidade)](../design-avaliacao-desenvolvimento/nivel-3/index.md) | Introdução conceitual ao Nível 3, fundamentação teórica de prototipação interativa (Rubin & Chisnell, 2008), transição sem Computador Humano e tripartição funcional. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Nível 3 — Planejamento** | [Planejamento da Avaliação de Alta Fidelidade](../design-avaliacao-desenvolvimento/nivel-3/planejamento-avaliacao.md) | Framework DECIDE para testes de usabilidade no Figma, métricas KLM, questionário SUS, roteiro de percurso e script oral do TCLE. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
@@ -58,7 +61,7 @@ _Fonte: Elaborada por Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva 
 
 Em atendimento às normas regimentais da disciplina (*Sales, 2026*), esta seção consolida as gravações em vídeo associadas à Entrega 6, publicadas no YouTube sob regime **"Não Listado"**.
 
-### 3.1 Apresentação Oficial da Entrega 6 da Equipe
+### 3.1 Apresentação Oficial da Entrega 6
 
 A Tabela 3 apresenta os dados cadastrais da gravação da apresentação oficial da Entrega 6 do Grupo 08.
 
@@ -66,15 +69,15 @@ A Tabela 3 apresenta os dados cadastrais da gravação da apresentação oficial
 
 | Atributo | Detalhamento |
 | :--- | :--- |
-| **Link do Vídeo no YouTube** | [Assistir Apresentação no YouTube (Não Listado): https://youtu.be/KO4E0UjvhOw](https://youtu.be/KO4E0UjvhOw) |
-| **Integrantes Participantes** | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| **Link do Vídeo no YouTube** | [Assistir Apresentação no YouTube (Não Listado): https://youtu.be/5JwaiFc_dxs](https://youtu.be/5JwaiFc_dxs) |
+| **Integrantes Participantes** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) (PO / Tech Lead), [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | **Objeto de Apresentação** | Síntese do Relato dos Resultados do Protótipo de Papel (Nível 2) e Planejamento da Avaliação e Relato de Alta Fidelidade no Figma (Nível 3) |
-| **Data da Gravação** | 02/11/2026 |
-| **Ambiente de Gravação** | Sessão síncrona remota via Google Meet com compartilhamento dos artefatos oficiais na Wiki |
+| **Data da Gravação** | 03/11/2026 |
+| **Ambiente de Gravação** | Gravação em conformidade com as diretrizes da disciplina com foco direto nos artefatos produzidos |
 
 _Fonte: Elaborada pelos autores, 2026._
 
-<details class="video-card-details">
+<details class="video-card-details" open>
     <summary class="video-card-summary">
         <div class="video-card-title">
             <span style="font-size: 1.25rem;">🎬</span>
@@ -84,17 +87,20 @@ _Fonte: Elaborada pelos autores, 2026._
     </summary>
     <div class="video-card-body">
         <div class="video-card-frame">
-            <iframe src="https://www.youtube-nocookie.com/embed/KO4E0UjvhOw" title="Apresentação Oficial da Entrega 6 - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/5JwaiFc_dxs" title="Apresentação Oficial da Entrega 6 - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-card-footer">
             <span class="video-card-caption"><strong>Vídeo Principal</strong> — Apresentação oficial dos artefatos da Entrega 6 pela equipe do Grupo 08. <em>Fonte: Grupo 08, 2026.</em></span>
+            <a href="https://youtu.be/5JwaiFc_dxs" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+                <span>Assistir no YouTube</span> ↗
+            </a>
         </div>
     </div>
 </details>
 
 ---
 
-### 3.2 Registros das Sessões de Avaliação da Tarefa 1 (Nível 2)
+### 3.2 Registros das Sessões de Avaliação da Tarefa 1 (Nível 2 — Vinicius Silva)
 
 As gravações das avaliações formativas presenciais realizadas na bancada de papel da Tarefa 1 encontram-se incorporadas integralmente em [Relato dos Resultados do Protótipo de Papel](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados.md#8-registro-audiovisual-das-sessoes-e-consentimento-verbal-tcle):
 
@@ -112,6 +118,17 @@ As gravações das avaliações formativas presenciais e do teste-piloto instrum
 - **Participante 1 (P1 — Engenharia de Software, 21 anos):** [Assistir no YouTube: https://youtu.be/b7ypx66CVZ4](https://youtu.be/b7ypx66CVZ4)
 - **Participante 2 (P2 — Engenharia, 22 anos):** [Assistir no YouTube: https://youtu.be/qqxHpOO9Caw](https://youtu.be/qqxHpOO9Caw)
 - **Teste-Piloto de Nível 2 (Tarefa 2 — Gustavo Antonio):** [Assistir no YouTube: https://youtu.be/bEn3f5wqhvc](https://youtu.be/bEn3f5wqhvc)
+
+---
+
+### 3.4 Registros das Sessões de Avaliação da Tarefa 3 (Nível 2 — Edvaldo Soares)
+
+As gravações das avaliações formativas presenciais e do teste-piloto instrumental da Tarefa 3 encontram-se incorporadas integralmente em [Relato dos Resultados do Protótipo de Papel (Tarefa 3)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados-agendamento.md#8-registros-audiovisuais-da-avaliacao-e-consentimento-verbal-tcle):
+
+- **Participante 1 (P1 — G.C):** [Assistir no YouTube: https://youtu.be/9bIvD6fS8NU](https://youtu.be/9bIvD6fS8NU)
+- **Participante 2 (P2 — L.P.A):** [Assistir no YouTube: https://youtu.be/A2332bwnapc](https://youtu.be/A2332bwnapc)
+- **Participante 3 (P3 — O.M.T.P):** [Assistir no YouTube: https://youtu.be/Z4TjXz7eDqg](https://youtu.be/Z4TjXz7eDqg)
+- **Teste-Piloto de Nível 2 (Tarefa 3 — Edvaldo Soares):** [Assistir no YouTube: https://youtu.be/EJp9UOi7vvo](https://youtu.be/EJp9UOi7vvo)
 
 ---
 
@@ -150,6 +167,7 @@ A Tabela 5 documenta a evolução histórica das versões desta síntese da Entr
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 28/09/2026 | Criação da estrutura preliminar da Entrega 6. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `2.0` | 03/11/2026 | Estruturação executiva completa da Entrega 6: introdução contextualizada no Ciclo de Mayhew, matriz de rastreabilidade completa (Nível 2 e Nível 3), metadados de apresentação oficial, links para as 3 sessões gravadas em papel da Tarefa 1 e autoavaliação de Fagan com os 12 critérios normativos (E6-01 a E6-12). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `2.1` | 03/11/2026 | Sincronização e consolidação das três funcionalidades da Entrega 6: integração da Tarefa 2 (Gustavo Antonio) e Tarefa 3 (Edvaldo Soares) na matriz de rastreabilidade (Tabela 2), inclusão das seções 3.3 e 3.4 com registros dos testes de usabilidade e testes-piloto e preparação do contêiner do vídeo principal de apresentação da equipe. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Vinicius Silva Araruna, 2026._
 

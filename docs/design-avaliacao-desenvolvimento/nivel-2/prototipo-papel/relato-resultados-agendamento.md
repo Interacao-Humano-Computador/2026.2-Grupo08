@@ -8,7 +8,7 @@ A Tabela 1 apresenta a matriz de responsabilidade na consolidação dos resultad
 
 | Integrante | Atribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Autor Principal / Avaliador**: Condução das sessões de teste com protótipo de papel, execução do teste-piloto instrumental, consolidação dos apontamentos dos 3 participantes (G.C, L.P.A e O.M.T.P), tabulação na escala de severidade de Nielsen (0 a 4), formulação das diretrizes de reprojeto para alta fidelidade (Nível 3) e documentação dos vídeos. | 01/11/2026 | Antigravity (LLM) | Apoio na estruturação das matrizes Markdown e checagem de rigor normativo de IHC. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Autor Principal / Avaliador**: Condução das sessões de teste com protótipo de papel, execução do teste-piloto instrumental, consolidação dos apontamentos dos 3 participantes (G.C, L.P.A e O.M.T.P), tabulação na escala de severidade de Nielsen (0 a 4), formulação das diretrizes de reprojeto para alta fidelidade (Nível 3) e documentação dos vídeos. | 01/11/2026 | Google Gemini (LLM) | Apoio na estruturação das matrizes Markdown e checagem de rigor normativo de IHC. |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Metodológico**: Auditoria de consistência entre o planejamento DECIDE de Nível 2 e os dados empíricos tabulados. | 02/11/2026 | — | Revisão humana por pares. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor Designado**: Verificação do checklist de conformidade, tempos e cláusula de isolamento do piloto. | 02/11/2026 | — | Revisão humana por pares. |
 
