@@ -28,9 +28,9 @@ A Tabela 1 lista as atas de reuniões realizadas pelo grupo ao longo do semestre
 | :---: | :---: | :--- | :---: |
 | [Ata 1 - Reunião Inicial](ata1.md) | 04/09/2026 | Decisão e escolha do site sob análise (Portal Domínio Público). | [Assistir no YouTube](https://www.youtube.com/watch?v=e9UGmkfeYXU) |
 | [Ata 2 - Avaliação do Grupo +1](ata2.md) | 07/09/2026 | Reunião presencial de avaliação dos artefatos da Etapa 1 do Grupo 01 (Oppia). | — |
-| [Ata 3 — Mudança de Escopo](ata3.md) | 14/09/2026 | Reunião extraordinária de deliberação para migração do objeto de estudo para o Fórum Diolinux Plus. | [Assistir no YouTube](https://www.youtube.com/watch?v=placeholder_ata3_grupo08) |
+| [Ata 3 — Mudança de Escopo](ata3.md) | 14/09/2026 | Reunião extraordinária de deliberação para migração do objeto de estudo para o Fórum Diolinux Plus. | Reunião Presencial (sem gravação) |
 | [Ata 4 — Reestruturação da Equipe](ata4.md) | 25/09/2026 | Reunião formalizando a atuação dos 3 integrantes ativos, análise de sobrecarga, governança e alinhamento da Entrega 2. | [Assistir no YouTube](https://youtu.be/OANTQ0KYoYk) |
-| [Ata 5 — Planejamento da Entrega 3](ata5.md) | 05/10/2026 | Reunião de planejamento da Entrega 3, divisão de tarefas para Metas de Usabilidade, Princípios Gerais e Guia de Estilo. | [Assistir no YouTube](https://youtu.be/PENDING_LINK_YOUTUBE) |
+| [Ata 5 — Planejamento da Entrega 3](ata5.md) | 05/10/2026 | Reunião de planejamento da Entrega 3, divisão de tarefas para Metas de Usabilidade, Princípios Gerais e Guia de Estilo. | Reunião Presencial (sem gravação) |
 | [Ata 6 — Avaliação do Grupo -1 (Etapa 4)](ata6.md) | 14/10/2026 | Reunião de inspeção e avaliação formal da Etapa 4 do Grupo 07 (PCI Concursos: Planejamento e Storyboard). | [Assistir no YouTube](https://youtu.be/f6q9lgPUmVA) |
 | [Ata 7 — Apresentação da Entrega 5](ata7.md) | 25/10/2026 | Gravação da reunião de apresentação oficial da Entrega 5 (Nível 1 e Nível 2) por Gustavo e Edvaldo. | [Assistir no YouTube](https://youtu.be/KO4E0UjvhOw) |
 

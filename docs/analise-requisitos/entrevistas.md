@@ -233,7 +233,7 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## 10. Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a elaboração deste artefato, foi utilizado apoio de Inteligência Artificial Generativa (Antigravity LLM) exclusivamente como suporte instrumental de formatação Markdown e auxílio no dimensionamento temporal dos blocos do roteiro de entrevista. Todo o planejamento metodológico, a definição dos princípios bioéticos e as diretrizes operacionais foram concebidos e validados pelos integrantes do Grupo 08.
+Durante a elaboração deste artefato, foi utilizado apoio de Inteligência Artificial Generativa (Google Gemini) exclusivamente como suporte instrumental de formatação Markdown e auxílio no dimensionamento temporal dos blocos do roteiro de entrevista. Todo o planejamento metodológico, a definição dos princípios bioéticos e as diretrizes operacionais foram concebidos e validados pelos integrantes do Grupo 08.
 
 ---
 

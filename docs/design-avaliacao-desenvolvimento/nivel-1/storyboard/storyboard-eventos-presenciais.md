@@ -129,53 +129,14 @@ Conforme o guia, o storyboard também serve para listar o que será necessário 
 
 ---
 
-## 7. Prompt para Gerar Imagem de Inspiração (IA de Imagens)
+## 7. Prancha Visual do Storyboard 2
 
-O prompt abaixo serve **apenas como referência visual** para você se inspirar. O desenho final deve ser feito à mão por você, e isso também atende à declaração de autoria do projeto. Os geradores de imagem costumam errar texto, então **escreva as legendas à mão** depois.
+A Figura 1 apresenta a prancha visual com a sequência narrativa completa dos 8 quadros do Storyboard 2 desenhada manualmente por Gustavo Antonio Rodrigues e Silva.
 
-### 7.1 Prompt completo (uma página com 4 quadros, gere duas vezes)
-
-**Página 1:**
-
-```text
-A hand-drawn storyboard page on white A4 paper, landscape orientation, divided into 4 equal rectangular panels in a 2x2 grid with thick black borders. Pencil and black fine-liner sketch style, simple stick-figure characters, loose and clean lines, flat light-blue (#0084FF) highlight color used only on buttons and key interface elements. Each panel has a numbered label in the top-left corner (1, 2, 3, 4) and three blank caption lines under the drawing. Use hand-drawn arrows to show movement and interaction. No photorealism, no shading, no color except black lines and the blue accent.
-
-Panel 1: A young student (stick figure with short hair and a penguin sticker on his laptop) sits at a desk with a laptop. A thought bubble above him shows a small group of people and a penguin icon. Calm, thoughtful pose.
-
-Panel 2: Over-the-shoulder view of a laptop screen sketch. A top navigation bar shows tabs, one labeled "Eventos". Below it, a calendar grid and a large blue button with a plus sign. A hand-drawn arrow points from the cursor to the button.
-
-Panel 3: Laptop screen sketch of a step-by-step form (progress dots 2 of 5). Fields: a title box, tag chips, a "schedule block" component with time and speaker lines, an image upload box with a mountain icon, and date/time pickers. A small preview thumbnail of a banner appears on the right side.
-
-Panel 4: Laptop screen sketch with an interactive map on the left showing a pin being dragged with an arrow, an address search field with a dropdown of suggestions, and a small box for "room / building" and a number field for "capacity" with a checkbox for "waiting list".
-```
-
-**Página 2:**
-
-```text
-A hand-drawn storyboard page on white A4 paper, landscape orientation, divided into 4 equal rectangular panels in a 2x2 grid with thick black borders. Pencil and black fine-liner sketch style, simple stick-figure characters, loose and clean lines, flat light-blue (#0084FF) highlight color used only on buttons and key interface elements. Each panel has a numbered label in the top-left corner (5, 6, 7, 8) and three blank caption lines under the drawing. Use hand-drawn arrows to show movement and interaction. No photorealism, no shading, no color except black lines and the blue accent.
-
-Panel 5: Laptop screen sketch showing a two-option toggle switch "Free / Paid". Below it, a small panel with a field for "tickets per person" and, in a second sketch beside it, a price field and a small breakdown box listing ticket price, fee and net amount. An arrow shows the toggle changing the panel.
-
-Panel 6: Split preview sketch showing the same event page on a phone outline and a desktop window side by side, with a banner, a map and a schedule list. A button at the bottom left of the screen reads "Back and edit" with a dashed arrow pointing back.
-
-Panel 7: Close-up of a large blue button labeled "Publish" with a cursor on it. Next to it, a celebration popup with confetti and a check mark. The student smiles with raised arms.
-
-Panel 8: A success screen sketch with a short link and a copy button, plus a QR code square to download. A second stick figure holding a phone points the camera at the QR code. A small speech bubble above the student says a short happy line.
-```
-
-### 7.2 Versão curta (se a IA tiver limite de caracteres)
-
-```text
-Hand-drawn pencil storyboard, white A4 paper, 2x2 grid of 4 panels, thick black borders, stick figures, simple UI wireframe sketches on laptop screens, blue (#0084FF) accent only on buttons, arrows showing interaction, numbered panels, empty caption lines under each panel. Story: a student organizes a Linux meetup — (1) thinks of the idea at his desk, (2) clicks a "Create Event" button, (3) fills a form with title, schedule and banner upload, (4) picks the location on a map and sets capacity.
-```
-
-### 7.3 Como usar a imagem gerada
-
-1. Use a imagem só como **referência de composição**: quantidade de elementos por quadro, posição das setas e espaço das legendas.
-2. Refaça o desenho **à mão** em papel A4, seguindo os campos da seção 4.
-3. Escreva as legendas e os balões de fala manualmente, usando as falas da tabela.
-4. Digitalize em **300 DPI**, nomeie como `storyboard_eventos_v1_p1.png` e `storyboard_eventos_v1_p2.png` e salve em `docs/assets/storyboards/`.
-5. Se alterar algo depois das sessões de avaliação, guarde a versão original e crie `v2`, como orienta o guia.
+<div style="text-align: center; margin: 1.5rem 0;">
+    <img src="../../../assets/storyboards/storyboard_Gustavo_Antonio.png" alt="Prancha do Storyboard 2 desenhada à mão por Gustavo Antonio" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #CBD5E1;" />
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 1</strong> — Prancha original do Storyboard 2 desenhada manualmente em papel por Gustavo Antonio Rodrigues e Silva (8 quadros, 300 DPI). <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+</div>
 
 ---
 

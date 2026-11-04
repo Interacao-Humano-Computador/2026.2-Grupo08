@@ -4,7 +4,7 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Redação integral do documento, fundamentação teórica de usabilidade e UX, avaliação prática no Diolinux Plus, mapeamento de personas/tarefas e matriz de priorização | 05/10/2026 | Antigravity (LLM) | Apoio na estruturação analítica, verificação de métricas e formatação Markdown. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Redação integral do documento, fundamentação teórica de usabilidade e UX, avaliação prática no Diolinux Plus, mapeamento de personas/tarefas e matriz de priorização | 05/10/2026 | Google Gemini (LLM) | Apoio na estruturação analítica, verificação de métricas e formatação Markdown. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão técnica por pares e validação do mapeamento de tarefas HTA | 05/10/2026 | - | Revisão humana de conformidade acadêmica. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão técnica por pares e validação da consonância com o Guia de Estilo | 05/10/2026 | - | Revisão humana de conformidade acadêmica. |
 
@@ -191,7 +191,7 @@ Conforme evidenciado na Tabela 2, os esforços centrais de prototipação da Eta
 
 ## Declaração sobre o Uso de Inteligência Artificial Generativa
 
-Em conformidade com as diretrizes éticas e pedagógicas da disciplina de Interação Humano-Computador, declara-se que ferramentas de modelos de linguagem de grande porte (LLMs via plataforma Antigravity) foram empregadas exclusivamente como suporte instrumental para auxílio na estruturação das tabelas comparativas, padronização da notação matemática e revisão ortográfica dos textos em Markdown. Todas as análises críticas do Fórum Diolinux Plus, o cruzamento conceitual com as tarefas HTA e personas da equipe e a definição dos critérios métricos de priorização foram formulados, revisados e validados intelectualmente pelos discentes responsáveis.
+Em conformidade com as diretrizes éticas e pedagógicas da disciplina de Interação Humano-Computador, declara-se que ferramentas de modelos de linguagem de grande porte (LLMs via ferramenta Google Gemini) foram empregadas exclusivamente como suporte instrumental para auxílio na estruturação das tabelas comparativas, padronização da notação matemática e revisão ortográfica dos textos em Markdown. Todas as análises críticas do Fórum Diolinux Plus, o cruzamento conceitual com as tarefas HTA e personas da equipe e a definição dos critérios métricos de priorização foram formulados, revisados e validados intelectualmente pelos discentes responsáveis.
 
 ---
 

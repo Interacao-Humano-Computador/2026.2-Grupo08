@@ -2,11 +2,17 @@
 
 ## Tabela de Contribuição
 
+A Tabela 0 apresenta a distribuição de responsabilidades e as ferramentas utilizadas na elaboração deste artefato.
+
+**Tabela 0** — Matriz de Contribuição e Transparência de IA Generativa
+
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão das listas de verificação e aplicação nos artefatos da Entrega 2](#aplicacao-e-inspecao-cruzada-dos-artefatos-da-entrega-2) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Revisão das listas de verificação e alinhamento da Tarefa 2 à Criação de Eventos Presenciais — CF02 (#104)](#aplicacao-e-inspecao-cruzada-dos-artefatos-da-entrega-2) | 22/10/2026 | Suporte na estruturação Markdown e tabelas |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Revisão das listas de verificação e aplicação nos artefatos da Entrega 2](#aplicacao-e-inspecao-cruzada-dos-artefatos-desenvolvidos-pelo-time) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Revisão das listas de verificação e alinhamento da Tarefa 2 à Criação de Eventos Presenciais — CF02 (#104)](#aplicacao-e-inspecao-cruzada-dos-artefatos-desenvolvidos-pelo-time) | 22/10/2026 | Suporte na estruturação Markdown e tabelas |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Elaboração completa das 4 listas de verificação (HTA, Elenco de Personas, Personas e CTT) com fundamentação canônica textual e referências ABNT](#listas-de-verificacao-avaliativas-individuais) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -39,10 +45,11 @@ A Tabela 1 apresenta a síntese quantitativa das listas de verificação concebi
 | **LV-02** | Elenco de Personas | 5 itens | **6 itens** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Barbosa & Silva (2021, Cap. 8, p. 167); Cooper (1999); Courage & Baxter (2005) |
 | **LV-03** | Personas | 12 itens | **14 itens** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Barbosa & Silva (2021, Cap. 8, p. 165-171); Cooper (1999) |
 | **LV-04** | Árvores de Tarefas Concorrentes (CTT) | 8 itens | **9 itens** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Barbosa & Silva (2021, Cap. 8, p. 185); Paternò (2000) |
+| **LV-05** | Prototipação de Baixa Fidelidade (Storyboards e Protótipo de Papel — Níveis 1 e 2) | 8 itens | **9 itens** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Barbosa & Silva (2021, Cap. 10, p. 237–252); Snyder (2003); Rettig (1994); Klemmer (2012) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
-Conforme evidenciado na Tabela 1, todas as quatro listas de verificação superam o quantitativo mínimo estipulado no plano de ensino, assegurando cobertura abrangente para auditorias cruzadas da equipe.
+Conforme evidenciado na Tabela 1, todas as cinco listas de verificação superam o quantitativo mínimo estipulado no plano de ensino, assegurando cobertura abrangente para auditorias cruzadas da equipe desde a Análise de Requisitos até os Níveis 1 e 2 de prototipação.
 
 ---
 
@@ -140,38 +147,65 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 
 
 ---
 
-## Aplicação e Inspeção Cruzada dos Artefatos da Entrega 2
+### Lista de Verificação 5: Prototipação de Baixa Fidelidade — Storyboards e Protótipo de Papel (Níveis 1 e 2)
 
-As quatro listas de verificação estruturadas constituem a base operacional de garantia da qualidade da Entrega 2. Elas são aplicadas no regime de **Revisão Circular 360º** adotado pela equipe (Ata 4), no qual cada membro audita os artefatos dos colegas utilizando estas perguntas como critério formal de aprovação.
+A Tabela 6 apresenta os 9 itens constitutivos da lista de verificação para Storyboards e Protótipos de Papel, fundamentada no Capítulo 10 de Barbosa e Silva (2021, p. 237–252), Carolyn Snyder (2003), Marc Rettig (1994) e Scott Klemmer (2012).
 
-A Tabela 6 sintetiza a distribuição da aplicação das listas de verificação entre os membros da equipe.
+**Tabela 6** — Lista de Verificação para Storyboards e Protótipos de Papel (Níveis 1 e 2)
 
-**Tabela 6** — Matriz de aplicação e inspeção das listas de verificação
+| Nº | Critério e Pergunta Avaliativa | Critérios Objetivos de Aceitação | Opções | Trecho Canônico de Origem e Fonte ABNT |
+| :---: | :--- | :--- | :---: | :--- |
+| **1** | **Contextualização Situacional e Gatilho no Storyboard (*Setting*)**<br>O storyboard ilustra o contexto ambiental humano e o problema disparador antes da tela computacional, situando onde o usuário está e o que motiva o uso do sistema? | • Retratação do ambiente físico e estado emocional;<br>• Conexão direta com a Persona Primária;<br>• Gatilho autêntico de necessidade da tarefa. | `[ ] C`<br>`[ ] NC`<br>`[ ] NA` | *"O designer utiliza storyboards para explorar ideias sobre como melhorar a prática de trabalho com o suporte oferecido pela tecnologia."*<br>*(BARBOSA et al., 2021, p. 107; p. 238)*. |
+| **2** | **Progressão Sequencial e Rastreabilidade com HTA (*Sequence*)**<br>A sequência de quadros do storyboard mapeia de forma ordenada os subobjetivos da Análise Hierárquica de Tarefas (HTA), distinguindo ações do interagente e feedbacks do sistema? | • Mapeamento explícito entre quadros e subobjetivos HTA;<br>• Clareza na transição entre cenas;<br>• Ausência de saltos lógicos na narrativa. | `[ ] C`<br>`[ ] NC`<br>`[ ] NA` | *"Um storyboard consiste em uma série de desenhos ou imagens que mostram como o usuário pode progredir em uma tarefa utilizando o produto em desenvolvimento."*<br>*(BARBOSA et al., 2021, p. 238)*. |
+| **3** | **Fechamento de Ciclo de Valor (*Satisfaction*)**<br>O último quadro do storyboard demonstra claramente como a dor inicial do usuário é resolvida e qual benefício prático é alcançado após a interação? | • Evidência visual do objetivo atingido;<br>• Demonstração de alívio ou satisfação do usuário;<br>• Alinhamento com as metas de UX do projeto. | `[ ] C`<br>`[ ] NC`<br>`[ ] NA` | *"Ao final, o storyboard deve evidenciar a satisfação do usuário ao atingir seu objetivo e sanar a necessidade que motivou a interação (Klemmer, 2012)."*<br>*(KLEMMER, 2012; BARBOSA et al., 2021, p. 239)*. |
+| **4** | **Concepção Modular das Peças do Protótipo de Papel**<br>O protótipo de papel (Nível 2) utiliza pranchas base estáticas combinadas a componentes móveis recortados (modais, menus suspensos, alertas e estados de campos) para simular a interatividade? | • Separação física entre fundo fixo e elementos dinâmicos;<br>• Cartões destacáveis para caixas de diálogo e modais de IA;<br>• Escala legível em folhas A4 para toque manual. | `[ ] C`<br>`[ ] NC`<br>`[ ] NA` | *"Protótipos em papel são representações de interfaces gráficas com diferentes níveis de fidelidade, desde um rascunho desenhado à mão livre em pequenos pedaços de papel até uma embalagem de papelão..."*<br>*(BARBOSA et al., 2021, p. 248; RETTIG, 1994)*. |
+| **5** | **Separação Funcional entre Facilitador e 'Computador Humano'**<br>O protocolo de avaliação do protótipo de papel discrimina rigorosamente os papéis do Facilitador (que conduz o usuário) e do 'Computador Humano' (que movimenta as peças em silêncio mecânico)? | • Facilitador não manipula peças nem induz cliques;<br>• Computador Humano reage exclusivamente aos toques do usuário;<br>• Simulação fiel das regras de transição de tela. | `[ ] C`<br>`[ ] NC`<br>`[ ] NA` | *"O protótipo em papel é uma simulação de software em papel, onde um facilitador interage com o participante e outra pessoa da equipe atua como o 'computador', manipulando peças de papel para simular a resposta da interface às ações do usuário."*<br>*(SNYDER, 2003, p. 4; BARBOSA et al., 2021, p. 250)*. |
+| **6** | **Execução Prévia e Isolamento Estrito do Teste-Piloto**<br>O planejamento e o relato comprovam a realização de teste-piloto prévio para calibrar áudio, enquadramento e tempo do TCLE (< 60s), assegurando que seus dados jamais integrem os resultados finais? | • Vídeo do teste-piloto gravado e disponibilizado;<br>• Cláusula explícita de isolamento dos dados do piloto;<br>• Registro de ajustes instrumentais pós-piloto. | `[ ] C`<br>`[ ] NC`<br>`[ ] NA` | *"O objetivo do teste-piloto é avaliar o próprio planejamento da avaliação, para verificar se ela produz os dados necessários... Os dados coletados no teste-piloto não devem ser incluídos no resultado final da avaliação."*<br>*(BARBOSA et al., 2021, p. 276)*. |
+| **7** | **Protocolo Ético e Leitura Literal do TCLE nos Primeiros 60 Segundos**<br>A sessão de avaliação inicia com a leitura literal do Script Oral do TCLE e registro do consentimento verbal explícito do participante em áudio e vídeo nos primeiros 60 segundos? | • Script oral literal transcrito no planejamento;<br>• Consentimento gravado antes de qualquer pergunta;<br>• Anonimização completa do voluntário (LGPD). | `[ ] C`<br>`[ ] NC`<br>`[ ] NA` | *"Os participantes devem ser informados sobre os objetivos da pesquisa e fornecer seu consentimento livre e esclarecido antes do início de qualquer coleta de dados."*<br>*(BRASIL, Resolução CNS nº 510/2016; BARBOSA et al., 2021, p. 273)*. |
+| **8** | **Classificação de Problemas na Escala de Severidade de Nielsen (0 a 4)**<br>Os atritos observados no manuseio do storyboard e do protótipo de papel são catalogados e priorizados segundo os graus de severidade de Nielsen (0 = Sem impacto a 4 = Catastrófico)? | • Matriz estruturada com ID, componente afetado e severidade;<br>• Ação corretiva concreta para cada problema;<br>• Rastreabilidade para o nível subsequente de Mayhew. | `[ ] C`<br>`[ ] NC`<br>`[ ] NA` | *"A avaliação formativa visa identificar problemas de usabilidade durante o processo de design para que possam ser corrigidos antes da implementação final, priorizando-os por sua gravidade."*<br>*(NIELSEN, 1994; BARBOSA et al., 2021, p. 280)*. |
+| **9** | **Insumos de Reprojeto para Prototipação de Alta Fidelidade (Nível 3)**<br>O relato de resultados do protótipo de papel converte as falhas de *affordance*, terminologia e fluxo em diretrizes práticas de reprojeto para o protótipo de alta fidelidade? | • Especificação de melhorias para o protótipo interativo digital;<br>• Alinhamento com o Guia de Estilo e Metas de Usabilidade;<br>• Fechamento do ciclo iterativo de avaliação de Nível 2. | `[ ] C`<br>`[ ] NC`<br>`[ ] NA` | *"Os resultados da avaliação em papel permitem refinar rapidamente a estrutura da interface antes de investir recursos na construção de protótipos de alta fidelidade em software."*<br>*(MAYHEW, 1999; SNYDER, 2003; BARBOSA et al., 2021, p. 252)*. |
 
-| Artefato sob Auditoria | Lista de Verificação Aplicada | Autor Primário do Artefato | Discente Auditor / Revisor |
-| :--- | :---: | :--- | :--- |
-| **HTA: Tarefa 1 (Markdown e Tags)** | LV-01 (HTA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
-| **HTA: Tarefa 2 (Criação de Eventos Presenciais — CF02)** | LV-01 (HTA) e LV-04 (CTT) | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-| **HTA: Tarefa 3 (Busca Avançada)** | LV-01 (HTA) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| **Elenco de Personas (Consolidado)** | LV-02 (Elenco) | [Equipe Grupo 08](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) | [Revisão Circular 360º](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
-| **Personas 1, 2 e 3** | LV-03 (Personas) | [Vinicius](https://github.com/ViniciusA05), [Gustavo](https://github.com/gus-ant), [Edvaldo](https://github.com/PajeMurici-dev) | [Auditoria Cruzada Mútua](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
+_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05) com base em Barbosa e Silva (2021), Snyder (2003), Rettig (1994) e Klemmer (2012), 2026._
 
-_Fonte: Elaborada pelos autores, 2026._
+---
+
+## Aplicação e Inspeção Cruzada dos Artefatos Desenvolvidos pelo Time
+
+As cinco listas de verificação estruturadas constituem a base operacional de garantia da qualidade das Entregas 2, 4, 5 e 6. Elas são aplicadas no regime de **Revisão Circular 360º** adotado pela equipe, no qual cada membro ativo audita os artefatos produzidos pelo time utilizando estas perguntas como critério formal de aprovação.
+
+A Tabela 7 sintetiza a distribuição da aplicação das listas de verificação sobre os artefatos desenvolvidos pelos integrantes da equipe.
+
+**Tabela 7** — Matriz de aplicação e inspeção cruzada dos artefatos desenvolvidos pelo time
+
+| Artefato Desenvolvido pelo Time | Lista de Verificação Aplicada | Autor Primário do Artefato | Discente Auditor / Revisor | Status de Conformidade |
+| :--- | :---: | :--- | :--- | :---: |
+| **[HTA e CMN-GOMS: Tarefa 1 (Tópico Markdown, Tags e IA Semântica — CF01)](analise-tarefas.md)** | `LV-01` (HTA) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | ✅ 100% Conforme |
+| **[HTA e CTT: Tarefa 2 (Criação de Eventos Presenciais — CF02)](analise-tarefas.md)** | `LV-01` (HTA) e `LV-04` (CTT) | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ✅ 100% Conforme |
+| **[HTA e CTT: Tarefa 3 (Grade de Disponibilidade e Agendamento — CF03)](analise-tarefas.md)** | `LV-01` (HTA) e `LV-04` (CTT) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ 100% Conforme |
+| **[Elenco de Personas e Fichas das Personas 1, 2 e 3](personas.md)** | `LV-02` (Elenco) e `LV-03` (Personas) | [Vinicius](https://github.com/ViniciusA05), [Gustavo](https://github.com/gus-ant), [Edvaldo](https://github.com/PajeMurici-dev) | Revisão Circular 360º | ✅ 100% Conforme |
+| **[Storyboard 1: Tópico com Markdown e IA Semântica (Opção B — 300 DPI)](../design-avaliacao-desenvolvimento/nivel-1/storyboard/storyboard-topico-markdown.md)** | `LV-05` (Baixa Fidelidade) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) | ✅ 100% Conforme |
+| **[Storyboard 2: Criação e Divulgação de Workshop Presencial](../design-avaliacao-desenvolvimento/nivel-1/storyboard/storyboard-eventos-presenciais.md)** | `LV-05` (Baixa Fidelidade) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ 100% Conforme |
+| **[Storyboard 3: Grade de Disponibilidade e Agendamento de Reuniões](../design-avaliacao-desenvolvimento/storyboards.md)** | `LV-05` (Baixa Fidelidade) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ 100% Conforme |
+| **[Relatos Empíricos de Nível 1 (Storyboard e Análise de Tarefas)](../design-avaliacao-desenvolvimento/nivel-1/storyboard/relato-resultados.md)** | `LV-01` e `LV-05` | [Vinicius](https://github.com/ViniciusA05), [Gustavo](https://github.com/gus-ant), [Edvaldo](https://github.com/PajeMurici-dev) | Revisão Circular 360º | ✅ 100% Conforme |
+| **[Planejamento da Avaliação e Relato do Protótipo de Papel — Tarefa 1 (Nível 2)](../design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md)** | `LV-05` (Protótipo de Papel) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | ✅ 100% Conforme |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
 ## Histórico de Versão
 
-A Tabela 7 documenta o histórico de versões deste artefato.
+A Tabela 8 documenta o histórico de versões deste artefato.
 
-**Tabela 7** — Histórico de versão do documento
+**Tabela 8** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Elaboração inicial das 4 Listas de Verificação com fundamentação canônica textual em Barbosa e Silva (2021) e matriz de inspeção cruzada | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 22/10/2026 | Atualização da Tabela 6 alinhando formalmente a Tarefa 2 de Gustavo Antonio à Criação de Eventos Presenciais (CF02) (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 29/10/2026 | Adição da Lista de Verificação 5 (`LV-05`: Storyboards e Protótipo de Papel com 9 itens canônicos) e expansão da Matriz de Aplicação e Inspeção Cruzada dos Artefatos Desenvolvidos pelo Time (Tabela 7) cobrindo Nível 1 e Nível 2 (#118). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -193,4 +227,8 @@ _Fonte: Elaborada pelos autores, 2026._
 
 [8] PATERNÒ, Fabio. *Model-Based Design and Evaluation of Interactive Applications*. London: Springer-Verlag, 2000.
 
-[9] SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Faculdade UnB Gama (FGA), Universidade de Brasília, 2026.
+[9] RETTIG, Marc. *Prototyping for tiny fingers*. Communications of the ACM, v. 37, n. 4, p. 21-27, 1994.
+
+[10] SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Faculdade UnB Gama (FGA), Universidade de Brasília, 2026.
+
+[11] SNYDER, Carolyn. *Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces*. San Francisco: Morgan Kaufmann Publishers, 2003.

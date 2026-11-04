@@ -4,8 +4,8 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação e consolidação da página de síntese, framework DECIDE, planejamento e relato da avaliação de Storyboards e Análise de Tarefas, questões práticas e teste-piloto | 13/10/2026 | Antigravity (LLM) | Apoio na formatação Markdown, estruturação sintática das tabelas e validação de referências ABNT. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Coautoria da síntese, alinhamento da Tarefa/Storyboard 2 à Criação de Eventos Presenciais (CF02), expansão de checklist com critérios de Klemmer e item teórico de Storyboarding (#104) | 22/10/2026 | Antigravity (LLM) | Suporte na estruturação Markdown e checagem de bibliografia. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação e consolidação da página de síntese, framework DECIDE, planejamento e relato da avaliação de Storyboards e Análise de Tarefas, questões práticas e teste-piloto | 13/10/2026 | Google Gemini (LLM) | Apoio na formatação Markdown, estruturação sintática das tabelas e validação de referências ABNT. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Coautoria da síntese, alinhamento da Tarefa/Storyboard 2 à Criação de Eventos Presenciais (CF02), expansão de checklist com critérios de Klemmer e item teórico de Storyboarding (#104) | 22/10/2026 | Google Gemini (LLM) | Suporte na estruturação Markdown e checagem de bibliografia. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Coautoria da síntese, elaboração do Storyboard 3 (Grade de Disponibilidade e Agendamento), modelagem HTA/CTT, instrumentos de observação comportamental e item teórico individual de métodos de avaliação | 24/10/2026 | — | Elaboração e validação de conteúdo. |
 
 ---
@@ -174,4 +174,4 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a organização sintática desta página de síntese, foram utilizados recursos de Inteligência Artificial Generativa (Antigravity LLM / Gemini) para apoio na diagramação em Markdown e na checagem formal de referências ABNT. A fundamentação teórica, a articulação dos artefatos práticos com o Fórum Diolinux Plus, a validação dos hiperlinks e o dimensionamento metodológico do projeto foram conduzidos e validados criticamente pelos discentes integrantes da equipe.
+Durante a organização sintática desta página de síntese, foram utilizados recursos de Inteligência Artificial Generativa (Google Gemini) para apoio na diagramação em Markdown e na checagem formal de referências ABNT. A fundamentação teórica, a articulação dos artefatos práticos com o Fórum Diolinux Plus, a validação dos hiperlinks e o dimensionamento metodológico do projeto foram conduzidos e validados criticamente pelos discentes integrantes da equipe.

@@ -8,8 +8,8 @@ A Tabela 1 apresenta a distribuição de responsabilidades, papéis e ferramenta
 
 | Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Tech Lead / Auditor Principal**: Concepção metodológica, arquitetura modular de verificação (ADR-07), fundamentação canônica em Fagan (1976), Mayhew (1999) e redação técnica do portal | 27/10/2026 | 00:30 - 01:20 | Antigravity (LLM) | Apoio na estruturação sintática de Markdown e alinhamento ABNT |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Auditor Técnico**: Curadoria dos artefatos de Nível 1 e governança de repositório; co-apresentador das auditorias audiovisuais | 27/10/2026 | 00:45 - 01:20 | Antigravity (LLM) | Apoio na padronização de diagramas Mermaid e checagem de links |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Tech Lead / Auditor Principal**: Concepção metodológica, arquitetura modular de verificação (ADR-07), fundamentação canônica em Fagan (1976), Mayhew (1999) e redação técnica do portal | 27/10/2026 | 00:30 - 01:20 | Google Gemini (LLM) | Apoio na estruturação sintática de Markdown e alinhamento ABNT |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Auditor Técnico**: Curadoria dos artefatos de Nível 1 e governança de repositório; co-apresentador das auditorias audiovisuais | 27/10/2026 | 00:45 - 01:20 | Google Gemini (LLM) | Apoio na padronização de diagramas Mermaid e checagem de links |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Auditor Técnico**: Curadoria dos artefatos de Nível 2 e checagem cruzada das matrizes de conformidade e métricas ponderadas | 27/10/2026 | 01:00 - 01:20 | — | Revisão humana por pares e conferência de consistência |
 
 _Fonte: Elaborada pelos autores (Grupo 08), 2026._

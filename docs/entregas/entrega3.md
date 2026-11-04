@@ -4,7 +4,7 @@
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação da página de síntese, consolidação dos links de artefatos, planejamento do roteiro de apresentação e Metas de Usabilidade | 05/10/2026 | Antigravity (LLM) | Apoio na formatação Markdown e cronometragem de roteiro. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação da página de síntese, consolidação dos links de artefatos, planejamento do roteiro de apresentação e Metas de Usabilidade | 05/10/2026 | Google Gemini (LLM) | Apoio na formatação Markdown e cronometragem de roteiro. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Coautoria da síntese e alinhamento dos artefatos de características da plataforma e princípios gerais de projeto | 05/10/2026 | — | Revisão e validação conjunta. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Coautoria da síntese e alinhamento dos artefatos de guia de estilo e ata de reunião nº 5 | 05/10/2026 | — | Revisão e validação conjunta. |
 
@@ -29,7 +29,7 @@ A Tabela 1 lista todos os artefatos elaborados para a Entrega 3, indicando seus 
 | [Características da Plataforma](../analise-requisitos/caracteristicas-da-plataforma.md) | Identificação das características técnicas do Discourse, limitações de hardware/software e restrições de design | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | [Princípios Gerais de Projeto](../analise-requisitos/principios-gerais-de-projeto.md) | Avaliação dos princípios e heurísticas clássicas de design aplicados criticamente à interface do fórum | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | [Metas de Usabilidade e UX](../analise-requisitos/metas-de-usabilidade.md) | Especificação das 6 metas de usabilidade e 5 metas de UX, cruzadas com personas, tarefas HTA e matriz de priorização | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
-| [Guia de Estilo](../analise-requisitos/guia-de-estilo.md) | Catalogação dos padrões visuais, tipografia, paleta cromática, contrastes WCAG e componentes de interface do fórum | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) |
+| [Guia de Estilo](../analise-requisitos/guia-de-estilo.md) | Catalogação ergonômica em 6 seções canônicas de Mayhew (1999), WCAG 2.1, catálogo de componentes, atalhos do Discourse e [:material-file-pdf-box: PDF consolidado](../assets/relatorios/GuiaDeEstiloDiolinuxPlusGrupo08.pdf) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | [Ata de Reunião nº 5](../atas/ata5.md) | Registro do alinhamento da equipe, divisão de responsabilidades da Entrega 3 e deliberações de planejamento | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -118,7 +118,7 @@ Durante a Etapa 3, as seguintes ferramentas computacionais foram empregadas:
 
 ## Declaração sobre o Uso de Inteligência Artificial Generativa
 
-Declara-se que ferramentas de IA generativa (Antigravity LLM) foram utilizadas exclusivamente como suporte instrumental de formatação Markdown e auxílio no dimensionamento temporal do roteiro cronometrado da apresentação. O planejamento de conteúdo, a divisão de responsabilidades e as avaliações práticas reportadas foram elaborados e validados pelos integrantes do Grupo 08.
+Declara-se que ferramentas de IA generativa (Google Gemini) foram utilizadas exclusivamente como suporte instrumental de formatação Markdown e auxílio no dimensionamento temporal do roteiro cronometrado da apresentação. O planejamento de conteúdo, a divisão de responsabilidades e as avaliações práticas reportadas foram elaborados e validados pelos integrantes do Grupo 08.
 
 ---
 
