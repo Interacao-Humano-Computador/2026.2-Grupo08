@@ -9,10 +9,10 @@ A Tabela 1 apresenta a matriz de governança, divisão de atribuições e declar
 | Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal / Tech Lead**: Estruturação geral pelo Framework DECIDE, fundamentação teórica de alta fidelidade (Mayhew, Rubin & Chisnell, Brooke, Nielsen), definição metodológica dos testes no Figma, roteiro interativo da Tarefa 1, métricas vinculadas ao KLM e Metas de Usabilidade, justificativa matemática amostral de Nielsen & Landauer, TCLE oral de 60s, protocolo do teste-piloto e lista de verificação de 15 itens normativos. | 31/10/2026 | 20:30 - 21:40 | Google Gemini (LLM) | Apoio na estruturação das matrizes Markdown, conferência de hiperligações relativas e validação de referências ABNT. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor por Par e Coautor**: Revisão da aderência às diretrizes do Guia de Estilo, verificação das métricas psicométricas e alinhamento da estrutura para incorporação da Tarefa 2 (Eventos Presenciais). | 31/10/2026 | 21:15 - 21:45 | Google Gemini (LLM) | Apoio na padronização tabular e conferência dos horários do cronograma planejado. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador (Tarefa 2)**: Parametrização completa da avaliação de alta fidelidade da Tarefa 2 (Eventos Presenciais): formulação das perguntas investigativas (Tabela 2b), modelagem do cenário de uso (8.4) e do roteiro sequencial de tarefas no Figma (8.5) incorporando os feedbacks da avaliação em papel. | 03/11/2026 | 21:00 - 22:15 | Google Gemini (LLM) | Apoio na estruturação de tabelas e validação de equações de usabilidade. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Checagem de conformidade com os 15 critérios da lista de verificação da técnica e auditoria cruzada por pares. | 31/10/2026 | 21:20 - 21:50 | — | Revisão humana por pares e conferência de consistência. |
 
-_Fonte: Elaborada por Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -91,6 +91,22 @@ Para orientar a observação sistemática durante os ensaios no Figma, elaborara
 | **`PAF08`** | Confirmação e Satisfação | O participante tem convicção de que o tópico foi publicado com sucesso ao visualizar o Frame final com o tópico renderizado? | Expressão de fechamento da tarefa e avaliação positiva nos itens Likert do SUS. |
 
 _Fonte: Elaborada por Vinicius Silva Araruna, 2026._
+
+A Tabela 2b apresenta as perguntas investigativas formuladas para a avaliação de alta fidelidade no Figma da **Tarefa 2 (Criação de Eventos Presenciais)**, incorporando diretamente as oportunidades de reprojeto diagnosticadas no protótipo de papel (`PROB-PP-T2-01` a `05`).
+
+**Tabela 2b** — Perguntas Investigativas da Avaliação de Alta Fidelidade (Tarefa 2 — Gustavo Antonio)
+
+| Código | Dimensão Avaliada | Pergunta Investigativa Específica no Figma | Indicador de Observação / Métrica |
+| :---: | :--- | :--- | :--- |
+| **`PAF-T2-01`** | Descoberta do Ponto de Entrada | O participante localiza imediatamente a aba de 'Eventos' na navegação superior e aciona o botão `+ Criar Novo Evento` (`#0088CC`)? | Tempo até o primeiro clique e ausência de desvios para outras abas. |
+| **`PAF-T2-02`** | Seletor 24h e Temporalidade | Ao interagir com o seletor digital de horário, o interagente ajusta início e término no padrão de 24 horas sem hesitações de período (AM/PM)? | Ausência de erros na seleção de hora (ex.: 14:00 às 18:00) e taxa de conclusão sem reversão. |
+| **`PAF-T2-03`** | Hierarquia de Quórum e Lotação | A disposição sequencial priorizando o *Quórum Mínimo de Viabilidade* antes da *Lotação Máxima* transmite clareza lógica sobre o planejamento do evento? | Verbalização no *Think-Aloud* reconhecendo o propósito do quórum comunitário. |
+| **`PAF-T2-04`** | Geolocalização no Mapa Digital | Ao manipular o mapa interativo no Figma, o participante posiciona o marcador (*pin*) sobre o bloco universitário desejado com facilidade? | Tempo de busca do endereço, precisão no posicionamento do pin e leitura da confirmação visual. |
+| **`PAF-T2-05`** | Densidade e Carga Cognitiva | A estruturação do formulário em etapas progressivas (*wizard*) reduz a percepção de sobrecarga visual em relação ao formulário único? | Nível de esforço percebido na Single Ease Question (SEQ) pós-tarefa (escala de 1 a 7). |
+| **`PAF-T2-06`** | Visibilidade do Mapa Final | Na tela de evento publicado, o mapa ampliado em formato 16:9 permite identificar claramente o trajeto e a sala de realização do encontro? | Reconhecimento imediato do local e ausência de dúvidas sobre onde comparecer. |
+| **`PAF-T2-07`** | Confirmação e Ingressos | O participante compreende com rapidez o resumo de ingressos gratuitos e o funcionamento do QR Code para credenciamento? | Verbalização afirmativa perante a prancha final e resposta positiva aos itens de clareza do SUS. |
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Nielsen (1994) e Snyder (2003), 2026._
 
 ---
 
@@ -306,6 +322,29 @@ O escore final varia entre `0 e 100 pontos`. A meta de qualidade do Grupo 08 par
 
 ---
 
+### 8.4 Cenário de Uso da Tarefa 2 (Persona Carlos Eduardo — Gustavo Antonio)
+
+> *"Você é um estudante de tecnologia e usuário iniciante de sistemas Linux que percebeu que muitos colegas de curso encontram dificuldades para particionar discos e configurar contêineres Docker em seus computadores. Com o objetivo de integrar a comunidade universitária e compartilhar conhecimento prático, você decide organizar um encontro presencial colaborativo intitulado **'Workshop Linux e Docker'**, a ser realizado nas dependências da UnB Gama (Bloco UAC, Sala I-04), das 14:00 às 18:00, com quórum mínimo de 10 participantes e limite de 30 vagas gratuitas.*  
+>  
+> *Sua tarefa no protótipo de alta fidelidade do Figma consiste em:*  
+> 1. *Acessar o Hub de Eventos do fórum e iniciar a criação de um novo workshop;*  
+> 2. *Preencher os dados gerais (Título, Categoria e Ementa do workshop);*  
+> 3. *Configurar a data e o horário pelo seletor nativo de 24 horas (14:00 às 18:00);*  
+> 4. *Definir a localização no mapa interativo, arrastando o marcador sobre o Bloco UAC e confirmando o endereço formalizado;*  
+> 5. *Configurar a viabilidade comunitária: definir quórum mínimo de 10 pessoas, lotação máxima de 30 participantes e ativar a emissão de ingressos gratuitos com QR Code;*  
+> 6. *Revisar os dados e confirmar a publicação, verificando a página pública do evento ativo com o mapa expandido."*
+
+### 8.5 Roteiro Sequencial de Interação da Tarefa 2 no Protótipo do Figma
+
+1. **Passo 1 (Ponto de Entrada):** Na página inicial do Fórum Diolinux Plus em Dark Mode, clicar na aba `Eventos` no menu superior e, em seguida, no botão primário `+ Criar Novo Evento`;
+2. **Passo 2 (Dados Gerais do Workshop):** No assistente digital de criação, preencher o título (*"Workshop Linux e Docker"*), selecionar a categoria temática (*"Workshops e Capacitação"*) e inserir uma breve ementa descritiva;
+3. **Passo 3 (Definição Temporal 24h):** No campo de horário, abrir o componente de *timepicker* em formato nativo de 24 horas (eliminando a notação AM/PM), selecionar o início às `14:00` e término às `18:00` e clicar em `Confirmar Horário`;
+4. **Passo 4 (Geolocalização Interativa):** Clicar no botão `Definir Local no Mapa`, visualizar a planta interativa do campus UnB Gama, arrastar o pin digital sobre o `Bloco UAC (Sala I-04)`, conferir o endereço geocodificado na caixa flutuante e confirmar a localização;
+5. **Passo 5 (Quórum, Lotação e Ingressos):** No painel de capacidade, preencher primeiro o campo `Quórum Mínimo de Viabilidade` com o valor `10`, seguido da `Lotação Máxima` com `30`, selecionar a opção `Gratuito (1 por usuário)` e marcar as opções de `Emissão de QR Code` e `Lembrete 24h antes por e-mail`;
+6. **Passo 6 (Publicação e Validação do Mapa):** Clicar no botão centralizado `Publicar Evento`, visualizar a tela de sucesso gerada com o mapa em proporção 16:9 destacada e confirmar a emissão do link público e QR Code.
+
+---
+
 ## 9. D — Decidir como Lidar com as Questões Éticas
 
 A condução dos testes de usabilidade com seres humanos rege-se pelos preceitos éticos da **Resolução CNS nº 510/2016** do Conselho Nacional de Saúde e pelos **Quatro Princípios Bioéticos de Beauchamp e Childress (2013)**:
@@ -392,6 +431,7 @@ A Tabela 9 apresenta o histórico de revisões e atualizações deste documento.
 | Versão | Data | Descrição da Alteração | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 31/10/2026 | Elaboração inicial do Planejamento da Avaliação de Alta Fidelidade (Nível 3 — Figma): Framework DECIDE completo, fundamentação de Mayhew e Rubin & Chisnell, 8 perguntas investigativas da Tarefa 1, métricas frente ao KLM (`135,3s`), justificativa amostral de Nielsen & Landauer, instrumento SUS de 10 itens, TCLE oral de 60s, protocolo do teste-piloto e checklist de 15 itens normativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 03/11/2026 | Detalhamento da esteira de alta fidelidade da Tarefa 2 (Gustavo Antonio): formulação das perguntas investigativas específicas (Tabela 2b), modelagem do cenário de uso (8.4) e do roteiro sequencial de interação no Figma (8.5) incorporando os achados empíricos do protótipo de papel (quórum prioritário, relógio 24h, mapa expandido e botões centralizados). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Vinicius Silva Araruna, 2026._
 

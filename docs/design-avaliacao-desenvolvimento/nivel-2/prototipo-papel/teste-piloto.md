@@ -1,4 +1,4 @@
-# Protocolo e Roteiro do Teste-Piloto do Protótipo de Papel (Nível 2) — Tarefa 1
+# Protocolo e Relato do Teste-Piloto do Protótipo de Papel (Nível 2) — Tarefas 1 e 2
 
 ## Tabela de Contribuição e Uso de IA Generativa
 
@@ -9,10 +9,10 @@ A Tabela 1 documenta a matriz de contribuição na elaboração do protocolo ope
 | Integrante | Atribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal / Tech Lead**: Elaboração completa do protocolo, especificação dos parâmetros de bancada com gravação a 45 graus, modelagem do roteiro do ensaio nas `Folhas 1, 2 e 3`, redação da cláusula de isolamento de dados, matriz de refinamentos e lista de verificação de 8 itens normativos. | 30/10/2026 | Google Gemini (LLM) | Apoio na estruturação visual de tabelas Markdown e validação de referências ABNT. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor Designado**: Auditoria de temporização da movimentação das peças físicas pelo Computador Humano e verificação dos parâmetros de gravação. | 30/10/2026 | — | Revisão humana por pares. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor / Avaliador (Tarefa 2)**: Condução e registro audiovisual do teste-piloto instrumental da Tarefa 2 (Eventos Presenciais), calibração do roteiro do TCLE (< 60s), temporização do manuseio de pranchas e peças móveis (mapa e pin) e elaboração da matriz de ocorrências. | 03/11/2026 | — | Revisão humana por pares e execução prática. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Checagem de aderência à literatura de Carolyn Snyder e validação da cláusula de não computação de dados. | 30/10/2026 | — | Revisão humana por pares. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -69,7 +69,7 @@ A Tabela 2 define os parâmetros logísticos, espaciais e técnicos para a reali
 | **Temporização do TCLE Oral** | Leitura cronometrada estritamente em menos de 60 segundos (< 60s) | Conformidade com o protocolo ético de consentimento gravado em áudio e vídeo da disciplina. |
 | **Latência Mecânica Alvo** | Troca de peças pelo Computador Humano em tempo < 1s | Simulação fluida da resposta interativa do software Discourse. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -85,7 +85,7 @@ A Tabela 3 discrimina as responsabilidades dos papéis durante a execução do t
 | **Simulação do "Computador Humano"** | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Praticar a retirada da `Folha 1`, inserção da `Folha 2`, sobreposição dos menus de Categorias e Tags e posicionamento do cartão do Modal `IA Diolinux - Verificação Pré-envio`. |
 | **Auditoria e Revisão por Pares** | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Assistir à gravação do teste-piloto, verificar a nitidez visual das peças no vídeo e validar a fluidez dos movimentos. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -112,7 +112,7 @@ graph TD
     F3 --> F4
 ```
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ### Roteiro Detalhado por Fase:
 
@@ -137,25 +137,52 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ---
 
-## 7. Registro Audiovisual do Teste-Piloto de Nível 2
+## 7. Registro Audiovisual dos Ensaios de Teste-Piloto de Nível 2
 
-O registro audiovisual integral da execução do Teste-Piloto Solo da Tarefa 1 (Nível 2) está hospedado no YouTube na modalidade "Não Listado", assegurando conformidade com as diretrizes da disciplina e plena auditabilidade pela banca examinadora. Como documentado no Vídeo 1, o ensaio de calibração instrumental e temporal da bancada foi integralmente registrado em áudio e vídeo com foco nas peças físicas sobre a mesa.
+Em estrita conformidade com as exigências pedagógicas do Plano de Ensino da disciplina (*Sales, 2026*), os registros audiovisuais integrais da execução dos testes-piloto das Tarefas 1 e 2 encontram-se hospedados no YouTube sob o regime **"Não Listado"**, permitindo total auditabilidade técnica pela banca examinadora.
+
+### 7.1 Teste-Piloto da Tarefa 1 — Publicação de Dúvida e IA (Vinicius Silva Araruna)
 
 <details class="video-card-details">
     <summary class="video-card-summary">
         <div class="video-card-title">
             <span style="font-size: 1.25rem;">🎬</span>
-            <span><strong>Vídeo 1</strong> — Registro Audiovisual do Teste-Piloto do Protótipo de Papel (Tarefa 1)</span>
+            <span><strong>Vídeo 1</strong> — Teste-Piloto do Protótipo de Papel (Tarefa 1 — Vinicius Silva Araruna)</span>
         </div>
-        <span class="video-card-toggle">Assistir ao Vídeo</span>
+        <span class="video-card-toggle">Assistir ao Piloto T1</span>
     </summary>
     <div class="video-card-body">
         <div class="video-card-frame">
             <iframe src="https://www.youtube-nocookie.com/embed/I1CNO_EkCfE" title="Gravação do Teste-Piloto do Protótipo de Papel (Nível 2) - Tarefa 1 - Vinicius Silva Araruna - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-card-footer">
-            <span class="video-card-caption"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto de Nível 2 da Tarefa 1 na bancada de papel. <em>Fonte: Vinicius Silva Araruna, 2026.</em></span>
+            <span class="video-card-caption"><strong>Vídeo 1</strong> — Registro audiovisual da execução do Teste-Piloto da Tarefa 1 na bancada de papel. <em>Fonte: Vinicius Silva Araruna, 2026.</em></span>
             <a href="https://youtu.be/I1CNO_EkCfE" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+                <span>Assistir no YouTube</span> ↗
+            </a>
+        </div>
+    </div>
+</details>
+
+---
+
+### 7.2 Teste-Piloto da Tarefa 2 — Criação de Eventos Presenciais (Gustavo Antonio)
+
+<details class="video-card-details">
+    <summary class="video-card-summary">
+        <div class="video-card-title">
+            <span style="font-size: 1.25rem;">🔬</span>
+            <span><strong>Vídeo 2</strong> — Teste-Piloto do Protótipo de Papel (Tarefa 2 — Gustavo Antonio)</span>
+        </div>
+        <span class="video-card-toggle">Assistir ao Piloto T2</span>
+    </summary>
+    <div class="video-card-body">
+        <div class="video-card-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/bEn3f5wqhvc" title="Gravação do Teste-Piloto do Protótipo de Papel (Nível 2) - Tarefa 2 - Gustavo Antonio - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video-card-footer">
+            <span class="video-card-caption"><strong>Vídeo 2</strong> — Registro audiovisual da calibração instrumental da Tarefa 2 com foco na bancada física, movimentação de peças e mapa. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></span>
+            <a href="https://youtu.be/bEn3f5wqhvc" target="_blank" rel="noopener noreferrer" class="video-card-btn">
                 <span>Assistir no YouTube</span> ↗
             </a>
         </div>
@@ -178,7 +205,21 @@ A Tabela 4 sintetiza as observações instrumentais diagnosticadas durante a exe
 | **Adesão das Peças Sobrepostas** | O cartão recortado de categorias deslizou levemente sobre a `Folha 2` ao ser tocado. | Papel sulfite liso sobre sulfite liso com baixo atrito de contato. | Aplicação de pequena tira de fita adesiva reposicionável (*Post-it*) no verso das peças móveis, garantindo fixação temporária sem deslizar. |
 | **Legibilidade do Split-View** | Na filmagem a 45 graus, as caixas de código da `Pré-Visualização Renderizada` precisavam de borda bem delimitada. | Necessidade de distinção visual clara entre texto livre e bloco de código no papel. | Reforço das molduras retangulares ao redor dos comandos `sudo apt update` e `E: Could not get lock` na coluna direita da `Folha 2` e na `Folha 3`. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Snyder (2003), 2026._
+_Fonte: Elaborada por Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Snyder (2003), 2026._
+
+A Tabela 4b consolida a matriz de calibração instrumental e ajustes de bancada realizados especificamente para a **Tarefa 2 (Eventos Presenciais)**, sob condução de Gustavo Antonio Rodrigues e Silva.
+
+**Tabela 4b** — Matriz de Ocorrências Instrumentais e Ações Corretivas da Tarefa 2 (Gustavo Antonio)
+
+| Dimensão Avaliada | Ocorrência no Teste-Piloto | Causa Raiz Diagnosticada | Ação Corretiva Implementada para a Sessão Oficial |
+| :--- | :--- | :--- | :--- |
+| **Tempo de Leitura do TCLE** | Leitura cronometrada em 45 segundos com resposta afirmativa nítida do participante. | Script oral objetivo focado em anonimização, não-maleficência e autonomia. | Script validado e mantido sem necessidade de edições. |
+| **Posicionamento da Câmera (45º)** | O ângulo inicial de filmagem cobria o cartão de mapa quando o facilitador inclinava o corpo. | Suporte de smartphone posicionado muito próximo ao lado direito. | Reposicionamento do suporte em elevação de 45 graus à frente da bancada, garantindo visão completa das pranchas e mãos. |
+| **Manipulação do Marcador Móvel (*Pin*)** | O marcador móvel do mapa era pequeno e dificultava o manuseio rápido pelo Computador Humano. | Peça recortada sem aba de apoio manual. | Adição de reforço de papel cartão rígido na base do marcador (*pin*) para permitir encaixe e movimentação ágil. |
+| **Sequenciamento dos Modais** | O operador hesitou momentaneamente entre o modal de horário e o modal de lotação. | Modais guardados juntos em pilha única. | Organização das 3 peças móveis em nichos ordenados numericamente: PM-01 (Horário) à esquerda, PM-02 (Lotação) ao centro e PM-03 (Mapa) à direita. |
+| **Latência do Computador Humano** | Transição entre Prancha 1 (Hub) e Prancha 2 (Formulário) executada em aproximadamente 0,8 segundo. | Treino mecânico prévio da ordem das pranchas base. | Meta de latência (< 1s) atingida com sucesso, assegurando imersão tátil. |
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021) e Snyder (2003), 2026._
 
 ---
 
@@ -212,8 +253,9 @@ A Tabela 6 documenta o histórico de versões deste documento.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 30/10/2026 | Elaboração inicial do Protocolo e Roteiro do Teste-Piloto do Protótipo de Papel da Tarefa 1 (Nível 2), delimitando a infraestrutura física de bancada (`Folhas 1, 2 e 3` e 3 peças móveis), gravação em suporte a 45 graus, leitura do TCLE oral (< 60s), simulação da dinâmica com Computador Humano, cláusula de isolamento de dados, vídeo incorporado e matriz de lições aprendidas. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 03/11/2026 | Inclusão do relato e parâmetros do Teste-Piloto da Tarefa 2 (Gustavo Antonio), abrangendo calibração do suporte de câmera a 45º, latência mecânica de sobreposição das peças de mapa e relógio, aferição do TCLE oral (< 60s) e Tabela 4b de ocorrências e ajustes. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
