@@ -76,7 +76,7 @@ Na área central, são disponibilizados botões de filtro rápido (*Todos, Próx
 A Figura 1 apresenta o registro fotográfico digitalizado da Prancha Base 1.
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <img src="../../assets/prototipo-papel/tarefa2/folha1-hub-eventos.jpg" alt="Prancha Base 1 - Hub de Eventos da Comunidade Diolinux" style="max-width: 90%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-1">
+    <img src="../../../assets/prototipo-papel/tarefa2/folha1-hub-eventos.jpg" alt="Prancha Base 1 - Hub de Eventos da Comunidade Diolinux" style="max-width: 90%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-1">
     <p><strong>Figura 1</strong> — Prancha Base 1 (Folha 1): Hub Comunitário de Eventos do Diolinux Plus com listagem e gatilho de criação.</p>
     <p><em>Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
 </div>
@@ -96,7 +96,7 @@ A Prancha Base 2 representa a tela de composição de um novo evento (`Diolinux 
 A Figura 2 apresenta a digitalização da Prancha Base 2.
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <img src="../../assets/prototipo-papel/tarefa2/folha2-formulario-evento.jpg" alt="Prancha Base 2 - Formulário de Criação de Evento" style="max-width: 90%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-2">
+    <img src="../../../assets/prototipo-papel/tarefa2/folha2-formulario-evento.jpg" alt="Prancha Base 2 - Formulário de Criação de Evento" style="max-width: 90%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-2">
     <p><strong>Figura 2</strong> — Prancha Base 2 (Folha 2): Formulário estruturado de cadastro de eventos presenciais.</p>
     <p><em>Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
 </div>
@@ -111,7 +111,7 @@ Para simular o comportamento de caixas modais sobrepostas sem perder a referênc
 Contém um relógio analógico circular desenhado com números de 1 a 12 e ponteiros simulando a seleção de hora (5 horas / 17:00), display digital `[ 17:00 ]`, seletores de período `[ Am ]` e `[ Pm ]` e o botão `[ Confirmar Horário ]`.
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <img src="../../assets/prototipo-papel/tarefa2/peca-movel-horario-timepicker.jpg" alt="Peça Móvel 1 - Modal de Seleção de Horário" style="max-width: 55%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-3">
+    <img src="../../../assets/prototipo-papel/tarefa2/peca-movel-horario-timepicker.jpg" alt="Peça Móvel 1 - Modal de Seleção de Horário" style="max-width: 55%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-3">
     <p><strong>Figura 3</strong> — Peça Móvel 1: Modal de relógio (*timepicker*) para parametrização temporal do encontro.</p>
     <p><em>Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
 </div>
@@ -124,7 +124,7 @@ Permite ao organizador parametrizar a capacidade máxima do encontro e a viabili
 - Botão de confirmação: `[ SALVAR ]`.
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <img src="../../assets/prototipo-papel/tarefa2/peca-movel-lotacao-ingressos.jpg" alt="Peça Móvel 2 - Modal de Lotação e Ingressos" style="max-width: 55%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-4">
+    <img src="../../../assets/prototipo-papel/tarefa2/peca-movel-lotacao-ingressos.jpg" alt="Peça Móvel 2 - Modal de Lotação e Ingressos" style="max-width: 55%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-4">
     <p><strong>Figura 4</strong> — Peça Móvel 2: Modal de parametrização de lotação, quórum mínimo e ingressos com QR Code.</p>
     <p><em>Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
 </div>
@@ -133,7 +133,7 @@ Permite ao organizador parametrizar a capacidade máxima do encontro e a viabili
 Simula o componente de mapa interativo do campus da Universidade de Brasília (FGA/UnB), demarcando os prédios principais (*UED, UAC e RU*). Apresenta um marcador móvel (*pin*) recortado avulso que pode ser movimentado com os dedos até o bloco desejado, acompanhado da caixa descritiva com o endereço formalizado (*"Bloco UAC — UNB GAMA SALA I04"*) e o botão `[ Clique aqui para confirmar o local ]`.
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <img src="../../assets/prototipo-papel/tarefa2/peca-movel-mapa-localizacao.jpg" alt="Peça Móvel 3 - Modal de Mapa de Localização" style="max-width: 80%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-5">
+    <img src="../../../assets/prototipo-papel/tarefa2/peca-movel-mapa-localizacao.jpg" alt="Peça Móvel 3 - Modal de Mapa de Localização" style="max-width: 80%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-5">
     <p><strong>Figura 5</strong> — Peça Móvel 3: Modal de geolocalização com mapa esquemático da UnB Gama e marcador móvel (*pin*).</p>
     <p><em>Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
 </div>
@@ -154,7 +154,7 @@ A Prancha Base 3 representa a página final de sucesso após o participante acio
 A Figura 6 exibe o registro fotográfico da Prancha Base 3.
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <img src="../../assets/prototipo-papel/tarefa2/folha3-evento-publicado-sucesso.jpg" alt="Prancha Base 3 - Página do Evento Publicado com Sucesso" style="max-width: 90%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-6">
+    <img src="../../../assets/prototipo-papel/tarefa2/folha3-evento-publicado-sucesso.jpg" alt="Prancha Base 3 - Página do Evento Publicado com Sucesso" style="max-width: 90%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border: 1px solid #333;" id="figura-6">
     <p><strong>Figura 6</strong> — Prancha Base 3 (Folha 3): Página final de divulgação do workshop com confirmação de publicação e mapa.</p>
     <p><em>Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
 </div>
