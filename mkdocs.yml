@@ -78,6 +78,8 @@ nav:
     - Entrega 4: entregas/entrega4.md
     - Entrega 5: entregas/entrega5.md
     - Entrega 6: entregas/entrega6.md
+    - Entrega 7: entregas/entrega7.md
+    - Entrega 8: entregas/entrega8.md
 
   - Planejamento do Projeto:
     - Equipe: planejamento/equipe.md
@@ -125,8 +127,10 @@ nav:
       - Protótipo de Papel:
           - Planejamento da Avaliação: design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-avaliacao.md
           - Planejamento do Relato de Resultados: design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/planejamento-relato-resultados.md
-          - Relato dos Resultados: design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados.md
+          - Relato dos Resultados (Tarefa 1 — Vinicius Silva): design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados.md
+          - Relato dos Resultados (Tarefa 2 — Gustavo Antonio): design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados-tarefa2.md
           - Bancada e Peças Físicas (Tarefa 1): design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/prototipo-papel-tarefa1.md
+          - Bancada e Peças Físicas (Tarefa 2): design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/prototipo-papel-tarefa2.md
           - Teste-Piloto de Nível 2: design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/teste-piloto.md
   - Design, Avaliação e Desenvolvimento (Nível 3):
       - design-avaliacao-desenvolvimento/nivel-3/index.md

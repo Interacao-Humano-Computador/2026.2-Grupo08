@@ -33,6 +33,12 @@ A avaliação formativa do Protótipo de Papel (Nível 2) teve como objetivo inv
 
 Adicionalmente, este documento alinha-se ao planejamento consolidado da equipe para a **Tarefa 2 (`CF02`)**, conduzida por Gustavo Antonio Rodrigues e Silva, assegurando que ambas as funcionalidades compartilhem a mesma metodologia de registro e critérios de severidade.
 
+> [!NOTE] Relato dos Resultados da Tarefa 2 (Eventos Presenciais)
+> O relato empírico completo da **Tarefa 2 (Criação de Eventos Presenciais com Mapa e Ingressos)**, conduzida por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) com a participação dos discentes P1 e P2, incorporação dos vídeos gravados e catalogação de severidade de Nielsen, encontra-se documentado na página dedicada:  
+> 👉 **[Acessar o Relato dos Resultados da Tarefa 2 (Gustavo Antonio)](relato-resultados-tarefa2.md)**.
+> Para consultar as pranchas e peças físicas desenhadas para esta funcionalidade, acesse:  
+> 👉 **[Bancada e Artefatos Físicos da Tarefa 2 (Gustavo Antonio)](prototipo-papel-tarefa2.md)**.
+
 Os objetivos específicos investigados foram:
 
 1. Avaliar a facilidade de localização do ponto de entrada primário (`+ Novo Tópico`) na prancha da página inicial;
