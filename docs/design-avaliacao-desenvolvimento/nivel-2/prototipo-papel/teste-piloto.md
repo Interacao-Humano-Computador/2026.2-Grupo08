@@ -253,6 +253,7 @@ A Tabela 6 documenta o histórico de versões deste documento.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 30/10/2026 | Elaboração inicial do Protocolo e Roteiro do Teste-Piloto do Protótipo de Papel da Tarefa 1 (Nível 2), delimitando a infraestrutura física de bancada (`Folhas 1, 2 e 3` e 3 peças móveis), gravação em suporte a 45 graus, leitura do TCLE oral (< 60s), simulação da dinâmica com Computador Humano, cláusula de isolamento de dados, vídeo incorporado e matriz de lições aprendidas. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 03/11/2026 | Inclusão do relato e parâmetros do Teste-Piloto da Tarefa 2 (Gustavo Antonio), abrangendo calibração do suporte de câmera a 45º, latência mecânica de sobreposição das peças de mapa e relógio, aferição do TCLE oral (< 60s) e Tabela 4b de ocorrências e ajustes. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 

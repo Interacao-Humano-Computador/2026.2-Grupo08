@@ -8,7 +8,7 @@ A Tabela 1 documenta a matriz de governança, divisão de responsabilidades e de
 
 | Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA Utilizada | Propósito do Uso de IA | Hiperligação / Gravação |
 | :--- | :--- | :---: | :---: | :--- | :--- | :---: |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor Principal / Avaliador**: Condução empírica presencial da avaliação formativa com 2 participantes discentes reais (P1 e P2), condução e registro do teste-piloto, fundamentação teórica amostral (Nielsen, Virzi, Krug e Snyder), transcrição das verbalizações, tabulação de severidade de Nielsen (0 a 4) de `PROB-PP-T2-01` a `05`, formulação das diretrizes de reprojeto para o Figma e incorporação dos vídeos. | 03/11/2026 | 19:30 - 22:30 | Google Gemini (LLM) | Apoio na estruturação sintática de tabelas Markdown e validação de equações KaTeX. | [Seção 9](#9-registro-audiovisual-das-sessoes-e-consentimento-verbal-tcle) |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor Principal / Avaliador**: Condução empírica presencial da avaliação formativa com 2 participantes discentes reais (P1 e P2), condução e registro do teste-piloto, fundamentação teórica amostral (Nielsen, Virzi, Krug e Snyder), transcrição das verbalizações, tabulação de severidade de Nielsen (0 a 4) de `PROB-PP-T2-01` a `05`, formulação das diretrizes de reprojeto para o Figma e incorporação dos vídeos. | 03/11/2026 | 19:30 - 22:30 | Google Gemini (LLM) | Apoio na estruturação sintática de tabelas Markdown e estruturação e validação de equações matemáticas em UTF-8. | [Seção 9](#9-registro-audiovisual-das-sessoes-e-consentimento-verbal-tcle) |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor por Par Designado**: Revisão metodológica cruzada, auditoria da classificação na escala de severidade de Nielsen e verificação de conformidade com o relato da Tarefa 1. | 03/11/2026 | 22:30 - 23:00 | — | Revisão humana por pares. | [Histórico](#12-historico-de-versao) |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Checagem de conformidade com a lista de verificação de Fagan, conferência das fontes nominais e alinhamento com o Plano de Ensino. | 03/11/2026 | 23:00 - 23:30 | — | Revisão humana por pares. | [Histórico](#12-historico-de-versao) |
 
@@ -47,15 +47,19 @@ A delimitação da amostra em **dois participantes reais dedicados para a avalia
 ### 3.1 Modelagem Binomial de Descoberta de Falhas (Nielsen & Landauer, 1993; Nielsen, 2000)
 A descoberta de problemas de usabilidade em ensaios formativos segue a equação assintótica de Poisson formulada por **Jakob Nielsen e Thomas K. Landauer (1993)**:
 
-$$P(n) = 1 - (1 - L)^n$$
+<div style="text-align: center; margin: 1rem 0; font-family: monospace; font-size: 1.1rem; background: rgba(0,0,0,0.03); padding: 0.75rem; border-radius: 6px;">
+    <strong>P(n) = 1 − (1 − L)ⁿ</strong>
+</div>
 
 Onde:
-- $n$ representa o número de participantes avaliados;
-- $L$ é a proporção média de problemas identificados por um único usuário típico, estimada empiricamente por Nielsen em $L \approx 0{,}31$ (31%).
+- **n** representa o número de participantes avaliados;
+- **L** é a proporção média de problemas identificados por um único usuário típico, estimada empiricamente por Nielsen em **L ≈ 0,31** (31%).
 
-Aplicando os parâmetros para uma amostra de **dois participantes** ($n = 2$):
+Aplicando os parâmetros para uma amostra de **dois participantes** (**n = 2**):
 
-$$P(2) = 1 - (1 - 0{,}31)^2 = 1 - (0{,}69)^2 = 1 - 0{,}4761 = \mathbf{0{,}5239 \ (52{,}4\%)}$$
+<div style="text-align: center; margin: 1rem 0; font-family: monospace; font-size: 1.05rem; background: rgba(0,0,0,0.03); padding: 0.75rem; border-radius: 6px;">
+    <strong>P(2) = 1 − (1 − 0,31)² = 1 − (0,69)² = 1 − 0,4761 = 0,5239 (52,4%)</strong>
+</div>
 
 Matematicamente, **dois participantes isolados são suficientes para expor mais da metade (52,4%) de todos os problemas de usabilidade existentes no fluxo avaliado**. Conforme enfatiza **Jakob Nielsen (2000)** em seu célebre estudo *Why You Only Need to Test with 5 Users*:
 
@@ -63,9 +67,9 @@ Matematicamente, **dois participantes isolados são suficientes para expor mais 
 > — **NIELSEN, Jakob.** *Why You Only Need to Test with 5 Users*. Fremont: Nielsen Norman Group, 2000.
 
 ### 3.2 Captura Prematura dos Problemas Mais Graves (Virzi, 1992)
-O estudo experimental seminal de **Robert A. Virzi (1992)** (*Refining the test phase of usability evaluation: How many subjects is enough?*) demonstrou que a probabilidade de detecção ($L$) não é homogênea entre todos os problemas: **as falhas de usabilidade graves e catastróficas possuem taxa de descoberta substancialmente maior ($L > 0{,}50$) do que os problemas puramente cosméticos**.
+O estudo experimental seminal de **Robert A. Virzi (1992)** (*Refining the test phase of usability evaluation: How many subjects is enough?*) demonstrou que a probabilidade de detecção (**L**) não é homogênea entre todos os problemas: **as falhas de usabilidade graves e catastróficas possuem taxa de descoberta substancialmente maior (L > 0,50) do que os problemas puramente cosméticos**.
 
-Dessa forma, com apenas **dois participantes**, uma avaliação formativa captura entre **$75\%$ e $80\%$ de todos os problemas críticos de usabilidade**, garantindo que as maiores barreiras de interação sejam remediadas antes do design digital de alta fidelidade.
+Dessa forma, com apenas **dois participantes**, uma avaliação formativa captura entre **75% e 80% de todos os problemas críticos de usabilidade**, garantindo que as maiores barreiras de interação sejam remediadas antes do design digital de alta fidelidade.
 
 ### 3.3 A Abordagem Enxuta e Iterativa de Steve Krug (2010 / 2014)
 Em *Rocket Surgery Made Easy* (2010) e *Não Me Faça Pensar* (2014), **Steve Krug** preconiza o método *Do-It-Yourself* de usabilidade, demonstrando que em avaliações formativas:
@@ -154,7 +158,7 @@ A Tabela 3 consolida o catálogo analítico dos problemas da Tarefa 2.
 | **PROB-PP-T2-01** | **Inversão lógica entre Quórum Mínimo e Lotação Máxima:** No modal de lotação, o campo de teto máximo precede o quórum mínimo, contrariando o raciocínio de viabilidade do organizador. | Heurística 2: Correspondência com o mundo real | **Grau 2** (Menor) | P1 | No Figma, inverter a ordem dos campos: dispor primeiro o *Quórum Mínimo de Viabilidade* e, logo abaixo, o *Limite Máximo de Lotação*. |
 | **PROB-PP-T2-02** | **Alinhamento e dispersão dos botões de ação:** Botões de rodapé alinhados aos extremos criam dispersão visual e dificultam a escaneabilidade em telas amplas. | Heurística 8: Design estético e minimalista | **Grau 1** (Cosmético) | P1 | Centralizar o grupo de botões de ação primária e secundária com espaçamento harmônico de 16px no design digital. |
 | **PROB-PP-T2-03** | **Sobrecarga cognitiva e inadequação cultural do seletor AM/PM:** O formato de 12 horas gera dúvidas conceituais para interagentes no contexto brasileiro e da cultura Linux. | Heurística 4: Consistência e padrões | **Grau 2** (Menor) | P2 | Eliminar os seletores `[ Am ]` e `[ Pm ]`, implementando no Figma um seletor no padrão nativo de **relógio 24 horas (00:00 às 23:59)** com digitação rápida assistida. |
-| **PROB-PP-T2-04** | **Densidade informacional excessiva no formulário central:** A prancha base concentra muitas configurações simultâneas em uma única área visual. | Heurística 8: Design estético e minimalista | **Grau 2** (Menor) | P2 | Estruturar o formulário de alta fidelidade em seções modulares retráteis (*accordions*) ou assistente em 3 passos (*wizard*: Dados Gerais $\rightarrow$ Local e Horário $\rightarrow$ Lotação e Ingressos). |
+| **PROB-PP-T2-04** | **Densidade informacional excessiva no formulário central:** A prancha base concentra muitas configurações simultâneas em uma única área visual. | Heurística 8: Design estético e minimalista | **Grau 2** (Menor) | P2 | Estruturar o formulário de alta fidelidade em seções modulares retráteis (*accordions*) ou assistente em 3 passos (*wizard*: Dados Gerais → Local e Horário → Lotação e Ingressos). |
 | **PROB-PP-T2-05** | **Área visual reduzida do mapa na página do evento publicado:** A miniatura do mapa na tela de sucesso final oferece pouca visibilidade para trajetos e pontos de referência. | Heurística 6: Reconhecimento em vez de recordação | **Grau 1** (Cosmético) | P2 | No Figma, expandir a largura do contêiner do mapa para 100% da coluna de detalhes, com suporte a zoom interativo e botão "Abrir no OpenStreetMap / Google Maps". |
 
 _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Nielsen (1994) e Snyder (2003), 2026._
@@ -172,7 +176,7 @@ A partir das inconsistências catalogadas na Tabela 3, foram estabelecidas cinco
 3. **Padrão de Horário Nativo de 24 Horas (Solução de `PROB-PP-T2-03`):**  
    O componente digital de *timepicker* descartará completamente a notação anglófona de 12 horas (AM/PM), adotando mostrador duplo de horas (00 a 23) e minutos (00 a 55 em múltiplos de 5), com suporte a máscara numérica direta pelo teclado.
 4. **Alívio da Densidade Informacional via Passos Progressivos (Solução de `PROB-PP-T2-04`):**  
-   Em substituição ao formulário estático longo, a criação de eventos adotará um fluxo progressivo em três etapas com indicador de progresso no topo: *Passo 1: Sobre o Evento* $\rightarrow$ *Passo 2: Quando e Onde* $\rightarrow$ *Passo 3: Vagas e Ingressos*.
+   Em substituição ao formulário estático longo, a criação de eventos adotará um fluxo progressivo em três etapas com indicador de progresso no topo: *Passo 1: Sobre o Evento* → *Passo 2: Quando e Onde* → *Passo 3: Vagas e Ingressos*.
 5. **Destaque Espacial do Mapa de Acesso (Solução de `PROB-PP-T2-05`):**  
    A prancha digital da página final do evento publicado dedicará um card de mapa com proporção 16:9 de alta visibilidade, demarcando o trajeto até a sala universitária e oferecendo atalhos rápidos para aplicativos de navegação GPS.
 
@@ -322,4 +326,4 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ## Agradecimentos e Declaração de Uso de IA Generativa
 
-Em conformidade com as diretrizes da Sociedade Brasileira de Computação (SBC, 2023) e o Plano de Ensino da disciplina (Sales, 2026), declara-se que durante a elaboração deste artefato foram utilizados recursos de Inteligência Artificial Generativa (Google Gemini) exclusivamente para apoio à estruturação e validação sintática das tabelas em Markdown e equações matemáticas KaTeX. Toda a condução empírica presencial das avaliações, transcrição de áudios, catalogação dos problemas de usabilidade, cálculo de severidade e formulação das recomendações de reprojeto foram concebidas e executadas integralmente pelos autores humanos listados no Histórico de Versão.
+Em conformidade com as diretrizes da Sociedade Brasileira de Computação (SBC, 2023) e o Plano de Ensino da disciplina (Sales, 2026), declara-se que durante a elaboração deste artefato foram utilizados recursos de Inteligência Artificial Generativa (Google Gemini) exclusivamente para apoio à estruturação e validação sintática das tabelas em Markdown e formatação de equações matemáticas em UTF-8 nativo. Toda a condução empírica presencial das avaliações, transcrição de áudios, catalogação dos problemas de usabilidade, cálculo de severidade e formulação das recomendações de reprojeto foram concebidas e executadas integralmente pelos autores humanos listados no Histórico de Versão.
