@@ -59,7 +59,7 @@ _Fonte: Grupo 08, 2026._
 
 !!! info "Relatório em PDF Padronizado para Entrega Acadêmica"
     Em conformidade com a exigência formal do enunciado do Aprender 3 (*"InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf"*), o documento consolidado da inspeção com cabeçalho institucional UnB/FGA, paginação dinâmica e quadro analítico completo está disponível para download:
-    [:material-file-pdf-box: **InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf**](../../assets/relatorios/InspecçãoGrupomais1Projeto%20PrincGeraisMetasUsabGuiaEstiloSite.pdf)
+    [:material-file-pdf-box: **Inspecao_Grupo01_Etapa3_Principios_Metas_GuiaEstilo.pdf**](../../assets/relatorios/Inspecao_Grupo01_Etapa3_Principios_Metas_GuiaEstilo.pdf)
 
 ---
 

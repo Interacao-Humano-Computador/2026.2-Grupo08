@@ -5,7 +5,7 @@
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação metodológica, fundamentação demográfica com base secundária (IBGE) e autoria do Perfil 1 (Estudante / Usuário Comum). | 09/10/2026 | Suporte na estruturação Markdown e formatação de dados estatísticos. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Autoria individual e detalhamento completo do Perfil 2 (Moderador / Guardião da Comunidade), consolidação da matriz comparativa e adequação pós-revisão por pares do PR #71. | 21/10/2026 | LLM (Antigravity): apoio na formulação dos atributos de moderação e alinhamento às diretrizes do Discourse. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Autoria individual e detalhamento completo do Perfil 2 (Moderador / Guardião da Comunidade), consolidação da matriz comparativa e adequação pós-revisão por pares do PR #71. | 21/10/2026 | Google Gemini (LLM): apoio na formulação dos atributos de moderação e alinhamento às diretrizes do Discourse. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Autoria individual do Perfil 3 (Administrador / Gestor do Sistema) e elaboração da lista de verificação. | 09/10/2026 | LLM: apoio na síntese de atributos de infraestrutura e revisão cruzada por pares. |
 
 ---
@@ -265,4 +265,4 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## 9. Agradecimentos e Uso de Inteligência Artificial Generativa
 
-Durante o desenvolvimento deste artefato, foram utilizados recursos de Inteligência Artificial Generativa (Antigravity LLM / Gemini) exclusivamente para suporte de formatação sintática em tabelas Markdown, apoio analítico na verificação de consistência entre dimensões de análise e refinamento de redação técnica. A conceituação dos perfis funcionais, a consolidação dos dados empíricos, as decisões de projeto e a validação do conteúdo são de inteira e exclusiva responsabilidade dos estudantes e autores identificados no documento.
+Durante o desenvolvimento deste artefato, foram utilizados recursos de Inteligência Artificial Generativa (Google Gemini) exclusivamente para suporte de formatação sintática em tabelas Markdown, apoio analítico na verificação de consistência entre dimensões de análise e refinamento de redação técnica. A conceituação dos perfis funcionais, a consolidação dos dados empíricos, as decisões de projeto e a validação do conteúdo são de inteira e exclusiva responsabilidade dos estudantes e autores identificados no documento.

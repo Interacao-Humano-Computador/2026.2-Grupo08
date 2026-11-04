@@ -8,7 +8,7 @@ A Tabela 1 apresenta as informações de autoria e revisão deste artefato teór
 
 | Integrante | Atribuição | Data | Horário | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :---: | :--- |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor do Item Teórico**: Pesquisa bibliográfica, redação da fundamentação conceitual de Storyboarding, transcrição de citações e seleção da evidência imagética. | 13/10/2026 | 19:30 - 21:00 | LLM (Antigravity): suporte na estruturação das tabelas Markdown e checagem ABNT. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Autor do Item Teórico**: Pesquisa bibliográfica, redação da fundamentação conceitual de Storyboarding, transcrição de citações e seleção da evidência imagética. | 13/10/2026 | 19:30 - 21:00 | Google Gemini (LLM): suporte na estruturação das tabelas Markdown e checagem ABNT. |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Designado**: Auditoria conceitual, verificação de consistência metodológica frente ao Plano de Ensino e conferência da evidência visual. | 13/10/2026 | 21:00 - 21:30 | Nenhuma ferramenta utilizada (revisão humana por pares). |
 
 _Fonte: Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
@@ -172,5 +172,5 @@ _Fonte: Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a diagramação deste artefato, foram utilizados recursos de Inteligência Artificial Generativa (Antigravity LLM / Gemini) exclusivamente para suporte de formatação sintática em tabelas Markdown e checagem de referências ABNT. A fundamentação teórica, a seleção das citações diretas, a análise crítica e a validação bibliográfica foram conduzidas e validadas integralmente pelo discente identificado no documento.
+Durante a diagramação deste artefato, foram utilizados recursos de Inteligência Artificial Generativa (Google Gemini) exclusivamente para suporte de formatação sintática em tabelas Markdown e checagem de referências ABNT. A fundamentação teórica, a seleção das citações diretas, a análise crítica e a validação bibliográfica foram conduzidas e validadas integralmente pelo discente identificado no documento.
 
