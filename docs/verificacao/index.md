@@ -8,11 +8,11 @@ A Tabela 1 apresenta a distribuição de responsabilidades, papéis e ferramenta
 
 | Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Tech Lead / Auditor Principal**: Concepção metodológica, arquitetura modular de verificação (ADR-07), fundamentação canônica em Fagan (1976), Mayhew (1999) e redação técnica do portal | 27/10/2026 | 00:30 - 01:20 | Google Gemini (LLM) | Apoio na estruturação sintática de Markdown e alinhamento ABNT |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Auditor Técnico**: Curadoria dos artefatos de Nível 1 e governança de repositório; co-apresentador das auditorias audiovisuais | 27/10/2026 | 00:45 - 01:20 | Google Gemini (LLM) | Apoio na padronização de diagramas Mermaid e checagem de links |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Auditor Técnico**: Curadoria dos artefatos de Nível 2 e checagem cruzada das matrizes de conformidade e métricas ponderadas | 27/10/2026 | 01:00 - 01:20 | — | Revisão humana por pares e conferência de consistência |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Tech Lead / Auditor Principal**: Concepção metodológica, arquitetura modular de verificação (ADR-07), fundamentação canônica em Fagan (1976), Mayhew (1999) e redação técnica do portal | 04/11/2026 | 20:30 - 22:45 | Google Gemini (LLM) | Apoio na estruturação sintática de Markdown e alinhamento ABNT |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Auditor Técnico**: Curadoria dos artefatos de Nível 1 e governança de repositório; co-apresentador das auditorias audiovisuais | 04/11/2026 | 20:30 - 22:30 | Google Gemini (LLM) | Apoio na padronização de diagramas Mermaid e checagem de links |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Auditor Técnico**: Curadoria dos artefatos de Nível 2 e checagem cruzada das matrizes de conformidade e métricas ponderadas | 04/11/2026 | 20:30 - 22:15 | — | Revisão humana por pares e conferência de consistência |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -42,7 +42,7 @@ flowchart LR
     G08["Grupo 08 (Nossa Equipe)<br/><b>Fórum Diolinux Plus</b><br/><i>Autoavaliação Contínua</i>"]
     G01["Grupo 01 (Grupo N + 1)<br/><b>Microsoft Teams</b><br/><i>Auditado pelo Grupo 08</i>"]
 
-    G08 -.->|"Inspeção das Etapas 2 e 4"| G07
+    G08 -.->|"Inspeção das Etapas 2, 4 e 6"| G07
     G08 -->|"Desenvolvimento e Autoavaliação"| G08
     G08 ==>|"Inspeção das Etapas 3 e 5"| G01
 
@@ -52,7 +52,7 @@ flowchart LR
     class G07,G01 peer;
 ```
 
-<p style="font-size: 0.85rem; color: var(--dp-muted); text-align: center;"><strong>Figura 1</strong> — Diagrama de fluxo da sistemática cíclica de avaliação por pares na disciplina. <em>Fonte: Autores (Grupo 08), 2026.</em></p>
+<p style="font-size: 0.85rem; color: var(--dp-muted); text-align: center;"><strong>Figura 1</strong> — Diagrama de fluxo da sistemática cíclica de avaliação por pares na disciplina. <em>Fonte: Diagrama elaborado por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026.</em></p>
 
 ---
 
@@ -64,12 +64,12 @@ A Tabela 2 sintetiza os acessos diretos aos instrumentos de verificação, relat
 
 | Módulo / Escopo | Objeto / Finalidade | Etapas Cobertas | Acesso Direto |
 | :--- | :--- | :---: | :---: |
-| **Checklists Normativos** | Instrumentos em branco padronizados com perguntas objetivas e fontes canônicas | Etapas 1, 2, 3, 4 e 5 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
-| **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1, 2, 3, 4 e 5 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
-| **Avaliação do Grupo -1** | Auditoria técnica e pedagógica do Grupo 07 (Portal PCI Concursos) | Hub Central, Etapa 4 e Etapa 2 | [:material-account-arrow-left: Acessar Auditoria Grupo 07](grupo07/index.md) |
-| **Avaliação do Grupo +1** | Auditoria técnica e pedagógica do Grupo 01 (Microsoft Teams) | Hub Central, Etapa 5 e Etapa 3 | [:material-account-arrow-right: Acessar Auditoria Grupo 01](grupo01/index.md) |
+| **Checklists Normativos** | Instrumentos em branco padronizados com perguntas objetivas e fontes canônicas | Etapas 1, 2, 3, 4, 5 e 6 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
+| **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1, 2, 3, 4, 5 e 6 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
+| **Avaliação do Grupo -1** | Auditoria técnica e pedagógica do Grupo 07 (Portal PCI Concursos) | Hub Central, Etapas 2, 4 e 6 | [:material-account-arrow-left: Acessar Auditoria Grupo 07](grupo07/index.md) |
+| **Avaliação do Grupo +1** | Auditoria técnica e pedagógica do Grupo 01 (Microsoft Teams) | Hub Central, Etapas 3 e 5 | [:material-account-arrow-right: Acessar Auditoria Grupo 01](grupo01/index.md) |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -96,7 +96,7 @@ _Fonte: Elaborada pelos autores (Grupo 08), 2026._
   <div style="background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between;">
     <div>
       <h3 style="margin-top: 0; font-size: 1.05rem;">👥 Grupo -1: Grupo 07 (PCI)</h3>
-      <p style="font-size: 0.88rem; color: var(--dp-text);">Auditorias da Etapa 2 (Perfil e Tarefas) e Etapa 4 (Planejamento de Nível 1), vídeos de apresentação e relatórios em PDF para download.</p>
+      <p style="font-size: 0.88rem; color: var(--dp-text);">Auditorias da Etapa 2 (Perfil e Tarefas), Etapa 4 (Planejamento de Nível 1) e Etapa 6 (Relato em Papel e Alta Fidelidade), vídeos de apresentação e relatórios em PDF para download.</p>
     </div>
     <a href="grupo07/index.md" class="md-button" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Acessar Hub Grupo 07</a>
   </div>
@@ -122,8 +122,9 @@ A Tabela 3 documenta a evolução histórica deste Portal de Verificação.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 27/10/2026 | Estruturação inicial do Portal Geral de Verificação e Garantia da Qualidade (ADR-07): integração metodológica de Fagan (1976), fluxo cíclico de avaliação por pares e navegação rápida pelos módulos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.1` | 04/11/2026 | Atualização do fluxo cíclico e dos módulos de inspeção com a inclusão da auditoria da Etapa 6 do Grupo -1 (Grupo 07). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

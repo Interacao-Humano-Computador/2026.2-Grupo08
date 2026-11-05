@@ -3,18 +3,25 @@
 <div class="dp-page-nav" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.2rem 0 1.8rem 0; padding: 0.8rem 1rem; background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px;" markdown="1">
 
 [:material-hub: **Hub Central (Visão Geral)**](index.md){ .md-button .md-button--primary }
-[:material-rocket-launch: **Etapa 4 (Planejamento de Nível 1)**](etapa4.md){ .md-button  }
-[:material-clipboard-check: **Etapa 2 (Perfil de Usuário e Tarefas)**](etapa2.md){ .md-button  }
+[:material-rocket-launch: **Etapa 6 (Relato do Protótipo de Papel e Alta Fidelidade)**](etapa6.md){ .md-button }
+[:material-clipboard-check: **Etapa 4 (Planejamento de Nível 1)**](etapa4.md){ .md-button }
+[:material-checkbox-marked-outline: **Etapa 2 (Perfil de Usuário e Tarefas)**](etapa2.md){ .md-button }
 
 </div>
 
-## Tabela de Contribuição
+## Tabela de Contribuição e Transparência de IA Generativa
+
+A Tabela 0 sintetiza as contribuições dos membros do Grupo 08 na governança e atualização contínua deste Hub Central de Auditoria.
+
+**Tabela 0** — Matriz de Contribuição do Hub Central do Grupo 07
 
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão técnica consolidada das auditorias, estruturação do Hub Central e auditoria ética da Etapa 4 | 14/10/2026 | Suporte na estruturação Markdown e checagem tabular sob curadoria discente |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Auditoria técnica de governança, repositório e cronograma; consolidação das métricas e co-apresentador em vídeo | 14/10/2026 | Suporte na estruturação Markdown e checagem tabular sob curadoria discente |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Coordenação geral das auditorias, elaboração das matrizes de conformidade, redação técnica e co-apresentador em vídeo | 14/10/2026 | Suporte na estruturação Markdown e checagem tabular sob curadoria discente |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão técnica consolidada das auditorias, estruturação do Hub Central e auditoria da Etapa 6 e Etapa 4 | 04/11/2026 | Suporte na estruturação Markdown e checagem tabular sob curadoria discente |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Auditoria técnica de governança, repositório e cronograma; consolidação das métricas e co-apresentador em vídeo da Etapa 4 e Etapa 6 | 04/11/2026 | Suporte na estruturação Markdown e checagem tabular sob curadoria discente |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Coordenação geral das auditorias, elaboração das matrizes de conformidade, redação técnica e co-apresentador em vídeo da Etapa 4 e Etapa 6 | 04/11/2026 | Suporte na estruturação Markdown e checagem tabular sob curadoria discente |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -24,7 +31,10 @@ Este documento constitui o **Hub Central de Verificação e Auditoria Técnica d
 
 A sistemática pedagógica da disciplina estabelece uma avaliação cíclica entre pares, na qual cada equipe audita formalmente o grupo precedente na escala (Grupo N avalia Grupo N − 1). Dessa forma, cabe ao Grupo 08 a responsabilidade de auditar minuciosamente os artefatos produzidos pelo **Grupo 07**, cujo objeto de estudo é o sítio [PCI Concursos](https://www.pciconcursos.com.br/).
 
-As inspeções são norteadas pelo método formal de inspeção por listas de verificação (*Checklists* Normativos) fundamentado na técnica clássica de Fagan (1976), combinando critérios estritos de governança e padronização acadêmica extraídos do Plano de Ensino da disciplina (*Sales, 2026*) com o rigor conceitual da literatura canônica de IHC (Barbosa et al., 2021; Mayhew, 1999; Cooper, 1999; Preece et al., 2002). O objetivo central desta iniciativa é fornecer um diagnóstico técnico rigoroso, transparente e construtivo que subsidie as correções e o aprimoramento contínuo do projeto do Grupo 07 ao longo de todo o semestre letivo.
+As inspeções são norteadas pelo método formal de inspeção por listas de verificação (*Checklists* Normativos) fundamentado na técnica clássica de Fagan (1976), combinando critérios estritos de governança e padronização acadêmica extraídos do Plano de Ensino da disciplina (*Sales, 2026*) com o rigor conceitual da literatura canônica de IHC (Barbosa et al., 2021; Mayhew, 1999; Cooper, 1999; Preece et al., 2002; Snyder, 2003). O objetivo central desta iniciativa é fornecer um diagnóstico técnico rigoroso, transparente e construtivo que subsidie as correções e o aprimoramento contínuo do projeto do Grupo 07 ao longo de todo o semestre letivo.
+
+_Autor do Item Teórico: [Vinicius Silva Araruna](https://github.com/ViniciusA05)_  
+*(Fundamentação teórica de inspeção formal em Fagan, 1976, Barbosa et al., 2021 e Mayhew, 1999).*
 
 ---
 
@@ -36,16 +46,37 @@ A Tabela 1 apresenta o panorama cronológico e consolidado de todas as etapas do
 
 | Etapa Avaliada | Data da Avaliação | Versão / Commit Avaliado | Conformidade Geral | Relatório Completo | Apresentação em Vídeo | Relatório Oficial em PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Etapa 2**<br>*(Perfil de Usuário, Aspectos Éticos e Tarefas)* | 28/09/2026 | Commit `2a5ac45`<br>*(28/09/2026)* | **17,4% Pleno**<br>60,9% Parcial<br>21,7% Não Conforme | [Acessar Relatório da Etapa 2](etapa2.md) | [:material-youtube: Assistir (1Aobj09jrYo)](https://youtu.be/1Aobj09jrYo) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf) |
+| **Etapa 6**<br>*(Relato do Protótipo de Papel e Planejamento de Alta Fidelidade)* | 04/11/2026 | Commit `8cc5c90`<br>*(04/11/2026)* | **73,9% Pleno**<br>17,4% Parcial<br>8,7% Não Conforme<br>*(Taxa Ponderada: 82,6%)* | [Acessar Relatório da Etapa 6](etapa6.md) | [:material-youtube: Assistir (I8WZ7egMrCA)](https://youtu.be/I8WZ7egMrCA) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Grupo08InspecaoGrupo07Etapa6.pdf) |
 | **Etapa 4**<br>*(Planejamento de Nível 1: Storyboard e Tarefas)* | 14/10/2026 | Commit `11e393c`<br>*(13/10/2026)* | **44,0% Pleno**<br>28,0% Parcial<br>28,0% Não Conforme<br>*(Taxa Ponderada: 58,0%)* | [Acessar Relatório da Etapa 4](etapa4.md) | [:material-youtube: Assistir (f6q9lgPUmVA)](https://youtu.be/f6q9lgPUmVA) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/PlajRelatoStoryBoardInspecaoPCIConcursosGrupo07.pdf) |
+| **Etapa 2**<br>*(Perfil de Usuário, Aspectos Éticos e Tarefas)* | 28/09/2026 | Commit `2a5ac45`<br>*(28/09/2026)* | **17,4% Pleno**<br>60,9% Parcial<br>21,7% Não Conforme | [Acessar Relatório da Etapa 2](etapa2.md) | [:material-youtube: Assistir (1Aobj09jrYo)](https://youtu.be/1Aobj09jrYo) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf) |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
 ## Navegação Rápida pelos Relatórios de Inspeção
 
 Para facilitar a consulta dos avaliadores, do professor e dos próprios integrantes do Grupo 07, os relatórios de cada etapa estão estruturados em páginas dedicadas com riqueza analítica, gráficos e planos de ação.
+
+### Etapa 6 — Relato do Protótipo de Papel (Nível 2) e Planejamento de Alta Fidelidade (Nível 3)
+
+A auditoria da Etapa 6 inspecionou 23 critérios (11 de Governança Geral e 12 de Conteúdo da Disciplina), abrangendo os testes presenciais com o Protótipo de Papel e o "Computador Humano", testes-piloto, termo de consentimento (TCLE), matriz de severidade de Nielsen (0 a 4) e o planejamento da avaliação de Alta Fidelidade no Figma segundo o framework DECIDE.
+
+- **Status Geral**: 17 itens Conformes (73,9%), 4 Incompletos (17,4%) e 2 Não Conformes (8,7%), alcançando **Taxa Ponderada de Conformidade de 82,6%**.
+- **Principais Destaques Positivos**:
+    - Qualidade e detalhamento dos componentes móveis e telas base de papel (Snyder, 2003);
+    - Segregação de papéis entre Facilitador e Computador Humano nas sessões gravadas;
+    - Cláusula expressa de isolamento dos dados do teste-piloto;
+    - Aplicação integral das 6 fases do Framework DECIDE no Planejamento de Alta Fidelidade com métricas SUS e KLM.
+- **Problemas Críticos Identificados**:
+    - **Incompletude nas apresentações em vídeo da Etapa 6**: ausência das gravações de Arthur Carvalho, Leonardo Lopes e Pedro Rocha (apenas Daniel Batista publicou vídeo individual);
+    - **Ausência de atas e gravações de reuniões** referentes à Etapa 6 em `docs/planejamento/ata-reuniao.md`;
+    - **Ciclo empírico pendente na TAR-08 (Leonardo Lopes)**: teste-piloto e sessões com usuários reais pendentes de realização;
+    - **Ausência da Lista de Verificação da Técnica** nos artefatos de planejamento de Alta Fidelidade.
+
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 6**](etapa6.md){ .md-button .md-button--primary }
+
+---
 
 ### Etapa 4 — Planejamento da Avaliação do Storyboard e da Análise de Tarefas (Nível 1 de Mayhew)
 
@@ -64,7 +95,7 @@ A auditoria da Etapa 4 examinou 25 critérios do Plano de Ensino da disciplina, 
     - **Falta de atas de reunião e gravações de alinhamento** referentes à Etapa 4;
     - **Omissão dos recortes teóricos fotográficos** com indicação formal de autor do item para Métodos de Avaliação e Teste-Piloto.
 
-[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 4**](etapa4.md){ .md-button .md-button--primary }
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 4**](etapa4.md){ .md-button }
 
 ---
 
@@ -94,12 +125,13 @@ A Tabela 2 documenta o histórico de versões e modificações deste Hub Central
 
 **Tabela 2** — Histórico de versão do documento
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| Versão | Data | Descrição Detalhada | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 28/09/2026 | Elaboração inicial da auditoria técnica referente à Etapa 2 do Grupo 07 | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.0` | 14/10/2026 | Estruturação do Hub Central de Verificação do Grupo 07, modularização do relatório da Etapa 2 e consolidação da inspeção formal da Etapa 4 | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `3.0` | 04/11/2026 | Integração da auditoria da Etapa 6 (Relato do Protótipo de Papel e Planejamento de Alta Fidelidade), atualização da matriz consolidada, inclusão da navegação rápida e registro do PDF institucional | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -110,7 +142,8 @@ _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 [3] FAGAN, Michael E. *Design and Code Inspections to Reduce Errors in Program Development*. IBM Systems Journal, v. 15, n. 3, p. 182-211, 1976.  
 [4] MAYHEW, Deborah J. *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999.  
 [5] PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: Beyond Human-Computer Interaction*. New York: John Wiley & Sons, 2002.  
-[6] SALES, André Barros de. *Plano de Ensino FIHC 022026 — Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.
+[6] SALES, André Barros de. *Plano de Ensino FIHC 022026 — Turma 01*. Brasília: Faculdade de Ciências e Tecnologias em Engenharia (FCTE), Universidade de Brasília (UnB), 2026.  
+[7] SNYDER, Carolyn. *Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces*. San Francisco: Morgan Kaufmann Publishers, 2003.
 
 ---
 
