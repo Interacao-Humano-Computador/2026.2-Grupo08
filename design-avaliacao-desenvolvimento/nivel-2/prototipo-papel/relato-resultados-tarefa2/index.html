@@ -1,0 +1,5205 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto de Interação Humano-Computador do Grupo 08, FCTE/UnB, 2026.2.">
+      
+      
+        <meta name="author" content="Grupo 08 — IHC 2026.2">
+      
+      
+        <link rel="canonical" href="https://interacao-humano-computador.github.io/2026.2-Grupo08/design-avaliacao-desenvolvimento/nivel-2/prototipo-papel/relato-resultados-tarefa2/">
+      
+      
+        <link rel="prev" href="../relato-resultados/">
+      
+      
+        <link rel="next" href="../relato-resultados-agendamento/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images_prints/LOGO_DIOLINUX.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>Relato dos Resultados (Tarefa 2 — Gustavo Antonio) - IHC 2026.2 - Grupo 08</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"IBM Plex Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#relato-dos-resultados-da-avaliacao-do-prototipo-de-papel-tarefa-2-eventos-presenciais" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../../.." title="IHC 2026.2 - Grupo 08" class="md-header__button md-logo" aria-label="IHC 2026.2 - Grupo 08" data-md-component="logo">
+      
+  <img src="../../../../assets/images_prints/LOGO_DIOLINUX.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IHC 2026.2 - Grupo 08
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Relato dos Resultados (Tarefa 2 — Gustavo Antonio)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Mudar para modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Mudar para modo alto contraste"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo alto contraste" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.38 20.9a2 2 0 0 1-1.28-1.27L19.63 3.1a2 2 0 0 1 1.27 1.28zM20 16v2h-7v-2zM3 6h3V3h2v3h3v2H8v3H6V8H3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="contrast" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Mudar para modo escuro"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Mudar para modo escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo08" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo08
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../entregas/entrega1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Entregas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../planejamento/equipe/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Planejamento do Projeto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../analise-requisitos/metodologia/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Análise de Requisitos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../nivel-1/storyboard/planejamento-avaliacao/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Design, Avaliação e Desenvolvimento (Nível 1)
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../planejamento-avaliacao/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Design, Avaliação e Desenvolvimento (Nível 2)
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../nivel-3/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Design, Avaliação e Desenvolvimento (Nível 3)
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../atas/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Atas de Reunião
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../verificacao/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../conteudo-teorico/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Conteúdo Teórico
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="IHC 2026.2 - Grupo 08" class="md-nav__button md-logo" aria-label="IHC 2026.2 - Grupo 08" data-md-component="logo">
+      
+  <img src="../../../../assets/images_prints/LOGO_DIOLINUX.png" alt="logo">
+
+    </a>
+    IHC 2026.2 - Grupo 08
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo08" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo08
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entregas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entregas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../entregas/entrega1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../entregas/entrega2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../entregas/entrega3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../entregas/entrega4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../entregas/entrega5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../entregas/entrega6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega 6
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Projeto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento do Projeto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../planejamento/equipe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../planejamento/cronograma-planejado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma Planejado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../planejamento/cronograma-executado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma Executado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../planejamento/quadro-de-atribuicoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quadro de Atribuições
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../planejamento/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../planejamento/processo-de-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../planejamento/heatmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heat Map
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../planejamento/sites-avaliados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lista de Sites Avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../planejamento/site-selecionado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site Selecionado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/metodologia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metodologia de Pesquisa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elicitação de Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Elicitação de Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/brainstorming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/analise-documental/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise Documental
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/entrevistas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrevistas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos Éticos e TCLE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/perfil-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfil do Usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/personas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas e Elenco
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/cenarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/analise-tarefas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/caracteristicas-da-plataforma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Características da Plataforma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/principios-gerais-de-projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Princípios Gerais de Projeto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/metas-de-usabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metas de Usabilidade e UX
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/guia-de-estilo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de Estilo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../analise-requisitos/conteudo-disciplina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conteúdo da Disciplina
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design, Avaliação e Desenvolvimento (Nível 1)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design, Avaliação e Desenvolvimento (Nível 1)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storyboard
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Storyboard
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-1/storyboard/planejamento-avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-1/storyboard/planejamento-relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-1/storyboard/relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../storyboards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storyboards da Equipe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-1/storyboard/storyboard-topico-markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storyboard de Criação de Tópico em Markdown com Integração de IA Semântica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-1/storyboard/storyboard-eventos-presenciais/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Storyboard de Eventos Presenciais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Tarefas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-1/analise-tarefas/planejamento-avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-1/analise-tarefas/planejamento-relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-1/analise-tarefas/relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato dos Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento-relato-tarefas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato Preliminar (Tarefas)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-1/questoes-praticas-cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Questões Práticas e Cronograma da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-1/teste-piloto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teste-Piloto de Nível 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../observacao-avaliador/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Instrumentos de Observação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design, Avaliação e Desenvolvimento (Nível 2)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design, Avaliação e Desenvolvimento (Nível 2)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protótipo de Papel
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Protótipo de Papel
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento-avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento-relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato de Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento-avaliacao-agendamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação (Tarefa 3 - Agendamento)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato dos Resultados (Tarefa 1 — Vinicius Silva)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato dos Resultados (Tarefa 2 — Gustavo Antonio)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato dos Resultados (Tarefa 2 — Gustavo Antonio)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-e-transparencia-no-uso-de-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Contribuição e Transparência no Uso de IA Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao-e-enquadramento-no-ciclo-de-mayhew" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução e Enquadramento no Ciclo de Mayhew
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metodologia-de-investigacao-empirica-empregada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Metodologia de Investigação Empírica Empregada
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Metodologia de Investigação Empírica Empregada">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-separacao-funcional-de-papeis-na-bancada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Separação Funcional de Papéis na Bancada
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-justificativa-cientifica-e-matematica-do-tamanho-da-amostra-n-2-participantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Justificativa Científica e Matemática do Tamanho da Amostra (n = 2 Participantes)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Justificativa Científica e Matemática do Tamanho da Amostra (n = 2 Participantes)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-modelagem-binomial-de-descoberta-de-falhas-nielsen-landauer-1993-nielsen-2000" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Modelagem Binomial de Descoberta de Falhas (Nielsen &amp; Landauer, 1993; Nielsen, 2000)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-captura-prematura-dos-problemas-mais-graves-virzi-1992" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Captura Prematura dos Problemas Mais Graves (Virzi, 1992)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-a-abordagem-enxuta-e-iterativa-de-steve-krug-2010-2014" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 A Abordagem Enxuta e Iterativa de Steve Krug (2010 / 2014)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-prototipagem-em-papel-e-amostragem-coletiva-da-equipe-snyder-2003" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Prototipagem em Papel e Amostragem Coletiva da Equipe (Snyder, 2003)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-caracterizacao-dos-participantes-recrutados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Caracterização dos Participantes Recrutados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cenario-de-uso-e-tarefas-simuladas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Cenário de Uso e Tarefas Simuladas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-analise-dos-dados-coletados-e-verbalizacoes-think-aloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Análise dos Dados Coletados e Verbalizações (Think-Aloud)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Análise dos Dados Coletados e Verbalizações (Think-Aloud)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-descoberta-do-recurso-e-tela-inicial-prancha-base-1-hub-de-eventos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Descoberta do Recurso e Tela Inicial (Prancha Base 1 — Hub de Eventos)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-preenchimento-do-formulario-e-seletor-de-horario-prancha-base-2-e-peca-movel-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Preenchimento do Formulário e Seletor de Horário (Prancha Base 2 e Peça Móvel 1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-configuracao-de-lotacao-quorum-e-ingressos-peca-movel-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Configuração de Lotação, Quórum e Ingressos (Peça Móvel 2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-geolocalizacao-e-manipulacao-do-marcador-movel-peca-movel-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 Geolocalização e Manipulação do Marcador Móvel (Peça Móvel 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65-pagina-de-confirmacao-e-evento-publicado-prancha-base-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5 Página de Confirmação e Evento Publicado (Prancha Base 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-tabela-estruturada-de-problemas-de-usabilidade-e-severidade-de-nielsen-0-a-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Tabela Estruturada de Problemas de Usabilidade e Severidade de Nielsen (0 a 4)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-diretrizes-formais-de-reprojeto-para-a-alta-fidelidade-nivel-3-no-figma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Diretrizes Formais de Reprojeto para a Alta Fidelidade (Nível 3 no Figma)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-registro-audiovisual-das-sessoes-e-consentimento-verbal-tcle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Registro Audiovisual das Sessões e Consentimento Verbal (TCLE)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Registro Audiovisual das Sessões e Consentimento Verbal (TCLE)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91-sessao-de-avaliacao-participante-1-p1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 Sessão de Avaliação — Participante 1 (P1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92-sessao-de-avaliacao-participante-2-p2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 Sessão de Avaliação — Participante 2 (P2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-clausula-metodologica-obrigatoria-de-isolamento-dos-dados-do-teste-piloto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Cláusula Metodológica Obrigatória de Isolamento dos Dados do Teste-Piloto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-lista-de-verificacao-da-tecnica-relato-de-usabilidade-em-papel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Lista de Verificação da Técnica (Relato de Usabilidade em Papel)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Histórico de Versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-referencias-bibliograficas-abnt-nbr-6023" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Referências Bibliográficas (ABNT NBR 6023)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agradecimentos-e-declaracao-de-uso-de-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agradecimentos e Declaração de Uso de IA Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../relato-resultados-agendamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relato dos Resultados (Tarefa 3 - Agendamento)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototipo-papel-tarefa1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bancada e Peças Físicas (Tarefa 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototipo-papel-tarefa2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bancada e Peças Físicas (Tarefa 2)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../teste-piloto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teste-Piloto de Nível 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../nivel-3/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design, Avaliação e Desenvolvimento (Nível 3)
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design, Avaliação e Desenvolvimento (Nível 3)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protótipo de Alta Fidelidade (Figma)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Protótipo de Alta Fidelidade (Figma)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-3/planejamento-avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento da Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nivel-3/planejamento-relato-resultados/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento do Relato de Resultados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../atas/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas de Reunião
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas de Reunião
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../atas/ata1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 04/09/2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../atas/ata2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 07/09/2026 (Grupo +1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../atas/ata3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 14/09/2026 (Mudança de Escopo)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../atas/ata4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 25/09/2026 (Reestruturação da Equipe)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../atas/ata5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 05/10/2026 (Planejamento Entrega 3)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../atas/ata6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 14/10/2026 (Avaliação Grupo -1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../atas/ata7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reunião 25/10/2026 (Apresentação Entrega 5)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../verificacao/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../verificacao/lista-verificacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Listas de Verificação (Checklists)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../verificacao/grupo08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Auto-Avaliação (Grupo 08)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../verificacao/grupo07/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Avaliação do Grupo -1 (Grupo 07)
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Avaliação do Grupo -1 (Grupo 07)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../verificacao/grupo07/etapa6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 6 (Relato do Protótipo de Papel e Alta Fidelidade)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../verificacao/grupo07/etapa4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 4 (Planejamento de Nível 1)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../verificacao/grupo07/etapa2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 2 (Perfil de Usuário e Tarefas)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../verificacao/grupo01/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Avaliação do Grupo +1 (Grupo 01)
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Avaliação do Grupo +1 (Grupo 01)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../verificacao/grupo01/etapa5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 5 (Relatos Nível 1 e Protótipo de Papel)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../verificacao/grupo01/etapa3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Etapa 3 (Princípios, Metas e Guia de Estilo)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../conteudo-teorico/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conteúdo Teórico
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_10" id="__nav_10_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Conteúdo Teórico
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../conteudo-teorico/item-teorico-storyboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Teórico - Storyboard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../item-teorico-metodos-avaliacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Teórico - Métodos de Avaliação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-contribuicao-e-transparencia-no-uso-de-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tabela de Contribuição e Transparência no Uso de IA Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao-e-enquadramento-no-ciclo-de-mayhew" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introdução e Enquadramento no Ciclo de Mayhew
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metodologia-de-investigacao-empirica-empregada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Metodologia de Investigação Empírica Empregada
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Metodologia de Investigação Empírica Empregada">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-separacao-funcional-de-papeis-na-bancada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Separação Funcional de Papéis na Bancada
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-justificativa-cientifica-e-matematica-do-tamanho-da-amostra-n-2-participantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Justificativa Científica e Matemática do Tamanho da Amostra (n = 2 Participantes)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Justificativa Científica e Matemática do Tamanho da Amostra (n = 2 Participantes)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-modelagem-binomial-de-descoberta-de-falhas-nielsen-landauer-1993-nielsen-2000" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Modelagem Binomial de Descoberta de Falhas (Nielsen &amp; Landauer, 1993; Nielsen, 2000)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-captura-prematura-dos-problemas-mais-graves-virzi-1992" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Captura Prematura dos Problemas Mais Graves (Virzi, 1992)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-a-abordagem-enxuta-e-iterativa-de-steve-krug-2010-2014" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 A Abordagem Enxuta e Iterativa de Steve Krug (2010 / 2014)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-prototipagem-em-papel-e-amostragem-coletiva-da-equipe-snyder-2003" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Prototipagem em Papel e Amostragem Coletiva da Equipe (Snyder, 2003)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-caracterizacao-dos-participantes-recrutados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Caracterização dos Participantes Recrutados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cenario-de-uso-e-tarefas-simuladas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Cenário de Uso e Tarefas Simuladas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-analise-dos-dados-coletados-e-verbalizacoes-think-aloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Análise dos Dados Coletados e Verbalizações (Think-Aloud)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Análise dos Dados Coletados e Verbalizações (Think-Aloud)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-descoberta-do-recurso-e-tela-inicial-prancha-base-1-hub-de-eventos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Descoberta do Recurso e Tela Inicial (Prancha Base 1 — Hub de Eventos)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-preenchimento-do-formulario-e-seletor-de-horario-prancha-base-2-e-peca-movel-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Preenchimento do Formulário e Seletor de Horário (Prancha Base 2 e Peça Móvel 1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-configuracao-de-lotacao-quorum-e-ingressos-peca-movel-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Configuração de Lotação, Quórum e Ingressos (Peça Móvel 2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-geolocalizacao-e-manipulacao-do-marcador-movel-peca-movel-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 Geolocalização e Manipulação do Marcador Móvel (Peça Móvel 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65-pagina-de-confirmacao-e-evento-publicado-prancha-base-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5 Página de Confirmação e Evento Publicado (Prancha Base 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-tabela-estruturada-de-problemas-de-usabilidade-e-severidade-de-nielsen-0-a-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Tabela Estruturada de Problemas de Usabilidade e Severidade de Nielsen (0 a 4)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-diretrizes-formais-de-reprojeto-para-a-alta-fidelidade-nivel-3-no-figma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Diretrizes Formais de Reprojeto para a Alta Fidelidade (Nível 3 no Figma)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-registro-audiovisual-das-sessoes-e-consentimento-verbal-tcle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Registro Audiovisual das Sessões e Consentimento Verbal (TCLE)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Registro Audiovisual das Sessões e Consentimento Verbal (TCLE)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91-sessao-de-avaliacao-participante-1-p1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 Sessão de Avaliação — Participante 1 (P1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92-sessao-de-avaliacao-participante-2-p2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 Sessão de Avaliação — Participante 2 (P2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-clausula-metodologica-obrigatoria-de-isolamento-dos-dados-do-teste-piloto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Cláusula Metodológica Obrigatória de Isolamento dos Dados do Teste-Piloto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-lista-de-verificacao-da-tecnica-relato-de-usabilidade-em-papel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Lista de Verificação da Técnica (Relato de Usabilidade em Papel)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Histórico de Versão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-referencias-bibliograficas-abnt-nbr-6023" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Referências Bibliográficas (ABNT NBR 6023)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agradecimentos-e-declaracao-de-uso-de-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agradecimentos e Declaração de Uso de IA Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../../../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Início
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../planejamento-avaliacao/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Design, Avaliação e Desenvolvimento (Nível 2)
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../planejamento-avaliacao/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Protótipo de Papel
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="relato-dos-resultados-da-avaliacao-do-prototipo-de-papel-tarefa-2-eventos-presenciais">Relato dos Resultados da Avaliação do Protótipo de Papel (Tarefa 2 — Eventos Presenciais)</h1>
+<h2 id="tabela-de-contribuicao-e-transparencia-no-uso-de-ia-generativa">Tabela de Contribuição e Transparência no Uso de IA Generativa</h2>
+<p>A Tabela 1 documenta a matriz de governança, divisão de responsabilidades e declaração de uso de ferramentas de inteligência artificial generativa na consolidação dos resultados da avaliação do Protótipo de Papel da Tarefa 2.</p>
+<p><strong>Tabela 1</strong> — Matriz de Contribuição do Relato dos Resultados (Tarefa 2)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Integrante</th>
+<th style="text-align: left;">Atribuição no Artefato</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Horário</th>
+<th style="text-align: left;">Ferramenta de IA Utilizada</th>
+<th style="text-align: left;">Propósito do Uso de IA</th>
+<th style="text-align: center;">Hiperligação / Gravação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/gus-ant">Gustavo Antonio Rodrigues e Silva</a></td>
+<td style="text-align: left;"><strong>Autor Principal / Avaliador</strong>: Condução empírica presencial da avaliação formativa com 2 participantes discentes reais (P1 e P2), condução e registro do teste-piloto, fundamentação teórica amostral (Nielsen, Virzi, Krug e Snyder), transcrição das verbalizações, tabulação de severidade de Nielsen (0 a 4) de <code>PROB-PP-T2-01</code> a <code>05</code>, formulação das diretrizes de reprojeto para o Figma e incorporação dos vídeos.</td>
+<td style="text-align: center;">03/11/2026</td>
+<td style="text-align: center;">19:30 - 22:30</td>
+<td style="text-align: left;">Google Gemini (LLM)</td>
+<td style="text-align: left;">Apoio na estruturação sintática de tabelas Markdown e estruturação e validação de equações matemáticas em UTF-8.</td>
+<td style="text-align: center;"><a href="#9-registro-audiovisual-das-sessoes-e-consentimento-verbal-tcle">Seção 9</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/ViniciusA05">Vinicius Silva Araruna</a></td>
+<td style="text-align: left;"><strong>Revisor por Par Designado</strong>: Revisão metodológica cruzada, auditoria da classificação na escala de severidade de Nielsen e verificação de conformidade com o relato da Tarefa 1.</td>
+<td style="text-align: center;">03/11/2026</td>
+<td style="text-align: center;">22:30 - 23:00</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Revisão humana por pares.</td>
+<td style="text-align: center;"><a href="#12-historico-de-versao">Histórico</a></td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/PajeMurici-dev">Edvaldo Soares Brasileiro Filho</a></td>
+<td style="text-align: left;"><strong>Revisor Metodológico</strong>: Checagem de conformidade com a lista de verificação de Fagan, conferência das fontes nominais e alinhamento com o Plano de Ensino.</td>
+<td style="text-align: center;">03/11/2026</td>
+<td style="text-align: center;">23:00 - 23:30</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">Revisão humana por pares.</td>
+<td style="text-align: center;"><a href="#12-historico-de-versao">Histórico</a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026.</em></p>
+<hr />
+<h2 id="1-introducao-e-enquadramento-no-ciclo-de-mayhew">1. Introdução e Enquadramento no Ciclo de Mayhew</h2>
+<p>No <strong>Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew (1999)</strong> e no modelo de IHC formalizado por <strong>Barbosa e Silva (2021, p. 280–282)</strong>, a documentação sistemática dos resultados colhidos em ensaios de usabilidade de baixa fidelidade cumpre a função primordial de direcionar o reprojeto ergonômico. Ao confrontar soluções de interface desenhadas à mão com o comportamento real de usuários representativos, a equipe identifica precocemente falhas de arquitetura da informação, ambiguidades conceituais e problemas de <em>affordance</em> antes que qualquer linha de código seja implementada.</p>
+<p>Este artefato consolida os achados empíricos, as verbalizações registradas e as recomendações de intervenção ergonômica colhidas nas sessões de teste de usabilidade em papel da <strong>Tarefa 2 (<code>CF02</code>)</strong>, conduzida por <a href="https://github.com/gus-ant">Gustavo Antonio Rodrigues e Silva</a>:</p>
+<blockquote>
+<p><strong>Funcionalidade Central Avaliada:</strong> <em>Criação e Divulgação de Encontros e Workshops Presenciais da Comunidade com Geolocalização em Mapa, Quórum Mínimo e Emissão de Ingressos com QR Code</em> no Fórum Diolinux Plus, orientada à persona <strong>Carlos Eduardo (Estudante Iniciante em Linux / Integrador Comunitário)</strong>.</p>
+</blockquote>
+<p>Os dados obtidos alimentam diretamente as decisões de design da fase subsequente (<strong>Nível 3 — Prototipação de Alta Fidelidade no Figma</strong>).</p>
+<hr />
+<h2 id="2-metodologia-de-investigacao-empirica-empregada">2. Metodologia de Investigação Empírica Empregada</h2>
+<p>A coleta de dados operou por meio do método de <strong>Ensaio de Usabilidade com Protótipo de Papel (<em>Paper Usability Testing</em>)</strong> preconizado por <strong>Carolyn Snyder (2003)</strong> e <strong>Marc Rettig (1994)</strong>, combinado à técnica de <strong>Verbalização Concomitante (<em>Think-Aloud Protocol</em>)</strong> formalizada por <strong>Ericsson e Simon (1993)</strong>.</p>
+<h3 id="21-separacao-funcional-de-papeis-na-bancada">2.1 Separação Funcional de Papéis na Bancada</h3>
+<p>Para preservar a neutralidade da pesquisa e garantir a verossimilhança da interação, a bancada física operou com estrita divisão de papéis:
+* <strong>Facilitador (<a href="https://github.com/gus-ant">Gustavo Antonio Rodrigues e Silva</a>):</strong> Responsável pela recepção do voluntário, leitura do Termo de Consentimento Livre e Esclarecido (TCLE) oral nos primeiros 60 segundos gravados, apresentação contextualizada do cenário de uso e aplicação das perguntas investigativas pós-teste, abstendo-se de conduzir ou influenciar as decisões do participante;
+* <strong>"Computador Humano" (Colega Discente):</strong> Permaneceu em rigoroso silêncio ao lado da mesa. Sua atribuição consistiu na substituição mecânica das pranchas base (<code>PB-01</code>, <code>PB-02</code> e <code>PB-03</code>) e sobreposição ágil dos modais móveis (<code>PM-01</code>, <code>PM-02</code> e <code>PM-03</code>) conforme os toques de dedo do interagente, assegurando latência de resposta inferior a 1 segundo (&lt; 1s);
+* <strong>Participantes (P1 e P2):</strong> Estudantes universitários voluntários que interagiram com as folhas utilizando o dedo indicador para simular cliques e verbalizando suas intenções em tempo real.</p>
+<hr />
+<h2 id="3-justificativa-cientifica-e-matematica-do-tamanho-da-amostra-n-2-participantes">3. Justificativa Científica e Matemática do Tamanho da Amostra (n = 2 Participantes)</h2>
+<p>A delimitação da amostra em <strong>dois participantes reais dedicados para a avaliação formativa da Tarefa 2</strong> fundamenta-se estritamente na literatura canônica de Engenharia de Usabilidade e Interação Humano-Computador:</p>
+<h3 id="31-modelagem-binomial-de-descoberta-de-falhas-nielsen-landauer-1993-nielsen-2000">3.1 Modelagem Binomial de Descoberta de Falhas (Nielsen &amp; Landauer, 1993; Nielsen, 2000)</h3>
+<p>A descoberta de problemas de usabilidade em ensaios formativos segue a equação assintótica de Poisson formulada por <strong>Jakob Nielsen e Thomas K. Landauer (1993)</strong>:</p>
+<div style="text-align: center; margin: 1rem 0; font-family: monospace; font-size: 1.1rem; background: rgba(0,0,0,0.03); padding: 0.75rem; border-radius: 6px;">
+    <strong>P(n) = 1 − (1 − L)ⁿ</strong>
+</div>
+
+<p>Onde:
+- <strong>n</strong> representa o número de participantes avaliados;
+- <strong>L</strong> é a proporção média de problemas identificados por um único usuário típico, estimada empiricamente por Nielsen em <strong>L ≈ 0,31</strong> (31%).</p>
+<p>Aplicando os parâmetros para uma amostra de <strong>dois participantes</strong> (<strong>n = 2</strong>):</p>
+<div style="text-align: center; margin: 1rem 0; font-family: monospace; font-size: 1.05rem; background: rgba(0,0,0,0.03); padding: 0.75rem; border-radius: 6px;">
+    <strong>P(2) = 1 − (1 − 0,31)² = 1 − (0,69)² = 1 − 0,4761 = 0,5239 (52,4%)</strong>
+</div>
+
+<p>Matematicamente, <strong>dois participantes isolados são suficientes para expor mais da metade (52,4%) de todos os problemas de usabilidade existentes no fluxo avaliado</strong>. Conforme enfatiza <strong>Jakob Nielsen (2000)</strong> em seu célebre estudo <em>Why You Only Need to Test with 5 Users</em>:</p>
+<blockquote>
+<p><em>"Zero usuários fornecem zero insights. O maior retorno sobre o investimento ocorre logo no primeiro usuário. Ao testar o segundo usuário, você observa a repetição de padrões e descobre uma quantidade expressiva de novos aspectos. Se seus recursos forem restritos e você só puder testar dois participantes, teste dois: eles revelarão mais da metade dos problemas e colocarão você muito à frente de quem não realiza testes."</em><br />
+— <strong>NIELSEN, Jakob.</strong> <em>Why You Only Need to Test with 5 Users</em>. Fremont: Nielsen Norman Group, 2000.</p>
+</blockquote>
+<h3 id="32-captura-prematura-dos-problemas-mais-graves-virzi-1992">3.2 Captura Prematura dos Problemas Mais Graves (Virzi, 1992)</h3>
+<p>O estudo experimental seminal de <strong>Robert A. Virzi (1992)</strong> (<em>Refining the test phase of usability evaluation: How many subjects is enough?</em>) demonstrou que a probabilidade de detecção (<strong>L</strong>) não é homogênea entre todos os problemas: <strong>as falhas de usabilidade graves e catastróficas possuem taxa de descoberta substancialmente maior (L &gt; 0,50) do que os problemas puramente cosméticos</strong>.</p>
+<p>Dessa forma, com apenas <strong>dois participantes</strong>, uma avaliação formativa captura entre <strong>75% e 80% de todos os problemas críticos de usabilidade</strong>, garantindo que as maiores barreiras de interação sejam remediadas antes do design digital de alta fidelidade.</p>
+<h3 id="33-a-abordagem-enxuta-e-iterativa-de-steve-krug-2010-2014">3.3 A Abordagem Enxuta e Iterativa de Steve Krug (2010 / 2014)</h3>
+<p>Em <em>Rocket Surgery Made Easy</em> (2010) e <em>Não Me Faça Pensar</em> (2014), <strong>Steve Krug</strong> preconiza o método <em>Do-It-Yourself</em> de usabilidade, demonstrando que em avaliações formativas:
+* Pequenas rodadas com poucos participantes (2 a 3 usuários) superam baterias longas com dezenas de usuários, pois permitem aplicar correções imediatas no design e testar a evolução na rodada seguinte;
+* <em>"O objetivo dos testes formativos não é provar estatisticamente que o sistema é perfeito, mas sim diagnosticar o que está impedindo o usuário de completar sua tarefa para corrigir imediatamente."</em></p>
+<h3 id="34-prototipagem-em-papel-e-amostragem-coletiva-da-equipe-snyder-2003">3.4 Prototipagem em Papel e Amostragem Coletiva da Equipe (Snyder, 2003)</h3>
+<p>Conforme destaca <strong>Carolyn Snyder (2003)</strong>, na prototipagem em papel o ciclo iterativo rápido (<em>rapid iterative testing</em>) recomenda rodadas de 1 a 2 interagentes por funcionalidade. Além disso, no cômputo global do projeto, a equipe avaliou no Nível 2 <strong>múltiplos participantes discentes distribuídos entre as três tarefas centrais</strong>, assegurando cobertura ampla de todo o espectro das personas modeladas (Lucas Mendonça e Carlos Eduardo).</p>
+<hr />
+<h2 id="4-caracterizacao-dos-participantes-recrutados">4. Caracterização dos Participantes Recrutados</h2>
+<p>A Tabela 2 apresenta o perfil demográfico e tecnológico dos dois discentes recrutados para a avaliação da Tarefa 2, alinhados à persona <strong>Carlos Eduardo (Estudante Iniciante em Linux / Integrador Comunitário)</strong>.</p>
+<p><strong>Tabela 2</strong> — Perfil dos Participantes da Avaliação do Protótipo de Papel (Tarefa 2)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Nome / Ocupação</th>
+<th style="text-align: center;">Idade</th>
+<th style="text-align: left;">Curso / Instituição</th>
+<th style="text-align: left;">Nível de Vivência em Linux e Fóruns</th>
+<th style="text-align: left;">Relação com a Persona</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>P1</strong></td>
+<td style="text-align: left;">Discente de Engenharia de Software</td>
+<td style="text-align: center;">21 anos</td>
+<td style="text-align: left;">Graduação — FGA / UnB</td>
+<td style="text-align: left;">Usuário intermediário de Linux (Dual Boot), frequenta fóruns técnicos para sanar dúvidas e tem interesse em eventos universitários.</td>
+<td style="text-align: left;">Aderente à Persona Secundária (Carlos Eduardo) — foco em encontros presenciais e capacitação.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>P2</strong></td>
+<td style="text-align: left;">Discente de Engenharia</td>
+<td style="text-align: center;">22 anos</td>
+<td style="text-align: left;">Graduação — FGA / UnB</td>
+<td style="text-align: left;">Usuário iniciante em transição para sistemas abertos, busca oficinas práticas de instalação e networking comunitário.</td>
+<td style="text-align: left;">Aderente à Persona Secundária (Carlos Eduardo) — necessidade de interfaces claras e descomplicadas.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026.</em></p>
+<hr />
+<h2 id="5-cenario-de-uso-e-tarefas-simuladas">5. Cenário de Uso e Tarefas Simuladas</h2>
+<p>O ensaio presencial fundamentou-se no cenário autêntico de modelagem da Tarefa 2:</p>
+<blockquote>
+<p><em>"Você é um estudante ativo da comunidade Diolinux que percebeu que muitos colegas de curso encontram dificuldades para configurar ambientes de desenvolvimento e trabalhar com contêineres Docker no Linux. Você decidiu organizar um workshop presencial e gratuito intitulado <strong>'Workshop Linux e Docker'</strong>, a ser realizado nas dependências do campus da UnB Gama (Bloco UAC, Sala I-04), com quórum mínimo de 10 participantes e limite de 30 vagas.</em>  </p>
+<p><em>Sua missão consiste em:</em><br />
+1. <em>Acessar o Hub de Eventos no menu do fórum e iniciar a criação de um novo evento;</em><br />
+2. <em>Preencher o título e configurar o horário de realização (14:00 às 18:00) por meio do seletor de relógio;</em><br />
+3. <em>Configurar a capacidade: definir quórum mínimo de 10 pessoas, lotação de 30 vagas e emissão de ingresso gratuito com QR Code;</em><br />
+4. <em>Abrir o mapa do campus, posicionar o marcador móvel (pin) sobre o prédio do Bloco UAC (Sala I-04) e confirmar a localização;</em><br />
+5. <em>Publicar o evento e conferir a página final de sucesso gerada pelo fórum."</em></p>
+</blockquote>
+<hr />
+<h2 id="6-analise-dos-dados-coletados-e-verbalizacoes-think-aloud">6. Análise dos Dados Coletados e Verbalizações (<em>Think-Aloud</em>)</h2>
+<p>A observação sistemática da interação tátil e a transcrição das falas espontâneas dos participantes revelaram que o fluxo geral é altamente compreensível, mas apontaram oportunidades concretas de melhoria ergonômica para a versão em alta fidelidade:</p>
+<h3 id="61-descoberta-do-recurso-e-tela-inicial-prancha-base-1-hub-de-eventos">6.1 Descoberta do Recurso e Tela Inicial (Prancha Base 1 — Hub de Eventos)</h3>
+<ul>
+<li><strong>Participante 1 (P1):</strong> Identificou imediatamente o botão <code>+ Criar Novo Evento</code>. Declarou que o Hub de Eventos está bem estruturado e que os filtros rápidos (<em>Todos, Próximos, Perto de mim, Meus Ingressos</em>) tornam a visualização dos encontros atrativa e clara;</li>
+<li><strong>Participante 2 (P2):</strong> Não teve nenhuma hesitação no ponto de entrada. Tocou com firmeza no botão de criação e verbalizou que a navegação do Diolinux Plus parecia familiar e intuitiva.</li>
+</ul>
+<h3 id="62-preenchimento-do-formulario-e-seletor-de-horario-prancha-base-2-e-peca-movel-1">6.2 Preenchimento do Formulário e Seletor de Horário (Prancha Base 2 e Peça Móvel 1)</h3>
+<ul>
+<li><strong>Participante 1 (P1):</strong> Considerou o formulário limpo e elogiou a separação em botões de configuração modal (<code>Clique para Editar Horário</code>, <code>Clique para abrir o mapa</code>). Ao interagir com o relógio analógico, compreendeu prontamente o ajuste do horário;</li>
+<li><strong>Participante 2 (P2):</strong> Apontou que a tela do formulário central acumulava muitas informações simultâneas (<strong>alta densidade informacional</strong>). Ao interagir com o seletor de horário (<code>PM-01</code>), <strong>criticou fortemente a presença dos botões <code>[ Am ]</code> e <code>[ Pm ]</code></strong>, verbalizando:  <blockquote>
+<p><em>"No Brasil e especialmente no meio técnico de Linux, ninguém usa formato AM/PM de 12 horas. Isso só gera confusão mental sobre se 2 da tarde é 2 AM ou 2 PM. Deveria ser diretamente um relógio de formato 24 horas (ex.: 14:00 às 18:00)."</em></p>
+</blockquote>
+</li>
+</ul>
+<h3 id="63-configuracao-de-lotacao-quorum-e-ingressos-peca-movel-2">6.3 Configuração de Lotação, Quórum e Ingressos (Peça Móvel 2)</h3>
+<ul>
+<li><strong>Participante 1 (P1):</strong> Elogiou a existência do recurso de quórum mínimo e a geração de QR Code gratuito. Contudo, apontou uma <strong>inconsistência na ordem lógica dos campos</strong>:  <blockquote>
+<p><em>"Para quem está organizando uma oficina comunitária, o quórum mínimo deveria vir antes da lotação máxima. Primeiro eu penso em quantas pessoas eu preciso para a oficina acontecer, e só depois no teto de vagas da sala."</em><br />
+  Além disso, P1 recomendou que os botões de ação e confirmação ficassem mais <strong>centralizados</strong> na tela para guiar melhor o olhar;</p>
+</blockquote>
+</li>
+<li><strong>Participante 2 (P2):</strong> Conseguiu configurar os valores com facilidade, aprovando o checkbox de envio de lembrete 24 horas antes por e-mail.</li>
+</ul>
+<h3 id="64-geolocalizacao-e-manipulacao-do-marcador-movel-peca-movel-3">6.4 Geolocalização e Manipulação do Marcador Móvel (Peça Móvel 3)</h3>
+<ul>
+<li><strong>Participante 1 (P1):</strong> Gostou muito da dinâmica de arrastar o marcador (<em>pin</em>) sobre os prédios do campus (UAC, UED, RU), declarando que a confirmação textual do endereço formalizado na caixa lateral transmite total segurança;</li>
+<li><strong>Participante 2 (P2):</strong> Avaliou a seleção no mapa como um dos pontos mais fortes do protótipo, elogiando o marcador destacado.</li>
+</ul>
+<h3 id="65-pagina-de-confirmacao-e-evento-publicado-prancha-base-3">6.5 Página de Confirmação e Evento Publicado (Prancha Base 3)</h3>
+<ul>
+<li><strong>Participante 1 (P1):</strong> Considerou a tela final de sucesso excelente (<em>"Deu show, muito bom o projeto!"</em>), elogiando a presença do botão de adicionar à agenda e o resumo com os inscritos em tempo real;</li>
+<li><strong>Participante 2 (P2):</strong> Aprovou a clareza do banner de sucesso e a barra de quórum (<em>10/30 participantes</em>), mas fez uma ressalva ergonômica: <strong>sugeriu aumentar a área dedicada ao mapa de localização na página final</strong>, para que os participantes que acessarem o fórum possam visualizar o trajeto e o prédio com maior facilidade e destaque no celular ou desktop.</li>
+</ul>
+<hr />
+<h2 id="7-tabela-estruturada-de-problemas-de-usabilidade-e-severidade-de-nielsen-0-a-4">7. Tabela Estruturada de Problemas de Usabilidade e Severidade de Nielsen (0 a 4)</h2>
+<p>Com base nas observações e verbalizações colhidas, os problemas identificados foram classificados de acordo com a <strong>Escala de Severidade de Jakob Nielsen (1994)</strong>:
+* <strong>Grau 0 (Falso Problema):</strong> Não afeta a interação;
+* <strong>Grau 1 (Problema Cosmético):</strong> Não prejudica a tarefa; correção indicada apenas se houver tempo hábil;
+* <strong>Grau 2 (Problema Menor):</strong> Causa leve hesitação ou atrito cognitivo, mas o usuário recupera-se autonomamente;
+* <strong>Grau 3 (Problema Maior):</strong> Dificulta a tarefa de modo expressivo, gerando frustração relevante;
+* <strong>Grau 4 (Problema Catastrófico):</strong> Impede compulsoriamente a conclusão da tarefa.</p>
+<p>A Tabela 3 consolida o catálogo analítico dos problemas da Tarefa 2.</p>
+<p><strong>Tabela 3</strong> — Catálogo de Problemas de Usabilidade e Classificação de Severidade de Nielsen (Tarefa 2)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID do Problema</th>
+<th style="text-align: left;">Descrição da Inconsistência Diagnosticada</th>
+<th style="text-align: left;">Heurística de Nielsen Violada</th>
+<th style="text-align: center;">Grau de Severidade</th>
+<th style="text-align: center;">Participante(s)</th>
+<th style="text-align: left;">Proposta Preliminar de Reprojeto para o Figma (Nível 3)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>PROB-PP-T2-01</strong></td>
+<td style="text-align: left;"><strong>Inversão lógica entre Quórum Mínimo e Lotação Máxima:</strong> No modal de lotação, o campo de teto máximo precede o quórum mínimo, contrariando o raciocínio de viabilidade do organizador.</td>
+<td style="text-align: left;">Heurística 2: Correspondência com o mundo real</td>
+<td style="text-align: center;"><strong>Grau 2</strong> (Menor)</td>
+<td style="text-align: center;">P1</td>
+<td style="text-align: left;">No Figma, inverter a ordem dos campos: dispor primeiro o <em>Quórum Mínimo de Viabilidade</em> e, logo abaixo, o <em>Limite Máximo de Lotação</em>.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PROB-PP-T2-02</strong></td>
+<td style="text-align: left;"><strong>Alinhamento e dispersão dos botões de ação:</strong> Botões de rodapé alinhados aos extremos criam dispersão visual e dificultam a escaneabilidade em telas amplas.</td>
+<td style="text-align: left;">Heurística 8: Design estético e minimalista</td>
+<td style="text-align: center;"><strong>Grau 1</strong> (Cosmético)</td>
+<td style="text-align: center;">P1</td>
+<td style="text-align: left;">Centralizar o grupo de botões de ação primária e secundária com espaçamento harmônico de 16px no design digital.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PROB-PP-T2-03</strong></td>
+<td style="text-align: left;"><strong>Sobrecarga cognitiva e inadequação cultural do seletor AM/PM:</strong> O formato de 12 horas gera dúvidas conceituais para interagentes no contexto brasileiro e da cultura Linux.</td>
+<td style="text-align: left;">Heurística 4: Consistência e padrões</td>
+<td style="text-align: center;"><strong>Grau 2</strong> (Menor)</td>
+<td style="text-align: center;">P2</td>
+<td style="text-align: left;">Eliminar os seletores <code>[ Am ]</code> e <code>[ Pm ]</code>, implementando no Figma um seletor no padrão nativo de <strong>relógio 24 horas (00:00 às 23:59)</strong> com digitação rápida assistida.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PROB-PP-T2-04</strong></td>
+<td style="text-align: left;"><strong>Densidade informacional excessiva no formulário central:</strong> A prancha base concentra muitas configurações simultâneas em uma única área visual.</td>
+<td style="text-align: left;">Heurística 8: Design estético e minimalista</td>
+<td style="text-align: center;"><strong>Grau 2</strong> (Menor)</td>
+<td style="text-align: center;">P2</td>
+<td style="text-align: left;">Estruturar o formulário de alta fidelidade em seções modulares retráteis (<em>accordions</em>) ou assistente em 3 passos (<em>wizard</em>: Dados Gerais → Local e Horário → Lotação e Ingressos).</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>PROB-PP-T2-05</strong></td>
+<td style="text-align: left;"><strong>Área visual reduzida do mapa na página do evento publicado:</strong> A miniatura do mapa na tela de sucesso final oferece pouca visibilidade para trajetos e pontos de referência.</td>
+<td style="text-align: left;">Heurística 6: Reconhecimento em vez de recordação</td>
+<td style="text-align: center;"><strong>Grau 1</strong> (Cosmético)</td>
+<td style="text-align: center;">P2</td>
+<td style="text-align: left;">No Figma, expandir a largura do contêiner do mapa para 100% da coluna de detalhes, com suporte a zoom interativo e botão "Abrir no OpenStreetMap / Google Maps".</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Nielsen (1994) e Snyder (2003), 2026.</em></p>
+<hr />
+<h2 id="8-diretrizes-formais-de-reprojeto-para-a-alta-fidelidade-nivel-3-no-figma">8. Diretrizes Formais de Reprojeto para a Alta Fidelidade (Nível 3 no Figma)</h2>
+<p>A partir das inconsistências catalogadas na Tabela 3, foram estabelecidas cinco diretrizes normativas para o desenvolvimento da interface interativa no Figma:</p>
+<ol>
+<li><strong>Reestruturação Lógica da Gestão de Participantes (Solução de <code>PROB-PP-T2-01</code>):</strong><br />
+   No modal digital de inscrições, o card iniciará pela pergunta-guia <em>"Quantos participantes são necessários para viabilizar este encontro?"</em> (campo numérico de Quórum Mínimo com valor padrão sugerido de 5 a 10), seguido do seletor <em>"Qual a capacidade máxima do local?"</em> (Lotação Máxima).</li>
+<li><strong>Harmonização e Centralização de Controles (Solução de <code>PROB-PP-T2-02</code>):</strong><br />
+   Os botões de confirmação e salvamento de rascunho serão agrupados de forma centralizada no rodapé com pesos visuais contrastantes em estrita consonância com o <a href="../../../../analise-requisitos/guia-de-estilo/">Guia de Estilo</a> (botão primário com cor temática <code>#0088CC</code> e secundário em tom neutro contornado).</li>
+<li><strong>Padrão de Horário Nativo de 24 Horas (Solução de <code>PROB-PP-T2-03</code>):</strong><br />
+   O componente digital de <em>timepicker</em> descartará completamente a notação anglófona de 12 horas (AM/PM), adotando mostrador duplo de horas (00 a 23) e minutos (00 a 55 em múltiplos de 5), com suporte a máscara numérica direta pelo teclado.</li>
+<li><strong>Alívio da Densidade Informacional via Passos Progressivos (Solução de <code>PROB-PP-T2-04</code>):</strong><br />
+   Em substituição ao formulário estático longo, a criação de eventos adotará um fluxo progressivo em três etapas com indicador de progresso no topo: <em>Passo 1: Sobre o Evento</em> → <em>Passo 2: Quando e Onde</em> → <em>Passo 3: Vagas e Ingressos</em>.</li>
+<li><strong>Destaque Espacial do Mapa de Acesso (Solução de <code>PROB-PP-T2-05</code>):</strong><br />
+   A prancha digital da página final do evento publicado dedicará um card de mapa com proporção 16:9 de alta visibilidade, demarcando o trajeto até a sala universitária e oferecendo atalhos rápidos para aplicativos de navegação GPS.</li>
+</ol>
+<hr />
+<h2 id="9-registro-audiovisual-das-sessoes-e-consentimento-verbal-tcle">9. Registro Audiovisual das Sessões e Consentimento Verbal (TCLE)</h2>
+<p>As sessões presenciais de avaliação formativa com o protótipo de papel e o ensaio do teste-piloto foram registradas integralmente em conformidade com as normas da disciplina (<em>Sales, 2026</em>), encontrando-se hospedadas no YouTube sob regime <strong>"Não Listado"</strong>.</p>
+<p>O consentimento verbal explícito dos dois participantes foi coletado e registrado nos primeiros 60 segundos gravados de cada chamada, atendendo aos princípios bioéticos da autonomia e não-maleficência e à LGPD.</p>
+<h3 id="91-sessao-de-avaliacao-participante-1-p1">9.1 Sessão de Avaliação — Participante 1 (P1)</h3>
+<details class="video-card-details">
+    <summary class="video-card-summary">
+        <div class="video-card-title">
+            <span style="font-size: 1.25rem;">🎬</span>
+            <span><strong>Vídeo 1</strong> — Avaliação do Protótipo de Papel (Tarefa 2) — Participante 1 (P1)</span>
+        </div>
+        <span class="video-card-toggle">Assistir à Sessão</span>
+    </summary>
+    <div class="video-card-body">
+        <div class="video-card-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/b7ypx66CVZ4" title="Avaliação do Protótipo de Papel - Tarefa 2 - Participante 1 - Gustavo Antonio - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video-card-footer">
+            <span class="video-card-caption"><strong>Vídeo 1</strong> — Sessão presencial de avaliação da Tarefa 2 com o Participante 1 (Engenharia de Software, 21 anos). <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></span>
+            <a href="https://youtu.be/b7ypx66CVZ4" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+                <span>Assistir no YouTube</span> ↗
+            </a>
+        </div>
+    </div>
+</details>
+
+<hr />
+<h3 id="92-sessao-de-avaliacao-participante-2-p2">9.2 Sessão de Avaliação — Participante 2 (P2)</h3>
+<details class="video-card-details">
+    <summary class="video-card-summary">
+        <div class="video-card-title">
+            <span style="font-size: 1.25rem;">🎬</span>
+            <span><strong>Vídeo 2</strong> — Avaliação do Protótipo de Papel (Tarefa 2) — Participante 2 (P2)</span>
+        </div>
+        <span class="video-card-toggle">Assistir à Sessão</span>
+    </summary>
+    <div class="video-card-body">
+        <div class="video-card-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/qqxHpOO9Caw" title="Avaliação do Protótipo de Papel - Tarefa 2 - Participante 2 - Gustavo Antonio - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video-card-footer">
+            <span class="video-card-caption"><strong>Vídeo 2</strong> — Sessão presencial de avaliação da Tarefa 2 com o Participante 2 (Engenharia, 22 anos). <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></span>
+            <a href="https://youtu.be/qqxHpOO9Caw" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+                <span>Assistir no YouTube</span> ↗
+            </a>
+        </div>
+    </div>
+</details>
+
+<hr />
+<h2 id="10-clausula-metodologica-obrigatoria-de-isolamento-dos-dados-do-teste-piloto">10. Cláusula Metodológica Obrigatória de Isolamento dos Dados do Teste-Piloto</h2>
+<p>A literatura de IHC (<em>Barbosa &amp; Silva, 2021, p. 276; Mayhew, 1999</em>) e os critérios regimentais do Prof. Dr. André Barros de Sales impõem a segregação absoluta dos dados do ensaio piloto:</p>
+<div class="admonition warning">
+<p class="admonition-title">CLÁUSULA METODOLÓGICA MANDATÓRIA — NÃO COMPUTAÇÃO DOS DADOS DO TESTE-PILOTO</p>
+<p>Fica formalmente registrado que os dados comportamentais, tempos de resposta e verbalizações obtidos durante a execução do <strong>Teste-Piloto da Tarefa 2</strong> (conduzido previamente para calibragem de câmera a 45º, latência do Computador Humano e cronometragem do TCLE oral em 45s) <strong>NÃO FORAM COMPUTADOS NEM INTEGRADOS</strong> aos resultados estatísticos e qualitativos consolidados neste relato. O ensaio piloto teve propósito estritamente instrumental de ajuste prévio de bancada.</p>
+</div>
+<p>O registro audiovisual da calibração instrumental do teste-piloto de Gustavo Antonio encontra-se disponível no player expansível abaixo:</p>
+<details class="video-card-details">
+    <summary class="video-card-summary">
+        <div class="video-card-title">
+            <span style="font-size: 1.25rem;">🔬</span>
+            <span><strong>Vídeo do Teste-Piloto</strong> — Calibração Instrumental de Bancada (Tarefa 2 — Gustavo Antonio)</span>
+        </div>
+        <span class="video-card-toggle">Assistir ao Piloto</span>
+    </summary>
+    <div class="video-card-body">
+        <div class="video-card-frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/bEn3f5wqhvc" title="Teste-Piloto do Protótipo de Papel - Tarefa 2 - Gustavo Antonio - Grupo 08 - IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video-card-footer">
+            <span class="video-card-caption"><strong>Ensaio Piloto</strong> — Sessão de calibração técnica de gravação e movimentação de peças da Tarefa 2. <em>Fonte: Gustavo Antonio Rodrigues e Silva, 2026.</em></span>
+            <a href="https://youtu.be/bEn3f5wqhvc" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+                <span>Assistir no YouTube</span> ↗
+            </a>
+        </div>
+    </div>
+</details>
+
+<hr />
+<h2 id="11-lista-de-verificacao-da-tecnica-relato-de-usabilidade-em-papel">11. Lista de Verificação da Técnica (Relato de Usabilidade em Papel)</h2>
+<p>A Tabela 4 consolida a auditoria de conformidade com os critérios normativos da disciplina (<em>Sales, 2026; Fagan, 1976</em>).</p>
+<p><strong>Tabela 4</strong> — Lista de Verificação: Relato de Avaliação do Protótipo de Papel (Tarefa 2)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Item / Questão Avaliada</th>
+<th style="text-align: left;">Origem / Fonte Normativa</th>
+<th style="text-align: center;">Conforme?</th>
+<th style="text-align: left;">Resposta Autoexplicativa e Evidência no Documento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>1. O relato explicita os objetivos e o escopo da avaliação formativa?</strong></td>
+<td style="text-align: left;">Barbosa &amp; Silva (2021, Cap. 11)</td>
+<td style="text-align: center;">✅ Sim</td>
+<td style="text-align: left;">A Seção 1 define a finalidade de avaliar a criação de eventos e subsidiar o Nível 3.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2. O método de ensaio com Computador Humano e Think-Aloud é fundamentado?</strong></td>
+<td style="text-align: left;">Snyder (2003); Ericsson &amp; Simon (1993)</td>
+<td style="text-align: center;">✅ Sim</td>
+<td style="text-align: left;">A Seção 2 discrimina as responsabilidades de facilitador, operador mecânico e participante.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3. A quantidade de participantes é fundamentada cientificamente?</strong></td>
+<td style="text-align: left;">Nielsen &amp; Landauer (1993); Krug (2014); Virzi (1992)</td>
+<td style="text-align: center;">✅ Sim</td>
+<td style="text-align: left;">A Seção 3 detalha a fórmula de Poisson demonstrando que 2 usuários detectam 52,4% dos problemas.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>4. O perfil demográfico dos participantes é detalhado e coerente com as personas?</strong></td>
+<td style="text-align: left;">Barbosa &amp; Silva (2021); Sales (2026)</td>
+<td style="text-align: center;">✅ Sim</td>
+<td style="text-align: left;">A Tabela 2 caracteriza os discentes P1 e P2 em consonância com a persona Carlos Eduardo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>5. As tarefas e cenários simulados estão explicitamente descritos?</strong></td>
+<td style="text-align: left;">Mayhew (1999); Barbosa &amp; Silva (2021)</td>
+<td style="text-align: center;">✅ Sim</td>
+<td style="text-align: left;">A Seção 5 detalha o cenário da oficina prática de Linux e Docker na UnB Gama.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>6. Os problemas são catalogados com a Escala de Severidade de Nielsen (0 a 4)?</strong></td>
+<td style="text-align: left;">Nielsen (1994)</td>
+<td style="text-align: center;">✅ Sim</td>
+<td style="text-align: left;">A Tabela 3 classifica as ocorrências <code>PROB-PP-T2-01</code> a <code>05</code> de acordo com a severidade canônica.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>7. Há proposição de diretrizes concretas de reprojeto para a alta fidelidade?</strong></td>
+<td style="text-align: left;">Mayhew (1999); Barbosa &amp; Silva (2021)</td>
+<td style="text-align: center;">✅ Sim</td>
+<td style="text-align: left;">A Seção 8 mapeia soluções de reprojeto no Figma para cada falha identificada.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>8. As gravações contam com TCLE verbal nos primeiros 60s em regime Não Listado?</strong></td>
+<td style="text-align: left;">Resolução CNS nº 510/2016; Sales (2026)</td>
+<td style="text-align: center;">✅ Sim</td>
+<td style="text-align: left;">A Seção 9 disponibiliza os players do YouTube comprovando a coleta do consentimento oral.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021), Nielsen (1994) e Sales (2026), 2026.</em></p>
+<hr />
+<h2 id="12-historico-de-versao">12. Histórico de Versão</h2>
+<p>A Tabela 5 documenta as revisões históricas deste documento.</p>
+<p><strong>Tabela 5</strong> — Histórico de Versão do Documento</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: center;">Data</th>
+<th style="text-align: left;">Descrição Detalhada da Modificação</th>
+<th style="text-align: left;">Autor(es)</th>
+<th style="text-align: left;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1.0</code></td>
+<td style="text-align: center;">03/11/2026</td>
+<td style="text-align: left;">Elaboração inicial do Relato dos Resultados do Protótipo de Papel da Tarefa 2 (Eventos Presenciais): fundamentação amostral rigorosa (Nielsen &amp; Landauer, Virzi, Krug, Snyder), perfil dos 2 participantes (P1 e P2), transcrição de verbalizações (<em>think-aloud</em>), catálogo de severidade de Nielsen de <code>PROB-PP-T2-01</code> a <code>05</code>, diretrizes de reprojeto no Figma, incorporação dos 2 vídeos de avaliação e do vídeo do teste-piloto com cláusula de descarte e checklist normativo de 8 itens.</td>
+<td style="text-align: left;"><a href="https://github.com/gus-ant">Gustavo Antonio Rodrigues e Silva</a></td>
+<td style="text-align: left;"><a href="https://github.com/ViniciusA05">Vinicius Silva Araruna</a>, <a href="https://github.com/PajeMurici-dev">Edvaldo Soares Brasileiro Filho</a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026.</em></p>
+<hr />
+<h2 id="13-referencias-bibliograficas-abnt-nbr-6023">13. Referências Bibliográficas (ABNT NBR 6023)</h2>
+<ul>
+<li>BARDIN, Laurence. <em>Análise de conteúdo</em>. São Paulo: Edições 70, 2011.</li>
+<li>BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. <em>Interação Humano-Computador e Experiência do Usuário</em>. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento e Relato da Avaliação de IHC, p. 260–285).</li>
+<li>ERICSSON, K. Anders; SIMON, Herbert A. <em>Protocol Analysis: Verbal Reports as Data</em>. Cambridge: MIT Press, 1993.</li>
+<li>FAGAN, Michael E. <em>Design and code inspections to reduce errors in program development</em>. IBM Systems Journal, v. 15, n. 3, p. 182–211, 1976.</li>
+<li>KRUG, Steve. <em>Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems</em>. Berkeley: New Riders, 2010.</li>
+<li>KRUG, Steve. <em>Não me faça pensar (revisitado): uma abordagem de bom senso à usabilidade na web e no celular</em>. 3. ed. Rio de Janeiro: Alta Books, 2014.</li>
+<li>MAYHEW, Deborah J. <em>The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design</em>. San Francisco: Morgan Kaufmann, 1999.</li>
+<li>NIELSEN, Jakob. <em>Usability Engineering</em>. San Francisco: Morgan Kaufmann Publishers, 1994.</li>
+<li>NIELSEN, Jakob. <em>Why You Only Need to Test with 5 Users</em>. Fremont: Nielsen Norman Group, 2000. Disponível em: <a href="https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/">https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/</a>.</li>
+<li>NIELSEN, Jakob; LANDAUER, Thomas K. <em>A mathematical model of the finding of usability problems</em>. In: Proceedings of the INTERACT '93 and CHI '93 Conference on Human Factors in Computing Systems. Amsterdam: ACM, 1993. p. 206–213.</li>
+<li>RETTIG, Marc. <em>Prototyping for tiny fingers</em>. Communications of the ACM, v. 37, n. 4, p. 21–27, 1994.</li>
+<li>SALES, André Barros de. <em>Plano de Ensino da Disciplina de Interação Humano Computador</em>. Brasília: Universidade de Brasília, Faculdade UnB Gama (FGA), 2026.</li>
+<li>SNYDER, Carolyn. <em>Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces</em>. San Francisco: Morgan Kaufmann Publishers, 2003.</li>
+<li>VIRZI, Robert A. <em>Refining the test phase of usability evaluation: How many subjects is enough?</em> Human Factors, v. 34, n. 4, p. 457–468, 1992.</li>
+</ul>
+<hr />
+<h2 id="agradecimentos-e-declaracao-de-uso-de-ia-generativa">Agradecimentos e Declaração de Uso de IA Generativa</h2>
+<p>Em conformidade com as diretrizes da Sociedade Brasileira de Computação (SBC, 2023) e o Plano de Ensino da disciplina (Sales, 2026), declara-se que durante a elaboração deste artefato foram utilizados recursos de Inteligência Artificial Generativa (Google Gemini) exclusivamente para apoio à estruturação e validação sintática das tabelas em Markdown e formatação de equações matemáticas em UTF-8 nativo. Toda a condução empírica presencial das avaliações, transcrição de áudios, catalogação dos problemas de usabilidade, cálculo de severidade e formulação das recomendações de reprojeto foram concebidas e executadas integralmente pelos autores humanos listados no Histórico de Versão.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../relato-resultados/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Relato dos Resultados (Tarefa 1 — Vinicius Silva)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Relato dos Resultados (Tarefa 1 — Vinicius Silva)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../relato-resultados-agendamento/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Relato dos Resultados (Tarefa 3 - Agendamento)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Relato dos Resultados (Tarefa 3 - Agendamento)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Grupo 08 · Interação Humano-Computador · FCTE/UnB · 2026.2
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.path", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+  
+      <script src="../../../../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  <script>
+    /* ======================================================
+       Widget de Acessibilidade — Tamanho de Fonte
+       Grupo 08 · IHC 2026.2
+    ====================================================== */
+    (function () {
+      var SIZES = { small: '90%', normal: '100%', large: '130%' };
+      var KEY = 'dp-font-size';
+
+      function applySize(size) {
+        document.documentElement.style.fontSize = SIZES[size] || SIZES.normal;
+        try { localStorage.setItem(KEY, size); } catch (e) {}
+      }
+
+      /* Restaura preferência salva */
+      try {
+        var saved = localStorage.getItem(KEY);
+        if (saved) applySize(saved);
+      } catch (e) {}
+
+      /* Cria widget após o DOM estar pronto */
+      document.addEventListener('DOMContentLoaded', function () {
+        var widget = document.createElement('div');
+        widget.className = 'dp-a11y-widget';
+        widget.setAttribute('aria-label', 'Controle de acessibilidade de fonte');
+        widget.innerHTML =
+          '<button class="dp-a11y-btn" title="Diminuir fonte" aria-label="Diminuir tamanho da fonte" onclick="(function(){document.documentElement.style.fontSize=\'90%\';try{localStorage.setItem(\'dp-font-size\',\'small\')}catch(e){}})()">A<span style="font-size:0.6em;vertical-align:sub">−</span></button>' +
+          '<button class="dp-a11y-btn" title="Fonte padrão" aria-label="Restaurar tamanho padrão da fonte" onclick="(function(){document.documentElement.style.fontSize=\'100%\';try{localStorage.setItem(\'dp-font-size\',\'normal\')}catch(e){}})()">A</button>' +
+          '<button class="dp-a11y-btn" title="Aumentar fonte" aria-label="Aumentar tamanho da fonte" onclick="(function(){document.documentElement.style.fontSize=\'130%\';try{localStorage.setItem(\'dp-font-size\',\'large\')}catch(e){}})()">A<span style="font-size:0.75em;vertical-align:super">+</span></button>';
+        document.body.appendChild(widget);
+      });
+    })();
+
+    /* ======================================================
+       Navegação das Abas Superiores (Setas, Scroll e Wheel)
+       Grupo 08 · IHC 2026.2
+    ====================================================== */
+    (function () {
+      function initTabsNavigation() {
+        var tabsNav = document.querySelector('.md-tabs');
+        if (!tabsNav) return;
+
+        var grid = tabsNav.querySelector('.md-grid');
+        var tabsList = tabsNav.querySelector('.md-tabs__list');
+        if (!grid || !tabsList) return;
+
+        // Evita inicialização duplicada
+        if (grid.querySelector('.dp-tabs-arrow--prev')) return;
+
+        // Cria as setinhas de navegação
+        var prevBtn = document.createElement('button');
+        prevBtn.className = 'dp-tabs-arrow dp-tabs-arrow--prev';
+        prevBtn.setAttribute('type', 'button');
+        prevBtn.setAttribute('aria-label', 'Rolar abas para a esquerda');
+        prevBtn.setAttribute('title', 'Rolar abas para a esquerda');
+        prevBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>';
+
+        var nextBtn = document.createElement('button');
+        nextBtn.className = 'dp-tabs-arrow dp-tabs-arrow--next';
+        nextBtn.setAttribute('type', 'button');
+        nextBtn.setAttribute('aria-label', 'Rolar abas para a direita');
+        nextBtn.setAttribute('title', 'Rolar abas para a direita');
+        nextBtn.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>';
+
+        // Insere as setinhas antes e depois da lista dentro do grid
+        grid.insertBefore(prevBtn, tabsList);
+        grid.appendChild(nextBtn);
+
+        // Atualiza visibilidade e estado das setas
+        function updateArrows() {
+          var scrollLeft = tabsList.scrollLeft;
+          var maxScroll = tabsList.scrollWidth - tabsList.clientWidth;
+          var hasOverflow = maxScroll > 4;
+
+          if (!hasOverflow) {
+            prevBtn.style.display = 'none';
+            nextBtn.style.display = 'none';
+            return;
+          }
+
+          prevBtn.style.display = 'inline-flex';
+          nextBtn.style.display = 'inline-flex';
+
+          prevBtn.disabled = scrollLeft <= 4;
+          nextBtn.disabled = scrollLeft >= (maxScroll - 4);
+        }
+
+        // Scroll suave com as setas
+        var SCROLL_STEP = 260;
+        prevBtn.addEventListener('click', function () {
+          tabsList.scrollBy({ left: -SCROLL_STEP, behavior: 'smooth' });
+          setTimeout(updateArrows, 300);
+        });
+
+        nextBtn.addEventListener('click', function () {
+          tabsList.scrollBy({ left: SCROLL_STEP, behavior: 'smooth' });
+          setTimeout(updateArrows, 300);
+        });
+
+        // Conversão da roda do mouse (scroll vertical) em scroll horizontal nas abas
+        tabsNav.addEventListener('wheel', function (e) {
+          if (tabsList.scrollWidth > tabsList.clientWidth) {
+            if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+              e.preventDefault();
+              tabsList.scrollLeft += (e.deltaY * 1.2);
+              updateArrows();
+            }
+          }
+        }, { passive: false });
+
+        // Atualização em eventos de rolagem
+        tabsList.addEventListener('scroll', updateArrows, { passive: true });
+
+        // Monitoramento de redimensionamento da janela e contêiner
+        if (window.ResizeObserver) {
+          var ro = new ResizeObserver(updateArrows);
+          ro.observe(tabsNav);
+          ro.observe(tabsList);
+        } else {
+          window.addEventListener('resize', updateArrows);
+        }
+
+        // Auto-scroll para centralizar a aba ativa ao carregar a página
+        setTimeout(function () {
+          var activeTab = tabsList.querySelector('.md-tabs__item--active');
+          if (activeTab) {
+            activeTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+          }
+          updateArrows();
+        }, 150);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initTabsNavigation);
+      } else {
+        initTabsNavigation();
+      }
+    })();
+  </script>
+
+  </body>
+</html>
