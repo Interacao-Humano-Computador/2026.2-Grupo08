@@ -1,14 +1,5 @@
 # Avaliação do Grupo -1 — Grupo 07 (PCI Concursos)
 
-<div class="dp-page-nav" style="display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.2rem 0 1.8rem 0; padding: 0.8rem 1rem; background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px;" markdown="1">
-
-[:material-hub: **Hub Central (Visão Geral)**](index.md){ .md-button .md-button--primary }
-[:material-rocket-launch: **Etapa 6 (Relato do Protótipo de Papel e Alta Fidelidade)**](etapa6.md){ .md-button }
-[:material-clipboard-check: **Etapa 4 (Planejamento de Nível 1)**](etapa4.md){ .md-button }
-[:material-checkbox-marked-outline: **Etapa 2 (Perfil de Usuário e Tarefas)**](etapa2.md){ .md-button }
-
-</div>
-
 ## Tabela de Contribuição e Transparência de IA Generativa
 
 A Tabela 0 sintetiza as contribuições dos membros do Grupo 08 na governança e atualização contínua deste Hub Central de Auditoria.
