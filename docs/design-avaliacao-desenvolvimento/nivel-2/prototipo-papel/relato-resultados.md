@@ -116,7 +116,7 @@ Os três participantes foram contextualizados na jornada da persona primária **
 1. **Passo 1 (Folha 1 — Tela Inicial):** Identificar e apontar o dedo para o botão primário `[ + Novo Tópico ]`;
 2. **Passo 2 (Folha 2 — Composer Aberto):** Simular a escrita do Título e tocar no seletor de Categoria (entrada da Peça Móvel 1 — menu suspenso de categorias);
 3. **Passo 3 (Folha 2 — Seletor de Tags):** Tocar no campo de tags e escolher os marcadores adequados (entrada da Peça Móvel 2 — menu suspenso de tags);
-4. **Passo 4 (Folha 2 — Editor Split-View):** Apontar o botão `[ </> Código ]` e simular a inserção do texto Markdown e dos logs do terminal, inspecionando visualmente o painel de visualização renderizada à direita;
+4. **Passo 4 (Folha 2 — Editor Split-View):** Apontar o botão `[ &lt;/&gt; Código ]` e simular a inserção do texto Markdown e dos logs do terminal, inspecionando visualmente o painel de visualização renderizada à direita;
 5. **Passo 5 (Peça Móvel 3 — Modal de IA Pré-Envio):** Tocar em `[ Criar tópico ]`, analisar a sobreposição do cartão modal da IA, avaliar os tópicos sugeridos e decidir entre aplicar as sugestões ou prosseguir;
 6. **Passo 6 (Folha 3 — Tópico Publicado):** Confirmar a publicação e inspecionar a tela final com a formatação monoespaçada e os chips de tags ativos.
 
