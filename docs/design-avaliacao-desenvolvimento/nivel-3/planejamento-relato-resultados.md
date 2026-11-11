@@ -54,7 +54,7 @@ A Tabela 2 apresenta o modelo tabular padronizado que será preenchido após a s
 
 **Tabela 2** — Modelo de Consolidação de Métricas Quantitativas e Escore SUS da Tarefa 1 *(Template para a Etapa 7)*
 
-| ID | Participante / Perfil | Tempo Total na Tarefa (s) | Meta de Tempo (≤ 90s) / Baseline KLM (135,3s) | Tempo no Modal de IA (s) | Taxa de Conclusão (%) | Uso Correto do Botão `</> Bash` | Escore SUS Global (0–100) | Classificação Adjetiva SUS (Bangor et al., 2009) |
+| ID | Participante / Perfil | Tempo Total na Tarefa (s) | Meta de Tempo (≤ 90s) / Baseline KLM (135,3s) | Tempo no Modal de IA (s) | Taxa de Conclusão (%) | Uso Correto do Botão `&lt;/&gt; Bash` | Escore SUS Global (0–100) | Classificação Adjetiva SUS (Bangor et al., 2009) |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **P1** | Discente de Engenharia de Software (UnB) — Aprendiz Linux | *[A preencher]* | *[Meta Atingida?]* | *[A preencher]* | *[A preencher]* | *[Sim / Não]* | *[A preencher]* | *[Grau A / B / C / D / F]* |
 
@@ -62,7 +62,35 @@ _Fonte: Elaborada por Vinicius Silva Araruna com base em Brooke (1996) e Bangor,
 
 Como exemplificado na Tabela 2, os dados mensurados permitirão verificar com precisão se a otimização de fluxo no Figma superou o tempo preditivo do modelo KLM (`135,3 segundos`) e se o índice SUS atinge a meta de excelência de **≥ 80,0 pontos**.
 
-### 3.2 Modelo Estruturado de Registro de Problemas de Usabilidade e Severidade (Nielsen)
+### 3.2 Modelo de Consolida??o de M?tricas Quantitativas e Escore SUS (Tarefa 2)
+
+A Tabela 2b apresenta o modelo tabular padronizado que registrar? o desempenho operacional objetivo e a avalia??o psicom?trica SUS da Tarefa 2 (Cria??o de Eventos Presenciais com Mapa e Ingressos) no prot?tipo interativo do Figma durante a Etapa 7.
+
+**Tabela 2b** ? Modelo de Consolida??o de M?tricas Quantitativas e Escore SUS da Tarefa 2 *(Template para a Etapa 7)*
+
+| ID | Participante / Perfil | Tempo Total no Percurso (s) | Meta de Tempo (? 120s) | Tempo na Defini??o de Qu?rum / Ingressos (s) | Intera??o Fluida com Mapa e Pin | Taxa de Conclus?o do Evento (%) | Escore SUS Global (0?100) | Classifica??o Adjetiva SUS (Bangor et al., 2009) |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **P2** | Discente de Engenharia (UnB) ? Perfil Carlos Eduardo | *[A preencher]* | *[Meta Atingida?]* | *[A preencher]* | *[Sim / N?o]* | *[A preencher]* | *[A preencher]* | *[Grau A / B / C / D / F]* |
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Brooke (1996) e Bangor, Kortum e Miller (2009), 2026._
+
+### 3.3 Modelo Estruturado de Registro de Problemas de Usabilidade da Tarefa 2 (Severidade de Nielsen)
+
+A Tabela 3b formaliza a matriz de cataloga??o de falhas ergon?micas, hesita??es e desvios de navega??o observados durante o percurso interativo da Tarefa 2 no Figma.
+
+**Tabela 3b** ? Modelo de Registro de Problemas de Usabilidade de Alta Fidelidade (Tarefa 2 ? Eventos Presenciais)
+
+| ID | Frame / Componente do Figma Afetado | Descri??o da Hesita??o / Dificuldade no Teste | Dimens?o Ergon?mica / Token Impactado | Severidade de Nielsen (0 a 4) | Diretriz de Refinamento no Figma (Etapa 7) |
+| :---: | :--- | :--- | :--- | :---: | :--- |
+| **`PROB-AF-T2-01`** | *Frame Eventos 01 ? Hub* | Usu?rio hesita em localizar o gatilho `+ Criar Novo Evento` na interface com m?ltiplos cart?es. | *Affordance* e Destaque Visual | **1 (Cosm?tico)** | Elevar o contraste do bot?o prim?rio e refor?ar a sombra de eleva??o (`elevation-2`). |
+| **`PROB-AF-T2-02`** | *Frame Eventos 02 ? Seletor 24h* | Dificuldade em alternar entre hora e minuto no timepicker digital. | Flexibilidade e Efici?ncia de Uso | **2 (Menor)** | Incorporar m?scara de digita??o direta via teclado alternativa ao clique no ponteiro. |
+| **`PROB-AF-T2-03`** | *Overlay Qu?rum / Lota??o* | D?vida sobre a obrigatoriedade do campo de qu?rum m?nimo para publica??o. | Ajuda Contextual e Preven??o de Erros | **2 (Menor)** | Adicionar ?cone de ajuda `(?)` com tooltip autoexplicativo sobre sustentabilidade do evento. |
+| **`PROB-AF-T2-04`** | *Overlay Mapa do Campus* | Lentid?o no arraste do marcador (*pin*) sobre as refer?ncias da UnB Gama. | Manipula??o Direta e Precis?o | **2 (Menor)** | Habilitar busca por texto de pontos de refer?ncia do campus com posicionamento autom?tico do pin. |
+| **`PROB-AF-T2-05`** | *Frame Eventos 03 ? Sucesso* | Usu?rio n?o identifica imediatamente a op??o de salvar o ingresso com QR Code. | Visibilidade do Estado / Fechamento | **1 (Cosm?tico)** | Posicionar bot?o `[ Baixar Ingresso / QR Code ]` em destaque logo abaixo do banner de confirma??o. |
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Nielsen (1994), 2026._
+
+### 3.4 Modelo Estruturado de Registro de Problemas de Usabilidade e Severidade (Nielsen - Tarefa 1)
 
 A Tabela 3 apresenta o modelo formal que receberá as evidências de dificuldades, hesitações e barreiras ergonômicas diagnosticadas nas telas do Figma durante os testes da Tarefa 1.
 
@@ -120,6 +148,7 @@ A Tabela 5 documenta o histórico de versões e atualizações deste artefato de
 
 | Versão | Data | Descrição da Alteração | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
+| `1.1` | 07/11/2026 | Integracao dos modelos analiticos da Tarefa 2 (Criacao de Eventos Presenciais): template de metricas de desempenho e escore SUS (Tabela 2b) e matriz estruturada de problemas na escala de severidade de Nielsen (Tabela 3b - PROB-AF-T2-01 a 05) (#125). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.0` | 31/10/2026 | Estruturação inicial do Planejamento do Relato da Alta Fidelidade (Nível 3): consolidação dos 9 tópicos normativos de Barbosa & Silva (2021), template tabular de métricas e SUS (Brooke, 1996), matriz estruturada de problemas na escala de severidade de Nielsen (0 a 4), critérios de priorização de reprojeto no Figma e lista de verificação de 9 itens normativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Vinicius Silva Araruna, 2026._
