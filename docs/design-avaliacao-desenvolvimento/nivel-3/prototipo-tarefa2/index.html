@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diolinux Plus — Eventos da Comunidade (Protótipo de Alta Fidelidade)</title>
+  <link rel="icon" type="image/png" href="assets/logo-diolinux-plus.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Sticky Top Header -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="header-left">
+        <button id="btn-toggle-sidebar" class="icon-btn" type="button" aria-label="Alternar barra lateral" aria-expanded="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+        <button id="btn-logo-home" class="brand-logo-btn" type="button" aria-label="Ir para a página inicial do Diolinux Plus">
+          <img src="assets/logo-diolinux-plus.png" alt="Diolinux Plus" class="brand-logo-img" />
+        </button>
+      </div>
+
+      <div class="header-right">
+        <button id="btn-header-search" class="icon-btn" type="button" title="Pesquisar (/)" aria-label="Pesquisar">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <div class="popover-wrapper">
+          <button id="btn-notifications" class="icon-btn has-badge" type="button" title="Notificações" aria-label="Notificações" aria-expanded="false">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+              <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+            </svg>
+            <span class="notif-dot" aria-hidden="true"></span>
+          </button>
+          <div id="notifications-popover" class="header-popover" hidden>
+            <div class="popover-header">Notificações</div>
+            <div class="popover-item">
+              <span class="popover-dot"></span>
+              <div>
+                <strong>Install-Fest Linux Mint</strong> começa em 2 dias.
+                <small>Eventos da Comunidade</small>
+              </div>
+            </div>
+            <div class="popover-item">
+              <span class="popover-dot muted"></span>
+              <div>
+                Você alcançou o nível de confiança <strong>TL1 (Básico)</strong>.
+                <small>Sistema Discourse</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popover-wrapper">
+          <button id="btn-user-menu" class="user-avatar-btn" type="button" aria-label="Perfil de Carlos Eduardo" aria-expanded="false">
+            <span class="avatar-circle">CE</span>
+          </button>
+          <div id="user-popover" class="header-popover" hidden>
+            <div class="user-popover-info">
+              <strong>Carlos Eduardo</strong>
+              <span>@carlos_edu · Nível TL1 (Básico)</span>
+            </div>
+            <button type="button" class="popover-action-btn" data-nav="hub" data-filter="tickets">
+              Meus Ingressos e Eventos
+            </button>
+            <button type="button" class="popover-action-btn" data-nav="wizard">
+              + Criar Novo Evento
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Workspace Layout -->
+  <div class="app-layout" id="app-layout">
+    <!-- Left Sidebar -->
+    <aside class="sidebar" id="sidebar" aria-label="Navegação principal do fórum">
+      <div class="sidebar-scroll">
+        <nav class="sidebar-nav">
+          <button type="button" class="sidebar-item active" data-nav="home" id="nav-sidebar-home">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>Início</span>
+          </button>
+          <button type="button" class="sidebar-item" data-nav="hub" id="nav-sidebar-events">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span>Eventos</span>
+            <span class="sidebar-badge">Novo</span>
+          </button>
+          <button type="button" class="sidebar-item" data-toast="Visualizando seção: Sobre o Diolinux Plus">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>Sobre</span>
+          </button>
+          <button type="button" class="sidebar-item" data-toast="Visualizando seção: Regras da Comunidade">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            <span>Regras</span>
+          </button>
+          <button type="button" class="sidebar-item" data-toast="Visualizando seção: Emblemas">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            <span>Emblemas</span>
+          </button>
+          <button type="button" class="sidebar-item" data-toast="Visualizando seção: Destaques">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>Destaques</span>
+          </button>
+          <button type="button" class="sidebar-item" data-toast="Mais opções do Discourse">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
+            <span>Mais</span>
+          </button>
+        </nav>
+
+        <div class="sidebar-section">
+          <button type="button" class="sidebar-section-header" id="btn-toggle-more-content" aria-expanded="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            <span>MAIS CONTEÚDO</span>
+          </button>
+          <div id="more-content-list" class="sidebar-sublist">
+            <a href="#site-diolinux" class="sidebar-item" data-toast="Link externo: Site Diolinux">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"/></svg>
+              <span>Site Diolinux</span>
+            </a>
+            <a href="#diolinux-labs" class="sidebar-item" data-toast="Link externo: Diolinux Labs">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><polygon points="10 9 15 12 10 15 10 9"/></svg>
+              <span>Diolinux Labs</span>
+            </a>
+            <a href="#diolinux-yt" class="sidebar-item" data-toast="Link externo: Canal Diolinux">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><polygon points="10 9 15 12 10 15 10 9"/></svg>
+              <span>Diolinux</span>
+            </a>
+            <a href="#instagram" class="sidebar-item" data-toast="Link externo: Instagram Diolinux">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              <span>Instagram</span>
+            </a>
+            <a href="#diolinux-play" class="sidebar-item" data-toast="Link externo: Diolinux Play">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>Diolinux Play</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <button type="button" id="btn-theme-toggle" class="theme-toggle-btn" title="Alternar tema">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18a9 9 0 0 0 0-18z" fill="currentColor"/></svg>
+          <span id="theme-label">Modo Escuro</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <button type="button" id="btn-shortcuts" class="icon-btn" title="Atalhos de teclado (?)" aria-label="Atalhos de teclado">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="6" y1="10" x2="6" y2="10"/><line x1="10" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="14" y2="10"/><line x1="18" y1="10" x2="18" y2="10"/><line x1="7" y1="15" x2="17" y2="15"/></svg>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Container -->
+    <main class="main-content" id="main-content">
+      <div class="content-container">
+
+        <!-- =======================================================
+             TELA 0: PÁGINA INICIAL DO FÓRUM (Fidelidade ao Print)
+             ======================================================= -->
+        <section id="screen-home" class="screen active" aria-labelledby="home-hero-title">
+          <div class="hero-section">
+            <h1 id="home-hero-title" class="hero-title">Este é o Diolinux Plus! Explore o fórum da comunidade</h1>
+            <div class="hero-search-box">
+              <svg class="search-icon-left" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input id="home-search-input" type="search" placeholder="Pesquisar" aria-label="Pesquisar no fórum" />
+              <button type="button" class="icon-btn-inline" title="Filtros avançados" aria-label="Filtros avançados" data-toast="Filtros de busca do fórum">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="forum-toolbar">
+            <div class="toolbar-dropdowns">
+              <button type="button" class="filter-dropdown-btn" data-toast="Seletor de categorias">
+                <span>categorias</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+              <button type="button" class="filter-dropdown-btn" data-toast="Seletor de etiquetas">
+                <span>etiquetas</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </div>
+
+            <nav class="nav-tabs" aria-label="Filtros de tópicos e eventos">
+              <button type="button" class="nav-tab active" data-home-tab="recentes">Recentes</button>
+              <button type="button" class="nav-tab" data-home-tab="melhores">Melhores</button>
+              <button type="button" class="nav-tab nav-tab-events" id="btn-top-tab-events" data-nav="hub">
+                Eventos
+              </button>
+            </nav>
+          </div>
+
+          <div class="topic-table-wrapper">
+            <table class="topic-table" aria-label="Lista de tópicos do Diolinux Plus">
+              <thead>
+                <tr>
+                  <th scope="col" class="col-topic">Tópico</th>
+                  <th scope="col" class="col-posters"></th>
+                  <th scope="col" class="col-num">Respostas</th>
+                  <th scope="col" class="col-num">Visualizações</th>
+                  <th scope="col" class="col-num">Atividade</th>
+                </tr>
+              </thead>
+              <tbody id="home-topic-tbody">
+                <!-- Pinned Topic matching screenshot -->
+                <tr>
+                  <td class="col-topic">
+                    <div class="topic-title-line">
+                      <span class="pin-icon" title="Fixado">📌</span>
+                      <a href="#regras" class="topic-link" data-toast="Tópico informativo de regras">[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de começar!</a>
+                    </div>
+                    <div class="topic-meta-line">
+                      <span class="category-badge badge-green">Manuais do Fórum</span>
+                    </div>
+                    <p class="topic-excerpt">
+                      O Diolinux Plus é para todos os membros da comunidade Diolinux, blog, canal e afins, que estão dispostos a aprender mais sobre Linux e tecnologias open source...
+                    </p>
+                  </td>
+                  <td class="col-posters">
+                    <div class="poster-stack">
+                      <span class="mini-avatar av-blue">D</span>
+                      <span class="mini-avatar av-purple">E</span>
+                    </div>
+                  </td>
+                  <td class="col-num muted">0</td>
+                  <td class="col-num views-hot">27,9k</td>
+                  <td class="col-num muted">abr 2021</td>
+                </tr>
+                <tr>
+                  <td class="col-topic">
+                    <div class="topic-title-line">
+                      <a href="#docker-mint" class="topic-link" data-toast="Tópico técnico: Docker no Linux Mint">Como configurar Docker Rootless no Linux Mint 22 sem conflitos de permissão</a>
+                    </div>
+                    <div class="topic-meta-line">
+                      <span class="category-badge badge-blue">Iniciantes</span>
+                      <span class="tag-pill">docker</span>
+                      <span class="tag-pill">linux-mint</span>
+                    </div>
+                  </td>
+                  <td class="col-posters">
+                    <div class="poster-stack">
+                      <span class="mini-avatar av-orange">L</span>
+                      <span class="mini-avatar av-green">C</span>
+                    </div>
+                  </td>
+                  <td class="col-num">14</td>
+                  <td class="col-num views-warm">1,8k</td>
+                  <td class="col-num muted">2h</td>
+                </tr>
+                <tr>
+                  <td class="col-topic">
+                    <div class="topic-title-line">
+                      <a href="#install-fest" class="topic-link" data-nav="hub">Organização dos encontros presenciais e Install-Fests universitários em novembro</a>
+                    </div>
+                    <div class="topic-meta-line">
+                      <span class="category-badge badge-purple">Comunidade</span>
+                      <span class="tag-pill">eventos</span>
+                      <span class="tag-pill">unb</span>
+                    </div>
+                  </td>
+                  <td class="col-posters">
+                    <div class="poster-stack">
+                      <span class="mini-avatar av-green">N</span>
+                      <span class="mini-avatar av-blue">G</span>
+                    </div>
+                  </td>
+                  <td class="col-num">23</td>
+                  <td class="col-num">940</td>
+                  <td class="col-num muted">5h</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- =======================================================
+             TELA 1: HUB DE EVENTOS DA COMUNIDADE (PB-01)
+             ======================================================= -->
+        <section id="screen-hub" class="screen" aria-labelledby="hub-title" hidden>
+          <div class="hub-header">
+            <div>
+              <nav class="breadcrumb" aria-label="Navegação estrutural">
+                <button type="button" class="breadcrumb-link" data-nav="home">Diolinux</button>
+                <span aria-hidden="true">›</span>
+                <span class="breadcrumb-current">Eventos</span>
+              </nav>
+              <h1 id="hub-title" class="page-title">Eventos da Comunidade Diolinux</h1>
+              <p class="page-subtitle">Encontros presenciais, install-fests, mesas redondas e workshops organizados pela comunidade.</p>
+            </div>
+            <button id="btn-create-event" type="button" class="btn btn-primary btn-elevated">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              <span>Criar Novo Evento</span>
+            </button>
+          </div>
+
+          <!-- Search + Quick Filters -->
+          <div class="hub-controls">
+            <div class="hub-search-box">
+              <svg class="search-icon-left" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input id="hub-search-input" type="search" placeholder="Pesquisar eventos por título, local ou organizador..." aria-label="Pesquisar eventos" />
+            </div>
+
+            <div class="hub-filter-tabs" role="tablist" aria-label="Filtros rápidos de eventos">
+              <button type="button" class="nav-tab active" role="tab" aria-selected="true" data-hub-filter="all">Todos</button>
+              <button type="button" class="nav-tab" role="tab" aria-selected="false" data-hub-filter="upcoming">Próximos</button>
+              <button type="button" class="nav-tab" role="tab" aria-selected="false" data-hub-filter="nearby">Perto de mim</button>
+              <button type="button" class="nav-tab" role="tab" aria-selected="false" data-hub-filter="tickets">Meus Ingressos</button>
+            </div>
+          </div>
+
+          <!-- Events Feed -->
+          <div id="events-list" class="events-grid" aria-live="polite"></div>
+        </section>
+
+        <!-- =======================================================
+             TELA 2: WIZARD DE CRIAÇÃO EM 3 PASSOS (PB-02 Melhorado)
+             ======================================================= -->
+        <section id="screen-wizard" class="screen" aria-labelledby="wizard-title" hidden>
+          <div class="wizard-top-bar">
+            <nav class="breadcrumb" aria-label="Navegação estrutural">
+              <button type="button" class="breadcrumb-link" data-nav="home">Diolinux</button>
+              <span aria-hidden="true">›</span>
+              <button type="button" class="breadcrumb-link" data-nav="hub">Eventos</button>
+              <span aria-hidden="true">›</span>
+              <span class="breadcrumb-current">Novo Evento</span>
+            </nav>
+            <div class="autosave-pill" id="autosave-indicator">
+              <span class="autosave-dot"></span>
+              <span>Rascunho salvo automaticamente</span>
+            </div>
+          </div>
+
+          <div class="wizard-card">
+            <div class="wizard-header">
+              <h1 id="wizard-title" class="page-title">Criar Novo Evento Presencial</h1>
+              <p class="page-subtitle">Configure os detalhes do encontro em 3 etapas simples para mobilizar a comunidade.</p>
+            </div>
+
+            <!-- Stepper (PROB-PP-T2-04: Wizard Progressivo) -->
+            <ol class="stepper" aria-label="Etapas de criação do evento">
+              <li class="stepper-step active" data-step="1">
+                <button type="button" class="stepper-btn" data-goto-step="1">
+                  <span class="step-circle">1</span>
+                  <span class="step-text">
+                    <small>Passo 1</small>
+                    <strong>Sobre o Evento</strong>
+                  </span>
+                </button>
+              </li>
+              <li class="stepper-connector" aria-hidden="true"></li>
+              <li class="stepper-step" data-step="2">
+                <button type="button" class="stepper-btn" data-goto-step="2">
+                  <span class="step-circle">2</span>
+                  <span class="step-text">
+                    <small>Passo 2</small>
+                    <strong>Quando e Onde</strong>
+                  </span>
+                </button>
+              </li>
+              <li class="stepper-connector" aria-hidden="true"></li>
+              <li class="stepper-step" data-step="3">
+                <button type="button" class="stepper-btn" data-goto-step="3">
+                  <span class="step-circle">3</span>
+                  <span class="step-text">
+                    <small>Passo 3</small>
+                    <strong>Vagas e Ingressos</strong>
+                  </span>
+                </button>
+              </li>
+            </ol>
+
+            <!-- Inline Feedback Alert -->
+            <div id="wizard-error-banner" class="form-alert-error" role="alert" hidden></div>
+
+            <form id="event-wizard-form" novalidate>
+              <!-- PASSO 1: SOBRE O EVENTO -->
+              <div id="wizard-step-1" class="wizard-pane active">
+                <div class="form-group">
+                  <label for="input-event-title" class="form-label">
+                    Título do Evento <span class="required-mark">*</span>
+                  </label>
+                  <input
+                    id="input-event-title"
+                    type="text"
+                    class="form-input"
+                    placeholder="Ex.: Workshop Linux e Docker"
+                    maxlength="120"
+                    required
+                  />
+                  <div class="field-hint-row">
+                    <span>Use um título claro com tema e tecnologia abordada.</span>
+                    <span id="title-char-count" class="mono-counter">0/120</span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="select-event-category" class="form-label">
+                    Categoria Temática <span class="required-mark">*</span>
+                  </label>
+                  <select id="select-event-category" class="form-input form-select">
+                    <option value="Workshops e Capacitação">Workshops e Capacitação</option>
+                    <option value="Install-Fest">Install-Fest</option>
+                    <option value="Mesa Redonda">Mesa Redonda</option>
+                    <option value="Hardware & Open Source">Hardware &amp; Open Source</option>
+                    <option value="Linux Geral">Linux Geral</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="input-event-desc" class="form-label">
+                    Descrição / Ementa do Encontro
+                  </label>
+                  <textarea
+                    id="input-event-desc"
+                    class="form-input form-textarea"
+                    rows="4"
+                    placeholder="Descreva a programação, tópicos práticos (ex.: particionamento de discos e contêineres Docker), pré-requisitos e o que os participantes devem levar..."
+                  ></textarea>
+                </div>
+
+                <!-- Botões Centralizados (PROB-PP-T2-02) -->
+                <div class="wizard-actions-centered">
+                  <button type="button" class="btn btn-default btn-save-draft">Salvar Rascunho</button>
+                  <button type="button" id="btn-step1-next" class="btn btn-primary">
+                    <span>Próximo: Quando e Onde</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                  </button>
+                </div>
+              </div>
+
+              <!-- PASSO 2: QUANDO E ONDE (PM-01 24h + PM-03 Mapa) -->
+              <div id="wizard-step-2" class="wizard-pane" hidden>
+                <div class="form-grid-2">
+                  <div class="form-group">
+                    <label for="input-event-date" class="form-label">
+                      Data do Evento <span class="required-mark">*</span>
+                    </label>
+                    <input id="input-event-date" type="date" class="form-input mono-input" value="2026-11-14" required />
+                    <span class="field-hint">Selecione o dia previsto para realização do encontro.</span>
+                  </div>
+
+                  <!-- Seletor de Horário 24h (PROB-PP-T2-03: Sem AM/PM) -->
+                  <div class="form-group">
+                    <span class="form-label">Horário (Padrão 24 horas) <span class="required-mark">*</span></span>
+                    <div class="picker-trigger-card">
+                      <div class="picker-trigger-info">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0084FF" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        <div>
+                          <strong id="display-time-summary" class="mono-text">Não definido</strong>
+                          <small>Formato nativo 00:00 às 23:59</small>
+                        </div>
+                      </div>
+                      <button type="button" id="btn-open-time-modal" class="btn btn-default">
+                        Definir Horário
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Seletor de Mapa (PM-03 + Busca Textual) -->
+                <div class="form-group">
+                  <span class="form-label">Localização do Evento <span class="required-mark">*</span></span>
+                  <div class="picker-trigger-card picker-trigger-map">
+                    <div class="picker-trigger-info">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2ECC71" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                      <div>
+                        <strong id="display-location-summary">Nenhum local selecionado no mapa</strong>
+                        <small id="display-location-sub">Clique ao lado para posicionar o marcador no campus</small>
+                      </div>
+                    </div>
+                    <button type="button" id="btn-open-map-modal" class="btn btn-default">
+                      Definir Local no Mapa
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Botões Centralizados (PROB-PP-T2-02) -->
+                <div class="wizard-actions-centered">
+                  <button type="button" id="btn-step2-prev" class="btn btn-default">← Voltar</button>
+                  <button type="button" class="btn btn-default btn-save-draft">Salvar Rascunho</button>
+                  <button type="button" id="btn-step2-next" class="btn btn-primary">
+                    <span>Próximo: Vagas e Ingressos</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+                  </button>
+                </div>
+              </div>
+
+              <!-- PASSO 3: VAGAS, QUÓRUM E INGRESSOS (PM-02 com PROB-PP-T2-01) -->
+              <div id="wizard-step-3" class="wizard-pane" hidden>
+                <!-- Ordem Lógica Invertida (PROB-PP-T2-01: Quórum Mínimo PRIMEIRO, Lotação Máxima DEPOIS) -->
+                <div class="capacity-stack">
+                  <div class="form-group capacity-highlight">
+                    <div class="label-with-tooltip">
+                      <label for="input-quorum-min" class="form-label">
+                        1. Quantos participantes são necessários para viabilizar este encontro? (Quórum Mínimo) <span class="required-mark">*</span>
+                      </label>
+                      <div class="tooltip-wrapper">
+                        <button type="button" id="btn-quorum-help" class="help-icon-btn" aria-label="Explicação sobre quórum mínimo" aria-describedby="tooltip-quorum">?</button>
+                        <div id="tooltip-quorum" class="tooltip-box" role="tooltip">
+                          O <strong>Quórum Mínimo</strong> define quantas inscrições confirmam que o evento ocorrerá, evitando cancelamentos de última hora.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="numeric-suffix-wrap">
+                      <input id="input-quorum-min" type="number" min="1" max="500" class="form-input mono-input" placeholder="Ex.: 10" required />
+                      <span class="input-suffix">participantes</span>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="input-max-capacity" class="form-label">
+                      2. Qual a capacidade máxima do local? (Lotação Máxima) <span class="required-mark">*</span>
+                    </label>
+                    <div class="numeric-suffix-wrap">
+                      <input id="input-max-capacity" type="number" min="1" max="1000" class="form-input mono-input" placeholder="Ex.: 30" required />
+                      <span class="input-suffix">vagas</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tipo de Ingresso -->
+                <div class="form-group">
+                  <span class="form-label">Tipo de Ingresso</span>
+                  <div class="radio-cards-grid">
+                    <label class="radio-card active">
+                      <input type="radio" name="ticketType" value="Gratuito (1 por usuário)" checked />
+                      <div>
+                        <strong>Gratuito (1 por usuário)</strong>
+                        <small>Ideal para workshops comunitários e meetups acadêmicos</small>
+                      </div>
+                    </label>
+                    <label class="radio-card">
+                      <input type="radio" name="ticketType" value="Contribuição (via PIX)" />
+                      <div>
+                        <strong>Contribuição (via PIX)</strong>
+                        <small>Apoio opcional para custear café ou infraestrutura</small>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+
+                <div id="pix-extra-field" class="form-group" hidden>
+                  <label for="input-pix-info" class="form-label">Valor sugerido ou Chave PIX (opcional)</label>
+                  <input id="input-pix-info" type="text" class="form-input" placeholder="Ex.: R$ 15,00 — chave@diolinux.com.br" />
+                </div>
+
+                <!-- Opções Operacionais -->
+                <div class="form-group">
+                  <span class="form-label">Configurações de Credenciamento e Lembretes</span>
+                  <div class="checkbox-list">
+                    <label class="checkbox-row">
+                      <input id="chk-qrcode" type="checkbox" checked />
+                      <span>Emitir <strong>QR Code</strong> como Ingresso digital para check-in na entrada</span>
+                    </label>
+                    <label class="checkbox-row">
+                      <input id="chk-reminder" type="checkbox" checked />
+                      <span>Enviar <strong>lembrete por e-mail 24 horas antes</strong> do início do encontro</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Resumo Dinâmico -->
+                <div class="summary-strip" id="step3-live-summary">
+                  Preencha o quórum e a lotação para visualizar o resumo da configuração.
+                </div>
+
+                <!-- Botões Centralizados (PROB-PP-T2-02) -->
+                <div class="wizard-actions-centered">
+                  <button type="button" id="btn-step3-prev" class="btn btn-default">← Voltar</button>
+                  <button type="button" class="btn btn-default btn-save-draft">Salvar Rascunho</button>
+                  <button type="submit" id="btn-publish-event" class="btn btn-primary btn-elevated">
+                    Publicar Evento
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <!-- =======================================================
+             TELA 3: PÁGINA DO EVENTO PUBLICADO (PB-03 + PROB-PP-T2-05)
+             ======================================================= -->
+        <section id="screen-event" class="screen" aria-labelledby="published-event-title" hidden>
+          <div class="event-top-nav">
+            <nav class="breadcrumb" aria-label="Navegação estrutural">
+              <button type="button" class="breadcrumb-link" data-nav="home">Diolinux</button>
+              <span aria-hidden="true">›</span>
+              <button type="button" class="breadcrumb-link" data-nav="hub">Eventos</button>
+              <span aria-hidden="true">›</span>
+              <span id="published-breadcrumb-name" class="breadcrumb-current">Evento</span>
+            </nav>
+            <button type="button" class="btn btn-default btn-sm" data-nav="hub">← Voltar ao Hub de Eventos</button>
+          </div>
+
+          <!-- Banner de Sucesso Semântico (#2ECC71) -->
+          <div id="published-success-banner" class="success-banner" role="status">
+            <div class="success-banner-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <strong>Evento publicado com sucesso!</strong>
+              <p>O encontro foi divulgado no Hub da Comunidade e seu ingresso com credenciamento já está disponível.</p>
+            </div>
+          </div>
+
+          <!-- Resumo + Ingresso QR Code -->
+          <div class="published-grid">
+            <article class="published-main-card">
+              <div class="published-badges-row">
+                <span id="pub-category-badge" class="category-badge badge-blue">Workshops e Capacitação</span>
+                <span class="tag-pill">Presencial</span>
+                <span id="pub-reminder-tag" class="tag-pill">Lembrete 24h ativo</span>
+              </div>
+
+              <h1 id="published-event-title" class="published-title">Workshop Linux e Docker</h1>
+              <p class="published-organizer">Organizado por <strong id="published-organizer-name">Carlos Eduardo (@carlos_edu)</strong></p>
+
+              <div class="published-meta-list">
+                <div class="meta-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0084FF" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  <div>
+                    <small>Data e Horário</small>
+                    <strong id="published-datetime">14 de Novembro de 2026 • 14:00 às 18:00</strong>
+                  </div>
+                </div>
+                <div class="meta-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2ECC71" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <div>
+                    <small>Localização</small>
+                    <strong id="published-location">UnB Campus Gama, Bloco UAC — Sala I-04</strong>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Medidor de Viabilidade (Quórum Mínimo / Lotação) -->
+              <div class="quorum-meter-box">
+                <div class="quorum-meter-header">
+                  <span>Medidor de Viabilidade Comunitária</span>
+                  <strong id="published-quorum-text" class="mono-text">Quórum mínimo: 10/30 participantes</strong>
+                </div>
+                <div class="quorum-progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="33">
+                  <div id="published-quorum-fill" class="quorum-progress-fill" style="width: 33%;"></div>
+                </div>
+                <small id="published-quorum-note">Inscrições abertas · Meta mínima de quórum definida para garantir a realização.</small>
+              </div>
+
+              <div class="published-description-block">
+                <h2>Sobre o encontro</h2>
+                <p id="published-description">Oficina prática para estudantes e entusiastas sobre particionamento de discos e configuração de contêineres Docker no Linux.</p>
+              </div>
+            </article>
+
+            <!-- Card Lateral: Ingresso Digital com QR Code -->
+            <aside id="published-ticket-card" class="published-ticket-card" aria-label="Ingresso digital do evento">
+              <div class="ticket-header">
+                <span class="ticket-pill">Ingresso Digital</span>
+                <strong id="published-ticket-type">Gratuito (1 por usuário)</strong>
+              </div>
+
+              <div id="qrcode-preview-box" class="qrcode-box">
+                <div id="qrcode-svg-mount" class="qrcode-svg-mount" aria-label="QR Code do ingresso"></div>
+                <span id="ticket-code-text" class="mono-text ticket-code">DLX-EVT-2026-8410</span>
+              </div>
+
+              <button type="button" id="btn-download-ticket" class="btn btn-primary btn-block">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>Baixar Ingresso / QR Code</span>
+              </button>
+            </aside>
+          </div>
+
+          <!-- Mapa Expandido 16:9 (PROB-PP-T2-05) -->
+          <section class="published-map-card" aria-label="Mapa ampliado de localização do evento">
+            <div class="published-map-header">
+              <div>
+                <h2>Localização e Como Chegar</h2>
+                <p id="published-map-subtitle">UnB Campus Gama (FGA) — Bloco UAC, Sala I-04</p>
+              </div>
+              <div class="map-header-controls">
+                <div class="zoom-controls" role="group" aria-label="Controles de zoom do mapa">
+                  <button type="button" id="btn-pub-zoom-out" class="btn btn-default btn-icon-sq" title="Diminuir zoom">−</button>
+                  <span id="pub-zoom-level" class="zoom-badge mono-text">100%</span>
+                  <button type="button" id="btn-pub-zoom-in" class="btn btn-default btn-icon-sq" title="Aumentar zoom">+</button>
+                </div>
+                <a id="btn-open-external-maps" href="https://www.openstreetmap.org/?mlat=-15.9896&mlon=-48.0444#map=17/-15.9896/-48.0444" target="_blank" rel="noopener noreferrer" class="btn btn-default">
+                  Abrir no OpenStreetMap / Google Maps ↗
+                </a>
+              </div>
+            </div>
+
+            <div class="map-16-9-viewport">
+              <div id="published-map-stage" class="map-16-9-stage">
+                <!-- SVG do Mapa do Campus UnB Gama renderizado dinamicamente via JS -->
+              </div>
+            </div>
+          </section>
+
+          <!-- Barra de Ações Comunitárias Centralizada (PROB-PP-T2-02) -->
+          <div class="published-actions-bar">
+            <button type="button" id="btn-add-calendar" class="btn btn-primary">
+              + Adicionar na Agenda
+            </button>
+            <button type="button" id="btn-copy-event-link" class="btn btn-default">
+              Copiar Link
+            </button>
+            <button type="button" id="btn-share-event" class="btn btn-default">
+              Compartilhar Evento
+            </button>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- =======================================================
+       MODAL PM-01: SELETOR DE HORÁRIO 24 HORAS NATIVO (Sem AM/PM)
+       ======================================================= -->
+  <div id="modal-time" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-time-title" hidden>
+    <div class="modal-box modal-time-box">
+      <div class="modal-header">
+        <h3 id="modal-time-title">Selecionar Horário (Formato 24h)</h3>
+        <button type="button" class="modal-close-btn" data-close-modal="modal-time" aria-label="Fechar modal">×</button>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-helper">Digite diretamente no formato <strong>HH:MM</strong> (00:00 às 23:59) ou selecione horas e minutos abaixo:</p>
+
+        <div class="time-presets-row">
+          <span>Atalhos rápidos:</span>
+          <button type="button" class="chip-btn" data-time-preset="09:00-12:00">09:00 às 12:00</button>
+          <button type="button" class="chip-btn" data-time-preset="14:00-18:00">14:00 às 18:00</button>
+          <button type="button" class="chip-btn" data-time-preset="19:00-21:00">19:00 às 21:00</button>
+        </div>
+
+        <div class="time-columns-grid">
+          <!-- Coluna Início -->
+          <div class="time-col-card">
+            <div class="time-col-header">
+              <label for="input-time-start">Início</label>
+              <input id="input-time-start" type="text" class="form-input time-direct-input mono-input" value="14:00" maxlength="5" inputmode="numeric" aria-label="Horário de início (24h)" />
+            </div>
+            <div class="time-grid-label">Hora (00–23)</div>
+            <div id="grid-start-hours" class="hours-grid" role="listbox" aria-label="Hora de início"></div>
+            <div class="time-grid-label">Minuto</div>
+            <div id="grid-start-mins" class="mins-grid" role="listbox" aria-label="Minutos de início"></div>
+          </div>
+
+          <!-- Coluna Término -->
+          <div class="time-col-card">
+            <div class="time-col-header">
+              <label for="input-time-end">Término</label>
+              <input id="input-time-end" type="text" class="form-input time-direct-input mono-input" value="18:00" maxlength="5" inputmode="numeric" aria-label="Horário de término (24h)" />
+            </div>
+            <div class="time-grid-label">Hora (00–23)</div>
+            <div id="grid-end-hours" class="hours-grid" role="listbox" aria-label="Hora de término"></div>
+            <div class="time-grid-label">Minuto</div>
+            <div id="grid-end-mins" class="mins-grid" role="listbox" aria-label="Minutos de término"></div>
+          </div>
+        </div>
+
+        <div id="time-modal-error" class="form-alert-error" hidden></div>
+      </div>
+
+      <div class="modal-footer modal-footer-centered">
+        <button type="button" class="btn btn-default" data-close-modal="modal-time">Cancelar</button>
+        <button type="button" id="btn-confirm-time" class="btn btn-primary">Confirmar Horário</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =======================================================
+       MODAL PM-03: MAPA INTERATIVO COM PIN E BUSCA
+       ======================================================= -->
+  <div id="modal-map" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-map-title" hidden>
+    <div class="modal-box modal-map-box">
+      <div class="modal-header">
+        <h3 id="modal-map-title">Selecionar Local de Encontro no Mapa</h3>
+        <button type="button" class="modal-close-btn" data-close-modal="modal-map" aria-label="Fechar modal">×</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="map-search-bar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input id="input-map-search" type="search" placeholder="Buscar prédio ou referência no campus (ex.: Bloco UAC, UED, RU)..." aria-label="Buscar local no mapa" />
+          <div class="map-quick-landmarks">
+            <button type="button" class="chip-btn" data-landmark="UAC">Bloco UAC</button>
+            <button type="button" class="chip-btn" data-landmark="UED">Bloco UED</button>
+            <button type="button" class="chip-btn" data-landmark="RU">RU</button>
+            <button type="button" class="chip-btn" data-landmark="MESP">MESP / Auditório</button>
+          </div>
+        </div>
+
+        <div class="map-picker-layout">
+          <div class="interactive-map-container" id="interactive-map-container" aria-label="Mapa interativo da UnB Campus Gama">
+            <!-- SVG interativo com pin arrastável/clicável -->
+          </div>
+
+          <div class="map-details-panel">
+            <div class="form-group">
+              <label for="input-map-address" class="form-label">Descrição / Endereço Formalizado</label>
+              <input id="input-map-address" type="text" class="form-input" value="Bloco UAC — UnB Campus Gama" />
+            </div>
+            <div class="form-group">
+              <label for="input-map-room" class="form-label">Sala / Ponto Específico</label>
+              <input id="input-map-room" type="text" class="form-input" placeholder="Ex.: Sala I-04" value="Sala I-04" />
+            </div>
+            <div class="map-pin-coords">
+              <small>Dica: clique em um prédio no mapa, busque acima ou arraste o pin azul para ajustar o ponto exato.</small>
+              <span id="map-coord-readout" class="mono-text">Campus UnB Gama (FGA) · Bloco UAC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer modal-footer-centered">
+        <button type="button" class="btn btn-default" data-close-modal="modal-map">Cancelar</button>
+        <button type="button" id="btn-confirm-location" class="btn btn-primary">Confirmar Local</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =======================================================
+       MODAL ATALHOS DE TECLADO (?)
+       ======================================================= -->
+  <div id="modal-shortcuts" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-shortcuts-title" hidden>
+    <div class="modal-box modal-sm">
+      <div class="modal-header">
+        <h3 id="modal-shortcuts-title">Atalhos de Teclado do Diolinux Plus</h3>
+        <button type="button" class="modal-close-btn" data-close-modal="modal-shortcuts" aria-label="Fechar modal">×</button>
+      </div>
+      <div class="modal-body">
+        <table class="shortcuts-table">
+          <tbody>
+            <tr><td><kbd>/</kbd></td><td>Focar barra de pesquisa</td></tr>
+            <tr><td><kbd>e</kbd></td><td>Abrir Hub de Eventos</td></tr>
+            <tr><td><kbd>n</kbd></td><td>Criar Novo Evento</td></tr>
+            <tr><td><kbd>?</kbd></td><td>Abrir esta ajuda de atalhos</td></tr>
+            <tr><td><kbd>Esc</kbd></td><td>Fechar janela modal ativa</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer modal-footer-centered">
+        <button type="button" class="btn btn-default" data-close-modal="modal-shortcuts">Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
