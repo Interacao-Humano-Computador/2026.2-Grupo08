@@ -736,7 +736,7 @@
       </div>
 
       <div class="modal-body">
-        <p class="modal-helper">Digite diretamente no formato <strong>HH:MM</strong> (00:00 às 23:59) ou selecione horas e minutos abaixo:</p>
+        <p class="modal-helper">Clique ou arraste no relógio (formato <strong>24h</strong>), clique em hora/minuto para alternar ou digite diretamente:</p>
 
         <div class="time-presets-row">
           <span>Atalhos rápidos:</span>
@@ -746,28 +746,40 @@
         </div>
 
         <div class="time-columns-grid">
-          <!-- Coluna Início -->
-          <div class="time-col-card">
+          <!-- Relógio Início -->
+          <div class="time-col-card" data-clock-side="start">
             <div class="time-col-header">
-              <label for="input-time-start">Início</label>
-              <input id="input-time-start" type="text" class="form-input time-direct-input mono-input" value="14:00" maxlength="5" inputmode="numeric" aria-label="Horário de início (24h)" />
+              <span class="time-col-title">Início</span>
+              <span id="clock-mode-label-start" class="clock-mode-badge">Selecionando Hora</span>
             </div>
-            <div class="time-grid-label">Hora (00–23)</div>
-            <div id="grid-start-hours" class="hours-grid" role="listbox" aria-label="Hora de início"></div>
-            <div class="time-grid-label">Minuto</div>
-            <div id="grid-start-mins" class="mins-grid" role="listbox" aria-label="Minutos de início"></div>
+
+            <div class="clock-digital-row" role="group" aria-label="Horário de início">
+              <input id="clock-input-start-hour" type="text" class="clock-digit-box active" value="14" maxlength="2" inputmode="numeric" aria-label="Hora de início (00 a 23)" />
+              <span class="clock-digit-sep" aria-hidden="true">:</span>
+              <input id="clock-input-start-min" type="text" class="clock-digit-box" value="00" maxlength="2" inputmode="numeric" aria-label="Minutos de início (00 a 59)" />
+            </div>
+
+            <div class="clock-dial-wrap">
+              <div id="clock-dial-start" class="clock-dial" role="application" aria-label="Seletor analógico de horário de início (24h)"></div>
+            </div>
           </div>
 
-          <!-- Coluna Término -->
-          <div class="time-col-card">
+          <!-- Relógio Término -->
+          <div class="time-col-card" data-clock-side="end">
             <div class="time-col-header">
-              <label for="input-time-end">Término</label>
-              <input id="input-time-end" type="text" class="form-input time-direct-input mono-input" value="18:00" maxlength="5" inputmode="numeric" aria-label="Horário de término (24h)" />
+              <span class="time-col-title">Término</span>
+              <span id="clock-mode-label-end" class="clock-mode-badge">Selecionando Hora</span>
             </div>
-            <div class="time-grid-label">Hora (00–23)</div>
-            <div id="grid-end-hours" class="hours-grid" role="listbox" aria-label="Hora de término"></div>
-            <div class="time-grid-label">Minuto</div>
-            <div id="grid-end-mins" class="mins-grid" role="listbox" aria-label="Minutos de término"></div>
+
+            <div class="clock-digital-row" role="group" aria-label="Horário de término">
+              <input id="clock-input-end-hour" type="text" class="clock-digit-box active" value="18" maxlength="2" inputmode="numeric" aria-label="Hora de término (00 a 23)" />
+              <span class="clock-digit-sep" aria-hidden="true">:</span>
+              <input id="clock-input-end-min" type="text" class="clock-digit-box" value="00" maxlength="2" inputmode="numeric" aria-label="Minutos de término (00 a 59)" />
+            </div>
+
+            <div class="clock-dial-wrap">
+              <div id="clock-dial-end" class="clock-dial" role="application" aria-label="Seletor analógico de horário de término (24h)"></div>
+            </div>
           </div>
         </div>
 

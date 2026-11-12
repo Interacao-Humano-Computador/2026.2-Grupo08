@@ -1736,58 +1736,173 @@ html[data-theme="light"] .form-alert-error {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-.time-col-header label {
+.time-col-title {
   font-weight: 600;
   font-size: 14px;
-}
-
-.time-direct-input {
-  width: 96px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 6px 8px;
-}
-
-.time-grid-label {
-  font-size: 12px;
-  color: var(--primary-medium);
-  margin: 8px 0 6px;
-}
-
-.hours-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 5px;
-}
-
-.mins-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 5px;
-}
-
-.time-cell-btn {
-  padding: 6px 0;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border-color);
-  background: var(--surface-card);
   color: var(--primary);
-  font-family: var(--font-mono);
-  font-size: 12.5px;
+}
+
+.clock-mode-badge {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--primary-medium);
+  background: var(--surface-card);
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 2px 9px;
+}
+
+.clock-digital-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.clock-digit-box {
+  width: 78px;
+  height: 58px;
+  border-radius: var(--radius-lg);
+  border: 1.5px solid var(--border-color);
+  background: var(--surface-elevated);
+  color: var(--primary);
+  font-family: var(--font-sans);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  padding: 0;
+}
+
+.clock-digit-box:hover {
+  border-color: var(--tertiary);
+}
+
+.clock-digit-box:focus {
+  outline: none;
+  border-color: var(--tertiary);
+}
+
+.clock-digit-box.active {
+  background: rgba(0, 132, 255, 0.16);
+  border-color: var(--tertiary);
+  color: var(--tertiary);
+  font-weight: 700;
+}
+
+html[data-theme="light"] .clock-digit-box.active {
+  color: var(--tertiary-active);
+}
+
+.clock-digit-sep {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1;
+  user-select: none;
+}
+
+.clock-dial-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-dial {
+  position: relative;
+  width: 236px;
+  height: 236px;
+  border-radius: 50%;
+  background: var(--surface-elevated);
+  border: 1px solid var(--border-color);
+  user-select: none;
+  touch-action: none;
   cursor: pointer;
 }
 
-.time-cell-btn:hover {
-  border-color: var(--tertiary);
+.clock-center-dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--tertiary);
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  pointer-events: none;
 }
 
-.time-cell-btn.selected {
+.clock-hand {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 2px;
   background: var(--tertiary);
-  border-color: var(--tertiary);
+  transform-origin: 50% 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.clock-hand-tip {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--tertiary);
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-hand-tip-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.clock-num {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: var(--primary);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 2;
+  padding: 0;
+}
+
+.clock-num.inner {
+  width: 30px;
+  height: 30px;
+  font-size: 11.5px;
+  color: var(--primary-medium);
+}
+
+.clock-num:hover {
+  color: var(--tertiary);
+}
+
+.clock-num.selected {
   color: #ffffff;
   font-weight: 700;
 }

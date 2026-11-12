@@ -78,6 +78,7 @@
       sendReminder: true,
     },
     tempTime: { start: "14:00", end: "18:00" },
+    clockMode: { start: "hour", end: "hour" },
     tempMap: {
       landmarkId: "UAC",
       pinX: LANDMARKS.UAC.x,
@@ -537,95 +538,268 @@
     `;
   }
 
-  // ---------- Modal PM-01: Seletor de Horário 24h ----------
-  function buildTimeGrids() {
-    const buildSide = (prefix, isStart) => {
-      const hoursEl = $(`#grid-${prefix}-hours`);
-      const minsEl = $(`#grid-${prefix}-mins`);
-      hoursEl.innerHTML = "";
-      minsEl.innerHTML = "";
+  // ---------- Modal PM-01: Seletor de Horário 24h (Relógio Analógico) ----------
+  function renderClockDial(side) {
+    const dialEl = $(`#clock-dial-${side}`);
+    if (!dialEl) return;
 
-      for (let h = 0; h < 24; h += 1) {
-        const hh = pad2(h);
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "time-cell-btn";
-        btn.textContent = hh;
-        btn.dataset.hour = hh;
-        btn.addEventListener("click", () => {
-          const cur = isStart ? state.tempTime.start : state.tempTime.end;
-          const [, mm] = cur.split(":");
-          const next = `${hh}:${mm || "00"}`;
-          if (isStart) state.tempTime.start = next;
-          else state.tempTime.end = next;
-          syncTimeModalUI();
-        });
-        hoursEl.appendChild(btn);
+    const mode = state.clockMode[side];
+    const [hhStr, mmStr] = (state.tempTime[side] || "14:00").split(":");
+    const hourVal = Math.max(0, Math.min(23, parseInt(hhStr, 10) || 0));
+    const minVal = Math.max(0, Math.min(59, parseInt(mmStr, 10) || 0));
+
+    const dialSize = 236;
+    const center = dialSize / 2;
+    const outerRadius = 92;
+    const innerRadius = 58;
+
+    let selectedAngle = 0;
+    let handLength = outerRadius;
+    let showExactDot = false;
+
+    if (mode === "hour") {
+      const isInner = hourVal >= 12;
+      selectedAngle = (hourVal % 12) * 30;
+      handLength = isInner ? innerRadius : outerRadius;
+    } else {
+      selectedAngle = minVal * 6;
+      handLength = outerRadius;
+      showExactDot = minVal % 5 !== 0;
+    }
+
+    let html = `
+      <div class="clock-center-dot"></div>
+      <div class="clock-hand" style="height:${handLength}px;transform:translate(-50%,-100%) rotate(${selectedAngle}deg)">
+        <div class="clock-hand-tip">
+          ${showExactDot ? '<span class="clock-hand-tip-dot"></span>' : ""}
+        </div>
+      </div>
+    `;
+
+    if (mode === "hour") {
+      for (let i = 0; i < 12; i += 1) {
+        const rad = ((i * 30 - 90) * Math.PI) / 180;
+        const x = center + outerRadius * Math.cos(rad);
+        const y = center + outerRadius * Math.sin(rad);
+        const label = pad2(i);
+        const selClass = hourVal === i ? " selected" : "";
+        html += `<button type="button" class="clock-num${selClass}" data-clock-val="${i}" style="left:${x.toFixed(1)}px;top:${y.toFixed(1)}px" tabindex="-1">${label}</button>`;
       }
-
-      for (let m = 0; m < 60; m += 5) {
-        const mm = pad2(m);
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "time-cell-btn";
-        btn.textContent = mm;
-        btn.dataset.min = mm;
-        btn.addEventListener("click", () => {
-          const cur = isStart ? state.tempTime.start : state.tempTime.end;
-          const [hh] = cur.split(":");
-          const next = `${hh || "14"}:${mm}`;
-          if (isStart) state.tempTime.start = next;
-          else state.tempTime.end = next;
-          syncTimeModalUI();
-        });
-        minsEl.appendChild(btn);
+      for (let i = 12; i < 24; i += 1) {
+        const rad = (((i - 12) * 30 - 90) * Math.PI) / 180;
+        const x = center + innerRadius * Math.cos(rad);
+        const y = center + innerRadius * Math.sin(rad);
+        const label = pad2(i);
+        const selClass = hourVal === i ? " selected" : "";
+        html += `<button type="button" class="clock-num inner${selClass}" data-clock-val="${i}" style="left:${x.toFixed(1)}px;top:${y.toFixed(1)}px" tabindex="-1">${label}</button>`;
       }
-    };
+    } else {
+      for (let i = 0; i < 12; i += 1) {
+        const val = i * 5;
+        const rad = ((i * 30 - 90) * Math.PI) / 180;
+        const x = center + outerRadius * Math.cos(rad);
+        const y = center + outerRadius * Math.sin(rad);
+        const label = pad2(val);
+        const selClass = minVal === val ? " selected" : "";
+        html += `<button type="button" class="clock-num${selClass}" data-clock-val="${val}" style="left:${x.toFixed(1)}px;top:${y.toFixed(1)}px" tabindex="-1">${label}</button>`;
+      }
+    }
 
-    buildSide("start", true);
-    buildSide("end", false);
+    dialEl.innerHTML = html;
   }
 
-  function syncTimeModalUI() {
-    $("#input-time-start").value = state.tempTime.start;
-    $("#input-time-end").value = state.tempTime.end;
+  function syncTimeModalUI(skipInputSide) {
+    ["start", "end"].forEach((side) => {
+      const [hh, mm] = (state.tempTime[side] || "14:00").split(":");
+      const mode = state.clockMode[side];
+      const hourInput = $(`#clock-input-${side}-hour`);
+      const minInput = $(`#clock-input-${side}-min`);
+      const modeLabel = $(`#clock-mode-label-${side}`);
 
-    const [sh, sm] = state.tempTime.start.split(":");
-    const [eh, em] = state.tempTime.end.split(":");
+      if (skipInputSide !== `${side}-hour` && hourInput) {
+        hourInput.value = hh || "00";
+      }
+      if (skipInputSide !== `${side}-min` && minInput) {
+        minInput.value = mm || "00";
+      }
 
-    $$("#grid-start-hours .time-cell-btn").forEach((b) =>
-      b.classList.toggle("selected", b.dataset.hour === sh)
-    );
-    $$("#grid-start-mins .time-cell-btn").forEach((b) =>
-      b.classList.toggle("selected", b.dataset.min === sm)
-    );
-    $$("#grid-end-hours .time-cell-btn").forEach((b) =>
-      b.classList.toggle("selected", b.dataset.hour === eh)
-    );
-    $$("#grid-end-mins .time-cell-btn").forEach((b) =>
-      b.classList.toggle("selected", b.dataset.min === em)
-    );
+      if (hourInput) hourInput.classList.toggle("active", mode === "hour");
+      if (minInput) minInput.classList.toggle("active", mode === "min");
+      if (modeLabel) {
+        modeLabel.textContent = mode === "hour" ? "Selecionando Hora" : "Selecionando Minuto";
+      }
+
+      renderClockDial(side);
+    });
+  }
+
+  function setupClockDialInteractions() {
+    ["start", "end"].forEach((side) => {
+      const dialEl = $(`#clock-dial-${side}`);
+      if (!dialEl) return;
+
+      let dragging = false;
+      let startX = 0;
+      let startY = 0;
+      let moved = false;
+
+      const updateFromPointer = (clientX, clientY, snapMinutes) => {
+        const rect = dialEl.getBoundingClientRect();
+        const cx = rect.left + rect.width / 2;
+        const cy = rect.top + rect.height / 2;
+        const dx = clientX - cx;
+        const dy = clientY - cy;
+        const dist = Math.hypot(dx, dy);
+
+        let deg = (Math.atan2(dy, dx) * 180) / Math.PI + 90;
+        if (deg < 0) deg += 360;
+
+        const [curH, curM] = (state.tempTime[side] || "14:00").split(":");
+        if (state.clockMode[side] === "hour") {
+          const step = Math.round(deg / 30) % 12;
+          const isInner = dist < rect.width * 0.31;
+          const nextH = pad2(isInner ? step + 12 : step);
+          state.tempTime[side] = `${nextH}:${curM || "00"}`;
+        } else {
+          const nextMVal = snapMinutes
+            ? (Math.round(deg / 30) * 5) % 60
+            : Math.round(deg / 6) % 60;
+          state.tempTime[side] = `${curH || "14"}:${pad2(nextMVal)}`;
+        }
+        syncTimeModalUI();
+      };
+
+      dialEl.addEventListener("pointerdown", (e) => {
+        e.preventDefault();
+        dragging = true;
+        moved = false;
+        startX = e.clientX;
+        startY = e.clientY;
+        dialEl.setPointerCapture(e.pointerId);
+
+        const numBtn = e.target.closest(".clock-num");
+        if (numBtn) {
+          const val = parseInt(numBtn.dataset.clockVal, 10);
+          const [curH, curM] = (state.tempTime[side] || "14:00").split(":");
+          if (state.clockMode[side] === "hour") {
+            state.tempTime[side] = `${pad2(val)}:${curM || "00"}`;
+          } else {
+            state.tempTime[side] = `${curH || "14"}:${pad2(val)}`;
+          }
+          syncTimeModalUI();
+        } else {
+          updateFromPointer(e.clientX, e.clientY, false);
+        }
+      });
+
+      dialEl.addEventListener("pointermove", (e) => {
+        if (!dragging) return;
+        if (Math.hypot(e.clientX - startX, e.clientY - startY) > 4) {
+          moved = true;
+        }
+        if (moved) {
+          updateFromPointer(e.clientX, e.clientY, false);
+        }
+      });
+
+      const endDrag = (e) => {
+        if (!dragging) return;
+        dragging = false;
+        if (dialEl.hasPointerCapture(e.pointerId)) {
+          dialEl.releasePointerCapture(e.pointerId);
+        }
+        if (state.clockMode[side] === "hour") {
+          state.clockMode[side] = "min";
+          syncTimeModalUI();
+        }
+      };
+
+      dialEl.addEventListener("pointerup", endDrag);
+      dialEl.addEventListener("pointercancel", endDrag);
+    });
   }
 
   function openTimeModal() {
     state.tempTime.start = state.draft.timeStart || "14:00";
     state.tempTime.end = state.draft.timeEnd || "18:00";
+    state.clockMode.start = "hour";
+    state.clockMode.end = "hour";
     $("#time-modal-error").hidden = true;
     syncTimeModalUI();
     openModal("modal-time");
   }
 
-  function handleDirectTimeMask(inputEl, isStart) {
-    let digits = inputEl.value.replace(/\D/g, "").slice(0, 4);
-    if (digits.length >= 3) {
-      digits = `${digits.slice(0, 2)}:${digits.slice(2)}`;
-    }
-    inputEl.value = digits;
-    if (isValidTime24(digits)) {
-      if (isStart) state.tempTime.start = digits;
-      else state.tempTime.end = digits;
-      syncTimeModalUI();
-    }
+  function bindClockSegmentInputs() {
+    ["start", "end"].forEach((side) => {
+      const hourInput = $(`#clock-input-${side}-hour`);
+      const minInput = $(`#clock-input-${side}-min`);
+
+      hourInput.addEventListener("focus", () => {
+        state.clockMode[side] = "hour";
+        syncTimeModalUI(`${side}-hour`);
+        hourInput.select();
+      });
+
+      hourInput.addEventListener("click", () => {
+        state.clockMode[side] = "hour";
+        syncTimeModalUI(`${side}-hour`);
+      });
+
+      hourInput.addEventListener("input", () => {
+        const digits = hourInput.value.replace(/\D/g, "").slice(0, 2);
+        hourInput.value = digits;
+        if (digits.length === 2) {
+          const val = Math.min(23, Math.max(0, parseInt(digits, 10) || 0));
+          const [, curM] = (state.tempTime[side] || "14:00").split(":");
+          state.tempTime[side] = `${pad2(val)}:${curM || "00"}`;
+          state.clockMode[side] = "min";
+          syncTimeModalUI();
+          minInput.focus();
+        }
+      });
+
+      hourInput.addEventListener("blur", () => {
+        const digits = hourInput.value.replace(/\D/g, "");
+        if (digits.length > 0) {
+          const val = Math.min(23, Math.max(0, parseInt(digits, 10) || 0));
+          const [, curM] = (state.tempTime[side] || "14:00").split(":");
+          state.tempTime[side] = `${pad2(val)}:${curM || "00"}`;
+        }
+        syncTimeModalUI();
+      });
+
+      minInput.addEventListener("focus", () => {
+        state.clockMode[side] = "min";
+        syncTimeModalUI(`${side}-min`);
+        minInput.select();
+      });
+
+      minInput.addEventListener("click", () => {
+        state.clockMode[side] = "min";
+        syncTimeModalUI(`${side}-min`);
+      });
+
+      minInput.addEventListener("input", () => {
+        const digits = minInput.value.replace(/\D/g, "").slice(0, 2);
+        minInput.value = digits;
+        if (digits.length === 2) {
+          const val = Math.min(59, Math.max(0, parseInt(digits, 10) || 0));
+          const [curH] = (state.tempTime[side] || "14:00").split(":");
+          state.tempTime[side] = `${curH || "14"}:${pad2(val)}`;
+          syncTimeModalUI();
+        }
+      });
+
+      minInput.addEventListener("blur", () => {
+        const digits = minInput.value.replace(/\D/g, "");
+        if (digits.length > 0) {
+          const val = Math.min(59, Math.max(0, parseInt(digits, 10) || 0));
+          const [curH] = (state.tempTime[side] || "14:00").split(":");
+          state.tempTime[side] = `${curH || "14"}:${pad2(val)}`;
+        }
+        syncTimeModalUI();
+      });
+    });
   }
 
   // ---------- Modal PM-03: Mapa Interativo ----------
@@ -1017,10 +1191,10 @@
 
     $("#event-wizard-form").addEventListener("submit", publishCurrentDraft);
 
-    // Time Modal (PM-01 24h)
+    // Time Modal (PM-01 24h Clock)
     $("#btn-open-time-modal").addEventListener("click", openTimeModal);
-    $("#input-time-start").addEventListener("input", (e) => handleDirectTimeMask(e.target, true));
-    $("#input-time-end").addEventListener("input", (e) => handleDirectTimeMask(e.target, false));
+    bindClockSegmentInputs();
+    setupClockDialInteractions();
 
     $$("[data-time-preset]").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -1032,8 +1206,8 @@
     });
 
     $("#btn-confirm-time").addEventListener("click", () => {
-      const start = $("#input-time-start").value.trim();
-      const end = $("#input-time-end").value.trim();
+      const start = state.tempTime.start;
+      const end = state.tempTime.end;
       const errBox = $("#time-modal-error");
 
       if (!isValidTime24(start) || !isValidTime24(end)) {
@@ -1198,7 +1372,7 @@
   }
 
   function init() {
-    buildTimeGrids();
+    syncTimeModalUI();
     bindEvents();
     renderEventsFeed();
 
