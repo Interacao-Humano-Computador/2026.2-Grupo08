@@ -73,7 +73,6 @@
       quorumMin: "",
       maxCapacity: "",
       ticketType: "Gratuito (1 por usuário)",
-      pixInfo: "",
       emitQrCode: true,
       sendReminder: true,
     },
@@ -420,7 +419,6 @@
       quorumMin: "",
       maxCapacity: "",
       ticketType: "Gratuito (1 por usuário)",
-      pixInfo: "",
       emitQrCode: true,
       sendReminder: true,
     };
@@ -439,7 +437,6 @@
       r.checked = r.value.startsWith("Gratuito");
       r.closest(".radio-card").classList.toggle("active", r.checked);
     });
-    $("#pix-extra-field").hidden = true;
     $("#chk-qrcode").checked = true;
     $("#chk-reminder").checked = true;
     hideWizardError();
@@ -522,7 +519,6 @@
       state.draft.maxCapacity = m;
       state.draft.emitQrCode = $("#chk-qrcode").checked;
       state.draft.sendReminder = $("#chk-reminder").checked;
-      state.draft.pixInfo = $("#input-pix-info").value.trim();
       return true;
     }
     return true;
@@ -1179,7 +1175,6 @@
         $$("input[name='ticketType']").forEach((r) =>
           r.closest(".radio-card").classList.toggle("active", r.checked)
         );
-        $("#pix-extra-field").hidden = !radio.value.includes("PIX");
         updateStep3Summary();
       });
     });

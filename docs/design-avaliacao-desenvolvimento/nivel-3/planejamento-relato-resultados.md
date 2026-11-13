@@ -54,7 +54,7 @@ A Tabela 2 apresenta o modelo tabular padronizado que será preenchido após a s
 
 **Tabela 2** — Modelo de Consolidação de Métricas Quantitativas e Escore SUS da Tarefa 1 *(Template para a Etapa 7)*
 
-| ID | Participante / Perfil | Tempo Total na Tarefa (s) | Meta de Tempo (≤ 90s) / Baseline KLM (135,3s) | Tempo no Modal de IA (s) | Taxa de Conclusão (%) | Uso Correto do Botão `&lt;/&gt; Bash` | Escore SUS Global (0–100) | Classificação Adjetiva SUS (Bangor et al., 2009) |
+| ID | Participante / Perfil | Tempo Total na Tarefa (s) | Meta de Tempo (≤ 90s) / Baseline KLM (135,3s) | Tempo no Modal de IA (s) | Taxa de Conclusão (%) | Uso Correto do Botão `</> Bash` | Escore SUS Global (0–100) | Classificação Adjetiva SUS (Bangor et al., 2009) |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **P1** | Discente de Engenharia de Software (UnB) — Aprendiz Linux | *[A preencher]* | *[Meta Atingida?]* | *[A preencher]* | *[A preencher]* | *[Sim / Não]* | *[A preencher]* | *[Grau A / B / C / D / F]* |
 

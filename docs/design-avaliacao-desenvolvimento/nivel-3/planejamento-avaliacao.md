@@ -55,7 +55,7 @@ A avaliação do protótipo de alta fidelidade combina metas formativas (identif
 ### 3.1 Objetivos da Tarefa 1 — Publicação de Dúvida com Markdown e IA (Vinicius Silva Araruna)
 
 1. **Avaliar a Eficácia e Fluidez do Composer em Split-View:** Verificar se o estudante de tecnologia localiza o botão `+ Novo Tópico`, preenche os campos estruturais (Título, Categoria e Tags) e utiliza a visualização lado a lado sem desorientação espacial;
-2. **Validar a Affordance do Assistente de Código Markdown:** Testar se o novo botão `&lt;/&gt; Bash` com *tooltip* interativo (introduzido como correção do problema `PROB-PP-02` do Nível 2) elimina as dúvidas sobre a sintaxe de crases triplas e syntax highlighting;
+2. **Validar a Affordance do Assistente de Código Markdown:** Testar se o novo botão `</> Bash` com *tooltip* interativo (introduzido como correção do problema `PROB-PP-02` do Nível 2) elimina as dúvidas sobre a sintaxe de crases triplas e syntax highlighting;
 3. **Investigar a Transparência e Aceitação da IA Semântica de Pré-Envio:** Avaliar se o modal móvel inteligente é compreendido como um assistente preventivo que recomenda tópicos semelhantes já resolvidos e tags relevantes, verificando se os novos rótulos (*"Aplicar sugestões e publicar"* vs. *"Ignorar sugestões e publicar imediatamente"*, correção do `PROB-PP-03`) garantem plena autonomia de controle;
 4. **Verificar a Eficiência da Ação Rápida em Lote:** Medir a percepção e taxa de acionamento do botão *"Adicionar todas as tags sugeridas (+3 tags)"* (correção do `PROB-PP-04`), avaliando a economia de cliques;
 5. **Confrontar Desempenho com o Baseline KLM e Metas de Usabilidade:** Medir a taxa de sucesso da tarefa, tempo total de postagem frente ao baseline KLM (`135,3 segundos`) e apurar o índice SUS pós-teste.
@@ -83,7 +83,7 @@ Para orientar a observação sistemática durante os ensaios no Figma, elaborara
 | :---: | :--- | :--- | :--- |
 | **`PAF01`** | Descoberta e Affordance | O participante localiza de imediato o botão primário `+ Novo Tópico` (`#0084FF`) na barra superior do fórum em Dark Mode? | Tempo até o primeiro clique e ausência de varreduras oculares perdidas na tela. |
 | **`PAF02`** | Hierarquia e Navegação | O participante compreende a sequência de preenchimento dos campos (Título, Categoria e Tags) antes de redigir o corpo da dúvida? | Ordem de navegação entre os campos do formulário e resposta aos estados de foco visual. |
-| **`PAF03`** | Assistência de Código | O participante percebe e utiliza o novo botão `&lt;/&gt; Bash` com *tooltip* contextual para formatar o comando do terminal? | Acionamento voluntário do botão de código e conferência no painel de *live preview*. |
+| **`PAF03`** | Assistência de Código | O participante percebe e utiliza o novo botão `</> Bash` com *tooltip* contextual para formatar o comando do terminal? | Acionamento voluntário do botão de código e conferência no painel de *live preview*. |
 | **`PAF04`** | Transparência da IA | Ao clicar em `Publicar`, o participante compreende com facilidade que o *overlay* da IA Semântica busca prevenir postagens duplicadas? | Verbalização no *Think-Aloud* reconhecendo os links de tópicos similares sugeridos. |
 | **`PAF05`** | Eficiência em Lote | O participante identifica e utiliza a opção *"Adicionar todas as tags sugeridas (+3 tags)"* para enriquecer a categorização do tópico? | Escolha da ação em lote frente à adição individual de cada etiqueta. |
 | **`PAF06`** | Clareza de Rótulos e Autonomia | O participante compreende sem ambiguidade a diferença entre *"Aplicar sugestões e publicar"* e *"Ignorar sugestões e publicar imediatamente"*? | Hesitação no clique final (< 3 segundos) e sensação de controle sobre a publicação. |
@@ -184,7 +184,7 @@ Dessa forma, o recrutamento de **`n = 1` participante representativo para a Tare
 
 O fluxo interativo da Tarefa 1 no Figma compõe-se de 4 *Frames* principais e 3 *Overlays*, parametrizados integralmente com os tokens hexadecimais do [Guia de Estilo](../../analise-requisitos/guia-de-estilo.md):
 - **Frame 01 — *Home Dark Mode Diolinux Plus*:** Superfície de fundo `--secondary` (`#16171B`), cabeçalho superior `--header_background` (`#1E1F24`), listagem de tópicos e botão primário `+ Novo Tópico` com destaque `--tertiary` (`#0084FF`);
-- **Frame 02 — *Composer Expandido (Split-View)*:** Editor aberto na porção inferior da tela com campo de Título, menu dropdown de Categorias com busca integrada, seletor de Tags com chips interativos, barra de ferramentas de formatação com o novo botão `&lt;/&gt; Bash` com *tooltip* contextual e painel de pré-visualização em tempo real (*live preview*);
+- **Frame 02 — *Composer Expandido (Split-View)*:** Editor aberto na porção inferior da tela com campo de Título, menu dropdown de Categorias com busca integrada, seletor de Tags com chips interativos, barra de ferramentas de formatação com o novo botão `</> Bash` com *tooltip* contextual e painel de pré-visualização em tempo real (*live preview*);
 - **Overlay 01 — *Modal de IA Semântica de Pré-Envio*:** Janela modal centralizada (`background: #1E1F24`, borda de 1px `#2D2F36` e sombra suave), exibindo lista de 3 tópicos similares já resolvidos no fórum, recomendação de 3 tags técnicas sugeridas pelo modelo semântico e botões de ação:
   - Primário: *"Aplicar sugestões e publicar"* (`#0084FF`);
   - Secundário: *"Ignorar sugestões e publicar imediatamente"* (`#2D2F36`, texto `#F5F6F8`);
@@ -298,7 +298,7 @@ _Fonte: Elaborada por Vinicius Silva Araruna, 2026._
 
 1. **Passo 1 (Localização):** Acessar a tela inicial do fórum em Dark Mode e clicar no botão `+ Novo Tópico`;
 2. **Passo 2 (Preenchimento Inicial):** No Composer aberto, preencher o campo de título (*"Erro de lock ao rodar apt install no Linux Mint"*), selecionar a categoria *"Iniciantes / Suporte"* e selecionar a primeira tag *"linux-mint"*;
-3. **Passo 3 (Inserção de Código Markdown):** Na área de texto, redigir uma breve descrição e acionar o botão dedicado `&lt;/&gt; Bash` na barra de ferramentas para inserir o snippet de terminal com a mensagem de erro, verificando a renderização no painel lateral de preview;
+3. **Passo 3 (Inserção de Código Markdown):** Na área de texto, redigir uma breve descrição e acionar o botão dedicado `</> Bash` na barra de ferramentas para inserir o snippet de terminal com a mensagem de erro, verificando a renderização no painel lateral de preview;
 4. **Passo 4 (Intervenção da IA de Pré-Envio):** Clicar no botão `Publicar Tópico`. No *overlay* modal aberto pela IA Semântica, examinar os tópicos sugeridos, clicar na opção *"Adicionar todas as tags sugeridas (+3 tags)"* e finalizar clicando em *"Aplicar sugestões e publicar"*;
 5. **Passo 5 (Confirmação):** Visualizar a tela final com o tópico publicado e expressar a conclusão da atividade.
 
