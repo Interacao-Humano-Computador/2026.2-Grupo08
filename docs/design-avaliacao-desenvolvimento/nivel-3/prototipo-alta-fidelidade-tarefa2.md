@@ -69,7 +69,61 @@ _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
 
 ---
 
-## 4. Conformidade com o Guia de Estilo (Tokens Discourse)
+## 4. Galeria de Telas e Fluxo Interativo (Protótipo Web)
+
+As figuras a seguir documentam as telas e os modais interativos implementados no protótipo web de alta fidelidade da Tarefa 2, evidenciando a fidelidade ao Guia de Estilo do Fórum Diolinux Plus.
+
+A **Figura 1** apresenta o Hub de Eventos da Comunidade (`PB-01`), exibindo a listagem de encontros presenciais, barra de busca, filtros segmentados e o botão de criação de novo evento.
+
+![Hub de Eventos da Comunidade — Protótipo Web Tarefa 2](../../assets/alta-fidelidade/T2_PB01_hub_eventos.png)
+
+**Figura 1** — Hub de Eventos da Comunidade (`#view-hub` / `PB-01`).
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
+
+A **Figura 2** ilustra a Etapa 1 do Assistente de Criação de Evento (`PB-02 E1`), com preenchimento de título, seleção de categoria temática e descrição do encontro com contador de caracteres.
+
+![Assistente Etapa 1 — Informações Gerais](../../assets/alta-fidelidade/T2_PB02_wizard_etapa1.png)
+
+**Figura 2** — Etapa 1 do Assistente de Criação: Informações Gerais (`#view-wizard` / `PB-02`).
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
+
+A **Figura 3** demonstra o Seletor de Horário Analógico 24h (`PM-02`), estruturado em mostrador circular duplo concêntrico (`00–11` externo e `12–23` interno) e atalhos rápidos para início e término sem ambiguidade AM/PM.
+
+![Seletor de Horário Analógico 24h — Modal PM-02](../../assets/alta-fidelidade/T2_PM02_relogio_24h.png)
+
+**Figura 3** — Seletor de Horário Analógico em Formato 24h (`#modal-time` / `PM-02`).
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
+
+A **Figura 4** apresenta a Planta Interativa do Campus UnB Gama (FGA) (`PM-03`), permitindo posicionar o marcador (*pin*) diretamente no mapa ou utilizar os atalhos de blocos e salas do campus.
+
+![Planta Interativa do Campus UnB Gama — Modal PM-03](../../assets/alta-fidelidade/T2_PM03_mapa_fga.png)
+
+**Figura 4** — Planta Interativa do Campus UnB Gama com pin georreferenciado (`#modal-map` / `PM-03`).
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
+
+A **Figura 5** mostra a Etapa 3 do Assistente (`PB-02 E3`), destacando a parametrização prioritária do Quórum Mínimo de Viabilidade antes da lotação máxima, a modalidade exclusivamente gratuita e as opções de credenciamento.
+
+![Assistente Etapa 3 — Quórum e Modalidade Gratuita](../../assets/alta-fidelidade/T2_PB02_wizard_etapa3.png)
+
+**Figura 5** — Etapa 3 do Assistente: Quórum Mínimo, Lotação e Modalidade Gratuita (`#view-wizard`).
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
+
+A **Figura 6** exibe a Página do Evento Publicado (`PB-03`), reunindo o status em tempo real do quórum comunitário, a localização georreferenciada e o ingresso digital com QR Code SVG gerado deterministicamente.
+
+![Página do Evento Publicado com QR Code — PB-03](../../assets/alta-fidelidade/T2_PB03_evento_publicado.png)
+
+**Figura 6** — Página do Evento Publicado com barra de quórum e ingresso QR Code SVG (`#view-published` / `PB-03`).
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
+
+---
+
+## 5. Conformidade com o Guia de Estilo (Tokens Discourse)
 
 O protótipo web reproduz fielmente as diretrizes estéticas e ergonômicas estabelecidas no [Guia de Estilo](../../analise-requisitos/guia-de-estilo.md) do Fórum Diolinux Plus:
 - **Cores Oficiais do Dark Mode:** Fundo principal `#16171B` (`--secondary`), superfície de cartões `#1E1F24` (`--header_background`), bordas sutis `#2D2F36` e cor primária de destaque `#0084FF` (`--tertiary`);
@@ -78,7 +132,7 @@ O protótipo web reproduz fielmente as diretrizes estéticas e ergonômicas esta
 
 ---
 
-## 5. Lista de Verificação da Técnica (Protótipo de Alta Fidelidade)
+## 6. Lista de Verificação da Técnica (Protótipo de Alta Fidelidade)
 
 A Tabela 3 formaliza a auditoria técnica e metodológica do protótipo interativo web de alta fidelidade da Tarefa 2, em conformidade com os critérios da Engenharia de Usabilidade (*Mayhew, 1999; Barbosa et al., 2021; Nielsen, 1994; Sales, 2026*).
 
@@ -97,13 +151,13 @@ _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Mayhew (1999
 
 ---
 
-## 6. Agradecimentos e Declaração de Uso de IA Generativa
+## 7. Agradecimentos e Declaração de Uso de IA Generativa
 
 Em cumprimento às diretrizes éticas da Sociedade Brasileira de Computação (SBC) e às normas do Plano de Ensino da disciplina (Sales, 2026), declara-se que durante a elaboração deste artefato foram utilizados recursos de Inteligência Artificial Generativa (Google Gemini / LLM e Antigravity) para apoio na estruturação sintática de componentes HTML5/CSS3/JS Vanilla, validação de tabelas em Markdown e adequação normativa. Todo o embasamento teórico, formulação conceitual, decisões ergonômicas e validações foram concebidos, auditados e validados integralmente pelos autores humanos listados no Histórico de Versão.
 
 ---
 
-## 7. Histórico de Versão
+## 8. Histórico de Versão
 
 A Tabela 4 documenta o histórico de versões deste artefato.
 
@@ -111,6 +165,7 @@ A Tabela 4 documenta o histórico de versões deste artefato.
 
 | Versão | Data | Descrição da Alteração | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
+| `1.2` | 13/11/2026 | Inclusão da galeria de capturas de tela em alta resolução (Figuras 1 a 6) cobrindo o Hub, as etapas do Wizard, o relógio analógico 24h, a planta interativa da FGA e a página publicada com QR Code (#125, #150). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.1` | 13/11/2026 | Inclusão da identificação nominal de autoria teórica, Lista de Verificação da Técnica (Tabela 3), seção padronizada de Agradecimentos e Uso de IA Generativa, Referências Bibliográficas (ABNT) e remoção da modalidade monetária via PIX do protótipo (#125, #150). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.0` | 11/11/2026 | Publicação da página de documentação do protótipo interativo web da Tarefa 2, incluindo iframe embarcado, botão de tela cheia, mapeamento de componentes e conformidade com o Guia de Estilo (#125). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
@@ -118,7 +173,7 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ---
 
-## 8. Referências Bibliográficas
+## 9. Referências Bibliográficas
 
 - **BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira.** *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 - **MAYHEW, Deborah J.** *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999. ISBN 978-1-55860-561-9.
