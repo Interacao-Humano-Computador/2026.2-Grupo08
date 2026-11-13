@@ -75,7 +75,7 @@ As figuras a seguir documentam as telas e os modais interativos implementados no
 
 A **Figura 1** apresenta o Hub de Eventos da Comunidade (`PB-01`), exibindo a listagem de encontros presenciais, barra de busca, filtros segmentados e o botão de criação de novo evento.
 
-![Hub de Eventos da Comunidade — Protótipo Web Tarefa 2](../../assets/alta-fidelidade/T2_PB01_hub_eventos.png)
+![Hub de Eventos da Comunidade — Protótipo Web Tarefa 2](../assets/alta-fidelidade/T2_PB01_hub_eventos.png)
 
 **Figura 1** — Hub de Eventos da Comunidade (`#view-hub` / `PB-01`).
 
@@ -83,7 +83,7 @@ _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
 
 A **Figura 2** ilustra a Etapa 1 do Assistente de Criação de Evento (`PB-02 E1`), com preenchimento de título, seleção de categoria temática e descrição do encontro com contador de caracteres.
 
-![Assistente Etapa 1 — Informações Gerais](../../assets/alta-fidelidade/T2_PB02_wizard_etapa1.png)
+![Assistente Etapa 1 — Informações Gerais](../assets/alta-fidelidade/T2_PB02_wizard_etapa1.png)
 
 **Figura 2** — Etapa 1 do Assistente de Criação: Informações Gerais (`#view-wizard` / `PB-02`).
 
@@ -91,7 +91,7 @@ _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
 
 A **Figura 3** demonstra o Seletor de Horário Analógico 24h (`PM-02`), estruturado em mostrador circular duplo concêntrico (`00–11` externo e `12–23` interno) e atalhos rápidos para início e término sem ambiguidade AM/PM.
 
-![Seletor de Horário Analógico 24h — Modal PM-02](../../assets/alta-fidelidade/T2_PM02_relogio_24h.png)
+![Seletor de Horário Analógico 24h — Modal PM-02](../assets/alta-fidelidade/T2_PM02_relogio_24h.png)
 
 **Figura 3** — Seletor de Horário Analógico em Formato 24h (`#modal-time` / `PM-02`).
 
@@ -99,7 +99,7 @@ _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
 
 A **Figura 4** apresenta a Planta Interativa do Campus UnB Gama (FGA) (`PM-03`), permitindo posicionar o marcador (*pin*) diretamente no mapa ou utilizar os atalhos de blocos e salas do campus.
 
-![Planta Interativa do Campus UnB Gama — Modal PM-03](../../assets/alta-fidelidade/T2_PM03_mapa_fga.png)
+![Planta Interativa do Campus UnB Gama — Modal PM-03](../assets/alta-fidelidade/T2_PM03_mapa_fga.png)
 
 **Figura 4** — Planta Interativa do Campus UnB Gama com pin georreferenciado (`#modal-map` / `PM-03`).
 
@@ -107,7 +107,7 @@ _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
 
 A **Figura 5** mostra a Etapa 3 do Assistente (`PB-02 E3`), destacando a parametrização prioritária do Quórum Mínimo de Viabilidade antes da lotação máxima, a modalidade exclusivamente gratuita e as opções de credenciamento.
 
-![Assistente Etapa 3 — Quórum e Modalidade Gratuita](../../assets/alta-fidelidade/T2_PB02_wizard_etapa3.png)
+![Assistente Etapa 3 — Quórum e Modalidade Gratuita](../assets/alta-fidelidade/T2_PB02_wizard_etapa3.png)
 
 **Figura 5** — Etapa 3 do Assistente: Quórum Mínimo, Lotação e Modalidade Gratuita (`#view-wizard`).
 
@@ -115,7 +115,7 @@ _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
 
 A **Figura 6** exibe a Página do Evento Publicado (`PB-03`), reunindo o status em tempo real do quórum comunitário, a localização georreferenciada e o ingresso digital com QR Code SVG gerado deterministicamente.
 
-![Página do Evento Publicado com QR Code — PB-03](../../assets/alta-fidelidade/T2_PB03_evento_publicado.png)
+![Página do Evento Publicado com QR Code — PB-03](../assets/alta-fidelidade/T2_PB03_evento_publicado.png)
 
 **Figura 6** — Página do Evento Publicado com barra de quórum e ingresso QR Code SVG (`#view-published` / `PB-03`).
 
