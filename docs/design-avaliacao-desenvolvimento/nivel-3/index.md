@@ -53,7 +53,7 @@ Para garantir a cobertura equilibrada dos papéis de usuários e o isolamento de
 
 | Identificador | Funcionalidade Focada | Responsável Principal | Papel Funcional e Persona Primária | Ambiente e Ferramenta |
 | :---: | :--- | :--- | :--- | :--- |
-| **`CF01` / Tarefa 1** | *Criação e Publicação de Tópico de Dúvida com Tags, Formatação Markdown e Integração de IA Semântica de Pré-Envio* | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Estudante / Usuário Aprendiz em Linux** (*Lucas Mendonça*) | Figma Education (Componentes interativos de Composer, Tags e Modal de IA) |
+| **`CF01` / Tarefa 1** | *Criação e Publicação de Tópico de Dúvida com Tags, Formatação Markdown e Integração de IA Semântica de Pré-Envio* | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Estudante / Usuário Aprendiz em Linux** (*Lucas Mendonça*) | Claude Design (Anthropic) com assistência de Claude (Componentes interativos de Composer Split-View, Tags e Modal de IA) |
 | **`CF02` / Tarefa 2** | *Criação e Gestão de Eventos Presenciais da Comunidade (Hub de Eventos, Mapa Interativo com Pin e Emissão de Ingressos)* | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Desenvolvedor / Organizador de Comunidade** (*Carlos Eduardo*) | Figma Education (Componentes de Mapa, Timepicker e Modais de Lotes) |
 | **`CF03` / Tarefa 3** | *Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias em Tempo Real* | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Estudante / Usuária Iniciante** (*Mariana Costa*) | Figma Education (Componentes de Grade Semanal e Confirmação de Mentorias) |
 
