@@ -9,7 +9,7 @@ A Tabela 1 apresenta a matriz de governança, divisão de atribuições e declar
 | Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal / Tech Lead**: Estruturação geral pelo Framework DECIDE, fundamentação teórica de alta fidelidade (Mayhew, Rubin & Chisnell, Brooke, Nielsen), definição metodológica dos testes no Figma, roteiro interativo da Tarefa 1, métricas vinculadas ao KLM e Metas de Usabilidade, justificativa matemática amostral de Nielsen & Landauer, TCLE oral de 60s, protocolo do teste-piloto e lista de verificação de 15 itens normativos. | 31/10/2026 | 20:30 - 21:40 | Google Gemini (LLM) | Apoio na estruturação das matrizes Markdown, conferência de hiperligações relativas e validação de referências ABNT. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador (Tarefa 2)**: Parametrização completa da avaliação de alta fidelidade da Tarefa 2 (Eventos Presenciais): formulação das perguntas investigativas (Tabela 2b), modelagem do cenário de uso (8.4) e do roteiro sequencial de tarefas no Figma (8.5) incorporando os feedbacks da avaliação em papel. | 03/11/2026 | 21:00 - 22:15 | Google Gemini (LLM) | Apoio na estruturação de tabelas e validação de equações de usabilidade. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador (Tarefa 2)**: Parametrização completa da avaliação de alta fidelidade da Tarefa 2 (Eventos Presenciais): formulação das perguntas investigativas (Tabela 2b), modelagem do cenário de uso (8.4) e do roteiro sequencial de tarefas no Protótipo Interativo Web (8.5) incorporando os feedbacks da avaliação em papel. | 11/11/2026 | 15:00 - 15:35 | Google Gemini (LLM) | Apoio na estruturação de tabelas e validação de equações de usabilidade. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Checagem de conformidade com os 15 critérios da lista de verificação da técnica e auditoria cruzada por pares. | 31/10/2026 | 21:20 - 21:50 | — | Revisão humana por pares e conferência de consistência. |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
@@ -20,13 +20,13 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 No **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew (1999)**, a transição para o **Nível 3 (Design Detalhado e Prototipação Computacional de Alta Fidelidade)** representa o estágio final de refinamento interativo antes da implementação definitiva do produto em código de produção.
 
-Nesta etapa, o projeto abandona a simulação mecânica de pranchas em papel (Nível 2) e ganha materialidade interativa na ferramenta **Figma**, incorporando os tokens cromáticos, espaçamentos, tipografia e comportamentos de microinteração consolidados no [Guia de Estilo](../../analise-requisitos/guia-de-estilo.md). 
+Nesta etapa, o projeto abandona a simulação mecânica de pranchas em papel (Nível 2) e ganha materialidade interativa na ferramenta **Figma** (Tarefas 1 e 3) e em **código executável Web (HTML5/CSS3/JavaScript)** hospedado no repositório da disciplina (Tarefa 2), incorporando os tokens cromáticos, espaçamentos, tipografia e comportamentos de microinteração consolidados no [Guia de Estilo](../../analise-requisitos/guia-de-estilo.md). 
 
 Este documento formaliza o **Planejamento da Avaliação Formativa e Somativa do Protótipo de Alta Fidelidade**, estruturado integralmente com base nas seis etapas do **Framework DECIDE** (*Preece et al., 2002; Rogers et al., 2013; Barbosa & Silva, 2021*), parametrizando a execução em campo da equipe sobre o [Fórum Diolinux Plus](https://plus.diolinux.com.br):
 
-1. **Tarefa 1 (`CF01`):** *Criação e Publicação de Tópico de Dúvida com Tags, Formatação Markdown e Integração de IA Semântica de Pré-Envio* (Autoria e Condução: [Vinicius Silva Araruna](https://github.com/ViniciusA05); Persona: *Lucas Mendonça*);
-2. **Tarefa 2 (`CF02`):** *Criação e Divulgação de Encontros e Workshops Presenciais da Comunidade com Mapa e Ingressos* (Autoria e Condução: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant); Persona: *Carlos Eduardo*);
-3. **Tarefa 3 (`CF03`):** *Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias em Tempo Real* (Autoria e Condução: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev); Persona: *Mariana Costa*).
+1. **Tarefa 1 (`CF01`):** *Criação e Publicação de Tópico de Dúvida com Tags, Formatação Markdown e Integração de IA Semântica de Pré-Envio* (Autoria e Condução: [Vinicius Silva Araruna](https://github.com/ViniciusA05); Persona: *Lucas Mendonça*; Ambiente: Figma);
+2. **Tarefa 2 (`CF02`):** *Criação e Divulgação de Encontros e Workshops Presenciais da Comunidade com Mapa e Ingressos* (Autoria e Condução: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant); Persona: *Carlos Eduardo*; Ambiente: Protótipo Interativo Web);
+3. **Tarefa 3 (`CF03`):** *Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias em Tempo Real* (Autoria e Condução: [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev); Persona: *Mariana Costa*; Ambiente: Figma).
 
 O artefato atende estritamente às diretrizes da disciplina ministrada pelo Prof. Dr. André Barros de Sales (Universidade de Brasília — Faculdade UnB Gama, 2026.2), preparando o grupo para a condução empírica da **Etapa 7** e a apresentação audiovisual oficial da Entrega 6.
 
@@ -92,16 +92,16 @@ Para orientar a observação sistemática durante os ensaios no Figma, elaborara
 
 _Fonte: Elaborada por Vinicius Silva Araruna, 2026._
 
-A Tabela 2b apresenta as perguntas investigativas formuladas para a avaliação de alta fidelidade no Figma da **Tarefa 2 (Criação de Eventos Presenciais)**, incorporando diretamente as oportunidades de reprojeto diagnosticadas no protótipo de papel (`PROB-PP-T2-01` a `05`).
+A Tabela 2b apresenta as perguntas investigativas formuladas para a avaliação de alta fidelidade no **Protótipo Interativo Web da Tarefa 2 (Criação de Eventos Presenciais)**, incorporando diretamente as oportunidades de reprojeto diagnosticadas no protótipo de papel (`PROB-PP-T2-01` a `05`).
 
 **Tabela 2b** — Perguntas Investigativas da Avaliação de Alta Fidelidade (Tarefa 2 — Gustavo Antonio)
 
-| Código | Dimensão Avaliada | Pergunta Investigativa Específica no Figma | Indicador de Observação / Métrica |
+| Código | Dimensão Avaliada | Pergunta Investigativa Específica no Protótipo Web | Indicador de Observação / Métrica |
 | :---: | :--- | :--- | :--- |
-| **`PAF-T2-01`** | Descoberta do Ponto de Entrada | O participante localiza imediatamente a aba de 'Eventos' na navegação superior e aciona o botão `+ Criar Novo Evento` (`#0088CC`)? | Tempo até o primeiro clique e ausência de desvios para outras abas. |
+| **`PAF-T2-01`** | Descoberta do Ponto de Entrada | O participante localiza imediatamente a aba de 'Eventos' na navegação superior e aciona o botão primário `+ Criar Novo Evento` (`#0084FF`)? | Tempo até o primeiro clique e ausência de desvios para outras abas. |
 | **`PAF-T2-02`** | Seletor 24h e Temporalidade | Ao interagir com o seletor digital de horário, o interagente ajusta início e término no padrão de 24 horas sem hesitações de período (AM/PM)? | Ausência de erros na seleção de hora (ex.: 14:00 às 18:00) e taxa de conclusão sem reversão. |
 | **`PAF-T2-03`** | Hierarquia de Quórum e Lotação | A disposição sequencial priorizando o *Quórum Mínimo de Viabilidade* antes da *Lotação Máxima* transmite clareza lógica sobre o planejamento do evento? | Verbalização no *Think-Aloud* reconhecendo o propósito do quórum comunitário. |
-| **`PAF-T2-04`** | Geolocalização no Mapa Digital | Ao manipular o mapa interativo no Figma, o participante posiciona o marcador (*pin*) sobre o bloco universitário desejado com facilidade? | Tempo de busca do endereço, precisão no posicionamento do pin e leitura da confirmação visual. |
+| **`PAF-T2-04`** | Geolocalização no Mapa Digital | Ao manipular o mapa interativo com pin arrastável da UnB Gama, o participante posiciona o marcador sobre o bloco universitário desejado com facilidade? | Tempo de busca do endereço, precisão no posicionamento do pin e leitura da confirmação visual. |
 | **`PAF-T2-05`** | Densidade e Carga Cognitiva | A estruturação do formulário em etapas progressivas (*wizard*) reduz a percepção de sobrecarga visual em relação ao formulário único? | Nível de esforço percebido na Single Ease Question (SEQ) pós-tarefa (escala de 1 a 7). |
 | **`PAF-T2-06`** | Visibilidade do Mapa Final | Na tela de evento publicado, o mapa ampliado em formato 16:9 permite identificar claramente o trajeto e a sala de realização do encontro? | Reconhecimento imediato do local e ausência de dúvidas sobre onde comparecer. |
 | **`PAF-T2-07`** | Confirmação e Ingressos | O participante compreende com rapidez o resumo de ingressos gratuitos e o funcionamento do QR Code para credenciamento? | Verbalização afirmativa perante a prancha final e resposta positiva aos itens de clareza do SUS. |
@@ -121,21 +121,21 @@ A justificativa científica para este procedimento apoia-se em preceitos metodol
 2. **Captação de Processos Cognitivos via *Think-Aloud*:** A solicitação para que o participante expresse seus pensamentos em voz alta durante a navegação revela a interpretação subjetiva dos rótulos e a reação emocional ao disparo do modal inteligente da IA;
 3. **Padronização Psicométrica Global:** O questionário SUS fornece uma pontuação comparável de 0 a 100 pontos, permitindo enquadrar o produto em percentis consolidados na literatura internacional de usabilidade (*Bangor, Kortum & Miller, 2009*).
 
-### 5.2 Dinâmica Experimental no Figma e Extinção do "Computador Humano"
+### 5.2 Dinâmica Experimental e Extinção do "Computador Humano"
 
-A Figura 1 ilustra o fluxo de interação durante a sessão de teste de alta fidelidade no Figma, destacando a separação estrita de papéis e o funcionamento automatizado da plataforma de prototipação.
+A Figura 1 ilustra o fluxo de interação durante a sessão de teste de alta fidelidade (aplicável aos testes em Figma para a Tarefa 1 e no Protótipo Interativo Web para a Tarefa 2), destacando a separação estrita de papéis e o funcionamento automatizado da plataforma de prototipação.
 
 ```mermaid
 flowchart TD
     subgraph S["Sessão Experimental de Nível 3"]
-        P["Participante (P1)<br><i>Discente de TI / Perfil Aprendiz</i>"]
-        F["Protótipo Interativo no Figma<br><i>Motor Digital Automatizado</i>"]
-        A["Facilitador / Observador<br><i>Vinicius Silva Araruna</i>"]
+        P["Participante (P1 / P2)<br><i>Discente de TI / Perfil Aprendiz ou Organizador</i>"]
+        F["Protótipo Interativo Digital<br><i>Motor Automatizado (Figma / Web HTML5)</i>"]
+        A["Facilitador / Observador<br><i>Vinicius Silva Araruna / Gustavo Antonio</i>"]
     end
 
     P -->|"Operação Motora (Mouse e Teclado)"| F
     P -->|"Verbalização Concomitante (Think-Aloud)"| A
-    F -->|"Feedback Instantâneo (Overlays / Smart Animate)"| P
+    F -->|"Feedback Instantâneo (Overlays / Validação Nativa)"| P
     A -->|"Instrução de Cenário e Condução Neutra"| P
     A -->|"Registro de Métricas (Tempo, Cliques e Hesitações)"| Obs["Planilha de Observação e Gravação"]
 
@@ -146,7 +146,7 @@ flowchart TD
     style Obs fill:#2D2F36,stroke:#A0A5B1,stroke-width:1px,color:#F5F6F8
 ```
 
-Como ilustrado na Figura 1, o participante opera diretamente os periféricos (mouse e teclado) para navegar pelas telas do Figma. O motor do Figma responde autonomamente aos cliques, disparando transições de *Smart Animate* e abrindo janelas modais sobrepostas. O avaliador (Vinicius Silva Araruna) atua de forma neutra, registrando métricas em planilha dedicada sem intervir nas decisões do usuário.
+Como ilustrado na Figura 1, o participante opera diretamente os periféricos (mouse e teclado) para navegar pela interface digital. Na Tarefa 1, o motor do Figma responde autonomamente; na Tarefa 2, o navegador web executa a aplicação HTML5/CSS3/JS Vanilla (`docs/design-avaliacao-desenvolvimento/nivel-3/prototipo-tarefa2/index.html`) com mapa interativo da UnB Gama e geração imediata de QR Code SVG. O avaliador atua de forma neutra, registrando métricas em planilha dedicada sem intervir nas decisões do usuário.
 
 ---
 
@@ -191,7 +191,20 @@ O fluxo interativo da Tarefa 1 no Figma compõe-se de 4 *Frames* principais e 3 
   - Ação rápida em lote: *"Adicionar todas as tags sugeridas (+3 tags)"*;
 - **Frame 03 — *Tópico Publicado com Sucesso*:** Tela renderizada com a mensagem publicada, cabeçalho de sucesso com badge `#2ECC71`, bloco de código monoespaçado em fonte `IBM Plex Mono` com *syntax highlighting* e tags associadas.
 
-### 6.3 Métricas Quantitativas e Qualitativas Vinculadas às Metas de Usabilidade
+### 6.2.2 Arquitetura de Telas e Componentes do Protótipo Web (Tarefa 2)
+
+O percurso interativo da Tarefa 2 foi implementado como uma aplicação web executável independente (`docs/design-avaliacao-desenvolvimento/nivel-3/prototipo-tarefa2/index.html`), estruturada em componentes semânticos, Dark/Light Mode e layout responsivo com base no [Guia de Estilo](../../analise-requisitos/guia-de-estilo.md):
+
+- **View Hub (`PB-01` / `#view-hub`):** Catálogo de eventos comunitários com barra de busca em tempo real, filtros por status/data, listagem em grid com cards informativos e botão primário em destaque `+ Criar Novo Evento` (`#0084FF`);
+- **View Wizard em 3 Etapas (`PB-02` / `#view-wizard`):** Formulário sequencial assistido com indicador de progresso (*stepper*):
+  - *Etapa 1 (Informações Gerais):* Título do evento, categoria temática em dropdown e descrição com formatação básica;
+  - *Etapa 2 (Data, Horário e Localização):* Seletor nativo de 24 horas (`#modal-timepicker`), botão de ativação de geolocalização e preview do local selecionado;
+  - *Etapa 3 (Quórum, Ingressos e Confirmação):* Definição prioritária de *Quórum Mínimo de Viabilidade*, lotação máxima, emissão de ingressos gratuitos e confirmação de publicação;
+- **Modais Interativos de Suporte:**
+  - *Modal de Cancelamento com Dupla Confirmação (`PM-01` / `#modal-cancel-confirm`):* Prevenção de perda de dados ao fechar o assistente;
+  - *Modal de Mapa do Campus FGA (`PM-03` / `#modal-map-picker`):* Planta interativa da UnB Gama com arrasto e clique de pin georreferenciado e botões de atalho para pontos de referência (UAC, UED e Estacionamento);
+  - *Modal de Seletor 24h (`#modal-timepicker`):* Teclado digital matricial de horas e minutos sem ambiguidade AM/PM;
+- **View do Evento Publicado (`PB-03` / `#view-published`):** Página pública com mapa em proporção 16:9, indicador de quórum comunitário atingido, botão de inscrição/cancelamento, download de credencial em SVG com QR Code determinístico e integração com calendário ICS.
 
 A Tabela 3 consolida as métricas objetivas de desempenho que serão coletadas durante os testes da Tarefa 1, estabelecendo a conexão direta com as [Metas de Usabilidade](../../analise-requisitos/metas-de-usabilidade.md) e com o baseline preditivo do modelo **KLM (Keystroke-Level Model)** da Etapa 2 (`135,3 segundos`).
 
@@ -252,7 +265,7 @@ A Tabela 5 apresenta o planejamento temporal detalhado para a concepção, ensai
 | **Condução dos Testes de Usabilidade com Usuário Real (P1)** | `10/11/2026 a 13/11/2026` | 14:00 - 15:00 | Vinicius Silva Araruna (Facilitador) | Participante P1 (Discente TI) | Presencial / FGA |
 | **Relato dos Resultados de Alta Fidelidade (DECIDE + SUS)** | `12/11/2026 a 14/11/2026` | 19:00 - 22:00 | Vinicius Silva Araruna | Gustavo Antonio, Edvaldo Soares | Repositório MkDocs |
 | **Gravação Oficial da Apresentação da Etapa 7** | `14/11/2026 a 15/11/2026` | 09:00 - 11:30 | Equipe do Grupo 08 | Vinicius Silva Araruna | YouTube (Não Listado) |
-| **Ajustes pós-feedback da Etapa 7** | `18/11/2026 a 20/11/2026` | 19:00 - 21:00 | Toda a Equipe | Vinicius Silva Araruna | Repositório MkDocs |
+| **Ajustes pós-feedback da Etapa 7** | `18/11/2026 a 20/11/2026` | 19:00 - 21:00 | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna | Vinicius Silva Araruna | Repositório MkDocs |
 
 _Fonte: Elaborada por Vinicius Silva Araruna, 2026._
 
@@ -326,22 +339,22 @@ O escore final varia entre `0 e 100 pontos`. A meta de qualidade do Grupo 08 par
 
 > *"Você é um estudante de tecnologia e usuário iniciante de sistemas Linux que percebeu que muitos colegas de curso encontram dificuldades para particionar discos e configurar contêineres Docker em seus computadores. Com o objetivo de integrar a comunidade universitária e compartilhar conhecimento prático, você decide organizar um encontro presencial colaborativo intitulado **'Workshop Linux e Docker'**, a ser realizado nas dependências da UnB Gama (Bloco UAC, Sala I-04), das 14:00 às 18:00, com quórum mínimo de 10 participantes e limite de 30 vagas gratuitas.*  
 >  
-> *Sua tarefa no protótipo de alta fidelidade do Figma consiste em:*  
-> 1. *Acessar o Hub de Eventos do fórum e iniciar a criação de um novo workshop;*  
-> 2. *Preencher os dados gerais (Título, Categoria e Ementa do workshop);*  
-> 3. *Configurar a data e o horário pelo seletor nativo de 24 horas (14:00 às 18:00);*  
-> 4. *Definir a localização no mapa interativo, arrastando o marcador sobre o Bloco UAC e confirmando o endereço formalizado;*  
-> 5. *Configurar a viabilidade comunitária: definir quórum mínimo de 10 pessoas, lotação máxima de 30 participantes e ativar a emissão de ingressos gratuitos com QR Code;*  
-> 6. *Revisar os dados e confirmar a publicação, verificando a página pública do evento ativo com o mapa expandido."*
+> *Sua tarefa no protótipo interativo de alta fidelidade da web consiste em:*  
+> 1. *Acessar o Hub de Eventos do fórum e iniciar a criação de um novo workshop clicando em `+ Criar Novo Evento`;*  
+> 2. *Preencher os dados gerais na Etapa 1 (Título, Categoria e Descrição do workshop) e avançar;*  
+> 3. *Na Etapa 2, configurar a data e o horário pelo seletor nativo de 24 horas (14:00 às 18:00);*  
+> 4. *Definir a localização pelo mapa interativo do campus da FGA, clicando no atalho do Bloco UAC ou arrastando o marcador e confirmando;*  
+> 5. *Na Etapa 3, configurar a viabilidade comunitária: definir quórum mínimo de 10 pessoas, lotação máxima de 30 participantes e ativar a emissão de ingressos gratuitos;*  
+> 6. *Confirmar a publicação, verificando a página pública do evento ativo com o mapa expandido e a emissão do ingresso com QR Code."*
 
-### 8.5 Roteiro Sequencial de Interação da Tarefa 2 no Protótipo do Figma
+### 8.5 Roteiro Sequencial de Interação da Tarefa 2 no Protótipo Interativo Web
 
-1. **Passo 1 (Ponto de Entrada):** Na página inicial do Fórum Diolinux Plus em Dark Mode, clicar na aba `Eventos` no menu superior e, em seguida, no botão primário `+ Criar Novo Evento`;
-2. **Passo 2 (Dados Gerais do Workshop):** No assistente digital de criação, preencher o título (*"Workshop Linux e Docker"*), selecionar a categoria temática (*"Workshops e Capacitação"*) e inserir uma breve ementa descritiva;
-3. **Passo 3 (Definição Temporal 24h):** No campo de horário, abrir o componente de *timepicker* em formato nativo de 24 horas (eliminando a notação AM/PM), selecionar o início às `14:00` e término às `18:00` e clicar em `Confirmar Horário`;
-4. **Passo 4 (Geolocalização Interativa):** Clicar no botão `Definir Local no Mapa`, visualizar a planta interativa do campus UnB Gama, arrastar o pin digital sobre o `Bloco UAC (Sala I-04)`, conferir o endereço geocodificado na caixa flutuante e confirmar a localização;
-5. **Passo 5 (Quórum, Lotação e Ingressos):** No painel de capacidade, preencher primeiro o campo `Quórum Mínimo de Viabilidade` com o valor `10`, seguido da `Lotação Máxima` com `30`, selecionar a opção `Gratuito (1 por usuário)` e marcar as opções de `Emissão de QR Code` e `Lembrete 24h antes por e-mail`;
-6. **Passo 6 (Publicação e Validação do Mapa):** Clicar no botão centralizado `Publicar Evento`, visualizar a tela de sucesso gerada com o mapa em proporção 16:9 destacada e confirmar a emissão do link público e QR Code.
+1. **Passo 1 (Ponto de Entrada):** Na interface web do fórum Diolinux Plus em Dark Mode (`docs/design-avaliacao-desenvolvimento/nivel-3/prototipo-tarefa2/index.html`), clicar na aba `Eventos` na navegação lateral/superior e, em seguida, no botão primário `+ Criar Novo Evento`;
+2. **Passo 2 (Dados Gerais do Workshop):** No assistente digital de criação (Etapa 1), preencher o título (*"Workshop Linux e Docker"*), selecionar a categoria temática (*"Workshops e Capacitação"*), inserir a descrição e clicar em `Avançar`;
+3. **Passo 3 (Definição Temporal 24h):** Na Etapa 2, clicar no campo de horário para abrir o seletor nativo de 24 horas (eliminando a notação AM/PM), selecionar o início às `14:00` e término às `18:00` e clicar em `Confirmar Horário`;
+4. **Passo 4 (Geolocalização Interativa):** Clicar no botão `Definir no Mapa Interativo`, visualizar a planta da UnB Gama, selecionar o ponto `Bloco UAC (Sala I-04)` (ou arrastar o pin digital sobre o mapa), conferir o endereço na caixa flutuante e clicar em `Confirmar Localização`;
+5. **Passo 5 (Quórum, Lotação e Ingressos):** Na Etapa 3, preencher primeiro o campo `Quórum Mínimo de Viabilidade` com o valor `10`, seguido da `Lotação Máxima` com `30`, selecionar a opção `Gratuito (1 por usuário)` e marcar as opções de `Emissão de QR Code` e `Lembrete 24h antes`;
+6. **Passo 6 (Publicação e Validação do Ingresso):** Clicar no botão `Publicar Evento`, visualizar a página do evento publicado (`PB-03`) com o mapa 16:9 em destaque, conferir o progresso do quórum comunitário e acionar o botão `Baixar Ingresso / QR Code` para validar o fechamento da tarefa.
 
 ---
 
@@ -363,13 +376,13 @@ Após a manifestação verbal afirmativa e explícita do voluntário registrada 
 
 ---
 
-## 10. Protocolo do Teste-Piloto de Nível 3 (Figma) e Cláusula de Isolamento
+## 10. Protocolo do Teste-Piloto de Nível 3 e Cláusula de Isolamento
 
 O teste-piloto de Nível 3 será realizado entre **09/11/2026 e 10/11/2026**, antecedendo a coleta oficial de dados da Etapa 7. 
 
 O ensaio piloto tem como objetivos técnicos:
-1. Validar se todos os *hotspots* clicáveis e ligações de *Smart Animate* do Figma estão respondendo com latência aceitável (< 300ms);
-2. Testar o posicionamento do *overlay* da IA Semântica de pré-envio, conferindo se não ocorre corte de elementos visuais em monitores de resoluções distintas;
+1. Validar se todos os *hotspots* clicáveis e ligações de *Smart Animate* do Figma (Tarefas 1 e 3) e os scripts/eventos do Protótipo Web (Tarefa 2) estão respondendo com latência aceitável (< 300ms);
+2. Testar o posicionamento dos modais interativos (IA Semântica na Tarefa 1; Seletor 24h e Mapa Interativo na Tarefa 2), conferindo se não ocorre corte de elementos visuais em monitores de resoluções distintas;
 3. Checar a nitidez da captura de tela e a clareza do áudio capturado no OBS Studio;
 4. Cronometrar o tempo de leitura do TCLE e a compreensão das instruções do cenário.
 
@@ -430,10 +443,11 @@ A Tabela 9 apresenta o histórico de revisões e atualizações deste documento.
 
 | Versão | Data | Descrição da Alteração | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 31/10/2026 | Elaboração inicial do Planejamento da Avaliação de Alta Fidelidade (Nível 3 — Figma): Framework DECIDE completo, fundamentação de Mayhew e Rubin & Chisnell, 8 perguntas investigativas da Tarefa 1, métricas frente ao KLM (`135,3s`), justificativa amostral de Nielsen & Landauer, instrumento SUS de 10 itens, TCLE oral de 60s, protocolo do teste-piloto e checklist de 15 itens normativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.2` | 11/11/2026 | Atualização metodológica da esteira da Tarefa 2 para Protótipo Interativo Web (HTML5/CSS3/Vanilla JS), adequando arquitetura de telas (6.2.2), perguntas investigativas (Tabela 2b) e roteiro de interação prático (8.5) com link direto para a aplicação (#125). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.1` | 03/11/2026 | Detalhamento da esteira de alta fidelidade da Tarefa 2 (Gustavo Antonio): formulação das perguntas investigativas específicas (Tabela 2b), modelagem do cenário de uso (8.4) e do roteiro sequencial de interação no Figma (8.5) incorporando os achados empíricos do protótipo de papel (quórum prioritário, relógio 24h, mapa expandido e botões centralizados). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.0` | 31/10/2026 | Elaboração inicial do Planejamento da Avaliação de Alta Fidelidade (Nível 3 — Figma): Framework DECIDE completo, fundamentação de Mayhew e Rubin & Chisnell, 8 perguntas investigativas da Tarefa 1, métricas frente ao KLM (`135,3s`), justificativa amostral de Nielsen & Landauer, instrumento SUS de 10 itens, TCLE oral de 60s, protocolo do teste-piloto e checklist de 15 itens normativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
-_Fonte: Elaborada por Vinicius Silva Araruna, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

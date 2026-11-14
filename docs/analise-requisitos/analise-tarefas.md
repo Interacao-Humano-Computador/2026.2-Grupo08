@@ -414,6 +414,26 @@ graph TD
 - **T2 `|||` T3 (Preenchimento Concorrente e Sequencial):** Os campos descritivos e o banner ocorrem de forma concorrente (`|||`), com salvamento contínuo de rascunhos pelo sistema em segundo plano.
 - **T4 (Ponto de Escolha `[]` de Modalidade):** Alternância exclusiva entre emissão gratuita com limitação de cotas (T4a) ou configuração de lote pago com integração de taxas e gateway (T4b).
 - **T5 (Revisão e Geração de Artefatos):** A inspeção da prévia habilita a confirmação definitiva (T5b), disparando compulsoriamente a criação da página e emissão de QR Code pelo sistema (T5c).
+
+#### 3.2 Lista de Verificação da Técnica (HTA e CTT da Tarefa 2)
+
+A Tabela 5b formaliza a verificação técnica e metodológica das modelagens HTA e CTT da Tarefa 2 em atendimento aos critérios normativos da disciplina (Sales, 2026; Barbosa & Silva, 2021; Paternò, 2000).
+
+**Tabela 5b** — Lista de Verificação da Técnica de HTA e CTT (Tarefa 2 — Gustavo Antonio)
+
+| ID | Critério Normativo Avaliado | Origem / Fonte da Literatura | Conforme? | Resposta Autoexplicativa e Evidência no Artefato |
+| :---: | :--- | :--- | :---: | :--- |
+| **AT-T2-01** | **Objetivo de Alto Nível Formulado de Forma Canônica:** O nó 0 define um estado almejado pelo usuário aprendiz e não um comando técnico mecânico? | Barbosa & Silva (2021, p. 178); Annett & Duncan (1967) | Sim | O objetivo 0 é definido na Seção 2 como: *"Criar e Publicar Evento Presencial da Comunidade com Geolocalização e Quórum Mínimo"*, alinhado à meta sociocultural da persona. |
+| **AT-T2-02** | **Decomposição em Subobjetivos Exaustivos:** Os subobjetivos cobrem integralmente o fluxo sem redundâncias nem sobreposições? | Barbosa & Silva (2021, p. 179) | Sim | Os subobjetivos 1 a 5 da Tabela 5 decompõem o fluxo do acesso inicial, parâmetros básicos, geolocalização e quórum, modalidade e publicação. |
+| **AT-T2-03** | **Planos de Execução com Operadores Formais (`>`, `/`, `+`):** Os planos especificam a lógica sequencial e as tomadas de decisão? | Annett & Duncan (1967); Barbosa & Silva (2021, p. 180) | Sim | A Tabela 5 documenta explicitamente o Plano 0 (`1 > 2 > 3 > 4 > 5`), a seleção de acesso `1.1 / 1.2` e a escolha de modalidade `4.1 / 4.2`. |
+| **AT-T2-04** | **Representação Dupla Canônica (Diagrama e Tabela 8.4):** Há diagrama hierárquico gráfico e tabela estruturada correspondente de 8 colunas? | Barbosa & Silva (2021, Tabela 8.4, p. 179–182) | Sim | Apresenta a prancha gráfica digitalizada em alta definição (Figura 4a), a especificação Mermaid (Figura 4b) e a Tabela 5 com tupla completa. |
+| **AT-T2-05** | **Tupla Analítica de Operações (Inputs, Ações e Feedbacks):** Cada operação mapeia as condições disparadoras, ações físicas e respostas observáveis do sistema? | Barbosa & Silva (2021, p. 179) | Sim | A Tabela 5 especifica detalhadamente os inputs de ativação, ações do usuário, feedbacks imediatos da interface Discourse e problemas/recomendações ergonômicas. |
+| **AT-T2-06** | **Tipologia Canônica de Tarefas no Modelo CTT:** As tarefas são categorizadas rigorosamente em usuário, sistema, interativa e abstrata? | Paternò (2000); Barbosa & Silva (2021, p. 185) | Sim | O diagrama CTT da Figura 5 aplica a taxonomia padrão com classes visuais distintas (`:::user`, `:::system`, `:::interaction`, `:::abstract`). |
+| **AT-T2-07** | **Operadores Temporais LOTOS Formais no CTT:** As relações entre nós aplicam os operadores canônicos de habilitação (`>>`), escolha (`[]`) e concorrência (`\|\|\|`)? | Paternò (2000); Barbosa & Silva (2021, p. 186) | Sim | A Figura 5 e a Seção 3.1 detalham as transições `T1 >> T2`, concorrência `T2 \|\|\| T3` com salvamento automático e a escolha de modalidade `T4a [] T4b`. |
+| **AT-T2-08** | **Prevenção de Falhas Críticas na Comunidade (Quórum Mínimo):** A modelagem prevê mecanismo ergonômico para evitar cancelamento de encontros? | Nielsen (1994); Barbosa & Silva (2021) | Sim | O subobjetivo 3.4 e o nó CTT `T3d` garantem a parametrização de quórum mínimo para sustentabilidade dos encontros da comunidade. |
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Barbosa e Silva (2021), Annett e Duncan (1967) e Paternò (2000), 2026._
+
 ---
 
 <a id="tarefa-3-agendamento-de-horarios-de-duvidas-e-mentorias-na-grade-de-disponibilidade-edvaldo-soares"></a>
@@ -630,6 +650,7 @@ A Tabela 9 documenta o histórico de versões deste artefato.
 | `1.4` | 22/10/2026 | Modelagem integral da Tarefa 2: Criação de Eventos Presenciais (HTA com diagrama Mermaid, Tabela 8.4 canônica de Barbosa & Silva e CTT) incorporando geolocalização e quórum/lotação (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.5` | 22/10/2026 | Substituição da Tarefa 3 pela Grade de Disponibilidade e Agendamento de Dúvidas/Mentorias (estilo When2meet) com modelagem completa em HTA e CTT | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.6` | 29/10/2026 | Incorporação da Lista de Verificação da Técnica de Análise de Tarefas (Tabela 8 — 11 critérios normativos de HTA, CMN-GOMS e CTT) fundamentada em Barbosa e Silva (2021), Annett e Duncan (1967) e Card et al. (1983) (#118). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.8` | 07/11/2026 | Inclusão da Lista de Verificação da Técnica de HTA e CTT da Tarefa 2 (Tabela 5b — 8 critérios normativos de Annett & Duncan, Barbosa & Silva e Paternò) (#122). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.7` | 29/10/2026 | Padronização integral das Tabelas 6 e 7 no formato normativo de 8 colunas da Tabela 8.4 de Barbosa & Silva (2021) e inclusão de diagramas HTA renderizados em alta resolução (Figuras 4a e 5a) para atendimento aos apontamentos da banca examinadora (#139). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
