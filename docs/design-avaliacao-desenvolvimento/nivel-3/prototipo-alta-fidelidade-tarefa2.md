@@ -20,13 +20,14 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 _Autor do Item Teórico: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)_
 
-No **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew (1999)**, a transição para o **Nível 3** requer a materialização da interface em alta fidelidade com plena capacidade interativa, dispensando o papel de "Computador Humano" (*Snyder, 2003*).
+No **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew (1999)**, a transição para o **Nível 3** requer a materialização da interface em alta fidelidade com plena capacidade interativa, dispensando o papel de "Computador Humano" (_Snyder, 2003_).
 
 Para a **Tarefa 2 (`CF02` — Criação e Gestão de Eventos Presenciais da Comunidade)**, a equipe optou por construir uma **aplicação web interativa executável (HTML5, CSS3 e JavaScript Vanilla)** diretamente integrada ao repositório do projeto. Esta abordagem confere fidelidade operacional superior às ferramentas de telas estáticas, permitindo:
+
 - **Digitação e Validação Nativa em Tempo Real:** Validações de campos obrigatórios, bloqueios de avanço sem dados válidos e persistência de rascunho;
 - **Relógio Analógico Interativo 24h:** Seletor de horário com mostrador concêntrico duplo (00-11 externo / 12-23 interno), sem as ambiguidades de notação AM/PM apontadas na avaliação do protótipo de papel;
 - **Planta Interativa do Campus UnB Gama (FGA):** Mapa vetorial navegável com suporte a clique direto, atalhos de pontos de referência (Bloco UAC, Sala I-04, Bloco UED, Estacionamento) e pin georreferenciado;
-- **Cálculo Dinâmico de Quórum e Lotação:** Parametrização prioritária do *Quórum Mínimo de Viabilidade* antes da lotação máxima, evitando o cancelamento de encontros comunitários;
+- **Cálculo Dinâmico de Quórum e Lotação:** Parametrização prioritária do _Quórum Mínimo de Viabilidade_ antes da lotação máxima, evitando o cancelamento de encontros comunitários;
 - **Emissão Determinística de Credencial e QR Code SVG:** Geração dinâmica do ingresso público e integração com calendário (.ics).
 
 ---
@@ -40,10 +41,6 @@ Você pode interagir com o protótipo diretamente pelo componente incorporado ab
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
     Abrir Protótipo em Nova Guia (Tela Cheia)
   </a>
-</div>
-
-<div style="border: 2px solid #2D2F36; border-radius: 8px; overflow: hidden; background: #16171B; box-shadow: 0 8px 24px rgba(0,0,0,0.45);">
-  <iframe src="../prototipo-tarefa2/index.html" style="width: 100%; height: 780px; border: none;" title="Protótipo Interativo da Tarefa 2 — Fórum Diolinux Plus"></iframe>
 </div>
 
 ---
@@ -97,7 +94,7 @@ A **Figura 3** demonstra o Seletor de Horário Analógico 24h (`PM-02`), estrutu
 
 _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
 
-A **Figura 4** apresenta a Planta Interativa do Campus UnB Gama (FGA) (`PM-03`), permitindo posicionar o marcador (*pin*) diretamente no mapa ou utilizar os atalhos de blocos e salas do campus.
+A **Figura 4** apresenta a Planta Interativa do Campus UnB Gama (FGA) (`PM-03`), permitindo posicionar o marcador (_pin_) diretamente no mapa ou utilizar os atalhos de blocos e salas do campus.
 
 ![Planta Interativa do Campus UnB Gama — Modal PM-03](../assets/alta-fidelidade/T2_PM03_mapa_fga.png)
 
@@ -126,6 +123,7 @@ _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva, 2026._
 ## 5. Conformidade com o Guia de Estilo (Tokens Discourse)
 
 O protótipo web reproduz fielmente as diretrizes estéticas e ergonômicas estabelecidas no [Guia de Estilo](../../analise-requisitos/guia-de-estilo.md) do Fórum Diolinux Plus:
+
 - **Cores Oficiais do Dark Mode:** Fundo principal `#16171B` (`--secondary`), superfície de cartões `#1E1F24` (`--header_background`), bordas sutis `#2D2F36` e cor primária de destaque `#0084FF` (`--tertiary`);
 - **Tipografia:** Fontes de sistema `Inter` para legibilidade da interface e `IBM Plex Mono` para coordenadas geográficas, códigos e seletores temporais;
 - **Acessibilidade e Contraste:** Relação de contraste em conformidade com as diretrizes WCAG 2.1 AA em todos os estados de foco, hover e botões ativos.
@@ -134,7 +132,7 @@ O protótipo web reproduz fielmente as diretrizes estéticas e ergonômicas esta
 
 ## 6. Lista de Verificação da Técnica (Protótipo de Alta Fidelidade)
 
-A Tabela 3 formaliza a auditoria técnica e metodológica do protótipo interativo web de alta fidelidade da Tarefa 2, em conformidade com os critérios da Engenharia de Usabilidade (*Mayhew, 1999; Barbosa et al., 2021; Nielsen, 1994; Sales, 2026*).
+A Tabela 3 formaliza a auditoria técnica e metodológica do protótipo interativo web de alta fidelidade da Tarefa 2, em conformidade com os critérios da Engenharia de Usabilidade (_Mayhew, 1999; Barbosa et al., 2021; Nielsen, 1994; Sales, 2026_).
 
 **Tabela 3** — Lista de Verificação do Protótipo de Alta Fidelidade (Tarefa 2 — Eventos Presenciais)
 
@@ -175,9 +173,9 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ## 9. Referências Bibliográficas
 
-- **BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira.** *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-- **MAYHEW, Deborah J.** *The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design*. San Francisco: Morgan Kaufmann, 1999. ISBN 978-1-55860-561-9.
-- **NIELSEN, Jakob.** *Usability Engineering*. San Francisco: Morgan Kaufmann Publishers, 1994. ISBN 978-0-12-518406-9.
-- **RUBIN, Jeffrey; CHISNELL, Dana.** *Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests*. 2. ed. Indianapolis: Wiley, 2008.
-- **SALES, André Barros de.** *Plano de Ensino da Disciplina de Interação Humano Computador (FGA0173)*. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026.
-- **SNYDER, Carolyn.** *Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces*. San Francisco: Morgan Kaufmann, 2003. ISBN 978-1558608702.
+- **BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira.** _Interação Humano-Computador e Experiência do Usuário_. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+- **MAYHEW, Deborah J.** _The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design_. San Francisco: Morgan Kaufmann, 1999. ISBN 978-1-55860-561-9.
+- **NIELSEN, Jakob.** _Usability Engineering_. San Francisco: Morgan Kaufmann Publishers, 1994. ISBN 978-0-12-518406-9.
+- **RUBIN, Jeffrey; CHISNELL, Dana.** _Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests_. 2. ed. Indianapolis: Wiley, 2008.
+- **SALES, André Barros de.** _Plano de Ensino da Disciplina de Interação Humano Computador (FGA0173)_. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026.
+- **SNYDER, Carolyn.** _Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces_. San Francisco: Morgan Kaufmann, 2003. ISBN 978-1558608702.
