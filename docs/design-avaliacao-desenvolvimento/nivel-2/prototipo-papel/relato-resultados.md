@@ -62,7 +62,7 @@ Em conformidade com a literatura de baixa fidelidade, estabeleceu-se a separaç�
 A Figura 1 ilustra a disposição física da bancada de simulação tátil e a dinâmica de interação com as peças de papel.
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <img src="../../../assets/prototipo-papel/folha2-modal-ia-pre-envio.jpg" alt="Bancada Física de Simulação Tátil com Prancha do Composer e Peça Móvel da IA Semântica de Pré-Envio" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #CBD5E1;" />
+    <img src="../../../../assets/prototipo-papel/folha2-modal-ia-pre-envio.jpg" alt="Bancada Física de Simulação Tátil com Prancha do Composer e Peça Móvel da IA Semântica de Pré-Envio" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #CBD5E1;" />
     <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 1</strong> — Bancada física de simulação tátil da Tarefa 1 exibindo a Folha 2 (Composer) e a sobreposição da Peça Móvel 3 (Modal de IA Pré-Envio). <em>Fonte: Vinicius Silva Araruna, 2026.</em></p>
 </div>
 

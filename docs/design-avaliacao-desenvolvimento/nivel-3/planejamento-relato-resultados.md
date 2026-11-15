@@ -62,7 +62,35 @@ _Fonte: Elaborada por Vinicius Silva Araruna com base em Brooke (1996) e Bangor,
 
 Como exemplificado na Tabela 2, os dados mensurados permitirão verificar com precisão se a otimização de fluxo no Figma superou o tempo preditivo do modelo KLM (`135,3 segundos`) e se o índice SUS atinge a meta de excelência de **≥ 80,0 pontos**.
 
-### 3.2 Modelo Estruturado de Registro de Problemas de Usabilidade e Severidade (Nielsen)
+### 3.2 Modelo de Consolidação de Métricas Quantitativas e Escore SUS (Tarefa 2)
+
+A Tabela 2b apresenta o modelo tabular padronizado que registrará o desempenho operacional objetivo e a avaliação psicométrica SUS da Tarefa 2 (Criação de Eventos Presenciais com Mapa e Ingressos) no protótipo interativo web durante a Etapa 7.
+
+**Tabela 2b** — Modelo de Consolidação de Métricas Quantitativas e Escore SUS da Tarefa 2 *(Template para a Etapa 7)*
+
+| ID | Participante / Perfil | Tempo Total no Percurso (s) | Meta de Tempo (≤ 120s) | Tempo na Definição de Quórum / Ingressos (s) | Interação Fluida com Mapa e Pin | Taxa de Conclusão do Evento (%) | Escore SUS Global (0–100) | Classificação Adjetiva SUS (Bangor et al., 2009) |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **P2** | Discente de Engenharia (UnB) — Perfil Carlos Eduardo | *[A preencher]* | *[Meta Atingida?]* | *[A preencher]* | *[Sim / Não]* | *[A preencher]* | *[A preencher]* | *[Grau A / B / C / D / F]* |
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Brooke (1996) e Bangor, Kortum e Miller (2009), 2026._
+
+### 3.3 Modelo Estruturado de Registro de Problemas de Usabilidade da Tarefa 2 (Severidade de Nielsen)
+
+A Tabela 3b formaliza a matriz de catalogação de falhas ergonômicas, hesitações e desvios de navegação observados durante o percurso interativo da Tarefa 2 no protótipo interativo web.
+
+**Tabela 3b** — Modelo de Registro de Problemas de Usabilidade de Alta Fidelidade (Tarefa 2 — Eventos Presenciais Web)
+
+| ID | Componente / View Web Afetada | Descrição da Hesitação / Dificuldade no Teste | Dimensão Ergonômica / Token Impactado | Severidade de Nielsen (0 a 4) | Diretriz de Refinamento no Código Web (Etapa 7) |
+| :---: | :--- | :--- | :--- | :---: | :--- |
+| **`PROB-AF-T2-01`** | *Hub de Eventos (View PB-01 / #view-hub)* | Usuário hesita em localizar o gatilho `+ Criar Novo Evento` na interface com múltiplos cartões. | *Affordance* e Destaque Visual | **1 (Cosmético)** | Elevar o contraste do botão primário e reforçar a sombra de elevação (`elevation-2`). |
+| **`PROB-AF-T2-02`** | *Seletor 24h (#modal-timepicker)* | Dificuldade em alternar entre hora e minuto no timepicker digital. | Flexibilidade e Eficiência de Uso | **2 (Menor)** | Incorporar máscara de digitação direta via teclado alternativa ao clique no ponteiro. |
+| **`PROB-AF-T2-03`** | *Painel de Quórum / Ingressos (#view-wizard)* | Dúvida sobre a obrigatoriedade do campo de quórum mínimo para publicação. | Ajuda Contextual e Prevenção de Erros | **2 (Menor)** | Adicionar ícone de ajuda `(?)` com tooltip autoexplicativo sobre sustentabilidade do evento. |
+| **`PROB-AF-T2-04`** | *Mapa do Campus FGA (#modal-map-picker)* | Lentidão no arraste do marcador (*pin*) sobre as referências da UnB Gama. | Manipulação Direta e Precisão | **2 (Menor)** | Habilitar busca por texto de pontos de referência do campus com posicionamento automático do pin. |
+| **`PROB-AF-T2-05`** | *Página do Evento Publicado (View PB-03)* | Usuário não identifica imediatamente a opção de salvar o ingresso com QR Code. | Visibilidade do Estado / Fechamento | **1 (Cosmético)** | Posicionar botão `[ Baixar Ingresso / QR Code ]` em destaque logo abaixo do banner de confirmação. |
+
+_Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Nielsen (1994), 2026._
+
+### 3.4 Modelo Estruturado de Registro de Problemas de Usabilidade e Severidade (Nielsen - Tarefa 1)
 
 A Tabela 3 apresenta o modelo formal que receberá as evidências de dificuldades, hesitações e barreiras ergonômicas diagnosticadas nas telas do Figma durante os testes da Tarefa 1.
 
@@ -120,9 +148,11 @@ A Tabela 5 documenta o histórico de versões e atualizações deste artefato de
 
 | Versão | Data | Descrição da Alteração | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
+| `1.2` | 11/11/2026 | Adequação da esteira da Tarefa 2 ao modelo de Protótipo Interativo Web (HTML5/CSS3/JS Vanilla): atualização dos componentes avaliados na Tabela 3b (Views PB-01 a PB-03 e modais interativos) e diretrizes de reprojeto no código-fonte (#125). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.1` | 07/11/2026 | Integração dos modelos analíticos da Tarefa 2 (Criação de Eventos Presenciais): template de métricas de desempenho e escore SUS (Tabela 2b) e matriz estruturada de problemas na escala de severidade de Nielsen (Tabela 3b - PROB-AF-T2-01 a 05) (#125). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.0` | 31/10/2026 | Estruturação inicial do Planejamento do Relato da Alta Fidelidade (Nível 3): consolidação dos 9 tópicos normativos de Barbosa & Silva (2021), template tabular de métricas e SUS (Brooke, 1996), matriz estruturada de problemas na escala de severidade de Nielsen (0 a 4), critérios de priorização de reprojeto no Figma e lista de verificação de 9 itens normativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
-_Fonte: Elaborada por Vinicius Silva Araruna, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
