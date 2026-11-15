@@ -45,6 +45,8 @@ A Tabela 2 apresenta a matriz de rastreabilidade completa da Entrega 7, articula
 | **Nível 3 — Protótipo (T1)** | [Especificação do Protótipo no Claude Design (Tarefa 1)](../design-avaliacao-desenvolvimento/nivel-3/prototipo-alta-fidelidade.md) | Mapeamento das 7 pranchas canônicas (`T1_F01` a `T1_F03b` e Overlays `T1_OV01` a `OV03`), tokens Dark Mode, resolução de `PROB-PP-01` a `05` e checklist de 8 itens. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Nível 3 — Piloto (T1)** | [Protocolo e Relato do Teste-Piloto (Tarefa 1)](../design-avaliacao-desenvolvimento/nivel-3/teste-piloto.md) | Ensaio instrumental no OBS Studio (1080p 60fps), validação do TCLE oral em 48s, vídeo incorporado (`https://youtu.be/r7vN1XWerE4`) e cláusula estrita de isolamento de dados. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Nível 3 — Relato (T1)** | [Relato dos Resultados de Alta Fidelidade (Tarefa 1)](../design-avaliacao-desenvolvimento/nivel-3/relato-resultados.md) | Consolidação empírica com amostra de 3 participantes (Krug, 2014; Nielsen & Landauer, 1993), redução temporal média de 32,5% frente ao KLM (`91,3 s` vs. `135,3 s`), escore SUS médio de `82,5 pontos` (Grau A), 3 vídeos incorporados e matriz de severidade (`PROB-AF-01` a `05`). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Nível 3 — Protótipo (T2)** | [Protótipo Interativo Web (Tarefa 2)](../design-avaliacao-desenvolvimento/nivel-3/prototipo-alta-fidelidade-tarefa2.md) | Aplicação web interativa (HTML5/CSS3/Vanilla JS) com Hub de Eventos, Wizard em 3 etapas, relógio 24h, mapa interativo da FGA e ingresso com QR Code SVG. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Nível 3 — Piloto e Relato (T2)** | [Teste-Piloto e Relato dos Resultados (Tarefa 2)](../design-avaliacao-desenvolvimento/nivel-3/relato-resultados-tarefa2.md) | Registro audiovisual do teste-piloto (`https://youtu.be/SzvR4D9lKaw`) e das três sessões empíricas (`P1`, `P2` e `P3`) no Protótipo Interativo Web, com estrutura dos 9 tópicos canônicos, perguntas `PAF-T2-01` a `07`, SUS/SEQ e severidade de Nielsen. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Governança — Atas** | [Atas de Reunião da Equipe](../atas/index.md) | Registros formais de alinhamento, decisões de projeto e planejamento das entregas. | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada por Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
@@ -101,6 +103,15 @@ Para manter a navegação atômica e ágil desta página de síntese, os players
 - **Participante 3 (P3 — 20 anos, 73,0 s, SUS 75,0):** [Assistir no YouTube: https://youtu.be/32IMt6ExSoE](https://youtu.be/32IMt6ExSoE)
 - **Teste-Piloto de Nível 3 (Isolado da amostra empírica):** [Assistir no YouTube: https://youtu.be/r7vN1XWerE4](https://youtu.be/r7vN1XWerE4)
 
+### 3.3 Registros das Sessões de Avaliação da Tarefa 2 (Nível 3 — Gustavo Antonio)
+
+Os players completos com as gravações do teste-piloto e das três sessões empíricas da **Tarefa 2 (`CF02` — Eventos Presenciais)** no Protótipo Interativo Web encontram-se incorporados na página dedicada [Teste-Piloto e Relato dos Resultados (Tarefa 2)](../design-avaliacao-desenvolvimento/nivel-3/relato-resultados-tarefa2.md), acessíveis também pelos links diretos abaixo:
+
+- **Teste-Piloto de Nível 3 (Isolado da amostra empírica):** [Assistir no YouTube: https://youtu.be/SzvR4D9lKaw](https://youtu.be/SzvR4D9lKaw)
+- **Participante 1 (P1):** [Assistir no YouTube: https://youtu.be/Lwa7sELcy0o](https://youtu.be/Lwa7sELcy0o)
+- **Participante 2 (P2):** [Assistir no YouTube: https://youtu.be/W8rWj6q8bT8](https://youtu.be/W8rWj6q8bT8)
+- **Participante 3 (P3):** [Assistir no YouTube: https://youtu.be/6H0K1DV6WRE](https://youtu.be/6H0K1DV6WRE)
+
 ---
 
 ## 4. Síntese dos Resultados Empíricos da Tarefa 1 (`n = 3`)
@@ -155,8 +166,9 @@ A Tabela 6 documenta a evolução histórica da síntese da Entrega 7.
 | `1.0` | 09/11/2026 | Estruturação preliminar da síntese da Entrega 7, contextualização de Nível 3 no Ciclo de Mayhew e matriz de rastreabilidade. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 12/11/2026 | Atualização definitiva dos resultados empíricos da Tarefa 1 (amostra `n = 3` com Krug & Nielsen, tempo médio `91,3 s` vs `135,3 s` KLM, SUS médio `82,5 pontos`), correção de autoria tecnológica para Claude Design (Anthropic), remoção de placeholders de vídeo e linkagem atômica das 3 gravações empíricas e do teste-piloto no padrão arquitetural das entregas. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.2` | 13/11/2026 | Incorporação do vídeo oficial da Apresentação Individual da Entrega 7 — Tarefa 1 (`https://youtu.be/kZtajVn5fIQ`) com metadados e player embutido na Seção 3.1, renumeração de tabelas (Tabelas 3 a 6) e fechamento do critério `E7-10` como conforme (`Sim`). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.3` | 14/11/2026 | Inclusão da Tarefa 2 (`relato-resultados-tarefa2.md` e `prototipo-alta-fidelidade-tarefa2.md`) na Matriz de Rastreabilidade e linkagem dos 4 registros audiovisuais da Tarefa 2 (Teste-Piloto, P1, P2 e P3) na Seção 3.3. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada por Vinicius Silva Araruna, 2026._
+_Fonte: Elaborada por Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
 
 ---
 
