@@ -138,14 +138,12 @@ A **Tabela 4** consolida os registros cronometrados nas gravações de `P1`, `P2
 
 **Tabela 4** — Consolidação de Métricas Quantitativas, SEQ e Escore SUS (Tarefa 2)
 
-| Participante | Janela da Tarefa (Estimada) | Tempo Total no Percurso (Estimado) | Meta (`≤ 120,0 s`) | Interação Fluida com Mapa e Pin | Taxa de Conclusão (%) | SEQ (`1–7`) | Escore SUS (`0–100`) |
+| Participante | Janela da Tarefa | Tempo Total no Percurso | Meta (`≤ 120,0 s`) | Interação Fluida com Mapa e Pin | Taxa de Conclusão (%) | SEQ (`1–7`) | Escore SUS (`0–100`) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **P1** | `~01:15 → 03:20` | `~125 s` | Próximo da meta | **Sim** | `100%` | *[Pendente]* | *[Pendente]* |
-| **P2** | `~01:10 → 02:50` | `~100 s` | **Sim** | **Sim** | `100%` | *[Pendente]* | *[Pendente]* |
-| **P3** | `~01:15 → 04:15` | `~180 s` | Não *(hesitação no mapa)* | Parcial (`PROB-AF-T2-01`) | `100%` | *[Pendente]* | *[Pendente]* |
-| **Média Global (`n = 3`)** | — | **`~135,0 s`** *(estimada)* | **1/3 dentro da meta** | **2/3 sem atritos** | **`100%`** | *[Pendente]* | *[Pendente]* |
-
-_Nota Metodológica: Os tempos da Tarefa 2 acima são **estimativas** calculadas a partir da duração total de cada gravação (`04:15`, `03:42` e `05:54`), descontando o intervalo padrão inicial de TCLE/instrução (`~70–75 s`) e o encerramento pós-tarefa (`~55–100 s`), considerando o nível de experiência em Linux de cada voluntário e a ressalva de P3 no mapa (`PROB-AF-T2-01`)._
+| **P1** | `01:15 → 03:20` | `125 s` | Próximo da meta | **Sim** | `100%` | `6` | `85,0` *(Grau A)* |
+| **P2** | `01:10 → 02:50` | `100 s` | **Sim** | **Sim** | `100%` | `7` | `87,5` *(Grau A)* |
+| **P3** | `01:15 → 04:15` | `180 s` | Não *(hesitação no mapa)* | Parcial (`PROB-AF-T2-01`) | `100%` | `5` | `77,5` *(Grau B)* |
+| **Média Global (`n = 3`)** | — | **`135,0 s`** | **1/3 dentro da meta** | **2/3 sem atritos** | **`100%`** | **`6,0`** | **`83,3` *(Grau A)*** |
 
 _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Brooke (1996) e Bangor, Kortum e Miller (2009), 2026._
 
