@@ -114,6 +114,14 @@ Os players completos com as gravações do teste-piloto e das três sessões emp
 - **Participante 2 (P2):** [Assistir no YouTube: https://youtu.be/W8rWj6q8bT8](https://youtu.be/W8rWj6q8bT8)
 - **Participante 3 (P3):** [Assistir no YouTube: https://youtu.be/6H0K1DV6WRE](https://youtu.be/6H0K1DV6WRE)
 
+### 3.4 Registros das Sessões de Avaliação da Tarefa 3 (Nível 3 — Edvaldo Soares)
+
+Os players completos com as gravações das três sessões empíricas da **Tarefa 3 (`CF03` — Agendamento de Horários com Autores de Tópicos)** no Protótipo de Alta Fidelidade (Claude Design) encontram-se incorporados na página dedicada [Teste-Piloto e Relato dos Resultados (Tarefa 3)](../design-avaliacao-desenvolvimento/nivel-3/relato-resultados-tarefa3.md), acessíveis também pelos links diretos abaixo:
+
+- **Participante 1 (P1 — Duração: 05:20, SUS 85,0):** [Assistir no YouTube: https://youtu.be/oq8vuAjaCUM](https://youtu.be/oq8vuAjaCUM)
+- **Participante 2 (P2 — Duração: 04:20, SUS 90,0):** [Assistir no YouTube: https://youtu.be/5T8QY_QbhzA](https://youtu.be/5T8QY_QbhzA)
+- **Participante 3 (P3 — Duração: 05:40, SUS 87,5):** [Assistir no YouTube: https://youtu.be/byOn3DBegCE](https://youtu.be/byOn3DBegCE)
+
 ---
 
 ## 4. Síntese dos Resultados Empíricos da Tarefa 1 (`n = 3`)
@@ -169,8 +177,9 @@ A Tabela 6 documenta a evolução histórica da síntese da Entrega 7.
 | `1.1` | 12/11/2026 | Atualização definitiva dos resultados empíricos da Tarefa 1 (amostra `n = 3` com Krug & Nielsen, tempo médio `91,3 s` vs `135,3 s` KLM, SUS médio `82,5 pontos`), correção de autoria tecnológica para Claude Design (Anthropic), remoção de placeholders de vídeo e linkagem atômica das 3 gravações empíricas e do teste-piloto no padrão arquitetural das entregas. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.2` | 13/11/2026 | Incorporação do vídeo oficial da Apresentação Individual da Entrega 7 — Tarefa 1 (`https://youtu.be/kZtajVn5fIQ`) com metadados e player embutido na Seção 3.1, renumeração de tabelas (Tabelas 3 a 6) e fechamento do critério `E7-10` como conforme (`Sim`). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.3` | 14/11/2026 | Inclusão da Tarefa 2 (`relato-resultados-tarefa2.md` e `prototipo-alta-fidelidade-tarefa2.md`) na Matriz de Rastreabilidade e linkagem dos 4 registros audiovisuais da Tarefa 2 (Teste-Piloto, P1, P2 e P3) na Seção 3.3. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.4` | 15/11/2026 | Inclusão da Tarefa 3 (protótipo e relato de resultados) e linkagem dos 3 registros audiovisuais das avaliações empíricas (P1, P2 e P3) na Seção 3.4. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
 
-_Fonte: Elaborada por Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva, 2026._
+_Fonte: Elaborada por Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho, 2026._
 
 ---
 

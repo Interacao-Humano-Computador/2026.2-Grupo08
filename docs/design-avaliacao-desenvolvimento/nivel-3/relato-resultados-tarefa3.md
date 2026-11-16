@@ -233,9 +233,9 @@ Em cumprimento rigoroso à **Resolução CNS nº 510/2016**, às diretrizes éti
 | Identificador | Participante / Ensaio | Data da Sessão | Duração do Vídeo | Consentimento TCLE Oral | Link de Acesso no YouTube |
 | :---: | :--- | :---: | :---: | :---: | :--- |
 | **`Piloto`** | Ensaio Instrumental Técnico | 14/11/2026 | `~03:20` | Validado (46s) | [Assistir Teste-Piloto no YouTube](https://youtu.be/PILOTO_TAREFA3_PLACEHOLDER) |
-| **`S01`** | Participante 1 (`P1`) | 15/11/2026 | **`05:20`** | Colhido nos primeiros 60s | [Assistir Sessão P1 no YouTube](https://youtu.be/P1_TAREFA3_PLACEHOLDER) |
-| **`S02`** | Participante 2 (`P2`) | 15/11/2026 | **`04:20`** | Colhido nos primeiros 60s | [Assistir Sessão P2 no YouTube](https://youtu.be/P2_TAREFA3_PLACEHOLDER) |
-| **`S03`** | Participante 3 (`P3`) | 15/11/2026 | **`05:40`** | Colhido nos primeiros 60s | [Assistir Sessão P3 no YouTube](https://youtu.be/P3_TAREFA3_PLACEHOLDER) |
+| **`S01`** | Participante 1 (`P1`) | 15/11/2026 | **`05:20`** | Colhido nos primeiros 60s | [Assistir Sessão P1 no YouTube: https://youtu.be/oq8vuAjaCUM](https://youtu.be/oq8vuAjaCUM) |
+| **`S02`** | Participante 2 (`P2`) | 15/11/2026 | **`04:20`** | Colhido nos primeiros 60s | [Assistir Sessão P2 no YouTube: https://youtu.be/5T8QY_QbhzA](https://youtu.be/5T8QY_QbhzA) |
+| **`S03`** | Participante 3 (`P3`) | 15/11/2026 | **`05:40`** | Colhido nos primeiros 60s | [Assistir Sessão P3 no YouTube: https://youtu.be/byOn3DBegCE](https://youtu.be/byOn3DBegCE) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -251,12 +251,11 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026._
     </summary>
     <div class="video-card-body">
         <div class="video-card-frame">
-            <!-- SUBST_LINK_YOUTUBE_P1 -->
-            <iframe src="https://www.youtube-nocookie.com/embed/P1_TAREFA3_PLACEHOLDER" title="Avaliação de Alta Fidelidade — Tarefa 3 — Participante 1 (P1) | Grupo 08 — IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/oq8vuAjaCUM" title="Avaliação de Alta Fidelidade — Tarefa 3 — Participante 1 (P1) | Grupo 08 — IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-card-footer">
             <span class="video-card-caption"><strong>Vídeo 2</strong> — Sessão gravada da Tarefa 3 com a Participante 1 (P1), contendo TCLE oral nos primeiros 60s, percurso nas 4 telas e protocolo Think-Aloud (Duração: 05:20). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></span>
-            <a href="https://youtu.be/P1_TAREFA3_PLACEHOLDER" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+            <a href="https://youtu.be/oq8vuAjaCUM" target="_blank" rel="noopener noreferrer" class="video-card-btn">
                 <span>Assistir no YouTube</span> ↗
             </a>
         </div>
@@ -273,12 +272,11 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026._
     </summary>
     <div class="video-card-body">
         <div class="video-card-frame">
-            <!-- SUBST_LINK_YOUTUBE_P2 -->
-            <iframe src="https://www.youtube-nocookie.com/embed/P2_TAREFA3_PLACEHOLDER" title="Avaliação de Alta Fidelidade — Tarefa 3 — Participante 2 (P2) | Grupo 08 — IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/5T8QY_QbhzA" title="Avaliação de Alta Fidelidade — Tarefa 3 — Participante 2 (P2) | Grupo 08 — IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-card-footer">
             <span class="video-card-caption"><strong>Vídeo 3</strong> — Sessão gravada da Tarefa 3 com o Participante 2 (P2), contendo TCLE oral nos primeiros 60s, percurso nas 4 telas e protocolo Think-Aloud (Duração: 04:20). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></span>
-            <a href="https://youtu.be/P2_TAREFA3_PLACEHOLDER" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+            <a href="https://youtu.be/5T8QY_QbhzA" target="_blank" rel="noopener noreferrer" class="video-card-btn">
                 <span>Assistir no YouTube</span> ↗
             </a>
         </div>
@@ -295,12 +293,11 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026._
     </summary>
     <div class="video-card-body">
         <div class="video-card-frame">
-            <!-- SUBST_LINK_YOUTUBE_P3 -->
-            <iframe src="https://www.youtube-nocookie.com/embed/P3_TAREFA3_PLACEHOLDER" title="Avaliação de Alta Fidelidade — Tarefa 3 — Participante 3 (P3) | Grupo 08 — IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/byOn3DBegCE" title="Avaliação de Alta Fidelidade — Tarefa 3 — Participante 3 (P3) | Grupo 08 — IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-card-footer">
             <span class="video-card-caption"><strong>Vídeo 4</strong> — Sessão gravada da Tarefa 3 com o Participante 3 (P3), contendo TCLE oral nos primeiros 60s, percurso nas 4 telas, protocolo Think-Aloud e feedback sobre aumento das fontes (Duração: 05:40). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></span>
-            <a href="https://youtu.be/P3_TAREFA3_PLACEHOLDER" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+            <a href="https://youtu.be/byOn3DBegCE" target="_blank" rel="noopener noreferrer" class="video-card-btn">
                 <span>Assistir no YouTube</span> ↗
             </a>
         </div>
