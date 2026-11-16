@@ -84,10 +84,9 @@ O protótipo de alta fidelidade da Tarefa 3 estrutura-se em **4 telas canônicas
 
 Esta prancha representa a página oficial de um tópico de suporte no Fórum Diolinux Plus. O cabeçalho global do fórum (com busca, sino de notificações e avatar) é reproduzido com precisão. Ao final da resposta técnica do autor especialista, é inserido o **ponto de entrada de agendamento**: o botão primário destacado *"📅 Agendar Reunião com o Autor"*.
 
-<div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <img src="../assets/alta-fidelidade/T3_F01_topico_com_botao_agendar.png" alt="Tela 1 — Página do Tópico com Botão de Agendamento" style="max-width: 900px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); border: 1px solid #2D2F36;" />
-  <p style="font-size: 0.85rem; color: #A0A5B1; margin-top: 0.5rem;"><strong>Figura 1</strong> — Protótipo de Alta Fidelidade no Claude Design: Página do tópico com o botão destacado de agendamento com o autor especialista (<code>T3_F01</code>). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
-</div>
+![Tela 1 — Página do Tópico com Botão de Agendamento](../assets/alta-fidelidade/T3_F01_topico_com_botao_agendar.png)
+
+<p align="center"><strong>Figura 1</strong> — Protótipo de Alta Fidelidade no Claude Design: Página do tópico com o botão destacado de agendamento com o autor especialista (<code>T3_F01</code>).<br><em>Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026.</em></p>
 
 ---
 
@@ -95,10 +94,9 @@ Esta prancha representa a página oficial de um tópico de suporte no Fórum Dio
 
 Ao clicar no botão de agendamento, abre-se a interface de calendário semanal em colunas diárias (Segunda a Sábado). A tela contempla o seletor de semanas (*"◀ Semana Anterior / Próxima Semana ▶"*), a sinalização explícita de fuso horário (*Horário de Brasília, GMT-3*), a legenda visual permanente e os blocos de horário com estados visuais claros para slots livres, ocupados e selecionados.
 
-<div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <img src="../assets/alta-fidelidade/T3_F02_grade_semanal_horarios.png" alt="Tela 2 — Grade Semanal de Horários Disponíveis" style="max-width: 900px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); border: 1px solid #2D2F36;" />
-  <p style="font-size: 0.85rem; color: #A0A5B1; margin-top: 0.5rem;"><strong>Figura 2</strong> — Protótipo de Alta Fidelidade no Claude Design: Grade semanal de horários com legenda visual, fuso de Brasília e slots selecionáveis (<code>T3_F02</code>). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
-</div>
+![Tela 2 — Grade Semanal de Horários Disponíveis](../assets/alta-fidelidade/T3_F02_grade_semanal_horarios.png)
+
+<p align="center"><strong>Figura 2</strong> — Protótipo de Alta Fidelidade no Claude Design: Grade semanal de horários com legenda visual, fuso de Brasília e slots selecionáveis (<code>T3_F02</code>).<br><em>Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026.</em></p>
 
 ---
 
@@ -106,10 +104,9 @@ Ao clicar no botão de agendamento, abre-se a interface de calendário semanal e
 
 Tela de confirmação imediata exibida após a seleção do horário na grade. Apresenta o feedback com ícone de sucesso em verde (`#2ECC71`), o resumo completo dos dados da mentoria (mentor especialista, data, horário e fuso), o link direto para a sala virtual, aviso sobre o envio do link por e-mail e notificações internas, botões rápidos de integração (*"Adicionar ao Google Agenda"* e *"Copiar Link da Sala"*), além dos botões secundários para reagendar ou cancelar a reunião caso necessário.
 
-<div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <img src="../assets/alta-fidelidade/T3_F03_confirmacao_agendamento.png" alt="Tela 3 — Confirmação do Agendamento" style="max-width: 900px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); border: 1px solid #2D2F36;" />
-  <p style="font-size: 0.85rem; color: #A0A5B1; margin-top: 0.5rem;"><strong>Figura 3</strong> — Protótipo de Alta Fidelidade no Claude Design: Tela de confirmação com resumo, link da sala, aviso de confirmação e botões de integração de calendário (<code>T3_F03</code>). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
-</div>
+![Tela 3 — Confirmação do Agendamento](../assets/alta-fidelidade/T3_F03_confirmacao_agendamento.png)
+
+<p align="center"><strong>Figura 3</strong> — Protótipo de Alta Fidelidade no Claude Design: Tela de confirmação com resumo, link da sala, aviso de confirmação e botões de integração de calendário (<code>T3_F03</code>).<br><em>Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026.</em></p>
 
 ---
 
@@ -117,10 +114,9 @@ Tela de confirmação imediata exibida após a seleção do horário na grade. A
 
 Simulação da experiência do usuário no dia marcado para a mentoria técnica. A tela documenta a notificação visual no sino do cabeçalho do Diolinux Plus com ponto de não lida e o card detalhado de lembrete contendo o aviso em destaque *"Você tem uma reunião agendada HOJE!"*, horário em fuso de Brasília (*GMT-3*), botão primário *"🎥 Entrar na Sala Agora"* e opções rápidas de cópia de link ou reagendamento prévio.
 
-<div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <img src="../assets/alta-fidelidade/T3_F04_lembrete_reuniao.png" alt="Tela 4 — Lembrete da Reunião no Dia" style="max-width: 900px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); border: 1px solid #2D2F36;" />
-  <p style="font-size: 0.85rem; color: #A0A5B1; margin-top: 0.5rem;"><strong>Figura 4</strong> — Protótipo de Alta Fidelidade no Claude Design: Notificação e tela com o lembrete da reunião no dia com acesso direto à sala virtual (<code>T3_F04</code>). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
-</div>
+![Tela 4 — Lembrete da Reunião no Dia](../assets/alta-fidelidade/T3_F04_lembrete_reuniao.png)
+
+<p align="center"><strong>Figura 4</strong> — Protótipo de Alta Fidelidade no Claude Design: Notificação e tela com o lembrete da reunião no dia com acesso direto à sala virtual (<code>T3_F04</code>).<br><em>Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026.</em></p>
 
 ---
 
@@ -128,10 +124,9 @@ Simulação da experiência do usuário no dia marcado para a mentoria técnica.
 
 Em resposta ao feedback colhido com o **Participante 3 (P3)** durante as sessões empíricas de avaliação de alta fidelidade — que sugeriu **aumentar o tamanho das fontes e legendas para aprimorar a legibilidade e o conforto visual** —, foi elaborada uma variação ergonômica ajustando o corpo tipográfico das legendas secundárias de `13px` para `15px` e dos rótulos de slots de `12px` para `14px`, aumentando a área de clique para `48px`.
 
-<div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <img src="../assets/alta-fidelidade/T3_F05_reprojeto_ajuste_fontes.png" alt="Tela 5 — Proposta de Reprojeto: Ajuste no Tamanho das Fontes" style="max-width: 900px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3); border: 1px solid #2D2F36;" />
-  <p style="font-size: 0.85rem; color: #A0A5B1; margin-top: 0.5rem;"><strong>Figura 5</strong> — Proposta de Reprojeto ergonômico: Escala tipográfica ampliada nas legendas e horários para otimizar legibilidade visual (<code>T3_F05</code>). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
-</div>
+![Tela 5 — Proposta de Reprojeto: Ajuste no Tamanho das Fontes](../assets/alta-fidelidade/T3_F05_reprojeto_ajuste_fontes.png)
+
+<p align="center"><strong>Figura 5</strong> — Proposta de Reprojeto ergonômico: Escala tipográfica ampliada nas legendas e horários para otimizar legibilidade visual (<code>T3_F05</code>).<br><em>Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026.</em></p>
 
 ---
 
