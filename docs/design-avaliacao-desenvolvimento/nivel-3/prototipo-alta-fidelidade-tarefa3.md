@@ -124,9 +124,7 @@ Simulação da experiência do usuário no dia marcado para a mentoria técnica.
 
 Em resposta ao feedback colhido com o **Participante 3 (P3)** durante as sessões empíricas de avaliação de alta fidelidade — que sugeriu **aumentar o tamanho das fontes e legendas para aprimorar a legibilidade e o conforto visual** —, foi elaborada uma variação ergonômica ajustando o corpo tipográfico das legendas secundárias de `13px` para `15px` e dos rótulos de slots de `12px` para `14px`, aumentando a área de clique para `48px`.
 
-![Tela 5 — Proposta de Reprojeto: Ajuste no Tamanho das Fontes](../assets/alta-fidelidade/T3_F05_reprojeto_ajuste_fontes.png)
-
-<p align="center"><strong>Figura 5</strong> — Proposta de Reprojeto ergonômico: Escala tipográfica ampliada nas legendas e horários para otimizar legibilidade visual (<code>T3_F05</code>).<br><em>Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+> *Nota: Captura ilustrativa da proposta de reprojeto (`T3_F05`) em atualização pelo autor.*
 
 ---
 
