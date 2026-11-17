@@ -8,9 +8,9 @@ A Tabela 1 apresenta a distribuição de responsabilidades e as ferramentas util
 
 | Integrante | Atribuição no Artefato | Data | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :---: | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Tech Lead / Auditor Principal**: Concepção metodológica, estruturação da arquitetura modularizada (ADR-07), consolidação comparativa das Etapas 3 e 5 e redação técnica | 26/10/2026 | Google Gemini (LLM) | Apoio na estruturação Markdown e alinhamento de referências ABNT |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Auditor Técnico**: Auditoria de governança, repositório, cronograma e Nível 1; co-apresentador das inspeções em vídeo | 26/10/2026 | Google Gemini (LLM) | Apoio na checagem tabular e links funcionais |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Auditor Técnico**: Revisão técnica consolidada das auditorias, verificação dos artefatos de Nível 2 e cálculo das métricas ponderadas | 26/10/2026 | — | Auditoria humana cruzada e validação de consistência |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Tech Lead / Auditor Principal**: Concepção metodológica, estruturação da arquitetura modularizada (ADR-07), consolidação comparativa das Etapas 3, 5 e 7 e redação técnica | 16/11/2026 | Google Gemini (LLM) | Apoio na estruturação Markdown e alinhamento de referências ABNT |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Auditor Técnico**: Auditoria de governança, repositório, cronograma, Nível 1 e relatos de Alta Fidelidade; co-apresentador das inspeções em vídeo | 16/11/2026 | Google Gemini (LLM) | Apoio na checagem tabular e links funcionais |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Auditor Técnico**: Revisão técnica consolidada das auditorias, verificação dos artefatos de Nível 2 e 3 e cálculo das métricas ponderadas | 16/11/2026 | — | Auditoria humana cruzada e validação de consistência |
 
 _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
@@ -37,8 +37,9 @@ A Tabela 2 apresenta o panorama cronológico e consolidado de todas as etapas do
 
 | Etapa Avaliada | Data da Avaliação | Versão / Commit Avaliado | Conformidade Geral | Relatório Completo | Apresentação em Vídeo | Relatório Oficial em PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Etapa 3**<br>*(Princípios, Metas, Guia de Estilo e Características)* | 10/10/2026 | Commit `f0c8a2f`<br>*(06/10/2026)* | **16,7% Pleno**<br>44,4% Parcial<br>38,9% Não Conforme<br>*(Taxa Ponderada: 38,9%)* | [Acessar Relatório da Etapa 3](etapa3.md) | [:material-youtube: Assistir (lttsLbInYaM)](https://youtu.be/lttsLbInYaM) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Inspecao_Grupo01_Etapa3_Principios_Metas_GuiaEstilo.pdf) |
+| **Etapa 7**<br>*(Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Nível 3)* | 16/11/2026 | Commit `ac5df28`<br>*(15/11/2026)* | **4,3% Pleno**<br>60,9% Parcial<br>34,8% Não Conforme<br>*(Taxa Ponderada: 34,8%)* | [Acessar Relatório da Etapa 7](etapa7.md) | [:material-youtube: Assistir (uFMTMShnoz4)](https://youtu.be/uFMTMShnoz4) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Grupo08InspecaoGrupo01Etapa7.pdf) |
 | **Etapa 5**<br>*(Relatos de Nível 1 e Planejamento do Protótipo de Papel)* | 26/10/2026 | Commit `10a7c3d`<br>*(25/10/2026)* | **6,7% Pleno**<br>46,7% Parcial<br>46,7% Não Conforme<br>*(Taxa Ponderada: 30,0%)* | [Acessar Relatório da Etapa 5](etapa5.md) | [:material-youtube: Assistir (QjAnF0_ooT8)](https://youtu.be/QjAnF0_ooT8) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf) |
+| **Etapa 3**<br>*(Princípios, Metas, Guia de Estilo e Características)* | 10/10/2026 | Commit `f0c8a2f`<br>*(06/10/2026)* | **16,7% Pleno**<br>44,4% Parcial<br>38,9% Não Conforme<br>*(Taxa Ponderada: 38,9%)* | [Acessar Relatório da Etapa 3](etapa3.md) | [:material-youtube: Assistir (lttsLbInYaM)](https://youtu.be/lttsLbInYaM) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Inspecao_Grupo01_Etapa3_Principios_Metas_GuiaEstilo.pdf) |
 
 _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
@@ -48,7 +49,25 @@ _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 
 Para facilitar a consulta dos avaliadores, do professor e dos próprios integrantes do Grupo 01, os relatórios de cada etapa estão estruturados em páginas dedicadas com riqueza analítica, gráficos e planos de ação.
 
-### 3.1 Etapa 5 (Entrega Mais Recente) — Relatos de Resultados de Nível 1 e Planejamento do Protótipo de Papel (Nível 2)
+### 3.1 Etapa 7 (Entrega Mais Recente) — Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (Nível 3)
+
+A auditoria da Etapa 7 examinou 23 critérios normativos (11 de Desenvolvimento Geral do Plano de Ensino e 12 de Conteúdo da Entrega 7), cobrindo os protótipos digitais, testes-piloto, sessões empíricas com usuários, severidade de Nielsen e governança do repositório no commit `ac5df28`.
+
+- **Status Geral**: 1 item Conforme (4,3%), 14 Incompletos (60,9%) e 8 Não Conformes (34,8%), atingindo **Taxa Ponderada de 34,8%**.
+- **Principais Destaques Positivos**:
+    - Frente de Agendamento com o Coordenador (João Paulo) com protótipo funcional no Figma Make, Teste-Piloto isolado (`BnJXBjhV1T4`), 3 sessões em duplo ângulo (6 vídeos), TCLE verbal gravado e severidade de Nielsen (0 a 4);
+    - Condução de 3 sessões empíricas reais de gravação de áudio (Lucas Sales) e confecção de 6 telas de Aproveitamento de Estudos (Evellyn Rocha).
+- **Problemas Críticos Identificados**:
+    - **Colagem Indevida e Marcadores `[cite: X]` (`Relato_resultados_Evellyn.md`)**: Seções de *Objetivos*, *Performance* e *Opinião* sobre Aproveitamento de Estudos contêm texto copiado de gravação de áudio de Lucas Sales (citando um inexistente *"participante P3"*), acompanhado de 65 tags brutas `[cite: X]` e contradições;
+    - **14 Imagens Quebradas (Erro 404) no Nível 3**: Todas as 9 imagens do relato de Evellyn (caminhos `../../../assets/` e pasta inexistente `assets/images/`) e 5 figuras de `planejamento_teste_usabilidade.md` falham na compilação oficial;
+    - **Página Principal do Menu Vazia (`resultados_teste_usabilidade.md`)**: Publicada sem conteúdo (apenas tabela inicial e data `3110/2026`);
+    - **Ausência de Vídeo de Apresentação Oficial e PDF da Etapa 7**, além de omissão de 50% da equipe (3 de 6 membros), falta de revisores (`"A definir"`) e `cronograma_executado.md` congelado na Etapa 2 com menções ao antigo sistema *Oppia*.
+
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 7**](etapa7.md){ .md-button .md-button--primary }
+
+---
+
+### 3.2 Etapa 5 — Relatos de Resultados de Nível 1 e Planejamento do Protótipo de Papel (Nível 2)
 
 A auditoria da Etapa 5 examinou 15 critérios pedagógicos e metodológicos, abrangendo a conclusão formativa de baixa fidelidade (Storyboards e HTA) e a esteira de prototipação em papel.
 
@@ -64,11 +83,11 @@ A auditoria da Etapa 5 examinou 15 critérios pedagógicos e metodológicos, abr
     - **Página de Rascunho no Menu Público**: `resultados_prototipo_papel.md` publicada com `# Nada a ver aqui, por enquanto.`;
     - **Ausência Total de Revisão por Pares**: Coluna de revisor vazia em todos os documentos da etapa.
 
-[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 5**](etapa5.md){ .md-button .md-button--primary }
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 5**](etapa5.md){ .md-button }
 
 ---
 
-### 3.2 Etapa 3 (Análise de Requisitos) — Análise de Requisitos (Princípios, Metas de Usabilidade e Guia de Estilo)
+### 3.3 Etapa 3 (Análise de Requisitos) — Análise de Requisitos (Princípios, Metas de Usabilidade e Guia de Estilo)
 
 A auditoria da Etapa 3 examinou 18 critérios do Plano de Ensino da disciplina, abrangendo os artefatos de características da plataforma, princípios gerais de projeto, metas de usabilidade e guia de estilo de Mayhew (1999).
 
@@ -82,7 +101,7 @@ A auditoria da Etapa 3 examinou 18 critérios do Plano de Ensino da disciplina, 
     - Omissão completa das Metas de Experiência do Usuário (UX) de Rogers, Sharp & Preece (2013);
     - Ausência de revisão por pares registrada em 100% dos artefatos.
 
-[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 3**](etapa3.md){ .md-button .md-button--primary }
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 3**](etapa3.md){ .md-button }
 
 ---
 
@@ -96,6 +115,7 @@ A Tabela 3 documenta o histórico de manutenção e modularização deste Hub Ce
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 10/10/2026 | Elaboração inicial da auditoria da Etapa 3 do Grupo 01 e publicação do relatório. | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `2.0` | 26/10/2026 | Modularização arquitetural do Hub Central de Verificação do Grupo 01 (ADR-07): segregação da Etapa 3 para página própria, incorporação da síntese da Etapa 5 e atualização da matriz de conformidade. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `3.0` | 16/11/2026 | Incorporação da auditoria da Etapa 7 (Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Nível 3, commit `ac5df28`), atualização da Tabela 2, renumeração das seções 3.1 a 3.3 e registro do relatório oficial em PDF (`Grupo08InspecaoGrupo01Etapa7.pdf`). | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada pelos autores (Grupo 08), 2026._
 

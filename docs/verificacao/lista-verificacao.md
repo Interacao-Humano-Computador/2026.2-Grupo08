@@ -299,11 +299,36 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05) c
 
 ---
 
-## 10. Template para Heteroavaliação de Grupos Pares
+## 10. Checklists da Entrega 7 — Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (Nível 3)
 
-A Tabela 12 fornece o modelo padronizado neutro utilizado pela equipe nas sessões de heteroavaliação dos grupos pares (Grupo -1 e Grupo +1).
+A Entrega 7 encerra o ciclo formativo e somativo do Protótipo de Alta Fidelidade (Nível 3 de Mayhew, 1999), exigindo evidência das telas prototipadas, execução do teste-piloto com isolamento de dados, sessões empíricas com usuários reais sob TCLE e catalogação de problemas segundo a severidade de Nielsen (1994). A Tabela 12 reúne os 12 critérios normativos em branco para inspeção da etapa.
 
-**Tabela 12** — Template normativo de heteroavaliação para grupos pares
+**Tabela 12** — Checklist normativo da Entrega 7 (Relato dos Resultados do Protótipo de Alta Fidelidade)
+
+| ID | Questão / Critério da Rubrica Oficial | Origem / Fonte Normativa | Avaliação | Justificativa e Local da Evidência |
+| :---: | :--- | :--- | :---: | :--- |
+| **E7-01** | O protótipo de alta fidelidade foi construído (Figma/Web) em conformidade com o Guia de Estilo e Personas e possui links e telas acessíveis? | Mayhew (1999); Barbosa & Silva (2021) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-02** | Há rastreabilidade explícita demonstrando como os problemas e oportunidades do Protótipo de Papel (Nível 2) foram resolvidos no Nível 3? | Mayhew (1999); Snyder (2003) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-03** | Foi executado e gravado o Teste-Piloto de Alta Fidelidade antes das sessões empíricas com usuários reais? | Barbosa & Silva (2021, p. 276) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-04** | Consta declaração explícita de que os dados do Teste-Piloto foram rigorosamente isolados e não computados nos resultados finais? | Plano de Ensino (*Sales, 2026*); Barbosa & Silva (2021) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-05** | A escolha do método (Teste de Usabilidade / Think-Aloud) e o tamanho da amostra (`n` participantes) estão justificados na literatura? | Rubin & Chisnell (2008); Krug (2014); Nielsen (1993) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-06** | O Termo de Consentimento Livre e Esclarecido (TCLE) foi gravado ou assinado nos primeiros 60 segundos, garantindo anonimização LGPD? | Resolução CNS nº 510/2016; Lei nº 13.709/2018 | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-07** | As sessões empíricas com usuários reais aderentes ao perfil foram conduzidas e disponibilizadas em vídeo? | Krug (2014); Rubin & Chisnell (2008) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-08** | O relato apresenta estrutura íntegra (objetivos, método, tarefas, resultados, limitações) e página principal consolidada sem placeholders ou colagens incorretas? | Barbosa & Silva (2021, p. 306–309) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-09** | Foram coletadas e analisadas métricas quantitativas de desempenho (conclusão, tempo de execução, erros/KLM) e satisfação (ex.: SUS)? | Rubin & Chisnell (2008); Brooke (1996) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-10** | Os problemas de usabilidade detectados foram classificados na escala de severidade de Nielsen (0 a 4) com indicação das heurísticas violadas? | Nielsen (1994); Barbosa & Silva (2021) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-11** | Foram definidas diretrizes concretas de reprojeto e executada a Lista de Verificação da Técnica antes da entrega? | Mayhew (1999); Fagan (1976) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+| **E7-12** | Todos os integrantes ativos participaram do desenvolvimento e o vídeo da apresentação oficial (20–30 min, Não Listado) e o PDF foram entregues? | Plano de Ensino da Disciplina (*Sales, 2026*) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | |
+
+_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05) com base em Mayhew (1999), Rubin & Chisnell (2008), Krug (2014), Barbosa & Silva (2021) e Sales (2026), 2026._
+
+---
+
+## 11. Template para Heteroavaliação de Grupos Pares
+
+A Tabela 13 fornece o modelo padronizado neutro utilizado pela equipe nas sessões de heteroavaliação dos grupos pares (Grupo -1 e Grupo +1).
+
+**Tabela 13** — Template normativo de heteroavaliação para grupos pares
 
 | ID | Critério Avaliado | Fonte Normativa | Conforme? | Evidências / Problemas Identificados | Sugestão de Correção para a Equipe |
 | :---: | :--- | :--- | :---: | :--- | :--- |
@@ -318,30 +343,30 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ---
 
-## 11. Lista de Verificação da Técnica (Elaboração de Checklists)
+## 12. Lista de Verificação da Técnica (Elaboração de Checklists)
 
-A Tabela 13 apresenta a autoavaliação da conformidade metodológica do artefato de listas de verificação frente aos critérios científicos de inspeção de software (*Fagan, 1976; Gilb & Graham, 1993; Barbosa & Silva, 2021*).
+A Tabela 14 apresenta a autoavaliação da conformidade metodológica do artefato de listas de verificação frente aos critérios científicos de inspeção de software (*Fagan, 1976; Gilb & Graham, 1993; Barbosa & Silva, 2021*).
 
-**Tabela 13** — Lista de verificação da técnica de elaboração de checklists
+**Tabela 14** — Lista de verificação da técnica de elaboração de checklists
 
 | ID | Questão Avaliada | Origem / Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Artefato |
 | :---: | :--- | :--- | :---: | :--- |
 | **CHK-01** | O artefato está estruturado estritamente como template normativo em branco (desacoplado de inspeções)? | Fagan (1976); Gilb & Graham (1993) | ✅ Sim | O documento disponibiliza os instrumentos neutros em branco; as avaliações empíricas residem em [grupo08.md](grupo08.md). |
 | **CHK-02** | Há fundamentação teórica formal sobre o método de inspeção de software e suas 6 fases canônicas? | Fagan (1976); Barbosa & Silva (2021, p. 286) | ✅ Sim | A Seção 2 detalha as etapas de Fagan (Planejamento a Acompanhamento) com linha formal de autoria de Vinicius Silva Araruna. |
-| **CHK-03** | Os checklists abrangem todas as etapas desenvolvidas até o momento (Entregas 1 a 6)? | Plano de Ensino da Disciplina (*Sales, 2026*) | ✅ Sim | As Seções 4 a 9 cobrem exaustivamente as rubricas das Entregas 1 a 6 da disciplina de IHC. |
+| **CHK-03** | Os checklists abrangem todas as etapas desenvolvidas até o momento (Entregas 1 a 7)? | Plano de Ensino da Disciplina (*Sales, 2026*) | ✅ Sim | As Seções 4 a 10 cobrem exaustivamente as rubricas das Entregas 1 a 7 da disciplina de IHC. |
 | **CHK-04** | Cada critério de verificação possui identificador único (ID) e referência explícita à fonte normativa canônica? | Gilb & Graham (1993) | ✅ Sim | Todas as tabelas contêm as colunas 'ID' e 'Origem / Fonte Normativa' indicando a literatura ou rubrica. |
-| **CHK-05** | Todas as tabelas possuem chamadas formais explícitas antes ou junto de sua apresentação no texto? | Padrão Editorial FGA/UnB | ✅ Sim | 100% das 14 tabelas do documento possuem chamadas textuais prévias (zero tabelas órfãs). |
+| **CHK-05** | Todas as tabelas possuem chamadas formais explícitas antes ou junto de sua apresentação no texto? | Padrão Editorial FGA/UnB | ✅ Sim | 100% das 15 tabelas do documento possuem chamadas textuais prévias (zero tabelas órfãs). |
 | **CHK-06** | A documentação está 100% livre de delimitadores matemáticos LaTeX crus, utilizando tipografia UTF-8 nativa? | Diretrizes de Renderização MkDocs Material | ✅ Sim | Todos os operadores e símbolos utilizam caracteres UTF-8 nativos (`×`, `+`, `−`, `—`, `≥`, `≤`). |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Fagan (1976) e Sales (2026), 2026._
 
 ---
 
-## 12. Histórico de Versão
+## 13. Histórico de Versão
 
-A Tabela 14 documenta o histórico evolutivo deste artefato normativo.
+A Tabela 15 documenta o histórico evolutivo deste artefato normativo.
 
-**Tabela 14** — Histórico de versão do documento
+**Tabela 15** — Histórico de versão do documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
@@ -349,12 +374,13 @@ A Tabela 14 documenta o histórico evolutivo deste artefato normativo.
 | `2.0` | 27/10/2026 | Expansão dos instrumentos normativos de inspeção: incorporação dos checklists em branco da Entrega 4 (Tabela 9 - 12 critérios) e da Entrega 5 (Tabela 10 - 15 critérios), renumerando matrizes e alinhando com a heteroavaliação. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `2.1` | 29/10/2026 | Inclusão da Seção 9 com o Checklist Normativo da Entrega 6 (Tabela 11 — 12 critérios para Relato do Protótipo de Papel e Planejamento de Alta Fidelidade) e correção da numeração sequencial das Tabelas 9 a 14 (#118). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `2.2` | 30/10/2026 | Resolução de integração com develop e padronização estrita das fontes nominais dos integrantes (#118). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `2.3` | 16/11/2026 | Inclusão da Seção 10 com o Checklist Normativo da Entrega 7 (Tabela 12 — 12 critérios para Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade) e renumeração sequencial das Seções 11 a 14 e Tabelas 13 a 15. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
-## 13. Referências Bibliográficas
+## 14. Referências Bibliográficas
 
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier / Campus, 2010.
 
