@@ -44,7 +44,7 @@ flowchart LR
 
     G08 -.->|"Inspeção das Etapas 2, 4 e 6"| G07
     G08 -->|"Desenvolvimento e Autoavaliação"| G08
-    G08 ==>|"Inspeção das Etapas 3 e 5"| G01
+    G08 ==>|"Inspeção das Etapas 3, 5 e 7"| G01
 
     classDef active fill:#7B2FFF,stroke:#00D4FF,stroke-width:2px,color:#fff;
     classDef peer fill:#1A1A24,stroke:#7B2FFF,stroke-width:1px,color:#fff;
@@ -64,10 +64,10 @@ A Tabela 2 sintetiza os acessos diretos aos instrumentos de verificação, relat
 
 | Módulo / Escopo | Objeto / Finalidade | Etapas Cobertas | Acesso Direto |
 | :--- | :--- | :---: | :---: |
-| **Checklists Normativos** | Instrumentos em branco padronizados com perguntas objetivas e fontes canônicas | Etapas 1, 2, 3, 4, 5 e 6 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
-| **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1, 2, 3, 4, 5 e 6 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
+| **Checklists Normativos** | Instrumentos em branco padronizados com perguntas objetivas e fontes canônicas | Etapas 1 a 7 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
+| **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1 a 7 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
 | **Avaliação do Grupo -1** | Auditoria técnica e pedagógica do Grupo 07 (Portal PCI Concursos) | Hub Central, Etapas 2, 4 e 6 | [:material-account-arrow-left: Acessar Auditoria Grupo 07](grupo07/index.md) |
-| **Avaliação do Grupo +1** | Auditoria técnica e pedagógica do Grupo 01 (Microsoft Teams) | Hub Central, Etapas 3 e 5 | [:material-account-arrow-right: Acessar Auditoria Grupo 01](grupo01/index.md) |
+| **Avaliação do Grupo +1** | Auditoria técnica e pedagógica do Grupo 01 (Microsoft Teams) | Hub Central, Etapas 3, 5 e 7 | [:material-account-arrow-right: Acessar Auditoria Grupo 01](grupo01/index.md) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
@@ -104,7 +104,7 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
   <div style="background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between;">
     <div>
       <h3 style="margin-top: 0; font-size: 1.05rem;">🚀 Grupo +1: Grupo 01 (Teams)</h3>
-      <p style="font-size: 0.88rem; color: var(--dp-text);">Auditorias da Etapa 3 (Análise de Requisitos) e Etapa 5 (Relatos de Nível 1 e Protótipo de Papel), gravação oficial e PDF padronizado.</p>
+      <p style="font-size: 0.88rem; color: var(--dp-text);">Auditorias da Etapa 3 (Análise de Requisitos), Etapa 5 (Relatos de Nível 1 e Protótipo de Papel) e Etapa 7 (Relato de Alta Fidelidade — Nível 3), com relatórios em PDF padronizado.</p>
     </div>
     <a href="grupo01/index.md" class="md-button md-button--primary" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Acessar Hub Grupo 01</a>
   </div>
@@ -123,6 +123,7 @@ A Tabela 3 documenta a evolução histórica deste Portal de Verificação.
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 27/10/2026 | Estruturação inicial do Portal Geral de Verificação e Garantia da Qualidade (ADR-07): integração metodológica de Fagan (1976), fluxo cíclico de avaliação por pares e navegação rápida pelos módulos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 04/11/2026 | Atualização do fluxo cíclico e dos módulos de inspeção com a inclusão da auditoria da Etapa 6 do Grupo -1 (Grupo 07). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.2` | 16/11/2026 | Atualização do fluxo cíclico, Tabela 2 e destaques com a inclusão da auditoria da Etapa 7 do Grupo +1 (Grupo 01 — Microsoft Teams). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
