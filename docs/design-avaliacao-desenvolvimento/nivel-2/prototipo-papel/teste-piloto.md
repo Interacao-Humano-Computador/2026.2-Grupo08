@@ -103,7 +103,7 @@ graph TD
     classDef post fill:#064E3B,stroke:#10B981,stroke-width:2px,color:#ECFDF5;
 
     F1["Fase 1: Checklist de Bancada e Enquadramento da Câmera (45º)"]:::pre
-    F2["Fase 2: Leitura do Script Oral do TCLE (< 60s) e Consentimento"]:::exec
+    F2["Fase 2: Leitura do Script Oral do TCLE (≤ 60s) e Consentimento"]:::exec
     F3["Fase 3: Simulação Dinâmica da Tarefa 1 nas Folhas 1, 2 e 3"]:::exec
     F4["Fase 4: Verificação de Latência, Debriefing e Ações Corretivas"]:::post
 

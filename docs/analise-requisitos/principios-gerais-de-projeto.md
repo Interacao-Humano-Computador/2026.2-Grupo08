@@ -146,8 +146,9 @@ Abaixo é apresentada a matriz de avaliação heurística detalhada da interface
 pie title Distribuição da Avaliação dos Princípios e Heurísticas
     "Atende (60%)" : 6
     "Atende Parcialmente (40%)" : 4
-    "Viola (0%)" : 0
 ```
+
+_Nota: Categoria "Viola" obteve 0 de 10 heurísticas (0%), omitida do gráfico de pizza por possuir área nula._
 
 ### Principais Pontos Observados:
 - **Busca e reconhecimento**: a caixa de busca sugere etiquetas relacionadas ao termo digitado.
