@@ -91,7 +91,7 @@ sequenceDiagram
 
     U->>F1: Localiza e clica no botão "+ Novo Tópico"
     F1-->>F2: Abre painel Composer em Split-View
-    U->>F2: Preenche Título, Categoria e clica no botão "</> Bash"
+    U->>F2: Preenche Título, Categoria e clica no botão "Código Bash"
     F2-->>U: Exibe bloco de código e live preview sincronizado
     
     alt Rota 1: Consulta Sob Demanda à IA (Voluntária)
