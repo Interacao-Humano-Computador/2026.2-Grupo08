@@ -82,7 +82,7 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
       <h3 style="margin-top: 0; color: var(--dp-purple); font-size: 1.05rem;">📋 Listas de Verificação</h3>
       <p style="font-size: 0.88rem; color: var(--dp-text);">Instrumentos neutros baseados nas rubricas oficiais do Plano de Ensino e na literatura canônica (Barbosa et al., Nielsen, Mayhew, Snyder).</p>
     </div>
-    <a href="lista-verificacao.md" class="md-button md-button--primary" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Consultar Checklists</a>
+    <a href="lista-verificacao/" class="md-button md-button--primary" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Consultar Checklists</a>
   </div>
 
   <div style="background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between;">
@@ -90,7 +90,7 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
       <h3 style="margin-top: 0; color: var(--dp-cyan); font-size: 1.05rem;">🔍 Auto-Avaliação (Grupo 08)</h3>
       <p style="font-size: 0.88rem; color: var(--dp-text);">Diagnóstico contínuo dos artefatos do Fórum Diolinux Plus frente às listas de verificação, métricas ponderadas e planejamento de retrabalho.</p>
     </div>
-    <a href="grupo08.md" class="md-button" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Ver Relatório Interno</a>
+    <a href="grupo08/" class="md-button" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Ver Relatório Interno</a>
   </div>
 
   <div style="background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between;">
@@ -98,7 +98,7 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
       <h3 style="margin-top: 0; font-size: 1.05rem;">👥 Grupo -1: Grupo 07 (PCI)</h3>
       <p style="font-size: 0.88rem; color: var(--dp-text);">Auditorias da Etapa 2 (Perfil e Tarefas), Etapa 4 (Planejamento de Nível 1) e Etapa 6 (Relato em Papel e Alta Fidelidade), vídeos de apresentação e relatórios em PDF para download.</p>
     </div>
-    <a href="grupo07/index.md" class="md-button" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Acessar Hub Grupo 07</a>
+    <a href="grupo07/" class="md-button" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Acessar Hub Grupo 07</a>
   </div>
 
   <div style="background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between;">
@@ -106,7 +106,7 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
       <h3 style="margin-top: 0; font-size: 1.05rem;">🚀 Grupo +1: Grupo 01 (Teams)</h3>
       <p style="font-size: 0.88rem; color: var(--dp-text);">Auditorias da Etapa 3 (Análise de Requisitos), Etapa 5 (Relatos de Nível 1 e Protótipo de Papel) e Etapa 7 (Relato de Alta Fidelidade — Nível 3), com relatórios em PDF padronizado.</p>
     </div>
-    <a href="grupo01/index.md" class="md-button md-button--primary" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Acessar Hub Grupo 01</a>
+    <a href="grupo01/" class="md-button md-button--primary" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Acessar Hub Grupo 01</a>
   </div>
 
 </div>

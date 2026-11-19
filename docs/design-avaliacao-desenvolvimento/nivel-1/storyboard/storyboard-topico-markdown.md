@@ -100,7 +100,7 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 
 A Figura 2 apresenta o diagrama hierárquico HTA canônico da Tarefa 1 com Integração de IA Semântica, elaborado com caixas brancas e linhas terminais de operações (critério de parada p × c) segundo Barbosa e Silva (2021). Os nós do diagrama correspondem diretamente às cenas vivenciadas por Lucas Mendonça nos quadros do storyboard.
 
 <div style="text-align: center; margin: 1.5rem 0;">
-    <img src="../../../assets/referencias/hta_tarefa1_topico_markdown_ia.png" alt="Diagrama HTA Canônico da Tarefa 1 com Integração de IA Semântica" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #CBD5E1;" />
+    <img src="../../../../assets/referencias/hta_tarefa1_topico_markdown_ia.png" alt="Diagrama HTA Canônico da Tarefa 1 com Integração de IA Semântica" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: 1px solid #CBD5E1;" />
     <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 2</strong> — Diagrama HTA canônico da Tarefa 1 com Integração de IA Semântica. <em>Fonte: Elaborado por Vinicius Silva Araruna com base em Barbosa e Silva (2021), 2026.</em></p>
 </div>
 
