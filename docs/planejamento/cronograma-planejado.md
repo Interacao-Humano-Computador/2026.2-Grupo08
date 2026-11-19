@@ -41,7 +41,7 @@ A Tabela 1 apresenta as atividades planejadas para a primeira etapa do projeto.
 | **Gravação da Apresentação da Etapa 1** | 06/09 - 06/09 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 06/09 | **Gustavo Antonio, Pedro Paulo** |
 | **Ajustes e Correções pós-feedback da Etapa 1** | 08/09 - 10/09 | **Edvaldo Soares, Gustavo Antonio, Jonathan Carpaneda, Pedro Paulo, Vinicius Araruna** | 10/09 - 11/09 | **Jonathan Carpaneda, Vinicius Araruna** |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva, Jonathan Lourenço Carpaneda, Pedro Paulo Almeida Araujo e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -68,7 +68,7 @@ A Tabela 2 apresenta as atividades planejadas para a Etapa 2, estruturadas com f
 | **Gravação da Apresentação da Etapa 2** | 25/09 - 26/09 | **Edvaldo Soares, Gustavo Antonio, Vinicius Araruna** | 26/09 - 27/09 | **Edvaldo Soares, Gustavo Antonio, Vinicius Araruna** |
 | **Ajustes e Correções pós-feedback da Etapa 2** | 30/09 - 02/10 | **Edvaldo Soares, Gustavo Antonio, Vinicius Araruna** | 02/10 - 03/10 | **Edvaldo Soares, Gustavo Antonio, Vinicius Araruna** |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -88,7 +88,7 @@ A Tabela 3 apresenta o planejamento da Etapa 3 (Fase de Análise de Requisitos s
 | **Gravação da Apresentação da Etapa 3** | 04/10 - 05/10 | **Edvaldo Soares, Gustavo Antonio, Vinicius Silva Araruna** | 05/10 - 06/10 | **Vinicius Silva Araruna, Gustavo Antonio** |
 | **Ajustes e Correções pós-feedback da Etapa 3** | 09/10 - 11/10 | **Edvaldo Soares, Gustavo Antonio, Vinicius Silva Araruna** | 11/10 - 12/10 | **Vinicius Silva Araruna** |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -109,7 +109,7 @@ A Tabela 4 organiza o planejamento das avaliações formativas iniciais da solu�
 | **Gravação da Apresentação da Etapa 4** | 11/10 - 12/10 | **Edvaldo Soares, Gustavo Antonio, Vinicius Silva Araruna** | 12/10 - 13/10 | **Vinicius Silva Araruna, Gustavo Antonio** |
 | **Ajustes e Correções pós-feedback da Etapa 4** | 16/10 - 18/10 | **Edvaldo Soares, Gustavo Antonio, Vinicius Silva Araruna** | 18/10 - 19/10 | **Vinicius Silva Araruna** |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -135,7 +135,7 @@ A Tabela 5 detalha a execução dos relatos formativos e a preparação para a p
 | **Gravação do Vídeo da Apresentação da Etapa 5** | 23/10 | **Gustavo Antonio, Vinicius Silva Araruna, Edvaldo Soares** | 23/10 - 24/10 | **Vinicius Silva Araruna** |
 | **Ajustes e Correções pós-feedback da Etapa 5** | 28/10 - 30/10 | **Gustavo Antonio, Vinicius Silva Araruna, Edvaldo Soares** | 30/10 - 31/10 | **Vinicius Silva Araruna** |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -161,7 +161,7 @@ A Tabela 6 organiza a transição dos protótipos de baixa fidelidade para a pro
 | **Inspeção Formal da Etapa 6 do Grupo +1 (Grupo 01 — Teams) (23:59)** | 04/11 | **Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares** | 04/11 | **Vinicius Silva Araruna** |
 | **Ajustes e Correções pós-feedback da Etapa 6** | 06/11 - 08/11 | **Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares** | 08/11 - 09/11 | **Vinicius Silva Araruna** |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -182,7 +182,7 @@ A Tabela 7 estrutura o desenvolvimento do protótipo de alta fidelidade e os tes
 | **Gravação da Apresentação da Etapa 7** | 14/11 - 15/11 | **Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares** | 15/11 | **Vinicius Silva Araruna** |
 | **Ajustes e Correções pós-feedback da Etapa 7** | 18/11 - 20/11 | **Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares** | 20/11 - 21/11 | **Vinicius Silva Araruna** |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -202,7 +202,7 @@ A Tabela 8 apresenta a fase final de garantia da qualidade, verificação dos ar
 | Consolidação do Relatório Final do Projeto | 24/11 - 29/11 | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 29/11 - 30/11 | Revisão Circular 360º |
 | **Gravação da Apresentação Final do Projeto** | 28/11 - 29/11 | **Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares** | 29/11 | **Vinicius Silva Araruna** |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -220,8 +220,9 @@ A Tabela 9 documenta o histórico de versões deste artefato.
 | `1.3` | 26/09/2026 | Adequação do cronograma da Etapa 2 à matriz metodológica do professor (Elenco, Personas, Cenários, HTA/GOMS individuais e Lista de Verificação), atualização para 3 integrantes ativos, remoção de menção a site anterior e saneamento de referências (atendimento às OBS 8 e 9) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.4` | 22/10/2026 | Atualização do cronograma da Etapa 5 alocando teste-piloto (22/10), confecção e avaliação do storyboard (23/10) e gravação da Entrega 5 (23/10) para Gustavo Antonio (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.5` | 29/10/2026 | Saneamento integral das Etapas 3 a 8 com expurgo de membros inativos pós-Ata 4, atualização da Etapa 5 e detalhamento da Tripartição Modular da Etapa 6 (ADR-12), prazos oficiais de entrega (03/11) e inspeção do Grupo 01 (04/11) (#130) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.6` | 19/11/2026 | Sanitização documental da Entrega 8: substituição de todas as fontes genéricas pelas identificações nominais dos autores em cada etapa | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

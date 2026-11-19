@@ -48,6 +48,8 @@ A Figura 1 reproduz o trecho do livro-texto de Barbosa e Silva (2021, p. 106) qu
 
 _Fonte: Barbosa e Silva (2021, p. 106)._
 
+_Autor do Item Teórico: [Vinicius Silva Araruna](https://github.com/ViniciusA05)_
+
 ---
 
 ## Avaliação Prática das Metas de Usabilidade no Fórum Diolinux Plus

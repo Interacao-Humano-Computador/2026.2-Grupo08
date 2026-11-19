@@ -64,8 +64,8 @@ A Tabela 2 sintetiza os acessos diretos aos instrumentos de verificação, relat
 
 | Módulo / Escopo | Objeto / Finalidade | Etapas Cobertas | Acesso Direto |
 | :--- | :--- | :---: | :---: |
-| **Checklists Normativos** | Instrumentos em branco padronizados com perguntas objetivas e fontes canônicas | Etapas 1 a 7 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
-| **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1 a 7 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
+| **Checklists Normativos** | Instrumentos em branco padronizados com perguntas objetivas e fontes canônicas | Etapas 1 a 8 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
+| **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade e retrabalho dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1 a 8 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
 | **Avaliação do Grupo -1** | Auditoria técnica e pedagógica do Grupo 07 (Portal PCI Concursos) | Hub Central, Etapas 2, 4 e 6 | [:material-account-arrow-left: Acessar Auditoria Grupo 07](grupo07/index.md) |
 | **Avaliação do Grupo +1** | Auditoria técnica e pedagógica do Grupo 01 (Microsoft Teams) | Hub Central, Etapas 3, 5 e 7 | [:material-account-arrow-right: Acessar Auditoria Grupo 01](grupo01/index.md) |
 
@@ -124,6 +124,7 @@ A Tabela 3 documenta a evolução histórica deste Portal de Verificação.
 | `1.0` | 27/10/2026 | Estruturação inicial do Portal Geral de Verificação e Garantia da Qualidade (ADR-07): integração metodológica de Fagan (1976), fluxo cíclico de avaliação por pares e navegação rápida pelos módulos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 04/11/2026 | Atualização do fluxo cíclico e dos módulos de inspeção com a inclusão da auditoria da Etapa 6 do Grupo -1 (Grupo 07). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.2` | 16/11/2026 | Atualização do fluxo cíclico, Tabela 2 e destaques com a inclusão da auditoria da Etapa 7 do Grupo +1 (Grupo 01 — Microsoft Teams). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.3` | 19/11/2026 | Atualização da cobertura dos módulos de Checklists Normativos e Auto-Avaliação do Grupo 08 para as Etapas 1 a 8 (Entrega 8 — Auditoria Global). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 

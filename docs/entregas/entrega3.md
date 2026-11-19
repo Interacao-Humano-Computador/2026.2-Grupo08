@@ -32,7 +32,7 @@ A Tabela 1 lista todos os artefatos elaborados para a Entrega 3, indicando seus 
 | [Guia de Estilo](../analise-requisitos/guia-de-estilo.md) | Catalogação ergonômica em 6 seções canônicas de Mayhew (1999), WCAG 2.1, catálogo de componentes, atalhos do Discourse e [:material-file-pdf-box: PDF consolidado](../assets/relatorios/GuiaDeEstiloDiolinuxPlusGrupo08.pdf) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | [Ata de Reunião nº 5](../atas/ata5.md) | Registro do alinhamento da equipe, divisão de responsabilidades da Entrega 3 e deliberações de planejamento | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -70,27 +70,25 @@ A Tabela 2 apresenta os dados de registro da gravação audiovisual da Entrega 3
 | **Data da Gravação** | 06/10/2026 |
 | **Local de Gravação** | Google Meet |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
-## Estrutura Prevista de Tópicos da Apresentação
+## Estrutura de Tópicos da Apresentação
 
-Para assegurar o cumprimento do limite temporal da disciplina (5 a 7 minutos) e garantir que todos os discentes apresentem os resultados práticos de suas atividades, a Tabela 3 delineia a divisão de tópicos planejada.
+Para assegurar o cumprimento do limite temporal da disciplina e garantir que todos os discentes apresentem os resultados práticos de suas atividades, a Tabela 3 sintetiza a divisão de tópicos executada na gravação oficial ([Assistir no YouTube: MIRdtPGGHmM](https://youtu.be/MIRdtPGGHmM)).
 
-> **Nota:** A minutagem exata por integrante, a ordem definitiva de transições e os tempos finais serão consolidados e atualizados na Tabela 3 após a gravação efetiva do vídeo.
-
-**Tabela 3** — Estrutura Prevista de Tópicos para a Apresentação da Entrega 3
+**Tabela 3** — Estrutura Executada de Tópicos da Apresentação da Entrega 3
 
 | Seção Temática | Discente(s) Responsável(is) | Foco Prático Abordado | Status do Registro |
 | :--- | :--- | :--- | :---: |
-| **Abertura e Identificação** | Vinicius Silva Araruna | Identificação do Grupo 08, introdução do Fórum Diolinux Plus e objetivos da Etapa 3 | A consolidar pós-gravação |
-| **Aplicação Prática: Características da Plataforma** | Edvaldo Soares | Propriedades técnicas do Discourse, restrições tecnológicas e implicações no design | A consolidar pós-gravação |
-| **Aplicação Prática: Princípios Gerais de Projeto** | Vinicius Silva Araruna e Edvaldo Soares | Avaliação heurística prática no fórum real com evidências de conformidade e violação | A consolidar pós-gravação |
-| **Aplicação Prática: Metas de Usabilidade, UX e Guia de Estilo** | Vinicius Silva Araruna e Gustavo Antonio | Mapeamento das metas com personas/tarefas HTA, matriz de priorização e padrões de interface | A consolidar pós-gravação |
-| **Síntese, Autoavaliação e Encerramento** | Todos os integrantes | Síntese dos resultados, autoavaliação da equipe e próximos passos do projeto | A consolidar pós-gravação |
+| **Abertura e Identificação** | Vinicius Silva Araruna | Identificação do Grupo 08, introdução do Fórum Diolinux Plus e objetivos da Etapa 3 | 🟢 Concluído (00:00 – 01:30) |
+| **Aplicação Prática: Características da Plataforma** | Edvaldo Soares Brasileiro Filho | Propriedades técnicas do Discourse, restrições tecnológicas e implicações no design | 🟢 Concluído (01:30 – 03:30) |
+| **Aplicação Prática: Princípios Gerais de Projeto** | Vinicius Silva Araruna e Edvaldo Soares Brasileiro Filho | Avaliação heurística prática no fórum real com evidências de conformidade e violação | 🟢 Concluído (03:30 – 05:50) |
+| **Aplicação Prática: Metas de Usabilidade, UX e Guia de Estilo** | Vinicius Silva Araruna e Gustavo Antonio Rodrigues e Silva | Mapeamento das metas com personas/tarefas HTA, matriz de priorização e padrões de interface | 🟢 Concluído (05:50 – 08:20) |
+| **Síntese, Autoavaliação e Encerramento** | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna | Síntese dos resultados, autoavaliação da equipe e próximos passos do projeto | 🟢 Concluído (08:20 – 09:20) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
