@@ -2,9 +2,13 @@
 
 ## Tabela de Contribuição
 
-| Integrante | Contribuição no Artefato | Data | Revisor | Ferramenta de IA e Contribuição |
-| :--- | :--- | :---: | :---: | :--- |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Roteiro, painéis, anotações por quadro e prompt de referência visual do Storyboard da Tarefa 2 (Criação de Eventos Presenciais) | 22/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | LLM: apoio na estruturação do roteiro e do prompt de inspiração; desenho final feito à mão pelo autor |
+| Integrante | Contribuição no Artefato | Data | Revisor | Ferramenta de IA e Contribuição | Hiperligação / Gravação |
+| :--- | :--- | :---: | :---: | :--- | :---: |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Roteiro, painéis desenhados à mão, anotações por quadro, teste-piloto e avaliação oficial do Storyboard da Tarefa 2 (`CF02`) | 22/10/2026 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Google Gemini (LLM): apoio na estruturação do roteiro e do prompt de inspiração; desenho final e condução empírica feitos pelo autor | [Seção 7](#7-prancha-visual-do-storyboard-2) / [Seção 8](#8-registros-audiovisuais-teste-piloto-e-avaliacao-oficial) |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Revisão por pares do roteiro de 8 quadros, aderência ao guia OCR (2020) e validação com o HTA da Tarefa 2 | 22/10/2026 | [Gustavo Antonio](https://github.com/gus-ant) | Nenhuma ferramenta utilizada (revisão humana por pares) | [Histórico](#historico-de-versao) |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Conferência cruzada de rastreabilidade com os requisitos da Etapa 2 e normatização ABNT | 23/10/2026 | [Gustavo Antonio](https://github.com/gus-ant) | Nenhuma ferramenta utilizada (revisão humana por pares) | [Histórico](#historico-de-versao) |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -82,7 +86,7 @@ Cada quadro segue o *Example 2* do guia, adaptado a produtos não lineares:
 | Campo | Quadro 5 — Ingressos | Quadro 6 — Revisar prévia |
 | :--- | :--- | :--- |
 | **Nó do HTA** | 4.1, 4.2, 4.3 | 5.1 |
-| **Cena** | Lucas escolhe se o evento será gratuito ou pago. | Lucas confere como o evento aparecerá para os participantes. |
+| **Cena** | Lucas escolhe as opções de ingresso do evento *(nota evolutiva: na prototipação de Nível 2/3, após avaliação formativa, a modalidade paga/PIX foi removida, mantendo apenas eventos comunitários gratuitos)*. | Lucas confere como o evento aparecerá para os participantes. |
 | **Conteúdo de tela** | Alternador **Gratuito / Pago**. No modo gratuito, limite de ingressos por pessoa. No modo pago, preço, chave Pix e demonstrativo de taxas. | Prévia lado a lado em celular e desktop, com botão **Voltar e Editar**. |
 | **Vista inicial** | Alternador em "Gratuito". | Página do evento montada com banner, mapa e programação. |
 | **Interação** | Alternar modalidade, definir limite ou preço. | Rolar a prévia, alternar celular e desktop, voltar para editar. |
@@ -175,6 +179,7 @@ _Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 22/10/2026 | Criação do roteiro de 8 quadros, modelo de quadro, rastreabilidade com o HTA e prompt de inspiração visual (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.1` | 23/10/2026 | Inclusão dos registros audiovisuais do Teste-Piloto e da Avaliação com Usuário do Storyboard 2 no YouTube. | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.2` | 19/11/2026 | Sanitização documental da Entrega 8: atualização da Tabela de Contribuição com todos os revisores/coautores e inclusão de hiperligação para prancha e vídeos. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 

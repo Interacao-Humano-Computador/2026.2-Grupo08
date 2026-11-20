@@ -11,6 +11,8 @@ A distribuição de responsabilidades na elaboração, estruturação e curadori
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Concepção metodológica, fundamentação da inspeção formal (Fagan, 1976), compilação dos checklists normativos das Etapas 1, 2 e 3 e template de heteroavaliação | 12/10/2026 | 00:30 - 02:00 | Google Gemini | Apoio na estruturação Markdown e padronização visual das matrizes tabulares. |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão técnica dos critérios de Elicitação, Busca e Análise de Tarefas frente às rubricas | 12/10/2026 | 02:00 - 02:30 | Nenhuma | Auditoria humana cruzada dos itens e consistência de links normativos. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão dos critérios de Planejamento, Onboarding e Governança do repositório | 12/10/2026 | 02:30 - 03:00 | Nenhuma | Verificação da completude dos critérios de Entrega 1 e Entrega 2. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Inclusão do Checklist Normativo da Entrega 8 (Auditoria Global e Verificação dos Artefatos — Tabela 14), atualização do checklist da técnica (`CHK-03` e `CHK-05`) e revisão geral das listas das Entregas 1 a 8 | 19/11/2026 | 14:00 - 15:00 | Google Gemini (LLM) | Apoio na estruturação sintática Markdown da Tabela 14 e conferência de numeração sequencial. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Integração do Catálogo de Listas de Verificação por Artefato (Tabela 2 — 15 módulos), inclusão das colunas `Autor do Item` e `Versão, Data e Hora da Avaliação` e validação pela lista de governança `DG-01` a `DG-11` (Tabela 17) | 20/11/2026 | 14:00 - 17:30 | Google Gemini (LLM) | Apoio na padronização tabular em Markdown e conferência ABNT. |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
@@ -24,7 +26,7 @@ Este artefato formaliza as **Listas de Verificação (Checklists Normativos)** a
 
 Em atendimento ao princípio de separação de responsabilidades e sanando o apontamento metodológico pós-Entrega 2, este documento atua como **instrumento neutro, normativo e reutilizável** de auditoria, disponibilizando os templates em branco com seus respectivos critérios objetivos e origens normativas. A aplicação empírica desses instrumentos, com o registro de achados, evidências e estatísticas de conformidade do grupo, é documentada separadamente no [Relatório de Inspeção e Autoavaliação do Grupo 08](grupo08.md).
 
-Em complementaridade a esta visão consolidada por entregas (Entregas 1 a 7), o Grupo 08 publica também o **[Catálogo de Listas de Verificação por Artefato](listas/index.md)** com 15 listas temáticas, recortes da literatura e autoria nominal por item (**Prof. Dr. André Barros de Sales**, **Vinicius Silva Araruna**, **Gustavo Antonio** e **Edvaldo Soares**).
+Em complementaridade a esta visão consolidada por entregas (Entregas 1 a 8), o Grupo 08 publica também o **[Catálogo de Listas de Verificação por Artefato](listas/index.md)** com 15 listas temáticas, recortes da literatura e autoria nominal por item (**Prof. Dr. André Barros de Sales**, **Vinicius Silva Araruna**, **Gustavo Antonio** e **Edvaldo Soares**).
 
 ---
 
@@ -354,11 +356,40 @@ _Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05) c
 
 ---
 
-## 11. Template para Heteroavaliação de Grupos Pares
+## 11. Checklists da Entrega 8 — Verificação e Validação dos Artefatos (Auditoria Global)
 
-A Tabela 14 fornece o modelo padronizado neutro utilizado pela equipe nas sessões de heteroavaliação dos grupos pares (Grupo -1 e Grupo +1).
+A Entrega 8 promove a verificação sistemática de conformidade de todos os artefatos desenvolvidos ao longo do ciclo de vida do projeto (Entregas 1 a 8), seguindo rigorosamente os critérios de **Planejamento Geral**, **Desenvolvimento do Projeto (11 itens)** e **Conteúdo da Disciplina** definidos no **Plano de Ensino oficial** (*Sales, 2026, p. 3, 7–13*), combinados à metodologia de inspeção de **Fagan (1976)**.
 
-**Tabela 14** — Template normativo de heteroavaliação para grupos pares
+A regra de inspeção adotada pela equipe estabelece tolerância zero a complacência: um critério só recebe **Sim** quando **100% dos artefatos abrangidos** cumprem integralmente a exigência; ocorrendo qualquer lacuna parcial ou pendência em um subconjunto de documentos, registra-se **Incompleto** ou **Não**, indicando o caminho exato do artefato defeituoso para retrabalho.
+
+A Tabela 14 reúne os **12 critérios normativos em branco** para auditoria rigorosa da Entrega 8.
+
+**Tabela 14** — Checklist normativo da Entrega 8 (Verificação dos Artefatos e Auditoria Global — Plano de Ensino)
+
+| ID | Questão: O GitHub Pages possui? | Origem / Fonte Normativa | Autor do Item | Resposta (Sim / Não / Incompleto) | Versão, Data e Hora da Avaliação / Local da Evidência |
+| :---: | :--- | :--- | :--- | :---: | :--- |
+| **E8-01** | **Checklists normativos em branco cobrindo Entregas 1 a 8:** Os instrumentos seguem os blocos do Plano de Ensino (Planejamento Geral, Desenvolvimento [11 itens] e Conteúdo) e estão desacoplados dos relatos? | Fagan (1976); Sales (2026, p. 8–13) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-02** | **Autoavaliação rigorosa Pré-Retrabalho vs. Pós-Retrabalho:** A inspeção avalia de forma crítica todas as 8 entregas, sem mascarar falhas reais como 100% conformes quando existem pendências? | Fagan (1976); Barbosa & Silva (2021, p. 286) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-03** | **Integridade de Mídia e Zero Placeholders:** Todos os artefatos (atas, entrevistas, pilotos, relatos) estão livres de URLs fictícias (`placeholder`), textos `"a definir"` ou imagens/links quebrados? | Fagan (1976); Sales (2026) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-04** | **Tabela de Contribuição com Hiperligação (Item 10):** Todos os artefatos apresentam tabela de contribuição no início com o nome de todos os integrantes e hiperligação para a atividade e gravação? | Plano de Ensino (*Sales, 2026, p. 9 — Item 10*) | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-05** | **Declaração Ética de IA Generativa (Item 11 / SBC):** Os artefatos declaram explicitamente ferramentas de IA empregadas, finalidade e responsabilidade humana, mais Matriz Consolidada com vantagens/desvantagens? | Código de Conduta SBC (Art. 2º, §III); Sales (2026, p. 3, 7, 9) | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-06** | **Governança e Revisão por Pares (Itens 1 e 2):** Todos os artefatos possuem Histórico de Versão padronizado com identificação nominal de autor(es) e revisor(es) distintos? | Plano de Ensino (*Sales, 2026, p. 8 — Itens 1 e 2*); Fagan (1976) | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-07** | **Formatação, Fontes Nominais e Referências (Itens 3, 4 e 5):** Há texto introdutório, referências ABNT em todos os artefatos, legendas, chamadas textuais e fontes nominais explícitas (zero `"Elaborada pelos autores"`)? | Plano de Ensino (*Sales, 2026, p. 8 — Itens 3, 4 e 5*) | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-08** | **Conteúdo da Disciplina com Fotos de Referência:** Os itens teóricos de cada integrante trazem citação bibliográfica, foto legível da página de referência e identificação do autor do item? | Plano de Ensino (*Sales, 2026, p. 9–13*) | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-09** | **Cronograma Executado e Atas de Reunião (Itens 6, 7 e 8):** O cronograma executado detalha autores e datas reais até a Etapa 8 e todas as atas (1 a 8) registram data, horários, participantes, decisões e gravação? | Plano de Ensino (*Sales, 2026, p. 8–9 — Itens 6, 7 e 8*) | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-10** | **Matriz Consolidada de Contribuição por Integrante:** Há matriz quantitativa/nominal sintetizando artefatos desenvolvidos e revisados por estudante em todas as etapas? | Plano de Ensino (*Sales, 2026, p. 7 — Tabela 1*) | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-11** | **Heteroavaliações de Grupos Pares (Grupo -1 e Grupo +1):** O planejamento, os relatos das inspeções cruzadas (G07 nas Etapas 2, 4, 6; G01 nas Etapas 3, 5, 7) e vídeos estão publicados? | Plano de Ensino (*Sales, 2026, p. 4–5*) | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+| **E8-12** | **Apresentação Oficial da Etapa 8 e Follow-up (Item 9):** A página da Entrega 8 está no menu, livre de placeholders, estruturada para vídeo (20–30 min, Não Listado no YouTube) e com plano de retrabalho rastreável? | Plano de Ensino (*Sales, 2026, p. 8–9 — Item 9*) | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | [ ] Sim<br>[ ] Não<br>[ ] Incompleto | *(Preencher na inspeção)* |
+
+_Fonte: Elaborada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) com base no Plano de Ensino (Sales, 2026), Fagan (1976), Gilb & Graham (1993) e Código de Conduta SBC (2023), 2026._
+
+---
+
+## 12. Template para Heteroavaliação de Grupos Pares
+
+A Tabela 15 fornece o modelo padronizado neutro utilizado pela equipe nas sessões de heteroavaliação dos grupos pares (Grupo -1 e Grupo +1).
+
+**Tabela 15** — Template normativo de heteroavaliação para grupos pares
 
 | ID | Critério Avaliado | Fonte Normativa | Autor do Item | Conforme? | Evidências / Problemas Identificados | Sugestão de Correção para a Equipe | Versão, Data e Hora da Avaliação |
 | :---: | :--- | :--- | :--- | :---: | :--- | :--- | :---: |
@@ -373,37 +404,37 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ---
 
-## 12. Lista de Verificação da Técnica (Elaboração de Checklists)
+## 13. Lista de Verificação da Técnica (Elaboração de Checklists)
 
-A Tabela 15 apresenta a autoavaliação da conformidade metodológica do artefato de listas de verificação frente aos critérios científicos de inspeção de software (*Fagan, 1976; Gilb & Graham, 1993; Barbosa & Silva, 2021*).
+A Tabela 16 apresenta a autoavaliação da conformidade metodológica do artefato de listas de verificação frente aos critérios científicos de inspeção de software (*Fagan, 1976; Gilb & Graham, 1993; Barbosa & Silva, 2021*).
 
-**Tabela 15** — Lista de verificação da técnica de elaboração de checklists
+**Tabela 16** — Lista de verificação da técnica de elaboração de checklists
 
 | ID | Questão Avaliada | Origem / Fonte Normativa | Autor do Item | Conforme? | Resposta Autoexplicativa e Evidência no Artefato | Versão, Data e Hora da Avaliação |
 | :---: | :--- | :--- | :--- | :---: | :--- | :---: |
 | **CHK-01** | O artefato está estruturado estritamente como template normativo em branco (desacoplado de inspeções)? | Fagan (1976); Gilb & Graham (1993) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ Sim | O documento disponibiliza os instrumentos neutros em branco; as avaliações empíricas residem em [grupo08.md](grupo08.md). | `v3.0` — 20/11/2026 às 15:10 |
 | **CHK-02** | Há fundamentação teórica formal sobre o método de inspeção de software e suas 6 fases canônicas? | Fagan (1976); Barbosa & Silva (2021, p. 286) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ Sim | A Seção 2 detalha as etapas de Fagan (Planejamento a Acompanhamento) com linha formal de autoria de Vinicius Silva Araruna. | `v3.0` — 20/11/2026 às 15:10 |
-| **CHK-03** | Os checklists abrangem todas as etapas desenvolvidas até o momento (Entregas 1 a 7)? | Plano de Ensino da Disciplina (*Sales, 2026*) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ Sim | As Seções 4 a 10 cobrem exaustivamente as rubricas das Entregas 1 a 7 da disciplina de IHC. | `v3.0` — 20/11/2026 às 15:10 |
+| **CHK-03** | Os checklists abrangem todas as etapas desenvolvidas do projeto (Entregas 1 a 8)? | Plano de Ensino da Disciplina (*Sales, 2026*) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ Sim | As Seções 4 a 11 cobrem exaustivamente as rubricas das Entregas 1 a 8 da disciplina de IHC. | `v3.0` — 20/11/2026 às 15:10 |
 | **CHK-04** | Cada critério de verificação possui identificador único (ID) e referência explícita à fonte normativa canônica? | Gilb & Graham (1993) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ Sim | Todas as tabelas contêm as colunas 'ID' e 'Origem / Fonte Normativa' indicando a literatura ou rubrica. | `v3.0` — 20/11/2026 às 15:10 |
-| **CHK-05** | Todas as tabelas possuem chamadas formais explícitas antes ou junto de sua apresentação no texto? | Padrão Editorial FGA/UnB | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ Sim | 100% das 17 tabelas do documento possuem chamadas textuais prévias (zero tabelas órfãs). | `v3.0` — 20/11/2026 às 15:10 |
+| **CHK-05** | Todas as tabelas possuem chamadas formais explícitas antes ou junto de sua apresentação no texto? | Padrão Editorial FGA/UnB | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ Sim | 100% das 18 tabelas do documento possuem chamadas textuais prévias (zero tabelas órfãs). | `v3.0` — 20/11/2026 às 15:10 |
 | **CHK-06** | A documentação está 100% livre de delimitadores matemáticos LaTeX crus, utilizando tipografia UTF-8 nativa? | Diretrizes de Renderização MkDocs Material | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | ✅ Sim | Todos os operadores e símbolos utilizam caracteres UTF-8 nativos (`×`, `+`, `−`, `—`, `≥`, `≤`). | `v3.0` — 20/11/2026 às 15:10 |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Fagan (1976) e Sales (2026), 2026._
 
 ---
 
-## 12.2 Validação deste Artefato pela Lista de Governança do Prof. Dr. André Barros de Sales (`DG-01` a `DG-11`)
+## 13.2 Validação deste Artefato pela Lista de Governança do Prof. Dr. André Barros de Sales (`DG-01` a `DG-11`)
 
-Em estrito atendimento ao Plano de Ensino (*Sales, 2026, pp. 8–9*), a **Tabela 16** aplica os 11 itens oficiais de governança do Prof. Dr. André Barros de Sales para validar este próprio documento (`docs/verificacao/lista-verificacao.md`).
+Em estrito atendimento ao Plano de Ensino (*Sales, 2026, pp. 8–9*), a **Tabela 17** aplica os 11 itens oficiais de governança do Prof. Dr. André Barros de Sales para validar este próprio documento (`docs/verificacao/lista-verificacao.md`).
 
-**Tabela 16** — Autoavaliação de Governança de `docs/verificacao/lista-verificacao.md` (`DG-01` a `DG-11`)
+**Tabela 17** — Autoavaliação de Governança de `docs/verificacao/lista-verificacao.md` (`DG-01` a `DG-11`)
 
 | ID | Critério de Governança do Plano de Ensino | Autor do Item | Resposta | Versão, Data e Hora da Avaliação | Evidência de Conformidade nesta Página |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| **DG-01** | O histórico de versão padronizado? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Histórico de versão padronizado registrando `v3.0`. |
+| **DG-01** | O histórico de versão padronizado? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Histórico de versão padronizado registrando `v3.0` (**Tabela 18**). |
 | **DG-02** | O(s) autor(es) e o(s) revisor(es) para cada artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Autores e revisores linkados no Histórico de Versão, além da coluna `Autor do Item` em 100% dos itens. |
 | **DG-03** | Referências bibliográficas e/ou bibliografia em todos os artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Seção de Referências Bibliográficas completa em formato ABNT NBR 6023. |
-| **DG-04** | As tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | 100% das tabelas (`Tabela 1` a `Tabela 17`) e eventuais figuras possuem numeração, legenda, fonte e chamadas no texto. |
+| **DG-04** | As tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | 100% das tabelas (`Tabela 1` a `Tabela 18`) possuem numeração, legenda, fonte e chamadas no texto. |
 | **DG-05** | Um texto fazendo uma introdução dos artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Introdução formal contextualizando o artefato no Ciclo de Mayhew (1999) e em Fagan (1976). |
 | **DG-06** | O cronograma executado com quem realizou cada artefato/atividade e as datas de início e fim da construção/realização? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Vínculo rastreável ao [Cronograma Executado](../planejamento/cronograma-executado.md) e commits do histórico Git. |
 | **DG-07** | Ata(s) da(s) reuniões (com data, horário de início e do final, participantes, objetivo, atividades definidas etc.)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Registro de alinhamentos disponível nas [Atas de Reunião](../atas/index.md). |
@@ -412,15 +443,15 @@ Em estrito atendimento ao Plano de Ensino (*Sales, 2026, pp. 8–9*), a **Tabela
 | **DG-10** | Tabela de contribuição no início do artefato com o nome de todos os integrantes, contribuição com hiperligação da atividade e da gravação? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | **Tabela de Contribuição** no topo do artefato com links nominais para todos os integrantes. |
 | **DG-11** | A seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa no artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Seção final de **Agradecimentos e Uso de IA Generativa** conforme Código da SBC e Sales (2026). |
 
-_Fonte: Validação elaborada com base no Plano de Ensino (Prof. Dr. André Barros de Sales, 2026, pp. 8–9)._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base no Plano de Ensino (Prof. Dr. André Barros de Sales, 2026, pp. 8–9), 2026._
 
 ---
 
-## 13. Histórico de Versão
+## 14. Histórico de Versão
 
-A Tabela 17 documenta o histórico evolutivo deste artefato normativo.
+A Tabela 18 documenta o histórico evolutivo deste artefato normativo.
 
-**Tabela 17** — Histórico de versão do documento
+**Tabela 18** — Histórico de versão do documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
@@ -429,13 +460,14 @@ A Tabela 17 documenta o histórico evolutivo deste artefato normativo.
 | `2.1` | 29/10/2026 | Inclusão da Seção 9 com o Checklist Normativo da Entrega 6 (Tabela 12 — 12 critérios para Relato do Protótipo de Papel e Planejamento de Alta Fidelidade) e correção da numeração sequencial das Tabelas 10 a 15 (#118). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `2.2` | 30/10/2026 | Resolução de integração com develop e padronização estrita das fontes nominais dos integrantes (#118). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.3` | 16/11/2026 | Inclusão da Seção 10 com o Checklist Normativo da Entrega 7 (Tabela 13 — 12 critérios para Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade) e renumeração sequencial das Seções 11 a 14 e Tabelas 14 a 16. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
-| `3.0` | 20/11/2026 | Integração do Catálogo de Listas de Verificação por Artefato (15 módulos em `docs/verificacao/listas/`), inclusão das colunas **`Autor do Item`** (`Prof. Dr. André Barros de Sales` e `Vinicius Silva Araruna`) e **`Versão, Data e Hora da Avaliação`** em todas as tabelas normativas, e adição da validação do artefato pela lista de governança **`DG-01` a `DG-11`** (Seção 12.2). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `2.4` | 19/11/2026 | Inclusão da Seção 11 com o Checklist Normativo da Entrega 8 (Tabela 14 — 12 critérios rigorosos alinhados ao Plano de Ensino 2026.2 e Código de Conduta SBC), atualização da Lista de Verificação da Técnica (`CHK-03` e `CHK-05`) e renumeração sequencial das Seções 12 a 15. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `3.0` | 20/11/2026 | Integração do Catálogo de Listas de Verificação por Artefato (Tabela 2 — 15 módulos em `docs/verificacao/listas/`), inclusão das colunas **`Autor do Item`** e **`Versão, Data e Hora da Avaliação`** em todas as tabelas normativas, e adição da validação do artefato pela lista de governança **`DG-01` a `DG-11`** (Seção 13.2, Tabela 17). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
-## 14. Referências Bibliográficas
+## 15. Referências Bibliográficas
 
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier / Campus, 2010.
 

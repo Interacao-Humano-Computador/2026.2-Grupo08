@@ -5,7 +5,7 @@
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Elaboração do Cenário 3: pesquisa e avaliação de discussão sobre Wi-Fi no Linux Mint](#cenario-3-pesquisa-avancada-por-filtros-e-solucao-aceita) | 05/10/2026 | Apoio do Codex (OpenAI) na estruturação e revisão textual; cenário baseado na Tarefa 3, sem dados de entrevistas. |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual do Cenário 2](#cenario-2-cadastro-onboarding-e-primeira-duvida-de-iniciante) | 26/09/2026 | *A ser desenvolvido pelo discente em sua branch de trabalho* |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Autoria individual do Cenário 2 (Cadastro, Onboarding e Primeira Dúvida de Iniciante) e saneamento da matriz de rastreabilidade](#cenario-2-cadastro-onboarding-e-primeira-duvida-de-iniciante) | 19/11/2026 | Google Gemini (LLM): apoio na estruturação sintática em Markdown e padronização da tabela de elementos de Carroll; narrativa e decomposição concebidas pelo autor. |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Estruturação metodológica, fundamentação em Carroll e autoria individual do Cenário 1](#cenario-1-postagem-e-formatacao-de-duvida-tecnica-com-markdown-e-tags) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
 
 ---
@@ -36,7 +36,7 @@ A Tabela 1 apresenta a definição conceitual de cada um dos elementos constitut
 | **Eventos** | Acontecimentos externos ou respostas geradas pelo sistema interativo. | Sugestão automática de tópicos semelhantes pelo Discourse, retorno de resultados da busca, publicação da postagem. |
 | **Resultados e Avaliação** | Consequências cognitivas e práticas das ações; interpretação do sucesso pelo ator. | Redução do tempo de parada de máquina, satisfação com o acolhimento da comunidade, solução aceita confirmada. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021, p. 177-179), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021, p. 177-179), 2026._
 
 Conforme detalhado na Tabela 1, a explicitação desses componentes impede que o cenário se torne uma descrição genérica e despersonalizada de software. A Figura 1 atesta a definição teórica destes elementos.
 
@@ -58,10 +58,10 @@ A Tabela 2 apresenta o mapeamento de rastreabilidade entre os cenários, persona
 | Identificador do Cenário | Cenário de Interação | Persona Vinculada | Fluxo de Tarefas (HTA / GOMS) | Autor Responsável | Revisor |
 | :---: | :--- | :--- | :--- | :--- | :--- |
 | **Cenário 1** | Postagem e Formatação de Dúvida Técnica com Markdown e Tags | [Lucas Mendonça (Primária)](personas.md#persona-1-lucas-o-entusiasta-devops-persona-primaria) | Criação e Publicação de Tópico de Dúvida com Tags e Markdown | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
-| **Cenário 2** | *A ser definido pelo autor* | Persona 2 (Iniciante) | Cadastro e Onboarding do Novo Usuário | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **Cenário 2** | [Cadastro, Onboarding e Primeira Dúvida de Iniciante](#cenario-2-cadastro-onboarding-e-primeira-duvida-de-iniciante) | [Carlos Eduardo (Secundária)](personas.md#persona-2-carlos-eduardo-o-iniciante-em-migracao-persona-secundaria) | Cadastro, Onboarding e Primeira Postagem | [Gustavo Antonio](https://github.com/gus-ant) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | **Cenário 3** | Pesquisa e avaliação de discussão sobre Wi-Fi no Linux Mint (hipótese a validar) | [Persona 3: Usuário Pesquisador Autônomo](personas.md#persona-3-usuario-pesquisador-autonomo-persona-secundaria) — perfil pendente | Busca avançada e filtros por categoria (Tarefa 3) | [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 A Tabela 2 demonstra a distribuição de escopo entre os três membros ativos da equipe.
 
@@ -183,16 +183,18 @@ _Fonte: Elaborada para esta análise com base na Tarefa 3 de [Análise de Tarefa
 
 ## Histórico de Versão
 
-A Tabela 4 documenta o histórico de versões deste artefato.
+A Tabela 6 documenta o histórico de versões deste artefato.
 
-**Tabela 4** — Histórico de versão do documento
+**Tabela 6** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
 | `1.0` | 26/09/2026 | Estruturação metodológica, fundamentação em Carroll e elaboração do Cenário 1 por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 05/10/2026 | Elaboração do Cenário 3 e detalhamento dos sete elementos de Carroll; narrativa hipotética, com validação empírica pendente | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Pendente |
+| `1.2` | 20/10/2026 | Elaboração individual integral do Cenário 2 (Cadastro, Onboarding e Primeira Dúvida de Iniciante) com os 7 elementos de Carroll vinculados à Persona 2 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.3` | 19/11/2026 | Sanitização documental da Entrega 8: preenchimento do título e link do Cenário 2 na Tabela 2, atualização nominal de fontes, correção de numeração tabular e declaração de IA de Gustavo Antonio | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -210,4 +212,4 @@ _Fonte: Elaborada pelos autores, 2026._
 
 ## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
 
-Durante a organização do layout em Markdown e estruturação das tabelas deste artefato, foi utilizado suporte supervisionado de Inteligência Artificial Generativa (LLM). A narrativa do Cenário 1, decomposição dos elementos e fundamentação foram concebidas, redigidas e validadas por Vinicius Silva Araruna.
+Durante a organização do layout em Markdown e estruturação das tabelas deste artefato, foi utilizado suporte supervisionado de Inteligência Artificial Generativa (LLM). As narrativas, decomposições dos sete elementos de Carroll e validações conceituais foram concebidas, redigidas e assumidas integralmente por Vinicius Silva Araruna (Cenário 1), Gustavo Antonio Rodrigues e Silva (Cenário 2, com apoio de Google Gemini na formatação sintática) e Edvaldo Soares Brasileiro Filho (Cenário 3, com apoio do OpenAI Codex na revisão textual).

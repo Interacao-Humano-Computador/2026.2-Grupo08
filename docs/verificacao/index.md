@@ -65,8 +65,8 @@ A Tabela 2 sintetiza os acessos diretos aos instrumentos de verificação, relat
 | Módulo / Escopo | Objeto / Finalidade | Etapas Cobertas | Acesso Direto |
 | :--- | :--- | :---: | :---: |
 | **Listas de Verificação por Artefato** | 15 listas temáticas com autoria nominal por item (Prof. André e equipe), citações diretas e mais de 200 recortes da literatura | Etapas 1 a 8 | [:material-folder-multiple: Acessar Listas por Artefato](listas/index.md) |
-| **Checklists Normativos (Por Entrega)** | Instrumentos em branco padronizados agrupados por entrega com colunas de autoria e data/hora de avaliação | Etapas 1 a 7 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
-| **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1 a 8 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
+| **Checklists Normativos (Por Entrega)** | Instrumentos em branco padronizados agrupados por entrega com perguntas objetivas, fontes canônicas e colunas de autoria e data/hora | Etapas 1 a 8 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
+| **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade e retrabalho dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1 a 8 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
 | **Avaliação do Grupo -1** | Auditoria técnica e pedagógica do Grupo 07 (Portal PCI Concursos) | Hub Central, Etapas 2, 4 e 6 | [:material-account-arrow-left: Acessar Auditoria Grupo 07](grupo07/index.md) |
 | **Avaliação do Grupo +1** | Auditoria técnica e pedagógica do Grupo 01 (Microsoft Teams) | Hub Central, Etapas 3, 5 e 7 | [:material-account-arrow-right: Acessar Auditoria Grupo 01](grupo01/index.md) |
 | **Entrega 8 (Consolidação)** | Síntese oficial da Entrega 8 e acesso unificado aos instrumentos normativos e auditorias | Etapa 8 | [:material-flag-checkered: Acessar Entrega 8](../entregas/entrega8.md) |
@@ -135,7 +135,7 @@ A **Tabela 3** aplica os 11 critérios oficiais de desenvolvimento e governança
 | **DG-10** | Tabela de contribuição no início do artefato com hiperligações? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | **Tabela 1** presente no topo da página. |
 | **DG-11** | Seção de agradecimentos apresentando o uso de IA Generativa? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | Seção final explícita sobre uso supervisionado de IA. |
 
-_Fonte: Validação elaborada pelos autores com base no Plano de Ensino (Prof. Dr. André Barros de Sales, 2026, pp. 8–9)._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base no Plano de Ensino (Prof. Dr. André Barros de Sales, 2026, pp. 8–9), 2026._
 
 ---
 
@@ -150,7 +150,8 @@ A **Tabela 4** documenta a evolução histórica deste Portal de Verificação.
 | `1.0` | 27/10/2026 | Estruturação inicial do Portal Geral de Verificação e Garantia da Qualidade (ADR-07): integração metodológica de Fagan (1976), fluxo cíclico de avaliação por pares e navegação rápida pelos módulos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 04/11/2026 | Atualização do fluxo cíclico e dos módulos de inspeção com a inclusão da auditoria da Etapa 6 do Grupo -1 (Grupo 07). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.2` | 16/11/2026 | Atualização do fluxo cíclico, Tabela 2 e destaques com a inclusão da auditoria da Etapa 7 do Grupo +1 (Grupo 01 — Microsoft Teams). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-| `2.0` | 20/11/2026 | Integração do Catálogo de Listas de Verificação por Artefato (15 módulos temáticos), vínculo com a Entrega 8 e inclusão da validação pela lista de governança `DG-01` a `DG-11` do Prof. André Barros de Sales. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `1.3` | 19/11/2026 | Atualização da cobertura dos módulos de Checklists Normativos e Auto-Avaliação do Grupo 08 para as Etapas 1 a 8 (Entrega 8 — Auditoria Global). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `2.0` | 20/11/2026 | Integração do Catálogo de Listas de Verificação por Artefato (15 módulos temáticos), vínculo com a Entrega 8 e inclusão da validação pela lista de governança `DG-01` a `DG-11` do Prof. André Barros de Sales. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 

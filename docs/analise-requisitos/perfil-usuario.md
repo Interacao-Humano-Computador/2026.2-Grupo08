@@ -201,7 +201,7 @@ A Tabela 4 sintetiza as dimensões comparativas fundamentais entre os três perf
 | **Impacto de Erro do Usuário** | Baixo: gera tópico em categoria incorreta ou com formatação quebrada (reversível pela moderação). | Médio/Alto: fechamento indevido de tópico legítimo ou aplicação de sanção precipitada a um membro. | Crítico: modificação incorreta de parâmetros globais ou parada total do serviço (*downtime* do fórum). |
 | **Principal Gargalo de IHC** | Editor de Markdown sem auxílio contextual evidente; filtros de busca difíceis de interpretar. | Sobrecarga cognitiva ao julgar dezenas de mensagens isoladas na fila de denúncias sem contexto amplo. | Excesso de parâmetros e densidade de formulários nas telas de administração sem hierarquia visual clara. |
 
-_Fonte: Elaborada pelos autores, 2026. Síntese analítica cruzada._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026. Síntese analítica cruzada._
 
 ---
 
@@ -211,8 +211,8 @@ A Tabela 5 apresenta a lista de verificação preenchida pela equipe para avalia
 
 **Tabela 5** — Lista de Verificação do Perfil de Usuário
 
-| Item / Questão Avaliada | Referência Normativa | Conforme? | Justificativa / Evidência no Documento |
-| :---: | :--- | :---: | :--- |
+| Item | Questão Avaliada | Referência Normativa | Conforme? | Justificativa / Evidência no Documento |
+| :---: | :--- | :--- | :---: | :--- |
 | **1** | Os perfis de usuário estão fundamentados em literatura canônica de IHC? | Barbosa & Silva (2021); Cooper et al. (2014) | **Sim** | As Seções 1 e 3 fundamentam os conceitos de perfil, os riscos do "usuário elástico" e citam os modelos teóricos adotados. |
 | **2** | Os perfis foram reestruturados para refletir papéis funcionais e hierárquicos em vez de mero conhecimento técnico isolado? | Diretrizes do Prof. André Barros (#5) e Monitoria (#4, #10) | **Sim** | O documento caracteriza especificamente o Usuário Comum/Estudante, o Moderador e o Administrador na Seção 4. |
 | **3** | Os dados demográficos foram enriquecidos com fontes secundárias confiáveis (IBGE)? | Critério de Aceite da Issue #34; IBGE (2023) | **Sim** | A Seção 2 e a Tabela 1 incorporam os dados da PNAD Contínua TIC Domicílios e Cetic.br para estudantes universitários no Brasil. |
@@ -220,7 +220,7 @@ A Tabela 5 apresenta a lista de verificação preenchida pela equipe para avalia
 | **5** | Há uma matriz comparativa sintetizando as diferenças críticas de interação entre os perfis? | Engenharia de Requisitos | **Sim** | A Tabela 4 sintetiza e confronta os três papéis em interfaces, permissões, tarefas e desafios de IHC. |
 | **6** | Todas as tabelas e figuras possuem numeração, títulos, chamadas no texto e fontes especificadas? | Normas de Formatação da Disciplina | **Sim** | Todas as tabelas (1 a 6) e figuras (1 e 2) são referenciadas expressamente no texto e possuem créditos de fonte completos. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -234,10 +234,11 @@ A Tabela 6 registra as versões deste artefato e o histórico de evolução ao l
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 26/09/2026 | Estruturação metodológica inicial e elaboração preliminar dos perfis focados em níveis de conhecimento técnico de Linux. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 27/09/2026 | Inclusão de rascunhos de perfis e elaboração de hipóteses preliminares de pesquisa. | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `2.0` | 09/10/2026 | **Refatoração estrutural completa (Issue #34)**: Reestruturação dos 3 perfis por papéis funcionais (Estudante/Usuário Comum, Moderador, Administrador); preenchimento integral de todos os atributos tabulares; incorporação de dados secundários do IBGE/Cetic.br; consolidação da matriz comparativa detalhada e checklist da técnica. | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) | Revisão por Pares |
+| `2.0` | 09/10/2026 | **Refatoração estrutural completa (Issue #34)**: Reestruturação dos 3 perfis por papéis funcionais (Estudante/Usuário Comum, Moderador, Administrador); preenchimento integral de todos os atributos tabulares; incorporação de dados secundários do IBGE/Cetic.br; consolidação da matriz comparativa detalhada e checklist da técnica. | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `2.1` | 21/10/2026 | Desacoplamento metodológico de questionário em consonância com a recomendação docente e parecer de revisão do PR #71; explicitação da tríade empírica auditável (entrevistas, análise documental, brainstorming e dados secundários IBGE/Cetic.br); inserção das linhas de autoria teórica nas Seções 1, 2 e 3 e amarração textual com chamada da Figura 2 (#34). | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `2.2` | 19/11/2026 | Sanitização documental da Entrega 8: correção do cabeçalho de 5 colunas da Tabela 5 e substituição das fontes genéricas pelos nomes completos dos autores. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

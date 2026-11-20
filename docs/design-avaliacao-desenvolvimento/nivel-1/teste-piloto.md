@@ -191,8 +191,8 @@ A Tabela 5 apresenta o checklist de autoavaliação da conformidade do teste-pil
 
 **Tabela 5** — Lista de Verificação: Execução e Documentação do Teste-Piloto
 
-| Item / Questão Avaliada | Origem / Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Documento |
-| :--- | :--- | :---: | :--- |
+| Item | Questão Avaliada | Origem / Fonte Normativa | Conforme? | Resposta Autoexplicativa e Evidência no Documento |
+| :---: | :--- | :--- | :---: | :--- |
 | **1** | O objetivo do teste-piloto está explicitado como a avaliação do planejamento e do protocolo (e não da interface ou do usuário)? | Barbosa & Silva (2021, p. 276) | ✅ Sim | A Introdução e a Seção 2 fundamentam que o ensaio avalia estritamente roteiro, tempo e instrumentos. |
 | **2** | O documento contém a Cláusula Metodológica Obrigatória destacando que os dados não integram o resultado final? | Mayhew (1999); Barbosa & Silva (2021) | ✅ Sim | A Seção 3 apresenta destaque visual (admonition `warning`) proibindo a inclusão dos dados nos resultados. |
 | **3** | O protocolo detalha data, horário, duração estimada e infraestrutura técnica de realização? | Mayhew (1999); Preece et al. (2002) | ✅ Sim | A Tabela 2 parametriza todas as variáveis operacionais presenciais na FGA/UnB, gravação sobre a mesa em ambiente silencioso e manuseio de pranchas impressas a 300 DPI. |
@@ -218,8 +218,9 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | `1.2` | 24/10/2026 | Consolidação dos resultados reais do autoensaio do teste-piloto na Tabela 4 (calibração do tempo de TCLE em 52s, reposicionamento a 45 graus para eliminar sombra, pré-carregamento de abas e conversão da fala do HTA para linguagem natural). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.3` | 24/10/2026 | Inserção do link e player responsivo da gravação em vídeo do teste-piloto executado por Edvaldo Soares no YouTube e consolidação da matriz de ocorrências. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.4` | 25/10/2026 | Unificação harmonizada dos ensaios de teste-piloto de Nível 1 e sincronização definitiva com a branch develop. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.5` | 19/11/2026 | Sanitização documental da Entrega 8: registro do Vídeo 3 (Gustavo Antonio — `K5jVAyq4hAY`) no histórico, correção do cabeçalho da Tabela 5 e inclusão da Seção 12 (Agradecimentos e IA Generativa). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Vinicius Silva Araruna, 2026._
+_Fonte: Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -228,6 +229,12 @@ _Fonte: Vinicius Silva Araruna, 2026._
 - BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Seção 11.7.4 — Teste-Piloto, p. 276).
 - MAYHEW, Deborah J. *The Usability Engineering Lifecycle: a practitioner's handbook for user interface design*. San Francisco: Morgan Kaufmann Publishers, 1999.
 - NIELSEN, Jakob. *Usability Engineering*. San Francisco: Morgan Kaufmann Publishers, 1994.
+
+---
+
+## 12. Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+
+Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC, Art. 2º, §III) e as diretrizes do Plano de Ensino (Sales, 2026), declara-se que durante a elaboração e organização deste documento foi utilizado apoio de Inteligência Artificial Generativa (Google Gemini / LLM) exclusivamente na formatação sintática de tabelas em Markdown e revisão normativa. Todo o planejamento metodológico, a condução individual dos ensaios de teste-piloto (Vídeos 1, 2 e 3) e a validação dos dados são de responsabilidade integral dos autores humanos listados no Histórico de Versão.
 - PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Interaction Design: beyond human-computer interaction*. New York: John Wiley & Sons, 2002.
 - ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. *Design de Interação: além da interação humano-computador*. 3. ed. Porto Alegre: Bookman, 2013.
 - SALES, André Barros de. *Plano de Ensino da Disciplina de Interação Humano Computador*. Brasília: Universidade de Brasília, Faculdade UnB Gama (FGA), 2026.
