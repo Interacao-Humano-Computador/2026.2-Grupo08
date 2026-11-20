@@ -6,13 +6,13 @@ A Tabela 1 apresenta os papéis e a distribuição de responsabilidades na elabo
 
 **Tabela 1** — Matriz de Contribuição dos Integrantes nas Entrevistas
 
-| Integrante | Atribuição no Artefato | Data | Horário |
-| :--- | :--- | :---: | :---: |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Condução da Entrevista 1 (P1), transcrição de áudio, consolidação das respostas e síntese de oportunidades de IHC | 09/10/2026 | 18:30 - 21:00 |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Condução da Entrevista 2 (P2), transcrição de áudio, consolidação das respostas e síntese de oportunidades de IHC | 09/10/2026 | 18:30 - 21:00 |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação metodológica, fundamentação ética bioética, consolidação do protocolo e revisão técnica por pares | 09/10/2026 | 19:00 - 21:00 |
+| Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA e Contribuição | Hiperligação |
+| :--- | :--- | :---: | :---: | :--- | :---: |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Condução da Entrevista 1 (P1), transcrição, consolidação das respostas, revisão das fontes nominais e auditoria do Quadro 1 | 19/11/2026 | 18:30 - 21:00 | Google Gemini (LLM): apoio na padronização das tabelas Markdown | [Quadro 1](#7-registros-audiovisuais-das-entrevistas) |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Condução da Entrevista 2 (P2), transcrição de áudio, consolidação das respostas e síntese de oportunidades de IHC | 09/10/2026 | 18:30 - 21:00 | Google Gemini (LLM): apoio na estruturação dos blocos e transcrição | [Quadro 2](#7-registros-audiovisuais-das-entrevistas) |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Estruturação metodológica, fundamentação ética bioética, consolidação do protocolo e revisão técnica por pares | 09/10/2026 | 19:00 - 21:00 | Google Gemini (LLM): apoio na formatação Markdown e roteiro | [Histórico](#9-historico-de-versao) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -138,7 +138,7 @@ A Tabela 2 apresenta a caracterização demográfica dos participantes recrutado
 | **P1** | 21 anos | Engenharia de Software (UnB Gama) | 1 ano e 6 meses | Ubuntu 24.04 LTS | **Tecnófilo Pragmático** | Gustavo Antonio Rodrigues e Silva |
 | **P2** | 23 anos | Ciência da Computação (UnB Darcy Ribeiro) | 3 anos | Fedora 40 Workstation | **Tecnófilo Explorador** | Edvaldo Soares Brasileiro Filho |
 
-_Fonte: Elaborada pelos autores, 2026. Dados consolidados a partir das transcrições de campo._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026. Dados consolidados a partir das transcrições de campo._
 
 A Tabela 3 apresenta a matriz de síntese qualitativa das respostas estruturada por blocos temáticos das tarefas investigadas no projeto.
 
@@ -150,7 +150,7 @@ A Tabela 3 apresenta a matriz de síntese qualitativa das respostas estruturada 
 | **Bloco D: Onboarding e Discobot (Tarefa 2)** | Lembrou-se de ter interagido com o Discobot logo após o primeiro login. Concluiu com facilidade as tarefas de curtir uma mensagem e marcar com emoji, achando a experiência amigável e gamificada. Entretanto, abandonou o tutorial na etapa que solicitava upload de imagem e busca por menção, pois achou prolixo e seu objetivo imediato era apenas tirar uma dúvida pontual. | Ignorou solenemente a mensagem do robô ao ingressar no Discourse, considerando-a excessivamente infantilizada e intrusiva para quem já possui experiência prévia com fóruns. Em contrapartida, sentiu falta de orientações claras sobre as limitações de usuário novato (*Trust Level 0*), tendo ficado confuso quando não pôde postar mais de um link em seu primeiro tópico. | **REQ-ENT-04:** Onboarding modular e não obrigatório, permitindo que o usuário retome as dicas a qualquer momento no seu perfil.<br>**REQ-ENT-05:** Notificação explícita e transparente sobre as regras de nível de confiança (*Trust Levels*), informando o motivo exato de limitações iniciais. |
 | **Bloco E: Busca Avançada e Filtros (Tarefa 3)** | Sempre realiza buscas antes de postar para evitar advertências da moderação. Utiliza exclusivamente o campo de busca simples no topo da página. Sua principal dor é receber resultados de 2017 a 2019 contendo comandos descontinuados (ex: pacotes PPA antigos) que quase quebraram seu sistema operacional. Não sabia da existência de filtros avançados por operador de data. | Utiliza ativamente a interface de busca avançada e filtros de categoria. Apontou que a tela de busca avançada do Discourse possui excesso de parâmetros e caixas de seleção, tornando a interface visualmente poluída. Destacou que tópicos com respostas validadas oficialmente com selo de **Solução** deveriam receber prioridade máxima na listagem de resultados. | **REQ-ENT-06:** Filtro temporal proeminente com atalhos visuais simples (ex: "Últimos 12 meses", "Versões suportadas").<br>**REQ-ENT-07:** Destaque visual expressivo e prioridade de ranqueamento para tópicos que possuem solução aceita e verificada. |
 
-_Fonte: Elaborada pelos autores, 2026. Síntese qualitativa consolidada._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026. Síntese qualitativa consolidada._
 
 ---
 
@@ -167,11 +167,10 @@ Os Quadros 1 e 2 apresentam a documentação dos registros audiovisuais das sess
 | **Data e Horário** | 09/10/2026 às 19:15 (Horário de Brasília) |
 | **Duração da Sessão** | 12 minutos e 45 segundos |
 | **Plataforma e Privacidade** | Google Meet / YouTube (Não Listado) |
-| **Link de Acesso ao Vídeo** | [Acessar Gravação da Entrevista 1 no YouTube](https://youtu.be/placeholder-entrevista-p1) |
+| **Link de Acesso ao Vídeo** | ❌ *Pendente — gravação de áudio/vídeo não disponibilizada no repositório até a auditoria da Entrega 8* |
 
-```html
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/placeholder-entrevista-p1" title="Entrevista 1 - Participante P1 (IHC Grupo 08)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
+!!! warning "Pendência de Evidência Audiovisual (Defeito Auditado na Entrega 8)"
+    Durante a inspeção rigorosa da Entrega 8, constatou-se que o player da Entrevista 1 apontava para uma URL fictícia (`placeholder-entrevista-p1`). A URL inválida foi removida por transparência, permanecendo este item como **Não Conforme (`❌ Não`)** até o upload e vinculação do vídeo real em modo Não Listado no YouTube.
 
 _Fonte: Elaborado por Gustavo Antonio Rodrigues e Silva, 2026._
 
@@ -210,9 +209,9 @@ A Tabela 4 apresenta a lista de verificação preenchida pela equipe para valida
 | **4** | O protocolo operacional estabelece papéis claros para os discentes executores? | Governança da Equipe | **Sim** | A Seção 5 detalha passo a passo as atribuições de Edvaldo Soares e Gustavo Antonio. |
 | **5** | Há modelos tabulares estruturados com preenchimento completo da caracterização e respostas dos voluntários? | Engenharia de Requisitos | **Sim** | As Tabelas 2 e 3 consolidam a caracterização de P1 e P2 e a síntese analítica por bloco com requisitos elicitados. |
 | **6** | Todas as tabelas e quadros possuem títulos numerados, fontes e chamadas antecedentes no texto? | Normas de Formatação da Disciplina | **Sim** | As Tabelas 1 a 5 e os Quadros 1 e 2 são expressamente referenciados no texto precedente. |
-| **7** | As gravações em vídeo estão devidamente documentadas com metadados e garantia de privacidade não listada? | Resolução CNS 510/2016 e Diretrizes da Disciplina | **Sim** | A Seção 7 documenta os links, tempos de duração e embeds das duas sessões do Google Meet. |
+| **7** | As gravações em vídeo estão devidamente documentadas com metadados e garantia de privacidade não listada? | Resolução CNS 510/2016 e Diretrizes da Disciplina | **Não** | Os metadados das sessões estão documentados nos Quadros 1 e 2, porém os links de acesso aos vídeos no YouTube permanecem pendentes (havia URLs placeholder). Defeito registrado formalmente na Entrega 8. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -226,8 +225,9 @@ A Tabela 5 documenta as versões deste artefato, acompanhando sua evolução ao 
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 09/10/2026 | Estruturação metodológica do artefato de entrevistas, fundamentação dos 4 princípios bioéticos, script oral literal de leitura do TCLE no Bloco A, elaboração do roteiro em 6 blocos e definição dos templates de síntese para os executores. | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.0` | 09/10/2026 | **Consolidação dos Resultados de Campo (Issue #32)**: Execução prática das entrevistas com P1 e P2 por Gustavo Antonio e Edvaldo Soares; preenchimento integral das Tabelas 2 e 3 com dados demográficos e síntese por blocos; elicitação de requisitos de IHC e documentação dos registros em vídeo nos Quadros 1 e 2. | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `2.1` | 19/11/2026 | Sanitização documental da Entrega 8: remoção da URL placeholder de P1 no Quadro 1 com registro transparente de pendência audiovisual, atualização da Tabela 4 (Item 7 -> Não) e substituição das fontes genéricas pelos nomes completos dos autores. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

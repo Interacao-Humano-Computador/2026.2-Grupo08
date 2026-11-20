@@ -77,7 +77,7 @@ A Tabela 1 sintetiza a correspondência formal entre as funcionalidades nucleare
 | **F02** | Cadastro e Onboarding do Novo Usuário com Discobot | Alta | Barreiras de acolhimento; atrito com limitações antispam do Trust Level 0 (TL0); evasão do tutorial do Discobot por falta de clareza visual. | HTA (Diagrama + Tabela) + GOMS | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
 | **F03** | Grade de Disponibilidade e Agendamento de Dúvidas / Mentorias | Alta | Mapeamento de matriz temporal interativa, concorrência temporal, prevenção de double-booking e sincronização de salas. | HTA (Diagrama + Tabela) + CTT | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 Conforme demonstrado na Tabela 1, a divisão assegura equidade analítica rigorosa, garantindo que cada discente seja titular de um fluxo de alta densidade cognitiva devidamente conectado às demais fases do ciclo de usabilidade.
 
@@ -109,7 +109,7 @@ A Tabela 2 apresenta a autoavaliação da conformidade metodológica do planejam
 | **5** | A Tabela de Contribuição e o corpo do texto estão alinhados com a composição ativa da equipe? | Diretrizes de Reestruturação da Equipe; [Ata 4](../atas/ata4.md) | ✅ Sim | A Tabela de Contribuição lista unicamente Vinicius Araruna, Gustavo Antonio e Edvaldo Soares, preservando os créditos históricos nas versões 1.0 a 1.2 da Tabela 3. |
 | **6** | Todas as tabelas e figuras possuem chamada formal antecedente no texto, numeração e indicação de fonte? | Padrão Editorial da FGA/UnB | ✅ Sim | A Figura 1 e as Tabelas 1, 2 e 3 possuem chamadas textuais explícitas, títulos e legendas padronizadas. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 Conforme evidenciado na Tabela 2, todas as decisões de escopo atendem plenamente aos critérios da disciplina e às orientações metodológicas da docência.
 
@@ -129,6 +129,7 @@ A Tabela 3 documenta o histórico evolutivo de versões deste artefato, acompanh
 | `1.3` | 25/09/2026 | Atualização preliminar de escopo e registro da redução da equipe ([Ata 4](../atas/ata4.md)) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.4` | 10/10/2026 | Sincronização 1:1 da Tabela 1 com as tarefas oficiais de HTA/GOMS, expurgo integral de propostas legadas ("Eventos Presenciais"), higienização de membros inativos e inclusão de lista de verificação analítica com 6 itens (Issue #53) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.5` | 22/10/2026 | Atualização da funcionalidade F03 para Grade de Disponibilidade e Agendamento de Dúvidas/Mentorias sob responsabilidade de Edvaldo Soares | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.6` | 19/11/2026 | Sanitização documental da Entrega 8: substituição das fontes genéricas das Tabelas 1 e 2 pelos nomes completos dos autores ativos | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 ---
 
