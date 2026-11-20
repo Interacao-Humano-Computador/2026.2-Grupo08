@@ -18,7 +18,7 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ## Introdução
 
-Este artefato documenta o **Relatório de Inspeção e Autoavaliação Formal do Grupo 08**, consolidando os achados empíricos obtidos na aplicação dos instrumentos normativos de auditoria definidos em [Listas de Verificação](lista-verificacao.md).
+Este artefato documenta o **Relatório de Inspeção e Autoavaliação Formal do Grupo 08**, consolidando os achados empíricos obtidos na aplicação dos instrumentos normativos de auditoria definidos em [Listas de Verificação](lista-verificacao.md) e no [Catálogo de Listas de Verificação por Artefato](listas/index.md).
 
 A inspeção cobre as três etapas consolidadas do projeto na disciplina de Interação Humano-Computador (FGA0173), sob docência do Prof. Dr. André Barros de Sales na Faculdade UnB Gama (FGA/UnB): a **Entrega 1** (Planejamento do Projeto, Processo de Design e Governança), a **Entrega 2** (Perfil de Usuário, Aspectos Éticos e Análise de Tarefas) e a **Entrega 3** (Análise de Requisitos: Características da Plataforma, Princípios Gerais, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Apresentação Audiovisual).
 
@@ -179,7 +179,7 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ## 3. Verificação da Entrega 3 — Análise de Requisitos
 
-A Tabela 8 apresenta a autoavaliação detalhada dos 18 itens da **Entrega 3** (Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Página de Entrega 3), avaliada na branch `main`.
+A Tabela 8 apresenta a autoavaliação detalhada dos 18 itens da **Entrega 3** (Características da Plataforma, Princípios Gerais de Projeto, Metas de Usabilidade e UX, Guia de Estilo, Ata 5 e Página de Entrega 3), avaliada na branch `main` após os PRs `#96` e `#97` (`8` atendidos, `9` incompletos e `1` não atendido = **69,4%**; na linha de base anterior `fc2ff42`, o saldo era `5` atendidos, `9` incompletos e `4` não atendidos = **52,8%** conforme detalhado na Seção 6).
 
 **Tabela 8** — Verificação dos Itens da Entrega 3 (18 Itens Trabalhados)
 
@@ -230,11 +230,11 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ---
 
-## 4. Verificação da Entrega 4 — Planejamento de Nível 1 (Storyboards e Tarefas)
+### Síntese Complementar dos 12 Critérios de Nível 1 (Storyboards e Análise de Tarefas)
 
-A conformidade dos artefatos de planejamento da avaliação de Storyboards e Análise de Tarefas produzidos pelo Grupo 08 foi auditada frente aos 12 critérios canônicos de Nível 1. A Tabela 7 documenta os resultados da autoavaliação.
+Em caráter complementar à **Tabela 9**, a **Tabela 10** consolida os 12 critérios normativos específicos de Nível 1 auditados na etapa.
 
-**Tabela 7** — Autoavaliação da Entrega 4 do Grupo 08 (Planejamento de Nível 1)
+**Tabela 10** — Autoavaliação complementar da Entrega 4 (Planejamento de Nível 1 — 12 critérios)
 
 | ID | Questão / Critério da Rubrica Oficial | Resposta | Evidência e Observação Factual no Repositório |
 | :---: | :--- | :---: | :--- |
@@ -257,9 +257,9 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ## 5. Verificação da Entrega 5 — Relatos de Resultados de Nível 1 e Protótipo de Papel (Nível 2)
 
-A Entrega 5 consolida os achados empíricos das coletas presenciais de Nível 1 e inaugura a esteira de prototipação em papel. A Tabela 8 documenta a autoavaliação dos 15 critérios objetivos da etapa.
+A Entrega 5 consolida os achados empíricos das coletas presenciais de Nível 1 e inaugura a esteira de prototipação em papel. A Tabela 11 documenta a autoavaliação dos 15 critérios objetivos da etapa.
 
-**Tabela 8** — Autoavaliação da Entrega 5 do Grupo 08 (Relatos de Nível 1 e Protótipo de Papel de Nível 2)
+**Tabela 11** — Autoavaliação da Entrega 5 do Grupo 08 (Relatos de Nível 1 e Protótipo de Papel de Nível 2)
 
 | ID | Questão / Critério da Rubrica Oficial | Resposta | Evidência e Observação Factual no Repositório |
 | :---: | :--- | :---: | :--- |
@@ -327,95 +327,81 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ---
 
-### Resumo da Entrega 3 (18 itens)
+### Resumo da Entrega 3 (18 itens — Baseline `fc2ff42`)
 
 <div class="dp-checklist-summary">
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">✅ Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:83%">15 / 18</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:28%">5 / 18</div></div>
   </div>
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">⚠️ Pendente</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:17%">3 / 18</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:50%">9 / 18</div></div>
   </div>
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">❌ Não Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:0%">0 / 18</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:22%">4 / 18</div></div>
   </div>
 </div>
 
-**Taxa Ponderada da Entrega 3: 91,7%** (15 critérios plenamente atendidos e 3 pendentes sanados nos PRs #96 e #97).
+**Taxa Ponderada Baseline da Entrega 3 (`fc2ff42`): 52,8%** (`5` atendidos, `9` parciais e `4` não conformes, conforme o relatório PDF oficial `Grupo08ViniciusSilvaArarunaVerificaçãoInspecaoEntrega3.pdf`). Após os PRs `#96` e `#97` no Guia de Estilo v2.0 (refletidos na **Tabela 8** acima), o saldo avançou para **69,4%** (`8` atendidos, `9` incompletos e `1` não atendido), com pendências residuais consolidadas na auditoria da Entrega 8.
 
 ---
 
-### Resumo da Entrega 4 (12 itens)
+### Resumo da Entrega 4 (13 itens da Tabela 9)
 
-<div class="dp-checklist-summary">
-  <div class="dp-bar-wrap">
-    <div class="dp-bar-label">✅ Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:100%">12 / 12</div></div>
-  </div>
-  <div class="dp-bar-wrap">
-    <div class="dp-bar-label">⚠️ Pendente</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:0%">0 / 12</div></div>
-  </div>
-  <div class="dp-bar-wrap">
-    <div class="dp-bar-label">❌ Não Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:0%">0 / 12</div></div>
-  </div>
-</div>
+Conformidade da Tabela 9: **100%** (13 de 13 critérios atendidos). Para consistência histórica com a versão 4.0, mantêm-se também os 12 critérios da Tabela 10 (100% atendidos).
 
-**Conformidade da Entrega 4: 100%** (12 de 12 critérios atendidos plenamente).
-
----
-
-### Resumo da Entrega 5 (15 itens)
-
-<div class="dp-checklist-summary">
-  <div class="dp-bar-wrap">
-    <div class="dp-bar-label">✅ Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:100%">15 / 15</div></div>
-  </div>
-  <div class="dp-bar-wrap">
-    <div class="dp-bar-label">⚠️ Pendente</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:0%">0 / 15</div></div>
-  </div>
-  <div class="dp-bar-wrap">
-    <div class="dp-bar-label">❌ Não Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:0%">0 / 15</div></div>
-  </div>
-</div>
-
-**Conformidade da Entrega 5: 100%** (15 de 15 critérios atendidos plenamente).
-
----
-
-### Resumo Geral Consolidado (97 itens auditados)
+### Resumo Geral Consolidado (Entregas 1 a 5 — 98 itens principais)
 
 <div class="dp-checklist-summary">
   <div class="dp-bar-wrap">
     <div class="dp-bar-label">✅ Total Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:97%">94 / 97</div></div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-ok" style="width:87%">85 / 98</div></div>
   </div>
   <div class="dp-bar-wrap">
-    <div class="dp-bar-label">⚠️ Total Pendente</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:3%">3 / 97</div></div>
+    <div class="dp-bar-label">⚠️ Total Pendente (E3)</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-warn" style="width:9%">9 / 98</div></div>
   </div>
   <div class="dp-bar-wrap">
-    <div class="dp-bar-label">❌ Total Não Atendido</div>
-    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:0%">0 / 97</div></div>
+    <div class="dp-bar-label">❌ Total Não Atendido (E3)</div>
+    <div class="dp-bar-track"><div class="dp-bar-fill dp-bar-fail" style="width:4%">4 / 98</div></div>
   </div>
 </div>
 
-**Taxa Ponderada Geral Consolidada do Grupo 08: 98,5%** (94 critérios plenamente atendidos e 3 pendentes parciais ao longo de todas as 5 entregas).
+**Taxa Ponderada Geral Consolidada (Etapas 1 a 5): 91,3%** na linha de base `fc2ff42` (`85` plenamente atendidos, `9` pendentes e `4` não atendidos = `89,5 / 98`; após a Tabela 8 pós-PRs `#96`/`#97`, o saldo consolidado sobe para `88` Sim / `9` Pendentes / `1` Não = **94,4%**). Para os instrumentos normativos atualizados e preparação da Etapa 8, consulte o **[Catálogo de Listas de Verificação por Artefato](listas/index.md)** e a **[Entrega 8](../entregas/entrega8.md)**.
 
 ---
 
-## Histórico de Versão
+## 7. Validação deste Artefato pela Lista de Governança do Prof. Dr. André Barros de Sales (`DG-01` a `DG-11`)
 
-A Tabela 10 documenta o histórico de versões deste artefato.
+Em estrito atendimento ao Plano de Ensino (*Sales, 2026, pp. 8–9*), a **Tabela 12** aplica os 11 itens oficiais de governança do Prof. Dr. André Barros de Sales para validar este próprio documento (`docs/verificacao/grupo08.md`).
 
-**Tabela 10** — Histórico de versão do documento
+**Tabela 12** — Autoavaliação de Governança de `docs/verificacao/grupo08.md` (`DG-01` a `DG-11`)
+
+| ID | Critério de Governança do Plano de Ensino | Autor do Item | Resposta | Versão, Data e Hora da Avaliação | Evidência de Conformidade nesta Página |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| **DG-01** | O histórico de versão padronizado? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v4.1` — 20/11/2026 às 15:20 | Histórico de versão padronizado registrando `v4.1`. |
+| **DG-02** | O(s) autor(es) e o(s) revisor(es) para cada artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v4.1` — 20/11/2026 às 15:20 | Autores e revisores linkados no Histórico de Versão, além da coluna `Autor do Item` em 100% dos itens. |
+| **DG-03** | Referências bibliográficas e/ou bibliografia em todos os artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v4.1` — 20/11/2026 às 15:20 | Seção de Referências Bibliográficas completa em formato ABNT NBR 6023. |
+| **DG-04** | As tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v4.1` — 20/11/2026 às 15:20 | 100% das tabelas (`Tabela 1` a `Tabela 13`) e eventuais figuras possuem numeração, legenda, fonte e chamadas no texto. |
+| **DG-05** | Um texto fazendo uma introdução dos artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v4.1` — 20/11/2026 às 15:20 | Introdução formal contextualizando o artefato no Ciclo de Mayhew (1999) e em Fagan (1976). |
+| **DG-06** | O cronograma executado com quem realizou cada artefato/atividade e as datas de início e fim da construção/realização? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v4.1` — 20/11/2026 às 15:20 | Vínculo rastreável ao [Cronograma Executado](../planejamento/cronograma-executado.md) e commits do histórico Git. |
+| **DG-07** | Ata(s) da(s) reuniões (com data, horário de início e do final, participantes, objetivo, atividades definidas etc.)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v4.1` — 20/11/2026 às 15:20 | Registro de alinhamentos disponível nas [Atas de Reunião](../atas/index.md). |
+| **DG-08** | A gravação da reunião do grupo? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v4.1` — 20/11/2026 às 15:20 | Gravações das reuniões linkadas em [Atas de Reunião](../atas/index.md). |
+| **DG-09** | Vídeo de apresentação na categoria 'Não Listado' no YouTube (duração entre 20 e 30 minutos)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ⚠️ **Em preparação (Etapa 8)** | `v4.1` — 20/11/2026 às 15:20 | Vídeos das Entregas 1–7 publicados; vídeo oficial da [Entrega 8](../entregas/entrega8.md) (20–30 min, Não Listado) agendado após consolidação das inspeções da etapa. |
+| **DG-10** | Tabela de contribuição no início do artefato com o nome de todos os integrantes, contribuição com hiperligação da atividade e da gravação? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v4.1` — 20/11/2026 às 15:20 | **Tabela de Contribuição** no topo do artefato com links nominais para todos os integrantes. |
+| **DG-11** | A seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa no artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v4.1` — 20/11/2026 às 15:20 | Seção final de **Agradecimentos e Uso de IA Generativa** conforme Código da SBC e Sales (2026). |
+
+_Fonte: Validação elaborada com base no Plano de Ensino (Prof. Dr. André Barros de Sales, 2026, pp. 8–9)._
+
+---
+
+## 8. Histórico de Versão
+
+A Tabela 13 documenta o histórico de versões deste artefato.
+
+**Tabela 13** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
@@ -424,13 +410,14 @@ A Tabela 10 documenta o histórico de versões deste artefato.
 | `3.0` | 06/10/2026 | Inclusão da auto-avaliação e lista de verificação da Entrega 3 (Análise de Requisitos) com 18 itens e incorporação do vídeo oficial de apresentação | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `3.1` | 12/10/2026 | Desacoplamento arquitetural formal entre a Lista de Verificação (templates normativos em lista-verificacao.md) e o Relatório de Inspeção preenchido da equipe (Issue #30), com introdução contextualizada no método de Fagan (1976) e saneamento UTF-8 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 | `4.0` | 27/10/2026 | Expansão da autoavaliação consolidada do Grupo 08: incorporação da Verificação da Entrega 4 (Tabela 7 - 12 critérios) e da Entrega 5 (Tabela 8 - 15 critérios), atualização do Resumo Geral para 97 itens auditados e cálculo da Taxa Ponderada Consolidada de 98,5%. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| `4.1` | 20/11/2026 | Correção aritmética da Entrega 3 (5/9/4 = 52,8% no baseline `fc2ff42` versus 8/9/1 = 69,4% na Tabela 8 pós-PRs `#96`/`#97`) e do consolidado (98 itens), eliminação da seção `## 4.` duplicada, renumeração sequencial das Tabelas 10 a 13, vínculo ao Catálogo por Artefato (`listas/index.md`) e inclusão da validação de governança `DG-01` a `DG-11`. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._  
 _\*Nota histórica: O discente Pedro Paulo constava como integrante ativo na versão 1.0 de setembro/2026, sendo preservado seu registro fático documental da época em estrita conformidade com o princípio de não apagamento histórico e integridade acadêmica._
 
 ---
 
-## Referências Bibliográficas
+## 9. Referências Bibliográficas
 
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010.
 

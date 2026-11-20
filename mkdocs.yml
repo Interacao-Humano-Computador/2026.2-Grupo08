@@ -79,6 +79,7 @@ nav:
     - Entrega 5: entregas/entrega5.md
     - Entrega 6: entregas/entrega6.md
     - Entrega 7: entregas/entrega7.md
+    - Entrega 8: entregas/entrega8.md
 
   - Planejamento do Projeto:
     - Equipe: planejamento/equipe.md
@@ -157,6 +158,27 @@ nav:
   - Verificação:
     - Visão Geral: verificacao/index.md
     - Listas de Verificação (Checklists): verificacao/lista-verificacao.md
+    - Listas de Verificação por Artefato:
+      - Matriz Geral e Autoria das Listas: verificacao/listas/index.md
+      - 0. Governança e Plano de Ensino:
+        - Governança e Plano de Ensino Geral (Prof. André): verificacao/listas/00-plano-ensino-geral.md
+        - Engenharia de Software e IHC (SWEBOK v3.0): verificacao/listas/05-swebok.md
+      - 1. Fase de Análise de Requisitos (Mayhew):
+        - Perfil de Usuário (42 itens + Plano): verificacao/listas/03-perfil-usuario.md
+        - Elenco de Personas (7 itens): verificacao/listas/08-elenco-personas.md
+        - Personas (14 itens): verificacao/listas/09-personas.md
+        - Cenários (10 itens + Plano): verificacao/listas/02-cenarios.md
+        - Análise de Tarefas — HTA (10 itens + Plano): verificacao/listas/10-hta.md
+        - Análise de Tarefas — CTT (10 itens): verificacao/listas/11-ctt.md
+        - Ética, Plataforma, Princípios, Metas e Guia de Estilo: verificacao/listas/13-requisitos-plataforma-guia.md
+      - 2. Framework Transversal de Avaliação:
+        - Planejamento da Avaliação — DECIDE (14 itens + 20Q): verificacao/listas/04-planejamento-decide.md
+        - Métodos de Avaliação de IHC (14 itens): verificacao/listas/07-metodos-avaliacao.md
+        - Planejamento e Relato dos Resultados (8 itens): verificacao/listas/06-resultado-avaliacao.md
+      - 3. Design e Prototipação por Nível:
+        - Nível 1 — Storyboard (12 itens + Klemmer + Plano): verificacao/listas/01-storyboard.md
+        - Nível 2 — Protótipo de Papel (17 itens): verificacao/listas/12-prototipo-papel.md
+        - Nível 3 — Protótipo de Alta Fidelidade (Rubrica + Usabilidade): verificacao/listas/14-alta-fidelidade.md
     - Auto-Avaliação (Grupo 08): verificacao/grupo08.md
     - Avaliação do Grupo -1 (Grupo 07):
       - verificacao/grupo07/index.md
