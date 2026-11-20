@@ -2,18 +2,37 @@
 
 ## Tabela de Contribuição e Uso de IA Generativa
 
+A Tabela 1 apresenta a distribuição de responsabilidades e o uso de ferramentas de IA generativa na elaboração deste artefato.
+
+**Tabela 1** — Matriz de Contribuição e Uso de IA Generativa
+
 | Integrante | Contribuição | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :--- | :--- | :--- |
-| [Gustavo Antonio](https://github.com/gus-ant) | Elaboração inicial do documento | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Gemini | Apoio à estruturação inicial e à formatação Markdown. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão das características e consolidação das evidências da interface | Pendente | Codex (OpenAI) | Pesquisa e apoio à redação; revisão humana antes da entrega. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Elaboração inicial do documento, fundamentação teórica com evidência do livro-texto (p. 105) e padronização ABNT | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Google Gemini (LLM) | Apoio à estruturação inicial e à formatação Markdown. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão das características e consolidação das evidências da interface | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Codex (OpenAI) | Pesquisa e apoio à redação; revisão humana antes da entrega. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Revisão metodológica por pares e verificação de conformidade com o Ciclo de Mayhew | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | — | Revisão humana por pares. |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
 ## Introdução
 
-Este documento caracteriza a plataforma usada pelo **Fórum Diolinux Plus**, com foco no que pode ser observado por uma pessoa visitante e nas consequências para as tarefas de leitura, busca e navegação. A análise serve de insumo para a Entrega 3 de IHC.
+Este documento caracteriza a plataforma tecnológica usada pelo **Fórum Diolinux Plus**, com foco no que pode ser observado por uma pessoa visitante e nas consequências para as tarefas de leitura, busca e navegação. A análise serve de insumo para a Entrega 3 de IHC.
 
 As conclusões distinguem observações da interface do que a documentação oficial descreve sobre o Discourse. A configuração interna, a hospedagem, os plugins instalados, os dados de infraestrutura e os fluxos que exigem autenticação não foram inspecionados; portanto, não são tratados como fatos sobre esta instância.
+
+## Fundamentação Teórica: Análise das Capacidades e Restrições da Plataforma
+
+No Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew (1999), conforme descrito por **Barbosa e Silva (2010, Cap. 6, p. 105–106)** e **Barbosa et al. (2021, Cap. 6, p. 105)**, a análise das capacidades e restrições da plataforma tecnológica é uma atividade essencial da fase de Análise de Requisitos. O projetista deve investigar as possibilidades e limitações de hardware, software, rede e navegador para evitar que o design proponha soluções inviáveis ou subutilize recursos nativos do ambiente computacional.
+
+_Autor do Item Teórico: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)_
+
+A Figura 0 reproduz o trecho da obra de referência de Barbosa e Silva (p. 105) que fundamenta a análise das capacidades e restrições da plataforma no Ciclo de Vida de Mayhew.
+
+![Trecho da página 105 de Barbosa e Silva sobre características e restrições da plataforma](../assets/images_prints/foto-plataforma-barbosa-p105.png)
+
+**Figura 0** — Fundamentação teórica sobre capacidades e restrições da plataforma no Ciclo de Mayhew. *(Fonte: BARBOSA; SILVA, 2010, p. 105).*
 
 ## Método e escopo
 
@@ -23,6 +42,10 @@ O recorte não inclui teste em celular ou tablet, comparação entre navegadores
 
 ## Características observadas
 
+A Tabela 2 sintetiza os aspectos observados diretamente na interface pública do Fórum Diolinux Plus e suas implicações para IHC.
+
+**Tabela 2** — Características observadas na interface pública do Fórum Diolinux Plus
+
 | Aspecto | Observação e implicação para IHC | Evidência |
 | :--- | :--- | :--- |
 | Organização da informação | A página inicial agrupa discussões por tópicos, categorias e etiquetas. A navegação lateral reúne links como Início, Sobre, Regras e outras áreas do fórum. Essa organização oferece caminhos de navegação além da lista cronológica. | [Figura 1](#figura-busca) |
@@ -31,9 +54,13 @@ O recorte não inclui teste em celular ou tablet, comparação entre navegadores
 | Navegação por teclado | A janela de atalhos mostra combinações para ir a áreas do fórum, mover a seleção e abrir tópicos. As combinações visíveis incluem `G` seguido de `H` para Início e `G` seguido de `C` para Categorias. | [Figura 3](#figura-atalhos) |
 | Tema visual | As capturas registram a interface no tema escuro, com contraste entre fundo, texto, links e controles. A existência de outros temas ou a sua conformidade de contraste não foi medida nesta inspeção. | Figuras 1–3 |
 
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
+
 ## Recursos e limites da plataforma
 
-O site se apresenta como um fórum e a documentação pública do Discourse descreve o produto como uma aplicação JavaScript executada no navegador. A documentação também informa que o Discourse oferece layout móvel e lista os navegadores suportados pela versão atual. Essas informações descrevem o produto em geral; não substituem testes específicos nesta instância.
+O site se apresenta como um fórum e a documentação pública do Discourse descreve o produto como uma aplicação JavaScript executada no navegador. A documentação também informa que o Discourse oferece layout móvel e lista os navegadores suportados pela versão atual. Essas informações descrevem o produto em geral; não substituem testes específicos nesta instância. A Tabela 3 relaciona os recursos e limites identificados na documentação oficial.
+
+**Tabela 3** — Recursos e restrições tecnológicas da plataforma Discourse
 
 | Recurso ou restrição | O que a fonte permite afirmar | Limite para este projeto |
 | :--- | :--- | :--- |
@@ -42,6 +69,8 @@ O site se apresenta como um fórum e a documentação pública do Discourse desc
 | Dispositivos móveis | O Discourse descreve seu produto como utilizável em navegador de laptop, tablet e telefone e informa que há um layout móvel. | Não há captura nem teste móvel nesta análise; dimensões, adaptação de conteúdo e operação por toque devem ser verificadas antes de conclusões sobre o Diolinux Plus. |
 | API | A documentação do Discourse disponibiliza uma API para interagir com recursos da plataforma. | Nenhuma chamada de API foi realizada. Não se afirma quais integrações, plugins ou endpoints estão habilitados nesta comunidade. |
 | Infraestrutura e atualização | A documentação do Discourse publica requisitos e opções gerais de implantação do produto. | Plano de hospedagem, capacidade, versão instalada, banco de dados, cache, notificações e serviços de infraestrutura do fórum não foram verificados. |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 Esses limites corrigem afirmações que não podiam ser sustentadas pela inspeção anterior: compatibilidade “plena” com uma lista ampliada de navegadores, adoção de estratégia *mobile-first*, presença de alto contraste, uso específico de WebSocket e notificações *push* não foram confirmados para a instância e, por isso, não são apresentados como características observadas.
 
@@ -71,14 +100,27 @@ As evidências registram recursos concretos que podem orientar os próximos arte
 
 ## Histórico de versão
 
+A Tabela 4 documenta o histórico de versões deste artefato.
+
+**Tabela 4** — Histórico de versão do documento
+
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 25/09/2026 | Criação inicial do documento com fundamentação do livro-texto | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
-| `2.0` | 05/10/2026 | Revisão das afirmações técnicas, inclusão de capturas da interface pública e registro do escopo e dos limites da inspeção | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Pendente |
+| `2.0` | 05/10/2026 | Revisão das afirmações técnicas, inclusão de capturas da interface pública e registro do escopo e dos limites da inspeção | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
+| `2.1` | 19/11/2026 | Saneamento pós-auditoria (Entrega 8): inclusão da Figura 0 (p. 105 de Barbosa & Silva) com autoria nominal do bloco teórico, numeração e chamadas formais das Tabelas 1 a 4, revisão por pares e declaração de uso de IA Generativa | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-## Referências
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
+
+## Referências Bibliográficas
 
 - BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. 1. ed. Rio de Janeiro: Elsevier, 2010. Cap. 6, análise das características da plataforma no ciclo de vida de Mayhew, p. 105–106.
 - DISCOURSE. [FAQ: What is Discourse?](https://www.discourse.org/faq). Consulta em 05 out. 2026.
 - DISCOURSE. [Features](https://www.discourse.org/features). Consulta em 05 out. 2026.
 - DIOLINUX PLUS. [Fórum da comunidade](https://plus.diolinux.com.br/). Capturas de interface consultadas em 05 out. 2026.
+
+---
+
+## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+
+Durante a estruturação das tabelas em Markdown e revisão gramatical deste artefato, contou-se com o apoio supervisionado de ferramentas de Inteligência Artificial Generativa (Google Gemini e OpenAI Codex). Todas as observações da interface do Fórum Diolinux Plus, recortes bibliográficos e delimitações técnicas foram verificados e validados integralmente pelos discentes autores do Grupo 08.

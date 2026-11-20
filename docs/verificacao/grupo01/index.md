@@ -12,7 +12,7 @@ A Tabela 1 apresenta a distribuição de responsabilidades e as ferramentas util
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Auditor Técnico**: Auditoria de governança, repositório, cronograma, Nível 1 e relatos de Alta Fidelidade; co-apresentador das inspeções em vídeo | 16/11/2026 | Google Gemini (LLM) | Apoio na checagem tabular e links funcionais |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Auditor Técnico**: Revisão técnica consolidada das auditorias, verificação dos artefatos de Nível 2 e 3 e cálculo das métricas ponderadas | 16/11/2026 | — | Auditoria humana cruzada e validação de consistência |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -41,7 +41,7 @@ A Tabela 2 apresenta o panorama cronológico e consolidado de todas as etapas do
 | **Etapa 5**<br>*(Relatos de Nível 1 e Planejamento do Protótipo de Papel)* | 26/10/2026 | Commit `10a7c3d`<br>*(25/10/2026)* | **6,7% Pleno**<br>46,7% Parcial<br>46,7% Não Conforme<br>*(Taxa Ponderada: 30,0%)* | [Acessar Relatório da Etapa 5](etapa5.md) | [:material-youtube: Assistir (QjAnF0_ooT8)](https://youtu.be/QjAnF0_ooT8) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf) |
 | **Etapa 3**<br>*(Princípios, Metas, Guia de Estilo e Características)* | 10/10/2026 | Commit `f0c8a2f`<br>*(06/10/2026)* | **16,7% Pleno**<br>44,4% Parcial<br>38,9% Não Conforme<br>*(Taxa Ponderada: 38,9%)* | [Acessar Relatório da Etapa 3](etapa3.md) | [:material-youtube: Assistir (lttsLbInYaM)](https://youtu.be/lttsLbInYaM) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Inspecao_Grupo01_Etapa3_Principios_Metas_GuiaEstilo.pdf) |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -117,7 +117,7 @@ A Tabela 3 documenta o histórico de manutenção e modularização deste Hub Ce
 | `2.0` | 26/10/2026 | Modularização arquitetural do Hub Central de Verificação do Grupo 01 (ADR-07): segregação da Etapa 3 para página própria, incorporação da síntese da Etapa 5 e atualização da matriz de conformidade. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `3.0` | 16/11/2026 | Incorporação da auditoria da Etapa 7 (Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Nível 3, commit `ac5df28`), atualização da Tabela 2, renumeração das seções 3.1 a 3.3 e registro do relatório oficial em PDF (`Grupo08InspecaoGrupo01Etapa7.pdf`). | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores (Grupo 08), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

@@ -5,7 +5,7 @@
 | Integrante | Contribuição no Artefato | Data | Ferramenta de IA e Contribuição |
 | :--- | :--- | :---: | :--- |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Acompanhamento e validação das datas reais de execução](#entrega-1-planejamento-do-projeto) | 26/09/2026 | Suporte na estruturação Markdown e tabelas |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Registro da Etapa 2 e atualização do cronograma executado da Entrega 5 com teste-piloto (22/10), storyboard (23/10) e avaliação (23/10) (#104)](#entrega-5-relato-dos-resultados-do-storyboard-e-tarefas-planejamento-do-prototipo-de-papel) | 22/10/2026 | Suporte na estruturação Markdown e tabelas |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Registro da Etapa 2, atualização do cronograma executado da Entrega 5 (#104) e consolidação das Entregas 6, 7 e 8 com saneamento de fontes nominais](#entrega-8-verificacao-dos-artefatos-e-auditoria-global) | 19/11/2026 | Suporte na estruturação Markdown e tabelas |
 | [Jonathan Lourenço Carpaneda](https://github.com/Jonathan-Carpaneda) | [Inclusão da tabela de contribuição no início e padronização ABNT (Histórico — Etapa 1)](#introducao) | 05/09/2026 | — |
 | [Pedro Paulo Almeida Araujo](https://github.com/Pedrop06) | [Registro e consolidação das datas reais de execução (Ação 15) (Histórico — Etapa 1)](#entrega-1-planejamento-do-projeto) | 05/09/2026 | — |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Desmembramento e consolidação integral dos cronogramas executados das Entregas 3, 4 e 5, inclusão do acompanhamento da Entrega 6 e expurgo de inativos (#130)](#entrega-6-relato-do-prototipo-de-papel-e-planejamento-da-alta-fidelidade) | 29/10/2026 | Suporte na estruturação Markdown e tabelas |
@@ -36,7 +36,7 @@ A Tabela 1 sintetiza o andamento real das atividades desenvolvidas durante a pri
 | Gravação da reunião e deliberação | 04/09 - 04/09 | 04/09 | Todos | 04/09 | Todos |
 | Edição e publicação da gravação | 04/09 - 05/09 | 05/09 | Pedro Paulo, Jonathan Carpaneda | 05/09 | Vinicius Araruna |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva, Jonathan Lourenço Carpaneda, Pedro Paulo Almeida Araujo e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -54,7 +54,7 @@ Em atendimento às recomendações da banca examinadora e do monitor sobre a nec
 | Redesign Visual Diolinux Plus e Alto Contraste | 18/09 - 21/09 | 21/09 | Gustavo Antonio | 21/09 | Vinicius Araruna |
 | Reunião 4 e Ata de Reestruturação da Equipe (`ata4.md`) | 25/09 | 25/09 | Vinicius Araruna | 25/09 - 26/09 | Edvaldo Soares, Gustavo Antonio |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 Conforme apresentado na Tabela 2, todos os artefatos de governança e transição do objeto de estudo foram devidamente formalizados com suas respectivas autorias e revisões por pares.
 
@@ -78,7 +78,7 @@ A Tabela 3 documenta o andamento executado das atividades da Entrega 2, registra
 | Listas de Verificação Canônicas (`conteudo-disciplina.md`) | 24/09 - 25/09 | 26/09 | Vinicius Araruna, Edvaldo Soares, Gustavo Antonio | 26/09 | Edvaldo Soares |
 | Avaliação e Gravação em Vídeo do Grupo -1 — Grupo 07 (`grupo07.md`) | 27/09 - 28/09 | 28/09 | Vinicius Araruna, Gustavo Antonio | 28/09 | Gustavo Antonio, Vinicius Araruna |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 Conforme demonstrado na Tabela 3, as atividades da Entrega 2 foram consolidadas e integradas através de revisões por pares e rastreabilidade no repositório.
 
@@ -97,7 +97,7 @@ A Tabela 4 documenta o andamento executado das atividades da Entrega 3, registra
 | Reunião da Etapa 3 e Ata 5 (`ata5.md`) | 28/09 - 04/10 | 05/10 | Gustavo Antonio | 05/10 | Vinicius Silva Araruna, Edvaldo Soares |
 | Gravação do Vídeo da Apresentação da Entrega 3 | 04/10 - 05/10 | 05/10 | Edvaldo Soares, Gustavo Antonio, Vinicius Silva Araruna | 05/10 | Vinicius Silva Araruna |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 Conforme demonstrado na Tabela 4, todos os artefatos da Entrega 3 foram plenamente concluídos e formalizados pela equipe ativa.
 
@@ -121,7 +121,7 @@ A Tabela 5 documenta o andamento executado das atividades da Entrega 4, cobrindo
 | Inspeção Formal da Etapa 4 do Grupo -1 — Grupo 07 (`grupo07-etapa4.md`) | 14/10 - 16/10 | 16/10 | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 16/10 | Vinicius Silva Araruna |
 | Gravação do Vídeo da Apresentação da Entrega 4 | 14/10 - 15/10 | 15/10 | Edvaldo Soares, Gustavo Antonio, Vinicius Silva Araruna | 15/10 | Vinicius Silva Araruna |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 Conforme demonstrado na Tabela 5, os artefatos da Entrega 4 foram formalizados no repositório com cobertura completa dos planejamentos e avaliação cruzada.
 
@@ -146,7 +146,7 @@ A Tabela 6 documenta a execução real de todas as atividades da Entrega 5 e a r
 | Síntese da Entrega 5 e Autoavaliação (`entrega5.md`) | 23/10 - 25/10 | 25/10 | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 25/10 | Vinicius Silva Araruna |
 | Inspeção Formal da Etapa 5 do Grupo +1 — Grupo 01 (`grupo01-etapa5.md`) | 24/10 - 26/10 | 26/10 | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 26/10 | Vinicius Silva Araruna |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 Conforme demonstrado na Tabela 6, todas as atividades da Entrega 5 e a inspeção do Grupo 01 foram finalizadas com 100% de conformidade.
 
@@ -154,37 +154,73 @@ Conforme demonstrado na Tabela 6, todas as atividades da Entrega 5 e a inspeçã
 
 ## Entrega 6 — Relato do Protótipo de Papel e Planejamento da Alta Fidelidade
 
-A Tabela 7 registra o acompanhamento em tempo real das atividades da Entrega 6, estruturadas segundo a Tripartição Modular por Funcionalidade (ADR-12).
+A Tabela 7 registra a execução concluída das atividades da Entrega 6, estruturadas segundo a Tripartição Modular por Funcionalidade (ADR-12), e a inspeção da Etapa 6 do Grupo -1 (Grupo 07).
 
-**Tabela 7** — Cronograma executado da Entrega 6 (Em Execução)
+**Tabela 7** — Cronograma executado da Entrega 6
 
 | Atividade / Artefato | Período Previsto | Situação / Realizado | Autores | Período de Revisão | Revisores |
 | :--- | :---: | :---: | :--- | :---: | :--- |
-| Saneamento de Governança, Higienização de Links e Blindagem de Assets (#133) | 27/10 - 28/10 | Realizado (28/10) | Vinicius Silva Araruna | 28/10 | Gustavo Antonio |
-| Alinhamento Cênico do Storyboard 1 e Persona Lucas Mendonça (#132) | 28/10 - 29/10 | Realizado (29/10) | Vinicius Silva Araruna | 29/10 | Edvaldo Soares |
-| Listas de Verificação da Técnica (Storyboards, HTA, CMN-GOMS e Papel — LV-05) (#118) | 28/10 - 29/10 | Realizado (29/10) | Vinicius Silva Araruna | 29/10 | Gustavo Antonio |
-| Saneamento dos Cronogramas Planejado e Executado com Expurgo de Inativos (#130) | 29/10 | Realizado (29/10) | Vinicius Silva Araruna | 29/10 | Gustavo Antonio, Edvaldo Soares |
-| Confecção Física das Pranchas e Peças em Papel (Tarefas 1, 2 e 3) | 27/10 - 30/10 | Em andamento | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 30/10 | Revisão Circular 360º |
-| Gravação dos Testes-Piloto do Protótipo de Papel (Nível 2) | 30/10 - 31/10 | A realizar | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 31/10 | Revisão Circular 360º |
-| Condução Presencial da Avaliação do Protótipo de Papel com Usuários | 30/10 - 01/11 | A realizar | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 01/11 | Revisão Circular 360º |
-| Relato dos Resultados da Avaliação do Protótipo de Papel (Nível 2) | 31/10 - 02/11 | A realizar | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 02/11 | Revisão Circular 360º |
-| Planejamento da Avaliação e Relato do Protótipo de Alta Fidelidade (Nível 3) | 31/10 - 02/11 | A realizar | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 02/11 | Revisão Circular 360º |
-| Ata de Reunião da Etapa 6 (Ata 8) e Síntese da Entrega 6 (`entrega6.md`) | 01/11 - 02/11 | A realizar | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 02/11 | Vinicius Silva Araruna |
-| Gravação da Apresentação Oficial da Entrega 6 | 02/11 - 03/11 | A realizar | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 03/11 | Vinicius Silva Araruna |
-| Entrega Oficial da Etapa 6 no Aprender 3 (Prazo Oficial: 23:59) | 03/11 | A realizar | Vinicius Silva Araruna (PO) | 03/11 | Gustavo Antonio, Edvaldo Soares |
-| Inspeção Formal da Etapa 6 do Grupo +1 — Grupo 01 (Teams) (Prazo: 23:59) | 04/11 | A realizar | Vinicius Silva Araruna, Gustavo Antonio, Edvaldo Soares | 04/11 | Vinicius Silva Araruna |
+| Saneamento de Governança, Higienização de Links e Blindagem de Assets (#133) | 27/10 - 28/10 | Realizado (28/10) | Vinicius Silva Araruna | 28/10 | Gustavo Antonio Rodrigues e Silva |
+| Alinhamento Cênico do Storyboard 1 e Persona Lucas Mendonça (#132) | 28/10 - 29/10 | Realizado (29/10) | Vinicius Silva Araruna | 29/10 | Edvaldo Soares Brasileiro Filho |
+| Listas de Verificação da Técnica (Storyboards, HTA, CMN-GOMS e Papel — LV-05) (#118) | 28/10 - 29/10 | Realizado (29/10) | Vinicius Silva Araruna | 29/10 | Gustavo Antonio Rodrigues e Silva |
+| Saneamento dos Cronogramas Planejado e Executado com Expurgo de Inativos (#130) | 29/10 | Realizado (29/10) | Vinicius Silva Araruna | 29/10 | Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho |
+| Confecção Física das Pranchas e Peças em Papel (Tarefas 1, 2 e 3) | 27/10 - 30/10 | Realizado (30/10) | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 30/10 | Revisão Circular 360º |
+| Gravação dos Testes-Piloto do Protótipo de Papel (Nível 2) | 30/10 - 31/10 | Realizado (31/10) | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 31/10 | Revisão Circular 360º |
+| Condução Presencial da Avaliação do Protótipo de Papel com Usuários | 30/10 - 01/11 | Realizado (01/11) | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 01/11 | Revisão Circular 360º |
+| Relato dos Resultados da Avaliação do Protótipo de Papel (Nível 2 — T1, T2 e T3) | 31/10 - 02/11 | Realizado (02/11) | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 02/11 | Revisão Circular 360º |
+| Planejamento da Avaliação e Relato do Protótipo de Alta Fidelidade (Nível 3) | 31/10 - 02/11 | Realizado (02/11) | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 02/11 | Revisão Circular 360º |
+| Síntese da Entrega 6 (`entrega6.md`) e Gravação da Apresentação Oficial (`5JwaiFc_dxs`) | 02/11 - 03/11 | Realizado (03/11) | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 03/11 | Vinicius Silva Araruna |
+| Inspeção Formal da Etapa 6 do Grupo -1 — Grupo 07 (`verificacao/grupo07/etapa6.md`) | 04/11 | Realizado (04/11) | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 04/11 | Vinicius Silva Araruna |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
-Conforme demonstrado na Tabela 7, a Entrega 6 avança em conformidade com o cronograma planejado e a tripartição modular acordada pela equipe.
+Conforme demonstrado na Tabela 7, a Entrega 6 e a inspeção cruzada da Etapa 6 foram integralmente concluídas.
+
+---
+
+## Entrega 7 — Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (Nível 3)
+
+A Tabela 8 documenta a execução real das atividades da Entrega 7 (Nível 3 de Mayhew) e a inspeção cruzada da Etapa 7 do Grupo +1 (Grupo 01 — Microsoft Teams).
+
+**Tabela 8** — Cronograma executado da Entrega 7 e Inspeção do Grupo 01
+
+| Atividade / Artefato | Período Previsto | Realizado | Autores | Período de Revisão | Revisores |
+| :--- | :---: | :---: | :--- | :---: | :--- |
+| Construção dos Protótipos de Alta Fidelidade (T1 e T3 no Claude Design; T2 Web App HTML/CSS/JS) | 05/11 - 11/11 | 11/11 | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 11/11 | Revisão Circular 360º |
+| Execução e Gravação dos Testes-Piloto de Alta Fidelidade (T1 e T2) com Isolamento de Dados | 10/11 - 12/11 | 12/11 | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva | 12/11 | Edvaldo Soares Brasileiro Filho |
+| Sessões Empíricas Presenciais de Teste de Usabilidade (3 participantes por tarefa, TCLE oral 60s, KLM e SUS) | 11/11 - 14/11 | 14/11 | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 14/11 | Revisão Circular 360º |
+| Relatos dos Resultados de Alta Fidelidade (`relato-resultados.md`, `relato-resultados-tarefa2.md`, `relato-resultados-tarefa3.md`) | 12/11 - 15/11 | 15/11 | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 15/11 | Revisão Circular 360º |
+| Síntese da Entrega 7 (`entrega7.md`), Vídeos de Apresentação (`kZtajVn5fIQ` e `5bei648S9VE`) e PDF Oficial | 13/11 - 15/11 | 15/11 | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 15/11 | Vinicius Silva Araruna |
+| Inspeção Formal da Etapa 7 do Grupo +1 — Grupo 01 (`verificacao/grupo01/etapa7.md`, vídeo e PDF) (#156) | 16/11 | 16/11 | Vinicius Silva Araruna, Gustavo Antonio Rodrigues e Silva, Edvaldo Soares Brasileiro Filho | 16/11 | Gustavo Antonio Rodrigues e Silva |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
+
+---
+
+## Entrega 8 — Verificação dos Artefatos e Auditoria Global
+
+A Tabela 9 documenta a execução das atividades de verificação e validação global do projeto (Método de Inspeção Formal de Fagan, 1976) na Entrega 8.
+
+**Tabela 9** — Cronograma executado da Entrega 8 (Verificação e Auditoria Global)
+
+| Atividade / Artefato | Período Previsto | Realizado / Status | Autores | Período de Revisão | Revisores |
+| :--- | :---: | :---: | :--- | :---: | :--- |
+| Expansão das Listas de Verificação Normativas em Branco para Entregas 1 a 8 (`lista-verificacao.md`) | 17/11 - 19/11 | Realizado (19/11) | Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna | 19/11 | Edvaldo Soares Brasileiro Filho |
+| Auditoria e Relatório de Autoavaliação Completa das Entregas 1 a 8 e Plano de Retrabalho (`grupo08.md`) | 18/11 - 19/11 | Realizado (19/11) | Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna, Edvaldo Soares Brasileiro Filho | 19/11 | Vinicius Silva Araruna |
+| Execução do Retrabalho (*Rework*): Saneamento de `entrega1.md`, `entrega2.md`, `entrega3.md`, `caracteristicas-da-plataforma.md` e `principios-gerais-de-projeto.md` | 18/11 - 19/11 | Realizado (19/11) | Gustavo Antonio Rodrigues e Silva | 19/11 | Vinicius Silva Araruna, Edvaldo Soares Brasileiro Filho |
+| Reunião de Inspeção da Etapa 8, Registro da Ata 8 (`ata8.md`) e Consolidação da Página `entrega8.md` | 19/11 | Realizado (19/11) | Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna, Edvaldo Soares Brasileiro Filho | 19/11 | Vinicius Silva Araruna |
+| Gravação da Apresentação Oficial da Entrega 8 (Verificação dos Artefatos) | 20/11 - 21/11 | Programado (20/11 - 21/11) | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna | 21/11 | Vinicius Silva Araruna |
+| Inspeção Formal da Etapa 8 do Grupo +1 — Grupo 01 | 23/11 | Programado (23/11) | Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva, Vinicius Silva Araruna | 23/11 | Vinicius Silva Araruna |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
 ## Histórico de Versão
 
-A Tabela 8 documenta o histórico de versões deste artefato.
+A Tabela 10 documenta o histórico de versões deste artefato.
 
-**Tabela 8** — Histórico de versão do documento
+**Tabela 10** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :---: | :---: |
@@ -195,8 +231,9 @@ A Tabela 8 documenta o histórico de versões deste artefato.
 | `1.4` | 28/09/2026 | Inclusão da avaliação do Grupo -1 (Grupo 07 — PCI Concursos) e gravação de vídeo por Vinicius e Gustavo | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.5` | 22/10/2026 | Atualização do cronograma executado da Entrega 5 com teste-piloto (22/10), storyboard (23/10), avaliação (23/10) e gravação do vídeo (23/10) para Gustavo Antonio (#104) | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.6` | 29/10/2026 | Desmembramento e consolidação integral dos cronogramas executados das Entregas 3, 4 e 5, inclusão do acompanhamento da Entrega 6 e expurgo de inativos pós-Ata 4 (#130) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.7` | 19/11/2026 | Consolidação final do cronograma executado da Entrega 6, adição das Tabelas 8 (Entrega 7) e 9 (Entrega 8 — Verificação Global) e padronização de fontes nominais explícitas. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

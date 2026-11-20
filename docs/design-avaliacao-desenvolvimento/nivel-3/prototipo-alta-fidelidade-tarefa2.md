@@ -6,11 +6,11 @@ A Tabela 1 apresenta a matriz de governança, responsabilidade autoral e declara
 
 **Tabela 1** — Matriz de Contribuição do Protótipo de Alta Fidelidade da Tarefa 2
 
-| Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA Utilizada | Propósito do Uso de IA |
-| :--- | :--- | :---: | :---: | :--- | :--- |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Concepção, desenvolvimento frontend (HTML5/CSS3/Vanilla JS) e documentação do protótipo interativo web de alta fidelidade da Tarefa 2 (Hub, Wizard 3 etapas, mapa FGA e ingressos). | 11/11/2026 | 14:00 - 18:30 | Google Gemini (LLM) | Apoio na estruturação da sintaxe de componentes modais e estilização em conformidade com o Guia de Estilo. |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Revisão por pares, verificação da conformidade com o Guia de Estilo (Dark Mode e tokens Discourse) e validação dos fluxos interativos. | 11/11/2026 | 19:00 - 19:40 | — | Revisão humana por pares. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Verificação metodológica de alinhamento com a análise de tarefas (HTA/CTT) e teste de integridade na Wiki. | 11/11/2026 | 20:00 - 20:30 | — | Revisão humana por pares. |
+| Integrante | Atribuição no Artefato | Data | Horário | Ferramenta de IA Utilizada | Propósito do Uso de IA | Hiperligação / Artefato |
+| :--- | :--- | :---: | :---: | :--- | :--- | :---: |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Concepção, desenvolvimento frontend (HTML5/CSS3/Vanilla JS) e documentação do protótipo interativo web de alta fidelidade da Tarefa 2 (Hub, Wizard 3 etapas, mapa FGA e ingressos). | 11/11/2026 | 14:00 - 18:30 | Google Gemini (LLM) | Apoio na estruturação da sintaxe de componentes modais e estilização em conformidade com o Guia de Estilo. | [Protótipo Web](prototipo-tarefa2/index.html) / [Seção 4](#4-galeria-de-telas-e-fluxo-interativo-prototipo-web) |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Revisão por pares, verificação da conformidade com o Guia de Estilo (Dark Mode e tokens Discourse) e validação dos fluxos interativos. | 11/11/2026 | 19:00 - 19:40 | — | Revisão humana por pares. | [Histórico](#8-historico-de-versao) |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Verificação metodológica de alinhamento com a análise de tarefas (HTA/CTT) e teste de integridade na Wiki. | 11/11/2026 | 20:00 - 20:30 | — | Revisão humana por pares. | [Histórico](#8-historico-de-versao) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 

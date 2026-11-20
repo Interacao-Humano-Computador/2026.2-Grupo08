@@ -31,9 +31,9 @@ A Tabela 1 apresenta a síntese do elenco de personas do Fórum Diolinux Plus.
 | **Entusiasta / Desenvolvedor** | Lucas Mendonça | **Primária** | [Perfil 1: Entusiasta / Criador](perfil-usuario.md#perfil-1-usuario-entusiasta-criador-de-topicos-tecnicos) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | **Iniciante / Migração** | Carlos Eduardo | **Secundária** | [Perfil 2: Iniciante / Onboarding](perfil-usuario.md#perfil-2-usuario-iniciante-migracao-windowslinux) | [Gustavo Antonio](https://github.com/gus-ant) |
 | **Pesquisador / Técnico** | Mariana Ribeiro | **Secundária** | [Perfil 3: Pesquisador / Buscador](perfil-usuario.md#perfil-3-usuario-pesquisador-buscador-autonomo) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
-| **Antiusuário (Antipersona)** | Robô Spammer / Divulgador Malicioso | **Antipersona** | *Perfil fora do escopo de design legítimo* | [Equipe Grupo 08](https://github.com/Interacao-Humano-Computador/2026.2-Grupo08) |
+| **Antiusuário (Antipersona)** | Robô Spammer / Divulgador Malicioso | **Antipersona** | *Perfil fora do escopo de design legítimo* | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 Conforme detalhado na Tabela 1, o elenco assegura a representação dos três papéis principais da comunidade, complementado pela antipersona para delimitar com precisão o que o sistema não deve incentivar (postagens automatizadas de propaganda e links suspeitos).
 
@@ -140,8 +140,9 @@ A Tabela 5 documenta o histórico de versões deste artefato.
 | `1.0` | 26/09/2026 | Estruturação metodológica, consolidação do elenco de personas e autoria individual da Persona 1 (Lucas Mendonça) por Vinicius Silva Araruna | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 20/10/2026 | Preenchimento completo das fichas da Persona 2 (Carlos Eduardo por Gustavo Antonio) e Persona 3 (Mariana Ribeiro por Edvaldo Soares), remoção de todos os placeholders e alinhamento aos Perfis de Usuário | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.2` | 21/10/2026 | Harmonização da declaração de uso de IA Generativa contemplando as Personas 2 e 3 em atendimento à revisão por pares do PR #95 | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.3` | 19/11/2026 | Sanitização documental da Entrega 8: substituição de créditos genéricos pelos nomes completos dos autores ativos | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

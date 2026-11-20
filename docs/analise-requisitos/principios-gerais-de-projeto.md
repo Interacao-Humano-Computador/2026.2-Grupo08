@@ -2,10 +2,16 @@
 
 ## Tabela de Contribuição e Uso de IA Generativa
 
+A Tabela 1 apresenta a distribuição de responsabilidades e o uso de ferramentas de IA generativa na elaboração deste artefato.
+
+**Tabela 1** — Matriz de Contribuição e Uso de IA Generativa
+
 | Integrante | Contribuição | Revisor | Ferramenta de IA Utilizada | Propósito do Uso de IA |
 | :--- | :--- | :--- | :--- | :--- |
-| [Vinicius Silva Araruna](https://github.com/ViniciusA05) e [Gustavo Antonio](https://github.com/gus-ant) | Elaboração da fundamentação teórica, captura de evidências via agente web, avaliação heurística e classificação (Atende / Viola / Atende Parcialmente) | [Gustavo Antonio](https://github.com/gus-ant) | Google Gemini (Navegação Assistida) | Extração de páginas do livro-texto com destaques digitais e navegação assistida para capturas de tela. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão do escopo, das inferências e da correspondência entre classificação e evidência disponível | Pendente | Codex (OpenAI) | Apoio à revisão factual e à redação, com base nas capturas registradas neste artefato. |
+| [Vinicius Silva Araruna](https://github.com/ViniciusA05) e [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Elaboração da fundamentação teórica dos 8 princípios canônicos, captura de evidências via agente web, avaliação heurística e classificação (Atende / Viola / Atende Parcialmente) | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Google Gemini (LLM) | Extração de páginas do livro-texto com destaques digitais e apoio na formatação Markdown. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Revisão do escopo, das inferências e da correspondência entre classificação e evidência disponível | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Codex (OpenAI) | Apoio à revisão factual e à redação, com base nas capturas registradas neste artefato. |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -21,7 +27,9 @@ A análise fundamenta-se nos princípios e diretrizes de design de **Barbosa e S
 
 A inspeção da interface foi feita em **5 de outubro de 2026**, no site público do Diolinux Plus, em desktop e sem autenticação. As três capturas abaixo são a evidência usada para as observações visuais. Não foram testados fluxos de publicação, recuperação de erros, conta autenticada, outros tamanhos de tela ou diferentes navegadores. Assim, **Atende Parcialmente** também identifica casos em que a evidência observada não permite uma conclusão completa; não significa, por si só, que o sistema falhou.
 
-Abaixo estão apresentados os trechos originais da literatura de referência (*Barbosa & Silva, 2021*) recortados e destacados com **marca-texto digital amarelo** conforme os padrões de fundamentação:
+Abaixo estão apresentados os 8 princípios gerais da literatura de referência (*Barbosa & Silva, 2021, Cap. 10, p. 221–232*) recortados e destacados com **marca-texto digital amarelo** conforme os padrões de fundamentação:
+
+_Autor do Item Teórico: [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant)_
 
 ### 1. Correspondência com as Expectativas dos Usuários (Nielsen H2)
 O sistema deve falar a linguagem do usuário, empregando palavras, conceitos e metáforas familiares à sua cultura e modelo mental.
@@ -86,6 +94,15 @@ Apresentar apenas as informações necessárias para a tarefa atual, evitando po
 >
 > *Fonte: BARBOSA et al. (2021, p. 229).*
 
+### 8. Projeto para Erros (Nielsen H5 e H9)
+Prevenir a ocorrência de erros sempre que possível e, quando ocorrerem, auxiliar o usuário a reconhecê-los, diagnosticá-los e recuperar-se deles sem perda de trabalho.
+
+> **Figura 7b:** Trecho do livro destacando a prevenção, diagnóstico e recuperação de erros (Projeto para Erros).
+>
+> ![Livro - Projeto para Erros](../assets/images_prints/pagina_principios_gerais/crop_projeto_erros.png)
+>
+> *Fonte: BARBOSA et al. (2021, p. 230).*
+
 ---
 
 ## Evidências Visuais da Interface Real (Diolinux Plus)
@@ -123,7 +140,9 @@ Modal de atalhos do teclado mostrando comandos de navegação, como `G` seguido 
 
 ## Avaliação Prática e Classificação dos Princípios / Heurísticas
 
-Abaixo é apresentada a matriz de avaliação heurística detalhada da interface real do Diolinux Plus:
+A Tabela 2 apresenta a matriz de avaliação heurística detalhada da interface real do Diolinux Plus:
+
+**Tabela 2** — Matriz de avaliação dos princípios gerais e heurísticas de usabilidade no Fórum Diolinux Plus
 
 | # | Princípio / Heurística (Nielsen / Barbosa) | Classificação | Análise Crítica e Justificativa na Interface Real | Evidência Visual / Recurso |
 | :-: | :--- | :---: | :--- | :--- |
@@ -137,6 +156,8 @@ Abaixo é apresentada a matriz de avaliação heurística detalhada da interface
 | **8** | **Estética e Design Minimalista** *(Nielsen H8 / Barbosa 7)* | **Atende** | Na tela do tópico, o título, a categoria, as etiquetas e o conteúdo formam uma hierarquia visual clara; a busca mantém sugestões associadas ao termo digitado. A análise cobre somente as telas registradas. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) e [Figura 9](#evidencia-2-estrutura-visual-de-topico-tecnico-breadcrumbs-status-e-perfil) |
 | **9** | **Ajuda aos Usuários no Reconhecimento de Erros** *(Nielsen H9 / Barbosa 8)* | **Atende Parcialmente** | Não foi provocado um erro nem capturada uma mensagem de validação nesta inspeção. A clareza, a causa indicada e as opções de recuperação permanecem sem avaliação. | Fluxo de erro não inspecionado. |
 | **10** | **Ajuda e Documentação** *(Nielsen H10)* | **Atende Parcialmente** | A página inicial apresenta links para Regras e um tópico identificado como “Manuais do Fórum”. A captura não permite verificar a cobertura, atualização ou facilidade de encontrar instruções para tarefas específicas. | [Figura 8](#evidencia-1-busca-dinamica-com-sugestao-autonoma-de-tags-e-topicos) |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -164,11 +185,18 @@ _Nota: Categoria "Viola" obteve 0 de 10 heurísticas (0%), omitida do gráfico d
 
 ## Histórico de Versão
 
+A Tabela 3 documenta o histórico de versões deste artefato.
+
+**Tabela 3** — Histórico de versão do documento
+
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 25/09/2026 | Criação inicial do documento com os 8 princípios gerais | [Gustavo Antonio](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.0` | 05/10/2026 | Atualização completa com marcações do livro-texto, evidências visuais do fórum real via agente web, 10 Heurísticas de Nielsen e matriz classificatória (Atende/Viola/Atende Parcialmente) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
-| `2.1` | 05/10/2026 | Ajuste da referência entre edições e revisão das classificações para separar observação de fluxos não testados | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Pendente |
+| `2.1` | 05/10/2026 | Ajuste da referência entre edições e revisão das classificações para separar observação de fluxos não testados | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
+| `2.2` | 19/11/2026 | Saneamento pós-auditoria (Entrega 8): inclusão do 8º princípio (Projeto para Erros — Figura 7b), autoria nominal do bloco teórico, numeração e fontes das Tabelas 1 a 3, revisão por pares e seção de agradecimentos e IA Generativa | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -179,3 +207,9 @@ _Nota: Categoria "Viola" obteve 0 de 10 heurísticas (0%), omitida do gráfico d
 [2] BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. 1. ed. Rio de Janeiro: Autopublicação, 2021. Cap. 10: Princípios e Diretrizes para o Design de IHC, p. 221–232.
 
 [3] NIELSEN, Jakob. *10 Usability Heuristics for User Interface Design*. Nielsen Norman Group, 1994. Disponível em: <https://www.nngroup.com/articles/ten-usability-heuristics/>. Acesso em: 05 out. 2026.
+
+---
+
+## Agradecimentos e Uso de Inteligência Artificial (IA) Generativa
+
+Durante a formatação sintática das matrizes em Markdown e revisão de consistência textual deste artefato, contou-se com o apoio supervisionado de ferramentas de Inteligência Artificial Generativa (Google Gemini e OpenAI Codex). Todas as classificações heurísticas, capturas da interface real do Fórum Diolinux Plus e evidências bibliográficas foram concebidas, verificadas e validadas integralmente pelos discentes autores do Grupo 08.
