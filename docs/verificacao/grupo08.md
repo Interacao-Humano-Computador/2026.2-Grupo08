@@ -18,7 +18,7 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ## Introdução
 
-Este artefato documenta o **Relatório de Inspeção, Autoavaliação Formal e Plano de Retrabalho do Grupo 08**, consolidando os achados empíricos obtidos na aplicação rigorosa dos instrumentos normativos definidos em [Listas de Verificação](lista-verificacao.md) sobre **todos os 87 arquivos Markdown e 8 entregas do projeto** no repositório oficial.
+Este artefato documenta o **Relatório de Inspeção, Autoavaliação Formal e Plano de Retrabalho do Grupo 08**, consolidando os achados empíricos obtidos na aplicação rigorosa dos instrumentos normativos definidos em [Listas de Verificação](lista-verificacao.md) e no [Catálogo de Listas de Verificação por Artefato](listas/index.md) sobre **todos os 87 arquivos Markdown e 8 entregas do projeto** no repositório oficial.
 
 Diferente de uma verificação meramente formal ou complacente, esta auditoria adotou o princípio de **tolerância zero a lacunas ocultas**: um critério recebe `✅ Sim` somente quando **100% dos artefatos abrangidos** cumprem integralmente a exigência do Plano de Ensino (*Sales, 2026*). Havendo falhas parciais (como fontes genéricas residuais em arquivos de terceiros ou ausência de governança em anexos) ou falhas críticas (como URLs `placeholder` em vídeos de entrevista, ata ou teste-piloto), o critério é registrado fielmente como `⚠️ Incompleto` ou `❌ Não`, acompanhado do caminho exato do artefato para correção.
 
@@ -566,11 +566,35 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ---
 
+### 11.1 Validação deste Relatório pela Lista de Governança do Prof. Dr. André Barros de Sales (`DG-01` a `DG-11`)
+
+Em estrito atendimento ao Plano de Ensino (*Sales, 2026, pp. 8–9*), a **Tabela 16** aplica os 11 itens oficiais de governança do Prof. Dr. André Barros de Sales para validar este próprio relatório (`docs/verificacao/grupo08.md`).
+
+**Tabela 16** — Autoavaliação de Governança de `docs/verificacao/grupo08.md` (`DG-01` a `DG-11`)
+
+| ID | Critério de Governança do Plano de Ensino | Autor do Item | Resposta | Versão, Data e Hora da Avaliação | Evidência de Conformidade nesta Página |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| **DG-01** | O histórico de versão padronizado? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v5.2` — 20/11/2026 às 17:45 | Histórico de versão padronizado registrando `v5.2` (**Tabela 17**). |
+| **DG-02** | O(s) autor(es) e o(s) revisor(es) para cada artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v5.2` — 20/11/2026 às 17:45 | Autores e revisores linkados na **Tabela 0** e no Histórico de Versão (**Tabela 17**). |
+| **DG-03** | Referências bibliográficas e/ou bibliografia em todos os artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v5.2` — 20/11/2026 às 17:45 | Seção 13 completa em formato ABNT NBR 6023. |
+| **DG-04** | As tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v5.2` — 20/11/2026 às 17:45 | 100% das tabelas (`Tabela 0` a `Tabela 17`) possuem numeração, legenda, fonte nominal e chamadas no texto. |
+| **DG-05** | Um texto fazendo uma introdução dos artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v5.2` — 20/11/2026 às 17:45 | Introdução formal contextualizando o artefato no método de Fagan (1976) e nas 8 entregas. |
+| **DG-06** | O cronograma executado com quem realizou cada artefato/atividade e as datas de início e fim da construção/realização? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v5.2` — 20/11/2026 às 17:45 | Vínculo rastreável ao [Cronograma Executado](../planejamento/cronograma-executado.md). |
+| **DG-07** | Ata(s) da(s) reuniões (com data, horário de início e do final, participantes, objetivo, atividades definidas etc.)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v5.2` — 20/11/2026 às 17:45 | Registro de alinhamentos disponível na [Ata 8](../atas/ata8.md) e no [Índice de Atas](../atas/index.md). |
+| **DG-08** | A gravação da reunião do grupo? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v5.2` — 20/11/2026 às 17:45 | Gravações das reuniões linkadas em [Atas de Reunião](../atas/index.md) e auditadas na Seção 1. |
+| **DG-09** | Vídeo de apresentação na categoria 'Não Listado' no YouTube (duração entre 20 e 30 minutos)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ⚠️ **Em preparação (Etapa 8)** | `v5.2` — 20/11/2026 às 17:45 | Vídeos das Entregas 1–7 publicados; vídeo oficial da [Entrega 8](../entregas/entrega8.md) (20–30 min, Não Listado) agendado na janela 20–22/11. |
+| **DG-10** | Tabela de contribuição no início do artefato com o nome de todos os integrantes, contribuição com hiperligação da atividade e da gravação? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v5.2` — 20/11/2026 às 17:45 | **Tabela 0** no topo do artefato e **Tabela 15** na Seção 11. |
+| **DG-11** | A seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa no artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v5.2` — 20/11/2026 às 17:45 | Seção 14 de **Agradecimentos e Uso de IA Generativa** conforme Código da SBC e Sales (2026). |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base no Plano de Ensino (Prof. Dr. André Barros de Sales, 2026, pp. 8–9), 2026._
+
+---
+
 ## 12. Histórico de Versão
 
-A **Tabela 16** documenta o histórico de versões deste artefato.
+A **Tabela 17** documenta o histórico de versões deste artefato.
 
-**Tabela 16** — Histórico de versão do documento
+**Tabela 17** — Histórico de versão do documento
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
@@ -581,6 +605,7 @@ A **Tabela 16** documenta o histórico de versões deste artefato.
 | `4.0` | 27/10/2026 | Expansão da autoavaliação para Entregas 4 e 5 (97 itens) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `5.0` | 19/11/2026 | Consolidação global da Entrega 8 e inclusão inicial das Entregas 6 a 8 (`RW-01` a `RW-07`) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `5.1` | 19/11/2026 | Reavaliação rigorosa e realista dos 87 arquivos (134 critérios no padrão do Plano de Ensino), substituindo 100% artificial pela aferição factual pré/pós-retrabalho (`70,1%` → `84,3%`), separação da Tabela 14A (retrabalhos executados `RW-01` a `RW-12`) e Tabela 14B (defeitos abertos `DEF-01` a `DEF-06`) e inclusão da matriz consolidada de IA (Seção 11). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `5.2` | 20/11/2026 | Integração com o Catálogo de Listas de Verificação por Artefato (`listas/index.md`) e adição da autovalidação pela lista de governança `DG-01` a `DG-11` (Seção 11.1, Tabela 16). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._  
 _\*Nota histórica: O discente Pedro Paulo constava como integrante ativo na versão 1.0 de setembro/2026, sendo preservado seu registro fático documental da época._
