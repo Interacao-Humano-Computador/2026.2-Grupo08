@@ -164,6 +164,7 @@ nav:
       - 0. Governança e Plano de Ensino:
         - Governança e Plano de Ensino Geral (Prof. André): verificacao/listas/00-plano-ensino-geral.md
         - Engenharia de Software e IHC (SWEBOK v3.0): verificacao/listas/05-swebok.md
+        - Fundamentos de V&V e Inspeção de Fagan (Edvaldo, 13 itens): verificacao/listas/15-fundamentos-vv-fagan.md
       - 1. Fase de Análise de Requisitos (Mayhew):
         - Perfil de Usuário (53 itens + Plano): verificacao/listas/03-perfil-usuario.md
         - Elenco de Personas (7 itens): verificacao/listas/08-elenco-personas.md

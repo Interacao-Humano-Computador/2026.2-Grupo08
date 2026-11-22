@@ -11,9 +11,10 @@ A **Tabela 1** apresenta a distribuição de responsabilidades na elaboração, 
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Elaboração modular dos critérios de `CN`, citação direta, recortes da obra e autoavaliação pela rubrica `DG-01` a `DG-11` | 20/11/2026 | 14:00 - 15:30 | Google Gemini | Suporte na organização estrutural, formatação de tabelas em Markdown e conferência cruzada com o Plano de Ensino |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão de conformidade estrutural, navegação e checagem de links | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e validação editorial |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Integração da lista individual de Cenários (`15 itens`, AC `10/11/2026`): atribuição de coautoria em `CN-01` a `CN-08` e inclusão de **9 critérios inéditos** (`CN-G01` a `CN-G09`) com citações e recortes `Figura 12` a `Figura 20` (Barbosa et al., 2021; Preece, Rogers & Sharp, 2005) | 22/11/2026 | 15:20 - 16:00 | Antigravity / Gemini | Suporte na formatação tabular Markdown e extração de recortes bibliográficos verificados |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Integração cumulativa da lista individual de Cenários (8 itens): atribuição de coautoria em `CN-01` a `CN-08` baseados em Barbosa & Silva (2010, pp. 183–191 e 209–210) | 22/11/2026 | 10:30 - 12:30 | Google Gemini | Conferência cruzada de equivalência semântica e citações canônicas de Barbosa & Silva (2010) |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Auditoria de rastreabilidade frente ao Plano de Ensino (`DG-01` a `DG-11`) e referências ABNT | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e conferência documental |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
