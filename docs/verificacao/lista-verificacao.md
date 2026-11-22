@@ -13,6 +13,7 @@ A distribuição de responsabilidades na elaboração, estruturação e curadori
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão dos critérios de Planejamento, Onboarding e Governança do repositório | 12/10/2026 | 02:30 - 03:00 | Nenhuma | Verificação da completude dos critérios de Entrega 1 e Entrega 2. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Inclusão do Checklist Normativo da Entrega 8 (Auditoria Global e Verificação dos Artefatos — Tabela 14), atualização do checklist da técnica (`CHK-03` e `CHK-05`) e revisão geral das listas das Entregas 1 a 8 | 19/11/2026 | 14:00 - 15:00 | Google Gemini (LLM) | Apoio na estruturação sintática Markdown da Tabela 14 e conferência de numeração sequencial. |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Integração do Catálogo de Listas de Verificação por Artefato (Tabela 2 — 15 módulos), inclusão das colunas `Autor do Item` e `Versão, Data e Hora da Avaliação` e validação pela lista de governança `DG-01` a `DG-11` (Tabela 17) | 20/11/2026 | 14:00 - 17:30 | Google Gemini (LLM) | Apoio na padronização tabular em Markdown e conferência ABNT. |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Atualização dos quantitativos da Tabela 2 para refletir a incorporação das `4 AC` + `3 ANC` saneadas de Gustavo Antonio nas 8 listas por artefato (**73 coautorias** e **+21 novos critérios**) | 22/11/2026 | 15:45 - 16:00 | Antigravity | Sincronização da matriz de acesso direto com `docs/verificacao/listas/index.md`. |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
@@ -72,24 +73,24 @@ A **Tabela 2** consolida o acesso direto aos 15 módulos por artefato em `docs/v
 
 | Bloco (Ciclo de Vida) | Lista Temática por Artefato | Autoria dos Itens | Versão Atual |
 | :--- | :--- | :--- | :---: |
-| **Hub Central** | [Catálogo de Listas de Verificação por Artefato](listas/index.md) | Vinicius Araruna & Equipe | `v1.0` |
+| **Hub Central** | [Catálogo de Listas de Verificação por Artefato](listas/index.md) | Vinicius Araruna & Equipe *(315 + 20Q itens, 246 figuras)* | `v1.1` |
 | **0. Governança e Plano** | [Governança e Plano de Ensino Geral (`PG`/`DG`)](listas/00-plano-ensino-geral.md) | Prof. Dr. André Barros de Sales (22) | `v1.0` |
-| **0. Eng. Software** | [SWEBOK v3.0 — Requisitos, UI e Testes](listas/05-swebok.md) | Vinicius Silva Araruna (10) | `v2.0` |
-| **1. Requisitos** | [Perfil de Usuário](listas/03-perfil-usuario.md) | Prof. André (3), Vinicius (42), Gustavo (6) | `v2.0` |
+| **0. Eng. Software** | [SWEBOK v3.0 — Requisitos, UI e Testes](listas/05-swebok.md) | Vinicius (10 — *10 coaut. Gustavo*) | `v2.1` |
+| **1. Requisitos** | [Perfil de Usuário](listas/03-perfil-usuario.md) | Prof. André (3), Vinicius (42 — *30 coaut.*), Gustavo (11) | `v2.1` |
 | **1. Requisitos** | [Elenco de Personas](listas/08-elenco-personas.md) | Vinicius Silva Araruna (7) | `v2.0` |
 | **1. Requisitos** | [Personas](listas/09-personas.md) | Vinicius Silva Araruna (14) | `v2.0` |
-| **1. Requisitos** | [Cenários](listas/02-cenarios.md) | Prof. André (1), Vinicius (10) | `v2.0` |
-| **1. Requisitos** | [Análise Hierárquica de Tarefas (HTA)](listas/10-hta.md) | Prof. André (3), Vinicius (10) | `v2.0` |
+| **1. Requisitos** | [Cenários](listas/02-cenarios.md) | Prof. André (1), Vinicius (10 — *8 coaut.*), Gustavo (9) | `v2.1` |
+| **1. Requisitos** | [Análise Hierárquica de Tarefas (HTA)](listas/10-hta.md) | Prof. André (3), Vinicius (10 — *6 coaut. Gustavo*) | `v2.1` |
 | **1. Requisitos** | [Árvores de Tarefas Concorrentes (CTT)](listas/11-ctt.md) | Vinicius Silva Araruna (10) | `v2.0` |
 | **1. Requisitos** | [Ética, Plataforma, Princípios, Metas e Guia de Estilo](listas/13-requisitos-plataforma-guia.md) | Prof. André (13), Vinicius (18), Gustavo (10) | `v2.0` |
-| **2. Avaliação Transversal** | [Planejamento da Avaliação — DECIDE (+20Q)](listas/04-planejamento-decide.md) | Prof. André (8), Vinicius (14 + 20Q) | `v2.0` |
-| **2. Avaliação Transversal** | [Métodos de Avaliação de IHC](listas/07-metodos-avaliacao.md) | Prof. André (1), Vinicius (14), Edvaldo (5) | `v2.0` |
-| **2. Avaliação Transversal** | [Planejamento e Relato dos Resultados](listas/06-resultado-avaliacao.md) | Prof. André (2), Vinicius (8) | `v1.0` |
+| **2. Avaliação Transversal** | [Planejamento da Avaliação — DECIDE (+20Q)](listas/04-planejamento-decide.md) | Prof. André (8), Vinicius (14 + 20Q — *12 coaut.*), Gustavo (3) | `v2.1` |
+| **2. Avaliação Transversal** | [Métodos de Avaliação de IHC](listas/07-metodos-avaliacao.md) | Prof. André (1), Vinicius (14 — *2 coaut.*), Gustavo (2), Edvaldo (5) | `v2.1` |
+| **2. Avaliação Transversal** | [Planejamento e Relato dos Resultados](listas/06-resultado-avaliacao.md) | Prof. André (2), Vinicius (8 — *2 coaut.*), Gustavo (1) | `v1.1` |
 | **3. Design por Nível** | [Nível 1 — Storyboard](listas/01-storyboard.md) | Prof. André (2), Vinicius (12), Gustavo (10) | `v2.0` |
-| **3. Design por Nível** | [Nível 2 — Protótipo de Papel](listas/12-prototipo-papel.md) | Vinicius Silva Araruna (17) | `v2.0` |
+| **3. Design por Nível** | [Nível 2 — Protótipo de Papel](listas/12-prototipo-papel.md) | Vinicius (17 — *3 coaut.*), Gustavo (1) | `v2.1` |
 | **3. Design por Nível** | [Nível 3 — Protótipo de Alta Fidelidade](listas/14-alta-fidelidade.md) | Prof. André (2), Vinicius (12), Edvaldo (8) | `v2.0` |
 
-_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
+_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05) e atualizada por [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), 2026._
 
 ---
 
@@ -431,17 +432,17 @@ Em estrito atendimento ao Plano de Ensino (*Sales, 2026, pp. 8–9*), a **Tabela
 
 | ID | Critério de Governança do Plano de Ensino | Autor do Item | Resposta | Versão, Data e Hora da Avaliação | Evidência de Conformidade nesta Página |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| **DG-01** | O histórico de versão padronizado? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Histórico de versão padronizado registrando `v3.0` (**Tabela 18**). |
-| **DG-02** | O(s) autor(es) e o(s) revisor(es) para cada artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Autores e revisores linkados no Histórico de Versão, além da coluna `Autor do Item` em 100% dos itens. |
-| **DG-03** | Referências bibliográficas e/ou bibliografia em todos os artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Seção de Referências Bibliográficas completa em formato ABNT NBR 6023. |
-| **DG-04** | As tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | 100% das tabelas (`Tabela 1` a `Tabela 18`) possuem numeração, legenda, fonte e chamadas no texto. |
-| **DG-05** | Um texto fazendo uma introdução dos artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Introdução formal contextualizando o artefato no Ciclo de Mayhew (1999) e em Fagan (1976). |
-| **DG-06** | O cronograma executado com quem realizou cada artefato/atividade e as datas de início e fim da construção/realização? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Vínculo rastreável ao [Cronograma Executado](../planejamento/cronograma-executado.md) e commits do histórico Git. |
-| **DG-07** | Ata(s) da(s) reuniões (com data, horário de início e do final, participantes, objetivo, atividades definidas etc.)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Registro de alinhamentos disponível nas [Atas de Reunião](../atas/index.md). |
-| **DG-08** | A gravação da reunião do grupo? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Gravações das reuniões linkadas em [Atas de Reunião](../atas/index.md). |
-| **DG-09** | Vídeo de apresentação na categoria 'Não Listado' no YouTube (duração entre 20 e 30 minutos)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ⚠️ **Em preparação (Etapa 8)** | `v3.0` — 20/11/2026 às 15:10 | Vídeos das Entregas 1–7 publicados; vídeo oficial da [Entrega 8](../entregas/entrega8.md) (20–30 min, Não Listado) agendado após consolidação das inspeções da etapa. |
-| **DG-10** | Tabela de contribuição no início do artefato com o nome de todos os integrantes, contribuição com hiperligação da atividade e da gravação? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | **Tabela de Contribuição** no topo do artefato com links nominais para todos os integrantes. |
-| **DG-11** | A seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa no artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.0` — 20/11/2026 às 15:10 | Seção final de **Agradecimentos e Uso de IA Generativa** conforme Código da SBC e Sales (2026). |
+| **DG-01** | O histórico de versão padronizado? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.1` — 22/11/2026 às 15:45 | Histórico de versão padronizado registrando `v3.1` (**Tabela 18**). |
+| **DG-02** | O(s) autor(es) e o(s) revisor(es) para cada artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.1` — 22/11/2026 às 15:45 | Autores e revisores linkados no Histórico de Versão, além da coluna `Autor do Item` em 100% dos itens. |
+| **DG-03** | Referências bibliográficas e/ou bibliografia em todos os artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.1` — 22/11/2026 às 15:45 | Seção de Referências Bibliográficas completa em formato ABNT NBR 6023. |
+| **DG-04** | As tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.1` — 22/11/2026 às 15:45 | 100% das tabelas (`Tabela 1` a `Tabela 18`) possuem numeração, legenda, fonte e chamadas no texto. |
+| **DG-05** | Um texto fazendo uma introdução dos artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.1` — 22/11/2026 às 15:45 | Introdução formal contextualizando o artefato no Ciclo de Mayhew (1999) e em Fagan (1976). |
+| **DG-06** | O cronograma executado com quem realizou cada artefato/atividade e as datas de início e fim da construção/realização? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.1` — 22/11/2026 às 15:45 | Vínculo rastreável ao [Cronograma Executado](../planejamento/cronograma-executado.md) e commits do histórico Git. |
+| **DG-07** | Ata(s) da(s) reuniões (com data, horário de início e do final, participantes, objetivo, atividades definidas etc.)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.1` — 22/11/2026 às 15:45 | Registro de alinhamentos disponível nas [Atas de Reunião](../atas/index.md). |
+| **DG-08** | A gravação da reunião do grupo? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.1` — 22/11/2026 às 15:45 | Gravações das reuniões linkadas em [Atas de Reunião](../atas/index.md). |
+| **DG-09** | Vídeo de apresentação na categoria 'Não Listado' no YouTube (duração entre 20 e 30 minutos)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ⚠️ **Em preparação (Etapa 8)** | `v3.1` — 22/11/2026 às 15:45 | Vídeos das Entregas 1–7 publicados; vídeo oficial da [Entrega 8](../entregas/entrega8.md) (20–30 min, Não Listado) agendado após consolidação das inspeções da etapa. |
+| **DG-10** | Tabela de contribuição no início do artefato com o nome de todos os integrantes, contribuição com hiperligação da atividade e da gravação? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.1` — 22/11/2026 às 15:45 | **Tabela de Contribuição** no topo do artefato com links nominais para todos os integrantes. |
+| **DG-11** | A seção de agradecimentos apresentando o uso de Inteligência Artificial (IA) Generativa no artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v3.1` — 22/11/2026 às 15:45 | Seção final de **Agradecimentos e Uso de IA Generativa** conforme Código da SBC e Sales (2026). |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base no Plano de Ensino (Prof. Dr. André Barros de Sales, 2026, pp. 8–9), 2026._
 
@@ -462,6 +463,7 @@ A Tabela 18 documenta o histórico evolutivo deste artefato normativo.
 | `2.3` | 16/11/2026 | Inclusão da Seção 10 com o Checklist Normativo da Entrega 7 (Tabela 13 — 12 critérios para Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade) e renumeração sequencial das Seções 11 a 14 e Tabelas 14 a 16. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 | `2.4` | 19/11/2026 | Inclusão da Seção 11 com o Checklist Normativo da Entrega 8 (Tabela 14 — 12 critérios rigorosos alinhados ao Plano de Ensino 2026.2 e Código de Conduta SBC), atualização da Lista de Verificação da Técnica (`CHK-03` e `CHK-05`) e renumeração sequencial das Seções 12 a 15. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `3.0` | 20/11/2026 | Integração do Catálogo de Listas de Verificação por Artefato (Tabela 2 — 15 módulos em `docs/verificacao/listas/`), inclusão das colunas **`Autor do Item`** e **`Versão, Data e Hora da Avaliação`** em todas as tabelas normativas, e adição da validação do artefato pela lista de governança **`DG-01` a `DG-11`** (Seção 13.2, Tabela 17). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `3.1` | 22/11/2026 | Atualização da Tabela 2 com as versões `v2.1`/`v1.1` do catálogo modular após incremento de Gustavo Antonio (**+21 critérios novos**, **73 coautorias**, **246 figuras/prints** no total de **315 + 20Q itens**). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
