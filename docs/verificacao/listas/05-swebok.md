@@ -10,7 +10,7 @@ A **Tabela 1** apresenta a distribuição de responsabilidades na elaboração, 
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Elaboração modular dos critérios de `SW`, citação direta, recortes da obra e autoavaliação pela rubrica `DG-01` a `DG-11` | 20/11/2026 | 14:00 - 15:30 | Google Gemini | Suporte na organização estrutural, formatação de tabelas em Markdown e conferência cruzada com o Plano de Ensino |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão de conformidade estrutural, navegação e checagem de links | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e validação editorial |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Saneamento formal das questões `1.ia` e `2.ia` com citação direta da *Introduction to the Guide* do SWEBOK v3.0 (`pp. xxxi–xxxii`), limpeza textual em `SW-02` e consolidação em coautoria das questões `3–10` (`SW-01` a `SW-10`) | 22/11/2026 | 15:35 - 16:00 | Antigravity | Conferência cruzada e correção bibliográfica direta no SWEBOK v3.0 |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Saneamento formal das questões `1.ia` e `2.ia` com citação direta da *Introduction to the Guide* do SWEBOK v3.0 (`pp. xxxi–xxxii`), limpeza textual em `SW-02` e consolidação em coautoria das questões `3–10` (`SW-01` a `SW-10`) | 22/11/2026 | 15:35 - 16:00 | Google Gemini | Conferência cruzada e correção bibliográfica direta no SWEBOK v3.0 |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Auditoria de rastreabilidade frente ao Plano de Ensino (`DG-01` a `DG-11`) e referências ABNT | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e conferência documental |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -134,6 +134,11 @@ A **Figura 10** reproduz o trecho comprobatório de referência referente ao cri
 
 **Figura 10** — Evidência documental referente ao item `SW-10`.  
 _Fonte: BOURQUE; FAIRLEY (2014) — SWEBOK V3.0, Capítulo 4 (Software Testing), Item 3.5.2 (User Observation Heuristics), Página 4-10._
+
+---
+
+
+> **Nota sobre Coautoria de Critérios:** Nos itens registrados com coautoria entre integrantes na coluna `Autor do Item`, foi identificada semelhança e equivalência direta entre as listas de verificação individuais elaboradas pelos membros da equipe, optando-se por unificá-los sob coautoria nominal para evitar a duplicação de critérios equivalentes na mesma lista de verificação.
 
 ---
 

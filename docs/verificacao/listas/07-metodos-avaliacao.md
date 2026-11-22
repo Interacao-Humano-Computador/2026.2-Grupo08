@@ -10,7 +10,7 @@ A **Tabela 1** apresenta a distribuição de responsabilidades na elaboração, 
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Elaboração modular dos critérios de `MA`, citação direta, recortes da obra e autoavaliação pela rubrica `DG-01` a `DG-11` | 20/11/2026 | 14:00 - 15:30 | Google Gemini | Suporte na organização estrutural, formatação de tabelas em Markdown e conferência cruzada com o Plano de Ensino |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão de conformidade estrutural, navegação e checagem de links | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e validação editorial |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Saneamento das referências da avaliação heurística individual (alinhando capítulo/página para Barbosa et al., 2021, Cap. 12, pp. 269–270), coautoria em `MA-04` e `MA-05` e adição de **2 critérios novos** (`MA-G01` e `MA-G02`, Figuras 17–18) | 22/11/2026 | 15:40 - 16:00 | Antigravity / Gemini | Suporte sintático Markdown e geração dos recortes grifados em amarelo |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Saneamento das referências da avaliação heurística individual (alinhando capítulo/página para Barbosa et al., 2021, Cap. 12, pp. 269–270), coautoria em `MA-04` e `MA-05` e adição de **2 critérios novos** (`MA-G01` e `MA-G02`, Figuras 17–18) | 22/11/2026 | 15:40 - 16:00 | Google Gemini | Suporte sintático Markdown e geração dos recortes grifados em amarelo |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Auditoria de rastreabilidade frente ao Plano de Ensino (`DG-01` a `DG-11`) e referências ABNT | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e conferência documental |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -232,6 +232,11 @@ A **Figura 18** reproduz o trecho comprobatório de referência referente ao cri
 
 **Figura 18** — Evidência documental referente ao item `MA-G02`.  
 _Fonte: BARBOSA, Simone Diniz Junqueira et al. Interação Humano-Computador e Experiência do Usuário. 1. ed. Rio de Janeiro: Autopublicação, 2021, p. 270 (Capítulo 12, Seção 12.1.1); NIELSEN, Jakob, 1994a._
+
+---
+
+
+> **Nota sobre Coautoria de Critérios:** Nos itens registrados com coautoria entre integrantes na coluna `Autor do Item`, foi identificada semelhança e equivalência direta entre as listas de verificação individuais elaboradas pelos membros da equipe, optando-se por unificá-los sob coautoria nominal para evitar a duplicação de critérios equivalentes na mesma lista de verificação.
 
 ---
 
