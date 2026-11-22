@@ -10,7 +10,7 @@ A **Tabela 1** apresenta a distribuição de responsabilidades na elaboração, 
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Elaboração modular dos critérios de `HTA`, citação direta, recortes da obra e autoavaliação pela rubrica `DG-01` a `DG-11` | 20/11/2026 | 14:00 - 15:30 | Google Gemini | Suporte na organização estrutural, formatação de tabelas em Markdown e conferência cruzada com o Plano de Ensino |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão de conformidade estrutural, navegação e checagem de links | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e validação editorial |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Integração cumulativa da lista individual de HTA (`8 itens`, AC `22/09/2026`, Barbosa & Silva, 2010, Cap. 8.4, pp. 164–167): atribuição de coautoria em `HTA-01` a `HTA-05` e `HTA-08` | 22/11/2026 | 15:25 - 16:00 | Antigravity | Conferência cruzada de equivalência semântica entre as edições de 2010 e 2021 |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Integração cumulativa da lista individual de HTA (`8 itens`, AC `22/09/2026`, Barbosa & Silva, 2010, Cap. 8.4, pp. 164–167): atribuição de coautoria em `HTA-01` a `HTA-05` e `HTA-08` | 22/11/2026 | 15:25 - 16:00 | Google Gemini | Conferência cruzada de equivalência semântica entre as edições de 2010 e 2021 |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Integração cumulativa da lista individual de HTA (8 itens, AC 22/11/2026, Barbosa & Silva, 2010, pp. 191–194): atribuição de coautoria em `HTA-01` a `HTA-05`, `HTA-07`, `HTA-08` e `HTA-09` | 22/11/2026 | 10:30 - 12:30 | Google Gemini | Conferência cruzada de equivalência semântica e citações canônicas de Barbosa & Silva (2010) |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Auditoria de rastreabilidade frente ao Plano de Ensino (`DG-01` a `DG-11`) e referências ABNT | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e conferência documental |
 
@@ -157,6 +157,11 @@ A **Figura 11** reproduz o trecho comprobatório de referência referente ao cri
 
 **Figura 11** — Evidência documental referente ao item `HTA-10`.  
 _Fonte: BARBOSA, Simone Diniz Junqueira et al. Interação Humano-Computador e Experiência do Usuário. 1. ed. Rio de Janeiro: Autopublicação, 2021, pp. 165 e 167 (Capítulo 8, Seção 8.4.1, Figuras 8.1 e 8.2)._
+
+---
+
+
+> **Nota sobre Coautoria de Critérios:** Nos itens registrados com coautoria entre integrantes na coluna `Autor do Item`, foi identificada semelhança e equivalência direta entre as listas de verificação individuais elaboradas pelos membros da equipe, optando-se por unificá-los sob coautoria nominal para evitar a duplicação de critérios equivalentes na mesma lista de verificação.
 
 ---
 

@@ -110,6 +110,11 @@ _Fonte: BARBOSA, Simone Diniz Junqueira et al. Interação Humano-Computador e E
 
 ---
 
+
+> **Nota sobre Coautoria de Critérios:** Nos itens registrados com coautoria entre integrantes na coluna `Autor do Item`, foi identificada semelhança e equivalência direta entre as listas de verificação individuais elaboradas pelos membros da equipe, optando-se por unificá-los sob coautoria nominal para evitar a duplicação de critérios equivalentes na mesma lista de verificação.
+
+---
+
 ## 3. Validação desta Lista pela Lista de Governança do Prof. Dr. André Barros de Sales (`DG-01` a `DG-11`)
 
 Em estrito cumprimento às diretrizes de qualidade do Plano de Ensino (*Sales, 2026, pp. 8–9*), a **Tabela 3** submete esta própria página (`08-elenco-personas.md`) aos **11 Itens de Desenvolvimento do Projeto** formulados pelo Prof. Dr. André Barros de Sales.

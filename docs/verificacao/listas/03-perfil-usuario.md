@@ -10,7 +10,7 @@ A **Tabela 1** apresenta a distribuição de responsabilidades na elaboração, 
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Elaboração modular dos critérios de `PU`, citação direta, recortes da obra e autoavaliação pela rubrica `DG-01` a `DG-11` | 20/11/2026 | 14:00 - 15:30 | Google Gemini | Suporte na organização estrutural, formatação de tabelas em Markdown e conferência cruzada com o Plano de Ensino |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão de conformidade estrutural, navegação e checagem de links | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e validação editorial |
-| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Saneamento da lista individual de 42 itens de Perfil de Usuário (correção de matrícula `242015380` e alinhamento bibliográfico `Barbosa & Silva, 2010` / `Barbosa et al., 2021`), atribuição de coautoria nos `30` critérios `PU` convergentes e adição de **5 critérios inéditos** (`PU-G07` a `PU-G11`) com recortes `Figura 46` a `Figura 50` | 22/11/2026 | 15:35 - 16:00 | Antigravity / Gemini | Suporte sintático Markdown e geração dos recortes grifados em amarelo |
+| [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Saneamento da lista individual de 42 itens de Perfil de Usuário (saneamento de cabeçalho e alinhamento bibliográfico `Barbosa & Silva, 2010` / `Barbosa et al., 2021`), atribuição de coautoria nos `30` critérios `PU` convergentes e adição de **5 critérios inéditos** (`PU-G07` a `PU-G11`) com recortes `Figura 46` a `Figura 50` | 22/11/2026 | 15:35 - 16:00 | Google Gemini | Suporte sintático Markdown e geração dos recortes grifados em amarelo |
 | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Auditoria de rastreabilidade frente ao Plano de Ensino (`DG-01` a `DG-11`) e referências ABNT | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e conferência documental |
 
 _Fonte: Elaborada pelos autores, 2026._
@@ -528,8 +528,12 @@ _Fonte: BARBOSA, Simone Diniz Junqueira et al. Interação Humano-Computador e E
 
 ### 2.4 Critérios Complementares de Coleta de Dados — Edvaldo Soares
 
-Itens complementares integrados da lista individual de Edvaldo. Os critérios existentes e suas autorias foram preservados.
+A **Tabela 5** apresenta os **42 critérios complementares de Coleta de Dados e Perfil de Usuário** (`CLD-01` a `CLD-42`) integrados da lista individual de Edvaldo Soares Brasileiro Filho, preservando integralmente os critérios anteriores.
 
+**Tabela 5** — Critérios complementares de Coleta de Dados e Perfil de Usuário (42 itens)
+
+| ID | Critério / Pergunta de Verificação | Autor do Item | Fundamentação Canônica (Obra, Ed., Cap., Pág.) | Evidência Visual (Print) | Resposta | Versão, Data e Hora da Avaliação |
+| :---: | :--- | :--- | :--- | :---: | :---: | :---: |
 | **CLD-01** | **Identificação das Características Demográficas do Usuário**<br>O artefato de perfil de usuário levanta e documenta dados demográficos essenciais (como faixa etária, escolaridade e ocupação profissional) dos participantes? | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | BARBOSA; SILVA. Interação Humano-Computador. 1. ed. Elsevier, 2010. Cap. 6, Seção 6.1, p. 174. | ![Evidência bibliográfica CLD-01](../../assets/verificacao/03-perfil-usuario/CLD-01.png) | `[ ] Sim (Conforme)`<br>`[ ] Não (Não Conforme)`<br>`[ ] Incompleto`<br>`[ ] N/A` | *(Preencher na inspeção)* |
 | **CLD-02** | **Mapeamento da Experiência Prévia com Tecnologias e Domínio**<br>O artefato identifica o nível de letramento digital dos usuários e sua familiaridade prévia com ferramentas similares e com o domínio da aplicação? | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | BARBOSA; SILVA. Interação Humano-Computador. 1. ed. Elsevier, 2010. Cap. 6, Seção 6.1, pp. 174-175. | ![Evidência bibliográfica CLD-02](../../assets/verificacao/03-perfil-usuario/CLD-02.png) | `[ ] Sim (Conforme)`<br>`[ ] Não (Não Conforme)`<br>`[ ] Incompleto`<br>`[ ] N/A` | *(Preencher na inspeção)* |
 | **CLD-03** | **Mapeamento de Atitudes em Relação à Tecnologia**<br>O perfil do usuário documenta as disposições comportamentais do público-alvo frente à adoção de inovações (tecnófilos vs. tecnófobos, receios, motivações)? | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | BARBOSA; SILVA. Interação Humano-Computador. 1. ed. Elsevier, 2010. Cap. 6, Seção 6.1, p. 175. | ![Evidência bibliográfica CLD-03](../../assets/verificacao/03-perfil-usuario/CLD-03.png) | `[ ] Sim (Conforme)`<br>`[ ] Não (Não Conforme)`<br>`[ ] Incompleto`<br>`[ ] N/A` | *(Preencher na inspeção)* |
@@ -573,18 +577,27 @@ Itens complementares integrados da lista individual de Edvaldo. Os critérios ex
 | **CLD-41** | **Utilização de Suporte de Rascunho Individual**<br>É disponibilizado suporte de anotação individual (papel e caneta/post-its) para que cada participante registre suas ideias antes de vocalizá-las ao grupo? | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | BARBOSA; SILVA. Interação Humano-Computador. 1. ed. Elsevier, 2010. Cap. 5, Seção 5.5, p. 157. | ![Evidência bibliográfica CLD-41](../../assets/verificacao/03-perfil-usuario/CLD-41.png) | `[ ] Sim (Conforme)`<br>`[ ] Não (Não Conforme)`<br>`[ ] Incompleto`<br>`[ ] N/A` | *(Preencher na inspeção)* |
 | **CLD-42** | **Atividade Estruturada de Priorização**<br>A dinâmica prevê uma etapa formal de consolidação e votação/priorização das ideias mais relevantes levantadas ao término da sessão? | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | BARBOSA; SILVA. Interação Humano-Computador. 1. ed. Elsevier, 2010. Cap. 5, Seção 5.5, p. 157. | ![Evidência bibliográfica CLD-42](../../assets/verificacao/03-perfil-usuario/CLD-42.png) | `[ ] Sim (Conforme)`<br>`[ ] Não (Não Conforme)`<br>`[ ] Incompleto`<br>`[ ] N/A` | *(Preencher na inspeção)* |
 
+_Fonte: Elaborada por [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) com base em Barbosa e Silva (2010), 2026._
+
+---
+
+
+> **Nota sobre Coautoria de Critérios:** Nos itens registrados com coautoria entre integrantes na coluna `Autor do Item`, foi identificada semelhança e equivalência direta entre as listas de verificação individuais elaboradas pelos membros da equipe, optando-se por unificá-los sob coautoria nominal para evitar a duplicação de critérios equivalentes na mesma lista de verificação.
+
+---
+
 ## 3. Validação desta Lista pela Lista de Governança do Prof. Dr. André Barros de Sales (`DG-01` a `DG-11`)
 
-Em estrito cumprimento às diretrizes de qualidade do Plano de Ensino (*Sales, 2026, pp. 8–9*), a **Tabela 5** submete esta própria página (`03-perfil-usuario.md`) aos **11 Itens de Desenvolvimento do Projeto** formulados pelo Prof. Dr. André Barros de Sales.
+Em estrito cumprimento às diretrizes de qualidade do Plano de Ensino (*Sales, 2026, pp. 8–9*), a **Tabela 6** submete esta própria página (`03-perfil-usuario.md`) aos **11 Itens de Desenvolvimento do Projeto** formulados pelo Prof. Dr. André Barros de Sales.
 
-**Tabela 5** — Autoavaliação de `03-perfil-usuario.md` frente aos critérios `DG-01` a `DG-11`
+**Tabela 6** — Autoavaliação de `03-perfil-usuario.md` frente aos critérios `DG-01` a `DG-11`
 
 | ID | Critério de Governança do Plano de Ensino | Autor do Item | Resposta | Versão, Data e Hora da Avaliação | Evidência de Conformidade nesta Lista |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| **DG-01** | O histórico de versão padronizado? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.1` — 22/11/2026 às 15:40 | Seção **Histórico de Versão** (**Tabela 6**) padronizada ao final de `03-perfil-usuario.md` registrando `v2.1`. |
+| **DG-01** | O histórico de versão padronizado? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.1` — 22/11/2026 às 15:40 | Seção **Histórico de Versão** (**Tabela 7**) padronizada ao final de `03-perfil-usuario.md` registrando `v2.1`. |
 | **DG-02** | O(s) autor(es) e o(s) revisor(es) para cada artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.1` — 22/11/2026 às 15:40 | Colunas **Autor(es)** e **Revisor(es)** preenchidas com links GitHub no Histórico de Versão, além da coluna **`Autor do Item`** e coautorias nominais em 100% dos critérios da lista. |
 | **DG-03** | Referências bibliográficas e/ou bibliografia em todos os artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.1` — 22/11/2026 às 15:40 | Seção **Referências Bibliográficas (ABNT NBR 6023)** completa ao final do documento com obras, edições e páginas exatas. |
-| **DG-04** | As tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.1` — 22/11/2026 às 15:40 | 100% das tabelas (`Tabela 1` a `Tabela 6`) e figuras (`Figura 1` a `Figura 50`) possuem numeração, legenda, fonte e chamadas textuais prévias. |
+| **DG-04** | As tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.1` — 22/11/2026 às 15:40 | 100% das tabelas (`Tabela 1` a `Tabela 7`) e figuras (`Figura 1` a `Figura 50`) possuem numeração, legenda, fonte e chamadas textuais prévias. |
 | **DG-05** | Um texto fazendo uma introdução dos artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.1` — 22/11/2026 às 15:40 | Seção **1. Introdução e Contextualização Metodológica** situa o instrumento no Ciclo de Mayhew (1999) e na Inspeção Formal de Fagan (1976). |
 | **DG-06** | O cronograma executado com quem realizou cada artefato/atividade e as datas de início e fim da construção/realização? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.1` — 22/11/2026 às 15:40 | Registros de elaboração e revisão vinculados ao [Cronograma Executado](../../planejamento/cronograma-executado.md) e ao histórico Git da equipe. |
 | **DG-07** | Ata(s) da(s) reuniões (com data, horário de início e do final, participantes, objetivo, atividades definidas etc.)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.1` — 22/11/2026 às 15:40 | Deliberações e alinhamentos documentados nas [Atas de Reunião](../../atas/index.md). |
@@ -599,15 +612,15 @@ _Fonte: Validação elaborada por Vinicius Silva Araruna e atualizada por Gustav
 
 ## 4. Histórico de Versão
 
-A **Tabela 6** registra a evolução histórica e o controle de versionamento deste instrumento normativo.
+A **Tabela 7** registra a evolução histórica e o controle de versionamento deste instrumento normativo.
 
-**Tabela 6** — Histórico de Versão do Documento
+**Tabela 7** — Histórico de Versão do Documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 15/09/2026 | Lista de Verificação original com 42 itens (`Grupo8ViniciusSilvaArarunaVerifacaçãoListaPerfilUsuario.pdf`) e aplicação tabular em `perfil-usuario.md`. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
 | `2.0` | 20/11/2026 | Consolidação em `03-perfil-usuario.md`, integração dos 42 itens originais + 3 itens do Prof. André + 6 itens de Gustavo Antonio (`perfil-usuario.md`), publicação dos 42 recortes e validação `DG-01..11`. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
-| `2.1` | 22/11/2026 | Saneamento dos 42 itens individuais de Gustavo Antonio (correção da matrícula `242015380` e alinhamento de lacunas éticas/entrevistas/questionários), atribuição de coautoria nos 30 critérios `PU` equivalentes e adição dos 5 critérios complementares `PU-G07` a `PU-G11` com **Figuras 46–50**. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `2.1` | 22/11/2026 | Saneamento dos 42 itens individuais de Gustavo Antonio (saneamento de cabeçalho e alinhamento de lacunas éticas/entrevistas/questionários), atribuição de coautoria nos 30 critérios `PU` equivalentes e adição dos 5 critérios complementares `PU-G07` a `PU-G11` com **Figuras 46–50**. | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada pelos autores, 2026._
 
