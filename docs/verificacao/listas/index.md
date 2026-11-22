@@ -10,9 +10,9 @@ A **Tabela 1** apresenta a distribuição de responsabilidades na elaboração, 
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | Organização modular em duas camadas (Ciclo de Vida de Mayhew → 15 páginas por Artefato), matriz de autoria por item e governança `DG-01` a `DG-11` | 20/11/2026 | 14:00 - 15:30 | Google Gemini | Suporte na organização estrutural, formatação de tabelas em Markdown e conferência cruzada com o Plano de Ensino |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | Revisão de conformidade estrutural, navegação e checagem de links | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e validação editorial |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Auditoria de rastreabilidade frente ao Plano de Ensino (`DG-01` a `DG-11`) e referências ABNT | 20/11/2026 | 15:30 - 16:00 | — | Revisão por pares e conferência documental |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | Auditoria de rastreabilidade frente ao Plano de Ensino (`DG-01` a `DG-11`), referências ABNT e autoria das 4 listas modulares (`edvaldo-01` a `edvaldo-04`) | 20/11/2026 — 22/11/2026 | 15:30 - 16:00 / 12:00 - 15:00 | Google Gemini (Antigravity) | Revisão por pares, conferência documental e suporte à formatação Markdown das listas autorais |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -36,7 +36,7 @@ _Fonte: Diagrama elaborado por [Vinicius Silva Araruna](https://github.com/Vinic
 
 ## 2. Matriz Geral das Listas de Verificação, Autoria e Versões
 
-A **Tabela 2** consolida todas as **15 listas temáticas** do catálogo, somando **57 itens do Prof. André Barros de Sales**, **198 itens normativos + 20 questões teóricas de Vinicius Silva Araruna** e **39 itens complementares de Gustavo Antonio e Edvaldo Soares** registrados no repositório.
+A **Tabela 2** consolida todas as **24 listas temáticas** do catálogo, somando **57 itens do Prof. André Barros de Sales**, **198 itens normativos + 20 questões teóricas de Vinicius Silva Araruna** e **149 itens complementares de Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho** (sendo 10 do DECIDE, 42 de Coleta de Dados, 12 de Personas, 13 de V&V + Fundamentos, 5 de Elenco de Personas, 8 de Cenários, 8 de HTA, 8 de CTT e 14 de Protótipo de Papel de autoria de Edvaldo).
 
 **Tabela 2** — Matriz consolidada das Listas de Verificação por Artefato
 
@@ -57,9 +57,18 @@ A **Tabela 2** consolida todas as **15 listas temáticas** do catálogo, somando
 | **[Nível 1 — Storyboard](01-storyboard.md)** (`SB`) | `v2.0` | 2 | 12 | 10 | 14 | ✅ Validada (`DG-01..11`) |
 | **[Nível 2 — Protótipo de Papel](12-prototipo-papel.md)** (`PP`) | `v2.0` | 0 | 17 | 0 | 17 | ✅ Validada (`DG-01..11`) |
 | **[Protótipo de Alta Fidelidade e Teste de Usabilidade (Nível 3)](14-alta-fidelidade.md)** (`AF`) | `v2.0` | 2 | 12 | 8 | 12 | ✅ Validada (`DG-01..11`) |
-| **TOTAL CONSOLIDADO (15 MÓDULOS)** | — | **57** | **198 (+20Q)** | **39** | **225** | ✅ **15/15 Autovalidadas** *(exceto `DG-09` em preparo)* |
+| **[Planejamento da Avaliação — DECIDE (Edvaldo)](edvaldo-01-decide.md)** (`DEC-E`) | `v1.0` | 0 | 0 | 10 | 0 | ✅ Validada (`DG-01..11`) |
+| **[Coleta de Dados e Perfil do Usuário (Edvaldo)](edvaldo-02-coleta-dados.md)** (`CLD`) | `v1.0` | 0 | 0 | 42 | 0 | ✅ Validada (`DG-01..11`) |
+| **[Personas (Edvaldo)](edvaldo-03-personas.md)** (`PER`) | `v1.0` | 0 | 0 | 12 | 0 | ✅ Validada (`DG-01..11`) |
+| **[Verificação e Validação — Fundamentos (Edvaldo)](edvaldo-04-vv-requisitos.md)** (`VVR`) | `v1.0` | 0 | 0 | 13 | 0 | ✅ Validada (`DG-01..11`) |
+| **[Elenco de Personas (Edvaldo)](edvaldo-05-elenco-personas.md)** (`EP-E`) | `v1.0` | 0 | 0 | 5 | 0 | ✅ Validada (`DG-01..11`) |
+| **[Cenários (Edvaldo)](edvaldo-06-cenarios.md)** (`CN-E`) | `v1.0` | 0 | 0 | 8 | 0 | ✅ Validada (`DG-01..11`) |
+| **[Análise Hierárquica de Tarefas — HTA (Edvaldo)](edvaldo-07-hta.md)** (`HTA-E`) | `v1.0` | 0 | 0 | 8 | 0 | ✅ Validada (`DG-01..11`) |
+| **[Árvores de Tarefas Concorrentes — CTT (Edvaldo)](edvaldo-08-ctt.md)** (`CTT-E`) | `v1.0` | 0 | 0 | 8 | 0 | ✅ Validada (`DG-01..11`) |
+| **[Protótipo de Papel e Planejamento (Edvaldo)](edvaldo-09-prototipo-papel.md)** (`PP-E`) | `v1.0` | 0 | 0 | 14 | 0 | ✅ Validada (`DG-01..11`) |
+| **TOTAL CONSOLIDADO (24 MÓDULOS)** | — | **57** | **198 (+20Q)** | **149** | **225** | ✅ **24/24 Autovalidadas** *(exceto `DG-09` em preparo)* |
 
-_Fonte: Elaborada por [Vinicius Silva Araruna](https://github.com/ViniciusA05), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -96,8 +105,9 @@ A **Tabela 4** registra a evolução histórica e o controle de versionamento de
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 20/11/2026 | Criação do Catálogo de Listas de Verificação por Artefato indexando todas as 15 listas temáticas, autoria nominal por item, controle de versões e autovalidação pela lista `DG-01` a `DG-11`. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `1.1` | 22/11/2026 | Adição dos 9 módulos autorais de Edvaldo Soares Brasileiro Filho (`edvaldo-01` a `edvaldo-09`), totalizando 24 listas temáticas e 149 itens da equipe, atualização das fontes nominais e da matriz de contribuição. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
