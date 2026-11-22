@@ -38,9 +38,9 @@ Conforme estabelecido pela dinâmica didática da disciplina, cada equipe é res
 
 ```mermaid
 flowchart LR
-    G07["Grupo 07 (Grupo N - 1)<br/><b>PCI Concursos</b><br/><i>Auditado pelo Grupo 08</i>"]
-    G08["Grupo 08 (Nossa Equipe)<br/><b>Fórum Diolinux Plus</b><br/><i>Autoavaliação Contínua</i>"]
-    G01["Grupo 01 (Grupo N + 1)<br/><b>Microsoft Teams</b><br/><i>Auditado pelo Grupo 08</i>"]
+    G07["Grupo 07 (Grupo N - 1) - PCI Concursos - Auditado pelo Grupo 08"]
+    G08["Grupo 08 (Nossa Equipe) - Forum Diolinux Plus - Autoavaliacao Continua"]
+    G01["Grupo 01 (Grupo N + 1) - Microsoft Teams - Auditado pelo Grupo 08"]
 
     G08 -.->|"Inspeção das Etapas 2, 4 e 6"| G07
     G08 -->|"Desenvolvimento e Autoavaliação"| G08
@@ -64,10 +64,12 @@ A Tabela 2 sintetiza os acessos diretos aos instrumentos de verificação, relat
 
 | Módulo / Escopo | Objeto / Finalidade | Etapas Cobertas | Acesso Direto |
 | :--- | :--- | :---: | :---: |
-| **Checklists Normativos** | Instrumentos em branco padronizados com perguntas objetivas e fontes canônicas | Etapas 1 a 8 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
+| **Listas de Verificação por Artefato** | 15 listas temáticas com autoria nominal por item (Prof. André e equipe), citações diretas e mais de 200 recortes da literatura | Etapas 1 a 8 | [:material-folder-multiple: Acessar Listas por Artefato](listas/index.md) |
+| **Checklists Normativos (Por Entrega)** | Instrumentos em branco padronizados agrupados por entrega com perguntas objetivas, fontes canônicas e colunas de autoria e data/hora | Etapas 1 a 8 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
 | **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade e retrabalho dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1 a 8 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
 | **Avaliação do Grupo -1** | Auditoria técnica e pedagógica do Grupo 07 (Portal PCI Concursos) | Hub Central, Etapas 2, 4 e 6 | [:material-account-arrow-left: Acessar Auditoria Grupo 07](grupo07/index.md) |
 | **Avaliação do Grupo +1** | Auditoria técnica e pedagógica do Grupo 01 (Microsoft Teams) | Hub Central, Etapas 3, 5 e 7 | [:material-account-arrow-right: Acessar Auditoria Grupo 01](grupo01/index.md) |
+| **Entrega 8 (Consolidação)** | Síntese oficial da Entrega 8 e acesso unificado aos instrumentos normativos e auditorias | Etapa 8 | [:material-flag-checkered: Acessar Entrega 8](../entregas/entrega8.md) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
@@ -79,10 +81,10 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
   <div style="background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between;">
     <div>
-      <h3 style="margin-top: 0; color: var(--dp-purple); font-size: 1.05rem;">📋 Listas de Verificação</h3>
-      <p style="font-size: 0.88rem; color: var(--dp-text);">Instrumentos neutros baseados nas rubricas oficiais do Plano de Ensino e na literatura canônica (Barbosa et al., Nielsen, Mayhew, Snyder).</p>
+      <h3 style="margin-top: 0; color: var(--dp-purple); font-size: 1.05rem;">📋 Listas de Verificação por Artefato &amp; Checklists</h3>
+      <p style="font-size: 0.88rem; color: var(--dp-text);">15 listas temáticas por artefato organizadas pelo Ciclo de Mayhew com coluna de autor por item (Prof. André e discentes da equipe) e recortes da literatura.</p>
     </div>
-    <a href="lista-verificacao/" class="md-button md-button--primary" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Consultar Checklists</a>
+    <a href="listas/" class="md-button md-button--primary" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Acessar 15 Listas por Artefato</a>
   </div>
 
   <div style="background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between;">
@@ -113,11 +115,35 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 
 ---
 
-## 5. Histórico de Versão
+## 5. Validação do Portal pela Lista de Governança do Prof. Dr. André Barros de Sales (`DG-01` a `DG-11`)
 
-A Tabela 3 documenta a evolução histórica deste Portal de Verificação.
+A **Tabela 3** aplica os 11 critérios oficiais de desenvolvimento e governança do Plano de Ensino (*Sales, 2026, pp. 8–9*) sobre este próprio Portal de Verificação.
 
-**Tabela 3** — Histórico de Versão do Documento
+**Tabela 3** — Autoavaliação de Governança do Portal de Verificação (`DG-01` a `DG-11`)
+
+| ID | Critério de Governança do Plano de Ensino | Autor do Item | Resposta | Versão, Data e Hora da Avaliação | Evidência de Conformidade neste Portal |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| **DG-01** | O histórico de versão padronizado? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | **Tabela 4** padronizada na Seção 6. |
+| **DG-02** | O(s) autor(es) e o(s) revisor(es) para cada artefato? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | Indicados com hyperlinks GitHub na **Tabela 1**, linha de autoria teórica e **Tabela 4**. |
+| **DG-03** | Referências bibliográficas e/ou bibliografia em todos os artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | Seção 7 completa no padrão ABNT. |
+| **DG-04** | As tabelas e imagens possuem legenda e fonte e são chamadas dentro do texto? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | **Figura 1** e **Tabelas 1 a 4** devidamente numeradas, com fonte e chamadas textuais. |
+| **DG-05** | Um texto fazendo uma introdução dos artefatos? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | Seção 1 contextualiza V&V, Fagan (1976) e Mayhew (1999). |
+| **DG-06** | O cronograma executado com quem realizou cada atividade e datas? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | Vinculado a [Cronograma Executado](../planejamento/cronograma-executado.md). |
+| **DG-07** | Ata(s) da(s) reuniões (data, horário, participantes, objetivo, atividades)? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | Linkada via [Atas de Reunião](../atas/index.md). |
+| **DG-08** | A gravação da reunião do grupo? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | Disponibilizada nas páginas individuais de [Atas de Reunião](../atas/index.md). |
+| **DG-09** | Vídeo de apresentação na categoria 'Não Listado' no YouTube? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ⚠️ **Em preparação (Etapa 8)** | `v2.0` — 20/11/2026 às 15:05 | Vídeos das Entregas 1–7 publicados; apresentação da [Entrega 8](../entregas/entrega8.md) (20–30 min, Não Listado) prevista após conclusão das inspeções da etapa. |
+| **DG-10** | Tabela de contribuição no início do artefato com hiperligações? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | **Tabela 1** presente no topo da página. |
+| **DG-11** | Seção de agradecimentos apresentando o uso de IA Generativa? | **Prof. Dr. André Barros de Sales** *(Plano de Ensino FGA0173, 2026)* | ✅ **Sim (Conforme)** | `v2.0` — 20/11/2026 às 15:05 | Seção final explícita sobre uso supervisionado de IA. |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base no Plano de Ensino (Prof. Dr. André Barros de Sales, 2026, pp. 8–9), 2026._
+
+---
+
+## 6. Histórico de Versão
+
+A **Tabela 4** documenta a evolução histórica deste Portal de Verificação.
+
+**Tabela 4** — Histórico de Versão do Documento
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
@@ -125,12 +151,13 @@ A Tabela 3 documenta a evolução histórica deste Portal de Verificação.
 | `1.1` | 04/11/2026 | Atualização do fluxo cíclico e dos módulos de inspeção com a inclusão da auditoria da Etapa 6 do Grupo -1 (Grupo 07). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.2` | 16/11/2026 | Atualização do fluxo cíclico, Tabela 2 e destaques com a inclusão da auditoria da Etapa 7 do Grupo +1 (Grupo 01 — Microsoft Teams). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.3` | 19/11/2026 | Atualização da cobertura dos módulos de Checklists Normativos e Auto-Avaliação do Grupo 08 para as Etapas 1 a 8 (Entrega 8 — Auditoria Global). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
+| `2.0` | 20/11/2026 | Integração do Catálogo de Listas de Verificação por Artefato (15 módulos temáticos), vínculo com a Entrega 8 e inclusão da validação pela lista de governança `DG-01` a `DG-11` do Prof. André Barros de Sales. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
-## 6. Referências Bibliográficas (ABNT)
+## 7. Referências Bibliográficas (ABNT)
 
 [1] BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 
