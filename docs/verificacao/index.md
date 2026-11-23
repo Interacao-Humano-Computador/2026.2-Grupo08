@@ -64,11 +64,11 @@ A Tabela 2 sintetiza os acessos diretos aos instrumentos de verificação, relat
 
 | Módulo / Escopo | Objeto / Finalidade | Etapas Cobertas | Acesso Direto |
 | :--- | :--- | :---: | :---: |
-| **Listas de Verificação por Artefato** | 15 listas temáticas com autoria nominal por item (Prof. André e equipe), citações diretas e mais de 200 recortes da literatura | Etapas 1 a 8 | [:material-folder-multiple: Acessar Listas por Artefato](listas/index.md) |
+| **Listas de Verificação por Artefato** | 16 listas temáticas (`v1.0` a `v2.2` — 414 itens e 325 recortes) com autoria nominal por item (Prof. André e equipe), citações diretas e mais de 200 recortes da literatura | Etapas 1 a 8 | [:material-folder-multiple: Acessar Listas por Artefato](listas/index.md) |
 | **Checklists Normativos (Por Entrega)** | Instrumentos em branco padronizados agrupados por entrega com perguntas objetivas, fontes canônicas e colunas de autoria e data/hora | Etapas 1 a 8 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
 | **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade e retrabalho dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1 a 8 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
-| **Avaliação do Grupo -1** | Auditoria técnica e pedagógica do Grupo 07 (Portal PCI Concursos) | Hub Central, Etapas 2, 4 e 6 | [:material-account-arrow-left: Acessar Auditoria Grupo 07](grupo07/index.md) |
-| **Avaliação do Grupo +1** | Auditoria técnica e pedagógica do Grupo 01 (Microsoft Teams) | Hub Central, Etapas 3, 5 e 7 | [:material-account-arrow-right: Acessar Auditoria Grupo 01](grupo01/index.md) |
+| **Avaliação do Grupo -1** | Auditoria técnica e pedagógica do Grupo 07 (Portal PCI Concursos) | Hub Central, Etapas 2, 4, 6 e 8 (Auditoria Global) | [:material-account-arrow-left: Acessar Auditoria Grupo 07](grupo07/index.md) |
+| **Avaliação do Grupo +1** | Auditoria técnica e pedagógica do Grupo 01 (Microsoft Teams) | Hub Central, Etapas 3, 5, 7 e 8 (Auditoria Global) | [:material-account-arrow-right: Acessar Auditoria Grupo 01](grupo01/index.md) |
 | **Entrega 8 (Consolidação)** | Síntese oficial da Entrega 8 e acesso unificado aos instrumentos normativos e auditorias | Etapa 8 | [:material-flag-checkered: Acessar Entrega 8](../entregas/entrega8.md) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
@@ -82,9 +82,9 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
   <div style="background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between;">
     <div>
       <h3 style="margin-top: 0; color: var(--dp-purple); font-size: 1.05rem;">📋 Listas de Verificação por Artefato &amp; Checklists</h3>
-      <p style="font-size: 0.88rem; color: var(--dp-text);">15 listas temáticas por artefato organizadas pelo Ciclo de Mayhew com coluna de autor por item (Prof. André e discentes da equipe) e recortes da literatura.</p>
+      <p style="font-size: 0.88rem; color: var(--dp-text);">16 listas temáticas (`v1.0` a `v2.2` — 414 itens e 325 recortes) por artefato organizadas pelo Ciclo de Mayhew com coluna de autor por item (Prof. André e discentes da equipe) e recortes da literatura.</p>
     </div>
-    <a href="listas/" class="md-button md-button--primary" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Acessar 15 Listas por Artefato</a>
+    <a href="listas/" class="md-button md-button--primary" style="margin-top: 0.8rem; font-size: 0.82rem; text-align: center;">Acessar 16 Listas por Artefato</a>
   </div>
 
   <div style="background: var(--dp-card); border: 1px solid var(--dp-border); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between;">

@@ -37,6 +37,7 @@ A Tabela 2 apresenta o panorama cronológico e consolidado de todas as etapas do
 
 | Etapa Avaliada | Data da Avaliação | Versão / Commit Avaliado | Conformidade Geral | Relatório Completo | Apresentação em Vídeo | Relatório Oficial em PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Etapa 8**<br>*(Auditoria Global: Repositório e 4 Tarefas — 16 Listas `v1.0..v2.2` / 414 Itens)* | 22/11/2026 | Commit `1d3c8f7`<br>*(22/11/2026)* | **49,9% Pleno**<br>38,3% Parcial<br>11,8% Não Conforme<br>*(Taxa Ponderada: 69,0%)* | [Acessar Relatório da Etapa 8](etapa8.md) | [:material-file-document-check: Ver Roteiro e Dossiê](etapa8.md) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Grupo08InspecaoGrupo01Etapa8MicrosoftTeams.pdf) |
 | **Etapa 7**<br>*(Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Nível 3)* | 16/11/2026 | Commit `ac5df28`<br>*(15/11/2026)* | **4,3% Pleno**<br>60,9% Parcial<br>34,8% Não Conforme<br>*(Taxa Ponderada: 34,8%)* | [Acessar Relatório da Etapa 7](etapa7.md) | [:material-youtube: Assistir (uFMTMShnoz4)](https://youtu.be/uFMTMShnoz4) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Grupo08InspecaoGrupo01Etapa7.pdf) |
 | **Etapa 5**<br>*(Relatos de Nível 1 e Planejamento do Protótipo de Papel)* | 26/10/2026 | Commit `10a7c3d`<br>*(25/10/2026)* | **6,7% Pleno**<br>46,7% Parcial<br>46,7% Não Conforme<br>*(Taxa Ponderada: 30,0%)* | [Acessar Relatório da Etapa 5](etapa5.md) | [:material-youtube: Assistir (QjAnF0_ooT8)](https://youtu.be/QjAnF0_ooT8) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf) |
 | **Etapa 3**<br>*(Princípios, Metas, Guia de Estilo e Características)* | 10/10/2026 | Commit `f0c8a2f`<br>*(06/10/2026)* | **16,7% Pleno**<br>44,4% Parcial<br>38,9% Não Conforme<br>*(Taxa Ponderada: 38,9%)* | [Acessar Relatório da Etapa 3](etapa3.md) | [:material-youtube: Assistir (lttsLbInYaM)](https://youtu.be/lttsLbInYaM) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Inspecao_Grupo01_Etapa3_Principios_Metas_GuiaEstilo.pdf) |
@@ -48,6 +49,18 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 ## 3. Navegação Rápida pelos Relatórios de Inspeção
 
 Para facilitar a consulta dos avaliadores, do professor e dos próprios integrantes do Grupo 01, os relatórios de cada etapa estão estruturados em páginas dedicadas com riqueza analítica, gráficos e planos de ação.
+
+### 3.0 Etapa 8 (Auditoria Global) — Verificação do Repositório e das 4 Tarefas Individuais (16 Listas `v1.0` a `v2.2` / 414 Itens)
+
+A auditoria global da Etapa 8 inspecionou todos os **66 arquivos Markdown** da branch `main` (`commit 1d3c8f7`) do Grupo 01 frente aos **414 itens das 16 Listas de Verificação por Artefato do Grupo 08 (`00` a `15`, versões `v1.0` a `v2.2`, Catálogo `v1.2/v1.3` @ `a4d176d`)**, avaliando separadamente o **Bloco Geral do Repositório (`Microsoft Teams`)** e cada uma das **4 Tarefas/Frentes Individuais** (**João Paulo**, **Evellyn Rocha**, **Lucas Sales** e **Rayca / Consolidado**).
+
+- **Status Geral (`381` aplicáveis + `33` N/A):** **190 Conformes (`49,9%`)**, **146 Incompletos (`38,3%`)** e **45 Não Conformes (`11,8%`)**, atingindo **Taxa Ponderada Global de `69,0%`** (T1 João Paulo: `57,2% / 73,2%`; T3 Lucas Sales: `55,6% / 72,2%`; T2 Evellyn: `49,9% / 68,4%`; T4 Rayca/Consolidado: `29,1% / 42,5%`).
+- **Principais Destaques Positivos:** Organização modular da frente de João Paulo (`Joao_Paulo/` com piloto e `n = 5` sessões gravadas no Nível 3), Nível 1 completo de Evellyn Rocha e 3 sessões gravadas de Lucas Sales no Nível 3.
+- **Problemas Críticos Identificados:** **Exposição de 3 números de matrícula na `main` (`PG-01`)** (`208838360` e `213491634` em `docs/index.md` e `241025784` em `lista-verificacao-etapa6.md`), página principal consolidada do Nível 3 (`resultados_teste_usabilidade.md`) **vazia com apenas 10 linhas**, 16 arquivos sem Tabela de Contribuição, 14 sem Referências, 42 sem Declaração de IA, os 4 arquivos da Entrega 3 sem nenhuma imagem (`imgs=0`), relato de protótipo de papel de Evellyn sem fotos das peças (`imgs=0`) e ausência de entregas N1–N3 para a 4ª integrante (Rayca).
+
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 8**](etapa8.md){ .md-button .md-button--primary }
+
+---
 
 ### 3.1 Etapa 7 (Entrega Mais Recente) — Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (Nível 3)
 
@@ -116,6 +129,8 @@ A Tabela 3 documenta o histórico de manutenção e modularização deste Hub Ce
 | `1.0` | 10/10/2026 | Elaboração inicial da auditoria da Etapa 3 do Grupo 01 e publicação do relatório. | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `2.0` | 26/10/2026 | Modularização arquitetural do Hub Central de Verificação do Grupo 01 (ADR-07): segregação da Etapa 3 para página própria, incorporação da síntese da Etapa 5 e atualização da matriz de conformidade. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `3.0` | 16/11/2026 | Incorporação da auditoria da Etapa 7 (Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Nível 3, commit `ac5df28`), atualização da Tabela 2, renumeração das seções 3.1 a 3.3 e registro do relatório oficial em PDF (`Grupo08InspecaoGrupo01Etapa7.pdf`). | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+
+| `4.0` | 22/11/2026 | Incorporação da auditoria global da Etapa 8 (`main` @ `1d3c8f7`, 16 listas `v1.0` a `v2.2`, 414 itens, Bloco Geral e 4 Tarefas Individuais) e registro do relatório oficial em PDF (`Grupo08InspecaoGrupo01Etapa8MicrosoftTeams.pdf`). | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 

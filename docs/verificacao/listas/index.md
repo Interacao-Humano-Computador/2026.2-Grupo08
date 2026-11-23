@@ -38,7 +38,7 @@ _Fonte: Diagrama elaborado por [Vinicius Silva Araruna](https://github.com/Vinic
 
 ## 2. Matriz Geral das Listas de Verificação, Autoria e Versões
 
-A **Tabela 2** consolida todas as **16 listas temáticas** do catálogo, somando **57 itens do Prof. André Barros de Sales**, **198 itens normativos + 20 questões teóricas de Vinicius Silva Araruna** (com ampla coautoria formal de Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho após incremento cumulativo das listas individuais) e **73 itens complementares da equipe** (**47 de Gustavo Antonio** e **26 de Edvaldo Soares**), totalizando **328 critérios normativos (+ 20 questões teóricas)** e **259 figuras/recortes visuais**.
+A **Tabela 2** consolida todas as **16 listas temáticas** do catálogo, somando **57 itens do Prof. André Barros de Sales**, **198 itens normativos + 20 questões teóricas de Vinicius Silva Araruna** (com ampla coautoria formal de Gustavo Antonio Rodrigues e Silva e Edvaldo Soares Brasileiro Filho após incremento cumulativo das listas individuais) e **139 itens complementares da equipe** (**47 de Gustavo Antonio** e **92 de Edvaldo Soares**), totalizando **394 critérios normativos (+ 20 questões teóricas = 414 itens)** e **325 figuras/recortes visuais**.
 
 **Tabela 2** — Matriz consolidada das Listas de Verificação por Artefato
 
@@ -101,6 +101,7 @@ A **Tabela 4** registra a evolução histórica e o controle de versionamento de
 | `1.0` | 20/11/2026 | Criação do Catálogo de Listas de Verificação por Artefato indexando todas as 15 listas temáticas, autoria nominal por item, controle de versões e autovalidação pela lista `DG-01` a `DG-11`. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.1` | 22/11/2026 | Incremento cumulativo com os critérios individuais de Gustavo Antonio (`4 AC` + `3 ANC` saneadas): atribuição de **73 coautorias** com Vinicius e inclusão de **21 novos critérios** (`39 → 60` equipe; `294 → 315` (+20Q) critérios; `225 → 246` figuras). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.2` | 22/11/2026 | Inclusão do 16º módulo temático (`15-fundamentos-vv-fagan.md` com 13 itens normativos inéditos de Edvaldo Soares e 13 recortes bibliográficos) e ampliação da matriz para **328 critérios normativos (+20Q)** e **259 figuras**, além de coautorias acumuladas. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
+| `1.3` | 22/11/2026 | Consolidação final das 16 listas na branch `main` (`a4d176d`), integrando os blocos `CLD-01..42`, `DEC-E01..10` e `PP-E01..14` para totalizar **394 critérios normativos + 20 questões teóricas = 414 itens** e **325 figuras/recortes** aplicados nas 3 inspeções da Etapa 8. | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 

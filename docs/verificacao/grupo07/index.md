@@ -37,6 +37,7 @@ A Tabela 1 apresenta o panorama cronológico e consolidado de todas as etapas do
 
 | Etapa Avaliada | Data da Avaliação | Versão / Commit Avaliado | Conformidade Geral | Relatório Completo | Apresentação em Vídeo | Relatório Oficial em PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Etapa 8**<br>*(Auditoria Global: Repositório e 4 Tarefas — 16 Listas `v1.0..v2.2` / 414 Itens)* | 22/11/2026 | Commit `12913da`<br>*(22/11/2026)* | **63,5% Pleno**<br>27,3% Parcial<br>9,2% Não Conforme<br>*(Taxa Ponderada: 77,2%)* | [Acessar Relatório da Etapa 8](etapa8.md) | [:material-file-document-check: Ver Roteiro e Dossiê](etapa8.md) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Grupo08InspecaoGrupo07Etapa8PCIConcursos.pdf) |
 | **Etapa 6**<br>*(Relato do Protótipo de Papel e Planejamento de Alta Fidelidade)* | 04/11/2026 | Commit `8cc5c90`<br>*(04/11/2026)* | **73,9% Pleno**<br>17,4% Parcial<br>8,7% Não Conforme<br>*(Taxa Ponderada: 82,6%)* | [Acessar Relatório da Etapa 6](etapa6.md) | [:material-youtube: Assistir (I8WZ7egMrCA)](https://youtu.be/I8WZ7egMrCA) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Grupo08InspecaoGrupo07Etapa6.pdf) |
 | **Etapa 4**<br>*(Planejamento de Nível 1: Storyboard e Tarefas)* | 14/10/2026 | Commit `11e393c`<br>*(13/10/2026)* | **44,0% Pleno**<br>28,0% Parcial<br>28,0% Não Conforme<br>*(Taxa Ponderada: 58,0%)* | [Acessar Relatório da Etapa 4](etapa4.md) | [:material-youtube: Assistir (f6q9lgPUmVA)](https://youtu.be/f6q9lgPUmVA) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/PlajRelatoStoryBoardInspecaoPCIConcursosGrupo07.pdf) |
 | **Etapa 2**<br>*(Perfil de Usuário, Aspectos Éticos e Tarefas)* | 28/09/2026 | Commit `2a5ac45`<br>*(28/09/2026)* | **17,4% Pleno**<br>60,9% Parcial<br>21,7% Não Conforme | [Acessar Relatório da Etapa 2](etapa2.md) | [:material-youtube: Assistir (1Aobj09jrYo)](https://youtu.be/1Aobj09jrYo) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/ProjetoPerfilPersonasAnaTarefasPlanejjamentoPCIConcursos.pdf) |
@@ -48,6 +49,18 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 ## Navegação Rápida pelos Relatórios de Inspeção
 
 Para facilitar a consulta dos avaliadores, do professor e dos próprios integrantes do Grupo 07, os relatórios de cada etapa estão estruturados em páginas dedicadas com riqueza analítica, gráficos e planos de ação.
+
+### Etapa 8 — Verificação Global do Repositório e das 4 Tarefas Individuais (16 Listas `v1.0` a `v2.2` / 414 Itens)
+
+A auditoria global da Etapa 8 inspecionou todos os **60 arquivos Markdown** da branch `main` (`commit 12913da`) do Grupo 07 frente aos **414 itens das 16 Listas de Verificação por Artefato do Grupo 08 (`00` a `15`, versões `v1.0` a `v2.2`, Catálogo `v1.2/v1.3` @ `a4d176d`)**, avaliando separadamente o **Bloco Geral do Repositório** e cada uma das **4 Tarefas Individuais** (**Arthur Carvalho**, **Daniel Batista**, **Leonardo Lopes** e **Pedro Rocha**).
+
+- **Status Geral (`381` aplicáveis + `33` N/A):** **242 Conformes (`63,5%`)**, **104 Incompletos (`27,3%`)** e **35 Não Conformes (`9,2%`)**, alcançando **Taxa Ponderada Global de `77,2%`** (T2 Daniel: `66,7% / 78,7%`; T4 Pedro: `64,3% / 77,6%`; T1 Arthur: `63,8% / 77,4%`; T3 Leonardo: `54,1% / 68,2%`).
+- **Principais Destaques Positivos:** Padronização de histórico e contribuição em `59/60` páginas (`98,3%`), zero matrículas expostas, modelagem exemplar de HTA (`596L`, 9 diagramas) e CTT (`642L`, 10 diagramas) para 8 tarefas (`TAR-01..08`) e execução completa de Daniel Batista (`n = 3` e piloto nos 3 níveis).
+- **Problemas Críticos Identificados:** Ausência de declaração de IA em `55/60` arquivos (`DG-11`), fichas de personas sem fotografia (`imgs=0`, `PR-01`) e sem antipersona (`EP-05`), relato de protótipo de papel de Leonardo Lopes sem nenhum vídeo (`yt=[]`, `191L`), amostragem unitária (`n = 1`) em Arthur Carvalho nos 3 níveis e ausência de SWEBOK, escala SUS e Entrega 8 na `main`.
+
+[:material-arrow-right-circle: **Consultar o Relatório Completo da Etapa 8**](etapa8.md){ .md-button .md-button--primary }
+
+---
 
 ### Etapa 6 — Relato do Protótipo de Papel (Nível 2) e Planejamento de Alta Fidelidade (Nível 3)
 
@@ -121,6 +134,8 @@ A Tabela 2 documenta o histórico de versões e modificações deste Hub Central
 | `1.0` | 28/09/2026 | Elaboração inicial da auditoria técnica referente à Etapa 2 do Grupo 07 | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) | [Gustavo Antonio](https://github.com/gus-ant), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `2.0` | 14/10/2026 | Estruturação do Hub Central de Verificação do Grupo 07, modularização do relatório da Etapa 2 e consolidação da inspeção formal da Etapa 4 | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `3.0` | 04/11/2026 | Integração da auditoria da Etapa 6 (Relato do Protótipo de Papel e Planejamento de Alta Fidelidade), atualização da matriz consolidada, inclusão da navegação rápida e registro do PDF institucional | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+
+| `4.0` | 22/11/2026 | Integração da auditoria global da Etapa 8 (`main` @ `12913da`, 16 listas `v1.0` a `v2.2`, 414 itens, Bloco Geral e 4 Tarefas Individuais) e registro do PDF institucional `Grupo08InspecaoGrupo07Etapa8PCIConcursos.pdf` | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) | [Edvaldo Soares](https://github.com/PajeMurici-dev), [Gustavo Antonio](https://github.com/gus-ant) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
