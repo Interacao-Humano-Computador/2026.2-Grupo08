@@ -37,6 +37,7 @@ A Tabela 2 apresenta o panorama cronológico e consolidado de todas as etapas do
 
 | Etapa Avaliada | Data da Avaliação | Versão / Commit Avaliado | Conformidade Geral | Relatório Completo | Apresentação em Vídeo | Relatório Oficial em PDF |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Etapa 8 (Verificação)**<br>*(Inspeção da Verificação dos Artefatos do G01 — `E8-01..12` + `VVR-01..13`)* | 23/11/2026 | Commit `d5da014`<br>*(22/11/2026)* | **G01:** 0,0% / 25,0%<br>**G02 (+1 deles):** 0,0% / 35,7%<br>**G08 (-1 deles):** 0,0% / 0,0% | [Acessar Inspeção da Verificação](etapa8-verificacao.md) | [:material-youtube: Assistir (SqrczfjgLPU)](https://youtu.be/SqrczfjgLPU) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Grupo08InspecaoVerificacaoGrupo01Etapa8MicrosoftTeams.pdf) |
 | **Etapa 8**<br>*(Auditoria Global: Repositório e 4 Tarefas — 16 Listas `v1.0..v2.2` / 414 Itens)* | 22/11/2026 | Commit `1d3c8f7`<br>*(22/11/2026)* | **49,9% Pleno**<br>38,3% Parcial<br>11,8% Não Conforme<br>*(Taxa Ponderada: 69,0%)* | [Acessar Relatório da Etapa 8](etapa8.md) | [:material-file-document-check: Ver Roteiro e Dossiê](etapa8.md) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Grupo08InspecaoGrupo01Etapa8MicrosoftTeams.pdf) |
 | **Etapa 7**<br>*(Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade — Nível 3)* | 16/11/2026 | Commit `ac5df28`<br>*(15/11/2026)* | **4,3% Pleno**<br>60,9% Parcial<br>34,8% Não Conforme<br>*(Taxa Ponderada: 34,8%)* | [Acessar Relatório da Etapa 7](etapa7.md) | [:material-youtube: Assistir (uFMTMShnoz4)](https://youtu.be/uFMTMShnoz4) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/Grupo08InspecaoGrupo01Etapa7.pdf) |
 | **Etapa 5**<br>*(Relatos de Nível 1 e Planejamento do Protótipo de Papel)* | 26/10/2026 | Commit `10a7c3d`<br>*(25/10/2026)* | **6,7% Pleno**<br>46,7% Parcial<br>46,7% Não Conforme<br>*(Taxa Ponderada: 30,0%)* | [Acessar Relatório da Etapa 5](etapa5.md) | [:material-youtube: Assistir (QjAnF0_ooT8)](https://youtu.be/QjAnF0_ooT8) | [:material-file-pdf-box: Baixar PDF](../../assets/relatorios/PlajRelatoStoryBoarProtPapeldMicrosoftTeams.pdf) |
@@ -49,6 +50,17 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
 ## 3. Navegação Rápida pelos Relatórios de Inspeção
 
 Para facilitar a consulta dos avaliadores, do professor e dos próprios integrantes do Grupo 01, os relatórios de cada etapa estão estruturados em páginas dedicadas com riqueza analítica, gráficos e planos de ação.
+
+### 3.0A Etapa 8 (Verificação dos Artefatos) — Inspeção das Verificações do Grupo 01 (`E8-01..12` + `VVR-01..13`)
+
+A inspeção específica da **Etapa 8 (Verificação dos Artefatos)** auditou os 8 arquivos de inspeção publicados na branch `main` (`commit d5da014`, de 22/11/2026) do Grupo 01 frente ao **Checklist da Entrega 8 (`E8-01..12`, `lista-verificacao.md` `v3.1`)**, à **Lista 15 (`VVR-01..13`, `v1.0`)** e ao critério **LGPD (`PG-01`, `Lista 00` `v1.0`)**, avaliando separadamente a autoinspeção do **Grupo 01**, a inspeção do **Grupo +1 deles (Grupo 02)** e a inspeção do **Grupo -1 deles (Grupo 08)**:
+
+- **Status Geral:** **Bloco A (G01):** `0,0%` estrito / `25,0%` ponderado (`0` Conformes, `12` Incompletos, `12` Não Conformes); **Bloco B (G02 — +1 deles):** `0,0%` estrito / `35,7%` ponderado; **Bloco C (G08 — -1 deles):** `0,0%` estrito / `0,0%` ponderado.
+- **Principais Achados:** Todas as listas (`verificacao_etapa_1..5, 7.md`) estão 100% em branco na `main`; falta lista para a Etapa 8 e página da Entrega 8; `lista-verificacao-etapa6.md` ficou órfã fora do `mkdocs.yml`; erros de *copy-paste* (`"etapa 1"` / `"etapa 5"`); exposição da matrícula `241025784` em `verificacao_etapa_3.md` e `4.md`; e ausência de inspeções da Etapa 8 sobre o Grupo 02 (+1) e o Grupo 08 (-1).
+
+[:material-arrow-right-circle: **Consultar Inspeção da Verificação dos Artefatos (Etapa 8)**](etapa8-verificacao.md){ .md-button .md-button--primary }
+
+---
 
 ### 3.0 Etapa 8 (Auditoria Global) — Verificação do Repositório e das 4 Tarefas Individuais (16 Listas `v1.0` a `v2.2` / 414 Itens)
 
