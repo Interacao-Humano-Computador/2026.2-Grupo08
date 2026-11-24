@@ -66,7 +66,7 @@ A Tabela 2 sintetiza os acessos diretos aos instrumentos de verificação, relat
 | :--- | :--- | :---: | :---: |
 | **Listas de Verificação por Artefato** | 16 listas temáticas (`v1.0` a `v2.2` — 414 itens e 325 recortes) com autoria nominal por item (Prof. André e equipe), citações diretas e mais de 200 recortes da literatura | Etapas 1 a 8 | [:material-folder-multiple: Acessar Listas por Artefato](listas/index.md) |
 | **Checklists Normativos (Por Entrega)** | Instrumentos em branco padronizados agrupados por entrega com perguntas objetivas, fontes canônicas e colunas de autoria e data/hora | Etapas 1 a 8 | [:material-format-list-checks: Acessar Checklists](lista-verificacao.md) |
-| **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade e retrabalho dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1 a 8 | [:material-check-decagram: Acessar Autoavaliação](grupo08.md) |
+| **Auto-Avaliação (Grupo 08)** | Relatório conclusivo de conformidade e retrabalho dos artefatos desenvolvidos pelo Grupo 08 | Etapas 1 a 8 | [:material-check-decagram: Acessar Autoavaliação](grupo08/index.md) |
 | **Avaliação do Grupo -1** | Auditoria técnica e pedagógica do Grupo 07 (Portal PCI Concursos) | Hub Central, Etapas 2, 4, 6 e 8 (Auditoria Global) | [:material-account-arrow-left: Acessar Auditoria Grupo 07](grupo07/index.md) |
 | **Avaliação do Grupo +1** | Auditoria técnica e pedagógica do Grupo 01 (Microsoft Teams) | Hub Central, Etapas 3, 5, 7 e 8 (Auditoria Global) | [:material-account-arrow-right: Acessar Auditoria Grupo 01](grupo01/index.md) |
 | **Entrega 8 (Consolidação)** | Síntese oficial da Entrega 8 e acesso unificado aos instrumentos normativos e auditorias | Etapa 8 | [:material-flag-checkered: Acessar Entrega 8](../entregas/entrega8.md) |
