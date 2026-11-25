@@ -10,7 +10,7 @@ A Tabela 1 apresenta a matriz de responsabilidades e atribuições na consolida�
 | :--- | :--- | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Condução da Sessão T01 (Tarefa 1), análise de discrepâncias cognitivas do HTA e CMN-GOMS (PT01 a PT08), tabulação na escala de Nielsen e formulação das diretrizes de refatoração para protótipos de papel. | 24/10/2026 | Google Gemini (LLM) | Apoio na estruturação das tabelas Markdown e checagem de rigor normativo de IHC. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Condução da Sessão T02 (Tarefa 2 - Eventos Presenciais), consolidação dos apontamentos da HTA 2 e revisão de severidade. | 24/10/2026 | Google Gemini (LLM) | Suporte na estruturação Markdown e checagem de referências. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Condução da Sessão T03 (Tarefa 3 - Busca Avançada), consolidação dos apontamentos de tarefas e validação metodológica. | 24/10/2026 | — | Condução de sessão e revisão por pares. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Condução da Sessão T03 (Tarefa 3 - Grade de Disponibilidade e Agendamento), consolidação dos apontamentos de tarefas e validação metodológica. | 24/10/2026 | — | Condução de sessão e revisão por pares. |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
@@ -59,7 +59,7 @@ A Tabela 2 consolida os dados demográficos e as atribuições de tarefas.
 | :---: | :--- | :---: | :--- | :---: | :--- | :--- |
 | **P1** | J. V. S. | 21 | Ciência da Computação (CIC/UnB) | Iniciante/Médio | Tarefa 1 (Markdown, Tags e IA Semântica) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | **P2** | L. C. F. | 22 | Ciência da Computação (CIC/UnB) | Intermediário | Tarefa 2 (Criação de Eventos Presenciais) | [Gustavo Antonio](https://github.com/gus-ant) |
-| **P3** | G. H. R. | 20 | Engenharia de Redes (FGA/UnB) | Iniciante | Tarefa 3 (Busca Avançada e Filtros) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
+| **P3** | G. H. R. | 20 | Engenharia de Redes (FGA/UnB) | Iniciante | Tarefa 3 (Grade de Disponibilidade e Agendamento) | [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
@@ -73,8 +73,8 @@ As sessões concentraram-se na validação dos modelos formais de tarefas elabor
    Objetivo raiz G0 decomposto na árvore HTA em 5 subobjetivos (`1`: Acionar criação de tópico; `2`: Definir título [`2.1`] e selecionar categoria/tags [`2.2`]; `3`: Redigir conteúdo Markdown [`3.1`] e inserir logs com cercas de código [`3.2`]; `4`: Avaliar similaridade por IA [`4.1` a `4.3`]; `5`: Confirmar e publicar [`5.1` e `5.2`]), estruturado com planos normativos e regras de seleção do CMN-GOMS;
 2. **Tarefa 2 — Criação de Eventos Presenciais da Comunidade — CF02 (Gustavo Antonio):**  
    Decomposição hierárquica das etapas de sondagem, geolocalização no mapa, dimensionamento de vagas e publicação de workshops;
-3. **Tarefa 3 — Busca Avançada e Filtros Especializados de Categoria (Edvaldo Soares):**  
-   Estrutura HTA e modelagem concorrente CTT para refinamento facetado de dúvidas resolvidas.
+3. **Tarefa 3 — Grade de Disponibilidade e Agendamento de Horários com Autores de Tópicos — CF03 (Edvaldo Soares Brasileiro Filho):**  
+   Decomposição hierárquica em HTA e modelagem em Árvores de Tarefas Concorrentes (CTT) para localização do botão de agendamento no tópico, consulta de disponibilidade semanal por dias e turnos, preenchimento do motivo da reunião técnica e confirmação de agendamento com lembrete.
 
 ---
 
@@ -88,6 +88,7 @@ A inquirição procedural revelou apontamentos ricos sobre a engenharia cognitiv
 - **Constatação Tarefa 1 (P1):** Ao avaliar a sequência entre o Subobjetivo `2` (*Definir título e tags*) e o Subobjetivo `3` (*Redigir conteúdo Markdown*), o participante P1 revelou uma inversão natural em seu fluxo de trabalho real. Explicou que normalmente aplica e descreve primeiro o problema no corpo do tópico (colando o erro enfrentado) e só depois vai preencher o título e associar as tags.
 - **Discrepância Identificada (Tarefa 1):** O modelo prescritivo estritamente linear (`1 > 2 > 3 > 4 > 5`) deve permitir flexibilidade operacional (operador `+` de ordem livre) entre o Subobjetivo `2` e o Subobjetivo `3`, formalizando o plano `1 > (2 + 3) > 4 > 5` em interface não-modal.
 - **Constatação Tarefa 2 (P2 - Gustavo Antonio):** Ao analisar o Plano 0 da Tarefa 2 (`1 > 2 > 3 > 4 > 5`), P2 atestou a completude e lógica estrita do fluxo sequencial, verbalizando que nenhuma etapa está fora de ordem ou faltando antes de publicar (*"Não, não acho. Acho que tá razoável"*).
+- **Constatação Tarefa 3 (P3 - G. H. R. - Edvaldo Soares):** Ao percorrer a sequência hierárquica de agendamento de mentoria com o autor do tópico (localizar o botão de agendamento no tópico → consultar a grade semanal de disponibilidade → informar o motivo da dúvida técnica → confirmar a reserva), P3 validou a naturalidade da ordem de execução e destacou que a decisão do horário antecede logicamente a descrição detalhada do problema.
 
 ### PT02 — Métodos de Inserção e Formatação no Editor (CMN-GOMS: Mouse / Colagem vs. Teclado)
 - **Constatação Tarefa 1 (P1):** Validação empírica da importância dos mecanismos de colagem direta e apoio visual por mouse modelados no CMN-GOMS para o perfil *Estudante / Usuário Aprendiz*. Afirmou que normalmente utiliza o mouse para acionar os recursos visuais da interface ou recorre diretamente aos atalhos `Ctrl+C` e `Ctrl+V` para copiar e colar o problema no editor, sem digitar sintaxes Markdown manualmente.
@@ -97,9 +98,11 @@ A inquirição procedural revelou apontamentos ricos sobre a engenharia cognitiv
 - **Constatação Tarefa 1 (P1):** A verificação de tópicos semelhantes e a recomendação automática de tags antes do envio foram consideradas aceleradores importantes de resolução. Destacou que o auxílio da IA antes de enviar (incluindo a sugestão de um botão para preencher as tags automaticamente) facilita a postagem, desde que atue como assistente consultivo sem bloquear o envio.
 - **Constatação Tarefa 2 (P2 - Mapa e Local Físico):** Na etapa de definição de local (Subobjetivo 3.2), o participante questionou: *"Eu coloco o pin no mapa... mas aí ele vai, o sistema vai procurar um lugar próximo daquele pin que ele marcou para...?"*. Ao ser esclarecido de que o organizador deve marcar o ponto exato da sala/espaço já acertado, P2 validou: *"Entendi. Eu acho que é bom... tá bom, uma boa opção"*.
 - **Constatação Tarefa 2 (P2 - Ingressos Gratuitos e Pagos):** Ao avaliar a separação na etapa de ingressos (Subobjetivo 4.1 a 4.3), o participante validou a fluidez para eventos acadêmicos: *"Sim, de boa"*.
+- **Constatação Tarefa 3 (P3 - G. H. R. - Edvaldo Soares):** Na etapa de consulta à grade semanal (Subobjetivo 2), o participante recomendou que a interface evidencie com clareza visual o fuso horário utilizado (Horário de Brasília — GMT-3) e mantenha uma legenda intuitiva diferenciando horários livres e ocupados antes da confirmação.
 
 ### PT08 — Completude, Gargalos e Operações Faltantes na HTA
 - **Constatação Geral:** Os participantes consideraram os modelos hierárquicos completos e coerentes com a realidade do Discourse.
+- **Constatação Tarefa 3 (P3 - G. H. R. - Edvaldo Soares):** O participante confirmou a completude do fluxo de agendamento de mentorias e enfatizou a utilidade de incluir o recebimento de lembrete com o link da sala virtual como subobjetivo explícito de fechamento.
 - **Destaque Positivo:** Elogio explícito à inclusão formal da operação elementar de feedback observável (fechamento automático do composer e carregamento da URL definitiva do tópico publicado) e à separação entre rascunho e publicação final.
 
 ---
@@ -118,6 +121,7 @@ As inconsistências e oportunidades levantadas foram tabuladas na Tabela 3 com b
 | **PROB-AT-04** | Tarefa 2 / Subobjetivo 2.4 (Datas e Horários) | O participante verbalizou explicitamente preferência por selecionar o horário por meio de componente visual de relógio (*"Acho que prefiro com relógio"*) em detrimento de campo de texto corrido. | Inconsistência de Operação / Prevenção de Erros | **2 (Menor)** | Refinar a Operação 2.4 no HTA para explicitar *"2.4 Selecionar horário via componente timepicker de relógio"*, adotando o respectivo widget no protótipo de papel de Nível 2. |
 | **PROB-AT-05** | Tarefa 2 / Subobjetivo 3.2 (Ponto no Mapa) | O participante questionou o fluxo de busca de locais (*"ele vai procurar um lugar próximo daquele pin que marcou?"*), sendo esclarecido que a plataforma demarca o ponto exato da reserva. | Falha de Expectativa / Feedback | **2 (Menor)** | Adicionar na Operação 3.2 feedback visual com endereço formalizado imediatamente após soltar o marcador (*pin*) e link de auxílio *"Como reservar salas no campus"*. |
 | **PROB-AT-06** | Tarefa 2 / Plano 0 (Sequência Geral) | Ao ser inquirido sobre a ordem global das etapas (`1 > 2 > 3 > 4 > 5`), o participante considerou que nenhuma etapa está fora de ordem ou faltando antes de publicar (*"Não, não acho. Acho que tá razoável"*). | Validação Normativa do Plano | **0 (Sem Problema)** | Manter a ordem causal do Plano 0 da Tarefa 2 estritamente sequencial conforme validada empiricamente. |
+| **PROB-AT-07** | Tarefa 3 / Subobjetivo 2 (Consulta à Grade Semanal) | O participante apontou necessidade de explicitar na operação de leitura da grade o fuso horário adotado (GMT-3) e a diferenciação visual entre horários livres e ocupados antes da escolha do slot. | Clareza Operacional / Feedback | **1 (Cosmético)** | Explicitar na operação de consulta à grade semanal a legenda de disponibilidade e a referência de fuso horário (`GMT-3`) para orientar a prototipação em papel de Nível 2. |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Barbosa e Silva (2021) e Nielsen (1994), 2026._
 
@@ -172,6 +176,14 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/VhGgpfX9Rqk" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/VhGgpfX9Rqk</a></p>
 </div>
 
+#### Reprodução Audiovisual da Sessão T03 (Tarefa 3: Grade de Disponibilidade e Agendamento — Edvaldo Soares)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/gqZ3yJ3ZYUc" title="Avaliação da Análise de Tarefas 3 - Sessão T03 - Edvaldo Soares - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 3</strong> — Registro audiovisual da avaliação da Análise de Tarefas da Tarefa 3 (Grade de Disponibilidade e Agendamento). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/gqZ3yJ3ZYUc" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/gqZ3yJ3ZYUc</a></p>
+</div>
+
 ---
 
 ## 9. Cláusula Metodológica Obrigatória de Isolamento dos Dados do Teste-Piloto
@@ -214,6 +226,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | `1.0` | 24/10/2026 | Elaboração inicial do Relato dos Resultados da Avaliação da Análise de Tarefas (Nível 1), consolidando os dados empíricos de campo com percurso cognitivo guiado, caracterização dos voluntários P1 a P3, análise de discrepâncias de planos lógicos (PT01 a PT08), validação de regras de seleção do CMN-GOMS, classificação de severidade de Nielsen (0 a 4), recomendações de refatoração no HTA, container de vídeo, cláusula de isolamento do piloto e checklist de conformidade. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 25/10/2026 | Incorporação do link oficial e player do registro audiovisual da avaliação da Sessão T01 (Vinicius Silva Araruna com participante J.V.S no YouTube) e consolidação da gravação da Sessão T02 (Gustavo Antonio). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 29/10/2026 | Harmonização da notação HTA (Subobjetivos 1 a 5), explicitação de síntese analítica não literal (Bardin, 2011) e alinhamento empírico dos achados PT01 e PT02 com a entrevista gravada (#132). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.3` | 25/11/2026 | Remoção das menções residuais à antiga Tarefa 3 (Busca Avançada), atualização descritiva para Grade de Disponibilidade e Agendamento (`CF03`), inclusão dos achados empíricos da Sessão T03 (`PROB-AT-07`) e incorporação do `<iframe>` da Sessão T03 (`gqZ3yJ3ZYUc`, saneamento `RA-04` / `SB-11` — Issue #173). | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 

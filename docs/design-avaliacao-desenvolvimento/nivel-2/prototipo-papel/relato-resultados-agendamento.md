@@ -12,7 +12,7 @@ A Tabela 1 apresenta a matriz de responsabilidade na consolidação dos resultad
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Revisor Metodológico**: Auditoria de consistência entre o planejamento DECIDE de Nível 2 e os dados empíricos tabulados. | 02/11/2026 | — | Revisão humana por pares. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Revisor Designado**: Verificação do checklist de conformidade, tempos e cláusula de isolamento do piloto. | 02/11/2026 | — | Revisão humana por pares. |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -56,7 +56,7 @@ A Tabela 2 consolida os dados demográficos dos participantes avaliados.
 | **P2** | L.P.A | 20 anos | Estudante | — | Usuário Aprendiz / Intermediário | Participante de Usabilidade |
 | **P3** | O.M.T.P | 21 anos | Engenharia de Software | UnB (FGA) | Usuário Técnico / Avançado | Participante de Usabilidade |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 
@@ -64,10 +64,16 @@ _Fonte: Elaborada pelos autores, 2026._
 
 O protótipo de baixa fidelidade da Tarefa 3 (*Agendamento de Horários com Autores de Tópicos*) foi confeccionado artesanalmente em papel, estruturado em 5 telas e peças de interação que simulam o fluxo completo de agendamento e acompanhamento:
 
+> [!INFO] Bancada e Artefatos Físicos Isolados (Tarefa 3)
+> Para consultar o inventário detalhado das pranchas físicas, especificações de bancada e checklist normativo do protótipo em papel da Tarefa 3, acesse:  
+> 👉 **[Bancada e Artefatos Físicos do Protótipo de Papel (Tarefa 3 — Edvaldo Soares)](prototipo-papel-tarefa3.md)**
+
 ### 4.1 Tela Inicial de Tópico (Ponto de Acesso)
 
+A Figura 1 apresenta a tela inicial do tópico com o botão de agendamento de horário com o autor.
+
 <div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <img src="../../assets/prototipo-papel/tela1_inicial_topico.png" alt="Tela Inicial de Tópico" style="max-width: 750px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #E2E8F0;" />
+  <img src="../../../assets/prototipo-papel/tela1_inicial_topico.png" alt="Tela Inicial de Tópico" style="max-width: 750px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #E2E8F0;" />
   <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 1</strong> — Protótipo de Papel: Tela inicial do tópico com botão de agendamento de horário com o autor. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
 </div>
 
@@ -75,8 +81,10 @@ O protótipo de baixa fidelidade da Tarefa 3 (*Agendamento de Horários com Auto
 
 ### 4.2 Tela com Grade de Horários (Disponibilidade Semanal)
 
+A Figura 2 apresenta a tela com a grade semanal de horários disponíveis e reservados.
+
 <div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <img src="../../assets/prototipo-papel/tela2_grade_horarios.png" alt="Tela com Grade de Horários" style="max-width: 750px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #E2E8F0;" />
+  <img src="../../../assets/prototipo-papel/tela2_grade_horarios.png" alt="Tela com Grade de Horários" style="max-width: 750px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #E2E8F0;" />
   <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 2</strong> — Protótipo de Papel: Grade de horários com divisão por dias e slots disponíveis. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
 </div>
 
@@ -84,8 +92,10 @@ O protótipo de baixa fidelidade da Tarefa 3 (*Agendamento de Horários com Auto
 
 ### 4.3 Tela com Motivo da Reunião (Formulário de Contexto)
 
+A Figura 3 apresenta a tela modal de formulário para descrição do motivo e contexto da reunião.
+
 <div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <img src="../../assets/prototipo-papel/tela3_motivo_reuniao.png" alt="Tela com Motivo da Reunião" style="max-width: 750px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #E2E8F0;" />
+  <img src="../../../assets/prototipo-papel/tela3_motivo_reuniao.png" alt="Tela com Motivo da Reunião" style="max-width: 750px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #E2E8F0;" />
   <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 3</strong> — Protótipo de Papel: Modal/formulário para descrição do motivo e contexto da reunião. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
 </div>
 
@@ -93,8 +103,10 @@ O protótipo de baixa fidelidade da Tarefa 3 (*Agendamento de Horários com Auto
 
 ### 4.4 Mensagem de Confirmação da Reunião
 
+A Figura 4 apresenta a tela de confirmação com o resumo dos dados e o status do agendamento.
+
 <div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <img src="../../assets/prototipo-papel/tela4_confirmacao_reuniao.png" alt="Mensagem de Confirmação da Reunião" style="max-width: 750px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #E2E8F0;" />
+  <img src="../../../assets/prototipo-papel/tela4_confirmacao_reuniao.png" alt="Mensagem de Confirmação da Reunião" style="max-width: 750px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #E2E8F0;" />
   <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 4</strong> — Protótipo de Papel: Tela de confirmação com resumo dos dados e status do agendamento. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
 </div>
 
@@ -102,8 +114,10 @@ O protótipo de baixa fidelidade da Tarefa 3 (*Agendamento de Horários com Auto
 
 ### 4.5 Mensagem de Lembrete da Reunião
 
+A Figura 5 apresenta a mensagem de lembrete e notificação com link de acesso à reunião.
+
 <div style="text-align: center; margin: 1.5rem 0;" markdown="1">
-  <img src="../../assets/prototipo-papel/tela5_lembrete_reuniao.png" alt="Mensagem de Lembrete da Reunião" style="max-width: 750px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #E2E8F0;" />
+  <img src="../../../assets/prototipo-papel/tela5_lembrete_reuniao.png" alt="Mensagem de Lembrete da Reunião" style="max-width: 750px; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #E2E8F0;" />
   <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Figura 5</strong> — Protótipo de Papel: Mensagem de lembrete e notificação com link para acesso à reunião. <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
 </div>
 
@@ -200,7 +214,7 @@ A Tabela 5 relaciona as sessões empíricas de avaliação com os participantes 
 | **S02** | P2 (L.P.A) | 20 anos / Estudante | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~10 min | [Assistir Sessão P2 no YouTube (Não Listado)](https://youtu.be/A2332bwnapc) |
 | **S03** | P3 (O.M.TP) | 21 anos / Eng. Software UnB | [Edvaldo Soares](https://github.com/PajeMurici-dev) | ~14 min | [Assistir Sessão P3 no YouTube (Não Listado)](https://youtu.be/DVX80C-Fvlc) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 #### Reprodução Audiovisual da Sessão 01 — Participante 1 (G.C)
 
@@ -254,7 +268,7 @@ A Tabela 6 consolida a autoavaliação da conformidade do relato dos resultados 
 | **8** | Há disponibilização dos vídeos no YouTube e cumprimento do TCLE oral? | Resolução CNS nº 510/2016 | ✅ Sim | A Seção 8 apresenta as tabelas e containers de player para teste-piloto e avaliações. |
 | **9** | O artefato inclui a Cláusula Metodológica Obrigatória de isolamento do piloto? | Barbosa & Silva (2021, p. 276) | ✅ Sim | A Seção 9 apresenta o destaque visual explícito atestando a não-computação dos dados do piloto. |
 
-_Fonte: Elaborada pelos autores com base em Barbosa e Silva (2021) e Sales (2026), 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho com base em Barbosa e Silva (2021) e Sales (2026), 2026._
 
 ---
 
@@ -266,9 +280,10 @@ A Tabela 7 documenta a evolução histórica deste documento.
 
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 01/11/2026 | Elaboração inicial do Relato dos Resultados da Avaliação do Protótipo de Papel (Nível 2 — Tarefa 3: Agendamento de Horários com Autores de Tópicos), consolidando os resultados empíricos das sessões com os participantes G.C, L.P.A e O.M.T.P, análise de conteúdo qualitativa, tabulação na escala de severidade de Nielsen (0 a 4), recomendações de reprojeto para alta fidelidade no Figma, metadados e containers audiovisuais do teste-piloto e sessões oficiais, cláusula mandatória de isolamento do piloto e checklist de conformidade. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.0` | 01/11/2026 | Elaboração inicial do Relato dos Resultados da Avaliação do Protótipo de Papel (Nível 2 — Tarefa 3: Agendamento de Horários com Autores de Tópicos), consolidando os resultados empíricos das sessões com os participantes G.C, L.P.A e O.M.T.P, análise de conteúdo qualitativa, tabulação na escala de severidade de Nielsen (0 a 4), recomendações de reprojeto para alta fidelidade no Figma, metadados e containers audiovisuais do teste-piloto e sessões oficiais, cláusula mandatória de isolamento do piloto e checklist de conformidade. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
+| `1.1` | 25/11/2026 | Correção dos caminhos relativos das imagens (`../../assets/prototipo-papel/` para `../../../assets/prototipo-papel/`), inclusão de chamadas textuais prévias às Figuras 1 a 5, vinculação ao artefato dedicado `prototipo-papel-tarefa3.md` e substituição de fontes genéricas por fontes nominais (`PP-03` / `DG-04` — Issue #173). | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
-_Fonte: Elaborada pelos autores, 2026._
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
 ---
 

@@ -10,7 +10,7 @@ A Tabela 1 apresenta a matriz de governança, divisão de atribuições e declar
 | :--- | :--- | :---: | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal / Tech Lead**: Estruturação geral pelo Framework DECIDE, fundamentação teórica de alta fidelidade (Mayhew, Rubin & Chisnell, Brooke, Nielsen), definição metodológica dos testes no Figma, roteiro interativo da Tarefa 1, métricas vinculadas ao KLM e Metas de Usabilidade, justificativa matemática amostral de Nielsen & Landauer, TCLE oral de 60s, protocolo do teste-piloto e lista de verificação de 15 itens normativos. | 31/10/2026 | 20:30 - 21:40 | Google Gemini (LLM) | Apoio na estruturação das matrizes Markdown, conferência de hiperligações relativas e validação de referências ABNT. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador (Tarefa 2)**: Parametrização completa da avaliação de alta fidelidade da Tarefa 2 (Eventos Presenciais): formulação das perguntas investigativas (Tabela 2b), modelagem do cenário de uso (8.4) e do roteiro sequencial de tarefas no Protótipo Interativo Web (8.5) incorporando os feedbacks da avaliação em papel. | 11/11/2026 | 15:00 - 15:35 | Google Gemini (LLM) | Apoio na estruturação de tabelas e validação de equações de usabilidade. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Revisor Metodológico**: Checagem de conformidade com os 15 critérios da lista de verificação da técnica e auditoria cruzada por pares. | 31/10/2026 | 21:20 - 21:50 | — | Revisão humana por pares e conferência de consistência. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador (Tarefa 3) / Revisor Metodológico**: Parametrização completa da avaliação de alta fidelidade da Tarefa 3 (`CF03` — Grade de Disponibilidade e Agendamento): formulação das perguntas investigativas (`Tabela 2c`), arquitetura de telas no Claude Design (`Seção 6.2.3`), cenário de uso (`Seção 8.6`), roteiro sequencial de interação (`Seção 8.7`) e revisão cruzada de conformidade. | 25/11/2026 | 00:15 - 01:00 | Google Gemini (LLM) | Apoio na estruturação de tabelas Markdown e alinhamento normativo com as Seções 6.2 e 8. |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
@@ -68,8 +68,11 @@ A avaliação do protótipo de alta fidelidade combina metas formativas (identif
 
 ### 3.3 Objetivos da Tarefa 3 — Grade de Agendamento e Mentorias (Edvaldo Soares Brasileiro Filho)
 
-1. **Avaliar a Compreensão da Grade Semanal de Horários:** Verificar se a usuária novata compreende a visualização de horários livres;
-2. **Testar o Fluxo de Agendamento em Tempo Real:** Avaliar a confirmação de agendamento de dúvida técnica com membros veteranos da comunidade.
+1. **Aferir a Descoberta do Ponto de Entrada (`T3_F01`):** Verificar se os participantes identificam com rapidez o botão *"Agendar Reunião com o Autor"* posicionado no cabeçalho/resposta do tópico técnico;
+2. **Avaliar a Clareza Cognitiva da Grade Semanal (`T3_F02`):** Verificar se a inclusão da legenda permanente (*Disponível*, *Reservado*, *Selecionado*) e do fuso horário de Brasília (*GMT-3*) solucionou as hesitações observadas no protótipo de papel;
+3. **Validar o Formulário de Contexto e a Confirmação (`T3_F03`):** Avaliar a clareza do limite de 200 caracteres, da opção de anexo de log e da tela de confirmação com resumo e botões de agenda/gestão;
+4. **Validar o Lembrete da Reunião no Dia (`T3_F04`):** Verificar a compreensão da notificação no sino do cabeçalho e do acesso direto à sala virtual (*"Entrar na Sala Agora"*);
+5. **Mensurar Eficiência e Satisfação Padronizada:** Confrontar o tempo real de execução com a meta ergonômica (`≤ 60,0 segundos`), apurar a taxa de conclusão e mensurar a usabilidade global por meio da escala **SUS** (`≥ 80,0 pontos`).
 
 ---
 
@@ -107,6 +110,23 @@ A Tabela 2b apresenta as perguntas investigativas formuladas para a avaliação 
 | **`PAF-T2-07`** | Confirmação e Ingressos | O participante compreende com rapidez o resumo de ingressos gratuitos e o funcionamento do QR Code para credenciamento? | Verbalização afirmativa perante a prancha final e resposta positiva aos itens de clareza do SUS. |
 
 _Fonte: Elaborada por Gustavo Antonio Rodrigues e Silva com base em Nielsen (1994) e Snyder (2003), 2026._
+
+A Tabela 2c apresenta as perguntas investigativas formuladas para a avaliação de alta fidelidade da **Tarefa 3 (Grade de Disponibilidade e Agendamento de Horários com Autores de Tópicos)** no protótipo interativo desenvolvido no Claude Design, incorporando diretamente as melhorias ergonômicas oriundas do Nível 2 (`PROB-PP3-01` a `PROB-PP3-05`).
+
+**Tabela 2c** — Perguntas Investigativas da Avaliação de Alta Fidelidade (Tarefa 3 — Edvaldo Soares Brasileiro Filho)
+
+| Código | Dimensão Avaliada | Pergunta Investigativa Específica no Protótipo de Alta Fidelidade | Indicador de Observação / Métrica |
+| :---: | :--- | :--- | :--- |
+| **`PAF-T3-01`** | Descoberta do Ponto de Acesso | O participante localiza prontamente o botão *"Agendar Reunião com o Autor"* (`#0084FF`) junto à resposta do especialista no tópico? | Tempo até o primeiro clique e ausência de varreduras oculares sem rumo. |
+| **`PAF-T3-02`** | Clareza da Grade e Fuso Horário | A barra de legenda permanente e o rótulo *"Horário de Brasília (GMT-3)"* eliminam dúvidas sobre disponibilidade e fuso na grade semanal? | Verbalização no *Think-Aloud* e ausência de questionamentos sobre fuso ou estado dos slots. |
+| **`PAF-T3-03`** | Seleção de Bloco Temporal | O participante compreende a interação de seleção do slot livre (`#1A3D2B` / `#2ECC71`) e a navegação entre semanas? | Clique direto no horário compatível sem erros em slots ocupados. |
+| **`PAF-T3-04`** | Preenchimento de Contexto | O formulário com contador de até 200 caracteres e campo opcional para anexar link/log orienta adequadamente a descrição da dúvida? | Compreensão do limite textual e preenchimento fluido sem hesitação. |
+| **`PAF-T3-05`** | Controle e Liberdade | As opções de cancelar, voltar, reagendar ou cancelar a reunião mantêm a sensação de autonomia do participante? | Reconhecimento imediato das ações secundárias de controle sem receio de erro irreversível. |
+| **`PAF-T3-06`** | Feedback de Confirmação | A tela conclusiva (`T3_F03`) com resumo da mentoria e link da sala transmite convicção de que o agendamento foi efetivado? | Expressão afirmativa de encerramento e confiança na entrega da solicitação. |
+| **`PAF-T3-07`** | Lembrete e Integração Externa | O participante compreende os avisos de envio por e-mail/notificação, os botões de agenda/cópia de link e a tela de lembrete (`T3_F04`)? | Reconhecimento do sino de notificação e acionamento intuitivo de *"Entrar na Sala Agora"*. |
+| **`PAF-T3-08`** | Legibilidade e Conforto Visual | As escalas tipográficas, contrastes cromáticos em Dark Mode e dimensões dos rótulos permitem leitura confortável em telas de alta densidade? | Ausência de aproximação visual forçada e apontamentos positivos na inquirição pós-teste e SUS. |
+
+_Fonte: Elaborada por Edvaldo Soares Brasileiro Filho com base em Nielsen (1994) e Barbosa e Silva (2021), 2026._
 
 ---
 
@@ -205,6 +225,15 @@ O percurso interativo da Tarefa 2 foi implementado como uma aplicação web exec
   - *Modal de Mapa do Campus FGA (`PM-03` / `#modal-map-picker`):* Planta interativa da UnB Gama com arrasto e clique de pin georreferenciado e botões de atalho para pontos de referência (UAC, UED e Estacionamento);
   - *Modal de Seletor 24h (`#modal-timepicker`):* Teclado digital matricial de horas e minutos sem ambiguidade AM/PM;
 - **View do Evento Publicado (`PB-03` / `#view-published`):** Página pública com mapa em proporção 16:9, indicador de quórum comunitário atingido, botão de inscrição/cancelamento, download de credencial em SVG com QR Code determinístico e integração com calendário ICS.
+
+### 6.2.3 Arquitetura de Telas e Componentes de Alta Fidelidade (Tarefa 3 — Edvaldo Soares Brasileiro Filho)
+
+O fluxo interativo da Tarefa 3 (`CF03` — Grade de Disponibilidade e Agendamento de Horários com Autores de Tópicos) foi prototipado em alta fidelidade no ambiente **Claude Design (Anthropic)** com base nos tokens cromáticos do [Guia de Estilo](../../analise-requisitos/guia-de-estilo.md) e encontra-se especificado integralmente em [prototipo-alta-fidelidade-tarefa3.md](prototipo-alta-fidelidade-tarefa3.md), compondo-se de 4 telas canônicas integradas:
+
+- **Tela 1 (`T3_F01`) — *Página do Tópico com Botão de Agendamento*:** Reproduz o tópico de suporte no Fórum Diolinux Plus com superfície base `--surface-bg-base` (`#16171B`), cards `--surface-bg-card` (`#1E1F24`) e o ponto de entrada em destaque primário *"📅 Agendar Reunião com o Autor"* (`#0084FF`) posicionado junto à resposta do especialista;
+- **Tela 2 (`T3_F02`) — *Grade Semanal de Horários Disponíveis*:** Calendário semanal dividido em colunas diárias (Segunda a Sábado) com navegação entre semanas (*"◀ Semana Anterior / Próxima Semana ▶"*), rótulo permanente *"Horário de Brasília (GMT-3)"* (correção de `PROB-PP3-01`), barra de legenda fixa diferenciando 🟢 *Disponível*, ⬜ *Reservado* e 🔵 *Selecionado* (correção de `PROB-PP3-02`), slots disponíveis em `#1A3D2B` com borda `#2ECC71` e slots ocupados desabilitados em `#23252C` com texto `#4A4D57`;
+- **Tela 3 (`T3_F03`) — *Formulário de Motivo e Confirmação do Agendamento*:** Contempla o campo de descrição do contexto da dúvida com contador visível de até 200 caracteres e anexo opcional de link de tópico ou arquivo de log (correção de `PROB-PP3-03`), seguido pela tela de confirmação imediata com ícone de sucesso (`#2ECC71`), resumo completo da mentoria, aviso explícito de envio por notificações e e-mail (correção de `PROB-PP3-04`) e botões rápidos *"Adicionar ao Google Agenda"*, *"Copiar Link da Sala"*, *"Reagendar Horário"* e *"Cancelar Reunião"* (correção de `PROB-PP3-05`);
+- **Tela 4 (`T3_F04`) — *Lembrete da Reunião no Dia*:** Simula a notificação visual no sino do cabeçalho do fórum com indicador de não lida e apresenta o card de lembrete *"Você tem uma reunião agendada HOJE!"* com fuso de Brasília (*GMT-3*), botão primário *"🎥 Entrar na Sala Agora"* e atalhos de cópia de link ou reagendamento prévio.
 
 A Tabela 3 consolida as métricas objetivas de desempenho que serão coletadas durante os testes da Tarefa 1, estabelecendo a conexão direta com as [Metas de Usabilidade](../../analise-requisitos/metas-de-usabilidade.md) e com o baseline preditivo do modelo **KLM (Keystroke-Level Model)** da Etapa 2 (`135,3 segundos`).
 
@@ -356,6 +385,24 @@ O escore final varia entre `0 e 100 pontos`. A meta de qualidade do Grupo 08 par
 5. **Passo 5 (Quórum, Lotação e Ingressos):** Na Etapa 3, preencher primeiro o campo `Quórum Mínimo de Viabilidade` com o valor `10`, seguido da `Lotação Máxima` com `30`, selecionar a opção `Gratuito (1 por usuário)` e marcar as opções de `Emissão de QR Code` e `Lembrete 24h antes`;
 6. **Passo 6 (Publicação e Validação do Ingresso):** Clicar no botão `Publicar Evento`, visualizar a página do evento publicado (`PB-03`) com o mapa 16:9 em destaque, conferir o progresso do quórum comunitário e acionar o botão `Baixar Ingresso / QR Code` para validar o fechamento da tarefa.
 
+### 8.6 Cenário de Uso da Tarefa 3 (Grade de Disponibilidade e Agendamento — Edvaldo Soares Brasileiro Filho)
+
+> *"Você é um estudante com dificuldades para configurar aceleração gráfica no Ubuntu e encontrou no Fórum Diolinux Plus um post técnico de um especialista da comunidade que disponibilizou horários de mentoria ao vivo.*  
+> *Sua tarefa no protótipo de alta fidelidade consiste em:*  
+> 1. *Localizar o ponto de acesso para agendamento de reunião junto à resposta do autor no tópico (`T3_F01`);*  
+> 2. *Consultar a grade semanal de disponibilidade, observando o fuso horário e a legenda de horários, e escolher um slot compatível (`T3_F02`);*  
+> 3. *Informar o motivo da dúvida e confirmar a solicitação verificando o resumo dos dados da mentoria e as opções de agenda (`T3_F03`);*  
+> 4. *Checar a notificação no sino do cabeçalho e a tela de lembrete com o link direto para a sala virtual no dia da reunião (`T3_F04`)."*
+
+O tempo estimado para execução da Tarefa 3 é inferior a **60,0 segundos** (com duração total da sessão completa prevista entre 5 e 10 minutos incluindo TCLE oral, protocolo *Think-Aloud* e questionário pós-teste SUS, respeitando com ampla margem o limite normativo de 20 minutos por tarefa e 1 hora por sessão).
+
+### 8.7 Roteiro Sequencial de Interação da Tarefa 3 no Protótipo de Alta Fidelidade
+
+1. **Passo 1 — Ponto de Entrada no Tópico (`T3_F01`):** Na página do tópico técnico no Fórum Diolinux Plus em Dark Mode, ler a resposta do especialista e clicar no botão primário *"📅 Agendar Reunião com o Autor"*;
+2. **Passo 2 — Seleção na Grade Semanal (`T3_F02`):** Na grade semanal exibida com indicação *"Horário de Brasília (GMT-3)"* e barra de legenda fixa, navegar se necessário pelas semanas e clicar em um bloco de horário disponível (verde `#1A3D2B` / `#2ECC71`);
+3. **Passo 3 — Contexto e Confirmação do Agendamento (`T3_F03`):** Descrever objetivamente a dúvida no campo com limite de 200 caracteres (opcionalmente vinculando link de tópico/log), confirmar a solicitação e conferir na tela de confirmação o resumo completo da mentoria, o aviso de envio por e-mail/notificação e os botões de integração (*"Adicionar ao Google Agenda"*, *"Copiar Link"*, *"Reagendar"* e *"Cancelar"*);
+4. **Passo 4 — Verificação do Lembrete e Acesso à Sala (`T3_F04`):** Acionar a notificação no sino do cabeçalho no dia do encontro, visualizar o card de lembrete *"Você tem uma reunião agendada HOJE!"* e validar o botão primário *"🎥 Entrar na Sala Agora"*.
+
 ---
 
 ## 9. D — Decidir como Lidar com as Questões Éticas
@@ -444,6 +491,7 @@ A Tabela 9 apresenta o histórico de revisões e atualizações deste documento.
 | Versão | Data | Descrição da Alteração | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.2` | 11/11/2026 | Atualização metodológica da esteira da Tarefa 2 para Protótipo Interativo Web (HTML5/CSS3/Vanilla JS), adequando arquitetura de telas (6.2.2), perguntas investigativas (Tabela 2b) e roteiro de interação prático (8.5) com link direto para a aplicação (#125). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
+| `1.3` | 25/11/2026 | Parametrização completa da Tarefa 3 (`CF03` — Grade de Disponibilidade e Agendamento): expansão dos objetivos (Seção 3.3), inclusão da Tabela 2c de perguntas investigativas (`PAF-T3-01` a `08`), adição da arquitetura de telas no Claude Design (Seção 6.2.3), cenário de uso (Seção 8.6) e roteiro sequencial (Seção 8.7) (`DEC-07` / `AF-08` — Issue #173). | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 | `1.1` | 03/11/2026 | Detalhamento da esteira de alta fidelidade da Tarefa 2 (Gustavo Antonio): formulação das perguntas investigativas específicas (Tabela 2b), modelagem do cenário de uso (8.4) e do roteiro sequencial de interação no Figma (8.5) incorporando os achados empíricos do protótipo de papel (quórum prioritário, relógio 24h, mapa expandido e botões centralizados). | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) |
 | `1.0` | 31/10/2026 | Elaboração inicial do Planejamento da Avaliação de Alta Fidelidade (Nível 3 — Figma): Framework DECIDE completo, fundamentação de Mayhew e Rubin & Chisnell, 8 perguntas investigativas da Tarefa 1, métricas frente ao KLM (`135,3s`), justificativa amostral de Nielsen & Landauer, instrumento SUS de 10 itens, TCLE oral de 60s, protocolo do teste-piloto e checklist de 15 itens normativos. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 

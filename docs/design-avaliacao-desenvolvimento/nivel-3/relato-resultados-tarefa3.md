@@ -59,7 +59,7 @@ A Tabela 2 apresenta os metadados do ensaio instrumental.
 | **Data da Gravação** | 14/11/2026 |
 | **Duração do Vídeo** | `~03 min 20 s` |
 | **Tempo do TCLE Oral** | `46 segundos` *(dentro do teto ético < 60 s)* |
-| **Link do Vídeo no YouTube** | [Assistir Teste-Piloto no YouTube (Não Listado): https://youtu.be/PILOTO_TAREFA3_PLACEHOLDER](https://youtu.be/PILOTO_TAREFA3_PLACEHOLDER) |
+| **Link do Vídeo no YouTube** | [Assistir Teste-Piloto no YouTube (Não Listado): https://youtu.be/vgwUwZrKFH0](https://youtu.be/vgwUwZrKFH0) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026._
 
@@ -73,12 +73,11 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, 2026._
     </summary>
     <div class="video-card-body">
         <div class="video-card-frame">
-            <!-- SUBST_LINK_YOUTUBE_PILOTO -->
-            <iframe src="https://www.youtube-nocookie.com/embed/PILOTO_TAREFA3_PLACEHOLDER" title="Teste-Piloto de Alta Fidelidade — Tarefa 3 (Edvaldo Soares Brasileiro Filho) | Grupo 08 — IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/vgwUwZrKFH0" title="Teste-Piloto de Alta Fidelidade — Tarefa 3 (Edvaldo Soares Brasileiro Filho) | Grupo 08 — IHC 2026.2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="video-card-footer">
             <span class="video-card-caption"><strong>Vídeo 1 (Piloto)</strong> — Registro audiovisual do ensaio instrumental de calibração da Tarefa 3 (Protótipo de Alta Fidelidade no Claude Design). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></span>
-            <a href="https://youtu.be/PILOTO_TAREFA3_PLACEHOLDER" target="_blank" rel="noopener noreferrer" class="video-card-btn">
+            <a href="https://youtu.be/vgwUwZrKFH0" target="_blank" rel="noopener noreferrer" class="video-card-btn">
                 <span>Assistir no YouTube</span> ↗
             </a>
         </div>
@@ -232,7 +231,7 @@ Em cumprimento rigoroso à **Resolução CNS nº 510/2016**, às diretrizes éti
 
 | Identificador | Participante / Ensaio | Data da Sessão | Duração do Vídeo | Consentimento TCLE Oral | Link de Acesso no YouTube |
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| **`Piloto`** | Ensaio Instrumental Técnico | 14/11/2026 | `~03:20` | Validado (46s) | [Assistir Teste-Piloto no YouTube](https://youtu.be/PILOTO_TAREFA3_PLACEHOLDER) |
+| **`Piloto`** | Ensaio Instrumental Técnico | 14/11/2026 | `~03:20` | Validado (46s) | [Assistir Teste-Piloto no YouTube: https://youtu.be/vgwUwZrKFH0](https://youtu.be/vgwUwZrKFH0) |
 | **`S01`** | Participante 1 (`P1`) | 15/11/2026 | **`05:20`** | Colhido nos primeiros 60s | [Assistir Sessão P1 no YouTube: https://youtu.be/oq8vuAjaCUM](https://youtu.be/oq8vuAjaCUM) |
 | **`S02`** | Participante 2 (`P2`) | 15/11/2026 | **`04:20`** | Colhido nos primeiros 60s | [Assistir Sessão P2 no YouTube: https://youtu.be/5T8QY_QbhzA](https://youtu.be/5T8QY_QbhzA) |
 | **`S03`** | Participante 3 (`P3`) | 15/11/2026 | **`05:40`** | Colhido nos primeiros 60s | [Assistir Sessão P3 no YouTube: https://youtu.be/byOn3DBegCE](https://youtu.be/byOn3DBegCE) |
@@ -337,6 +336,7 @@ A Tabela 9 registra o histórico de versões deste artefato.
 | Versão | Data | Descrição Detalhada da Modificação | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | `1.0` | 15/11/2026 | Elaboração inicial do Relato dos Resultados da Avaliação de Alta Fidelidade da Tarefa 3 (Agendamento de Horários com Autores de Tópicos), consolidando os resultados empíricos das 3 sessões (P1: 05:20, P2: 04:20 e P3: 05:40) no protótipo de 4 telas do Claude Design, apuração do tempo médio (45,0s) e escore SUS (87,5 pontos — Grau A), análise qualitativa das 8 perguntas, catalogação do apontamento de P3 na severidade de Nielsen (PROB-AF3-01), proposta de reprojeto para aumento de fontes, incorporação dos containers de vídeo do YouTube e lista de verificação com 9 itens. | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05), [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) |
+| `1.1` | 25/11/2026 | Substituição do placeholder pelo link e `<iframe>` reais do Teste-Piloto de Alta Fidelidade da Tarefa 3 (`https://youtu.be/vgwUwZrKFH0`, saneamento `DEF-02` / `AF-03` / `DEC-09` — Issue #173). | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
