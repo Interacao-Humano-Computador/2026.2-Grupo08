@@ -10,7 +10,7 @@ A Tabela 1 apresenta a matriz de responsabilidades e atribuições na consolida�
 | :--- | :--- | :---: | :--- | :--- |
 | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | **Autor Principal**: Condução da Sessão 01 (Tarefa 1), transcrição e análise qualitativa de conteúdo (P01 a P08), tabulação na escala de Nielsen e elaboração das recomendações de reprojeto para Nível 2. | 24/10/2026 | Google Gemini (LLM) | Apoio na estruturação das tabelas Markdown e checagem de rigor normativo de IHC. |
 | [Gustavo Antonio Rodrigues e Silva](https://github.com/gus-ant) | **Coautor e Avaliador**: Condução da Sessão 02 (Tarefa 2 - Eventos Presenciais), consolidação dos apontamentos do Storyboard 2 e revisão cruzada de severidade. | 24/10/2026 | Google Gemini (LLM) | Suporte na estruturação Markdown e checagem de hiperligações. |
-| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Condução da Sessão 03 (Tarefa 3 - Busca Avançada), consolidação dos apontamentos do Storyboard 3 e validação metodológica. | 24/10/2026 | — | Condução de sessão e revisão por pares. |
+| [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | **Coautor e Avaliador**: Condução da Sessão 03 (Tarefa 3 - Grade de Disponibilidade e Agendamento), consolidação dos apontamentos do Storyboard 3 e validação metodológica. | 24/10/2026 | — | Condução de sessão e revisão por pares. |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
@@ -23,7 +23,7 @@ No âmbito do **Ciclo de Vida de Deborah Mayhew (1999)** e da Engenharia de Usab
 Este documento consolida os resultados empíricos da avaliação dos **Storyboards** das três funcionalidades prioritárias do **Fórum Diolinux Plus**, executada com discentes universitários convidados na modalidade presencial no campus da Faculdade UnB Gama (FGA/UnB).
 
 A avaliação orientou-se por quatro objetivos formativos centrais:
-1. **Apropriação e Verossimilhança:** Averiguar se a dor contextualizada (falha de driver, erro de terminal e busca técnica) reflete situações autênticas vivenciadas por estudantes no Linux;
+1. **Apropriação e Verossimilhança:** Averiguar se a dor contextualizada (falha de driver, erro de terminal e agendamento de mentoria técnica) reflete situações autênticas vivenciadas por estudantes no Linux;
 2. **Clareza da Estrutura Narrativa:** Avaliar se a sequência dos quadros desenhados à mão é compreendida sem rupturas lógicas ou necessidade de intervenções externas do avaliador;
 3. **Plausibilidade do Modelo Mental:** Confrontar a solução retratada na narrativa com as expectativas do usuário frente à interface do Discourse (Markdown, tags, eventos presenciais e IA semântica);
 4. **Elicitação de Oportunidades de Design:** Coletar recomendações espontâneas para subsidiar a prototipação em papel de Nível 2.
@@ -59,7 +59,7 @@ A Tabela 2 apresenta os dados demográficos consolidados e a atribuição das se
 | :---: | :--- | :--- | :---: | :--- | :---: | :--- | :--- |
 | **AV-01** | Avaliador Responsável | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | — | Engenharia de Software (FGA/UnB) | Avançado | Ubuntu / Fedora | Tarefa 1 (Markdown e IA Semântica) |
 | **AV-02** | Avaliador Responsável | [Gustavo Antonio](https://github.com/gus-ant) | — | Engenharia de Software (FGA/UnB) | Avançado | Fedora | Tarefa 2 (Eventos Presenciais) |
-| **AV-03** | Avaliador Responsável | [Edvaldo Soares](https://github.com/PajeMurici-dev) | — | Engenharia de Software (FGA/UnB) | Avançado | Debian / Ubuntu | Tarefa 3 (Busca Avançada) |
+| **AV-03** | Avaliador Responsável | [Edvaldo Soares](https://github.com/PajeMurici-dev) | — | Engenharia de Software (FGA/UnB) | Avançado | Debian / Ubuntu | Tarefa 3 (Grade de Disponibilidade e Agendamento) |
 | **P1** | Participante Convidado | J. V. S. (Anonimizado) | 21 | Ciência da Computação (CIC/UnB) | Iniciante/Médio | Ubuntu 24.04 LTS | Storyboard 1 (Sessão S01) |
 | **P2** | Participante Convidado | L. C. F. (Anonimizado) | 22 | Ciência da Computação (CIC/UnB) | Intermediário | Fedora Workstation | Storyboard 2 (Sessão S02) |
 | **P3** | Participante Convidado | G. H. R. (Anonimizado) | 20 | Engenharia de Redes (FGA/UnB) | Iniciante | Debian 12 | Storyboard 3 (Sessão S03) |
@@ -76,8 +76,8 @@ Durante a avaliação, foram apresentadas as pranchas físicas em papel A4 corre
    Prancha manuscrita de 8 quadros narrando a jornada da Persona Primária **Lucas Mendonça**, estudante diante de um erro de permissão no terminal Linux que recorre ao Fórum Diolinux Plus, preenche título e tags contextuais, formata seu log com blocos de Markdown e preview lado a lado, avalia as sugestões da IA semântica de pré-envio e conclui a publicação do tópico;
 2. **Storyboard 2 — Criação e Divulgação de Workshop Presencial da Comunidade (Gustavo Antonio):**  
    Prancha manuscrita de 8 quadros narrando a jornada de Lucas, estudante que organiza uma oficina comunitária de Linux na faculdade, define local com mapa interativo, lote de 40 vagas e compartilha o link;
-3. **Storyboard 3 — Busca Avançada e Filtros Especializados de Categoria (Edvaldo Soares):**  
-   Prancha de 8 quadros ilustrando a pesquisa refinada por tópicos com selo de solução aceita para contornar falhas de rede no Linux.
+3. **Storyboard 3 — Grade de Disponibilidade e Agendamento de Reuniões no Fórum Diolinux Plus (Edvaldo Soares Brasileiro Filho):**  
+   Prancha de 8 quadros ilustrando a jornada do estudante que encontra uma resposta técnica no fórum, aciona o agendamento de mentoria com o autor especialista, seleciona um horário livre na grade semanal, descreve o motivo da dúvida e recebe a confirmação e o lembrete da reunião.
 
 ---
 
@@ -91,6 +91,7 @@ A análise das gravações e das planilhas de observação permitiu consolidar o
 - **Constatação Geral:** 100% dos participantes (P1, P2 e P3) validaram a autenticidade e a plausibilidade do problema disparador retratado.
 - **Relato de P1 (Tarefa 1 — síntese não literal):** Relatou que se identificou com a situação vivenciada por Lucas Mendonça, explicando que sempre que cai em um problema técnico e vai pesquisar, acaba encontrando sites de fórum da comunidade e que, hoje em dia, com a ajuda de ferramentas de IA, esse processo de investigação e resolução fica muito mais fácil.
 - **Relato de P2 (Tarefa 2 - Gustavo Antonio):** Ao manusear a prancha, o participante destacou prontamente a intenção do protagonista: *"É um personagem que teve uma ideia e encontrou um caminho para executar... ele conseguiu marcar um encontro presencial por meio do fórum para fazer uma oficina de Linux, que é o que estava pensando, uma maneira prática de fazer isso."* Validou a autenticidade da dor do isolamento e da solução encontrada.
+- **Relato de P3 (Tarefa 3 - Edvaldo Soares):** O participante reconheceu como altamente verossímil a necessidade de marcar uma mentoria rápida com o autor de uma resposta técnica quando o tópico isolado não basta para resolver uma falha específica no sistema.
 
 ### P02 — Naturalidade da Persona e Balões de Fala
 - **Constatação Geral:** As falas, gírias técnicas e frustrações das personas soaram condizentes com a realidade discente de cursos de tecnologia.
@@ -100,6 +101,7 @@ A análise das gravações e das planilhas de observação permitiu consolidar o
 ### P03 — Clareza da Estrutura Narrativa dos 8 Quadros
 - **Constatação Geral:** Os participantes acompanharam a progressão cronológica sem necessidade de explicações intermediárias do avaliador. A linearidade (Erro no Laboratório → Hesitação → Acesso ao Diolinux → Informação Contextual → Destaque com Markdown / Mapa → IA Integrada / Ingressos → Confirmação → Sucesso na Publicação) foi considerada fluida e intuitiva.
 - **Relato de P2:** Conseguiu verbalizar com precisão o encadeamento causal desde a ideação do encontro até a publicação final e a divulgação do link para os colegas.
+- **Relato de P3 (Tarefa 3 - Edvaldo Soares):** Acompanhou sem hesitações a transição narrativa desde o ponto de entrada no tópico até a visualização da grade semanal, o envio do motivo e o recebimento do lembrete da reunião.
 
 ### P04 — Legibilidade dos Desenhos Manuscritos
 - **Constatação Geral:** O traço à mão em papel A4 e o contraste das digitalizações em 300 DPI permitiram rápida identificação das janelas do monitor, campos de texto, mapa e divisão de colunas nos 8 quadros.
@@ -119,12 +121,14 @@ A análise das gravações e das planilhas de observação permitiu consolidar o
 - **Constatação Geral:** A intervenção preventiva da inteligência artificial no momento que antecede a publicação (Quadros 6 e 7 do Storyboard 1) foi amplamente aprovada por P1.
 - **Relato Chave de P1 (síntese não literal):** Destacou que contar com um assistente de IA pré-envio que verifica tópicos semelhantes já resolvidos e sugere tags precisas poupa tempo do estudante e evita tópicos duplicados no fórum, ressaltando que a IA deve orientar sem travar o envio caso o usuário queira postar mesmo assim.
 - **Constatação de P2 (Ingressos Gratuitos):** Validou a modalidade de ingressos sem burocracia para encontros universitários: *"Para eventos acadêmicos, essa divisão atende bem? Sim, sim, de boa"*.
+- **Constatação de P3 (Lembrete e Grade Semanal — Tarefa 3):** Considerou positivo que a narrativa contemple o envio de lembrete com o link direto da sala virtual, evitando esquecimentos no dia da mentoria.
 
 ### P08 — Oportunidades de Design e Recomendações dos Participantes
 - **Sugestão 1 (P1 - Tarefa 1):** Inclusão de um botão para preencher automaticamente todas as tags sugeridas pela IA com 1 clique, evitando a digitação manual de cada metadado.
 - **Sugestão 2 (P1 - Tarefa 1):** Destaque explícito para a área de pré-visualização lado a lado (*split-view*) do Markdown no formulário.
 - **Sugestão 3 (P2 - Tarefa 2):** Substituição de campos abertos de digitação de horário por componente visual dedicado de relógio (*timepicker*).
 - **Sugestão 4 (P2 - Tarefa 2):** Exibição de confirmação de geolocalização no mapa interativo com raio visual de proximidade e esclarecimento sobre o pin no local reservado.
+- **Sugestão 5 (P3 - Tarefa 3):** Destaque visual inequívoco entre blocos livres e blocos ocupados na grade semanal de horários, além de indicação explícita do recebimento do link da sala por notificação e lembrete.
 
 ---
 
@@ -141,6 +145,7 @@ Os apontamentos de atrito e oportunidades colhidos nas sessões foram catalogado
 | **PROB-ST-03** | Tarefa 2 (Eventos Presenciais) | Quadro 4 / 5 | O participante verbalizou que prefere ter um componente visual específico para horários em vez de digitar em texto corrido (*"Acho que prefiro com relógio"*). | **2 (Menor)** | Eficiência / Prevenção de Erros | Substituir campos abertos de horário por seletores modulares com widget de relógio (*timepicker*). |
 | **PROB-ST-04** | Tarefa 2 (Eventos Presenciais) | Quadro 6 | Dúvida sobre o comportamento do pin no mapa: participante questionou se o sistema buscaria automaticamente locais vagos próximos ou se deve marcar a sala reservada. | **2 (Menor)** | Modelo Mental / Feedback | Incluir instrução clara no formulário (*"Indique no mapa o local físico previamente agendado para o evento"*) e confirmação visual de geolocalização. |
 | **PROB-ST-05** | Tarefa 2 (Eventos Presenciais) | Quadro 5 / Ingressos | O participante considerou que a modalidade gratuita com emissão imediata atende sem atritos eventos comunitários (*"Sim, de boa"*). | **0 (Sem Problema / Ponto Positivo)** | Adequação à Tarefa | Preservar a opção de emissão simplificada de ingressos gratuitos sem exigência de dados de faturamento. |
+| **PROB-ST-06** | Tarefa 3 (Grade e Agendamento) | Quadros 4 e 6 | Necessidade de diferenciar visualmente os blocos livres e ocupados na grade semanal e explicitar o envio de lembrete com o link da reunião agendada. | **1 (Cosmético)** | Visibilidade / Feedback | Representar claramente os estados dos slots na grade e incluir tela dedicada de confirmação e lembrete no protótipo de papel de Nível 2. |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna com base em Nielsen (1994) e evidências empíricas de campo, 2026._
 
@@ -192,6 +197,14 @@ _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues
     <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/VhGgpfX9Rqk" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/VhGgpfX9Rqk</a></p>
 </div>
 
+#### Reprodução Audiovisual da Sessão 03 (Storyboard 3 — Edvaldo Soares)
+
+<div style="text-align: center; margin: 1.5rem 0;">
+    <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/gqZ3yJ3ZYUc" title="Avaliação do Storyboard 3 - Sessão 03 - Edvaldo Soares - Grupo 08 - IHC 2026.2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; max-width: 800px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);"></iframe>
+    <p style="font-size: 0.85rem; color: #64748B; margin-top: 0.5rem;"><strong>Vídeo 3</strong> — Registro audiovisual da avaliação do Storyboard 3 (Grade de Disponibilidade e Agendamento). <em>Fonte: Edvaldo Soares Brasileiro Filho, 2026.</em></p>
+    <p style="font-size: 0.9rem; margin-top: 0.25rem;"><a href="https://youtu.be/gqZ3yJ3ZYUc" target="_blank" rel="noopener noreferrer">Assistir diretamente no YouTube: https://youtu.be/gqZ3yJ3ZYUc</a></p>
+</div>
+
 ---
 
 ## 9. Cláusula Metodológica Obrigatória de Isolamento dos Dados do Teste-Piloto
@@ -234,6 +247,7 @@ A Tabela 6 documenta a evolução histórica deste documento.
 | `1.0` | 24/10/2026 | Elaboração inicial do Relato dos Resultados da Avaliação do Storyboard (Nível 1), consolidando os resultados empíricos das entrevistas presenciais, caracterização dos participantes P1 a P3, análise qualitativa de P01 a P08, classificação de problemas na severidade de Nielsen (0 a 4), recomendações de reprojeto para protótipos de papel, container de vídeo, cláusula de isolamento do piloto e checklist de conformidade. | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant), [Edvaldo Soares](https://github.com/PajeMurici-dev) |
 | `1.1` | 25/10/2026 | Incorporação do link oficial e player do registro audiovisual da avaliação da Sessão S01 (Vinicius Silva Araruna com participante J.V.S no YouTube). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
 | `1.2` | 29/10/2026 | Unificação nominal da Persona Primária (Lucas Mendonça), explicitação metodológica de síntese analítica não literal (Bardin, 2011) e refinamento empírico dos achados de P1 em aderência estrita ao vídeo gravado (#132). | [Vinicius Silva Araruna](https://github.com/ViniciusA05) | [Gustavo Antonio](https://github.com/gus-ant) |
+| `1.3` | 25/11/2026 | Remoção das menções residuais à antiga Tarefa 3 (Busca Avançada), atualização descritiva para Grade de Disponibilidade e Agendamento (`CF03`), inclusão dos achados empíricos da Sessão 03 (`PROB-ST-06`) e incorporação do `<iframe>` da Sessão 03 (`gqZ3yJ3ZYUc`, saneamento `RA-04` / `SB-11` — Issue #173). | [Edvaldo Soares Brasileiro Filho](https://github.com/PajeMurici-dev) | [Vinicius Silva Araruna](https://github.com/ViniciusA05) |
 
 _Fonte: Elaborada por Edvaldo Soares Brasileiro Filho, Gustavo Antonio Rodrigues e Silva e Vinicius Silva Araruna, 2026._
 
