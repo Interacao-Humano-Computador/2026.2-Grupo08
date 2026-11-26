@@ -181,7 +181,13 @@ nav:
         - Nível 1 — Storyboard (22 itens + Plano): verificacao/listas/01-storyboard.md
         - Nível 2 — Protótipo de Papel (18 itens): verificacao/listas/12-prototipo-papel.md
         - Nível 3 — Protótipo de Alta Fidelidade (Rubrica + Usabilidade): verificacao/listas/14-alta-fidelidade.md
-    - Auto-Avaliação (Grupo 08): verificacao/grupo08.md
+    - Auto-Avaliação (Grupo 08):
+      - verificacao/grupo08/index.md
+      - Entregas 1 a 8 e Retrabalhos: verificacao/grupo08/entregas-1-a-8.md
+      - Auditoria Global (414 Itens): verificacao/grupo08/auditoria-414-itens.md
+      - Tarefa 1 — Vinicius (CF01 + Geral): verificacao/grupo08/tarefa-1-vinicius.md
+      - Tarefa 2 — Gustavo (CF02): verificacao/grupo08/tarefa-2-gustavo.md
+      - Tarefa 3 — Edvaldo (CF03): verificacao/grupo08/tarefa-3-edvaldo.md
     - Avaliação do Grupo -1 (Grupo 07):
       - verificacao/grupo07/index.md
       - Etapa 8 (Auditoria Global — 16 Listas / 414 Itens): verificacao/grupo07/etapa8.md
